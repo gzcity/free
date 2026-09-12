@@ -12,8 +12,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 02 - xiaohe"
+        "🇺🇿 UZ 01 - xiaohe",
+        "🇺🇿 UZ 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -26,32 +26,32 @@
       "tag": "block"
     },
     {
-      "tag": "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
+      "tag": "🇺🇿 UZ 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "103.75.119.126",
+      "server": "189.74.97.47",
       "port": 2087,
-      "uuid": "731f177e-00aa-480c-b935-661456139a32",
+      "uuid": "894fe9f0-b998-49c0-8003-a5007de921e1",
       "flow": "",
       "ws": {
-        "path": "/7586c69d3dc9",
+        "path": "/755276b33b6f",
         "headers": {
-          "Host": "103.75.119.126"
+          "Host": "189.74.97.47"
         }
       }
     },
     {
-      "tag": "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
+      "tag": "🇺🇿 UZ 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "103.75.119.126",
+      "server": "189.74.97.47",
       "port": 2087,
-      "uuid": "731f177e-00aa-480c-b935-661456139a32",
+      "uuid": "894fe9f0-b998-49c0-8003-a5007de921e1",
       "flow": "",
       "ws": {
-        "path": "/7586c69d3dc9",
+        "path": "/755276b33b6f",
         "headers": {
-          "Host": "103.75.119.126"
+          "Host": "189.74.97.47"
         }
       }
     }

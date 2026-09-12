@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇲 AM 01 - xiaohe"
+        "🇫🇮 FI 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,21 +25,24 @@
       "tag": "block"
     },
     {
-      "tag": "🇦🇲 AM 01 - xiaohe",
+      "tag": "🇫🇮 FI 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "77.91.68.70",
-      "port": 55983,
-      "uuid": "f667a096-5231-4cfb-8759-92bb32473139",
+      "server": "151.101.56.6",
+      "port": 443,
+      "uuid": "88b44962-7f99-4846-9113-6b0624b5a6a4",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "yahoo.com",
+        "server_name": "ssl.fastly.com",
         "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg",
-        "short_id": ""
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "c12.com"
+        }
       }
     }
   ]
