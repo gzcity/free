@@ -15,7 +15,12 @@
         "🇨🇾 CY 01 - xiaohe",
         "🇨🇾 CY 02 - xiaohe",
         "🇨🇾 CY 03 - xiaohe",
-        "🇨🇾 CY 04 - xiaohe"
+        "🇨🇾 CY 04 - xiaohe",
+        "🇨🇾 CY 05 - xiaohe",
+        "🇨🇾 CY 06 - xiaohe",
+        "🇨🇾 CY 07 - xiaohe",
+        "🇨🇾 CY 08 - xiaohe",
+        "🇨🇾 CY 09 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -49,6 +54,21 @@
       "tag": "🇨🇾 CY 02 - xiaohe",
       "udp": true,
       "type": "vless",
+      "server": "45.9.2.171",
+      "port": 8443,
+      "uuid": "167610e4-bcaf-4074-bc2d-0c08dc4ea294",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "torr.wlrus.cfd",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇨🇾 CY 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
       "server": "194.76.154.31",
       "port": 40443,
       "uuid": "9f0baff8-bdee-4de9-9515-bcc4932b41fa",
@@ -64,22 +84,88 @@
       }
     },
     {
-      "tag": "🇨🇾 CY 03 - xiaohe",
+      "tag": "🇨🇾 CY 04 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "45.9.2.171",
-      "port": 8443,
-      "uuid": "167610e4-bcaf-4074-bc2d-0c08dc4ea294",
+      "server": "194.76.154.31",
+      "port": 40443,
+      "uuid": "9f0baff8-bdee-4de9-9515-bcc4932b41fa",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "torr.wlrus.cfd",
+        "server_name": "deepl.com",
         "insecure": true,
-        "client_fingerprint": null
+        "client_fingerprint": "qq",
+        "reality": true,
+        "public_key": "MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ",
+        "short_id": ""
       }
     },
     {
-      "tag": "🇨🇾 CY 04 - xiaohe",
+      "tag": "🇨🇾 CY 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "cassiopeia.yokkastars.com",
+      "port": 40443,
+      "uuid": "e4371581-c418-4770-b09a-d630f18290a6",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "deepl.com",
+        "insecure": true,
+        "client_fingerprint": "qq",
+        "reality": true,
+        "public_key": "WFvn-RRJzpt2qV4xwj_R93gDr6dduIjkQKO3De3Y2Hc",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇨🇾 CY 06 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "194.76.154.31",
+      "port": 40443,
+      "uuid": "9f0baff8-bdee-4de9-9515-bcc4932b41fa",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "deepl.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇨🇾 CY 07 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "132.243.255.3",
+      "port": 50111,
+      "method": "aes-256-gcm",
+      "password": "78235e7dc55e9ad1"
+    },
+    {
+      "tag": "🇨🇾 CY 08 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "cassiopeia.yokkastars.com",
+      "port": 40443,
+      "uuid": "e4371581-c418-4770-b09a-d630f18290a6",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "deepl.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "WFvn-RRJzpt2qV4xwj_R93gDr6dduIjkQKO3De3Y2Hc",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇨🇾 CY 09 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "194.76.154.31",

@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇮🇷 IR 01 - xiaohe"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "tag": "🇮🇷 IR 01 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "s1.connect.labex.pro",
+      "port": 1007,
+      "uuid": "d4c556a2-3d61-4b1d-9550-d6d010ff1d3f",
+      "alterId": 0,
+      "security": "auto"
+    }
+  ]
+}

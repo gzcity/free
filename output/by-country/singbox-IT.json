@@ -17,7 +17,11 @@
         "🇮🇹 意大利 (Italy) 03 - xiaohe",
         "🇮🇹 意大利 (Italy) 04 - xiaohe",
         "🇮🇹 意大利 (Italy) 05 - xiaohe",
-        "🇮🇹 意大利 (Italy) 06 - xiaohe"
+        "🇮🇹 意大利 (Italy) 06 - xiaohe",
+        "🇮🇹 意大利 (Italy) 07 - xiaohe",
+        "🇮🇹 意大利 (Italy) 08 - xiaohe",
+        "🇮🇹 意大利 (Italy) 09 - xiaohe",
+        "🇮🇹 意大利 (Italy) 10 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -31,6 +35,54 @@
     },
     {
       "tag": "🇮🇹 意大利 (Italy) 01 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "57.131.32.191",
+      "port": 8443,
+      "uuid": "848af33c-81f2-40c9-93b2-4681d056936b",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "OV-Italy1.09vpn.com",
+        "insecure": true
+      },
+      "ws": {
+        "path": "/vmess/",
+        "headers": {
+          "Host": "OV-Italy1.09vpn.com"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇹 意大利 (Italy) 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "57.131.38.163",
+      "port": 2053,
+      "uuid": "d4b08cd6-0903-411a-9dac-45dbdf5c9712",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "random",
+        "reality": true,
+        "public_key": "Ej2H5ucT7qKegYcT8wODdlxa-cLHr7F4hDVUHzAhcnc",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇮🇹 意大利 (Italy) 03 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "185.164.175.81",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇮🇹 意大利 (Italy) 04 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "158.180.231.216",
@@ -51,49 +103,73 @@
       }
     },
     {
-      "tag": "🇮🇹 意大利 (Italy) 02 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "57.131.48.45",
-      "port": 8388,
-      "method": "aes-256-gcm",
-      "password": "itzvpn@321"
-    },
-    {
-      "tag": "🇮🇹 意大利 (Italy) 03 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "185.164.175.81",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "tag": "🇮🇹 意大利 (Italy) 04 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "57.131.48.45",
-      "port": 8388,
-      "method": "aes-256-gcm",
-      "password": "itzvpn@321"
-    },
-    {
       "tag": "🇮🇹 意大利 (Italy) 05 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "57.131.32.191",
-      "port": 80,
-      "uuid": "1e280316-0408-47c4-b058-05b8f1f17f02",
+      "server": "57.131.38.163",
+      "port": 2053,
+      "uuid": "d4b08cd6-0903-411a-9dac-45dbdf5c9712",
       "flow": "",
-      "ws": {
-        "path": "/vless/",
-        "headers": {
-          "Host": "ov-italy1.09vpn.com"
-        }
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "Ej2H5ucT7qKegYcT8wODdlxa-cLHr7F4hDVUHzAhcnc",
+        "short_id": ""
       }
     },
     {
       "tag": "🇮🇹 意大利 (Italy) 06 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "milan.adaspoloandco.com",
+      "port": 8443,
+      "uuid": "69ac162b-1643-4acb-9f49-09d8b0fad609",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "milan.adaspoloandco.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/RoBeRt",
+        "headers": {
+          "Host": "milan.adaspoloandco.com"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇹 意大利 (Italy) 07 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "57.131.48.45",
+      "port": 8388,
+      "method": "aes-256-gcm",
+      "password": "itzvpn@321"
+    },
+    {
+      "tag": "🇮🇹 意大利 (Italy) 08 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "204.216.216.23",
+      "port": 10086,
+      "uuid": "9f0285ee-20ca-4953-bcdb-86a920652923",
+      "flow": ""
+    },
+    {
+      "tag": "🇮🇹 意大利 (Italy) 09 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "57.131.48.45",
+      "port": 8388,
+      "method": "aes-256-gcm",
+      "password": "itzvpn@321"
+    },
+    {
+      "tag": "🇮🇹 意大利 (Italy) 10 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "204.216.216.23",

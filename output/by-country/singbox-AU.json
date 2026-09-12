@@ -13,8 +13,7 @@
       "tag": "auto",
       "outbounds": [
         "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 03 - xiaohe"
+        "🇦🇺 澳大利亚 (Australia) 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -30,21 +29,6 @@
       "tag": "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "103.75.119.126",
-      "port": 2087,
-      "uuid": "731f177e-00aa-480c-b935-661456139a32",
-      "flow": "",
-      "ws": {
-        "path": "/7586c69d3dc9",
-        "headers": {
-          "Host": "103.75.119.126"
-        }
-      }
-    },
-    {
-      "tag": "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
       "server": "172.105.169.70",
       "port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
@@ -57,7 +41,7 @@
       }
     },
     {
-      "tag": "🇦🇺 澳大利亚 (Australia) 03 - xiaohe",
+      "tag": "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "103.75.119.126",

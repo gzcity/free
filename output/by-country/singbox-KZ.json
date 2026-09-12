@@ -12,7 +12,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇿 KZ 01 - xiaohe"
+        "🇰🇿 KZ 01 - xiaohe",
+        "🇰🇿 KZ 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -26,6 +27,15 @@
     },
     {
       "tag": "🇰🇿 KZ 01 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "94.198.220.183",
+      "port": 64674,
+      "method": "chacha20-ietf-poly1305",
+      "password": "s8LbJCgUiGXeCKVc63tHJP"
+    },
+    {
+      "tag": "🇰🇿 KZ 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "111.88.143.139",
