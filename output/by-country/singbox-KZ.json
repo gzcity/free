@@ -5,17 +5,14 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "auto",
-        "🇰🇿 KZ 01 - xiaohe",
-        "🇰🇿 KZ 02 - xiaohe"
+        "auto"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇿 KZ 01 - xiaohe",
-        "🇰🇿 KZ 02 - xiaohe"
+        "🇰🇿 KZ 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -26,6 +23,24 @@
     {
       "type": "block",
       "tag": "block"
+    },
+    {
+      "tag": "🇰🇿 KZ 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "111.88.143.139",
+      "port": 51940,
+      "uuid": "03464802-b517-404b-b15c-7750ffc5e78f",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "uPHvFb_vZ3DKL-8Et_e9OliZskdSV5U1NZ66tHfC-2Y",
+        "short_id": ""
+      }
     }
   ]
 }

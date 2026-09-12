@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇴 RO 01 - xiaohe"
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,13 +25,17 @@
       "tag": "block"
     },
     {
-      "tag": "🇷🇴 RO 01 - xiaohe",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "154.46.31.106",
+      "type": "trojan",
+      "server": "119.246.1.143",
       "port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "QFWzCw2uX9B9i6qAYeFBIE"
+      "password": "BxceQaOe",
+      "tls": {
+        "enabled": true,
+        "server_name": "119.246.1.143",
+        "insecure": true
+      }
     }
   ]
 }

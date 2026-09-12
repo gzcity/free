@@ -5,15 +5,17 @@
       "type": "selector",
       "tag": "select",
       "outbounds": [
-        "auto",
-        "🇷🇺 俄罗斯 (Russia) 01 - xiaohe"
+        "auto"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇺 俄罗斯 (Russia) 01 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -24,6 +26,66 @@
     {
       "type": "block",
       "tag": "block"
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "130.49.189.158",
+      "port": 43558,
+      "method": "chacha20-ietf-poly1305",
+      "password": "jIlQi9jGPJd7KHMx6Y4+JbaNoWSWfe2A73U4J4o0Qrs="
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "46.8.200.91",
+      "port": 443,
+      "uuid": "0a2dde28-70da-4863-a06f-35d007d94d35",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cf3.rumedia-cdn.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/casc",
+        "headers": {
+          "Host": "cf3.rumedia-cdn.com"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.18.46.46",
+      "port": 2052,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "flow": "",
+      "ws": {
+        "path": "/?ed=2560security=tls+",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "162.159.24.131",
+      "port": 2052,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "flow": "",
+      "ws": {
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
     }
   ]
 }
