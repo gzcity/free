@@ -2,13 +2,14 @@ name: Update Subscriptions
 
 on:
   schedule:
-    # 每天在 UTC 时间 0:00, 6:00, 12:00, 18:00 自动触发更新
+    # 每 6 小时自动触发一次（UTC 00/06/12/18 点）
     - cron: '0 */6 * * *'
   workflow_dispatch: # 支持手动点击运行
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     permissions:
       contents: write
 
@@ -19,21 +20,34 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.12'
           cache: 'pip'
 
       - name: Install Dependencies
-        run: |
-          pip install -r scripts/requirements.txt
+        run: pip install -r scripts/requirements.txt
+
+      # 持久化缓存：xray 二进制 + GeoLite2 数据库跨运行复用，
+      # 省去每次 6h 轮询约 60MB 下载，显著缩短 job 时间
+      - name: Cache xray & GeoLite2
+        uses: actions/cache@v4
+        with:
+          path: |
+            xray
+            Country.mmdb
+            ASN.mmdb
+          key: xray-geolite-${{ hashFiles('scripts/requirements.txt') }}
 
       - name: Run Real-Prober and Classifier
         run: |
-          python scripts/main.py
+          # 通过环境变量把并发限制到 16：
+          # ubuntu-latest 2 vCPU 下 25 路并发 xray 进程会因 CPU 抢占拉长单节点测活时间，
+          # 16 路在吞吐与 runner 稳定性之间更均衡。
+          PROBE_CONCURRENCY=16 python scripts/main.py
 
       - name: Commit and Push Results
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A output/ README.md
           if git diff --staged --quiet; then
             echo "没有节点变动与内容更新。"
