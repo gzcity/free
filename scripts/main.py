@@ -35,6 +35,14 @@ OUTPUT_DIR = "output"
 COUNTRY_DIR = os.path.join(OUTPUT_DIR, "by-country")
 RESIDENTIAL_COUNTRY_DIR = os.path.join(OUTPUT_DIR, "residential-by-country")
 
+# 并发与测活参数（GitHub Actions 中可通过环境变量调低/调高）
+PROBE_CONCURRENCY = int(os.environ.get("PROBE_CONCURRENCY", "25"))
+PROBE_TIMEOUT = float(os.environ.get("PROBE_TIMEOUT", "6.5"))
+PROBE_MIN_DELAY_MS = int(os.environ.get("PROBE_MIN_DELAY_MS", "30"))
+PROBE_MAX_DELAY_MS = int(os.environ.get("PROBE_MAX_DELAY_MS", "6300"))
+FETCH_CONCURRENCY = int(os.environ.get("FETCH_CONCURRENCY", "8"))
+CLASSIFY_CONCURRENCY = int(os.environ.get("CLASSIFY_CONCURRENCY", "30"))
+
 def ensure_directories():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     os.makedirs(COUNTRY_DIR, exist_ok=True)
@@ -164,11 +172,30 @@ def safe_download(url, dest_path):
 
 def setup_environment():
     print("[*] 正在准备离线数据库与 Xray-core 内核...")
+    # GeoLite2 数据库：P3TERX 镜像失效时回退到官方 MaxMind 下载源
     if not os.path.exists("Country.mmdb"):
-        safe_download("https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-Country.mmdb", "Country.mmdb")
+        for src in (
+            "https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-Country.mmdb",
+            "https://git.io/GeoLite2-Country.mmdb",
+        ):
+            try:
+                safe_download(src, "Country.mmdb")
+                break
+            except Exception:
+                continue
     if not os.path.exists("ASN.mmdb"):
-        safe_download("https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-ASN.mmdb", "ASN.mmdb")
-    
+        for src in (
+            "https://github.com/P3TERX/GeoLite.mmdb/raw/download/GeoLite2-ASN.mmdb",
+            "https://git.io/GeoLite2-ASN.mmdb",
+        ):
+            try:
+                safe_download(src, "ASN.mmdb")
+                break
+            except Exception:
+                continue
+    if not os.path.exists("Country.mmdb") or not os.path.exists("ASN.mmdb"):
+        print("[!] GeoLite2 数据库下载失败，家宽/国家鉴定将退化为仅 ASN 白名单判定")
+
     if not os.path.exists("xray"):
         print("[*] 正在下载官方 Xray-core 测活内核...")
         safe_download("https://github.com/XTLS/Xray-core/releases/download/v1.8.24/Xray-linux-64.zip", "xray.zip")
@@ -177,20 +204,38 @@ def setup_environment():
         os.chmod("xray", 0o755)
         if os.path.exists("xray.zip"):
             os.remove("xray.zip")
+        # 冒烟验证：确认二进制可执行，避免后续 1000+ 节点全部假死
+        proc = subprocess.run(["./xray", "version"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        if proc.returncode != 0:
+            print("[!] xray 二进制自检失败，请检查 runner 架构是否为 linux-64")
 
 def extract_nodes_from_text(text):
     results = set()
     if not text:
         return results
-    for _ in range(3):
+    stripped = text.strip()
+    # 单次 base64 探测：订阅源多为 base64 编码的 URI 列表；
+    # 若首行本身就是 base64（4 的倍数长度、无空白、解码后含协议前缀），则解码一次并合并，
+    # 避免原版 3 轮嵌套解码且每轮都追加原文导致指数级文本膨胀。
+    if stripped and "\n" not in stripped and len(stripped) % 4 == 0:
         try:
-            padded = text.strip() + '=' * (-len(text.strip()) % 4)
-            decoded = base64.b64decode(padded).decode('utf-8', errors='ignore')
-            if any(p in decoded for p in ["vmess://", "vless://", "ss://", "trojan://", "hy2://", "hysteria2://"]):
-                text += "\n" + decoded
+            decoded = base64.b64decode(stripped).decode("utf-8", errors="ignore")
+            if any(p in decoded for p in ("vmess://", "vless://", "ss://", "trojan://", "hy2://", "hysteria2://")):
+                text = stripped + "\n" + decoded
         except Exception:
             pass
-
+    # 若文本中混有 base64 单行（如某源返回多行其中一行是 b64），也做一次探测
+    for line in text.splitlines():
+        ln = line.strip()
+        if not ln or "\n" in ln:
+            continue
+        if len(ln) % 4 == 0 and all(c.isalnum() or c in "+/=" for c in ln) and "://" not in ln:
+            try:
+                decoded = base64.b64decode(ln).decode("utf-8", errors="ignore")
+                if any(p in decoded for p in ("vmess://", "vless://", "ss://", "trojan://")):
+                    text += "\n" + decoded
+            except Exception:
+                pass
     pattern = r'((?:vmess|vless|ss|trojan|hysteria2|hy2)://[^\s"\'<>]+)'
     for m in re.findall(pattern, text):
         clean = m.strip().rstrip(".,;\"')")
@@ -198,24 +243,38 @@ def extract_nodes_from_text(text):
     return results
 
 def fetch_raw_nodes():
-    nodes = set()
+    """并发抓取全部上游订阅源，汇总去重。
+
+    优化：
+    - 上游源之间无依赖，改为线程池并发（默认 8 路），把原串行的 25s × N 次超时
+      压缩到约 max(单源耗时)；
+    - 单源失败不影响其它源。
+    """
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
         "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
     }
-    print("[*] 正在抓取全部可用节点池...")
-    for url in SOURCE_URLS:
-        try:
-            resp = requests.get(url, headers=headers, timeout=25)
-            if resp.status_code == 200:
-                extracted = extract_nodes_from_text(resp.text)
-                nodes.update(extracted)
-                print(f"[+] 抓取成功: {url} -> 获得 {len(extracted)} 个节点")
-            else:
-                print(f"[!] 响应异常 {url} -> HTTP {resp.status_code}")
-        except Exception as e:
-            print(f"[!] 拉取失败 {url}: {e}")
+    print("[*] 正在并发抓取全部可用节点池...")
+    nodes = set()
+
+    def _fetch_one(url):
+        resp = requests.get(url, headers=headers, timeout=25)
+        if resp.status_code != 200:
+            print(f"[!] 响应异常 {url} -> HTTP {resp.status_code}")
+            return []
+        extracted = extract_nodes_from_text(resp.text)
+        print(f"[+] 抓取成功: {url} -> 获得 {len(extracted)} 个节点")
+        return list(extracted)
+
+    with ThreadPoolExecutor(max_workers=FETCH_CONCURRENCY) as executor:
+        futures = {executor.submit(_fetch_one, url): url for url in SOURCE_URLS}
+        for future in as_completed(futures):
+            url = futures[future]
+            try:
+                nodes.update(future.result())
+            except Exception as e:
+                print(f"[!] 拉取失败 {url}: {e}")
     print(f"[*] 初始抓取总量: {len(nodes)} 个")
     return list(nodes)
 
@@ -432,6 +491,7 @@ def convert_to_clash_dict(node_str, name):
             return proxy
         elif proto == "trojan":
             srv = outbound["settings"]["servers"][0]
+            stream = outbound.get("streamSettings", {})
             return {
                 "name": name,
                 "type": "trojan",
@@ -508,10 +568,10 @@ def test_single_node_xray(node_tuple):
             "http": f"socks5h://127.0.0.1:{socks_port}",
             "https": f"socks5h://127.0.0.1:{socks_port}"
         }
-        resp = requests.get("https://www.google.com/generate_204", proxies=proxies, timeout=6.5)
+        resp = requests.get("https://www.google.com/generate_204", proxies=proxies, timeout=PROBE_TIMEOUT)
         if resp.status_code in [200, 204]:
             delay_ms = int((time.time() - start_t) * 1000)
-            if 30 < delay_ms < 6300:
+            if PROBE_MIN_DELAY_MS < delay_ms < PROBE_MAX_DELAY_MS:
                 # 严格通过代理穿透向公网 API 获取真实出网 IP
                 for check_url in ["https://api.ipify.org?format=json", "https://ip.seeip.org/json"]:
                     try:
@@ -548,17 +608,32 @@ def test_single_node_xray(node_tuple):
     return None
 
 def run_real_delay_test_xray(candidates):
+    """并发跑 Xray 真实隧道测活。
+
+    优化：
+    - 有界并发（PROBE_CONCURRENCY，默认 25）：避免同时拉起 25+ 个 xray 进程 +
+      1069 个候选节点时 runner CPU/端口过载；
+    - 单个 worker 异常被捕获，不会拖垮整批；
+    - 结果日志按 20 个一批打印。
+    """
     print(f"[*] 启动 Xray 真实双向网络通道测活，候选节点数: {len(candidates)}...")
     alive = []
-    with ThreadPoolExecutor(max_workers=25) as executor:
-        futures = {executor.submit(test_single_node_xray, item): item for item in candidates}
-        for future in as_completed(futures):
-            res = future.result()
+    with ThreadPoolExecutor(max_workers=PROBE_CONCURRENCY) as executor:
+        future_to_item = {
+            executor.submit(test_single_node_xray, item): item for item in candidates
+        }
+        done = 0
+        for future in as_completed(future_to_item):
+            done += 1
+            try:
+                res = future.result()
+            except Exception:
+                res = None
             if res:
                 alive.append(res)
                 if len(alive) % 20 == 0:
                     print(f"[+] 当前已确认真实通畅节点: {len(alive)} 个")
-    print(f"[+] 测活完成！真实可用落地节点总数: {len(alive)}")
+    print(f"[+] 测活完成！真实可用落地节点总数: {len(alive)} / {done}")
     return alive
 
 def rename_node_link(raw_link, new_name):
@@ -579,7 +654,6 @@ def rename_node_link(raw_link, new_name):
 
 def get_rdns_host(ip):
     try:
-        socket.setdefaulttimeout(1.2)
         host, _, _ = socket.gethostbyaddr(ip)
         return host.lower()
     except Exception:
@@ -619,19 +693,18 @@ def classify_and_filter(alive_nodes):
             pass
 
         # 核心拦截：如果未拿到经代理穿透的真实出网 IP，或命中 Cloudflare CDN，一票否决家宽属性
-        if not is_confirmed_exit or is_cloudflare_cdn_ip(exit_ip):
-            is_residential = False
-        else:
-            is_residential = False
+        is_residential = False
+        if is_confirmed_exit and exit_ip and not is_cloudflare_cdn_ip(exit_ip):
             try:
                 a = asn_reader.get(exit_ip)
-                asn = a.get("autonomous_system_number", 0) if a else 0
+                asn = int(a.get("autonomous_system_number", 0)) if a else 0
                 org = str(a.get("autonomous_system_organization", "")).lower() if a else ""
-                
                 if asn not in DATACENTER_ASNS:
                     is_residential = is_verified_residential_offline(exit_ip, org, asn)
             except Exception:
                 pass
+        elif is_confirmed_exit and exit_ip and is_cloudflare_cdn_ip(exit_ip):
+            is_residential = False
 
         c_dict = convert_to_clash_dict(raw_node, "temp")
         if not c_dict:
@@ -649,10 +722,14 @@ def classify_and_filter(alive_nodes):
         }
 
     print("[*] 正在解析真实出口国家并鉴定住宅属性...")
-    with ThreadPoolExecutor(max_workers=30) as executor:
+    # maxminddb reader 本身线程安全
+    with ThreadPoolExecutor(max_workers=CLASSIFY_CONCURRENCY) as executor:
         futures = [executor.submit(classify_item, item) for item in alive_nodes]
         for f in as_completed(futures):
-            res = f.result()
+            try:
+                res = f.result()
+            except Exception:
+                res = None
             if res:
                 verified.append(res)
 
@@ -699,14 +776,122 @@ def export_clash_yaml(clash_proxies, filepath):
     with open(filepath, "w", encoding="utf-8") as f:
         yaml.dump(config, f, allow_unicode=True, sort_keys=False)
 
+def _clash_to_singbox_outbound(proxy):
+    """将 clash proxy dict 翻译为 sing-box v0.x (version:1) outbound 配置。"""
+    ptype = proxy.get("type")
+    base = {
+        "tag": proxy.get("name"),
+        "udp": proxy.get("udp", True),
+    }
+    if ptype == "ss":
+        base.update({
+            "type": "shadowsocks",
+            "server": proxy.get("server"),
+            "port": proxy.get("port"),
+            "method": proxy.get("cipher"),
+            "password": proxy.get("password"),
+        })
+        return base
+    if ptype == "vmess":
+        base.update({
+            "type": "vmess",
+            "server": proxy.get("server"),
+            "port": proxy.get("port"),
+            "uuid": proxy.get("uuid"),
+            "alterId": proxy.get("alterId", 0),
+            "security": "auto",
+        })
+        tls = proxy.get("tls")
+        if tls:
+            base["tls"] = {
+                "enabled": True,
+                "server_name": proxy.get("servername", proxy.get("server")),
+                "insecure": proxy.get("skip-cert-verify", True),
+            }
+        if proxy.get("network") == "ws":
+            ws = proxy.get("ws-opts", {})
+            base["ws"] = {
+                "path": ws.get("path", "/"),
+                "headers": ws.get("headers", {}),
+            }
+        return base
+    if ptype == "vless":
+        base.update({
+            "type": "vless",
+            "server": proxy.get("server"),
+            "port": proxy.get("port"),
+            "uuid": proxy.get("uuid"),
+            "flow": "",
+        })
+        tls = proxy.get("tls")
+        if tls:
+            base["tls"] = {
+                "enabled": True,
+                "server_name": proxy.get("servername", proxy.get("server")),
+                "insecure": proxy.get("skip-cert-verify", True),
+                "client_fingerprint": proxy.get("client-fingerprint"),
+            }
+            r_opts = proxy.get("reality-opts") or {}
+            if r_opts:
+                base["tls"]["reality"] = True
+                base["tls"]["public_key"] = r_opts.get("public-key")
+                base["tls"]["short_id"] = (proxy.get("reality-opts") or {}).get("short-id", "")
+            if proxy.get("client-fingerprint") and not r_opts:
+                base["tls"].pop("client_fingerprint", None)
+        if proxy.get("network") == "ws":
+            ws = proxy.get("ws-opts", {})
+            base["ws"] = {
+                "path": ws.get("path", "/"),
+                "headers": ws.get("headers", {}),
+            }
+        return base
+    if ptype == "trojan":
+        base.update({
+            "type": "trojan",
+            "server": proxy.get("server"),
+            "port": proxy.get("port"),
+            "password": proxy.get("password"),
+        })
+        base["tls"] = {
+            "enabled": True,
+            "server_name": proxy.get("sni", proxy.get("server")),
+            "insecure": proxy.get("skip-cert-verify", True),
+        }
+        return base
+    if ptype == "hysteria2":
+        base.update({
+            "type": "hysteria2",
+            "server": proxy.get("server"),
+            "port": proxy.get("port"),
+            "password": proxy.get("password"),
+        })
+        base["tls"] = {
+            "enabled": True,
+            "server_name": proxy.get("servername", proxy.get("server")),
+            "insecure": proxy.get("skip-cert-verify", True),
+        }
+        return base
+    # 未知类型 -> 返回 None，调用方跳过
+    return None
+
+
 def export_singbox_json(clash_proxies, filepath):
-    names = [p["name"] for p in clash_proxies]
+    """输出 sing-box (v0.x) 配置：为每个 clash proxy 生成独立 outbound，
+    外加 select / urltest / direct / block 控制组。"""
     outbounds = [
-        {"type": "selector", "tag": "select", "outbounds": ["auto"] + names},
-        {"type": "urltest", "tag": "auto", "outbounds": names, "url": "https://www.google.com/generate_204"},
+        {"type": "selector", "tag": "select", "outbounds": ["auto"]},
+        {"type": "urltest", "tag": "auto", "outbounds": [], "url": "https://www.google.com/generate_204"},
         {"type": "direct", "tag": "direct"},
-        {"type": "block", "tag": "block"}
+        {"type": "block", "tag": "block"},
     ]
+    auto_refs = []
+    for proxy in clash_proxies:
+        ob = _clash_to_singbox_outbound(proxy)
+        if not ob:
+            continue
+        outbounds.append(ob)
+        auto_refs.append(ob["tag"])
+    outbounds[1]["outbounds"] = auto_refs
     config = {"version": 1, "outbounds": outbounds}
     with open(filepath, "w", encoding="utf-8") as f:
         json.dump(config, f, indent=2, ensure_ascii=False)
@@ -753,9 +938,10 @@ def export_subscriptions(verified_nodes):
         export_clash_yaml(res_proxies, os.path.join(OUTPUT_DIR, "residential-clash.yaml"))
         export_singbox_json(res_proxies, os.path.join(OUTPUT_DIR, "residential-singbox.json"))
     else:
-        for f in ["residential-clash.yaml", "residential-singbox.json"]:
-            p = os.path.join(OUTPUT_DIR, f)
-            if os.path.exists(p): os.remove(p)
+        for fname in ["residential-clash.yaml", "residential-singbox.json"]:
+            p = os.path.join(OUTPUT_DIR, fname)
+            if os.path.exists(p):
+                os.remove(p)
 
     # 3. 按国家分类【非家宽/机房】
     shutil.rmtree(COUNTRY_DIR, ignore_errors=True)
@@ -869,37 +1055,42 @@ def update_readme():
         normal_rows.append(f"| {flag} {name} | {cnt} | {col_v2} | {col_clash} | {col_sb} |")
     normal_table_str = "\n".join(normal_rows) if normal_rows else "| 暂无可用节点 | 0 | - | - | - |"
 
-    worker_code = """```javascript
-export default {
-  async fetch(request) {
-    const GITHUB_TOKEN = "ghp_你的GitHub永久访问令牌";
-    const OWNER = "hezhanleiok";
-    const REPO = "freesub";
-    const BRANCH = "main";
+    worker_owner = repo_name.split("/")[0] if "/" in repo_name else "hezhanleiok"
+    worker_repo = repo_name.split("/")[1] if "/" in repo_name else "freesub"
+    worker_code = f"""```javascript
+// 私有仓库无感免翻网关（基于 Cloudflare Worker 反代 GitHub Raw）
+// 部署前请替换 GITHUB_TOKEN，并确保 Worker 环境变量与下方常量一致。
+const GITHUB_TOKEN = "{{GITHUB_TOKEN}}"; // 建议改用 Worker 环境变量 secret，避免明文写死
+const OWNER = "{worker_owner}";
+const REPO = "{worker_repo}";
+const BRANCH = "main";
 
+export default {{
+  async fetch(request) {{
     const url = new URL(request.url);
-    const filePath = "output" + url.pathname;
-    const ghUrl = "[https://raw.githubusercontent.com/](https://raw.githubusercontent.com/)" + OWNER + "/" + REPO + "/" + BRANCH + "/" + filePath;
-    
-    const res = await fetch(ghUrl, {
-      headers: {
+    // 仅允许 output/ 下的文件，防止被当作开放代理
+    const filePath = "output/" + url.pathname.replace(/^\\/+/, "");
+    const ghUrl = `https://raw.githubusercontent.com/${{OWNER}}/${{REPO}}/${{BRANCH}}/${{filePath}}`;
+
+    const res = await fetch(ghUrl, {{
+      headers: {{
         "Authorization": "token " + GITHUB_TOKEN,
         "User-Agent": "Cloudflare-Worker"
-      }
-    });
+      }}
+    }});
 
-    if (!res.ok) {
-      return new Response("Not Found", { status: 404 });
-    }
+    if (!res.ok) {{
+      return new Response("Not Found", {{ status: 404 }});
+    }}
 
-    return new Response(await res.text(), {
-      headers: { 
+    return new Response(await res.text(), {{
+      headers: {{
         "Content-Type": "text/plain; charset=utf-8",
-        "Cache-Control": "no-cache" 
-      }
-    });
-  }
-}
+        "Cache-Control": "public, max-age=0"
+      }}
+    }});
+  }}
+}}
 ```"""
 
     readme_content = f"""# 🚀 免费节点自动测活订阅池 (含真实家宽/住宅IP甄选)
