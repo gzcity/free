@@ -29,20 +29,14 @@
       "tag": "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "208.103.161.5",
-      "port": 443,
-      "uuid": "d042a74a-c305-4eec-a89f-39a348022c92",
+      "server": "103.75.119.126",
+      "port": 2087,
+      "uuid": "731f177e-00aa-480c-b935-661456139a32",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "dry-butterfly-8eb9.tmpgnacio83.workers.dev",
-        "insecure": true,
-        "client_fingerprint": null
-      },
       "ws": {
-        "path": "/",
+        "path": "/7586c69d3dc9",
         "headers": {
-          "Host": "dry-butterfly-8eb9.tmpgnacio83.workers.dev"
+          "Host": "103.75.119.126"
         }
       }
     },

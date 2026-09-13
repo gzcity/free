@@ -36,7 +36,10 @@
         "🇨🇦 加拿大 (Canada) 22 - xiaohe",
         "🇨🇦 加拿大 (Canada) 23 - xiaohe",
         "🇨🇦 加拿大 (Canada) 24 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 25 - xiaohe"
+        "🇨🇦 加拿大 (Canada) 25 - xiaohe",
+        "🇨🇦 加拿大 (Canada) 26 - xiaohe",
+        "🇨🇦 加拿大 (Canada) 27 - xiaohe",
+        "🇨🇦 加拿大 (Canada) 28 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -50,6 +53,161 @@
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 01 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "51.222.141.125",
+      "port": 445,
+      "method": "aes-256-gcm",
+      "password": "zDNVedRFPQexG9v"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 02 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "51.222.136.236",
+      "port": 8882,
+      "method": "aes-256-gcm",
+      "password": "kDWvXYZoTBcGkC4"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 03 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "142.4.216.225",
+      "port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "3ssumf2"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 04 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "51.79.64.198",
+      "port": 8119,
+      "method": "aes-256-gcm",
+      "password": "cdBIDV42DCwnfIN"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 05 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "23.162.200.198",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 06 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "134.195.196.211",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 07 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "51.222.12.127",
+      "port": 445,
+      "method": "aes-256-gcm",
+      "password": "zDNVedRFPQexG9v"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 08 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "134.195.196.211",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 09 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "51.222.155.113",
+      "port": 5601,
+      "method": "aes-256-gcm",
+      "password": "Y6R9pAtvxxzmGC"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 10 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "23.162.200.198",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 11 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "15.235.75.71",
+      "port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "FD3rCuOsxOay"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 12 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "51.79.85.185",
+      "port": 8118,
+      "method": "aes-256-gcm",
+      "password": "cdBIDV42DCwnfIN"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 13 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "134.195.196.211",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 14 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "51.222.12.127",
+      "port": 445,
+      "method": "aes-256-gcm",
+      "password": "zDNVedRFPQexG9v"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 15 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "184.107.106.68",
+      "port": 443,
+      "uuid": "716426fa-bcb7-4eb9-b460-36399ebf740d",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "lizca2.footballfantasyforum.com",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 16 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "51.222.200.165",
+      "port": 5000,
+      "method": "aes-256-gcm",
+      "password": "Y6R9pAtvxxzmGC"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 17 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "66.70.179.198",
@@ -67,31 +225,16 @@
       }
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "184.107.106.68",
-      "port": 443,
-      "uuid": "716426fa-bcb7-4eb9-b460-36399ebf740d",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "lizca2.footballfantasyforum.com",
-        "insecure": true,
-        "client_fingerprint": null
-      }
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 03 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 18 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "51.79.85.185",
-      "port": 8118,
-      "method": "aes-256-gcm",
-      "password": "cdBIDV42DCwnfIN"
+      "server": "ca225.vpnbook.com",
+      "port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "3ssumf2"
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 04 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 19 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "134.195.196.211",
@@ -101,31 +244,27 @@
       "security": "auto"
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 05 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 20 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "51.222.136.236",
-      "port": 8882,
-      "method": "aes-256-gcm",
-      "password": "kDWvXYZoTBcGkC4"
+      "type": "vmess",
+      "server": "134.195.196.211",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 06 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 21 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "184.107.106.68",
-      "port": 443,
-      "uuid": "716426fa-bcb7-4eb9-b460-36399ebf740d",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "184.107.106.68",
-        "insecure": true,
-        "client_fingerprint": null
-      }
+      "type": "vmess",
+      "server": "134.195.196.211",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 07 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 22 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "66.70.179.198",
@@ -143,41 +282,7 @@
       }
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 08 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "23.162.200.198",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 09 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "184.107.106.68",
-      "port": 443,
-      "uuid": "716426fa-bcb7-4eb9-b460-36399ebf740d",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "184.107.106.68",
-        "insecure": true,
-        "client_fingerprint": null
-      }
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 10 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "142.4.216.225",
-      "port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "3ssumf2"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 11 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 23 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "148.113.196.75",
@@ -198,44 +303,17 @@
       }
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 12 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "51.222.12.127",
-      "port": 445,
-      "method": "aes-256-gcm",
-      "password": "zDNVedRFPQexG9v"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 13 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 24 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "134.195.196.211",
+      "server": "23.162.200.198",
       "port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "alterId": 0,
       "security": "auto"
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 14 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "ca225.vpnbook.com",
-      "port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "3ssumf2"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 15 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "51.222.141.125",
-      "port": 445,
-      "method": "aes-256-gcm",
-      "password": "zDNVedRFPQexG9v"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 16 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 25 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "149.22.95.183",
@@ -244,61 +322,7 @@
       "password": "shadowsocks"
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 17 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "51.79.64.198",
-      "port": 8119,
-      "method": "aes-256-gcm",
-      "password": "cdBIDV42DCwnfIN"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 18 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "184.107.106.68",
-      "port": 443,
-      "uuid": "716426fa-bcb7-4eb9-b460-36399ebf740d",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "lizca2.footballfantasyforum.com",
-        "insecure": true,
-        "client_fingerprint": null
-      }
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 19 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "51.222.12.127",
-      "port": 445,
-      "method": "aes-256-gcm",
-      "password": "zDNVedRFPQexG9v"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 20 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "158.51.121.63",
-      "port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "seribus.org",
-        "insecure": true
-      },
-      "ws": {
-        "path": "linkvws",
-        "headers": {
-          "Host": "seribus.org"
-        }
-      }
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 21 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 26 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "134.195.196.211",
@@ -308,46 +332,23 @@
       "security": "auto"
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 22 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 27 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "51.222.200.165",
-      "port": 5000,
+      "server": "166.88.130.218",
+      "port": 60111,
       "method": "aes-256-gcm",
-      "password": "Y6R9pAtvxxzmGC"
+      "password": "fbcec76953a2d173"
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 23 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 28 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "51.222.155.113",
-      "port": 5601,
-      "method": "aes-256-gcm",
-      "password": "Y6R9pAtvxxzmGC"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 24 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "51.79.49.116",
-      "port": 8882,
-      "method": "aes-256-gcm",
-      "password": "kDWvXYZoTBcGkC4"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 25 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "184.107.106.68",
-      "port": 443,
-      "uuid": "716426fa-bcb7-4eb9-b460-36399ebf740d",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "lizca2.footballfantasyforum.com",
-        "insecure": true,
-        "client_fingerprint": null
-      }
+      "type": "vmess",
+      "server": "134.195.196.211",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
     }
   ]
 }
