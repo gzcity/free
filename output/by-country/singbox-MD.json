@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇦 SA 01 - xiaohe"
+        "🇲🇩 MD 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,21 +25,24 @@
       "tag": "block"
     },
     {
-      "tag": "🇸🇦 SA 01 - xiaohe",
+      "tag": "🇲🇩 MD 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "81.208.170.142",
-      "port": 1500,
-      "uuid": "e332f028-d343-5b44-8016-b3130f39e133",
+      "server": "104.17.169.13",
+      "port": 2053,
+      "uuid": "a22bff60-a40a-4250-bde2-4c660e363b47",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "www.ebay.com",
+        "server_name": "inDeX.HaRMONiCA01.WORkers.DeV",
         "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "VQxVgczORkbSNdDrkNOYs6zMBINpViztTKDuWCeQsVE",
-        "short_id": ""
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/axch1mttbxz2k55y01",
+        "headers": {
+          "Host": "inDeX.HaRMONiCA01.WORkers.DeV"
+        }
       }
     }
   ]

@@ -18,8 +18,7 @@
         "🇵🇱 PL 04 - xiaohe",
         "🇵🇱 PL 05 - xiaohe",
         "🇵🇱 PL 06 - xiaohe",
-        "🇵🇱 PL 07 - xiaohe",
-        "🇵🇱 PL 08 - xiaohe"
+        "🇵🇱 PL 07 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -34,6 +33,57 @@
     {
       "tag": "🇵🇱 PL 01 - xiaohe",
       "udp": true,
+      "type": "shadowsocks",
+      "server": "194.61.121.93",
+      "port": 7538,
+      "method": "chacha20-ietf-poly1305",
+      "password": "U9YAoqBgg5VyGBc6vQv1sN"
+    },
+    {
+      "tag": "🇵🇱 PL 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.24.31.89",
+      "port": 443,
+      "uuid": "aebe5a70-0ca3-46ce-8208-8b5bab1346ce",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "rAyAn-007.nAsTaRaN.DpDnS.OrG",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "rayan-007.nastaran.dpdns.org"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.25.146.77",
+      "port": 443,
+      "uuid": "e6cc4788-3c45-4df1-94f3-8303504a65bf",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "khoda.ak-khoda.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/sync",
+        "headers": {
+          "Host": "khoda.ak-khoda.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 04 - xiaohe",
+      "udp": true,
       "type": "vless",
       "server": "94.183.209.59",
       "port": 443,
@@ -47,31 +97,49 @@
       }
     },
     {
-      "tag": "🇵🇱 PL 02 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "194.61.121.93",
-      "port": 7538,
-      "method": "chacha20-ietf-poly1305",
-      "password": "U9YAoqBgg5VyGBc6vQv1sN"
-    },
-    {
-      "tag": "🇵🇱 PL 03 - xiaohe",
+      "tag": "🇵🇱 PL 05 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "94.183.209.58",
+      "server": "104.25.22.24",
       "port": 443,
-      "uuid": "78791f9e-fe09-4d4f-88ec-895764bae0d6",
+      "uuid": "e6cc4788-3c45-4df1-94f3-8303504a65bf",
       "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "khoda.ak-khoda.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
       "ws": {
-        "path": "/",
+        "path": "/sync",
         "headers": {
-          "Host": "94.183.209.58"
+          "Host": "khoda.ak-khoda.workers.dev"
         }
       }
     },
     {
-      "tag": "🇵🇱 PL 04 - xiaohe",
+      "tag": "🇵🇱 PL 06 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.17.247.68",
+      "port": 443,
+      "uuid": "e6cc4788-3c45-4df1-94f3-8303504a65bf",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "khoda.ak-khoda.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/sync",
+        "headers": {
+          "Host": "khoda.ak-khoda.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 07 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "94.183.209.58",
@@ -82,66 +150,6 @@
         "path": "/",
         "headers": {
           "Host": "pl2.lckdwn.ru"
-        }
-      }
-    },
-    {
-      "tag": "🇵🇱 PL 05 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "94.183.209.58",
-      "port": 443,
-      "uuid": "78791f9e-fe09-4d4f-88ec-895764bae0d6",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "94.183.209.58"
-        }
-      }
-    },
-    {
-      "tag": "🇵🇱 PL 06 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "94.183.209.59",
-      "port": 443,
-      "uuid": "d23cb516-40db-4aa4-8142-6b45ff882f90",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "94.183.209.59"
-        }
-      }
-    },
-    {
-      "tag": "🇵🇱 PL 07 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "94.183.209.59",
-      "port": 443,
-      "uuid": "d23cb516-40db-4aa4-8142-6b45ff882f90",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "94.183.209.59"
-        }
-      }
-    },
-    {
-      "tag": "🇵🇱 PL 08 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "94.183.209.59",
-      "port": 443,
-      "uuid": "d23cb516-40db-4aa4-8142-6b45ff882f90",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "94.183.209.59"
         }
       }
     }

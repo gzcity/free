@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇿 KZ 01 - xiaohe"
+        "🇱🇹 LT 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,13 +25,19 @@
       "tag": "block"
     },
     {
-      "tag": "🇰🇿 KZ 01 - xiaohe",
+      "tag": "🇱🇹 LT 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "94.198.220.183",
-      "port": 64674,
-      "method": "chacha20-ietf-poly1305",
-      "password": "s8LbJCgUiGXeCKVc63tHJP"
+      "type": "vless",
+      "server": "89.117.112.40",
+      "port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "vms.lifetime11.workers.dev"
+        }
+      }
     }
   ]
 }

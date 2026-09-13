@@ -13,7 +13,8 @@
       "tag": "auto",
       "outbounds": [
         "🇲🇾 MY 01 - xiaohe",
-        "🇲🇾 MY 02 - xiaohe"
+        "🇲🇾 MY 02 - xiaohe",
+        "🇲🇾 MY 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -34,7 +35,7 @@
       "password": "5931134d1cde66bf83a54acdfebe7ab2",
       "tls": {
         "enabled": true,
-        "server_name": "moltbot.doctoroyy.net",
+        "server_name": "47.250.84.25",
         "insecure": true
       }
     },
@@ -49,6 +50,21 @@
         "enabled": true,
         "server_name": "moltbot.doctoroyy.net",
         "insecure": true
+      }
+    },
+    {
+      "tag": "🇲🇾 MY 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "38.60.168.98",
+      "port": 2087,
+      "uuid": "8a346b7c-5b95-4845-affa-0e5d9929e9ae",
+      "flow": "",
+      "ws": {
+        "path": "/db55c40bbc75",
+        "headers": {
+          "Host": "38.60.168.98"
+        }
       }
     }
   ]
