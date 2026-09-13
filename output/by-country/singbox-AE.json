@@ -15,10 +15,7 @@
         "🇦🇪 阿联酋 (UAE) 01 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 05 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 06 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 07 - xiaohe"
+        "🇦🇪 阿联酋 (UAE) 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -32,24 +29,6 @@
     },
     {
       "tag": "🇦🇪 阿联酋 (UAE) 01 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "31.58.181.88",
-      "port": 8443,
-      "uuid": "67018597-36a2-40f2-aa72-a253d0ad438b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "tradingview.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "89.125.147.199",
@@ -67,7 +46,7 @@
       }
     },
     {
-      "tag": "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
+      "tag": "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "84.235.244.108",
@@ -82,28 +61,25 @@
       }
     },
     {
+      "tag": "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "uae.unixzone.us",
+      "port": 22573,
+      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "uae.unixzone.us"
+        }
+      }
+    },
+    {
       "tag": "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "31.58.181.88",
-      "port": 8443,
-      "uuid": "1e3b5752-e720-4347-b8e9-384697d0ce38",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "tradingview.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇦🇪 阿联酋 (UAE) 05 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "uae.unixzone.us",
+      "server": "84.235.244.108",
       "port": 22573,
       "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
       "flow": "",
@@ -112,39 +88,6 @@
         "headers": {
           "Host": "uae.unixzone.us"
         }
-      }
-    },
-    {
-      "tag": "🇦🇪 阿联酋 (UAE) 06 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "uae.unixzone.us",
-      "port": 22573,
-      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "uae.unixzone.us"
-        }
-      }
-    },
-    {
-      "tag": "🇦🇪 阿联酋 (UAE) 07 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "31.58.181.88",
-      "port": 8443,
-      "uuid": "757e753e-85e2-482e-a29b-852ad193bc5f",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "tradingview.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc",
-        "short_id": ""
       }
     }
   ]
