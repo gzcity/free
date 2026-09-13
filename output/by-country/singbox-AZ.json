@@ -12,7 +12,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇿 AZ 01 - xiaohe"
+        "🇦🇿 AZ 01 - xiaohe",
+        "🇦🇿 AZ 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -26,6 +27,15 @@
     },
     {
       "tag": "🇦🇿 AZ 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "basalam.horqen.ir",
+      "port": 21289,
+      "uuid": "c12db015-a63c-43e5-a744-6398a90373b5",
+      "flow": ""
+    },
+    {
+      "tag": "🇦🇿 AZ 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "basalam.horqen.ir",
