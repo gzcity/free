@@ -14,7 +14,8 @@
       "outbounds": [
         "🇳🇴 NO 01 - xiaohe",
         "🇳🇴 NO 02 - xiaohe",
-        "🇳🇴 NO 03 - xiaohe"
+        "🇳🇴 NO 03 - xiaohe",
+        "🇳🇴 NO 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -46,6 +47,24 @@
     },
     {
       "tag": "🇳🇴 NO 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "151.242.168.125",
+      "port": 390,
+      "uuid": "7b363f9c-3df9-4b60-a789-9cd36be0bdfe",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "bowandbead.com",
+        "insecure": true,
+        "client_fingerprint": "qq",
+        "reality": true,
+        "public_key": "5RCgAVjaT7hwdVIKAEULswXGqR127ZOZV6X17nEhYk8",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇳🇴 NO 04 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "89.185.81.65",

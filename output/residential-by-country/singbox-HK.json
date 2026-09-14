@@ -12,8 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe"
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -34,19 +33,9 @@
       "password": "BxceQaOe",
       "tls": {
         "enabled": true,
-        "server_name": "t.me",
+        "server_name": "t.me%25252fripaojiedian",
         "insecure": true
       }
-    },
-    {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "dog-hk.kunlun01dns.com",
-      "port": 21020,
-      "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
-      "alterId": 0,
-      "security": "auto"
     }
   ]
 }

@@ -12,8 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇿 UZ 01 - xiaohe",
-        "🇺🇿 UZ 02 - xiaohe"
+        "🇺🇿 UZ 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -27,21 +26,6 @@
     },
     {
       "tag": "🇺🇿 UZ 01 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "189.74.97.43",
-      "port": 2087,
-      "uuid": "10f7eb2d-d96d-4778-9d36-aff11e9d6629",
-      "flow": "",
-      "ws": {
-        "path": "/73b6faea2d00",
-        "headers": {
-          "Host": "189.74.97.43"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇿 UZ 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "189.74.97.47",

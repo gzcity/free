@@ -12,8 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇪🇪 EE 01 - xiaohe",
-        "🇪🇪 EE 02 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -26,31 +25,24 @@
       "tag": "block"
     },
     {
-      "tag": "🇪🇪 EE 01 - xiaohe",
+      "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "94.183.170.135",
+      "server": "shop.neexbyte.ir",
       "port": 8443,
-      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
+      "uuid": "464bc502-f963-45b6-81e3-e33d18427506",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "estproxy4.lockdwn.com",
+        "server_name": "shop.neexbyte.ir",
         "insecure": true,
         "client_fingerprint": null
-      }
-    },
-    {
-      "tag": "🇪🇪 EE 02 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "109.206.241.10",
-      "port": 449,
-      "password": "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1",
-      "tls": {
-        "enabled": true,
-        "server_name": "russiapower.accesscam.org",
-        "insecure": true
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "shop.neexbyte.ir"
+        }
       }
     }
   ]

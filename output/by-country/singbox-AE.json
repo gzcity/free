@@ -32,6 +32,21 @@
       "tag": "🇦🇪 阿联酋 (UAE) 01 - xiaohe",
       "udp": true,
       "type": "vless",
+      "server": "84.235.244.108",
+      "port": 22573,
+      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "uae.unixzone.us"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
       "server": "89.125.147.199",
       "port": 443,
       "uuid": "cabd9303-ae32-4d25-86b9-26b312d0f044",
@@ -47,32 +62,17 @@
       }
     },
     {
-      "tag": "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "uae.unixzone.us",
-      "port": 22573,
-      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "uae.unixzone.us"
-        }
-      }
-    },
-    {
       "tag": "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "uae.unixzone.us",
-      "port": 22573,
-      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
+      "server": "cdn.snobvpn.online",
+      "port": 80,
+      "uuid": "cabd9303-ae32-4d25-86b9-26b312d0f044",
       "flow": "",
       "ws": {
-        "path": "/",
+        "path": "/snob-ws",
         "headers": {
-          "Host": "uae.unixzone.us"
+          "Host": "cdn.snobvpn.online"
         }
       }
     },
@@ -98,7 +98,7 @@
       "tag": "🇦🇪 阿联酋 (UAE) 05 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "84.235.244.108",
+      "server": "uae.unixzone.us",
       "port": 22573,
       "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
       "flow": "",
