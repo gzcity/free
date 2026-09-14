@@ -13,7 +13,8 @@
       "tag": "auto",
       "outbounds": [
         "🇵🇱 PL 01 - xiaohe",
-        "🇵🇱 PL 02 - xiaohe"
+        "🇵🇱 PL 02 - xiaohe",
+        "🇵🇱 PL 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -36,6 +37,21 @@
     },
     {
       "tag": "🇵🇱 PL 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "178.95.170.83",
+      "port": 2087,
+      "uuid": "bf443e4a-aa9e-4509-abf0-d0f6828d57be",
+      "flow": "",
+      "ws": {
+        "path": "/4bc027a44532",
+        "headers": {
+          "Host": "178.95.170.83"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 03 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "178.95.170.115",

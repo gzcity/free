@@ -12,9 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇫🇮 FI 01 - xiaohe",
-        "🇫🇮 FI 02 - xiaohe",
-        "🇫🇮 FI 03 - xiaohe"
+        "🇫🇮 FI 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -28,36 +26,6 @@
     },
     {
       "tag": "🇫🇮 FI 01 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.67.217.240",
-      "port": 443,
-      "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "fx3h2kf8xn.fx6hsv0.ccwu.cc",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/?ed=2560",
-        "headers": {
-          "Host": "fx3h2kf8xn.fx6hsv0.ccwu.cc"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "188.132.237.20",
-      "port": 2095,
-      "uuid": "3b9e513e-30d9-4ca8-8340-8f33fc6710de",
-      "flow": ""
-    },
-    {
-      "tag": "🇫🇮 FI 03 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "65.109.215.118",
