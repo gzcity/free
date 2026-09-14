@@ -29,11 +29,23 @@
     {
       "tag": "🇫🇮 FI 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "65.109.215.118",
-      "port": 1080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "rSeYcig_XBy8q3k33NpK3A"
+      "type": "vless",
+      "server": "172.67.217.240",
+      "port": 443,
+      "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "fx3h2kf8xn.fx6hsv0.ccwu.cc",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "fx3h2kf8xn.fx6hsv0.ccwu.cc"
+        }
+      }
     },
     {
       "tag": "🇫🇮 FI 02 - xiaohe",
@@ -47,20 +59,11 @@
     {
       "tag": "🇫🇮 FI 03 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "185.79.138.71",
-      "port": 448,
-      "uuid": "0b0915d7-6800-4580-a44b-77d84f105e6a",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.samsung.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8",
-        "short_id": ""
-      }
+      "type": "shadowsocks",
+      "server": "65.109.215.118",
+      "port": 1080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "rSeYcig_XBy8q3k33NpK3A"
     }
   ]
 }
