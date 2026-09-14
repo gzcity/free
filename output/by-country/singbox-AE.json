@@ -14,8 +14,7 @@
       "outbounds": [
         "🇦🇪 阿联酋 (UAE) 01 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 04 - xiaohe"
+        "🇦🇪 阿联酋 (UAE) 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -31,39 +30,6 @@
       "tag": "🇦🇪 阿联酋 (UAE) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "89.125.147.199",
-      "port": 443,
-      "uuid": "cabd9303-ae32-4d25-86b9-26b312d0f044",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "maps.apple.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "84.235.244.108",
-      "port": 22573,
-      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "uae.unixzone.us"
-        }
-      }
-    },
-    {
-      "tag": "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
       "server": "uae.unixzone.us",
       "port": 22573,
       "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
@@ -76,17 +42,44 @@
       }
     },
     {
-      "tag": "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
+      "tag": "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "84.235.244.108",
-      "port": 22573,
-      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
+      "server": "175.41.179.37",
+      "port": 51262,
+      "uuid": "903fed13-8e78-4fa2-a83e-b392b289741f",
       "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
       "ws": {
-        "path": "/",
+        "path": "/@Marisa_kristi",
         "headers": {
-          "Host": "uae.unixzone.us"
+          "Host": "3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "57.129.130.10",
+      "port": 52014,
+      "uuid": "395bab7e-302a-42b4-bac7-8acb7d36fdf3",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev"
         }
       }
     }

@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇱🇻 LV 01 - xiaohe",
+        "🇱🇻 LV 02 - xiaohe"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "tag": "🇱🇻 LV 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.67.67.178",
+      "port": 443,
+      "uuid": "aebe5a70-0ca3-46ce-8208-8b5bab1346ce",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "rAyAn-007.nAsTaRaN.DpDnS.OrG",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "rAyAn-007.nAsTaRaN.DpDnS.OrG"
+        }
+      }
+    },
+    {
+      "tag": "🇱🇻 LV 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "uycneynsieuocxniseunciusecmsepiock.novexgroup.ir",
+      "port": 2096,
+      "uuid": "1a67126c-b9c4-4e78-b96e-eabd4002ab0c",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "uycneynsieuocxniseunciusecmsepiock.novexgroup.ir",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    }
+  ]
+}

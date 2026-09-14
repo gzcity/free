@@ -12,7 +12,9 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇹 AT 01 - xiaohe"
+        "🇦🇹 AT 01 - xiaohe",
+        "🇦🇹 AT 02 - xiaohe",
+        "🇦🇹 AT 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -26,6 +28,42 @@
     },
     {
       "tag": "🇦🇹 AT 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "152.53.1.40",
+      "port": 443,
+      "uuid": "edde565e-41f5-400e-84ea-7b87a3e84488",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "at.quattro-tech.ru",
+        "insecure": true,
+        "client_fingerprint": "random",
+        "reality": true,
+        "public_key": "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇦🇹 AT 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "152.53.1.40",
+      "port": 443,
+      "uuid": "edde565e-41f5-400e-84ea-7b87a3e84488",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "at.quattro-tech.ru",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇦🇹 AT 03 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "82.110.60.9",

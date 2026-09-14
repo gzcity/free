@@ -13,7 +13,12 @@
       "tag": "auto",
       "outbounds": [
         "🇮🇳 印度 (India) 01 - xiaohe",
-        "🇮🇳 印度 (India) 02 - xiaohe"
+        "🇮🇳 印度 (India) 02 - xiaohe",
+        "🇮🇳 印度 (India) 03 - xiaohe",
+        "🇮🇳 印度 (India) 04 - xiaohe",
+        "🇮🇳 印度 (India) 05 - xiaohe",
+        "🇮🇳 印度 (India) 06 - xiaohe",
+        "🇮🇳 印度 (India) 07 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -28,11 +33,23 @@
     {
       "tag": "🇮🇳 印度 (India) 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "139.84.166.47",
-      "port": 8388,
-      "method": "aes-256-gcm",
-      "password": "GEdoeeqLZtkJRgSa"
+      "type": "vless",
+      "server": "172.67.208.1",
+      "port": 443,
+      "uuid": "1443b7a1-7ba9-4ec9-b904-2e867367b5d7",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "odd-violet-5440.asdgrweeee13.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/sync",
+        "headers": {
+          "Host": "odd-violet-5440.asdgrweeee13.workers.dev"
+        }
+      }
     },
     {
       "tag": "🇮🇳 印度 (India) 02 - xiaohe",
@@ -50,6 +67,89 @@
         "reality": true,
         "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
         "short_id": ""
+      }
+    },
+    {
+      "tag": "🇮🇳 印度 (India) 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.67.208.1",
+      "port": 443,
+      "uuid": "1443b7a1-7ba9-4ec9-b904-2e867367b5d7",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "odd-violet-5440.asdgrweeee13.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/sync",
+        "headers": {
+          "Host": "odd-violet-5440.asdgrweeee13.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇳 印度 (India) 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.21.69.118",
+      "port": 443,
+      "uuid": "1443b7a1-7ba9-4ec9-b904-2e867367b5d7",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "odd-violet-5440.asdgrweeee13.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/sync",
+        "headers": {
+          "Host": "odd-violet-5440.asdgrweeee13.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇳 印度 (India) 05 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "172.105.39.124",
+      "port": 7002,
+      "method": "aes-256-gcm",
+      "password": "RexnBgU7EV5ADxG"
+    },
+    {
+      "tag": "🇮🇳 印度 (India) 06 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "152.67.8.205",
+      "port": 80,
+      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
+      "alterId": 0,
+      "security": "auto",
+      "ws": {
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇮🇳 印度 (India) 07 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "152.67.8.205",
+      "port": 80,
+      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
+      "alterId": 0,
+      "security": "auto",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": ""
+        }
       }
     }
   ]
