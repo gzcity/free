@@ -13,7 +13,9 @@
       "tag": "auto",
       "outbounds": [
         "🇹🇭 TH 01 - xiaohe",
-        "🇹🇭 TH 02 - xiaohe"
+        "🇹🇭 TH 02 - xiaohe",
+        "🇹🇭 TH 03 - xiaohe",
+        "🇹🇭 TH 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -27,6 +29,21 @@
     },
     {
       "tag": "🇹🇭 TH 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "103.86.49.57",
+      "port": 80,
+      "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
+      "flow": "",
+      "ws": {
+        "path": "/ws",
+        "headers": {
+          "Host": "aIs.SpEeDtEsT.nEt"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇭 TH 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "43.133.110.81",
@@ -47,7 +64,28 @@
       }
     },
     {
-      "tag": "🇹🇭 TH 02 - xiaohe",
+      "tag": "🇹🇭 TH 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "188.114.97.6",
+      "port": 443,
+      "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "v2ray.simspeedup.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/ws",
+        "headers": {
+          "Host": "v2ray.simspeedup.com"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇭 TH 04 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "118.193.57.167",

@@ -31,27 +31,6 @@
     {
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "78.159.247.246",
-      "port": 443,
-      "uuid": "1852b02c-1828-40eb-81ff-4de3d097cb35",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "sb2.hat.onl",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/ws",
-        "headers": {
-          "Host": "sb2.hat.onl"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-      "udp": true,
       "type": "shadowsocks",
       "server": "130.49.189.158",
       "port": 43558,
@@ -59,7 +38,7 @@
       "password": "/QFycb02d87cByC9+5ZRSygI1avHiPXkgYG2yc+TnGA="
     },
     {
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "46.8.200.91",
@@ -76,6 +55,21 @@
         "path": "/casc",
         "headers": {
           "Host": "cf3.rumedia-cdn.com"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "185.148.106.50",
+      "port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "vms.lifetime54.workers.dev"
         }
       }
     },

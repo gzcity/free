@@ -14,7 +14,8 @@
       "outbounds": [
         "🇵🇱 PL 01 - xiaohe",
         "🇵🇱 PL 02 - xiaohe",
-        "🇵🇱 PL 03 - xiaohe"
+        "🇵🇱 PL 03 - xiaohe",
+        "🇵🇱 PL 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -30,14 +31,20 @@
       "tag": "🇵🇱 PL 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "178.95.170.98",
-      "port": 2087,
-      "uuid": "bf443e4a-aa9e-4509-abf0-d0f6828d57be",
+      "server": "104.17.247.68",
+      "port": 443,
+      "uuid": "e6cc4788-3c45-4df1-94f3-8303504a65bf",
       "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "khoda.ak-khoda.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
       "ws": {
-        "path": "/4bc027a44532",
+        "path": "/sync",
         "headers": {
-          "Host": "178.95.170.98"
+          "Host": "khoda.ak-khoda.workers.dev"
         }
       }
     },
@@ -54,14 +61,41 @@
       "tag": "🇵🇱 PL 03 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "178.95.170.83",
-      "port": 2087,
-      "uuid": "bf443e4a-aa9e-4509-abf0-d0f6828d57be",
+      "server": "104.25.146.77",
+      "port": 443,
+      "uuid": "e6cc4788-3c45-4df1-94f3-8303504a65bf",
       "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "khoda.ak-khoda.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
       "ws": {
-        "path": "/4bc027a44532",
+        "path": "/sync",
         "headers": {
-          "Host": "178.95.170.83"
+          "Host": "khoda.ak-khoda.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.25.22.24",
+      "port": 443,
+      "uuid": "e6cc4788-3c45-4df1-94f3-8303504a65bf",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "khoda.ak-khoda.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/sync",
+        "headers": {
+          "Host": "khoda.ak-khoda.workers.dev"
         }
       }
     }

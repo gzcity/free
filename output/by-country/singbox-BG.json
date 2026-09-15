@@ -15,7 +15,9 @@
         "🇧🇬 BG 01 - xiaohe",
         "🇧🇬 BG 02 - xiaohe",
         "🇧🇬 BG 03 - xiaohe",
-        "🇧🇬 BG 04 - xiaohe"
+        "🇧🇬 BG 04 - xiaohe",
+        "🇧🇬 BG 05 - xiaohe",
+        "🇧🇬 BG 06 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -31,15 +33,21 @@
       "tag": "🇧🇬 BG 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "192.145.31.5",
-      "port": 8443,
-      "uuid": "9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a",
+      "server": "108.165.233.223",
+      "port": 443,
+      "uuid": "2388e166-3890-33ae-f77e-efac00000003",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "neth9.lunariai.ru",
+        "server_name": "netlivpn4813.ddhshhshs.workers.dev",
         "insecure": true,
         "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN",
+        "headers": {
+          "Host": "netlivpn4813.ddhshhshs.workers.dev"
+        }
       }
     },
     {
@@ -74,6 +82,36 @@
     },
     {
       "tag": "🇧🇬 BG 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "192.145.31.5",
+      "port": 8443,
+      "uuid": "9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "neth9.lunariai.ru",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇧🇬 BG 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "192.145.31.5",
+      "port": 8443,
+      "uuid": "9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "neth9.lunariai.ru",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇧🇬 BG 06 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "192.145.31.5",
