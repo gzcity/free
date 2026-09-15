@@ -32,7 +32,8 @@
         "🇩🇪 德国 (Germany) 18 - xiaohe",
         "🇩🇪 德国 (Germany) 19 - xiaohe",
         "🇩🇪 德国 (Germany) 20 - xiaohe",
-        "🇩🇪 德国 (Germany) 21 - xiaohe"
+        "🇩🇪 德国 (Germany) 21 - xiaohe",
+        "🇩🇪 德国 (Germany) 22 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -47,117 +48,29 @@
     {
       "tag": "🇩🇪 德国 (Germany) 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "185.226.172.8",
-      "port": 8008,
-      "method": "aes-256-gcm",
-      "password": "XKFKl2rULjIp74"
+      "type": "vless",
+      "server": "91.98.96.59",
+      "port": 40017,
+      "uuid": "d005cde6-263f-48ac-8b13-74ebf7f3f8ef",
+      "flow": ""
     },
     {
       "tag": "🇩🇪 德国 (Germany) 02 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "185.226.172.8",
-      "port": 8008,
-      "method": "aes-256-gcm",
-      "password": "XKFKl2rULjIp74"
+      "type": "vless",
+      "server": "163.8.195.241",
+      "port": 2087,
+      "uuid": "56ba5d34-ef22-4ba6-8090-4188b807df54",
+      "flow": "",
+      "ws": {
+        "path": "/29c8fed7ca22",
+        "headers": {
+          "Host": "163.8.195.241"
+        }
+      }
     },
     {
       "tag": "🇩🇪 德国 (Germany) 03 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "8.209.74.72",
-      "port": 20001,
-      "method": "chacha20-ietf-poly1305",
-      "password": "PWpjPo3tqhPN4yRZ"
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 04 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "209.46.102.22",
-      "port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "1hhrqrokj3ag"
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 05 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "199.232.78.159",
-      "port": 443,
-      "uuid": "67a0565a-049a-488a-83be-1211907b6c64",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ssl.fastly.com",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "7wwwspeedtestnet.global.ssl.fastly.net"
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 06 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "51.89.41.22",
-      "port": 1234,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 07 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "82.198.246.250",
-      "port": 180,
-      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 08 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "163.8.195.241",
-      "port": 2087,
-      "uuid": "56ba5d34-ef22-4ba6-8090-4188b807df54",
-      "flow": "",
-      "ws": {
-        "path": "/29c8fed7ca22",
-        "headers": {
-          "Host": "163.8.195.241"
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 09 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "163.8.195.241",
-      "port": 2087,
-      "uuid": "56ba5d34-ef22-4ba6-8090-4188b807df54",
-      "flow": "",
-      "ws": {
-        "path": "/29c8fed7ca22",
-        "headers": {
-          "Host": "163.8.195.241"
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 10 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "91.98.102.240",
@@ -172,73 +85,73 @@
       }
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 11 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 04 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "172.66.47.132",
+      "server": "91.98.96.59",
+      "port": 80,
+      "uuid": "35a6c37b-5df7-4d7f-b338-f9092d3be2e9",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "91.98.96.59"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 05 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "8.209.74.72",
+      "port": 20001,
+      "method": "chacha20-ietf-poly1305",
+      "password": "PWpjPo3tqhPN4yRZ"
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 06 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "2.58.81.221",
       "port": 443,
-      "uuid": "b2f2f9f2-1864-48ea-839b-22815faff1f1",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/pRXE5ot0RZaQSr7B",
-        "headers": {
-          "Host": "stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev"
-        }
-      }
+      "method": "aes-256-gcm",
+      "password": "kKEd0rBrd56Furjz"
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 12 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 07 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "undef.network",
-      "port": 2052,
-      "uuid": "f5267873-5379-409e-b67a-145ea54deb70",
-      "flow": "",
-      "ws": {
-        "path": "/@BlueKnight_net--@BlueKnight_net",
-        "headers": {
-          "Host": "uwu.blueknightnet.qzz.io"
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 13 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "91.98.102.240",
-      "port": 42718,
-      "uuid": "b775630e-1386-44a6-9d89-61d029d4b5ab",
+      "server": "91.98.96.59",
+      "port": 40017,
+      "uuid": "d005cde6-263f-48ac-8b13-74ebf7f3f8ef",
       "flow": ""
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 14 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 08 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "185.226.172.8",
+      "port": 8008,
+      "method": "aes-256-gcm",
+      "password": "XKFKl2rULjIp74"
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 09 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "172.64.149.54",
-      "port": 443,
-      "uuid": "fe34b5df-e634-4c83-a057-e53f41ce8e27",
+      "server": "91.98.102.240",
+      "port": 80,
+      "uuid": "8ee5577f-9dd0-4a10-a4ec-6293a24b61df",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "lATE-LaB-d6A2.CIwodA8715.WoRKerS.DeV",
-        "insecure": true,
-        "client_fingerprint": null
-      },
       "ws": {
-        "path": "/eyJqdW5rIjoiQ3dmV1d4OUFQdSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560",
+        "path": "/",
         "headers": {
-          "Host": "late-lab-d6a2.ciwoda8715.workers.dev"
+          "Host": "91.98.102.240"
         }
       }
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 15 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 10 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "81.95.4.189",
@@ -259,7 +172,7 @@
       }
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 16 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 11 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "209.46.102.22",
@@ -268,7 +181,79 @@
       "password": "1hhrqrokj3ag"
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 17 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 12 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "rubifen.adaspoloandco.com",
+      "port": 443,
+      "uuid": "cf39fab0-bb85-42cb-9945-2ad69d78e575",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "rubifen.adaspoloandco.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/GOrbEh",
+        "headers": {
+          "Host": "rubifen.adaspoloandco.com"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 13 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "45.147.49.149",
+      "port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/posts/novels/order?ed=2560",
+        "headers": {
+          "Host": "cdn8848.776676.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 14 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "57.129.41.216",
+      "port": 80,
+      "uuid": "7d74eae4-8a06-4306-a923-ad686f30bf26",
+      "flow": "",
+      "ws": {
+        "path": "/vless/",
+        "headers": {
+          "Host": "OV-Germany1.09vpn.com"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 15 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "51.89.41.22",
+      "port": 1234,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 16 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "163.8.195.241",
@@ -283,26 +268,7 @@
       }
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 18 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "82.198.246.250",
-      "port": 180,
-      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 19 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "2.58.81.221",
-      "port": 443,
-      "method": "aes-256-gcm",
-      "password": "kKEd0rBrd56Furjz"
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 20 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 17 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "2.58.81.221",
@@ -311,24 +277,78 @@
       "password": "kKEd0rBrd56Furjz"
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 21 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 18 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "185.226.172.8",
+      "port": 8008,
+      "method": "aes-256-gcm",
+      "password": "XKFKl2rULjIp74"
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 19 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "188.114.97.1",
-      "port": 2053,
-      "uuid": "0b3e7958-e5c4-498f-ab21-b49686f95d2d",
+      "server": "31.25.88.21",
+      "port": 14239,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "bold-term-4edd.mbigspot.workers.dev",
+        "server_name": "cdn8848.776676.xyz",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/",
+        "path": "/pages?ed=2560",
         "headers": {
-          "Host": "bold-term-4edd.mbigspot.workers.dev"
+          "Host": "cdn8848.776676.xyz"
         }
+      }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 20 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "213.202.208.199",
+      "port": 7001,
+      "method": "aes-256-gcm",
+      "password": "RexnBgU7EV5ADxG"
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 21 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "93.152.217.41",
+      "port": 40443,
+      "uuid": "969bcce0-de8a-4b02-8cf8-d00d2d2ca7a5",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "deepl.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "VG-FwQBMFzPcemJ_JqtkbO-2WKLmQp2h0CmAj-DfLkA",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 22 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "93.152.217.41",
+      "port": 40443,
+      "uuid": "969bcce0-de8a-4b02-8cf8-d00d2d2ca7a5",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "deepl.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "VG-FwQBMFzPcemJ_JqtkbO-2WKLmQp2h0CmAj-DfLkA",
+        "short_id": ""
       }
     }
   ]

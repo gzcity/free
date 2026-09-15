@@ -14,9 +14,7 @@
       "outbounds": [
         "🇦🇪 阿联酋 (UAE) 01 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 05 - xiaohe"
+        "🇦🇪 阿联酋 (UAE) 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -32,6 +30,21 @@
       "tag": "🇦🇪 阿联酋 (UAE) 01 - xiaohe",
       "udp": true,
       "type": "vless",
+      "server": "cdn.snobvpn.online",
+      "port": 80,
+      "uuid": "cabd9303-ae32-4d25-86b9-26b312d0f044",
+      "flow": "",
+      "ws": {
+        "path": "/snob-ws",
+        "headers": {
+          "Host": "cdn.snobvpn.online"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
       "server": "89.125.147.199",
       "port": 443,
       "uuid": "cabd9303-ae32-4d25-86b9-26b312d0f044",
@@ -41,24 +54,6 @@
         "server_name": "maps.apple.com",
         "insecure": true,
         "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "89.125.147.199",
-      "port": 443,
-      "uuid": "246b101b-4e4a-451f-8e9c-5e8d3b64b4ef",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "maps.apple.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
         "reality": true,
         "public_key": "iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg",
         "short_id": ""
@@ -77,42 +72,6 @@
         "headers": {
           "Host": "uae.unixzone.us"
         }
-      }
-    },
-    {
-      "tag": "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "89.125.147.199",
-      "port": 443,
-      "uuid": "cabd9303-ae32-4d25-86b9-26b312d0f044",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "maps.apple.com",
-        "insecure": true,
-        "client_fingerprint": "random",
-        "reality": true,
-        "public_key": "iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇦🇪 阿联酋 (UAE) 05 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "89.125.147.199",
-      "port": 443,
-      "uuid": "cabd9303-ae32-4d25-86b9-26b312d0f044",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "maps.apple.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg",
-        "short_id": ""
       }
     }
   ]
