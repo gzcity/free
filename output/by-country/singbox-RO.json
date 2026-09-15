@@ -12,8 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇴 RO 01 - xiaohe",
-        "🇷🇴 RO 02 - xiaohe"
+        "🇷🇴 RO 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -27,15 +26,6 @@
     },
     {
       "tag": "🇷🇴 RO 01 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "154.46.31.106",
-      "port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "QFWzCw2uX9B9i6qAYeFBIE"
-    },
-    {
-      "tag": "🇷🇴 RO 02 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "bogging-eyeteeth-fly.freesocks.work",

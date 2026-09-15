@@ -12,8 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 CZ 01 - xiaohe",
-        "🇨🇿 CZ 02 - xiaohe"
+        "🇨🇿 CZ 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -29,35 +28,20 @@
       "tag": "🇨🇿 CZ 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.21.70.21",
-      "port": 8080,
-      "uuid": "33918b20-9e02-4dc6-8b30-79b2d4b2e0e6",
-      "flow": "",
-      "ws": {
-        "path": "/eyJqdW5rIjoiUjJBU3JkVlRwSWtnciIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbImJwYi55b3VzZWYuaXNlZ2Fyby5jb20iXX0",
-        "headers": {
-          "Host": "auto-scale-238b2b.infra-core-1630dd.workers.dev"
-        }
-      }
-    },
-    {
-      "tag": "🇨🇿 CZ 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.21.69.37",
-      "port": 443,
-      "uuid": "911b84e1-d046-4fbf-bfc0-c168791115ef",
+      "server": "172.66.44.124",
+      "port": 8443,
+      "uuid": "b2f2f9f2-1864-48ea-839b-22815faff1f1",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "12yGBAe0K3gn0z0f.MeHrShaDHaDDadI8.WorkERs.deV",
+        "server_name": "stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/vl/uWq9DFRgj8BwQiSXmZ46",
+        "path": "/",
         "headers": {
-          "Host": "12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev"
+          "Host": "stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev"
         }
       }
     }
