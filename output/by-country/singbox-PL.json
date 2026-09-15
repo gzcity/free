@@ -12,8 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇵🇱 PL 01 - xiaohe",
-        "🇵🇱 PL 02 - xiaohe"
+        "🇵🇱 PL 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -27,15 +26,6 @@
     },
     {
       "tag": "🇵🇱 PL 01 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "64.176.64.194",
-      "port": 25585,
-      "uuid": "6eebb521-1844-4c3c-bf54-fb0e19870f80",
-      "flow": ""
-    },
-    {
-      "tag": "🇵🇱 PL 02 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "194.61.121.93",

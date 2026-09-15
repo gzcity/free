@@ -12,7 +12,12 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇨 SC 01 - xiaohe"
+        "🇸🇨 SC 01 - xiaohe",
+        "🇸🇨 SC 02 - xiaohe",
+        "🇸🇨 SC 03 - xiaohe",
+        "🇸🇨 SC 04 - xiaohe",
+        "🇸🇨 SC 05 - xiaohe",
+        "🇸🇨 SC 06 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -28,8 +33,83 @@
       "tag": "🇸🇨 SC 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.18.34.14",
-      "port": 2095,
+      "server": "188.114.97.6",
+      "port": 2052,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "162.159.38.127",
+      "port": 2052,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "flow": "",
+      "ws": {
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "108.162.198.178",
+      "port": 8880,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "162.159.39.218",
+      "port": 2082,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "flow": "",
+      "ws": {
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "162.159.24.131",
+      "port": 2082,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "flow": "",
+      "ws": {
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC 06 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.64.42.85",
+      "port": 2086,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "flow": "",
       "ws": {

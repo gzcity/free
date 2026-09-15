@@ -15,8 +15,7 @@
         "🇮🇹 意大利 (Italy) 01 - xiaohe",
         "🇮🇹 意大利 (Italy) 02 - xiaohe",
         "🇮🇹 意大利 (Italy) 03 - xiaohe",
-        "🇮🇹 意大利 (Italy) 04 - xiaohe",
-        "🇮🇹 意大利 (Italy) 05 - xiaohe"
+        "🇮🇹 意大利 (Italy) 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -32,19 +31,19 @@
       "tag": "🇮🇹 意大利 (Italy) 01 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "66.245.207.70",
-      "port": 8388,
+      "server": "185.164.175.81",
+      "port": 19999,
       "method": "aes-256-gcm",
-      "password": "qMvJmCbMduKUoeHq"
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "tag": "🇮🇹 意大利 (Italy) 02 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "185.164.175.81",
-      "port": 19999,
+      "server": "57.131.48.45",
+      "port": 8388,
       "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+      "password": "itzvpn@321"
     },
     {
       "tag": "🇮🇹 意大利 (Italy) 03 - xiaohe",
@@ -59,31 +58,10 @@
       "tag": "🇮🇹 意大利 (Italy) 04 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "158.180.231.216",
-      "port": 443,
-      "uuid": "b585dc5e-55bf-4a8b-913a-27c9ccac05c3",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "bab-6.site",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/vws/",
-        "headers": {
-          "Host": "bab-6.site"
-        }
-      }
-    },
-    {
-      "tag": "🇮🇹 意大利 (Italy) 05 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "57.131.48.45",
-      "port": 8388,
-      "method": "aes-256-gcm",
-      "password": "itzvpn@321"
+      "server": "204.216.216.23",
+      "port": 10086,
+      "uuid": "9f0285ee-20ca-4953-bcdb-86a920652923",
+      "flow": ""
     }
   ]
 }

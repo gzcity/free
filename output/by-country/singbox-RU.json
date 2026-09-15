@@ -18,7 +18,8 @@
         "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 06 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 07 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 07 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 08 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -33,29 +34,53 @@
     {
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "195.133.23.200",
-      "port": 7018,
-      "method": "aes-256-gcm",
-      "password": "81a20429165df87e"
+      "type": "vless",
+      "server": "46.8.200.91",
+      "port": 443,
+      "uuid": "b8201bab-fa6c-4f6e-b289-b5da660c6f69",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cf3.rumedia-cdn.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/cdn/v3/live",
+        "headers": {
+          "Host": "cf3.rumedia-cdn.com"
+        }
+      }
     },
     {
       "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "78.159.247.246",
+      "port": 443,
+      "uuid": "1852b02c-1828-40eb-81ff-4de3d097cb35",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "sb2.hat.onl",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/ws",
+        "headers": {
+          "Host": "sb2.hat.onl"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "46.17.42.166",
       "port": 50111,
       "method": "aes-256-gcm",
       "password": "6b39ae3234dfd68b"
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "130.49.189.158",
-      "port": 43558,
-      "method": "chacha20-ietf-poly1305",
-      "password": "/QFycb02d87cByC9+5ZRSygI1avHiPXkgYG2yc+TnGA="
     },
     {
       "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
@@ -81,6 +106,15 @@
     {
       "tag": "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
       "udp": true,
+      "type": "shadowsocks",
+      "server": "195.133.23.200",
+      "port": 7018,
+      "method": "aes-256-gcm",
+      "password": "81a20429165df87e"
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 06 - xiaohe",
+      "udp": true,
       "type": "vless",
       "server": "78.159.247.246",
       "port": 443,
@@ -100,22 +134,34 @@
       }
     },
     {
-      "tag": "🇷🇺 俄罗斯 (Russia) 06 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "195.133.5.102",
-      "port": 7018,
-      "method": "aes-256-gcm",
-      "password": "895b4b796a357570"
-    },
-    {
       "tag": "🇷🇺 俄罗斯 (Russia) 07 - xiaohe",
       "udp": true,
+      "type": "vless",
+      "server": "78.159.247.246",
+      "port": 443,
+      "uuid": "1852b02c-1828-40eb-81ff-4de3d097cb35",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "sb2.hat.onl",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/ws",
+        "headers": {
+          "Host": "sb2.hat.onl"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 08 - xiaohe",
+      "udp": true,
       "type": "shadowsocks",
-      "server": "195.58.48.137",
-      "port": 7018,
-      "method": "aes-256-gcm",
-      "password": "8ad9d72a5571df86"
+      "server": "130.49.189.158",
+      "port": 43558,
+      "method": "chacha20-ietf-poly1305",
+      "password": "/QFycb02d87cByC9+5ZRSygI1avHiPXkgYG2yc+TnGA="
     }
   ]
 }
