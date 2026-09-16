@@ -12,8 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇦 SA 01 - xiaohe",
-        "🇸🇦 SA 02 - xiaohe"
+        "🇸🇦 SA 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -29,25 +28,7 @@
       "tag": "🇸🇦 SA 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "81.208.170.142",
-      "port": 1500,
-      "uuid": "e332f028-d343-5b44-8016-b3130f39e133",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.ebay.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "VQxVgczORkbSNdDrkNOYs6zMBINpViztTKDuWCeQsVE",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇸🇦 SA 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "sa1.zuoai.cf",
+      "server": "91.209.253.244",
       "port": 443,
       "uuid": "b09dfed1-90fa-4353-8bdf-de1edb2e2d79",
       "flow": "",

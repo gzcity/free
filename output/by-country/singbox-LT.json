@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇪 IE 01 - xiaohe"
+        "🇱🇹 LT 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,13 +25,19 @@
       "tag": "block"
     },
     {
-      "tag": "🇮🇪 IE 01 - xiaohe",
+      "tag": "🇱🇹 LT 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "20.107.184.151",
-      "port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "zziXHDOFXc4qRjoj"
+      "type": "vless",
+      "server": "88.216.69.30",
+      "port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "vms.lifetime06.workers.dev"
+        }
+      }
     }
   ]
 }
