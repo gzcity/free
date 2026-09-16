@@ -14,11 +14,7 @@
       "outbounds": [
         "🇳🇴 NO 01 - xiaohe",
         "🇳🇴 NO 02 - xiaohe",
-        "🇳🇴 NO 03 - xiaohe",
-        "🇳🇴 NO 04 - xiaohe",
-        "🇳🇴 NO 05 - xiaohe",
-        "🇳🇴 NO 06 - xiaohe",
-        "🇳🇴 NO 07 - xiaohe"
+        "🇳🇴 NO 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -32,51 +28,6 @@
     },
     {
       "tag": "🇳🇴 NO 01 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "aldebaran.yokkastars.com",
-      "port": 40443,
-      "uuid": "ed91e79c-f6bf-4fba-8cc0-6d45acaec22b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "deepl.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "dvx6zPztKbgHpYaW6J4OZQC74Uy0JS6HUVdDfbjG5V4",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇳🇴 NO 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "151.242.168.125",
-      "port": 390,
-      "uuid": "7b363f9c-3df9-4b60-a789-9cd36be0bdfe",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "bowandbead.com",
-        "insecure": true,
-        "client_fingerprint": "edge",
-        "reality": true,
-        "public_key": "5RCgAVjaT7hwdVIKAEULswXGqR127ZOZV6X17nEhYk8",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇳🇴 NO 03 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "185.213.23.63",
-      "port": 990,
-      "method": "chacha20-ietf-poly1305",
-      "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
-    },
-    {
-      "tag": "🇳🇴 NO 04 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "46.29.238.88",
@@ -94,25 +45,7 @@
       }
     },
     {
-      "tag": "🇳🇴 NO 05 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "151.242.168.125",
-      "port": 390,
-      "uuid": "7b363f9c-3df9-4b60-a789-9cd36be0bdfe",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "bowandbead.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "5RCgAVjaT7hwdVIKAEULswXGqR127ZOZV6X17nEhYk8",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇳🇴 NO 06 - xiaohe",
+      "tag": "🇳🇴 NO 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "151.242.168.125",
@@ -130,7 +63,7 @@
       }
     },
     {
-      "tag": "🇳🇴 NO 07 - xiaohe",
+      "tag": "🇳🇴 NO 03 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "46.29.238.88",

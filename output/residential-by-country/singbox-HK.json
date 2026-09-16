@@ -12,9 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe"
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -38,26 +36,6 @@
         "server_name": "t.me%252fripaojiedian",
         "insecure": true
       }
-    },
-    {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "zfd-hkv2.kunlun01dns.com",
-      "port": 16113,
-      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "zfd-hkv2.kunlun01dns.com",
-      "port": 16115,
-      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
-      "alterId": 0,
-      "security": "auto"
     }
   ]
 }
