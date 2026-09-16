@@ -18,13 +18,7 @@
         "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 05 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 06 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 07 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 08 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 09 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 10 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 11 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 12 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 13 - xiaohe"
+        "🇦🇪 阿联酋 (UAE) 07 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -40,14 +34,20 @@
       "tag": "🇦🇪 阿联酋 (UAE) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "uae.unixzone.us",
-      "port": 22573,
-      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
+      "server": "151.242.160.148",
+      "port": 8090,
+      "uuid": "818eaf39-544f-4d1d-977e-87be7e33eecf",
       "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "askuhgfdsg.space.coupons",
+        "insecure": true,
+        "client_fingerprint": null
+      },
       "ws": {
-        "path": "/",
+        "path": "/ws",
         "headers": {
-          "Host": "uae.unixzone.us"
+          "Host": "askuhgfdsg.space.coupons"
         }
       }
     },
@@ -55,7 +55,25 @@
       "tag": "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "uae.unixzone.us",
+      "server": "89.125.147.199",
+      "port": 443,
+      "uuid": "cabd9303-ae32-4d25-86b9-26b312d0f044",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "maps.apple.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "84.235.244.108",
       "port": 22573,
       "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
       "flow": "",
@@ -63,21 +81,6 @@
         "path": "/",
         "headers": {
           "Host": "uae.unixzone.us"
-        }
-      }
-    },
-    {
-      "tag": "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "45.130.125.201",
-      "port": 80,
-      "uuid": "dc8a9493-c54a-459e-d060-81a700000001",
-      "flow": "",
-      "ws": {
-        "path": "/sync",
-        "headers": {
-          "Host": "nahan-core.netizo09.workers.dev"
         }
       }
     },
@@ -118,6 +121,27 @@
       "tag": "🇦🇪 阿联酋 (UAE) 06 - xiaohe",
       "udp": true,
       "type": "vless",
+      "server": "151.242.160.148",
+      "port": 8090,
+      "uuid": "818eaf39-544f-4d1d-977e-87be7e33eecf",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "askuhgfdsg.space.coupons",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/ws",
+        "headers": {
+          "Host": "askuhgfdsg.space.coupons"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇪 阿联酋 (UAE) 07 - xiaohe",
+      "udp": true,
+      "type": "vless",
       "server": "89.125.147.199",
       "port": 443,
       "uuid": "cabd9303-ae32-4d25-86b9-26b312d0f044",
@@ -130,138 +154,6 @@
         "reality": true,
         "public_key": "iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg",
         "short_id": ""
-      }
-    },
-    {
-      "tag": "🇦🇪 阿联酋 (UAE) 07 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "84.235.244.108",
-      "port": 22573,
-      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "uae.unixzone.us"
-        }
-      }
-    },
-    {
-      "tag": "🇦🇪 阿联酋 (UAE) 08 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.21.67.122",
-      "port": 443,
-      "uuid": "ee556a4f-d9f6-44de-af02-42c51659416a",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "novantunnel.tech",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/Novan-AE9",
-        "headers": {
-          "Host": "novantunnel.tech"
-        }
-      }
-    },
-    {
-      "tag": "🇦🇪 阿联酋 (UAE) 09 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "89.125.147.199",
-      "port": 443,
-      "uuid": "246b101b-4e4a-451f-8e9c-5e8d3b64b4ef",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "maps.apple.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇦🇪 阿联酋 (UAE) 10 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "84.235.244.108",
-      "port": 22573,
-      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "uae.unixzone.us"
-        }
-      }
-    },
-    {
-      "tag": "🇦🇪 阿联酋 (UAE) 11 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.67.221.230",
-      "port": 443,
-      "uuid": "ee556a4f-d9f6-44de-af02-42c51659416a",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "novantunnel.tech",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/Novan-AE9",
-        "headers": {
-          "Host": "novantunnel.tech"
-        }
-      }
-    },
-    {
-      "tag": "🇦🇪 阿联酋 (UAE) 12 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "211.48.30.184",
-      "port": 30017,
-      "uuid": "beec57a5-8266-4279-b279-f495bdc70699",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev"
-        }
-      }
-    },
-    {
-      "tag": "🇦🇪 阿联酋 (UAE) 13 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.237.12.208",
-      "port": 18836,
-      "uuid": "1d16c6e0-1bbe-435b-b661-90043fee999c",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "notls.lukongtou.eu.org",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/Telegram-WangCai2🇨🇳",
-        "headers": {
-          "Host": "notls.lukongtou.eu.org"
-        }
       }
     }
   ]

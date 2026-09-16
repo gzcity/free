@@ -14,7 +14,8 @@
       "outbounds": [
         "🇹🇭 TH 01 - xiaohe",
         "🇹🇭 TH 02 - xiaohe",
-        "🇹🇭 TH 03 - xiaohe"
+        "🇹🇭 TH 03 - xiaohe",
+        "🇹🇭 TH 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -51,6 +52,16 @@
       "tag": "🇹🇭 TH 02 - xiaohe",
       "udp": true,
       "type": "vmess",
+      "server": "36.133.78.37",
+      "port": 50017,
+      "uuid": "9195e0f1-f466-4e69-838f-a95519b5d45e",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇹🇭 TH 03 - xiaohe",
+      "udp": true,
+      "type": "vmess",
       "server": "118.193.57.167",
       "port": 49667,
       "uuid": "d46bf492-45f4-4c33-82d1-ea2a1cb54eb6",
@@ -64,7 +75,7 @@
       }
     },
     {
-      "tag": "🇹🇭 TH 03 - xiaohe",
+      "tag": "🇹🇭 TH 04 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "118.193.57.167",

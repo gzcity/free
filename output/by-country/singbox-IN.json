@@ -13,9 +13,7 @@
       "tag": "auto",
       "outbounds": [
         "🇮🇳 印度 (India) 01 - xiaohe",
-        "🇮🇳 印度 (India) 02 - xiaohe",
-        "🇮🇳 印度 (India) 03 - xiaohe",
-        "🇮🇳 印度 (India) 04 - xiaohe"
+        "🇮🇳 印度 (India) 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -29,27 +27,6 @@
     },
     {
       "tag": "🇮🇳 印度 (India) 01 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.21.69.118",
-      "port": 443,
-      "uuid": "1443b7a1-7ba9-4ec9-b904-2e867367b5d7",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "odd-violet-5440.asdgrweeee13.workers.dev",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/sync",
-        "headers": {
-          "Host": "odd-violet-5440.asdgrweeee13.workers.dev"
-        }
-      }
-    },
-    {
-      "tag": "🇮🇳 印度 (India) 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "194.61.31.126",
@@ -67,40 +44,21 @@
       }
     },
     {
-      "tag": "🇮🇳 印度 (India) 03 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "152.67.8.205",
-      "port": 80,
-      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
-      "alterId": 0,
-      "security": "auto",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇮🇳 印度 (India) 04 - xiaohe",
+      "tag": "🇮🇳 印度 (India) 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "172.67.208.1",
-      "port": 443,
-      "uuid": "1443b7a1-7ba9-4ec9-b904-2e867367b5d7",
+      "server": "194.61.31.126",
+      "port": 2053,
+      "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "odd-violet-5440.asdgrweeee13.workers.dev",
+        "server_name": "www.apple.com",
         "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/sync",
-        "headers": {
-          "Host": "odd-violet-5440.asdgrweeee13.workers.dev"
-        }
+        "client_fingerprint": "random",
+        "reality": true,
+        "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
+        "short_id": ""
       }
     }
   ]

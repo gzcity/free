@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇨 SC 01 - xiaohe"
+        "🇺🇸 美国 (United States) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,24 +25,16 @@
       "tag": "block"
     },
     {
-      "tag": "🇸🇨 SC 01 - xiaohe",
+      "tag": "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "45.130.125.73",
+      "type": "trojan",
+      "server": "64.20.209.125",
       "port": 443,
-      "uuid": "50414e45-4c5f-5a45-5553-cea58e4acf49",
-      "flow": "",
+      "password": "UQfj7bdfjibTjpUHfg72aew51S7fB32g",
       "tls": {
         "enabled": true,
-        "server_name": "web-app-aug8yr.app-f1qsy1.workers.dev",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/api/ws",
-        "headers": {
-          "Host": "web-app-aug8yr.app-f1qsy1.workers.dev"
-        }
+        "server_name": "bright.bitgas.org",
+        "insecure": true
       }
     }
   ]
