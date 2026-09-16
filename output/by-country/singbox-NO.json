@@ -13,8 +13,7 @@
       "tag": "auto",
       "outbounds": [
         "🇳🇴 NO 01 - xiaohe",
-        "🇳🇴 NO 02 - xiaohe",
-        "🇳🇴 NO 03 - xiaohe"
+        "🇳🇴 NO 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -38,7 +37,7 @@
         "enabled": true,
         "server_name": "deepl.com",
         "insecure": true,
-        "client_fingerprint": "qq",
+        "client_fingerprint": "chrome",
         "reality": true,
         "public_key": "aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc",
         "short_id": ""
@@ -56,27 +55,9 @@
         "enabled": true,
         "server_name": "bowandbead.com",
         "insecure": true,
-        "client_fingerprint": "qq",
-        "reality": true,
-        "public_key": "5RCgAVjaT7hwdVIKAEULswXGqR127ZOZV6X17nEhYk8",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇳🇴 NO 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "46.29.238.88",
-      "port": 40443,
-      "uuid": "db320947-adfb-400d-b60b-383b8324bffe",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "deepl.com",
-        "insecure": true,
         "client_fingerprint": "chrome",
         "reality": true,
-        "public_key": "aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc",
+        "public_key": "5RCgAVjaT7hwdVIKAEULswXGqR127ZOZV6X17nEhYk8",
         "short_id": ""
       }
     }

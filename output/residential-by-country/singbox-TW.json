@@ -14,9 +14,7 @@
       "outbounds": [
         "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaohe"
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -32,9 +30,9 @@
       "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "60.248.219.78",
+      "server": "60.248.219.52",
       "port": 443,
-      "uuid": "c1c04450-bf71-4049-ad0c-9cf6d94d9f1f",
+      "uuid": "f265b49a-70a3-407a-b17b-e45dfb9f255c",
       "flow": "",
       "tls": {
         "enabled": true,
@@ -45,30 +43,12 @@
       "ws": {
         "path": "/81574b6b-c9d7-44a0-b83d-dad56e8cb530",
         "headers": {
-          "Host": "ty986gfazs.cainiaohub.xyz"
+          "Host": "60.248.219.52"
         }
       }
     },
     {
       "tag": "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "r3mrcg001286ek2.cybervena.com",
-      "port": 50099,
-      "method": "chacha20-ietf-poly1305",
-      "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
-    },
-    {
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "R3MRCG001287H3P.cybervena.com",
-      "port": 50099,
-      "method": "chacha20-ietf-poly1305",
-      "password": "b1ae0fce-9340-4f2e-882d-fdb2218e2e2b"
-    },
-    {
-      "tag": "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "82259754d625.oylfmxz.cn",
@@ -89,13 +69,25 @@
       }
     },
     {
-      "tag": "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaohe",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "61.231.15.229",
-      "port": 50099,
-      "method": "chacha20-ietf-poly1305",
-      "password": "b1ae0fce-9340-4f2e-882d-fdb2218e2e2b"
+      "type": "vmess",
+      "server": "7dba81fc3a0b.oylfmxz.cn",
+      "port": 443,
+      "uuid": "d90e4077-bc7e-414d-a650-70bf1baae4d6",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true
+      },
+      "ws": {
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
     }
   ]
 }

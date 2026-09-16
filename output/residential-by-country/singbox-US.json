@@ -12,9 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
-        "🇺🇸 美国 (United States) 02 (家宽) - xiaohe",
-        "🇺🇸 美国 (United States) 03 (家宽) - xiaohe"
+        "🇺🇸 美国 (United States) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -34,34 +32,6 @@
       "port": 54321,
       "method": "aes-256-gcm",
       "password": "Proxy2024"
-    },
-    {
-      "tag": "🇺🇸 美国 (United States) 02 (家宽) - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "64.20.209.125",
-      "port": 443,
-      "password": "UQfj7bdfjibTjpUHfg72aew51S7fB32g",
-      "tls": {
-        "enabled": true,
-        "server_name": "bright.bitgas.org",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇺🇸 美国 (United States) 03 (家宽) - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "162.159.38.127",
-      "port": 2082,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "flow": "",
-      "ws": {
-        "path": "/?ed=2560security=tls+",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
     }
   ]
 }

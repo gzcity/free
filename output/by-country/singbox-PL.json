@@ -12,7 +12,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇵🇱 PL 01 - xiaohe"
+        "🇵🇱 PL 01 - xiaohe",
+        "🇵🇱 PL 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -32,6 +33,16 @@
       "port": 7538,
       "method": "chacha20-ietf-poly1305",
       "password": "U9YAoqBgg5VyGBc6vQv1sN"
+    },
+    {
+      "tag": "🇵🇱 PL 02 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "178.95.176.16",
+      "port": 2086,
+      "uuid": "f6361af8-bb8f-4609-bf5d-3fc0f688f47b",
+      "alterId": 0,
+      "security": "auto"
     }
   ]
 }
