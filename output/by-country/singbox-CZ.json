@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇨🇿 CZ 01 - xiaohe",
+        "🇨🇿 CZ 02 - xiaohe"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "tag": "🇨🇿 CZ 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.67.214.25",
+      "port": 2053,
+      "uuid": "ef23616d-8a9d-4b22-b2f5-9bda864de179",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "INDEX.Arcane509.Workers.DEV",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "index.arcane509.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇿 CZ 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "cz1.zuoai.cf",
+      "port": 443,
+      "uuid": "b09dfed1-90fa-4353-8bdf-de1edb2e2d79",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nb.lovecf.ggff.net",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/proxyip=us.xiabibi.cf",
+        "headers": {
+          "Host": "nb.lovecf.ggff.net"
+        }
+      }
+    }
+  ]
+}

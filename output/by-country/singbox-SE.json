@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇷 BR 01 - xiaohe"
+        "🇸🇪 SE 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,13 +25,13 @@
       "tag": "block"
     },
     {
-      "tag": "🇧🇷 BR 01 - xiaohe",
+      "tag": "🇸🇪 SE 01 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "216.128.168.190",
-      "port": 8388,
-      "method": "aes-256-gcm",
-      "password": "owVdNnQcdPgthSyX"
+      "server": "51.170.179.166",
+      "port": 45819,
+      "method": "2022-blake3-chacha20-poly1305",
+      "password": "4pGFK0x/lqudD4LJU8isjFCNxlw04AnKc72lFxetSZU="
     }
   ]
 }

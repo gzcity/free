@@ -27,11 +27,15 @@
     {
       "tag": "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "23.252.104.131",
-      "port": 54321,
-      "method": "aes-256-gcm",
-      "password": "Proxy2024"
+      "type": "trojan",
+      "server": "64.20.209.125",
+      "port": 443,
+      "password": "UQfj7bdfjibTjpUHfg72aew51S7fB32g",
+      "tls": {
+        "enabled": true,
+        "server_name": "bright.bitgas.org",
+        "insecure": true
+      }
     }
   ]
 }

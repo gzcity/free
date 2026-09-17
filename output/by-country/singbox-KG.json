@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇻 LV 01 - xiaohe"
+        "🇰🇬 KG 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,17 +25,23 @@
       "tag": "block"
     },
     {
-      "tag": "🇱🇻 LV 01 - xiaohe",
+      "tag": "🇰🇬 KG 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "atomic-prase23893.my-vm.work",
-      "port": 8088,
-      "uuid": "tmp_user",
+      "server": "104.24.31.89",
+      "port": 443,
+      "uuid": "aebe5a70-0ca3-46ce-8208-8b5bab1346ce",
       "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "rAyAn-007.nAsTaRaN.DpDnS.OrG",
+        "insecure": true,
+        "client_fingerprint": null
+      },
       "ws": {
-        "path": "/api",
+        "path": "/?ed=2560",
         "headers": {
-          "Host": "queuev4.vk.com"
+          "Host": "rayan-007.nastaran.dpdns.org"
         }
       }
     }
