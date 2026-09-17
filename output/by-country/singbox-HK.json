@@ -18,11 +18,7 @@
         "🇭🇰 中国香港 (Hong Kong) 04 - xiaohe",
         "🇭🇰 中国香港 (Hong Kong) 05 - xiaohe",
         "🇭🇰 中国香港 (Hong Kong) 06 - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 07 - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 08 - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 09 - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 10 - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 11 - xiaohe"
+        "🇭🇰 中国香港 (Hong Kong) 07 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -37,42 +33,34 @@
     {
       "tag": "🇭🇰 中国香港 (Hong Kong) 01 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "wwafj5lhl6bi8au9.v.3dns.vip",
+      "type": "trojan",
+      "server": "119.246.1.143",
       "port": 443,
-      "uuid": "f23bb427c1f94373876c2f43e9f790f3",
-      "alterId": 0,
-      "security": "auto",
+      "password": "BxceQaOe",
       "tls": {
         "enabled": true,
-        "server_name": "wwafj5lhl6bi8au9.v.3dns.vip",
+        "server_name": "119.246.1.143",
         "insecure": true
-      },
-      "ws": {
-        "path": "/ws-vmess",
-        "headers": {
-          "Host": "wwafj5lhl6bi8au9.v.3dns.vip"
-        }
       }
     },
     {
       "tag": "🇭🇰 中国香港 (Hong Kong) 02 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "www.shopify.com",
+      "type": "vless",
+      "server": "104.16.60.10",
       "port": 443,
-      "uuid": "3aa71202-a099-49c1-99fc-6662f3335369",
-      "alterId": 0,
-      "security": "auto",
+      "uuid": "cdf5205e-897f-46a7-8d7f-21a61a80b466",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "yoga-suggesting-recording-calls.trycloudflare.com",
-        "insecure": true
+        "server_name": "hk1.69lover.my",
+        "insecure": true,
+        "client_fingerprint": null
       },
       "ws": {
-        "path": "/3aa71202-a099-49c1-99fc-6662f3335369-vm",
+        "path": "/api/v2/e2fe4e52a165854d/stream",
         "headers": {
-          "Host": "yoga-suggesting-recording-calls.trycloudflare.com"
+          "Host": "hk1.69lover.my"
         }
       }
     },
@@ -80,54 +68,46 @@
       "tag": "🇭🇰 中国香港 (Hong Kong) 03 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "47.240.80.220",
-      "port": 2052,
-      "password": "tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz",
+      "server": "119.246.1.143",
+      "port": 443,
+      "password": "BxceQaOe",
       "tls": {
         "enabled": true,
-        "server_name": "vpn.12169.top",
+        "server_name": "t.me",
         "insecure": true
       }
     },
     {
       "tag": "🇭🇰 中国香港 (Hong Kong) 04 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "vah4urdzl3jdx5r2.v.3dns.vip",
+      "type": "trojan",
+      "server": "119.246.1.143",
       "port": 443,
-      "uuid": "f23bb427c1f94373876c2f43e9f790f3",
-      "alterId": 0,
-      "security": "auto",
+      "password": "BxceQaOe",
       "tls": {
         "enabled": true,
-        "server_name": "",
+        "server_name": "t.me%2Fripaojiedian",
         "insecure": true
-      },
-      "ws": {
-        "path": "/ws-vmess",
-        "headers": {
-          "Host": ""
-        }
       }
     },
     {
       "tag": "🇭🇰 中国香港 (Hong Kong) 05 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "8.218.184.4",
+      "type": "vless",
+      "server": "43.159.4.80",
       "port": 443,
-      "uuid": "f23bb427c1f94373876c2f43e9f790f3",
-      "alterId": 0,
-      "security": "auto",
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "NYcQg19zkwaCPM1B.v.3dns.vip",
-        "insecure": true
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": true,
+        "client_fingerprint": null
       },
       "ws": {
-        "path": "/ws-vmess",
+        "path": "/episode/files?ed=2560fp=chrome",
         "headers": {
-          "Host": "NYcQg19zkwaCPM1B.v.3dns.vip"
+          "Host": "cdn8848.776676.xyz"
         }
       }
     },
@@ -150,76 +130,13 @@
     {
       "tag": "🇭🇰 中国香港 (Hong Kong) 07 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "156.245.232.239",
-      "port": 35043,
-      "uuid": "b15e481d-17e4-41a8-84c2-23d4f0514d9a",
-      "alterId": 0,
-      "security": "auto",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "www.pubgmobile.com"
-        }
-      }
-    },
-    {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 08 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "47.83.19.148",
-      "port": 443,
-      "uuid": "f23bb427-c1f9-4373-876c-2f43e9f790f3",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "6JDvArazgU3qQR6Q.v.3dns.vip",
-        "insecure": true
-      },
-      "ws": {
-        "path": "/ws-vmess",
-        "headers": {
-          "Host": "6JDvArazgU3qQR6Q.v.3dns.vip"
-        }
-      }
-    },
-    {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 09 - xiaohe",
-      "udp": true,
       "type": "trojan",
-      "server": "119.246.1.143",
-      "port": 443,
-      "password": "BxceQaOe",
+      "server": "47.240.80.220",
+      "port": 2052,
+      "password": "tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz",
       "tls": {
         "enabled": true,
-        "server_name": "119.246.1.143",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 10 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "119.246.1.143",
-      "port": 443,
-      "password": "BxceQaOe",
-      "tls": {
-        "enabled": true,
-        "server_name": "t.me%25252fripaojiedian",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 11 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "119.246.1.143",
-      "port": 443,
-      "password": "BxceQaOe",
-      "tls": {
-        "enabled": true,
-        "server_name": "t.me",
+        "server_name": "vpn.12169.top",
         "insecure": true
       }
     }

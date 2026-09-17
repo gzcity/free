@@ -14,7 +14,10 @@
       "outbounds": [
         "🇫🇮 FI 01 - xiaohe",
         "🇫🇮 FI 02 - xiaohe",
-        "🇫🇮 FI 03 - xiaohe"
+        "🇫🇮 FI 03 - xiaohe",
+        "🇫🇮 FI 04 - xiaohe",
+        "🇫🇮 FI 05 - xiaohe",
+        "🇫🇮 FI 06 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -30,20 +33,20 @@
       "tag": "🇫🇮 FI 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "151.101.56.6",
+      "server": "212.104.128.106",
       "port": 443,
-      "uuid": "bd5bbbac-adc3-4b23-d3ac-8506694c0ef9",
+      "uuid": "b2593749-691c-428c-9481-14979cba3446",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "ssl.fastly.com",
+        "server_name": "xi.tbv.ccwu.cc",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/?RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS--@RK_VPS",
+        "path": "/proxyip=us.xiabibi.cf",
         "headers": {
-          "Host": "c12.com"
+          "Host": "xi.tbv.ccwu.cc"
         }
       }
     },
@@ -72,21 +75,78 @@
       "tag": "🇫🇮 FI 03 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.18.38.47",
-      "port": 2087,
-      "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
+      "server": "212.104.128.27",
+      "port": 443,
+      "uuid": "b2593749-691c-428c-9481-14979cba3446",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc",
+        "server_name": "xi.tbv.ccwu.cc",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "?ed=2560",
+        "path": "/proxyip=us.xiabibi.cf",
         "headers": {
-          "Host": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
+          "Host": "xi.tbv.ccwu.cc"
         }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "212.104.128.0",
+      "port": 443,
+      "uuid": "b2593749-691c-428c-9481-14979cba3446",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "xi.tbv.ccwu.cc",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/proxyip=us.xiabibi.cf",
+        "headers": {
+          "Host": "xi.tbv.ccwu.cc"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "185.79.138.71",
+      "port": 448,
+      "uuid": "0b0915d7-6800-4580-a44b-77d84f105e6a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.samsung.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇫🇮 FI 06 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "185.79.138.71",
+      "port": 448,
+      "uuid": "0b0915d7-6800-4580-a44b-77d84f105e6a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.samsung.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8",
+        "short_id": ""
       }
     }
   ]

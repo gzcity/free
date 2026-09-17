@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 (家宽) - xiaohe"
+        "🇮🇩 ID 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,17 +25,13 @@
       "tag": "block"
     },
     {
-      "tag": "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
+      "tag": "🇮🇩 ID 01 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "64.20.209.125",
-      "port": 443,
-      "password": "UQfj7bdfjibTjpUHfg72aew51S7fB32g",
-      "tls": {
-        "enabled": true,
-        "server_name": "bright.bitgas.org",
-        "insecure": true
-      }
+      "type": "shadowsocks",
+      "server": "103.160.63.199",
+      "port": 31348,
+      "method": "chacha20-ietf-poly1305",
+      "password": "8C5valhOd8vfwaTXUSZ6Zyb0Ip34lRR5z7P8az"
     }
   ]
 }

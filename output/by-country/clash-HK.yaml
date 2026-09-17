@@ -5,77 +5,57 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - xiaohe
-  type: vmess
-  server: wwafj5lhl6bi8au9.v.3dns.vip
+  type: trojan
+  server: 119.246.1.143
   port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
+  password: BxceQaOe
   udp: true
-  tls: true
+  sni: 119.246.1.143
   skip-cert-verify: true
-  servername: wwafj5lhl6bi8au9.v.3dns.vip
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: wwafj5lhl6bi8au9.v.3dns.vip
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
-  type: vmess
-  server: www.shopify.com
+  type: vless
+  server: 104.16.60.10
   port: 443
-  uuid: 3aa71202-a099-49c1-99fc-6662f3335369
-  alterId: 0
-  cipher: auto
+  uuid: cdf5205e-897f-46a7-8d7f-21a61a80b466
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: yoga-suggesting-recording-calls.trycloudflare.com
+  servername: hk1.69lover.my
   network: ws
   ws-opts:
-    path: /3aa71202-a099-49c1-99fc-6662f3335369-vm
+    path: /api/v2/e2fe4e52a165854d/stream
     headers:
-      Host: yoga-suggesting-recording-calls.trycloudflare.com
+      Host: hk1.69lover.my
 - name: 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
   type: trojan
-  server: 47.240.80.220
-  port: 2052
-  password: tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz
+  server: 119.246.1.143
+  port: 443
+  password: BxceQaOe
   udp: true
-  sni: vpn.12169.top
+  sni: t.me
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
-  type: vmess
-  server: vah4urdzl3jdx5r2.v.3dns.vip
+  type: trojan
+  server: 119.246.1.143
   port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
+  password: BxceQaOe
   udp: true
-  tls: true
+  sni: t.me%2Fripaojiedian
   skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: ''
 - name: 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
-  type: vmess
-  server: 8.218.184.4
+  type: vless
+  server: 43.159.4.80
   port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: NYcQg19zkwaCPM1B.v.3dns.vip
+  servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
-    path: /ws-vmess
+    path: /episode/files?ed=2560fp=chrome
     headers:
-      Host: NYcQg19zkwaCPM1B.v.3dns.vip
+      Host: cdn8848.776676.xyz
 - name: 🇭🇰 中国香港 (Hong Kong) 06 - xiaohe
   type: vmess
   server: 156.245.232.239
@@ -92,59 +72,12 @@ proxies:
     headers:
       Host: ''
 - name: 🇭🇰 中国香港 (Hong Kong) 07 - xiaohe
-  type: vmess
-  server: 156.245.232.239
-  port: 35043
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: www.pubgmobile.com
-- name: 🇭🇰 中国香港 (Hong Kong) 08 - xiaohe
-  type: vmess
-  server: 47.83.19.148
-  port: 443
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 09 - xiaohe
   type: trojan
-  server: 119.246.1.143
-  port: 443
-  password: BxceQaOe
+  server: 47.240.80.220
+  port: 2052
+  password: tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz
   udp: true
-  sni: 119.246.1.143
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 10 - xiaohe
-  type: trojan
-  server: 119.246.1.143
-  port: 443
-  password: BxceQaOe
-  udp: true
-  sni: t.me%25252fripaojiedian
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 11 - xiaohe
-  type: trojan
-  server: 119.246.1.143
-  port: 443
-  password: BxceQaOe
-  udp: true
-  sni: t.me
+  sni: vpn.12169.top
   skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
@@ -158,10 +91,6 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 06 - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 07 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 08 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 09 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 10 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 11 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -174,9 +103,5 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 06 - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 07 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 08 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 09 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 10 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 11 - xiaohe
 rules:
 - MATCH,PROXIES

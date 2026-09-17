@@ -16,9 +16,7 @@
         "🇫🇷 法国 (France) 02 - xiaohe",
         "🇫🇷 法国 (France) 03 - xiaohe",
         "🇫🇷 法国 (France) 04 - xiaohe",
-        "🇫🇷 法国 (France) 05 - xiaohe",
-        "🇫🇷 法国 (France) 06 - xiaohe",
-        "🇫🇷 法国 (France) 07 - xiaohe"
+        "🇫🇷 法国 (France) 05 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -34,28 +32,7 @@
       "tag": "🇫🇷 法国 (France) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.21.12.63",
-      "port": 8443,
-      "uuid": "ef23616d-8a9d-4b22-b2f5-9bda864de179",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "INDEX.Arcane509.Workers.DEV",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "index.arcane509.workers.dev"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "81.95.4.189",
+      "server": "149.202.58.99",
       "port": 443,
       "uuid": "b585dc5e-55bf-4a8b-913a-27c9ccac05c3",
       "flow": "",
@@ -68,8 +45,26 @@
       "ws": {
         "path": "/vws/",
         "headers": {
-          "Host": "bab-6.site"
+          "Host": "149.202.58.99"
         }
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "51.77.217.70",
+      "port": 2053,
+      "uuid": "bf16ee0c-8b3c-41e4-ab3a-8b48033c404e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w",
+        "short_id": ""
       }
     },
     {
@@ -97,55 +92,22 @@
       "tag": "🇫🇷 法国 (France) 04 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "208.103.161.249",
-      "port": 80,
-      "uuid": "a3c51f71-ffb5-4c80-a136-cee4b36d6e85",
+      "server": "51.77.217.70",
+      "port": 2053,
+      "uuid": "bf16ee0c-8b3c-41e4-ab3a-8b48033c404e",
       "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "kAmRaN01-aFgmDQ-1.KaMRan-01.wOrkeRs.DEv"
-        }
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w",
+        "short_id": ""
       }
     },
     {
       "tag": "🇫🇷 法国 (France) 05 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "162.19.204.71",
-      "port": 1234,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 06 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "149.202.58.99",
-      "port": 443,
-      "uuid": "b585dc5e-55bf-4a8b-913a-27c9ccac05c3",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "bab-6.site",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/vws/",
-        "headers": {
-          "Host": "bab-6.site"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 07 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "149.202.58.99",
