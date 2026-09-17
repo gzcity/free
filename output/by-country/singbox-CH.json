@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇨🇭 CH 01 - xiaohe"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "tag": "🇨🇭 CH 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "94.26.35.139",
+      "port": 25720,
+      "uuid": "be83425f-74c5-4b03-9c4b-20aa16322698",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.samsung.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "OueudVX2rTpyeEb2bNW3Jx3WtgSX4zFERs6yt8Szv0E",
+        "short_id": ""
+      }
+    }
+  ]
+}

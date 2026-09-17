@@ -33,7 +33,7 @@
       "tag": "🇫🇮 FI 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "212.104.128.106",
+      "server": "212.104.128.27",
       "port": 443,
       "uuid": "b2593749-691c-428c-9481-14979cba3446",
       "flow": "",
@@ -54,28 +54,7 @@
       "tag": "🇫🇮 FI 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "a2.arshia-nova.ir",
-      "port": 443,
-      "uuid": "bd5bbbac-adc3-4b23-d3ac-8506694c0ef9",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ssl.fastly.com",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "c12.com"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "212.104.128.27",
+      "server": "212.104.128.244",
       "port": 443,
       "uuid": "b2593749-691c-428c-9481-14979cba3446",
       "flow": "",
@@ -93,10 +72,31 @@
       }
     },
     {
+      "tag": "🇫🇮 FI 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "a2.arshia-nova.ir",
+      "port": 443,
+      "uuid": "cc3ec459-8d76-4066-ab4b-2614608f1afb",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ssl.fastly.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "c12.com"
+        }
+      }
+    },
+    {
       "tag": "🇫🇮 FI 04 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "212.104.128.0",
+      "server": "212.104.128.206",
       "port": 443,
       "uuid": "b2593749-691c-428c-9481-14979cba3446",
       "flow": "",
