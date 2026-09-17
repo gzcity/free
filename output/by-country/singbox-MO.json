@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇳🇴 NO 01 - xiaohe"
+        "🇲🇴 MO 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,21 +25,24 @@
       "tag": "block"
     },
     {
-      "tag": "🇳🇴 NO 01 - xiaohe",
+      "tag": "🇲🇴 MO 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "46.29.238.32",
-      "port": 40443,
-      "uuid": "ed91e79c-f6bf-4fba-8cc0-6d45acaec22b",
+      "server": "45.202.247.152",
+      "port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "deepl.com",
+        "server_name": "cdn8848.776676.xyz",
         "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "dvx6zPztKbgHpYaW6J4OZQC74Uy0JS6HUVdDfbjG5V4",
-        "short_id": ""
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/jump.html/star",
+        "headers": {
+          "Host": "cdn8848.776676.xyz"
+        }
       }
     }
   ]

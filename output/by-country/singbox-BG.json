@@ -46,21 +46,6 @@
       "udp": true,
       "type": "vless",
       "server": "192.145.31.5",
-      "port": 8443,
-      "uuid": "9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "neth9.lunariai.ru",
-        "insecure": true,
-        "client_fingerprint": null
-      }
-    },
-    {
-      "tag": "🇧🇬 BG 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "192.145.31.5",
       "port": 443,
       "uuid": "9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a",
       "flow": "",
@@ -69,6 +54,21 @@
         "headers": {
           "Host": "192.145.31.5"
         }
+      }
+    },
+    {
+      "tag": "🇧🇬 BG 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "192.145.31.5",
+      "port": 8443,
+      "uuid": "9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "neth9.lunariai.ru",
+        "insecure": true,
+        "client_fingerprint": null
       }
     }
   ]

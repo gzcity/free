@@ -13,8 +13,7 @@
       "tag": "auto",
       "outbounds": [
         "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -30,34 +29,25 @@
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "46.8.200.91",
-      "port": 443,
-      "uuid": "b8201bab-fa6c-4f6e-b289-b5da660c6f69",
+      "server": "64.225.110.247",
+      "port": 2083,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "cf3.rumedia-cdn.com",
+        "server_name": "cdn8848.776676.xyz",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/cdn/v3/live",
+        "path": "/",
         "headers": {
-          "Host": "cf3.rumedia-cdn.com"
+          "Host": "cdn8848.776676.xyz"
         }
       }
     },
     {
       "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "130.49.189.158",
-      "port": 43558,
-      "method": "chacha20-ietf-poly1305",
-      "password": "/QFycb02d87cByC9+5ZRSygI1avHiPXkgYG2yc+TnGA="
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "176.32.35.44",
