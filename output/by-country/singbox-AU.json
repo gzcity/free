@@ -12,9 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 03 - xiaohe"
+        "🇦🇺 澳大利亚 (Australia) 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -30,27 +28,6 @@
       "tag": "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "192.65.217.123",
-      "port": 443,
-      "uuid": "1d16c6e0-1bbe-435b-b661-90043fee999c",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "notls.lukongtou.eu.org",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "notls.lukongtou.eu.org"
-        }
-      }
-    },
-    {
-      "tag": "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
       "server": "103.75.119.126",
       "port": 2087,
       "uuid": "731f177e-00aa-480c-b935-661456139a32",
@@ -60,21 +37,6 @@
         "headers": {
           "Host": "103.75.119.126"
         }
-      }
-    },
-    {
-      "tag": "🇦🇺 澳大利亚 (Australia) 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.105.169.70",
-      "port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "172.105.169.70",
-        "insecure": true,
-        "client_fingerprint": null
       }
     }
   ]

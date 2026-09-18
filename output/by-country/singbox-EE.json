@@ -14,7 +14,9 @@
       "outbounds": [
         "🇪🇪 EE 01 - xiaohe",
         "🇪🇪 EE 02 - xiaohe",
-        "🇪🇪 EE 03 - xiaohe"
+        "🇪🇪 EE 03 - xiaohe",
+        "🇪🇪 EE 04 - xiaohe",
+        "🇪🇪 EE 05 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -30,25 +32,34 @@
       "tag": "🇪🇪 EE 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "45.80.108.123",
-      "port": 443,
-      "uuid": "1d16c6e0-1bbe-435b-b661-90043fee999c",
+      "server": "94.183.170.135",
+      "port": 8443,
+      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "notls.lukongtou.eu.org",
+        "server_name": "estproxy4.lockdwn.com",
         "insecure": true,
         "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "notls.lukongtou.eu.org"
-        }
       }
     },
     {
       "tag": "🇪🇪 EE 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "94.183.170.135",
+      "port": 443,
+      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "94.183.170.135"
+        }
+      }
+    },
+    {
+      "tag": "🇪🇪 EE 03 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "94.183.170.135",
@@ -63,7 +74,7 @@
       }
     },
     {
-      "tag": "🇪🇪 EE 03 - xiaohe",
+      "tag": "🇪🇪 EE 04 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "109.206.241.10",
@@ -74,6 +85,15 @@
         "server_name": "russiapower.accesscam.org",
         "insecure": true
       }
+    },
+    {
+      "tag": "🇪🇪 EE 05 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "212.87.190.124",
+      "port": 99,
+      "method": "chacha20-ietf-poly1305",
+      "password": "6nQnSKAxCLJSZbg7KA94QA"
     }
   ]
 }
