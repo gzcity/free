@@ -12,7 +12,9 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 CZ 01 - xiaohe"
+        "🇨🇿 CZ 01 - xiaohe",
+        "🇨🇿 CZ 02 - xiaohe",
+        "🇨🇿 CZ 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -28,7 +30,49 @@
       "tag": "🇨🇿 CZ 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "195.85.23.88",
+      "server": "195.85.23.29",
+      "port": 443,
+      "uuid": "b09dfed1-90fa-4353-8bdf-de1edb2e2d79",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nb.lovecf.ggff.net",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/proxyip=us.xiabibi.cf",
+        "headers": {
+          "Host": "nb.lovecf.ggff.net"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇿 CZ 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "195.85.23.248",
+      "port": 443,
+      "uuid": "b09dfed1-90fa-4353-8bdf-de1edb2e2d79",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nb.lovecf.ggff.net",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/proxyip=us.xiabibi.cf",
+        "headers": {
+          "Host": "nb.lovecf.ggff.net"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇿 CZ 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "195.85.23.45",
       "port": 443,
       "uuid": "b09dfed1-90fa-4353-8bdf-de1edb2e2d79",
       "flow": "",

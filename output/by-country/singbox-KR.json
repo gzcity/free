@@ -17,13 +17,7 @@
         "🇰🇷 韩国 (South Korea) 03 - xiaohe",
         "🇰🇷 韩国 (South Korea) 04 - xiaohe",
         "🇰🇷 韩国 (South Korea) 05 - xiaohe",
-        "🇰🇷 韩国 (South Korea) 06 - xiaohe",
-        "🇰🇷 韩国 (South Korea) 07 - xiaohe",
-        "🇰🇷 韩国 (South Korea) 08 - xiaohe",
-        "🇰🇷 韩国 (South Korea) 09 - xiaohe",
-        "🇰🇷 韩国 (South Korea) 10 - xiaohe",
-        "🇰🇷 韩国 (South Korea) 11 - xiaohe",
-        "🇰🇷 韩国 (South Korea) 12 - xiaohe"
+        "🇰🇷 韩国 (South Korea) 06 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -37,6 +31,33 @@
     },
     {
       "tag": "🇰🇷 韩国 (South Korea) 01 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "141.164.45.187",
+      "port": 9090,
+      "method": "aes-256-gcm",
+      "password": "Y6R9pAtvxxzmGC"
+    },
+    {
+      "tag": "🇰🇷 韩国 (South Korea) 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "151.245.106.49",
+      "port": 2053,
+      "uuid": "a2de9567-9646-45a9-a410-7303a43bdb6c",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇰🇷 韩国 (South Korea) 03 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "151.245.106.49",
@@ -54,129 +75,7 @@
       }
     },
     {
-      "tag": "🇰🇷 韩国 (South Korea) 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.67.190.141",
-      "port": 8880,
-      "uuid": "0787cfdb-9930-4abb-8419-c1b96c3ef628",
-      "flow": "",
-      "ws": {
-        "path": "/+",
-        "headers": {
-          "Host": "red-snowflake-c399.12-ee1.workers.dev"
-        }
-      }
-    },
-    {
-      "tag": "🇰🇷 韩国 (South Korea) 03 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "140.238.2.250",
-      "port": 443,
-      "uuid": "41a7089a-040b-4538-8b8d-010902405bde",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
       "tag": "🇰🇷 韩国 (South Korea) 04 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "154.90.62.70",
-      "port": 56127,
-      "password": "p5jTPcffLgi4gaNOJd2KUTb9YEPBBD5B",
-      "tls": {
-        "enabled": true,
-        "server_name": "154.90.62.70",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇰🇷 韩国 (South Korea) 05 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.64.88.251",
-      "port": 8880,
-      "uuid": "7e3cd2f1-0de5-4717-9002-64d8597bc577",
-      "flow": "",
-      "ws": {
-        "path": "/pyip=ProxyIP.KR.CMLiussss.net",
-        "headers": {
-          "Host": "dry-credit-fc26.203-d8c.workers.dev"
-        }
-      }
-    },
-    {
-      "tag": "🇰🇷 韩国 (South Korea) 06 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "141.164.45.187",
-      "port": 6679,
-      "method": "aes-256-gcm",
-      "password": "TEzjfAYq2IjtuoS"
-    },
-    {
-      "tag": "🇰🇷 韩国 (South Korea) 07 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.64.88.251",
-      "port": 8880,
-      "uuid": "87a5d3eb-afd4-4193-9787-c54ef7c26c8c",
-      "flow": "",
-      "ws": {
-        "path": "/pyip=ProxyIP.KR.CMLiussss.net",
-        "headers": {
-          "Host": "patient-cake-39c7.44-e7a.workers.dev"
-        }
-      }
-    },
-    {
-      "tag": "🇰🇷 韩国 (South Korea) 08 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.64.153.3",
-      "port": 443,
-      "uuid": "e85ca8bc-21a5-418d-a639-00236f0c3d81",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "d9a9ecdf.69lover.site",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/api/v2/c17245904dc7e388/stream",
-        "headers": {
-          "Host": "d9a9ecdf.69lover.site"
-        }
-      }
-    },
-    {
-      "tag": "🇰🇷 韩国 (South Korea) 09 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.66.132.196",
-      "port": 8880,
-      "uuid": "0787cfdb-9930-4abb-8419-c1b96c3ef628",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "red-snowflake-c399.12-ee1.workers.dev"
-        }
-      }
-    },
-    {
-      "tag": "🇰🇷 韩国 (South Korea) 10 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "141.164.45.187",
-      "port": 5498,
-      "method": "aes-256-gcm",
-      "password": "lGqs95QkFHo2NV"
-    },
-    {
-      "tag": "🇰🇷 韩国 (South Korea) 11 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "172.64.53.60",
@@ -197,14 +96,34 @@
       }
     },
     {
-      "tag": "🇰🇷 韩国 (South Korea) 12 - xiaohe",
+      "tag": "🇰🇷 韩国 (South Korea) 05 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "140.238.2.250",
-      "port": 443,
-      "uuid": "41a7089a-040b-4538-8b8d-010902405bde",
-      "alterId": 0,
-      "security": "auto"
+      "type": "shadowsocks",
+      "server": "141.164.45.187",
+      "port": 5498,
+      "method": "aes-256-gcm",
+      "password": "lGqs95QkFHo2NV"
+    },
+    {
+      "tag": "🇰🇷 韩国 (South Korea) 06 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.19.215.97",
+      "port": 2087,
+      "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "?ed=2560",
+        "headers": {
+          "Host": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
+        }
+      }
     }
   ]
 }

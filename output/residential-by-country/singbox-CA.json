@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇫🇮 FI 01 - xiaohe"
+        "🇨🇦 加拿大 (Canada) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,23 +25,17 @@
       "tag": "block"
     },
     {
-      "tag": "🇫🇮 FI 01 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 01 (家宽) - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "151.101.56.6",
-      "port": 443,
-      "uuid": "cc3ec459-8d76-4066-ab4b-2614608f1afb",
+      "server": "188.114.97.6",
+      "port": 2082,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ssl.fastly.com",
-        "insecure": true,
-        "client_fingerprint": null
-      },
       "ws": {
         "path": "/",
         "headers": {
-          "Host": "c12.com"
+          "Host": "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
         }
       }
     }

@@ -30,8 +30,8 @@
       "tag": "🇹🇭 TH 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "152.67.101.72",
-      "port": 23010,
+      "server": "140.245.38.33",
+      "port": 2096,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "flow": "",
       "tls": {
@@ -41,7 +41,7 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/books?ed=2560fp=chrome",
+        "path": "/",
         "headers": {
           "Host": "cdn8848.776676.xyz"
         }
@@ -51,14 +51,20 @@
       "tag": "🇹🇭 TH 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "103.86.49.57",
-      "port": 80,
+      "server": "104.18.26.90",
+      "port": 443,
       "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
       "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "v2ray.simspeedup.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
       "ws": {
         "path": "/ws",
         "headers": {
-          "Host": "aIs.SpEeDtEsT.nEt"
+          "Host": "v2ray.simspeedup.com"
         }
       }
     },

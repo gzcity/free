@@ -13,7 +13,10 @@
       "tag": "auto",
       "outbounds": [
         "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 05 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -29,13 +32,31 @@
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "130.49.189.158",
-      "port": 43558,
-      "method": "chacha20-ietf-poly1305",
-      "password": "5dLyPJpSV+QyXFRj+S0dt6xFKHxtcXEkRO/TzJGzryU="
+      "server": "176.32.35.44",
+      "port": 50111,
+      "method": "aes-256-gcm",
+      "password": "6b39ae3234dfd68b"
     },
     {
       "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "195.58.48.137",
+      "port": 10900,
+      "method": "aes-256-gcm",
+      "password": "8ad9d72a5571df86"
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "46.17.40.234",
+      "port": 10301,
+      "method": "aes-256-gcm",
+      "password": "bdb313adf74c2ede"
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "46.8.200.91",
@@ -54,6 +75,15 @@
           "Host": "cf3.rumedia-cdn.com"
         }
       }
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "130.49.189.158",
+      "port": 43558,
+      "method": "chacha20-ietf-poly1305",
+      "password": "5dLyPJpSV+QyXFRj+S0dt6xFKHxtcXEkRO/TzJGzryU="
     }
   ]
 }

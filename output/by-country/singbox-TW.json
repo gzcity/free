@@ -34,27 +34,6 @@
       "tag": "🇹🇼 中国台湾 (Taiwan) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "59.125.69.19",
-      "port": 443,
-      "uuid": "f1d247db-d7ce-4eb8-9c0d-7b10603cd0b4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ty986gfazs.cainiaohub.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/81574b6b-c9d7-44a0-b83d-dad56e8cb530",
-        "headers": {
-          "Host": "59.125.69.19"
-        }
-      }
-    },
-    {
-      "tag": "🇹🇼 中国台湾 (Taiwan) 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
       "server": "60.248.219.52",
       "port": 443,
       "uuid": "f265b49a-70a3-407a-b17b-e45dfb9f255c",
@@ -73,10 +52,40 @@
       }
     },
     {
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 - xiaohe",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "60.248.219.53",
+      "server": "60.248.219.78",
+      "port": 443,
+      "uuid": "c1c04450-bf71-4049-ad0c-9cf6d94d9f1f",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ty986gfazs.cainiaohub.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/81574b6b-c9d7-44a0-b83d-dad56e8cb530",
+        "headers": {
+          "Host": "60.248.219.78"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "36.224.185.173",
+      "port": 50099,
+      "method": "chacha20-ietf-poly1305",
+      "password": "b1ae0fce-9340-4f2e-882d-fdb2218e2e2b"
+    },
+    {
+      "tag": "🇹🇼 中国台湾 (Taiwan) 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "59.125.69.19",
       "port": 443,
       "uuid": "f1d247db-d7ce-4eb8-9c0d-7b10603cd0b4",
       "flow": "",
@@ -89,18 +98,9 @@
       "ws": {
         "path": "/81574b6b-c9d7-44a0-b83d-dad56e8cb530",
         "headers": {
-          "Host": "60.248.219.53"
+          "Host": "59.125.69.19"
         }
       }
-    },
-    {
-      "tag": "🇹🇼 中国台湾 (Taiwan) 04 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "36.224.185.173",
-      "port": 50099,
-      "method": "chacha20-ietf-poly1305",
-      "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
     },
     {
       "tag": "🇹🇼 中国台湾 (Taiwan) 05 - xiaohe",
