@@ -65,7 +65,24 @@
         "🌐 其他地区 (Other) 51 - xiaohe",
         "🌐 其他地区 (Other) 52 - xiaohe",
         "🌐 其他地区 (Other) 53 - xiaohe",
-        "🌐 其他地区 (Other) 54 - xiaohe"
+        "🌐 其他地区 (Other) 54 - xiaohe",
+        "🌐 其他地区 (Other) 55 - xiaohe",
+        "🌐 其他地区 (Other) 56 - xiaohe",
+        "🌐 其他地区 (Other) 57 - xiaohe",
+        "🌐 其他地区 (Other) 58 - xiaohe",
+        "🌐 其他地区 (Other) 59 - xiaohe",
+        "🌐 其他地区 (Other) 60 - xiaohe",
+        "🌐 其他地区 (Other) 61 - xiaohe",
+        "🌐 其他地区 (Other) 62 - xiaohe",
+        "🌐 其他地区 (Other) 63 - xiaohe",
+        "🌐 其他地区 (Other) 64 - xiaohe",
+        "🌐 其他地区 (Other) 65 - xiaohe",
+        "🌐 其他地区 (Other) 66 - xiaohe",
+        "🌐 其他地区 (Other) 67 - xiaohe",
+        "🌐 其他地区 (Other) 68 - xiaohe",
+        "🌐 其他地区 (Other) 69 - xiaohe",
+        "🌐 其他地区 (Other) 70 - xiaohe",
+        "🌐 其他地区 (Other) 71 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -81,20 +98,14 @@
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.18.42.54",
-      "port": 2096,
-      "uuid": "8102891d-7b37-4dc5-8261-9474b59b5c63",
+      "server": "hidden-union-a4b2.436.workers.dev",
+      "port": 8880,
+      "uuid": "2d212f81-7ea2-4d0b-884c-a6497ab41143",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "vip.868068.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
       "ws": {
-        "path": "/proxyip=us.xiabibi.cf",
+        "path": "/pyip=ProxyIP.US.CMLiussss.net",
         "headers": {
-          "Host": "vip.868068.xyz"
+          "Host": "hidden-union-a4b2.436.workers.dev"
         }
       }
     },
@@ -102,14 +113,20 @@
       "tag": "🌐 其他地区 (Other) 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "162.159.24.131",
-      "port": 8080,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "server": "104.21.81.114",
+      "port": 443,
+      "uuid": "50414e45-4c5f-5a45-5553-d536262105ae",
       "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ez-30c541.aliminaie277.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
       "ws": {
-        "path": "/?ed=2560security=tls",
+        "path": "/stream/PANEL_ZEUS/d536262105ae",
         "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+          "Host": "ez-30c541.aliminaie277.workers.dev"
         }
       }
     },
@@ -117,55 +134,19 @@
       "tag": "🌐 其他地区 (Other) 03 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.18.34.14",
+      "server": "188.114.97.6",
       "port": 8880,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "flow": "",
       "ws": {
-        "path": "/?ed=2560security=tls+",
+        "path": "/?ed=2560",
         "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+          "Host": "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
         }
       }
     },
     {
       "tag": "🌐 其他地区 (Other) 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.64.52.230",
-      "port": 2087,
-      "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 05 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.64.154.8",
-      "port": 2082,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "flow": "",
-      "ws": {
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 06 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "172.64.145.166",
@@ -186,17 +167,59 @@
       }
     },
     {
-      "tag": "🌐 其他地区 (Other) 07 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 05 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "162.159.38.127",
-      "port": 2086,
+      "server": "104.18.42.163",
+      "port": 2087,
+      "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "fx3h2kf8xn.fx6hsv0.ccwu.cc",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "fx3h2kf8xn.fx6hsv0.ccwu.cc"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 06 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "162.159.43.187",
+      "port": 8880,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "flow": "",
       "ws": {
         "path": "/?ed=2560security=tls",
         "headers": {
           "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 07 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.67.148.163",
+      "port": 443,
+      "uuid": "682d30e4-3dfc-49f2-a017-9049119e3497",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "free.server7peekconfig.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/eyJqdW5rIjoiRm5kaUkxZVFtRVJBIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19",
+        "headers": {
+          "Host": "free.server7peekconfig.workers.dev"
         }
       }
     },
@@ -204,14 +227,20 @@
       "tag": "🌐 其他地区 (Other) 08 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "162.159.24.131",
-      "port": 2082,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "server": "172.67.189.79",
+      "port": 443,
+      "uuid": "50414e45-4c5f-5a45-5553-d536262105ae",
       "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ez-30c541.aliminaie277.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
       "ws": {
-        "path": "/?ed=2560security=tls",
+        "path": "/stream/PANEL_ZEUS/d536262105ae",
         "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+          "Host": "ez-30c541.aliminaie277.workers.dev"
         }
       }
     },
@@ -219,370 +248,19 @@
       "tag": "🌐 其他地区 (Other) 09 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "172.64.149.209",
-      "port": 2087,
-      "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
+      "server": "172.64.53.55",
+      "port": 2082,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "fx3l5i2wdfxln0.fx6hsv0.ccwu.cc",
-        "insecure": true,
-        "client_fingerprint": null
-      },
       "ws": {
-        "path": "/",
+        "path": "/?ed=2560security=tls",
         "headers": {
-          "Host": "fx3l5i2wdfxln0.fx6hsv0.ccwu.cc"
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
         }
       }
     },
     {
       "tag": "🌐 其他地区 (Other) 10 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.64.229.2",
-      "port": 2086,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "flow": "",
-      "ws": {
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 11 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "188.114.97.6",
-      "port": 2082,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 12 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "188.114.97.6",
-      "port": 2095,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "flow": "",
-      "ws": {
-        "path": "/?ed=2560",
-        "headers": {
-          "Host": "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 13 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "162.159.48.32",
-      "port": 80,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "flow": "",
-      "ws": {
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 14 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "162.159.43.187",
-      "port": 8080,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "flow": "",
-      "ws": {
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 15 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.64.144.66",
-      "port": 8443,
-      "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 16 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "162.159.0.53",
-      "port": 2095,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "flow": "",
-      "ws": {
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 17 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "162.159.192.125",
-      "port": 443,
-      "uuid": "8102891d-7b37-4dc5-8261-9474b59b5c63",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "vip.868068.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/proxyip=us.xiabibi.cf",
-        "headers": {
-          "Host": "vip.868068.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 18 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.64.52.173",
-      "port": 2087,
-      "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 19 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "188.114.97.6",
-      "port": 2082,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 20 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "162.159.0.169",
-      "port": 2052,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "flow": "",
-      "ws": {
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 21 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.16.10.2",
-      "port": 443,
-      "uuid": "b2593749-691c-428c-9481-14979cba3446",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "xi.tbv.ccwu.cc",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/proxyip=us.xiabibi.cf",
-        "headers": {
-          "Host": "xi.tbv.ccwu.cc"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 22 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "108.162.198.178",
-      "port": 80,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 23 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "188.114.97.6",
-      "port": 8080,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "flow": "",
-      "ws": {
-        "path": "/?ed=2560",
-        "headers": {
-          "Host": "ne4d3.thir.mn8.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 24 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "162.159.0.169",
-      "port": 2086,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "flow": "",
-      "ws": {
-        "path": "/?ed=2560security=tlssecurity=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 25 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "162.159.0.169",
-      "port": 2052,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "flow": "",
-      "ws": {
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 26 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.64.150.28",
-      "port": 2082,
-      "uuid": "e5cc16a6-ea42-46b2-82ae-ad2157e1641b",
-      "flow": "",
-      "ws": {
-        "path": "/fp",
-        "headers": {
-          "Host": "hhlfy.twiladaphne.ndjp.net"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 27 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.64.32.103",
-      "port": 2095,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "flow": "",
-      "ws": {
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 28 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "162.159.43.187",
-      "port": 80,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "flow": "",
-      "ws": {
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 29 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "cf3.danfeng.eu.org",
-      "port": 8443,
-      "uuid": "8102891d-7b37-4dc5-8261-9474b59b5c63",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "vip.868068.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/proxyip=us.xiabibi.cf",
-        "headers": {
-          "Host": "vip.868068.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 30 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "108.162.198.178",
-      "port": 8880,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 31 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "8.6.112.6",
@@ -603,17 +281,410 @@
       }
     },
     {
-      "tag": "🌐 其他地区 (Other) 32 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 11 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "162.159.0.53",
-      "port": 80,
+      "server": "172.67.150.215",
+      "port": 443,
+      "uuid": "04cb9c0f-363c-4bf8-a195-2cb8bd43b02a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "O.seRVer5peEKCOnFIG.WOrKers.dEV",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/eyJqdW5rIjoiSU9LdXp3R1p6IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19?ed",
+        "headers": {
+          "Host": "o.server5peekconfig.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 12 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.64.52.6",
+      "port": 2086,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "flow": "",
+      "ws": {
+        "path": "/?ed=2560security=tls+",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 13 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.64.229.2",
+      "port": 2052,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "flow": "",
       "ws": {
         "path": "/?ed=2560security=tls",
         "headers": {
           "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 14 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "162.159.48.32",
+      "port": 2052,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "flow": "",
+      "ws": {
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 15 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "openai.com",
+      "port": 443,
+      "uuid": "8ccb3a94-9e3c-45d0-a280-850faea6bbff",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "fdjl8sdmc774ru70b3a45lv4w8.akbar1sale6.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/vl/EpnESUGGdoM40CHmsDT?ed=2560",
+        "headers": {
+          "Host": "fdjl8sdmc774ru70b3a45lv4w8.akbar1sale6.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 16 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "108.162.198.178",
+      "port": 8080,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "flow": "",
+      "ws": {
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 17 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.18.46.234",
+      "port": 2086,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "flow": "",
+      "ws": {
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 18 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.18.26.90",
+      "port": 443,
+      "uuid": "b2593749-691c-428c-9481-14979cba3446",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "xi.tbv.ccwu.cc",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/proxyip=us.xiabibi.cf",
+        "headers": {
+          "Host": "xi.tbv.ccwu.cc"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 19 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.21.74.24",
+      "port": 443,
+      "uuid": "63f1ce15-1a88-4698-8a0e-59b85d75e607",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "free.server11peekconfig.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/eyJqdW5rIjoiNDIxWGNPNW5CQXYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OmIwOjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSJdfQ==",
+        "headers": {
+          "Host": "free.server11peekconfig.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 20 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "188.114.97.6",
+      "port": 8880,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "flow": "",
+      "ws": {
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 21 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.18.42.54",
+      "port": 2096,
+      "uuid": "8102891d-7b37-4dc5-8261-9474b59b5c63",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "vip.868068.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/proxyip=us.xiabibi.cf",
+        "headers": {
+          "Host": "vip.868068.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 22 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "172.67.161.144",
+      "port": 8443,
+      "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "v2ray1.dozapp.xyz",
+        "insecure": true
+      },
+      "ws": {
+        "path": "/lMnsZUN4/",
+        "headers": {
+          "Host": "v2ray1.dozapp.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 23 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "108.162.198.178",
+      "port": 8080,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 24 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "108.162.198.178",
+      "port": 2082,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "flow": "",
+      "ws": {
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 25 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "188.114.97.6",
+      "port": 443,
+      "uuid": "0ed342c3-eb45-4d63-83a1-697252636ca9",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "yellow-hall-d482.260-d22.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/pyip=ProxyIP.KR.CMLiussss.net",
+        "headers": {
+          "Host": "yellow-hall-d482.260-d22.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 26 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.18.38.47",
+      "port": 2087,
+      "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "fx3l5i2wdfxln0.fx6hsv0.ccwu.cc",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "fx3l5i2wdfxln0.fx6hsv0.ccwu.cc"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 27 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.67.165.199",
+      "port": 443,
+      "uuid": "af65ce20-7129-4ee3-b957-67120aaa382c",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "web-app-1r4mk.app-qzhgjw.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/api/ws",
+        "headers": {
+          "Host": "web-app-1r4mk.app-qzhgjw.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 28 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "188.114.96.6",
+      "port": 443,
+      "uuid": "a592b4ac-e209-4a13-3cef-539600000005",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "0404.infinityconfig5.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/sync",
+        "headers": {
+          "Host": "0404.infinityconfig5.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 29 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.67.156.147",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 30 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.18.46.234",
+      "port": 8080,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 31 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "103.31.4.10",
+      "port": 443,
+      "uuid": "77dc177b-79d9-49ac-92e1-2f1011faa5e3",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "f871a986.69lover.site",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/api/v2/b8ee4ba356df307c/stream",
+        "headers": {
+          "Host": "f871a986.69lover.site"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 32 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.67.148.163",
+      "port": 443,
+      "uuid": "682d30e4-3dfc-49f2-a017-9049119e3497",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "free.server7peekconfig.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/eyJqdW5rIjoiRm5kaUkxZVFtRVJBIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19",
+        "headers": {
+          "Host": "free.server7peekconfig.workers.dev"
         }
       }
     },
@@ -636,14 +707,20 @@
       "tag": "🌐 其他地区 (Other) 34 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "172.64.42.85",
-      "port": 80,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "server": "172.67.68.157",
+      "port": 2096,
+      "uuid": "c49a0981-6d37-4ec0-9a01-1b63ccc07e4f",
       "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "pEeKcOnFig.haMRaHfREe1.wOrKerS.DEv",
+        "insecure": true,
+        "client_fingerprint": null
+      },
       "ws": {
-        "path": "/?ed=2560security=tls",
+        "path": "/eyJqdW5rIjoiZHlCcVpqeEYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OjExOjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==?ed=2560",
         "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+          "Host": "peekconfig.hamrahfree1.workers.dev"
         }
       }
     },
@@ -651,229 +728,25 @@
       "tag": "🌐 其他地区 (Other) 35 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "172.64.32.108",
-      "port": 80,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "server": "172.67.165.125",
+      "port": 443,
+      "uuid": "e48e4049-58bb-4355-9a9a-433b9524d928",
       "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "z8Z7LoVOPd53iz6ivD2m.FixinG00PonviP.woRkers.DEV",
+        "insecure": true,
+        "client_fingerprint": null
+      },
       "ws": {
-        "path": "/?ed=2560security=tls",
+        "path": "/vl/Fx1O4r0oHuQMNuKFQzcoV2yl31",
         "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+          "Host": "z8Z7LoVOPd53iz6ivD2m.FixinG00PonviP.woRkers.DEV"
         }
       }
     },
     {
       "tag": "🌐 其他地区 (Other) 36 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.18.46.234",
-      "port": 8080,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 37 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.64.146.211",
-      "port": 2083,
-      "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 38 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "108.162.198.178",
-      "port": 8080,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 39 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "188.114.97.6",
-      "port": 8080,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "flow": "",
-      "ws": {
-        "path": "/?ed=2560",
-        "headers": {
-          "Host": "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 40 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "162.159.43.187",
-      "port": 2052,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "flow": "",
-      "ws": {
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 41 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.64.145.202",
-      "port": 443,
-      "uuid": "b2593749-691c-428c-9481-14979cba3446",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "xi.tbv.ccwu.cc",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/proxyip=us.xiabibi.cf",
-        "headers": {
-          "Host": "xi.tbv.ccwu.cc"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 42 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.21.70.21",
-      "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 43 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.18.42.54",
-      "port": 443,
-      "uuid": "b2593749-691c-428c-9481-14979cba3446",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "xi.tbv.ccwu.cc",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/proxyip=us.xiabibi.cf",
-        "headers": {
-          "Host": "xi.tbv.ccwu.cc"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 44 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "162.159.43.187",
-      "port": 8880,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "flow": "",
-      "ws": {
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 45 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "108.162.198.178",
-      "port": 8880,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "flow": "",
-      "ws": {
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 46 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.64.229.2",
-      "port": 2052,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "flow": "",
-      "ws": {
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 47 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.64.145.202",
-      "port": 2096,
-      "uuid": "8102891d-7b37-4dc5-8261-9474b59b5c63",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "vip.868068.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/proxyip=us.xiabibi.cf",
-        "headers": {
-          "Host": "vip.868068.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 48 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "104.19.214.98",
@@ -894,23 +767,239 @@
       }
     },
     {
-      "tag": "🌐 其他地区 (Other) 49 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 37 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "8.35.211.236",
+      "server": "172.67.148.180",
       "port": 443,
-      "uuid": "b940be1b-3998-45d2-bf7b-06e7b6c4987a",
+      "uuid": "02e6ad71-7f85-4c3a-aac7-6171762bce87",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "kkkk-83j.pages.dev",
+        "server_name": "suMMer-fieLD-3c5b.fSdfSDDf.WoRKErs.dEv",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/eyJqdW5rIjoia2N4eldGd0p6NVY1V3hrIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OjExOjY0OjpdIl19?ed=2560",
+        "headers": {
+          "Host": "summer-field-3c5b.fsdfsddf.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 38 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.64.146.211",
+      "port": 2083,
+      "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
         "path": "/",
         "headers": {
-          "Host": "kkkk-83j.pages.dev"
+          "Host": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 39 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.67.165.125",
+      "port": 443,
+      "uuid": "e48e4049-58bb-4355-9a9a-433b9524d928",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "z8Z7LoVOPd53iz6ivD2m.FixinG00PonviP.woRkers.DEV",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/vl/Fx1O4r0oHuQMNuKFQzcoV2yl31?ed",
+        "headers": {
+          "Host": "z8z7lovopd53iz6ivd2m.fixing00ponvip.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 40 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "108.162.198.178",
+      "port": 2095,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 41 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.21.22.200",
+      "port": 443,
+      "uuid": "58e78cf6-2b50-40fb-b6bf-ec7eae5b5000",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "hi.n2foriran.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/ws",
+        "headers": {
+          "Host": "hi.n2foriran.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 42 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.64.42.85",
+      "port": 8080,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "flow": "",
+      "ws": {
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 43 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "190.93.245.176",
+      "port": 443,
+      "uuid": "7493883f-6047-46a7-8d95-f59e137ffaec",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "auto-749388.rohawmk.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512",
+        "headers": {
+          "Host": "auto-749388.rohawmk.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 44 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.21.46.219",
+      "port": 2096,
+      "uuid": "c49a0981-6d37-4ec0-9a01-1b63ccc07e4f",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "pEeKcOnFig.haMRaHfREe1.wOrKerS.DEv",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/eyJqdW5rIjoiZHlCcVpqeEYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OjExOjY0OjpdIiwiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ",
+        "headers": {
+          "Host": "peekconfig.hamrahfree1.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 45 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "162.159.45.19",
+      "port": 2082,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "flow": "",
+      "ws": {
+        "path": "/?ed=2560security=tls+",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 46 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "162.159.45.19",
+      "port": 2052,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "flow": "",
+      "ws": {
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 47 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.64.229.170",
+      "port": 2086,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "flow": "",
+      "ws": {
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 48 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "162.159.24.131",
+      "port": 2086,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "flow": "",
+      "ws": {
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 49 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "188.114.97.3",
+      "port": 443,
+      "uuid": "d6828805-5608-44d7-a44b-976d4c3ac2d0",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "0LG3u92i0exN577l3Mc637Ycba3.SfgsfgSfGFSGSf-4630.wOrkeRS.dEv",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/vl/5ibXbgAYxWzwbOtkXJWUtvKMKOYjh?ed",
+        "headers": {
+          "Host": "0lg3u92i0exn577l3mc637ycba3.sfgsfgsfgfsgsf-4630.workers.dev"
         }
       }
     },
@@ -918,20 +1007,20 @@
       "tag": "🌐 其他地区 (Other) 50 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.18.42.163",
-      "port": 2087,
-      "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
+      "server": "104.21.81.235",
+      "port": 443,
+      "uuid": "af65ce20-7129-4ee3-b957-67120aaa382c",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "fx3h2kf8xn.fx6hsv0.ccwu.cc",
+        "server_name": "web-app-1r4mk.app-qzhgjw.workers.dev",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/",
+        "path": "/api/ws",
         "headers": {
-          "Host": "fx3h2kf8xn.fx6hsv0.ccwu.cc"
+          "Host": "web-app-1r4mk.app-qzhgjw.workers.dev"
         }
       }
     },
@@ -939,25 +1028,133 @@
       "tag": "🌐 其他地区 (Other) 51 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.19.32.166",
-      "port": 443,
-      "uuid": "b09dfed1-90fa-4353-8bdf-de1edb2e2d79",
+      "server": "172.64.146.211",
+      "port": 2083,
+      "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "nb.lovecf.ggff.net",
+        "server_name": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/proxyip=us.xiabibi.cf",
+        "path": "/",
         "headers": {
-          "Host": "nb.lovecf.ggff.net"
+          "Host": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
         }
       }
     },
     {
       "tag": "🌐 其他地区 (Other) 52 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.67.153.110",
+      "port": 443,
+      "uuid": "63f1ce15-1a88-4698-8a0e-59b85d75e607",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "free.server11peekconfig.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/eyJqdW5rIjoiNDIxWGNPNW5CQXYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OmIwOjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSJdfQ==",
+        "headers": {
+          "Host": "free.server11peekconfig.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 53 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.67.182.89",
+      "port": 443,
+      "uuid": "56b52604-0074-44b9-8f7d-2826943a54d7",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "YEllOW-tRUTH-67EB.FRGFEREFg234E4343.WORkERs.DeV",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/eyJqdW5rIjoiamd3OFpKWlluUFlMM25IUyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==?ed=2560",
+        "headers": {
+          "Host": "yellow-truth-67eb.frgferefg234e4343.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 54 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.18.31.37",
+      "port": 443,
+      "uuid": "50414e45-4c5f-5a45-5553-5bc7860646e4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "qzz0a4eou1ms.mlm-792d0942.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/stream/PANEL_ZEUS/5bc7860646e4",
+        "headers": {
+          "Host": "qzz0a4eou1ms.mlm-792d0942.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 55 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "108.162.198.178",
+      "port": 2086,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 56 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.64.150.28",
+      "port": 2082,
+      "uuid": "e5cc16a6-ea42-46b2-82ae-ad2157e1641b",
+      "flow": "",
+      "ws": {
+        "path": "/fp",
+        "headers": {
+          "Host": "hhlfy.twiladaphne.ndjp.net"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 57 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.64.150.28",
+      "port": 2082,
+      "uuid": "e5cc16a6-ea42-46b2-82ae-ad2157e1641b",
+      "flow": "",
+      "ws": {
+        "path": "/fp",
+        "headers": {
+          "Host": "hhlfy.twiladaphne.ndjp.net"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 58 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "172.64.52.175",
@@ -978,11 +1175,41 @@
       }
     },
     {
-      "tag": "🌐 其他地区 (Other) 53 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 59 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "108.162.198.178",
+      "port": 8880,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 60 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "162.159.48.32",
+      "port": 2052,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 61 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "172.64.158.146",
-      "port": 2095,
+      "port": 80,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "flow": "",
       "ws": {
@@ -993,17 +1220,194 @@
       }
     },
     {
-      "tag": "🌐 其他地区 (Other) 54 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 62 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.18.46.46",
-      "port": 80,
+      "server": "104.18.46.234",
+      "port": 8080,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "flow": "",
       "ws": {
         "path": "/?ed=2560security=tls",
         "headers": {
           "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 63 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "188.114.97.6",
+      "port": 443,
+      "uuid": "1c9daf90-3950-44ac-b06f-4cf9aec63170",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "FrEe.SeRVEr14peekCoNfIG.WoRKErS.dEV",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/eyJqdW5rIjoiQmFCblN3SmhXYTB3RzVoIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OjExOjY0OjpdIiwiWzJhMDI6ODk4OjE0Njo2NDo6XSIsIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=",
+        "headers": {
+          "Host": "free.server14peekconfig.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 64 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "162.159.43.187",
+      "port": 2095,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "flow": "",
+      "ws": {
+        "path": "/?ed=2560security=tls+",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 65 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.18.40.152",
+      "port": 2087,
+      "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 66 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.19.109.226",
+      "port": 443,
+      "uuid": "af65ce20-7129-4ee3-b957-67120aaa382c",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "web-app-1r4mk.app-qzhgjw.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/api/ws",
+        "headers": {
+          "Host": "web-app-1r4mk.app-qzhgjw.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 67 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.64.52.230",
+      "port": 2087,
+      "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 68 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.21.56.122",
+      "port": 443,
+      "uuid": "04cb9c0f-363c-4bf8-a195-2cb8bd43b02a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "O.seRVer5peEKCOnFIG.WOrKers.dEV",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/eyJqdW5rIjoiSU9LdXp3R1p6IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19?ed",
+        "headers": {
+          "Host": "o.server5peekconfig.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 69 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "188.114.97.6",
+      "port": 2086,
+      "uuid": "7a629a11-b75a-4889-957d-dc0987a73a19",
+      "flow": "",
+      "ws": {
+        "path": "/eyJqdW5rIjoieVMzbmVFWlBsd3prIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIl19?ed",
+        "headers": {
+          "Host": "jimifree.jimshofree1.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 70 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.16.10.2",
+      "port": 443,
+      "uuid": "b09dfed1-90fa-4353-8bdf-de1edb2e2d79",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nb.lovecf.ggff.net",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/proxyip=us.xiabibi.cf",
+        "headers": {
+          "Host": "nb.lovecf.ggff.net"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 71 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.26.12.54",
+      "port": 443,
+      "uuid": "d195909a-eff4-489d-a261-955b904894cb",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "fREE.sERVer6PeeKCOnFIG.wOrkErs.dEv.",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/eyJqdW5rIjoieUhYMWhoZEVEIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19?ed",
+        "headers": {
+          "Host": "free.server6peekconfig.workers.dev."
         }
       }
     }
