@@ -12,8 +12,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇹 AT 01 - xiaohe",
-        "🇦🇹 AT 02 - xiaohe"
+        "🇫🇮 FI 01 - xiaohe",
+        "🇫🇮 FI 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -26,32 +26,32 @@
       "tag": "block"
     },
     {
-      "tag": "🇦🇹 AT 01 - xiaohe",
+      "tag": "🇫🇮 FI 01 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "82.110.60.9",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+      "server": "82.47.186.18",
+      "port": 19290,
+      "method": "aes-128-gcm",
+      "password": "o2rw2hICwu1blrr_gZAl2Q"
     },
     {
-      "tag": "🇦🇹 AT 02 - xiaohe",
+      "tag": "🇫🇮 FI 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "132.243.203.207",
-      "port": 8443,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "server": "212.104.128.45",
+      "port": 443,
+      "uuid": "b2593749-691c-428c-9481-14979cba3446",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "cdn8848.776676.xyz",
+        "server_name": "xi.tbv.ccwu.cc",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/lives",
+        "path": "/proxyip=us.xiabibi.cf",
         "headers": {
-          "Host": "cdn8848.776676.xyz"
+          "Host": "xi.tbv.ccwu.cc"
         }
       }
     }

@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇳🇴 NO 01 - xiaohe"
+        "🇧🇿 BZ 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,21 +25,24 @@
       "tag": "block"
     },
     {
-      "tag": "🇳🇴 NO 01 - xiaohe",
+      "tag": "🇧🇿 BZ 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "151.242.168.125",
-      "port": 390,
-      "uuid": "b02ff150-ee30-46e0-9ea1-adbfd7762a06",
+      "server": "202.181.177.8",
+      "port": 8443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "bowandbead.com",
+        "server_name": "cdn8848.776676.xyz",
         "insecure": true,
-        "client_fingerprint": "ios",
-        "reality": true,
-        "public_key": "5RCgAVjaT7hwdVIKAEULswXGqR127ZOZV6X17nEhYk8",
-        "short_id": ""
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/channels/act",
+        "headers": {
+          "Host": "cdn8848.776676.xyz"
+        }
       }
     }
   ]
