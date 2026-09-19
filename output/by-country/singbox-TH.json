@@ -45,7 +45,7 @@
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "insecure": true,
-        "client_fingerprint": "chrome",
+        "client_fingerprint": "firefox",
         "reality": true,
         "public_key": "LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw",
         "short_id": ""
@@ -63,7 +63,7 @@
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "insecure": true,
-        "client_fingerprint": "ios",
+        "client_fingerprint": "chrome",
         "reality": true,
         "public_key": "LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw",
         "short_id": ""
@@ -71,27 +71,6 @@
     },
     {
       "tag": "🇹🇭 TH 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.18.26.90",
-      "port": 443,
-      "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "v2ray.simspeedup.com",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/ws",
-        "headers": {
-          "Host": "v2ray.simspeedup.com"
-        }
-      }
-    },
-    {
-      "tag": "🇹🇭 TH 04 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "103.86.49.57",
@@ -102,6 +81,27 @@
         "path": "/ws",
         "headers": {
           "Host": "aIs.SpEeDtEsT.nEt"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇭 TH 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "43.133.110.81",
+      "port": 443,
+      "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/?TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512",
+        "headers": {
+          "Host": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
         }
       }
     },
@@ -117,7 +117,7 @@
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "insecure": true,
-        "client_fingerprint": "qq",
+        "client_fingerprint": "safari",
         "reality": true,
         "public_key": "LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw",
         "short_id": ""
@@ -153,7 +153,7 @@
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "insecure": true,
-        "client_fingerprint": "firefox",
+        "client_fingerprint": "ios",
         "reality": true,
         "public_key": "LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw",
         "short_id": ""
@@ -171,7 +171,7 @@
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "insecure": true,
-        "client_fingerprint": "chrome",
+        "client_fingerprint": "qq",
         "reality": true,
         "public_key": "LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw",
         "short_id": ""
@@ -189,7 +189,7 @@
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "insecure": true,
-        "client_fingerprint": "safari",
+        "client_fingerprint": "random",
         "reality": true,
         "public_key": "LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw",
         "short_id": ""

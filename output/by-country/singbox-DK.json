@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇭 CH 01 - xiaohe"
+        "🇩🇰 DK 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,21 +25,16 @@
       "tag": "block"
     },
     {
-      "tag": "🇨🇭 CH 01 - xiaohe",
+      "tag": "🇩🇰 DK 01 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "helvetica.pelmexo.ir",
-      "port": 7911,
-      "uuid": "23ddda0f-6333-493a-839d-f9c8e561f7e4",
-      "flow": "",
+      "type": "trojan",
+      "server": "46.229.243.154",
+      "port": 4443,
+      "password": "s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z",
       "tls": {
         "enabled": true,
-        "server_name": "play-apps-features.googleusercontent.com",
-        "insecure": true,
-        "client_fingerprint": "edge",
-        "reality": true,
-        "public_key": "3WnHdv9A0tNParChTLxPnDteRD841h8thOGR7MBgAhY",
-        "short_id": ""
+        "server_name": "grape-turbo-fr.roxa.org",
+        "insecure": true
       }
     }
   ]
