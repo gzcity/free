@@ -13,9 +13,7 @@
       "tag": "auto",
       "outbounds": [
         "🇦🇪 阿联酋 (UAE) 01 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 04 - xiaohe"
+        "🇦🇪 阿联酋 (UAE) 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -31,51 +29,6 @@
       "tag": "🇦🇪 阿联酋 (UAE) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "cdn.snobvpn.online",
-      "port": 80,
-      "uuid": "cabd9303-ae32-4d25-86b9-26b312d0f044",
-      "flow": "",
-      "ws": {
-        "path": "/snob-ws",
-        "headers": {
-          "Host": "cdn.snobvpn.online"
-        }
-      }
-    },
-    {
-      "tag": "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "84.235.244.108",
-      "port": 22573,
-      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "uae.unixzone.us"
-        }
-      }
-    },
-    {
-      "tag": "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "154.197.75.40",
-      "port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "vms.lifetime37.workers.dev"
-        }
-      }
-    },
-    {
-      "tag": "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
       "server": "uae.unixzone.us",
       "port": 22573,
       "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
@@ -84,6 +37,21 @@
         "path": "/",
         "headers": {
           "Host": "uae.unixzone.us"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "cdn.snobvpn.online",
+      "port": 80,
+      "uuid": "cabd9303-ae32-4d25-86b9-26b312d0f044",
+      "flow": "",
+      "ws": {
+        "path": "/snob-ws",
+        "headers": {
+          "Host": "cdn.snobvpn.online"
         }
       }
     }

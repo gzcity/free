@@ -13,8 +13,7 @@
       "tag": "auto",
       "outbounds": [
         "🇺🇿 UZ 01 - xiaohe",
-        "🇺🇿 UZ 02 - xiaohe",
-        "🇺🇿 UZ 03 - xiaohe"
+        "🇺🇿 UZ 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -30,42 +29,6 @@
       "tag": "🇺🇿 UZ 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "189.74.97.43",
-      "port": 2087,
-      "uuid": "10f7eb2d-d96d-4778-9d36-aff11e9d6629",
-      "flow": "",
-      "ws": {
-        "path": "/73b6faea2d00",
-        "headers": {
-          "Host": "189.74.97.43"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇿 UZ 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.25.155.45",
-      "port": 443,
-      "uuid": "50414e45-4c5f-5a45-5553-4eef5adc237a",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "r5zenrelur2s.pqzdileiu8es.workers.dev",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/stream/PANEL_ZEUS/4eef5adc237a/loc-1",
-        "headers": {
-          "Host": "r5zenrelur2s.pqzdileiu8es.workers.dev"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇿 UZ 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
       "server": "189.74.97.47",
       "port": 2087,
       "uuid": "894fe9f0-b998-49c0-8003-a5007de921e1",
@@ -74,6 +37,21 @@
         "path": "/755276b33b6f",
         "headers": {
           "Host": "189.74.97.47"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇿 UZ 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "189.74.97.43",
+      "port": 2087,
+      "uuid": "10f7eb2d-d96d-4778-9d36-aff11e9d6629",
+      "flow": "",
+      "ws": {
+        "path": "/73b6faea2d00",
+        "headers": {
+          "Host": "189.74.97.43"
         }
       }
     }

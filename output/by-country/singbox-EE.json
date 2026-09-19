@@ -14,9 +14,7 @@
       "outbounds": [
         "🇪🇪 EE 01 - xiaohe",
         "🇪🇪 EE 02 - xiaohe",
-        "🇪🇪 EE 03 - xiaohe",
-        "🇪🇪 EE 04 - xiaohe",
-        "🇪🇪 EE 05 - xiaohe"
+        "🇪🇪 EE 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -46,32 +44,6 @@
     {
       "tag": "🇪🇪 EE 02 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "109.206.241.10",
-      "port": 449,
-      "password": "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1",
-      "tls": {
-        "enabled": true,
-        "server_name": "109.206.241.10",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇪🇪 EE 03 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "109.206.241.10",
-      "port": 449,
-      "password": "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1",
-      "tls": {
-        "enabled": true,
-        "server_name": "russiapower.accesscam.org",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇪🇪 EE 04 - xiaohe",
-      "udp": true,
       "type": "vless",
       "server": "94.183.170.135",
       "port": 8443,
@@ -85,23 +57,17 @@
       }
     },
     {
-      "tag": "🇪🇪 EE 05 - xiaohe",
+      "tag": "🇪🇪 EE 03 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.24.30.89",
+      "server": "94.183.170.135",
       "port": 443,
-      "uuid": "aebe5a70-0ca3-46ce-8208-8b5bab1346ce",
+      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "rAyAn-007.nAsTaRaN.DpDnS.OrG",
-        "insecure": true,
-        "client_fingerprint": null
-      },
       "ws": {
-        "path": "/?ed=2560",
+        "path": "/",
         "headers": {
-          "Host": "rayan-007.nastaran.dpdns.org"
+          "Host": "94.183.170.135"
         }
       }
     }

@@ -15,7 +15,8 @@
         "🇨🇿 CZ 01 - xiaohe",
         "🇨🇿 CZ 02 - xiaohe",
         "🇨🇿 CZ 03 - xiaohe",
-        "🇨🇿 CZ 04 - xiaohe"
+        "🇨🇿 CZ 04 - xiaohe",
+        "🇨🇿 CZ 05 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -31,20 +32,20 @@
       "tag": "🇨🇿 CZ 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "188.130.207.30",
-      "port": 2053,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "server": "195.85.23.75",
+      "port": 443,
+      "uuid": "b09dfed1-90fa-4353-8bdf-de1edb2e2d79",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "cdn8848.776676.xyz",
+        "server_name": "nb.lovecf.ggff.net",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/m",
+        "path": "/proxyip=us.xiabibi.cf",
         "headers": {
-          "Host": "cdn8848.776676.xyz"
+          "Host": "nb.lovecf.ggff.net"
         }
       }
     },
@@ -52,20 +53,20 @@
       "tag": "🇨🇿 CZ 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "162.159.152.4",
+      "server": "195.85.23.29",
       "port": 443,
-      "uuid": "f2a73750-3087-48ff-a763-1348c15dce68",
+      "uuid": "b09dfed1-90fa-4353-8bdf-de1edb2e2d79",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "rAyAn-007.mAxImA.DpDnS.OrG",
+        "server_name": "nb.lovecf.ggff.net",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/?ed=2560",
+        "path": "/proxyip=us.xiabibi.cf",
         "headers": {
-          "Host": "rAyAn-007.mAxImA.DpDnS.OrG"
+          "Host": "nb.lovecf.ggff.net"
         }
       }
     },
@@ -94,20 +95,41 @@
       "tag": "🇨🇿 CZ 04 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "45.130.125.207",
-      "port": 8443,
-      "uuid": "31aa0950-eb19-45ff-94a2-af416deb3b90",
+      "server": "195.85.23.252",
+      "port": 443,
+      "uuid": "b09dfed1-90fa-4353-8bdf-de1edb2e2d79",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "SquarE-saLaD-EbDe.ZDFGVcCfgUUYgGG.wOrKeRS.DEV",
+        "server_name": "nb.lovecf.ggff.net",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/eyJqdW5rIjoiZm5INktPV0lGcHI1NjNSOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0",
+        "path": "/proxyip=us.xiabibi.cf",
         "headers": {
-          "Host": "square-salad-ebde.zdfgvccfguuyggg.workers.dev"
+          "Host": "nb.lovecf.ggff.net"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇿 CZ 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "132.243.203.207",
+      "port": 8443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/lives",
+        "headers": {
+          "Host": "cdn8848.776676.xyz"
         }
       }
     }
