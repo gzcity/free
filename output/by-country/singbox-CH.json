@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 (家宽) - xiaohe"
+        "🇨🇭 CH 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,18 +25,21 @@
       "tag": "block"
     },
     {
-      "tag": "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
+      "tag": "🇨🇭 CH 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "172.64.229.2",
-      "port": 2086,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "server": "helvetica.pelmexo.ir",
+      "port": 7911,
+      "uuid": "23ddda0f-6333-493a-839d-f9c8e561f7e4",
       "flow": "",
-      "ws": {
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
+      "tls": {
+        "enabled": true,
+        "server_name": "play-apps-features.googleusercontent.com",
+        "insecure": true,
+        "client_fingerprint": "edge",
+        "reality": true,
+        "public_key": "3WnHdv9A0tNParChTLxPnDteRD841h8thOGR7MBgAhY",
+        "short_id": ""
       }
     }
   ]

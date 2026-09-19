@@ -14,7 +14,8 @@
       "outbounds": [
         "🇳🇴 NO 01 - xiaohe",
         "🇳🇴 NO 02 - xiaohe",
-        "🇳🇴 NO 03 - xiaohe"
+        "🇳🇴 NO 03 - xiaohe",
+        "🇳🇴 NO 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -38,7 +39,7 @@
         "enabled": true,
         "server_name": "deepl.com",
         "insecure": true,
-        "client_fingerprint": "chrome",
+        "client_fingerprint": "qq",
         "reality": true,
         "public_key": "aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc",
         "short_id": ""
@@ -48,17 +49,17 @@
       "tag": "🇳🇴 NO 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "46.29.238.32",
-      "port": 40443,
-      "uuid": "ed91e79c-f6bf-4fba-8cc0-6d45acaec22b",
+      "server": "151.242.168.125",
+      "port": 390,
+      "uuid": "7b363f9c-3df9-4b60-a789-9cd36be0bdfe",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "deepl.com",
+        "server_name": "bowandbead.com",
         "insecure": true,
-        "client_fingerprint": "chrome",
+        "client_fingerprint": "qq",
         "reality": true,
-        "public_key": "dvx6zPztKbgHpYaW6J4OZQC74Uy0JS6HUVdDfbjG5V4",
+        "public_key": "5RCgAVjaT7hwdVIKAEULswXGqR127ZOZV6X17nEhYk8",
         "short_id": ""
       }
     },
@@ -74,9 +75,27 @@
         "enabled": true,
         "server_name": "deepl.com",
         "insecure": true,
-        "client_fingerprint": "qq",
+        "client_fingerprint": "chrome",
         "reality": true,
         "public_key": "aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇳🇴 NO 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "46.29.238.32",
+      "port": 40443,
+      "uuid": "ed91e79c-f6bf-4fba-8cc0-6d45acaec22b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "deepl.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "dvx6zPztKbgHpYaW6J4OZQC74Uy0JS6HUVdDfbjG5V4",
         "short_id": ""
       }
     }

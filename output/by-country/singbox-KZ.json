@@ -14,10 +14,7 @@
       "outbounds": [
         "🇰🇿 KZ 01 - xiaohe",
         "🇰🇿 KZ 02 - xiaohe",
-        "🇰🇿 KZ 03 - xiaohe",
-        "🇰🇿 KZ 04 - xiaohe",
-        "🇰🇿 KZ 05 - xiaohe",
-        "🇰🇿 KZ 06 - xiaohe"
+        "🇰🇿 KZ 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -54,48 +51,6 @@
       "tag": "🇰🇿 KZ 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "31.43.179.200",
-      "port": 443,
-      "uuid": "b2593749-691c-428c-9481-14979cba3446",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "xi.tbv.ccwu.cc",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/proxyip=us.xiabibi.cf",
-        "headers": {
-          "Host": "xi.tbv.ccwu.cc"
-        }
-      }
-    },
-    {
-      "tag": "🇰🇿 KZ 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "31.43.179.20",
-      "port": 443,
-      "uuid": "b2593749-691c-428c-9481-14979cba3446",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "xi.tbv.ccwu.cc",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/proxyip=us.xiabibi.cf",
-        "headers": {
-          "Host": "xi.tbv.ccwu.cc"
-        }
-      }
-    },
-    {
-      "tag": "🇰🇿 KZ 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
       "server": "31.43.179.36",
       "port": 443,
       "uuid": "b2593749-691c-428c-9481-14979cba3446",
@@ -114,31 +69,10 @@
       }
     },
     {
-      "tag": "🇰🇿 KZ 05 - xiaohe",
+      "tag": "🇰🇿 KZ 03 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "31.43.179.109",
-      "port": 443,
-      "uuid": "b2593749-691c-428c-9481-14979cba3446",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "xi.tbv.ccwu.cc",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/proxyip=us.xiabibi.cf",
-        "headers": {
-          "Host": "xi.tbv.ccwu.cc"
-        }
-      }
-    },
-    {
-      "tag": "🇰🇿 KZ 06 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "31.43.179.36",
+      "server": "31.43.179.87",
       "port": 443,
       "uuid": "b2593749-691c-428c-9481-14979cba3446",
       "flow": "",

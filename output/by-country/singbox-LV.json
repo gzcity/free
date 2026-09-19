@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇪 BE 01 - xiaohe"
+        "🇱🇻 LV 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,21 +25,18 @@
       "tag": "block"
     },
     {
-      "tag": "🇧🇪 BE 01 - xiaohe",
+      "tag": "🇱🇻 LV 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "35.195.122.169",
-      "port": 443,
-      "uuid": "e3fb56fe-bdbc-4f0e-b1ed-de2f7c85f254",
+      "server": "atomic-prase23893.my-vm.work",
+      "port": 8088,
+      "uuid": "f7c74a35-1da0-5097-9fa7-a20735610ac1",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "i_UbRo65YEpOFuKkNVa0GEMl7xLDx9B1nmeyeNWyJQs",
-        "short_id": ""
+      "ws": {
+        "path": "/api",
+        "headers": {
+          "Host": "queuev4.vk.com"
+        }
       }
     }
   ]
