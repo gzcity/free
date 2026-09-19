@@ -14,8 +14,7 @@
       "outbounds": [
         "🇧🇬 BG 01 - xiaohe",
         "🇧🇬 BG 02 - xiaohe",
-        "🇧🇬 BG 03 - xiaohe",
-        "🇧🇬 BG 04 - xiaohe"
+        "🇧🇬 BG 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -47,21 +46,6 @@
       "udp": true,
       "type": "vless",
       "server": "192.145.31.5",
-      "port": 443,
-      "uuid": "9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "192.145.31.5"
-        }
-      }
-    },
-    {
-      "tag": "🇧🇬 BG 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "192.145.31.5",
       "port": 8443,
       "uuid": "9f73cf9a-c68f-4e6d-90f0-e66b64f52f8a",
       "flow": "",
@@ -73,7 +57,7 @@
       }
     },
     {
-      "tag": "🇧🇬 BG 04 - xiaohe",
+      "tag": "🇧🇬 BG 03 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "192.145.31.5",

@@ -13,7 +13,10 @@
       "tag": "auto",
       "outbounds": [
         "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 02 - xiaohe"
+        "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
+        "🇦🇺 澳大利亚 (Australia) 03 - xiaohe",
+        "🇦🇺 澳大利亚 (Australia) 04 - xiaohe",
+        "🇦🇺 澳大利亚 (Australia) 05 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -29,6 +32,60 @@
       "tag": "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
       "udp": true,
       "type": "vless",
+      "server": "34.87.244.111",
+      "port": 443,
+      "uuid": "325bc1be-0cb7-4cf7-bd35-a79ded91bbbd",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "safari",
+        "reality": true,
+        "public_key": "fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "34.87.244.111",
+      "port": 443,
+      "uuid": "325bc1be-0cb7-4cf7-bd35-a79ded91bbbd",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇦🇺 澳大利亚 (Australia) 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "34.87.244.111",
+      "port": 443,
+      "uuid": "325bc1be-0cb7-4cf7-bd35-a79ded91bbbd",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇦🇺 澳大利亚 (Australia) 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
       "server": "103.75.119.126",
       "port": 2087,
       "uuid": "731f177e-00aa-480c-b935-661456139a32",
@@ -41,7 +98,7 @@
       }
     },
     {
-      "tag": "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
+      "tag": "🇦🇺 澳大利亚 (Australia) 05 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "103.75.119.126",

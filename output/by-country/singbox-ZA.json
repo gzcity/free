@@ -12,7 +12,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇿🇦 ZA 01 - xiaohe"
+        "🇿🇦 ZA 01 - xiaohe",
+        "🇿🇦 ZA 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -32,6 +33,15 @@
       "port": 16233,
       "method": "chacha20-ietf-poly1305",
       "password": "Xsy8Ox4yOV3xLlpxtjzs3X"
+    },
+    {
+      "tag": "🇿🇦 ZA 02 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "139.84.247.164",
+      "port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "tfAcRikawhNoZAhu"
     }
   ]
 }

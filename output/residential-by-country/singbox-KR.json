@@ -15,7 +15,8 @@
         "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe",
         "🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe",
         "🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe",
-        "🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe"
+        "🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe",
+        "🇰🇷 韩国 (South Korea) 05 (家宽) - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -29,6 +30,21 @@
     },
     {
       "tag": "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.65.90.53",
+      "port": 8880,
+      "uuid": "a5c7e18f-1701-46ed-8f42-00eb078d9445",
+      "flow": "",
+      "ws": {
+        "path": "/pyip=ProxyIP.KR.CMLiussss.net",
+        "headers": {
+          "Host": "weathered-snow-b87b.292-455.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "104.19.215.97",
@@ -49,7 +65,28 @@
       }
     },
     {
-      "tag": "🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe",
+      "tag": "🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "146.56.115.180",
+      "port": 443,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "7bzzv.umtm.n70.hh.vavava.kdns.fr",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "7bzzv.umtm.n70.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "tag": "🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "172.64.53.60",
@@ -70,31 +107,10 @@
       }
     },
     {
-      "tag": "🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe",
+      "tag": "🇰🇷 韩国 (South Korea) 05 (家宽) - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "104.18.42.54",
-      "port": 2087,
-      "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "?ed=2560",
-        "headers": {
-          "Host": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
-        }
-      }
-    },
-    {
-      "tag": "🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.64.53.87",
       "port": 2087,
       "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
       "flow": "",

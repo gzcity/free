@@ -12,8 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇹 AT 01 - xiaohe",
-        "🇦🇹 AT 02 - xiaohe"
+        "🇦🇹 AT 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -33,27 +32,6 @@
       "port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "tag": "🇦🇹 AT 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "132.243.203.207",
-      "port": 8443,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn8848.776676.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/lives",
-        "headers": {
-          "Host": "cdn8848.776676.xyz"
-        }
-      }
     }
   ]
 }
