@@ -20,8 +20,7 @@
         "🇫🇮 FI 06 - xiaohe",
         "🇫🇮 FI 07 - xiaohe",
         "🇫🇮 FI 08 - xiaohe",
-        "🇫🇮 FI 09 - xiaohe",
-        "🇫🇮 FI 10 - xiaohe"
+        "🇫🇮 FI 09 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -35,99 +34,6 @@
     },
     {
       "tag": "🇫🇮 FI 01 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "212.104.128.45",
-      "port": 443,
-      "uuid": "b2593749-691c-428c-9481-14979cba3446",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "xi.tbv.ccwu.cc",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/proxyip=us.xiabibi.cf",
-        "headers": {
-          "Host": "xi.tbv.ccwu.cc"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "212.104.128.152",
-      "port": 443,
-      "uuid": "b2593749-691c-428c-9481-14979cba3446",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "xi.tbv.ccwu.cc",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/proxyip=us.xiabibi.cf",
-        "headers": {
-          "Host": "xi.tbv.ccwu.cc"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI 03 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "82.47.186.18",
-      "port": 19290,
-      "method": "aes-128-gcm",
-      "password": "o2rw2hICwu1blrr_gZAl2Q"
-    },
-    {
-      "tag": "🇫🇮 FI 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "212.104.128.139",
-      "port": 443,
-      "uuid": "b2593749-691c-428c-9481-14979cba3446",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "xi.tbv.ccwu.cc",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/proxyip=us.xiabibi.cf",
-        "headers": {
-          "Host": "xi.tbv.ccwu.cc"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI 05 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "212.104.128.27",
-      "port": 443,
-      "uuid": "b2593749-691c-428c-9481-14979cba3446",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "xi.tbv.ccwu.cc",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "xi.tbv.ccwu.cc"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI 06 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "a2.arshia-nova.ir",
@@ -148,7 +54,91 @@
       }
     },
     {
-      "tag": "🇫🇮 FI 07 - xiaohe",
+      "tag": "🇫🇮 FI 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "212.104.128.68",
+      "port": 443,
+      "uuid": "b2593749-691c-428c-9481-14979cba3446",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "xi.tbv.ccwu.cc",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/proxyip=us.xiabibi.cf",
+        "headers": {
+          "Host": "xi.tbv.ccwu.cc"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "212.104.128.27",
+      "port": 443,
+      "uuid": "b2593749-691c-428c-9481-14979cba3446",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "xi.tbv.ccwu.cc",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "xi.tbv.ccwu.cc"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.18.38.47",
+      "port": 2087,
+      "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "?ed=2560",
+        "headers": {
+          "Host": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "212.104.128.106",
+      "port": 443,
+      "uuid": "b2593749-691c-428c-9481-14979cba3446",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "xi.tbv.ccwu.cc",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/proxyip=us.xiabibi.cf",
+        "headers": {
+          "Host": "xi.tbv.ccwu.cc"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI 06 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "212.104.128.152",
@@ -169,28 +159,28 @@
       }
     },
     {
-      "tag": "🇫🇮 FI 08 - xiaohe",
+      "tag": "🇫🇮 FI 07 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "188.114.97.6",
-      "port": 2087,
-      "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
+      "server": "a2.arshia-nova.ir",
+      "port": 443,
+      "uuid": "9503e890-3702-4847-af0a-2bceac2f0da0",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "fx3h2kf8xn.fx6hsv0.ccwu.cc",
+        "server_name": "ssl.fastly.com",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/?ed=2560",
+        "path": "/",
         "headers": {
-          "Host": "fx3h2kf8xn.fx6hsv0.ccwu.cc"
+          "Host": "c12.com"
         }
       }
     },
     {
-      "tag": "🇫🇮 FI 09 - xiaohe",
+      "tag": "🇫🇮 FI 08 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "212.104.128.106",
@@ -211,10 +201,10 @@
       }
     },
     {
-      "tag": "🇫🇮 FI 10 - xiaohe",
+      "tag": "🇫🇮 FI 09 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "212.104.128.106",
+      "server": "212.104.128.217",
       "port": 443,
       "uuid": "b2593749-691c-428c-9481-14979cba3446",
       "flow": "",

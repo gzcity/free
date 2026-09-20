@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇩🇰 DK 01 - xiaohe"
+        "🇮🇷 IR 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,16 +25,24 @@
       "tag": "block"
     },
     {
-      "tag": "🇩🇰 DK 01 - xiaohe",
+      "tag": "🇮🇷 IR 01 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "46.229.243.154",
-      "port": 4443,
-      "password": "s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z",
+      "type": "vless",
+      "server": "31.59.121.156",
+      "port": 2053,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "grape-turbo-fr.roxa.org",
-        "insecure": true
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "cdn8848.776676.xyz"
+        }
       }
     }
   ]

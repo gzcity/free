@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇻 LV 01 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,17 +25,23 @@
       "tag": "block"
     },
     {
-      "tag": "🇱🇻 LV 01 - xiaohe",
+      "tag": "🇹🇷 土耳其 (Turkey) 01 (家宽) - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "atomic-prase23893.my-vm.work",
-      "port": 8088,
-      "uuid": "f7c74a35-1da0-5097-9fa7-a20735610ac1",
+      "server": "104.17.169.13",
+      "port": 2053,
+      "uuid": "a22bff60-a40a-4250-bde2-4c660e363b47",
       "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "inDeX.HaRMONiCA01.WORkers.DeV",
+        "insecure": true,
+        "client_fingerprint": null
+      },
       "ws": {
-        "path": "/api",
+        "path": "/axch1mttbxz2k55y01",
         "headers": {
-          "Host": "queuev4.vk.com"
+          "Host": "inDeX.HaRMONiCA01.WORkers.DeV"
         }
       }
     }

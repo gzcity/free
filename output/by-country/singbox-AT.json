@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇩 ID 01 - xiaohe"
+        "🇦🇹 AT 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,13 +25,17 @@
       "tag": "block"
     },
     {
-      "tag": "🇮🇩 ID 01 - xiaohe",
+      "tag": "🇦🇹 AT 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "103.160.63.199",
-      "port": 31348,
-      "method": "chacha20-ietf-poly1305",
-      "password": "8C5valhOd8vfwaTXUSZ6Zyb0Ip34lRR5z7P8az"
+      "type": "trojan",
+      "server": "46.229.243.154",
+      "port": 4443,
+      "password": "s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z",
+      "tls": {
+        "enabled": true,
+        "server_name": "grape-turbo-fr.roxa.org",
+        "insecure": true
+      }
     }
   ]
 }
