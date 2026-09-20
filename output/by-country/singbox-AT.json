@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇵🇱 PL 01 - xiaohe"
+        "🇦🇹 AT 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,20 +25,20 @@
       "tag": "block"
     },
     {
-      "tag": "🇵🇱 PL 01 - xiaohe",
+      "tag": "🇦🇹 AT 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "34.118.70.195",
+      "server": "152.53.1.40",
       "port": 443,
-      "uuid": "d518b4e2-bd6e-4d4e-a26e-238154d8d60c",
+      "uuid": "edde565e-41f5-400e-84ea-7b87a3e84488",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
+        "server_name": "at.quattro-tech.ru",
         "insecure": true,
         "client_fingerprint": "chrome",
         "reality": true,
-        "public_key": "t_ql5pn5MG1bkVQoteCXoKkSTzUzOs_yXMllmsyiqXY",
+        "public_key": "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc",
         "short_id": ""
       }
     }

@@ -31,11 +31,11 @@
     {
       "tag": "🇮🇹 意大利 (Italy) 01 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "204.216.216.23",
-      "port": 10086,
-      "uuid": "9f0285ee-20ca-4953-bcdb-86a920652923",
-      "flow": ""
+      "type": "shadowsocks",
+      "server": "57.131.48.45",
+      "port": 8388,
+      "method": "aes-256-gcm",
+      "password": "itzvpn@321"
     },
     {
       "tag": "🇮🇹 意大利 (Italy) 02 - xiaohe",
@@ -67,11 +67,11 @@
     {
       "tag": "🇮🇹 意大利 (Italy) 05 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "57.131.48.45",
-      "port": 8388,
-      "method": "aes-256-gcm",
-      "password": "itzvpn@321"
+      "type": "vless",
+      "server": "204.216.216.23",
+      "port": 10086,
+      "uuid": "9f0285ee-20ca-4953-bcdb-86a920652923",
+      "flow": ""
     }
   ]
 }
