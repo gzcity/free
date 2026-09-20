@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇷 IR 01 - xiaohe"
+        "🇻🇳 VN 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,11 +25,11 @@
       "tag": "block"
     },
     {
-      "tag": "🇮🇷 IR 01 - xiaohe",
+      "tag": "🇻🇳 VN 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "31.59.121.156",
-      "port": 2053,
+      "server": "160.30.54.63",
+      "port": 443,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "flow": "",
       "tls": {

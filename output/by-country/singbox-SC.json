@@ -14,8 +14,7 @@
       "outbounds": [
         "🇸🇨 SC 01 - xiaohe",
         "🇸🇨 SC 02 - xiaohe",
-        "🇸🇨 SC 03 - xiaohe",
-        "🇸🇨 SC 04 - xiaohe"
+        "🇸🇨 SC 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -31,20 +30,20 @@
       "tag": "🇸🇨 SC 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "154.211.8.227",
-      "port": 2087,
-      "uuid": "40af9131-d540-448a-bc56-5bba147a1dc3",
+      "server": "103.31.77.108",
+      "port": 2053,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "proxy-34l.pages.dev",
+        "server_name": "cdn8848.776676.xyz",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/",
+        "path": "/channels/act",
         "headers": {
-          "Host": "proxy-34l.pages.dev"
+          "Host": "cdn8848.776676.xyz"
         }
       }
     },
@@ -73,35 +72,20 @@
       "tag": "🇸🇨 SC 03 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "154.197.75.40",
-      "port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "vms.lifetime37.workers.dev"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇨 SC 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "154.218.15.250",
-      "port": 2083,
-      "uuid": "40af9131-d540-448a-bc56-5bba147a1dc3",
+      "server": "138.124.25.250",
+      "port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "proxy-1cu.pages.dev",
+        "server_name": "cdn8848.776676.xyz",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
         "path": "/",
         "headers": {
-          "Host": "proxy-1cu.pages.dev"
+          "Host": "cdn8848.776676.xyz"
         }
       }
     }

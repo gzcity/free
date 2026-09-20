@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇷 土耳其 (Turkey) 01 (家宽) - xiaohe"
+        "🇮🇪 IE 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,23 +25,23 @@
       "tag": "block"
     },
     {
-      "tag": "🇹🇷 土耳其 (Turkey) 01 (家宽) - xiaohe",
+      "tag": "🇮🇪 IE 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.17.169.13",
-      "port": 2053,
-      "uuid": "a22bff60-a40a-4250-bde2-4c660e363b47",
+      "server": "162.159.160.139",
+      "port": 2083,
+      "uuid": "44eae030-290b-4083-8102-6f8bab05701b",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "inDeX.HaRMONiCA01.WORkers.DeV",
+        "server_name": "cfvvv-ev1.pages.dev",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/axch1mttbxz2k55y01",
+        "path": "/",
         "headers": {
-          "Host": "inDeX.HaRMONiCA01.WORkers.DeV"
+          "Host": "cfvvv-ev1.pages.dev"
         }
       }
     }
