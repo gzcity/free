@@ -12,9 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇨 SC 01 - xiaohe",
-        "🇸🇨 SC 02 - xiaohe",
-        "🇸🇨 SC 03 - xiaohe"
+        "🇸🇨 SC 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -30,50 +28,8 @@
       "tag": "🇸🇨 SC 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "103.31.77.108",
-      "port": 2053,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn8848.776676.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/channels/act",
-        "headers": {
-          "Host": "cdn8848.776676.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇨 SC 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "45.130.125.73",
-      "port": 443,
-      "uuid": "50414e45-4c5f-5a45-5553-cea58e4acf49",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "web-app-aug8yr.app-f1qsy1.workers.dev",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/api/ws",
-        "headers": {
-          "Host": "web-app-aug8yr.app-f1qsy1.workers.dev"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇨 SC 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "138.124.25.250",
-      "port": 443,
+      "server": "64.225.65.116",
+      "port": 8443,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "flow": "",
       "tls": {

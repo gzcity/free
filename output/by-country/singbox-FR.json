@@ -23,7 +23,9 @@
         "🇫🇷 法国 (France) 09 - xiaohe",
         "🇫🇷 法国 (France) 10 - xiaohe",
         "🇫🇷 法国 (France) 11 - xiaohe",
-        "🇫🇷 法国 (France) 12 - xiaohe"
+        "🇫🇷 法国 (France) 12 - xiaohe",
+        "🇫🇷 法国 (France) 13 - xiaohe",
+        "🇫🇷 法国 (France) 14 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -39,25 +41,49 @@
       "tag": "🇫🇷 法国 (France) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.21.50.143",
-      "port": 443,
-      "uuid": "50414e45-4c5f-5a45-5553-5a26a30b00dc",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "4qzsz6e8u00s.tlzw8le6ubhs.workers.dev",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/stream/PANEL_ZEUS/5a26a30b00dc",
-        "headers": {
-          "Host": "4qzsz6e8u00s.tlzw8le6ubhs.workers.dev"
-        }
-      }
+      "server": "15.188.161.33",
+      "port": 22223,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "flow": ""
     },
     {
       "tag": "🇫🇷 法国 (France) 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "15.188.161.33",
+      "port": 22222,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "flow": ""
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 03 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "54.36.174.140",
+      "port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "mrs2e9a"
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "34.155.10.226",
+      "port": 443,
+      "uuid": "d619964d-26d6-452d-9860-6f058f03ba8e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "6tH_NDFcxWn60B3s-MgrkBTU2yUUBY42ZG1av50Ywhk",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 05 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "51.255.13.232",
@@ -66,7 +92,23 @@
       "password": "BqnqToih0PbU"
     },
     {
-      "tag": "🇫🇷 法国 (France) 03 - xiaohe",
+      "tag": "🇫🇷 法国 (France) 06 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "188.114.96.19",
+      "port": 80,
+      "uuid": "aed88e79-5762-4d2f-86fa-f438f32a7654",
+      "alterId": 0,
+      "security": "auto",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "google.whatsapp.snapp.torob.basalam.hesanid8.ir."
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 07 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "162.19.204.71",
@@ -81,10 +123,28 @@
       }
     },
     {
-      "tag": "🇫🇷 法国 (France) 04 - xiaohe",
+      "tag": "🇫🇷 法国 (France) 08 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "149.202.58.99",
+      "server": "51.77.217.70",
+      "port": 2053,
+      "uuid": "bf16ee0c-8b3c-41e4-ab3a-8b48033c404e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 09 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "81.95.4.189",
       "port": 443,
       "uuid": "b585dc5e-55bf-4a8b-913a-27c9ccac05c3",
       "flow": "",
@@ -97,88 +157,7 @@
       "ws": {
         "path": "/vws/",
         "headers": {
-          "Host": "149.202.58.99"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 05 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "162.19.204.71",
-      "port": 1234,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 06 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "54.36.174.140",
-      "port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "mrs2e9a"
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 07 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.67.206.254",
-      "port": 443,
-      "uuid": "50414e45-4c5f-5a45-5553-5a26a30b00dc",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "4qzsz6e8u00s.tlzw8le6ubhs.workers.dev",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/stream/PANEL_ZEUS/5a26a30b00dc",
-        "headers": {
-          "Host": "4qzsz6e8u00s.tlzw8le6ubhs.workers.dev"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 08 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "141.95.65.9",
-      "port": 1234,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 09 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.18.31.37",
-      "port": 443,
-      "uuid": "50414e45-4c5f-5a45-5553-5bc7860646e4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "qzz0a4eou1ms.mlm-792d0942.workers.dev",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/stream/PANEL_ZEUS/5bc7860646e4",
-        "headers": {
-          "Host": "qzz0a4eou1ms.mlm-792d0942.workers.dev"
+          "Host": "bab-6.site"
         }
       }
     },
@@ -207,19 +186,47 @@
       "tag": "🇫🇷 法国 (France) 11 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "141.95.65.9",
-      "port": 1234,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "server": "188.114.96.19",
+      "port": 80,
+      "uuid": "af4be52a-aab3-4db1-a6bb-c23700dcb9c2",
       "alterId": 0,
       "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true
+      "ws": {
+        "path": "/d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560",
+        "headers": {
+          "Host": "https.http.www.net.com.ramseyv2.ir."
+        }
       }
     },
     {
       "tag": "🇫🇷 法国 (France) 12 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "15.188.161.33",
+      "port": 22224,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "flow": ""
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 13 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "51.77.217.70",
+      "port": 2053,
+      "uuid": "bf16ee0c-8b3c-41e4-ab3a-8b48033c404e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 14 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "149.202.58.99",
