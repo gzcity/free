@@ -12,7 +12,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇳🇴 NO 01 - xiaohe"
+        "🇳🇴 NO 01 - xiaohe",
+        "🇳🇴 NO 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -26,6 +27,24 @@
     },
     {
       "tag": "🇳🇴 NO 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "46.29.238.88",
+      "port": 40443,
+      "uuid": "db320947-adfb-400d-b60b-383b8324bffe",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "deepl.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇳🇴 NO 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "46.29.238.88",

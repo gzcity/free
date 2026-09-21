@@ -12,7 +12,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇱 CL 01 - xiaohe"
+        "🇨🇱 CL 01 - xiaohe",
+        "🇨🇱 CL 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -36,10 +37,25 @@
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "insecure": true,
-        "client_fingerprint": "ios",
+        "client_fingerprint": "chrome",
         "reality": true,
         "public_key": "3ekBKAuIIAOjtkKJ0T-qpC7uJsqsY2fVLRB6C70A5hw",
         "short_id": ""
+      }
+    },
+    {
+      "tag": "🇨🇱 CL 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "platform109.golnamakcert.top",
+      "port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "flow": "",
+      "ws": {
+        "path": "/platform109",
+        "headers": {
+          "Host": "platform109.golnamakcert.top"
+        }
       }
     }
   ]
