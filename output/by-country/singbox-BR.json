@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇶 IQ 01 - xiaohe"
+        "🇧🇷 BR 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,23 +25,23 @@
       "tag": "block"
     },
     {
-      "tag": "🇮🇶 IQ 01 - xiaohe",
+      "tag": "🇧🇷 BR 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "172.67.131.112",
-      "port": 443,
-      "uuid": "ef23616d-8a9d-4b22-b2f5-9bda864de179",
+      "server": "31.58.76.68",
+      "port": 8443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "INDEX.Arcane509.Workers.DEV",
+        "server_name": "cdn8848.776676.xyz",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/",
+        "path": "%2Fnew%2Fdh%3Fed%3D2560",
         "headers": {
-          "Host": "index.arcane509.workers.dev"
+          "Host": "cdn8848.776676.xyz"
         }
       }
     }
