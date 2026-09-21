@@ -12,8 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇪 IE 01 - xiaohe",
-        "🇮🇪 IE 02 - xiaohe"
+        "🇮🇪 IE 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -27,27 +26,6 @@
     },
     {
       "tag": "🇮🇪 IE 01 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "162.159.160.139",
-      "port": 2083,
-      "uuid": "44eae030-290b-4083-8102-6f8bab05701b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "cfvvv-ev1.pages.dev",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "cfvvv-ev1.pages.dev"
-        }
-      }
-    },
-    {
-      "tag": "🇮🇪 IE 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "162.159.160.139",

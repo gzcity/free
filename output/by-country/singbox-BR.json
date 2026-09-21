@@ -12,7 +12,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇷 BR 01 - xiaohe"
+        "🇧🇷 BR 01 - xiaohe",
+        "🇧🇷 BR 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -28,8 +29,29 @@
       "tag": "🇧🇷 BR 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "31.58.76.68",
-      "port": 8443,
+      "server": "157.151.4.93",
+      "port": 443,
+      "uuid": "c18b978e-1c4e-415c-8bea-07942b563a64",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "shuma.ccwu.cc",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/fp=chrome",
+        "headers": {
+          "Host": "shuma.ccwu.cc"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇷 BR 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "188.166.49.168",
+      "port": 2083,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "flow": "",
       "tls": {
@@ -39,7 +61,7 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "%2Fnew%2Fdh%3Fed%3D2560",
+        "path": "/",
         "headers": {
           "Host": "cdn8848.776676.xyz"
         }

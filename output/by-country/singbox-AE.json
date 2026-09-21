@@ -18,9 +18,7 @@
         "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 05 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 06 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 07 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 08 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 09 - xiaohe"
+        "🇦🇪 阿联酋 (UAE) 07 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -51,15 +49,18 @@
       "tag": "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "84.235.244.108",
-      "port": 22573,
-      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
+      "server": "89.125.147.199",
+      "port": 443,
+      "uuid": "cabd9303-ae32-4d25-86b9-26b312d0f044",
       "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "uae.unixzone.us"
-        }
+      "tls": {
+        "enabled": true,
+        "server_name": "maps.apple.com",
+        "insecure": true,
+        "client_fingerprint": "random",
+        "reality": true,
+        "public_key": "iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg",
+        "short_id": ""
       }
     },
     {
@@ -81,21 +82,6 @@
       "tag": "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "uae.unixzone.us",
-      "port": 22573,
-      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "uae.unixzone.us"
-        }
-      }
-    },
-    {
-      "tag": "🇦🇪 阿联酋 (UAE) 05 - xiaohe",
-      "udp": true,
-      "type": "vless",
       "server": "89.125.147.199",
       "port": 443,
       "uuid": "246b101b-4e4a-451f-8e9c-5e8d3b64b4ef",
@@ -111,10 +97,10 @@
       }
     },
     {
-      "tag": "🇦🇪 阿联酋 (UAE) 06 - xiaohe",
+      "tag": "🇦🇪 阿联酋 (UAE) 05 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "uae.unixzone.us",
+      "server": "84.235.244.108",
       "port": 22573,
       "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
       "flow": "",
@@ -123,57 +109,42 @@
         "headers": {
           "Host": "uae.unixzone.us"
         }
+      }
+    },
+    {
+      "tag": "🇦🇪 阿联酋 (UAE) 06 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "89.125.147.199",
+      "port": 443,
+      "uuid": "cabd9303-ae32-4d25-86b9-26b312d0f044",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "maps.apple.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg",
+        "short_id": ""
       }
     },
     {
       "tag": "🇦🇪 阿联酋 (UAE) 07 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "188.72.103.4",
-      "port": 443,
-      "uuid": "1f959100-a98b-47fb-84fa-359246dc458a",
+      "server": "31.58.181.88",
+      "port": 8443,
+      "uuid": "39c11784-818b-4e2c-8804-8181abc9c849",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "apicdn.4subnodes.com",
+        "server_name": "tradingview.com",
         "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/apiv1/esa1-asda2jcvnbpseflkn-kjweksad",
-        "headers": {
-          "Host": "apicdn.4subnodes.com"
-        }
-      }
-    },
-    {
-      "tag": "🇦🇪 阿联酋 (UAE) 08 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "84.235.244.108",
-      "port": 22573,
-      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "uae.unixzone.us"
-        }
-      }
-    },
-    {
-      "tag": "🇦🇪 阿联酋 (UAE) 09 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "84.235.244.108",
-      "port": 22573,
-      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "uae.unixzone.us"
-        }
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc",
+        "short_id": ""
       }
     }
   ]

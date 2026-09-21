@@ -63,7 +63,14 @@
         "🇸🇬 新加坡 (Singapore) 49 - xiaohe",
         "🇸🇬 新加坡 (Singapore) 50 - xiaohe",
         "🇸🇬 新加坡 (Singapore) 51 - xiaohe",
-        "🇸🇬 新加坡 (Singapore) 52 - xiaohe"
+        "🇸🇬 新加坡 (Singapore) 52 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 53 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 54 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 55 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 56 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 57 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 58 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 59 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -79,7 +86,7 @@
       "tag": "🇸🇬 新加坡 (Singapore) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "68.64.178.52",
+      "server": "108.160.136.71",
       "port": 443,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "flow": "",
@@ -90,7 +97,7 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/downloads/posts/programs?ed=2560",
+        "path": "/doc/products/view?ed=2560fp=chrome",
         "headers": {
           "Host": "cdn8848.776676.xyz"
         }
@@ -100,8 +107,8 @@
       "tag": "🇸🇬 新加坡 (Singapore) 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "108.162.198.178",
-      "port": 80,
+      "server": "162.159.38.127",
+      "port": 2082,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "flow": "",
       "ws": {
@@ -114,192 +121,46 @@
     {
       "tag": "🇸🇬 新加坡 (Singapore) 03 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "217.217.254.126",
-      "port": 2053,
-      "uuid": "cb15cce9-73ed-4928-b38c-462f0732cbe9",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "random",
-        "reality": true,
-        "public_key": "VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw",
-        "short_id": ""
-      }
+      "type": "vmess",
+      "server": "ww11.levikogjgfdd.ir",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
     },
     {
       "tag": "🇸🇬 新加坡 (Singapore) 04 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "162.159.156.214",
-      "port": 8880,
-      "uuid": "8991a496-1baa-486f-9948-ffe44e68c072",
-      "flow": "",
-      "ws": {
-        "path": "/pyip=ProxyIP.SG.CMLiussss.net",
-        "headers": {
-          "Host": "soft-band-8da6.426.workers.dev"
-        }
-      }
+      "type": "vmess",
+      "server": "149.88.23.202",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
     },
     {
       "tag": "🇸🇬 新加坡 (Singapore) 05 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.207",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 06 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "cloud.lakshan.us",
-      "port": 119,
-      "password": "skynet",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloud.lakshan.us",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 07 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.207",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 08 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "64.120.95.203",
-      "port": 119,
-      "password": "skynet",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloud.lakshan.us",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 09 - xiaohe",
-      "udp": true,
       "type": "vless",
-      "server": "104.18.46.234",
-      "port": 2082,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "flow": "",
-      "ws": {
-        "path": "/?ed=2560security=tls+",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 10 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.64.32.103",
-      "port": 2086,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "flow": "",
-      "ws": {
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 11 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "188.114.97.6",
+      "server": "43.159.4.80",
       "port": 443,
-      "uuid": "6e5270b6-9f28-4bc6-8a41-9c197f33f4bb",
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "autumn-dawn-fa6b.337-272.workers.dev",
+        "server_name": "cdn8848.776676.xyz",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/pyip=ProxyIP.SG.CMLiussss.net",
+        "path": "/episode/files?ed=2560fp=chrome",
         "headers": {
-          "Host": "autumn-dawn-fa6b.337-272.workers.dev"
+          "Host": "cdn8848.776676.xyz"
         }
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 12 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.64.53.55",
-      "port": 80,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "flow": "",
-      "ws": {
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 13 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "194.233.74.160",
-      "port": 2342,
-      "method": "chacha20-ietf-poly1305",
-      "password": "XV4bvaJIWoxl3IYEC1e6W7"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 14 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.207",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 15 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.207",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 16 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "64.120.95.203",
-      "port": 119,
-      "password": "skynet",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloud.lakshan.us",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 17 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 06 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "ww11.levikogjgfdd.ir",
@@ -309,80 +170,10 @@
       "security": "auto"
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 18 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 07 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "151.242.189.162",
-      "port": 443,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn8848.776676.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/chat?ed=2560",
-        "headers": {
-          "Host": "cdn8848.776676.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 19 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "little-pond-8731.81-68e.workers.dev",
-      "port": 8880,
-      "uuid": "ad85a1ce-3519-4634-9ea1-66c60d3694ba",
-      "flow": "",
-      "ws": {
-        "path": "/pyip=ProxyIP.SG.CMLiussss.net",
-        "headers": {
-          "Host": "little-pond-8731.81-68e.workers.dev"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 20 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "64.120.95.203",
-      "port": 119,
-      "password": "skynet",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloud.lakshan.us",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 21 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "8.222.70.238",
-      "port": 443,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn8848.776676.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/mall/china/doc?ed=2560fp=chrome",
-        "headers": {
-          "Host": "cdn8848.776676.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 22 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "140.235.39.19",
+      "server": "103.195.188.192",
       "port": 443,
       "uuid": "c18b978e-1c4e-415c-8bea-07942b563a64",
       "flow": "",
@@ -393,14 +184,178 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/",
+        "path": "/fp=chrome",
         "headers": {
           "Host": "shuma.ccwu.cc"
         }
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 23 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 08 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 09 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "194.233.74.160",
+      "port": 2342,
+      "method": "chacha20-ietf-poly1305",
+      "password": "XV4bvaJIWoxl3IYEC1e6W7"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 10 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "221.125.10.8",
+      "port": 57537,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "cdn8848.776676.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 11 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "160.25.75.40",
+      "port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/html?ed=2560fp=chrome",
+        "headers": {
+          "Host": "cdn8848.776676.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 12 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "130.94.36.232",
+      "port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/channels/act?ed=2560",
+        "headers": {
+          "Host": "cdn8848.776676.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 13 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "130.94.36.232",
+      "port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/channels/act?ed=2560",
+        "headers": {
+          "Host": "cdn8848.776676.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 14 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "103.190.178.195",
+      "port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/topic/htm?ed=2560fp=chrome",
+        "headers": {
+          "Host": "cdn8848.776676.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 15 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.202",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 16 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "43.175.131.30",
+      "port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/article?ed=2560+",
+        "headers": {
+          "Host": "cdn8848.776676.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 17 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "134.122.154.210",
+      "port": 443,
+      "uuid": "7f549a50-4655-46b6-962d-183cfc532fc9",
+      "flow": ""
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 18 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "ww11.levikogjgfdd.ir",
@@ -410,42 +365,55 @@
       "security": "auto"
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 24 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 19 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "134.122.154.210",
-      "port": 443,
-      "uuid": "7f549a50-4655-46b6-962d-183cfc532fc9",
-      "flow": ""
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 25 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "64.120.95.203",
-      "port": 119,
-      "password": "skynet",
+      "server": "217.217.254.126",
+      "port": 2053,
+      "uuid": "cb15cce9-73ed-4928-b38c-462f0732cbe9",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "cloud.lakshan.us",
-        "insecure": true
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw",
+        "short_id": ""
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 26 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 20 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "cloud.lakshan.us",
-      "port": 119,
-      "password": "skynet",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloud.lakshan.us",
-        "insecure": true
+      "type": "vless",
+      "server": "104.18.46.234",
+      "port": 2095,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "flow": "",
+      "ws": {
+        "path": "/?ed=2560security=tls+",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 27 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 21 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "108.162.198.178",
+      "port": 80,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 22 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "217.217.254.126",
@@ -463,10 +431,86 @@
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 28 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 23 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "ww11.levikogjgfdd.ir",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 24 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 25 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "103.195.188.192",
+      "server": "104.18.46.46",
+      "port": 2082,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "flow": "",
+      "ws": {
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 26 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 27 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "160.25.75.40",
+      "port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/html",
+        "headers": {
+          "Host": "cdn8848.776676.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 28 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "ww11.levikogjgfdd.ir",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 29 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "103.195.188.206",
       "port": 443,
       "uuid": "c18b978e-1c4e-415c-8bea-07942b563a64",
       "flow": "",
@@ -477,85 +521,14 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/",
+        "path": "/fp=chrome",
         "headers": {
           "Host": "shuma.ccwu.cc"
         }
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 29 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "140.245.38.33",
-      "port": 2096,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn8848.776676.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/class/season",
-        "headers": {
-          "Host": "cdn8848.776676.xyz"
-        }
-      }
-    },
-    {
       "tag": "🇸🇬 新加坡 (Singapore) 30 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "ww11.levikogjgfdd.ir",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 31 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.207",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 32 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "ww11.levikogjgfdd.ir",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 33 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.207",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 34 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.207",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 35 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "152.70.76.104",
@@ -576,51 +549,74 @@
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 36 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "167.150.100.93",
-      "port": 29824,
-      "method": "2022-blake3-aes-256-gcm",
-      "password": "2PIuTAxZjzJxni4kxy/GQ36VWTbRrYzl1fjm0ufTR94="
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 37 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 31 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "103.195.188.206",
+      "server": "103.115.18.54",
       "port": 443,
-      "uuid": "c18b978e-1c4e-415c-8bea-07942b563a64",
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "shuma.ccwu.cc",
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/mall/china/doc?ed=2560",
+        "headers": {
+          "Host": "cdn8848.776676.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 32 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "8.222.70.238",
+      "port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn8848.776676.xyz",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
         "path": "/",
         "headers": {
-          "Host": "shuma.ccwu.cc"
+          "Host": "cdn8848.776676.xyz"
         }
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 38 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "ww11.levikogjgfdd.ir",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 39 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 33 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "162.159.39.218",
-      "port": 80,
+      "server": "140.245.38.33",
+      "port": 2096,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/class/season",
+        "headers": {
+          "Host": "cdn8848.776676.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 34 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.64.154.8",
+      "port": 2086,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "flow": "",
       "ws": {
@@ -631,24 +627,82 @@
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 40 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 35 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 36 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 37 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "ww11.levikogjgfdd.ir",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 38 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.202",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 39 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "188.114.97.6",
-      "port": 2096,
-      "uuid": "395d040e-a04a-43d7-a1e9-8635f545879a",
+      "server": "185.155.235.35",
+      "port": 40649,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "shalana.xyz",
+        "server_name": "cdn8848.776676.xyz",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/shalana",
+        "path": "/",
         "headers": {
-          "Host": "shalana.xyz"
+          "Host": "cdn8848.776676.xyz"
         }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 40 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "217.217.254.126",
+      "port": 2053,
+      "uuid": "cb15cce9-73ed-4928-b38c-462f0732cbe9",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw",
+        "short_id": ""
       }
     },
     {
@@ -672,8 +726,89 @@
     {
       "tag": "🇸🇬 新加坡 (Singapore) 42 - xiaohe",
       "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 43 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "ww11.levikogjgfdd.ir",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 44 - xiaohe",
+      "udp": true,
       "type": "vless",
-      "server": "140.235.39.19",
+      "server": "172.64.150.28",
+      "port": 2082,
+      "uuid": "e5cc16a6-ea42-46b2-82ae-ad2157e1641b",
+      "flow": "",
+      "ws": {
+        "path": "/fp",
+        "headers": {
+          "Host": "hhlfy.twiladaphne.ndjp.net"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 45 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "185.155.235.35",
+      "port": 40649,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "cdn8848.776676.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 46 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.64.32.103",
+      "port": 8880,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "flow": "",
+      "ws": {
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 47 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "ww11.levikogjgfdd.ir",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 48 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "103.195.188.206",
       "port": 443,
       "uuid": "c18b978e-1c4e-415c-8bea-07942b563a64",
       "flow": "",
@@ -684,29 +819,14 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/",
+        "path": "/fp=chrome",
         "headers": {
           "Host": "shuma.ccwu.cc"
         }
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 43 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "upwork.com",
-      "port": 8880,
-      "uuid": "05e7abc2-46e1-4a23-9cdc-173ce17eb0d4",
-      "flow": "",
-      "ws": {
-        "path": "/pyip=ProxyIP.SG.CMLiussss.net",
-        "headers": {
-          "Host": "round-term-947c.41-332.workers.dev"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 44 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 49 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "103.136.146.73",
@@ -727,89 +847,23 @@
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 45 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "ww11.levikogjgfdd.ir",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 46 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.202",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 47 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.207",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 48 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "64.83.39.176",
-      "port": 443,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn8848.776676.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/seller?ed=2560",
-        "headers": {
-          "Host": "cdn8848.776676.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 49 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "103.190.178.195",
-      "port": 443,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn8848.776676.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/topic/htm?ed=2560fp=chrome",
-        "headers": {
-          "Host": "cdn8848.776676.xyz"
-        }
-      }
-    },
-    {
       "tag": "🇸🇬 新加坡 (Singapore) 50 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "upwork.com",
-      "port": 8880,
-      "uuid": "05e7abc2-46e1-4a23-9cdc-173ce17eb0d4",
+      "server": "160.25.75.40",
+      "port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
       "ws": {
-        "path": "/pyip=ProxyIP.SG.CMLiussss.net",
+        "path": "/",
         "headers": {
-          "Host": "round-term-947c.41-332.workers.dev"
+          "Host": "cdn8848.776676.xyz"
         }
       }
     },
@@ -817,7 +871,7 @@
       "tag": "🇸🇬 新加坡 (Singapore) 51 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "43.159.4.80",
+      "server": "160.30.54.63",
       "port": 443,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "flow": "",
@@ -828,7 +882,7 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/episode/files?ed=2560fp=chrome",
+        "path": "/",
         "headers": {
           "Host": "cdn8848.776676.xyz"
         }
@@ -838,14 +892,132 @@
       "tag": "🇸🇬 新加坡 (Singapore) 52 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "172.64.150.28",
+      "server": "217.217.254.126",
+      "port": 2053,
+      "uuid": "cb15cce9-73ed-4928-b38c-462f0732cbe9",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 53 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "217.217.254.126",
+      "port": 2053,
+      "uuid": "cb15cce9-73ed-4928-b38c-462f0732cbe9",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 54 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.64.32.108",
       "port": 2082,
-      "uuid": "e5cc16a6-ea42-46b2-82ae-ad2157e1641b",
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "flow": "",
       "ws": {
-        "path": "/fp",
+        "path": "/?ed=2560security=tls+",
         "headers": {
-          "Host": "hhlfy.twiladaphne.ndjp.net"
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 55 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 56 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "129.212.225.217",
+      "port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/cp/vod?ed=2560fp=chrome",
+        "headers": {
+          "Host": "cdn8848.776676.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 57 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "167.150.100.93",
+      "port": 29824,
+      "method": "2022-blake3-aes-256-gcm",
+      "password": "2PIuTAxZjzJxni4kxy/GQ36VWTbRrYzl1fjm0ufTR94="
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 58 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "45.77.241.190",
+      "port": 8441,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "cdn8848.776676.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 59 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "68.64.178.52",
+      "port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn8848.776676.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/downloads/posts/programs?ed=2560fp=chrome",
+        "headers": {
+          "Host": "cdn8848.776676.xyz"
         }
       }
     }

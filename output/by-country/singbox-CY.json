@@ -27,7 +27,9 @@
         "🇨🇾 CY 13 - xiaohe",
         "🇨🇾 CY 14 - xiaohe",
         "🇨🇾 CY 15 - xiaohe",
-        "🇨🇾 CY 16 - xiaohe"
+        "🇨🇾 CY 16 - xiaohe",
+        "🇨🇾 CY 17 - xiaohe",
+        "🇨🇾 CY 18 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -43,7 +45,7 @@
       "tag": "🇨🇾 CY 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "195.26.229.32",
+      "server": "195.26.229.127",
       "port": 443,
       "uuid": "b2593749-691c-428c-9481-14979cba3446",
       "flow": "",
@@ -64,7 +66,7 @@
       "tag": "🇨🇾 CY 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "195.26.229.148",
+      "server": "195.26.229.32",
       "port": 443,
       "uuid": "b2593749-691c-428c-9481-14979cba3446",
       "flow": "",
@@ -85,7 +87,7 @@
       "tag": "🇨🇾 CY 03 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "195.26.229.157",
+      "server": "195.26.229.156",
       "port": 443,
       "uuid": "b2593749-691c-428c-9481-14979cba3446",
       "flow": "",
@@ -106,7 +108,7 @@
       "tag": "🇨🇾 CY 04 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "195.26.229.222",
+      "server": "195.26.229.148",
       "port": 443,
       "uuid": "b2593749-691c-428c-9481-14979cba3446",
       "flow": "",
@@ -127,22 +129,88 @@
       "tag": "🇨🇾 CY 05 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "194.76.154.31",
-      "port": 40443,
-      "uuid": "9f0baff8-bdee-4de9-9515-bcc4932b41fa",
+      "server": "213.111.177.107",
+      "port": 443,
+      "uuid": "c18b978e-1c4e-415c-8bea-07942b563a64",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "deepl.com",
+        "server_name": "shuma.ccwu.cc",
         "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ",
-        "short_id": ""
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/fp=chrome",
+        "headers": {
+          "Host": "shuma.ccwu.cc"
+        }
       }
     },
     {
       "tag": "🇨🇾 CY 06 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "195.26.229.156",
+      "port": 443,
+      "uuid": "b2593749-691c-428c-9481-14979cba3446",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "xi.tbv.ccwu.cc",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/proxyip=us.xiabibi.cf",
+        "headers": {
+          "Host": "xi.tbv.ccwu.cc"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇾 CY 07 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "195.26.229.235",
+      "port": 443,
+      "uuid": "b2593749-691c-428c-9481-14979cba3446",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "xi.tbv.ccwu.cc",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "xi.tbv.ccwu.cc"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇾 CY 08 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "195.26.229.120",
+      "port": 443,
+      "uuid": "b2593749-691c-428c-9481-14979cba3446",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "xi.tbv.ccwu.cc",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/proxyip=us.xiabibi.cf",
+        "headers": {
+          "Host": "xi.tbv.ccwu.cc"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇾 CY 09 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "195.26.229.127",
@@ -163,73 +231,10 @@
       }
     },
     {
-      "tag": "🇨🇾 CY 07 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "195.26.229.86",
-      "port": 443,
-      "uuid": "b2593749-691c-428c-9481-14979cba3446",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "xi.tbv.ccwu.cc",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/proxyip=us.xiabibi.cffp=chrome",
-        "headers": {
-          "Host": "xi.tbv.ccwu.cc"
-        }
-      }
-    },
-    {
-      "tag": "🇨🇾 CY 08 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "195.26.229.235",
-      "port": 443,
-      "uuid": "b2593749-691c-428c-9481-14979cba3446",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "xi.tbv.ccwu.cc",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/proxyip=us.xiabibi.cffp=chrome",
-        "headers": {
-          "Host": "xi.tbv.ccwu.cc"
-        }
-      }
-    },
-    {
-      "tag": "🇨🇾 CY 09 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "195.26.229.120",
-      "port": 443,
-      "uuid": "b2593749-691c-428c-9481-14979cba3446",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "xi.tbv.ccwu.cc",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/proxyip=us.xiabibi.cffp=chrome",
-        "headers": {
-          "Host": "xi.tbv.ccwu.cc"
-        }
-      }
-    },
-    {
       "tag": "🇨🇾 CY 10 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "195.26.229.157",
+      "server": "195.26.229.222",
       "port": 443,
       "uuid": "b2593749-691c-428c-9481-14979cba3446",
       "flow": "",
@@ -240,7 +245,7 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/proxyip=us.xiabibi.cf",
+        "path": "/proxyip=us.xiabibi.cffp=chrome",
         "headers": {
           "Host": "xi.tbv.ccwu.cc"
         }
@@ -271,28 +276,7 @@
       "tag": "🇨🇾 CY 12 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "195.26.229.86",
-      "port": 443,
-      "uuid": "b2593749-691c-428c-9481-14979cba3446",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "xi.tbv.ccwu.cc",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/proxyip",
-        "headers": {
-          "Host": "xi.tbv.ccwu.cc"
-        }
-      }
-    },
-    {
-      "tag": "🇨🇾 CY 13 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "195.26.229.156",
+      "server": "195.26.229.157",
       "port": 443,
       "uuid": "b2593749-691c-428c-9481-14979cba3446",
       "flow": "",
@@ -310,10 +294,31 @@
       }
     },
     {
+      "tag": "🇨🇾 CY 13 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "213.111.177.107",
+      "port": 443,
+      "uuid": "c18b978e-1c4e-415c-8bea-07942b563a64",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "shuma.ccwu.cc",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "shuma.ccwu.cc"
+        }
+      }
+    },
+    {
       "tag": "🇨🇾 CY 14 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "195.26.229.32",
+      "server": "195.26.229.120",
       "port": 443,
       "uuid": "b2593749-691c-428c-9481-14979cba3446",
       "flow": "",
@@ -324,7 +329,7 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/",
+        "path": "/proxyip=us.xiabibi.cffp=chrome",
         "headers": {
           "Host": "xi.tbv.ccwu.cc"
         }
@@ -345,7 +350,7 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/",
+        "path": "/proxyip=us.xiabibi.cffp=chrome",
         "headers": {
           "Host": "xi.tbv.ccwu.cc"
         }
@@ -355,7 +360,28 @@
       "tag": "🇨🇾 CY 16 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "195.26.229.127",
+      "server": "195.26.229.86",
+      "port": 443,
+      "uuid": "b2593749-691c-428c-9481-14979cba3446",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "xi.tbv.ccwu.cc",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/proxyip",
+        "headers": {
+          "Host": "xi.tbv.ccwu.cc"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇾 CY 17 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "195.26.229.86",
       "port": 443,
       "uuid": "b2593749-691c-428c-9481-14979cba3446",
       "flow": "",
@@ -367,6 +393,27 @@
       },
       "ws": {
         "path": "/proxyip=us.xiabibi.cffp=chrome",
+        "headers": {
+          "Host": "xi.tbv.ccwu.cc"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇾 CY 18 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "195.26.229.32",
+      "port": 443,
+      "uuid": "b2593749-691c-428c-9481-14979cba3446",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "xi.tbv.ccwu.cc",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
         "headers": {
           "Host": "xi.tbv.ccwu.cc"
         }

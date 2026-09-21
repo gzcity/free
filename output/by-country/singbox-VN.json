@@ -28,20 +28,20 @@
       "tag": "🇻🇳 VN 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "160.25.75.40",
-      "port": 443,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "server": "104.18.42.54",
+      "port": 2087,
+      "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "cdn8848.776676.xyz",
+        "server_name": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/",
+        "path": "?ed=2560",
         "headers": {
-          "Host": "cdn8848.776676.xyz"
+          "Host": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
         }
       }
     }
