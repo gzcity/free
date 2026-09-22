@@ -13,8 +13,7 @@
       "tag": "auto",
       "outbounds": [
         "🇿🇦 ZA 01 - xiaohe",
-        "🇿🇦 ZA 02 - xiaohe",
-        "🇿🇦 ZA 03 - xiaohe"
+        "🇿🇦 ZA 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -30,28 +29,19 @@
       "tag": "🇿🇦 ZA 01 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "102.133.165.160",
-      "port": 16233,
+      "server": "4.221.224.246",
+      "port": 443,
       "method": "chacha20-ietf-poly1305",
-      "password": "Xsy8Ox4yOV3xLlpxtjzs3X"
+      "password": "3aN9XUwhvq1ujlsO"
     },
     {
       "tag": "🇿🇦 ZA 02 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "4.221.224.246",
-      "port": 443,
+      "server": "102.133.165.160",
+      "port": 16233,
       "method": "chacha20-ietf-poly1305",
-      "password": "3aN9XUwhvq1ujlsO"
-    },
-    {
-      "tag": "🇿🇦 ZA 03 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "4.221.224.246",
-      "port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "3aN9XUwhvq1ujlsO"
+      "password": "Xsy8Ox4yOV3xLlpxtjzs3X"
     }
   ]
 }

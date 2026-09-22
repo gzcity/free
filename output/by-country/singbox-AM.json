@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇪 IE 01 - xiaohe"
+        "🇦🇲 AM 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,23 +25,23 @@
       "tag": "block"
     },
     {
-      "tag": "🇮🇪 IE 01 - xiaohe",
+      "tag": "🇦🇲 AM 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "162.159.160.139",
-      "port": 2083,
-      "uuid": "44eae030-290b-4083-8102-6f8bab05701b",
+      "server": "2.56.204.183",
+      "port": 443,
+      "uuid": "c18b978e-1c4e-415c-8bea-07942b563a64",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "cfvvv-ev1.pages.dev",
+        "server_name": "shuma.ccwu.cc",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/",
+        "path": "/fp=chrome",
         "headers": {
-          "Host": "cfvvv-ev1.pages.dev"
+          "Host": "shuma.ccwu.cc"
         }
       }
     }

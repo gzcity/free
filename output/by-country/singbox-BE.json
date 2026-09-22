@@ -39,7 +39,7 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/",
+        "path": "/fp=chrome",
         "headers": {
           "Host": "shuma.ccwu.cc"
         }
