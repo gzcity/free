@@ -39,7 +39,7 @@
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "insecure": true,
-        "client_fingerprint": "chrome",
+        "client_fingerprint": "ios",
         "reality": true,
         "public_key": "3ekBKAuIIAOjtkKJ0T-qpC7uJsqsY2fVLRB6C70A5hw",
         "short_id": ""
@@ -90,7 +90,7 @@
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "insecure": true,
-        "client_fingerprint": "safari",
+        "client_fingerprint": "random",
         "reality": true,
         "public_key": "3ekBKAuIIAOjtkKJ0T-qpC7uJsqsY2fVLRB6C70A5hw",
         "short_id": ""

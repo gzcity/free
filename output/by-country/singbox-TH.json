@@ -19,7 +19,11 @@
         "🇹🇭 TH 05 - xiaohe",
         "🇹🇭 TH 06 - xiaohe",
         "🇹🇭 TH 07 - xiaohe",
-        "🇹🇭 TH 08 - xiaohe"
+        "🇹🇭 TH 08 - xiaohe",
+        "🇹🇭 TH 09 - xiaohe",
+        "🇹🇭 TH 10 - xiaohe",
+        "🇹🇭 TH 11 - xiaohe",
+        "🇹🇭 TH 12 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -35,18 +39,21 @@
       "tag": "🇹🇭 TH 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "34.15.162.1",
+      "server": "43.133.110.81",
       "port": 443,
-      "uuid": "2b1d0c2a-9c80-4b72-892e-93d0500b9210",
+      "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
+        "server_name": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc",
         "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw",
-        "short_id": ""
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/?TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512",
+        "headers": {
+          "Host": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
+        }
       }
     },
     {
@@ -79,7 +86,7 @@
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "insecure": true,
-        "client_fingerprint": "edge",
+        "client_fingerprint": "chrome",
         "reality": true,
         "public_key": "LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw",
         "short_id": ""
@@ -107,27 +114,6 @@
       "tag": "🇹🇭 TH 05 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "43.133.110.81",
-      "port": 443,
-      "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/?TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512",
-        "headers": {
-          "Host": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
-        }
-      }
-    },
-    {
-      "tag": "🇹🇭 TH 06 - xiaohe",
-      "udp": true,
-      "type": "vless",
       "server": "34.15.162.1",
       "port": 443,
       "uuid": "2b1d0c2a-9c80-4b72-892e-93d0500b9210",
@@ -136,14 +122,14 @@
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "insecure": true,
-        "client_fingerprint": "qq",
+        "client_fingerprint": "edge",
         "reality": true,
         "public_key": "LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw",
         "short_id": ""
       }
     },
     {
-      "tag": "🇹🇭 TH 07 - xiaohe",
+      "tag": "🇹🇭 TH 06 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "34.15.162.1",
@@ -161,7 +147,79 @@
       }
     },
     {
+      "tag": "🇹🇭 TH 07 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "34.15.176.240",
+      "port": 443,
+      "uuid": "742dc674-a491-4a42-a551-b3ea6dd2f447",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "Euq607wb-KZNjbuOMQ1h646C3dm_Q-ntd7yxZ52jj0U",
+        "short_id": ""
+      }
+    },
+    {
       "tag": "🇹🇭 TH 08 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "34.15.162.1",
+      "port": 443,
+      "uuid": "2b1d0c2a-9c80-4b72-892e-93d0500b9210",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇹🇭 TH 09 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "34.15.162.1",
+      "port": 443,
+      "uuid": "2b1d0c2a-9c80-4b72-892e-93d0500b9210",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "qq",
+        "reality": true,
+        "public_key": "LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇹🇭 TH 10 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "34.15.162.1",
+      "port": 443,
+      "uuid": "2b1d0c2a-9c80-4b72-892e-93d0500b9210",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "random",
+        "reality": true,
+        "public_key": "LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇹🇭 TH 11 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "103.86.49.57",
@@ -173,6 +231,24 @@
         "headers": {
           "Host": "aIs.SpEeDtEsT.nEt"
         }
+      }
+    },
+    {
+      "tag": "🇹🇭 TH 12 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "34.15.162.1",
+      "port": 443,
+      "uuid": "2b1d0c2a-9c80-4b72-892e-93d0500b9210",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "ios",
+        "reality": true,
+        "public_key": "LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw",
+        "short_id": ""
       }
     }
   ]
