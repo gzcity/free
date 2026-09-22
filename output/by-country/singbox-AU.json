@@ -19,7 +19,11 @@
         "🇦🇺 澳大利亚 (Australia) 05 - xiaohe",
         "🇦🇺 澳大利亚 (Australia) 06 - xiaohe",
         "🇦🇺 澳大利亚 (Australia) 07 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 08 - xiaohe"
+        "🇦🇺 澳大利亚 (Australia) 08 - xiaohe",
+        "🇦🇺 澳大利亚 (Australia) 09 - xiaohe",
+        "🇦🇺 澳大利亚 (Australia) 10 - xiaohe",
+        "🇦🇺 澳大利亚 (Australia) 11 - xiaohe",
+        "🇦🇺 澳大利亚 (Australia) 12 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -43,7 +47,7 @@
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "insecure": true,
-        "client_fingerprint": "ios",
+        "client_fingerprint": "chrome",
         "reality": true,
         "public_key": "fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E",
         "short_id": ""
@@ -97,7 +101,7 @@
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "insecure": true,
-        "client_fingerprint": "safari",
+        "client_fingerprint": "qq",
         "reality": true,
         "public_key": "fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E",
         "short_id": ""
@@ -105,6 +109,45 @@
     },
     {
       "tag": "🇦🇺 澳大利亚 (Australia) 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "34.87.244.111",
+      "port": 443,
+      "uuid": "325bc1be-0cb7-4cf7-bd35-a79ded91bbbd",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇦🇺 澳大利亚 (Australia) 06 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "202.166.187.132",
+      "port": 443,
+      "uuid": "8be20011-59b1-4118-91ed-83e8e6b662cd",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "f.yoptybla.ru",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "f.yoptybla.ru"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇺 澳大利亚 (Australia) 07 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "34.87.229.148",
@@ -122,7 +165,25 @@
       }
     },
     {
-      "tag": "🇦🇺 澳大利亚 (Australia) 06 - xiaohe",
+      "tag": "🇦🇺 澳大利亚 (Australia) 08 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "34.87.229.148",
+      "port": 443,
+      "uuid": "4f865f35-cf47-4e7f-a7e6-8882511a1b36",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "OgTkmAQdLjipA9oLloxbU5BAX3hPjzbvkEGHF4aZ8z4",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇦🇺 澳大利亚 (Australia) 09 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "34.87.244.111",
@@ -133,29 +194,14 @@
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "insecure": true,
-        "client_fingerprint": "qq",
+        "client_fingerprint": "chrome",
         "reality": true,
         "public_key": "fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E",
         "short_id": ""
       }
     },
     {
-      "tag": "🇦🇺 澳大利亚 (Australia) 07 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.105.169.70",
-      "port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "172.105.169.70",
-        "insecure": true,
-        "client_fingerprint": null
-      }
-    },
-    {
-      "tag": "🇦🇺 澳大利亚 (Australia) 08 - xiaohe",
+      "tag": "🇦🇺 澳大利亚 (Australia) 10 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "34.87.244.111",
@@ -166,9 +212,45 @@
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "insecure": true,
-        "client_fingerprint": "firefox",
+        "client_fingerprint": "ios",
         "reality": true,
         "public_key": "fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇦🇺 澳大利亚 (Australia) 11 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "34.87.244.111",
+      "port": 443,
+      "uuid": "325bc1be-0cb7-4cf7-bd35-a79ded91bbbd",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "safari",
+        "reality": true,
+        "public_key": "fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇦🇺 澳大利亚 (Australia) 12 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "34.87.229.148",
+      "port": 443,
+      "uuid": "4f865f35-cf47-4e7f-a7e6-8882511a1b36",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "OgTkmAQdLjipA9oLloxbU5BAX3hPjzbvkEGHF4aZ8z4",
         "short_id": ""
       }
     }
