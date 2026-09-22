@@ -18,8 +18,7 @@
         "🇪🇸 西班牙 (Spain) 04 - xiaohe",
         "🇪🇸 西班牙 (Spain) 05 - xiaohe",
         "🇪🇸 西班牙 (Spain) 06 - xiaohe",
-        "🇪🇸 西班牙 (Spain) 07 - xiaohe",
-        "🇪🇸 西班牙 (Spain) 08 - xiaohe"
+        "🇪🇸 西班牙 (Spain) 07 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -34,21 +33,21 @@
     {
       "tag": "🇪🇸 西班牙 (Spain) 01 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "mygptagent.org",
-      "port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "alterId": 0,
-      "security": "auto",
+      "type": "vless",
+      "server": "152.114.195.163",
+      "port": 8443,
+      "uuid": "c18b978e-1c4e-415c-8bea-07942b563a64",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "mygptagent.org",
-        "insecure": true
+        "server_name": "shuma.ccwu.cc",
+        "insecure": true,
+        "client_fingerprint": null
       },
       "ws": {
-        "path": "/linkvws",
+        "path": "/",
         "headers": {
-          "Host": "mygptagent.org"
+          "Host": "shuma.ccwu.cc"
         }
       }
     },
@@ -56,10 +55,10 @@
       "tag": "🇪🇸 西班牙 (Spain) 02 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "140.174.184.5",
+      "server": "108.181.121.226",
       "port": 8388,
       "method": "chacha20-ietf-poly1305",
-      "password": "qItG8SueYQcP"
+      "password": "WSyL4XTwNsdv"
     },
     {
       "tag": "🇪🇸 西班牙 (Spain) 03 - xiaohe",
@@ -76,7 +75,7 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/fp=chrome",
+        "path": "/",
         "headers": {
           "Host": "shuma.ccwu.cc"
         }
@@ -85,32 +84,21 @@
     {
       "tag": "🇪🇸 西班牙 (Spain) 04 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "108.181.121.226",
-      "port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "WSyL4XTwNsdv"
+      "type": "vmess",
+      "server": "66.163.118.73",
+      "port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "alterId": 0,
+      "security": "auto"
     },
     {
       "tag": "🇪🇸 西班牙 (Spain) 05 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "152.114.195.163",
-      "port": 8443,
-      "uuid": "c18b978e-1c4e-415c-8bea-07942b563a64",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "shuma.ccwu.cc",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "shuma.ccwu.cc"
-        }
-      }
+      "type": "shadowsocks",
+      "server": "140.174.184.5",
+      "port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "qItG8SueYQcP"
     },
     {
       "tag": "🇪🇸 西班牙 (Spain) 06 - xiaohe",
@@ -127,7 +115,7 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/fp=chrome",
+        "path": "/",
         "headers": {
           "Host": "shuma.ccwu.cc"
         }
@@ -136,42 +124,21 @@
     {
       "tag": "🇪🇸 西班牙 (Spain) 07 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "152.114.195.163",
-      "port": 8443,
-      "uuid": "c18b978e-1c4e-415c-8bea-07942b563a64",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "shuma.ccwu.cc",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "shuma.ccwu.cc"
-        }
-      }
-    },
-    {
-      "tag": "🇪🇸 西班牙 (Spain) 08 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "195.133.92.20",
+      "type": "vmess",
+      "server": "mygptagent.org",
       "port": 443,
-      "uuid": "c18b978e-1c4e-415c-8bea-07942b563a64",
-      "flow": "",
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "alterId": 0,
+      "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "shuma.ccwu.cc",
-        "insecure": true,
-        "client_fingerprint": null
+        "server_name": "",
+        "insecure": true
       },
       "ws": {
-        "path": "/",
+        "path": "/linkvws",
         "headers": {
-          "Host": "shuma.ccwu.cc"
+          "Host": ""
         }
       }
     }

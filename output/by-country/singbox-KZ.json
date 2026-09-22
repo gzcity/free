@@ -23,7 +23,8 @@
         "🇰🇿 KZ 09 - xiaohe",
         "🇰🇿 KZ 10 - xiaohe",
         "🇰🇿 KZ 11 - xiaohe",
-        "🇰🇿 KZ 12 - xiaohe"
+        "🇰🇿 KZ 12 - xiaohe",
+        "🇰🇿 KZ 13 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -39,7 +40,7 @@
       "tag": "🇰🇿 KZ 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "31.43.179.200",
+      "server": "31.43.179.109",
       "port": 443,
       "uuid": "b2593749-691c-428c-9481-14979cba3446",
       "flow": "",
@@ -60,7 +61,7 @@
       "tag": "🇰🇿 KZ 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "31.43.179.200",
+      "server": "31.43.179.36",
       "port": 443,
       "uuid": "b2593749-691c-428c-9481-14979cba3446",
       "flow": "",
@@ -102,7 +103,7 @@
       "tag": "🇰🇿 KZ 04 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "31.43.179.106",
+      "server": "31.43.179.25",
       "port": 443,
       "uuid": "b2593749-691c-428c-9481-14979cba3446",
       "flow": "",
@@ -123,7 +124,7 @@
       "tag": "🇰🇿 KZ 05 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "31.43.179.25",
+      "server": "31.43.179.106",
       "port": 443,
       "uuid": "b2593749-691c-428c-9481-14979cba3446",
       "flow": "",
@@ -144,7 +145,7 @@
       "tag": "🇰🇿 KZ 06 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "31.43.179.109",
+      "server": "31.43.179.200",
       "port": 443,
       "uuid": "b2593749-691c-428c-9481-14979cba3446",
       "flow": "",
@@ -165,7 +166,7 @@
       "tag": "🇰🇿 KZ 07 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "31.43.179.137",
+      "server": "31.43.179.200",
       "port": 443,
       "uuid": "b2593749-691c-428c-9481-14979cba3446",
       "flow": "",
@@ -186,7 +187,7 @@
       "tag": "🇰🇿 KZ 08 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "31.43.179.200",
+      "server": "31.43.179.36",
       "port": 443,
       "uuid": "b2593749-691c-428c-9481-14979cba3446",
       "flow": "",
@@ -197,7 +198,7 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/",
+        "path": "/proxyip=us.xiabibi.cf",
         "headers": {
           "Host": "xi.tbv.ccwu.cc"
         }
@@ -207,7 +208,7 @@
       "tag": "🇰🇿 KZ 09 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "31.43.179.8",
+      "server": "31.43.179.170",
       "port": 443,
       "uuid": "b2593749-691c-428c-9481-14979cba3446",
       "flow": "",
@@ -228,7 +229,7 @@
       "tag": "🇰🇿 KZ 10 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "31.43.179.36",
+      "server": "31.43.179.8",
       "port": 443,
       "uuid": "b2593749-691c-428c-9481-14979cba3446",
       "flow": "",
@@ -249,7 +250,7 @@
       "tag": "🇰🇿 KZ 11 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "31.43.179.20",
+      "server": "31.43.179.137",
       "port": 443,
       "uuid": "b2593749-691c-428c-9481-14979cba3446",
       "flow": "",
@@ -270,7 +271,28 @@
       "tag": "🇰🇿 KZ 12 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "31.43.179.170",
+      "server": "31.43.179.200",
+      "port": 443,
+      "uuid": "b2593749-691c-428c-9481-14979cba3446",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "xi.tbv.ccwu.cc",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "xi.tbv.ccwu.cc"
+        }
+      }
+    },
+    {
+      "tag": "🇰🇿 KZ 13 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "31.43.179.20",
       "port": 443,
       "uuid": "b2593749-691c-428c-9481-14979cba3446",
       "flow": "",

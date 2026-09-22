@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇨 SC 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,23 +25,23 @@
       "tag": "block"
     },
     {
-      "tag": "🇸🇨 SC 01 - xiaohe",
+      "tag": "🇮🇶 IQ 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "154.218.15.250",
-      "port": 2083,
-      "uuid": "40af9131-d540-448a-bc56-5bba147a1dc3",
+      "server": "185.255.179.11",
+      "port": 9443,
+      "uuid": "d9d0f208-d582-41d5-bb7b-742671402810",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "proxy-1cu.pages.dev",
+        "server_name": "hub-de-03.hanvpn.cc",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/",
+        "path": "/de03-ws-8e47a",
         "headers": {
-          "Host": "proxy-1cu.pages.dev"
+          "Host": "hub-de-03.hanvpn.cc"
         }
       }
     }

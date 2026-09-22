@@ -16,7 +16,10 @@
         "🇦🇹 AT 02 - xiaohe",
         "🇦🇹 AT 03 - xiaohe",
         "🇦🇹 AT 04 - xiaohe",
-        "🇦🇹 AT 05 - xiaohe"
+        "🇦🇹 AT 05 - xiaohe",
+        "🇦🇹 AT 06 - xiaohe",
+        "🇦🇹 AT 07 - xiaohe",
+        "🇦🇹 AT 08 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -50,6 +53,72 @@
       "tag": "🇦🇹 AT 02 - xiaohe",
       "udp": true,
       "type": "vless",
+      "server": "152.53.1.40",
+      "port": 443,
+      "uuid": "edde565e-41f5-400e-84ea-7b87a3e84488",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "at.quattro-tech.ru",
+        "insecure": true,
+        "client_fingerprint": "qq",
+        "reality": true,
+        "public_key": "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇦🇹 AT 03 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "82.110.60.9",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇦🇹 AT 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "213.111.148.137",
+      "port": 443,
+      "uuid": "c18b978e-1c4e-415c-8bea-07942b563a64",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "shuma.ccwu.cc",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "shuma.ccwu.cc"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇹 AT 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "152.53.1.40",
+      "port": 443,
+      "uuid": "edde565e-41f5-400e-84ea-7b87a3e84488",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "at.quattro-tech.ru",
+        "insecure": true,
+        "client_fingerprint": "random",
+        "reality": true,
+        "public_key": "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇦🇹 AT 06 - xiaohe",
+      "udp": true,
+      "type": "vless",
       "server": "132.243.203.202",
       "port": 8443,
       "uuid": "b2593749-691c-428c-9481-14979cba3446",
@@ -68,7 +137,7 @@
       }
     },
     {
-      "tag": "🇦🇹 AT 03 - xiaohe",
+      "tag": "🇦🇹 AT 07 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "103.200.28.113",
@@ -89,16 +158,7 @@
       }
     },
     {
-      "tag": "🇦🇹 AT 04 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "82.110.60.9",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "tag": "🇦🇹 AT 05 - xiaohe",
+      "tag": "🇦🇹 AT 08 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "213.111.148.137",
