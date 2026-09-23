@@ -12,8 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe",
-        "🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe"
+        "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -29,28 +28,7 @@
       "tag": "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "172.67.217.240",
-      "port": 443,
-      "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "fx3h2kf8xn.fx6hsv0.ccwu.cc",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/?ed=2560",
-        "headers": {
-          "Host": "fx3h2kf8xn.fx6hsv0.ccwu.cc"
-        }
-      }
-    },
-    {
-      "tag": "🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.18.38.47",
+      "server": "104.16.150.108",
       "port": 2087,
       "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
       "flow": "",
@@ -61,7 +39,7 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "?ed=2560",
+        "path": "/?ed=2560",
         "headers": {
           "Host": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
         }

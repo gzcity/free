@@ -12,10 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇪🇸 西班牙 (Spain) 01 - xiaohe",
-        "🇪🇸 西班牙 (Spain) 02 - xiaohe",
-        "🇪🇸 西班牙 (Spain) 03 - xiaohe",
-        "🇪🇸 西班牙 (Spain) 04 - xiaohe"
+        "🇪🇸 西班牙 (Spain) 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -30,62 +27,23 @@
     {
       "tag": "🇪🇸 西班牙 (Spain) 01 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "195.133.92.20",
+      "type": "vmess",
+      "server": "mygptagent.org",
       "port": 443,
-      "uuid": "c18b978e-1c4e-415c-8bea-07942b563a64",
-      "flow": "",
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "alterId": 0,
+      "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "shuma.ccwu.cc",
-        "insecure": true,
-        "client_fingerprint": null
+        "server_name": "",
+        "insecure": true
       },
       "ws": {
-        "path": "/",
+        "path": "/linkvws",
         "headers": {
-          "Host": "shuma.ccwu.cc"
+          "Host": ""
         }
       }
-    },
-    {
-      "tag": "🇪🇸 西班牙 (Spain) 02 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "140.174.184.5",
-      "port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "qItG8SueYQcP"
-    },
-    {
-      "tag": "🇪🇸 西班牙 (Spain) 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "152.114.195.163",
-      "port": 8443,
-      "uuid": "c18b978e-1c4e-415c-8bea-07942b563a64",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "shuma.ccwu.cc",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "shuma.ccwu.cc"
-        }
-      }
-    },
-    {
-      "tag": "🇪🇸 西班牙 (Spain) 04 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "108.181.121.226",
-      "port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "WSyL4XTwNsdv"
     }
   ]
 }

@@ -12,8 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇩 ID 01 - xiaohe",
-        "🇮🇩 ID 02 - xiaohe"
+        "🇮🇩 ID 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -27,27 +26,6 @@
     },
     {
       "tag": "🇮🇩 ID 01 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.232.236.252",
-      "port": 443,
-      "uuid": "c18b978e-1c4e-415c-8bea-07942b563a64",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "shuma.ccwu.cc",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "shuma.ccwu.cc"
-        }
-      }
-    },
-    {
-      "tag": "🇮🇩 ID 02 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "103.160.63.199",
