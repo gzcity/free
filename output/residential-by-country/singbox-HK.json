@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "119.246.1.143",
+      "port": 443,
+      "password": "BxceQaOe",
+      "tls": {
+        "enabled": true,
+        "server_name": "119.246.1.143",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "dee2309db4944c248b6d4372c6641e7b.oylfmxz.cn",
+      "port": 443,
+      "uuid": "d90e4077-bc7e-414d-a650-70bf1baae4d6",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true
+      },
+      "ws": {
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    }
+  ]
+}

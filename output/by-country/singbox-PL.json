@@ -13,8 +13,7 @@
       "tag": "auto",
       "outbounds": [
         "🇵🇱 PL 01 - xiaohe",
-        "🇵🇱 PL 02 - xiaohe",
-        "🇵🇱 PL 03 - xiaohe"
+        "🇵🇱 PL 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -28,27 +27,6 @@
     },
     {
       "tag": "🇵🇱 PL 01 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "103.167.234.26",
-      "port": 443,
-      "uuid": "c18b978e-1c4e-415c-8bea-07942b563a64",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "shuma.ccwu.cc",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "shuma.ccwu.cc"
-        }
-      }
-    },
-    {
-      "tag": "🇵🇱 PL 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "34.118.70.195",
@@ -66,7 +44,7 @@
       }
     },
     {
-      "tag": "🇵🇱 PL 03 - xiaohe",
+      "tag": "🇵🇱 PL 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "103.167.234.26",

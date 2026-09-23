@@ -13,13 +13,7 @@
       "tag": "auto",
       "outbounds": [
         "🇦🇹 AT 01 - xiaohe",
-        "🇦🇹 AT 02 - xiaohe",
-        "🇦🇹 AT 03 - xiaohe",
-        "🇦🇹 AT 04 - xiaohe",
-        "🇦🇹 AT 05 - xiaohe",
-        "🇦🇹 AT 06 - xiaohe",
-        "🇦🇹 AT 07 - xiaohe",
-        "🇦🇹 AT 08 - xiaohe"
+        "🇦🇹 AT 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -33,45 +27,6 @@
     },
     {
       "tag": "🇦🇹 AT 01 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "152.53.1.40",
-      "port": 443,
-      "uuid": "edde565e-41f5-400e-84ea-7b87a3e84488",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "at.quattro-tech.ru",
-        "insecure": true,
-        "client_fingerprint": "random",
-        "reality": true,
-        "public_key": "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇦🇹 AT 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "213.111.148.137",
-      "port": 443,
-      "uuid": "c18b978e-1c4e-415c-8bea-07942b563a64",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "shuma.ccwu.cc",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "shuma.ccwu.cc"
-        }
-      }
-    },
-    {
-      "tag": "🇦🇹 AT 03 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "132.243.203.202",
@@ -92,85 +47,7 @@
       }
     },
     {
-      "tag": "🇦🇹 AT 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "103.200.28.113",
-      "port": 8443,
-      "uuid": "c18b978e-1c4e-415c-8bea-07942b563a64",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "shuma.ccwu.cc",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "shuma.ccwu.cc"
-        }
-      }
-    },
-    {
-      "tag": "🇦🇹 AT 05 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "152.53.1.40",
-      "port": 443,
-      "uuid": "edde565e-41f5-400e-84ea-7b87a3e84488",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "at.quattro-tech.ru",
-        "insecure": true,
-        "client_fingerprint": "qq",
-        "reality": true,
-        "public_key": "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇦🇹 AT 06 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "213.111.148.137",
-      "port": 443,
-      "uuid": "c18b978e-1c4e-415c-8bea-07942b563a64",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "shuma.ccwu.cc",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "shuma.ccwu.cc"
-        }
-      }
-    },
-    {
-      "tag": "🇦🇹 AT 07 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "152.53.1.40",
-      "port": 443,
-      "uuid": "edde565e-41f5-400e-84ea-7b87a3e84488",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "at.quattro-tech.ru",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇦🇹 AT 08 - xiaohe",
+      "tag": "🇦🇹 AT 02 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "82.110.60.9",

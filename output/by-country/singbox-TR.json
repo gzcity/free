@@ -12,7 +12,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇷 土耳其 (Turkey) 01 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -27,19 +28,32 @@
     {
       "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
       "udp": true,
+      "type": "vmess",
+      "server": "206.1.97.212",
+      "port": 28351,
+      "uuid": "Nitro_Skybot@",
+      "alterId": 0,
+      "security": "auto",
+      "ws": {
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
+      "udp": true,
       "type": "vless",
-      "server": "151.241.226.201",
-      "port": 2053,
-      "uuid": "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8",
+      "server": "172.67.192.84",
+      "port": 2095,
+      "uuid": "a22bff60-a40a-4250-bde2-4c660e363b47",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104",
-        "short_id": ""
+      "ws": {
+        "path": "/juvsrnmgdu8i0179k5",
+        "headers": {
+          "Host": "index.harmonica02.workers.dev"
+        }
       }
     }
   ]
