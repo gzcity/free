@@ -50,7 +50,8 @@
         "🇯🇵 日本 (Japan) 36 - xiaohe",
         "🇯🇵 日本 (Japan) 37 - xiaohe",
         "🇯🇵 日本 (Japan) 38 - xiaohe",
-        "🇯🇵 日本 (Japan) 39 - xiaohe"
+        "🇯🇵 日本 (Japan) 39 - xiaohe",
+        "🇯🇵 日本 (Japan) 40 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -65,69 +66,23 @@
     {
       "tag": "🇯🇵 日本 (Japan) 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "149.22.87.204",
+      "type": "vless",
+      "server": "35.243.84.20",
       "port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
+      "uuid": "0c4c6ebb-603f-4429-8682-beef6b65b80d",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "qq",
+        "reality": true,
+        "public_key": "Ti7zRkfweHdrQ5QHI9o_zEgHn39xRfMG2C2Gfp_AMHE",
+        "short_id": ""
+      }
     },
     {
       "tag": "🇯🇵 日本 (Japan) 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.21.33.59",
-      "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 03 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "161.34.39.108",
-      "port": 443,
-      "password": "tsuchiya",
-      "tls": {
-        "enabled": true,
-        "server_name": "aa.ccmusic.jp",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.16.10.185",
-      "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 05 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "172.67.217.240",
@@ -148,20 +103,82 @@
       }
     },
     {
+      "tag": "🇯🇵 日本 (Japan) 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.21.8.201",
+      "port": 2096,
+      "uuid": "36788cf4-fcb4-49c5-a563-5f888849b1cc",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn-jp.skyvora.app",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/vqyps6kf3",
+        "headers": {
+          "Host": "cdn-jp.skyvora.app"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.67.217.240",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 05 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "149.22.87.204",
+      "port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
       "tag": "🇯🇵 日本 (Japan) 06 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "45.32.57.118",
-      "port": 4433,
-      "uuid": "35b89832-0a7c-48dd-8d1c-a2891b522195",
-      "alterId": 0,
-      "security": "auto"
+      "type": "vless",
+      "server": "172.67.217.240",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
     },
     {
       "tag": "🇯🇵 日本 (Japan) 07 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "162.159.254.3",
+      "server": "172.67.156.147",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -182,88 +199,43 @@
       "tag": "🇯🇵 日本 (Japan) 08 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "107.191.53.84",
+      "server": "35.243.84.20",
       "port": 443,
-      "uuid": "3db635e4-f9ec-42d6-8aba-e23df8b0e6da",
+      "uuid": "0c4c6ebb-603f-4429-8682-beef6b65b80d",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "mia10.pages.dev",
+        "server_name": "www.cloudflare.com",
         "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/TG:@MiaChatChannel",
-        "headers": {
-          "Host": "mia10.pages.dev"
-        }
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "Ti7zRkfweHdrQ5QHI9o_zEgHn39xRfMG2C2Gfp_AMHE",
+        "short_id": ""
       }
     },
     {
       "tag": "🇯🇵 日本 (Japan) 09 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "149.22.87.204",
-      "port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 10 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "168.110.60.104",
-      "port": 18112,
-      "uuid": "ad45f8f6-0f0a-4cc4-b907-c4582407dc94",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 11 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "45.32.57.118",
-      "port": 4433,
-      "uuid": "35b89832-0a7c-48dd-8d1c-a2891b522195",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 12 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "aa.ccmusic.jp",
-      "port": 443,
-      "password": "tsuchiya",
-      "tls": {
-        "enabled": true,
-        "server_name": "aa.ccmusic.jp",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 13 - xiaohe",
-      "udp": true,
       "type": "vless",
-      "server": "104.21.70.21",
-      "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "server": "172.67.130.159",
+      "port": 2096,
+      "uuid": "36788cf4-fcb4-49c5-a563-5f888849b1cc",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "jp3.yohototo.top",
+        "server_name": "cdn-jp.skyvora.app",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/tyxyws",
+        "path": "/vqyps6kf3",
         "headers": {
-          "Host": "jp3.yohototo.top"
+          "Host": "cdn-jp.skyvora.app"
         }
       }
     },
     {
-      "tag": "🇯🇵 日本 (Japan) 14 - xiaohe",
+      "tag": "🇯🇵 日本 (Japan) 10 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "35.243.84.20",
@@ -281,7 +253,20 @@
       }
     },
     {
-      "tag": "🇯🇵 日本 (Japan) 15 - xiaohe",
+      "tag": "🇯🇵 日本 (Japan) 11 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "aa.ccmusic.jp",
+      "port": 443,
+      "password": "tsuchiya",
+      "tls": {
+        "enabled": true,
+        "server_name": "aa.ccmusic.jp",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 12 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "162.159.254.3",
@@ -302,31 +287,83 @@
       }
     },
     {
-      "tag": "🇯🇵 日本 (Japan) 16 - xiaohe",
+      "tag": "🇯🇵 日本 (Japan) 13 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "45.63.124.130",
+      "server": "34.84.126.188",
       "port": 443,
-      "uuid": "3db635e4-f9ec-42d6-8aba-e23df8b0e6da",
+      "uuid": "51a43b75-c84b-46eb-885e-c24e7819cd0b",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "mia10.pages.dev",
+        "server_name": "www.cloudflare.com",
         "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/TG:@MiaChatChannel",
-        "headers": {
-          "Host": "mia10.pages.dev"
-        }
+        "client_fingerprint": "qq",
+        "reality": true,
+        "public_key": "qMPnrSiXgWvw2ETefb46OfJKnYpfX6HfyGdWpWWxtVI",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 14 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "45.32.57.118",
+      "port": 4433,
+      "uuid": "35b89832-0a7c-48dd-8d1c-a2891b522195",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 15 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "84.247.155.196",
+      "port": 80,
+      "method": "aes-256-gcm",
+      "password": "3eOFeNssde7PYYMv"
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 16 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "35.243.84.20",
+      "port": 443,
+      "uuid": "0c4c6ebb-603f-4429-8682-beef6b65b80d",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "ios",
+        "reality": true,
+        "public_key": "Ti7zRkfweHdrQ5QHI9o_zEgHn39xRfMG2C2Gfp_AMHE",
+        "short_id": ""
       }
     },
     {
       "tag": "🇯🇵 日本 (Japan) 17 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "188.114.97.6",
+      "server": "34.84.126.188",
+      "port": 443,
+      "uuid": "51a43b75-c84b-46eb-885e-c24e7819cd0b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "qMPnrSiXgWvw2ETefb46OfJKnYpfX6HfyGdWpWWxtVI",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 18 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.21.70.21",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -344,15 +381,6 @@
       }
     },
     {
-      "tag": "🇯🇵 日本 (Japan) 18 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "137.220.221.179",
-      "port": 443,
-      "uuid": "a16a3336-c9ab-489f-9b85-c973f5e2cfa4",
-      "flow": ""
-    },
-    {
       "tag": "🇯🇵 日本 (Japan) 19 - xiaohe",
       "udp": true,
       "type": "vless",
@@ -365,25 +393,16 @@
       "tag": "🇯🇵 日本 (Japan) 20 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "35.243.84.20",
+      "server": "137.220.221.179",
       "port": 443,
-      "uuid": "0c4c6ebb-603f-4429-8682-beef6b65b80d",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "Ti7zRkfweHdrQ5QHI9o_zEgHn39xRfMG2C2Gfp_AMHE",
-        "short_id": ""
-      }
+      "uuid": "a16a3336-c9ab-489f-9b85-c973f5e2cfa4",
+      "flow": ""
     },
     {
       "tag": "🇯🇵 日本 (Japan) 21 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.21.33.59",
+      "server": "172.67.217.240",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -404,7 +423,7 @@
       "tag": "🇯🇵 日本 (Japan) 22 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "172.67.156.147",
+      "server": "104.21.33.59",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -433,7 +452,7 @@
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "insecure": true,
-        "client_fingerprint": "firefox",
+        "client_fingerprint": "chrome",
         "reality": true,
         "public_key": "qMPnrSiXgWvw2ETefb46OfJKnYpfX6HfyGdWpWWxtVI",
         "short_id": ""
@@ -452,20 +471,12 @@
     {
       "tag": "🇯🇵 日本 (Japan) 25 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "34.84.126.188",
-      "port": 443,
-      "uuid": "51a43b75-c84b-46eb-885e-c24e7819cd0b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "edge",
-        "reality": true,
-        "public_key": "qMPnrSiXgWvw2ETefb46OfJKnYpfX6HfyGdWpWWxtVI",
-        "short_id": ""
-      }
+      "type": "vmess",
+      "server": "45.32.57.118",
+      "port": 4433,
+      "uuid": "35b89832-0a7c-48dd-8d1c-a2891b522195",
+      "alterId": 0,
+      "security": "auto"
     },
     {
       "tag": "🇯🇵 日本 (Japan) 26 - xiaohe",
@@ -479,7 +490,7 @@
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "insecure": true,
-        "client_fingerprint": "chrome",
+        "client_fingerprint": "safari",
         "reality": true,
         "public_key": "Ti7zRkfweHdrQ5QHI9o_zEgHn39xRfMG2C2Gfp_AMHE",
         "short_id": ""
@@ -487,16 +498,6 @@
     },
     {
       "tag": "🇯🇵 日本 (Japan) 27 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "168.110.60.104",
-      "port": 18112,
-      "uuid": "ad45f8f6-0f0a-4cc4-b907-c4582407dc94",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 28 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "35.243.84.20",
@@ -507,14 +508,14 @@
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "insecure": true,
-        "client_fingerprint": "chrome",
+        "client_fingerprint": "firefox",
         "reality": true,
         "public_key": "Ti7zRkfweHdrQ5QHI9o_zEgHn39xRfMG2C2Gfp_AMHE",
         "short_id": ""
       }
     },
     {
-      "tag": "🇯🇵 日本 (Japan) 29 - xiaohe",
+      "tag": "🇯🇵 日本 (Japan) 28 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "104.21.8.201",
@@ -535,23 +536,49 @@
       }
     },
     {
-      "tag": "🇯🇵 日本 (Japan) 30 - xiaohe",
+      "tag": "🇯🇵 日本 (Japan) 29 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "aa.ccmusic.jp",
+      "type": "vless",
+      "server": "35.243.84.20",
       "port": 443,
-      "password": "tsuchiya",
+      "uuid": "0c4c6ebb-603f-4429-8682-beef6b65b80d",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "aa.ccmusic.jp",
-        "insecure": true
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "Ti7zRkfweHdrQ5QHI9o_zEgHn39xRfMG2C2Gfp_AMHE",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 30 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.16.10.185",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
       }
     },
     {
       "tag": "🇯🇵 日本 (Japan) 31 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "172.67.217.240",
+      "server": "104.21.70.21",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -572,46 +599,13 @@
       "tag": "🇯🇵 日本 (Japan) 32 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "172.67.217.240",
+      "server": "137.220.221.179",
       "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
+      "uuid": "a16a3336-c9ab-489f-9b85-c973f5e2cfa4",
+      "flow": ""
     },
     {
       "tag": "🇯🇵 日本 (Japan) 33 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.67.217.240",
-      "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 34 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "172.67.156.147",
@@ -632,25 +626,55 @@
       }
     },
     {
+      "tag": "🇯🇵 日本 (Japan) 34 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.21.33.59",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
       "tag": "🇯🇵 日本 (Japan) 35 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "34.84.126.188",
+      "server": "35.243.84.20",
       "port": 443,
-      "uuid": "51a43b75-c84b-46eb-885e-c24e7819cd0b",
+      "uuid": "0c4c6ebb-603f-4429-8682-beef6b65b80d",
       "flow": "",
       "tls": {
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "insecure": true,
-        "client_fingerprint": "qq",
+        "client_fingerprint": "firefox",
         "reality": true,
-        "public_key": "qMPnrSiXgWvw2ETefb46OfJKnYpfX6HfyGdWpWWxtVI",
+        "public_key": "Ti7zRkfweHdrQ5QHI9o_zEgHn39xRfMG2C2Gfp_AMHE",
         "short_id": ""
       }
     },
     {
       "tag": "🇯🇵 日本 (Japan) 36 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "149.22.87.204",
+      "port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 37 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "161.34.39.108",
@@ -658,36 +682,38 @@
       "password": "tsuchiya",
       "tls": {
         "enabled": true,
-        "server_name": "161.34.39.108",
+        "server_name": "aa.ccmusic.jp",
         "insecure": true
       }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 37 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "45.32.57.118",
-      "port": 4433,
-      "uuid": "35b89832-0a7c-48dd-8d1c-a2891b522195",
-      "alterId": 0,
-      "security": "auto"
     },
     {
       "tag": "🇯🇵 日本 (Japan) 38 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "137.220.221.179",
+      "server": "104.21.70.21",
       "port": 443,
-      "uuid": "a16a3336-c9ab-489f-9b85-c973f5e2cfa4",
-      "flow": ""
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
     },
     {
       "tag": "🇯🇵 日本 (Japan) 39 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "34.84.126.188",
+      "server": "35.243.84.20",
       "port": 443,
-      "uuid": "51a43b75-c84b-46eb-885e-c24e7819cd0b",
+      "uuid": "0c4c6ebb-603f-4429-8682-beef6b65b80d",
       "flow": "",
       "tls": {
         "enabled": true,
@@ -695,9 +721,18 @@
         "insecure": true,
         "client_fingerprint": "chrome",
         "reality": true,
-        "public_key": "qMPnrSiXgWvw2ETefb46OfJKnYpfX6HfyGdWpWWxtVI",
+        "public_key": "Ti7zRkfweHdrQ5QHI9o_zEgHn39xRfMG2C2Gfp_AMHE",
         "short_id": ""
       }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 40 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "137.220.221.179",
+      "port": 443,
+      "uuid": "a16a3336-c9ab-489f-9b85-c973f5e2cfa4",
+      "flow": ""
     }
   ]
 }

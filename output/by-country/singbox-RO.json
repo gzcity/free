@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe"
+        "🇷🇴 RO 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,23 +25,17 @@
       "tag": "block"
     },
     {
-      "tag": "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe",
+      "tag": "🇷🇴 RO 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.16.150.108",
-      "port": 2087,
-      "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
+      "server": "167.82.101.251",
+      "port": 80,
+      "uuid": "0e9f7d2a-2f92-475e-b484-e79568a8a1a2",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc",
-        "insecure": true,
-        "client_fingerprint": null
-      },
       "ws": {
-        "path": "/?ed=2560",
+        "path": "/",
         "headers": {
-          "Host": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
+          "Host": "Mankiamtr.global.ssl.fastly.net"
         }
       }
     }

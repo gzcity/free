@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇩🇰 DK 01 - xiaohe"
+        "🇲🇩 MD 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,13 +25,19 @@
       "tag": "block"
     },
     {
-      "tag": "🇩🇰 DK 01 - xiaohe",
+      "tag": "🇲🇩 MD 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "38.180.214.110",
-      "port": 5600,
-      "method": "aes-256-gcm",
-      "password": "Y6R9pAtvxxzmGC"
+      "type": "vless",
+      "server": "143.246.219.51",
+      "port": 8081,
+      "uuid": "54ee5e59-55a3-4599-83ff-0c67b3f411b2",
+      "flow": "",
+      "ws": {
+        "path": "/vless-test",
+        "headers": {
+          "Host": "143.246.219.51"
+        }
+      }
     }
   ]
 }

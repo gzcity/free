@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇨 SC 01 - xiaohe"
+        "🇵🇱 PL 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,24 +25,21 @@
       "tag": "block"
     },
     {
-      "tag": "🇸🇨 SC 01 - xiaohe",
+      "tag": "🇵🇱 PL 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "154.218.15.250",
-      "port": 2083,
-      "uuid": "40af9131-d540-448a-bc56-5bba147a1dc3",
+      "server": "34.118.70.195",
+      "port": 443,
+      "uuid": "d518b4e2-bd6e-4d4e-a26e-238154d8d60c",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "proxy-1cu.pages.dev",
+        "server_name": "www.cloudflare.com",
         "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "proxy-1cu.pages.dev"
-        }
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "t_ql5pn5MG1bkVQoteCXoKkSTzUzOs_yXMllmsyiqXY",
+        "short_id": ""
       }
     }
   ]

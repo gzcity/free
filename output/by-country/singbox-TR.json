@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇿🇦 ZA 01 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,13 +25,19 @@
       "tag": "block"
     },
     {
-      "tag": "🇿🇦 ZA 01 - xiaohe",
+      "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "102.37.156.224",
-      "port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "aduB9HGxQHjA2SBMRjkHX6"
+      "type": "vless",
+      "server": "185.71.219.128",
+      "port": 2052,
+      "uuid": "f4ade6db-3c64-4939-9f32-788b87a9392f",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "185.71.219.128",
+        "insecure": true,
+        "client_fingerprint": null
+      }
     }
   ]
 }

@@ -13,12 +13,7 @@
       "tag": "auto",
       "outbounds": [
         "🇫🇮 FI 01 - xiaohe",
-        "🇫🇮 FI 02 - xiaohe",
-        "🇫🇮 FI 03 - xiaohe",
-        "🇫🇮 FI 04 - xiaohe",
-        "🇫🇮 FI 05 - xiaohe",
-        "🇫🇮 FI 06 - xiaohe",
-        "🇫🇮 FI 07 - xiaohe"
+        "🇫🇮 FI 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -33,113 +28,14 @@
     {
       "tag": "🇫🇮 FI 01 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "104.18.38.47",
-      "port": 2087,
-      "uuid": "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "?ed=2560",
-        "headers": {
-          "Host": "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
-        }
-      }
+      "type": "shadowsocks",
+      "server": "p1tun3.greewebservices.ir",
+      "port": 2070,
+      "method": "chacha20-ietf-poly1305",
+      "password": "LMnotcv4RdaEOBXT-LdtfA"
     },
     {
       "tag": "🇫🇮 FI 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "146.75.119.82",
-      "port": 80,
-      "uuid": "c36d624e-a851-486f-bd87-844b1e4d609d",
-      "flow": "",
-      "ws": {
-        "path": "ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048",
-        "headers": {
-          "Host": "rb24.ir"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "185.79.138.71",
-      "port": 448,
-      "uuid": "0b0915d7-6800-4580-a44b-77d84f105e6a",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.samsung.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇫🇮 FI 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "185.79.138.71",
-      "port": 448,
-      "uuid": "0b0915d7-6800-4580-a44b-77d84f105e6a",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.samsung.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇫🇮 FI 05 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "185.79.138.71",
-      "port": 448,
-      "uuid": "0b0915d7-6800-4580-a44b-77d84f105e6a",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.samsung.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇫🇮 FI 06 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "185.79.138.71",
-      "port": 448,
-      "uuid": "0b0915d7-6800-4580-a44b-77d84f105e6a",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.samsung.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇫🇮 FI 07 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "185.79.138.71",
