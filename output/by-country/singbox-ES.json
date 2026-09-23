@@ -15,8 +15,7 @@
         "🇪🇸 西班牙 (Spain) 01 - xiaohe",
         "🇪🇸 西班牙 (Spain) 02 - xiaohe",
         "🇪🇸 西班牙 (Spain) 03 - xiaohe",
-        "🇪🇸 西班牙 (Spain) 04 - xiaohe",
-        "🇪🇸 西班牙 (Spain) 05 - xiaohe"
+        "🇪🇸 西班牙 (Spain) 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -52,6 +51,15 @@
     {
       "tag": "🇪🇸 西班牙 (Spain) 02 - xiaohe",
       "udp": true,
+      "type": "shadowsocks",
+      "server": "140.174.184.5",
+      "port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "qItG8SueYQcP"
+    },
+    {
+      "tag": "🇪🇸 西班牙 (Spain) 03 - xiaohe",
+      "udp": true,
       "type": "vless",
       "server": "152.114.195.163",
       "port": 8443,
@@ -71,26 +79,7 @@
       }
     },
     {
-      "tag": "🇪🇸 西班牙 (Spain) 03 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "66.163.118.73",
-      "port": 22324,
-      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
       "tag": "🇪🇸 西班牙 (Spain) 04 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "140.174.184.5",
-      "port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "qItG8SueYQcP"
-    },
-    {
-      "tag": "🇪🇸 西班牙 (Spain) 05 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "108.181.121.226",

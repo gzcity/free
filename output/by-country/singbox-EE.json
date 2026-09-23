@@ -12,8 +12,9 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇴 RO 01 - xiaohe",
-        "🇷🇴 RO 02 - xiaohe"
+        "🇪🇪 EE 01 - xiaohe",
+        "🇪🇪 EE 02 - xiaohe",
+        "🇪🇪 EE 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -26,44 +27,59 @@
       "tag": "block"
     },
     {
-      "tag": "🇷🇴 RO 01 - xiaohe",
+      "tag": "🇪🇪 EE 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "185.153.198.86",
+      "server": "94.183.170.135",
       "port": 443,
-      "uuid": "c18b978e-1c4e-415c-8bea-07942b563a64",
+      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "shuma.ccwu.cc",
-        "insecure": true,
-        "client_fingerprint": null
-      },
       "ws": {
         "path": "/",
         "headers": {
-          "Host": "shuma.ccwu.cc"
+          "Host": "94.183.170.135"
         }
       }
     },
     {
-      "tag": "🇷🇴 RO 02 - xiaohe",
+      "tag": "🇪🇪 EE 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "103.126.50.196",
+      "server": "93.123.39.203",
       "port": 8443,
-      "uuid": "c18b978e-1c4e-415c-8bea-07942b563a64",
+      "uuid": "d544c858-b1ba-45b2-8868-8197daf2a6ee",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "shuma.ccwu.cc",
+        "server_name": "est.luxes.network",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/",
+        "path": "/assets",
         "headers": {
-          "Host": "shuma.ccwu.cc"
+          "Host": "93.123.39.203"
+        }
+      }
+    },
+    {
+      "tag": "🇪🇪 EE 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "93.123.39.203",
+      "port": 8443,
+      "uuid": "d544c858-b1ba-45b2-8868-8197daf2a6ee",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "est.luxes.network",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/assets",
+        "headers": {
+          "Host": "93.123.39.203"
         }
       }
     }

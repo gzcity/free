@@ -17,10 +17,7 @@
         "🇮🇳 印度 (India) 03 - xiaohe",
         "🇮🇳 印度 (India) 04 - xiaohe",
         "🇮🇳 印度 (India) 05 - xiaohe",
-        "🇮🇳 印度 (India) 06 - xiaohe",
-        "🇮🇳 印度 (India) 07 - xiaohe",
-        "🇮🇳 印度 (India) 08 - xiaohe",
-        "🇮🇳 印度 (India) 09 - xiaohe"
+        "🇮🇳 印度 (India) 06 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -44,7 +41,7 @@
         "enabled": true,
         "server_name": "www.apple.com",
         "insecure": true,
-        "client_fingerprint": "firefox",
+        "client_fingerprint": "random",
         "reality": true,
         "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
         "short_id": ""
@@ -62,7 +59,7 @@
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "insecure": true,
-        "client_fingerprint": "random",
+        "client_fingerprint": "chrome",
         "reality": true,
         "public_key": "dB68n-Vyph0_KBtBIe45b5GCB4F1IqpBF_ohlN-KpkY",
         "short_id": ""
@@ -70,78 +67,6 @@
     },
     {
       "tag": "🇮🇳 印度 (India) 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "34.47.245.203",
-      "port": 443,
-      "uuid": "3fed34dc-2fe6-4fe0-86e7-a80213f9b7cc",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "dB68n-Vyph0_KBtBIe45b5GCB4F1IqpBF_ohlN-KpkY",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇮🇳 印度 (India) 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "194.61.31.126",
-      "port": 2053,
-      "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇮🇳 印度 (India) 05 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "34.93.188.70",
-      "port": 443,
-      "uuid": "5004e3d7-a9bd-4a7c-a6d5-58aa5e1be9ed",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "97C6O3repofpoaJzvu1d4o7amhJGA8hF_yJls7SNIgU",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇮🇳 印度 (India) 06 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "194.61.31.126",
-      "port": 2053,
-      "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇮🇳 印度 (India) 07 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "139.84.135.130",
@@ -162,7 +87,25 @@
       }
     },
     {
-      "tag": "🇮🇳 印度 (India) 08 - xiaohe",
+      "tag": "🇮🇳 印度 (India) 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "34.47.245.203",
+      "port": 443,
+      "uuid": "3fed34dc-2fe6-4fe0-86e7-a80213f9b7cc",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "random",
+        "reality": true,
+        "public_key": "dB68n-Vyph0_KBtBIe45b5GCB4F1IqpBF_ohlN-KpkY",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇮🇳 印度 (India) 05 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "13.200.106.232",
@@ -183,7 +126,7 @@
       }
     },
     {
-      "tag": "🇮🇳 印度 (India) 09 - xiaohe",
+      "tag": "🇮🇳 印度 (India) 06 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "194.61.31.126",
@@ -194,7 +137,7 @@
         "enabled": true,
         "server_name": "www.apple.com",
         "insecure": true,
-        "client_fingerprint": "random",
+        "client_fingerprint": "chrome",
         "reality": true,
         "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
         "short_id": ""
