@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇵🇱 PL 01 - xiaohe"
+        "🇨🇱 CL 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,13 +25,19 @@
       "tag": "block"
     },
     {
-      "tag": "🇵🇱 PL 01 - xiaohe",
+      "tag": "🇨🇱 CL 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "146.59.116.19",
-      "port": 17000,
-      "method": "aes-256-gcm",
-      "password": "pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL"
+      "type": "vless",
+      "server": "platform108.golnamakcert.top",
+      "port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "flow": "",
+      "ws": {
+        "path": "/platform108",
+        "headers": {
+          "Host": "platform108.halalkhor.info"
+        }
+      }
     }
   ]
 }

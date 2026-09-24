@@ -30,14 +30,14 @@
       "udp": true,
       "type": "vless",
       "server": "94.183.170.135",
-      "port": 8443,
+      "port": 443,
       "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "estproxy4.lockdwn.com",
-        "insecure": true,
-        "client_fingerprint": null
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "94.183.170.135"
+        }
       }
     },
     {

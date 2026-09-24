@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe"
+        "🇮🇷 IR 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,16 +25,21 @@
       "tag": "block"
     },
     {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
+      "tag": "🇮🇷 IR 01 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "119.246.1.143",
-      "port": 443,
-      "password": "BxceQaOe",
+      "type": "vless",
+      "server": "g2.haxat.bestvbest.ir",
+      "port": 20610,
+      "uuid": "8ec5d86b-d895-477d-bc96-21fa01049f2f",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "t.me%2Fripaojiedian",
-        "insecure": true
+        "server_name": "cdn-apple.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "lcXIrYi2o8yXrYHR321qQ--5lqVT8a6TKbaGpYTq4CI",
+        "short_id": ""
       }
     }
   ]

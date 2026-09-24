@@ -29,40 +29,25 @@
       "tag": "🇫🇮 FI 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "151.101.56.6",
-      "port": 443,
-      "uuid": "622cd467-ae00-4afe-b7ee-15dca6b9649a",
+      "server": "karo.rick313.dpdns.org",
+      "port": 2087,
+      "uuid": "2e4e6812-be87-415b-a2e8-b0e17e9f2da7",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "ssl.fastly.com",
+        "server_name": "karo.rick313.dpdns.org",
         "insecure": true,
         "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/?TELEGRAM--BYA--CHANEL---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPNfp=chrome",
-        "headers": {
-          "Host": "c12.com"
-        }
       }
     },
     {
       "tag": "🇫🇮 FI 02 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "185.79.138.71",
-      "port": 448,
-      "uuid": "0b0915d7-6800-4580-a44b-77d84f105e6a",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.samsung.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8",
-        "short_id": ""
-      }
+      "type": "shadowsocks",
+      "server": "p1tun3.greewebservices.ir",
+      "port": 2070,
+      "method": "chacha20-ietf-poly1305",
+      "password": "cVvgP0Bz69hsErPBvqKbwQ"
     }
   ]
 }
