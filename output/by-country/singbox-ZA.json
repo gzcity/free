@@ -12,8 +12,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇫🇮 FI 01 - xiaohe",
-        "🇫🇮 FI 02 - xiaohe"
+        "🇿🇦 ZA 01 - xiaohe",
+        "🇿🇦 ZA 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -26,22 +26,22 @@
       "tag": "block"
     },
     {
-      "tag": "🇫🇮 FI 01 - xiaohe",
+      "tag": "🇿🇦 ZA 01 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "p1tun2.greewebservices.ir",
-      "port": 2060,
+      "server": "139.84.247.164",
+      "port": 8388,
       "method": "chacha20-ietf-poly1305",
-      "password": "cVvgP0Bz69hsErPBvqKbwQ"
+      "password": "tfAcRikawhNoZAhu"
     },
     {
-      "tag": "🇫🇮 FI 02 - xiaohe",
+      "tag": "🇿🇦 ZA 02 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "p1tun4.greewebservices.ir",
-      "port": 1080,
+      "server": "102.37.156.224",
+      "port": 443,
       "method": "chacha20-ietf-poly1305",
-      "password": "cVvgP0Bz69hsErPBvqKbwQ"
+      "password": "aduB9HGxQHjA2SBMRjkHX6"
     }
   ]
 }

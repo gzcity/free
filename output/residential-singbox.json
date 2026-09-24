@@ -30,7 +30,7 @@
       "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "59.125.69.24",
+      "server": "60.248.219.54",
       "port": 443,
       "uuid": "06e177f7-240d-4687-bd85-235505801a5e",
       "flow": "",
@@ -43,7 +43,7 @@
       "ws": {
         "path": "/81574b6b-c9d7-44a0-b83d-dad56e8cb530",
         "headers": {
-          "Host": "59.125.69.24"
+          "Host": "60.248.219.54"
         }
       }
     },
@@ -56,7 +56,7 @@
       "password": "BxceQaOe",
       "tls": {
         "enabled": true,
-        "server_name": "t.me%2Fripaojiedian",
+        "server_name": "t.me",
         "insecure": true
       }
     },
