@@ -13,7 +13,8 @@
       "tag": "auto",
       "outbounds": [
         "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe"
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -27,15 +28,6 @@
     },
     {
       "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "36.224.141.124",
-      "port": 50099,
-      "method": "chacha20-ietf-poly1305",
-      "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
-    },
-    {
-      "tag": "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "60.248.219.78",
@@ -54,6 +46,33 @@
           "Host": "ty986gfazs.cainiaohub.xyz"
         }
       }
+    },
+    {
+      "tag": "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "118.167.206.152",
+      "port": 24215,
+      "uuid": "19d5a678-8396-4e3b-93da-ece618d0e83a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "addons.mozilla.org",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "36.224.141.124",
+      "port": 50099,
+      "method": "chacha20-ietf-poly1305",
+      "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
     }
   ]
 }

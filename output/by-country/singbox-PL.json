@@ -12,7 +12,10 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇵🇱 PL 01 - xiaohe"
+        "🇵🇱 PL 01 - xiaohe",
+        "🇵🇱 PL 02 - xiaohe",
+        "🇵🇱 PL 03 - xiaohe",
+        "🇵🇱 PL 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -28,19 +31,73 @@
       "tag": "🇵🇱 PL 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "34.118.70.195",
+      "server": "104.25.146.77",
       "port": 443,
-      "uuid": "d518b4e2-bd6e-4d4e-a26e-238154d8d60c",
+      "uuid": "e6cc4788-3c45-4df1-94f3-8303504a65bf",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
+        "server_name": "khoda.ak-khoda.workers.dev",
         "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "t_ql5pn5MG1bkVQoteCXoKkSTzUzOs_yXMllmsyiqXY",
-        "short_id": ""
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/sync",
+        "headers": {
+          "Host": "khoda.ak-khoda.workers.dev"
+        }
       }
+    },
+    {
+      "tag": "🇵🇱 PL 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.17.247.68",
+      "port": 443,
+      "uuid": "e6cc4788-3c45-4df1-94f3-8303504a65bf",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "khoda.ak-khoda.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/sync",
+        "headers": {
+          "Host": "khoda.ak-khoda.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.25.22.24",
+      "port": 443,
+      "uuid": "e6cc4788-3c45-4df1-94f3-8303504a65bf",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "khoda.ak-khoda.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/sync",
+        "headers": {
+          "Host": "khoda.ak-khoda.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 04 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "146.59.116.19",
+      "port": 17000,
+      "method": "aes-256-gcm",
+      "password": "pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL"
     }
   ]
 }

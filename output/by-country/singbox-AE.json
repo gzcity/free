@@ -19,7 +19,9 @@
         "🇦🇪 阿联酋 (UAE) 05 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 06 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 07 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 08 - xiaohe"
+        "🇦🇪 阿联酋 (UAE) 08 - xiaohe",
+        "🇦🇪 阿联酋 (UAE) 09 - xiaohe",
+        "🇦🇪 阿联酋 (UAE) 10 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -35,7 +37,7 @@
       "tag": "🇦🇪 阿联酋 (UAE) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "84.235.244.108",
+      "server": "uae.unixzone.us",
       "port": 22573,
       "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
       "flow": "",
@@ -50,7 +52,7 @@
       "tag": "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "84.235.244.108",
+      "server": "uae.unixzone.us",
       "port": 22573,
       "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
       "flow": "",
@@ -65,25 +67,7 @@
       "tag": "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "31.58.181.88",
-      "port": 8443,
-      "uuid": "ceaf462e-a9fa-4c4b-94be-f192570465a7",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "tradingview.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "uae.unixzone.us",
+      "server": "84.235.244.108",
       "port": 22573,
       "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
       "flow": "",
@@ -95,25 +79,7 @@
       }
     },
     {
-      "tag": "🇦🇪 阿联酋 (UAE) 05 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "31.58.181.88",
-      "port": 8443,
-      "uuid": "ba90d4f6-de5c-466e-9b05-975f49ef528c",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "tradingview.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇦🇪 阿联酋 (UAE) 06 - xiaohe",
+      "tag": "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "84.235.244.108",
@@ -128,10 +94,40 @@
       }
     },
     {
-      "tag": "🇦🇪 阿联酋 (UAE) 07 - xiaohe",
+      "tag": "🇦🇪 阿联酋 (UAE) 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "84.235.244.108",
+      "port": 22573,
+      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "uae.unixzone.us"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇪 阿联酋 (UAE) 06 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "uae.unixzone.us",
+      "port": 22573,
+      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "uae.unixzone.us"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇪 阿联酋 (UAE) 07 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "84.235.244.108",
       "port": 22573,
       "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
       "flow": "",
@@ -158,6 +154,36 @@
         "reality": true,
         "public_key": "iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg",
         "short_id": ""
+      }
+    },
+    {
+      "tag": "🇦🇪 阿联酋 (UAE) 09 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "uae.unixzone.us",
+      "port": 22573,
+      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "uae.unixzone.us"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇪 阿联酋 (UAE) 10 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "uae.unixzone.us",
+      "port": 22573,
+      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "uae.unixzone.us"
+        }
       }
     }
   ]
