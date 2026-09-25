@@ -12,7 +12,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇭 CH 01 - xiaohe"
+        "🇨🇭 CH 01 - xiaohe",
+        "🇨🇭 CH 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -27,11 +28,44 @@
     {
       "tag": "🇨🇭 CH 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "132.243.175.144",
-      "port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3"
+      "type": "vless",
+      "server": "185.18.250.252",
+      "port": 443,
+      "uuid": "f77299ea-e13d-417d-8cdc-ce5566dfc94b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "edu.ruangguru.com.r3xxe.eu.cc",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/nl-tw",
+        "headers": {
+          "Host": "edu.ruangguru.com.r3xxe.eu.cc"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇭 CH 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "185.18.250.245",
+      "port": 443,
+      "uuid": "f77299ea-e13d-417d-8cdc-ce5566dfc94b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "edu.ruangguru.com.r3xxe.eu.cc",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/nl-tw",
+        "headers": {
+          "Host": "edu.ruangguru.com.r3xxe.eu.cc"
+        }
+      }
     }
   ]
 }

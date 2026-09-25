@@ -13,7 +13,8 @@
       "tag": "auto",
       "outbounds": [
         "🇫🇮 FI 01 - xiaohe",
-        "🇫🇮 FI 02 - xiaohe"
+        "🇫🇮 FI 02 - xiaohe",
+        "🇫🇮 FI 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -28,20 +29,32 @@
     {
       "tag": "🇫🇮 FI 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "p1tun2.greewebservices.ir",
-      "port": 2060,
-      "method": "chacha20-ietf-poly1305",
-      "password": "cVvgP0Bz69hsErPBvqKbwQ"
+      "type": "vmess",
+      "server": "me6.movieseryalirani.ir",
+      "port": 57361,
+      "uuid": "ed815caa-bff1-4419-8c61-1d108eabaf1f",
+      "alterId": 0,
+      "security": "auto"
     },
     {
       "tag": "🇫🇮 FI 02 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "p1tun4.greewebservices.ir",
-      "port": 1080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "cVvgP0Bz69hsErPBvqKbwQ"
+      "type": "vmess",
+      "server": "me6.movieseryalirani.ir",
+      "port": 57361,
+      "uuid": "ed815caa-bff1-4419-8c61-1d108eabaf1f",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇫🇮 FI 03 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "me6.movieseryalirani.ir",
+      "port": 57361,
+      "uuid": "ed815caa-bff1-4419-8c61-1d108eabaf1f",
+      "alterId": 0,
+      "security": "auto"
     }
   ]
 }

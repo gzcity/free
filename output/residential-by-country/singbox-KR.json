@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "tag": "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.18.11.118",
+      "port": 8880,
+      "uuid": "17b2ed22-5fd0-47ad-b5f0-658379379ced",
+      "flow": "",
+      "ws": {
+        "path": "/pyip=ProxyIP.KR.CMLiussss.net",
+        "headers": {
+          "Host": "black-wildflower-dd92.72-1e8.workers.dev"
+        }
+      }
+    }
+  ]
+}
