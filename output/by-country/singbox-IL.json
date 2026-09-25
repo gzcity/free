@@ -12,7 +12,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇱 IL 01 - xiaohe"
+        "🇮🇱 IL 01 - xiaohe",
+        "🇮🇱 IL 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -28,14 +29,35 @@
       "tag": "🇮🇱 IL 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "platform113.golnamakcert.top",
+      "server": "platform115.golnamakcert.top",
       "port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
       "flow": "",
       "ws": {
-        "path": "/platform113",
+        "path": "/platform115",
         "headers": {
-          "Host": "platform113.halalkhor.info"
+          "Host": "platform115.golnamakcert.top"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇱 IL 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "fserver-worker-001.mapleridgeway.top",
+      "port": 443,
+      "uuid": "83b4af70-376e-427c-8c11-a025bec6b085",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "fserver-worker-001.mapleridgeway.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/cdn/99294c014f2c7791?ed=2056",
+        "headers": {
+          "Host": "fserver-worker-001.mapleridgeway.top"
         }
       }
     }

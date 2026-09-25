@@ -12,8 +12,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇱 CL 01 - xiaohe",
-        "🇨🇱 CL 02 - xiaohe"
+        "🇪🇪 EE 01 - xiaohe",
+        "🇪🇪 EE 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -26,33 +26,33 @@
       "tag": "block"
     },
     {
-      "tag": "🇨🇱 CL 01 - xiaohe",
+      "tag": "🇪🇪 EE 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "platform109.golnamakcert.top",
-      "port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "server": "94.183.170.135",
+      "port": 443,
+      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
       "flow": "",
       "ws": {
-        "path": "/platform109",
+        "path": "/",
         "headers": {
-          "Host": "platform109.halalkhor.info"
+          "Host": "94.183.170.135"
         }
       }
     },
     {
-      "tag": "🇨🇱 CL 02 - xiaohe",
+      "tag": "🇪🇪 EE 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "platform108.golnamakcert.top",
-      "port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "server": "94.183.170.135",
+      "port": 8443,
+      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
       "flow": "",
-      "ws": {
-        "path": "/platform108",
-        "headers": {
-          "Host": "platform108.halalkhor.info"
-        }
+      "tls": {
+        "enabled": true,
+        "server_name": "estproxy4.lockdwn.com",
+        "insecure": true,
+        "client_fingerprint": null
       }
     }
   ]

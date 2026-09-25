@@ -4,24 +4,25 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇸🇪 SE 01 - xiaohe
-  type: ss
-  server: 172.238.244.13
-  port: 17000
-  cipher: aes-256-gcm
-  password: pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL
+- name: 🇷🇴 RO 01 - xiaohe
+  type: trojan
+  server: 38.180.35.145
+  port: 443
+  password: 600421cf-11d7-429f-a65b-c30397f1bc03
   udp: true
+  sni: bu2.freeguard.org
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇸🇪 SE 01 - xiaohe
+  - 🇷🇴 RO 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇸🇪 SE 01 - xiaohe
+  - 🇷🇴 RO 01 - xiaohe
 rules:
 - MATCH,PROXIES

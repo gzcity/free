@@ -29,27 +29,6 @@
     {
       "tag": "🇫🇮 FI 01 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "k2.cloud--vpn.site",
-      "port": 443,
-      "uuid": "64c2bc5c-7534-4359-9b1e-e1dce5a380cd",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ssl.fastly.com",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "c12.com"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI 02 - xiaohe",
-      "udp": true,
       "type": "vmess",
       "server": "me6.movieseryalirani.ir",
       "port": 57361,
@@ -58,24 +37,39 @@
       "security": "auto"
     },
     {
-      "tag": "🇫🇮 FI 03 - xiaohe",
+      "tag": "🇫🇮 FI 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "a2.arshia-nova.ir",
-      "port": 443,
-      "uuid": "64c2bc5c-7534-4359-9b1e-e1dce5a380cd",
+      "server": "185.79.138.71",
+      "port": 448,
+      "uuid": "0b0915d7-6800-4580-a44b-77d84f105e6a",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "ssl.fastly.com",
+        "server_name": "www.samsung.com",
         "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "c12.com"
-        }
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇫🇮 FI 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "185.79.138.71",
+      "port": 448,
+      "uuid": "0b0915d7-6800-4580-a44b-77d84f105e6a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.samsung.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8",
+        "short_id": ""
       }
     }
   ]

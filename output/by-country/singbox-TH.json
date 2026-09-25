@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇪 SE 01 - xiaohe"
+        "🇹🇭 TH 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,13 +25,19 @@
       "tag": "block"
     },
     {
-      "tag": "🇸🇪 SE 01 - xiaohe",
+      "tag": "🇹🇭 TH 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "172.238.244.13",
-      "port": 17000,
-      "method": "aes-256-gcm",
-      "password": "pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL"
+      "type": "vless",
+      "server": "103.86.49.57",
+      "port": 80,
+      "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
+      "flow": "",
+      "ws": {
+        "path": "/ws",
+        "headers": {
+          "Host": "aIs.SpEeDtEsT.nEt"
+        }
+      }
     }
   ]
 }
