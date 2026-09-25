@@ -14,7 +14,17 @@
       "outbounds": [
         "🇫🇮 FI 01 - xiaohe",
         "🇫🇮 FI 02 - xiaohe",
-        "🇫🇮 FI 03 - xiaohe"
+        "🇫🇮 FI 03 - xiaohe",
+        "🇫🇮 FI 04 - xiaohe",
+        "🇫🇮 FI 05 - xiaohe",
+        "🇫🇮 FI 06 - xiaohe",
+        "🇫🇮 FI 07 - xiaohe",
+        "🇫🇮 FI 08 - xiaohe",
+        "🇫🇮 FI 09 - xiaohe",
+        "🇫🇮 FI 10 - xiaohe",
+        "🇫🇮 FI 11 - xiaohe",
+        "🇫🇮 FI 12 - xiaohe",
+        "🇫🇮 FI 13 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -29,6 +39,87 @@
     {
       "tag": "🇫🇮 FI 01 - xiaohe",
       "udp": true,
+      "type": "vless",
+      "server": "151.101.56.6",
+      "port": 443,
+      "uuid": "64c2bc5c-7534-4359-9b1e-e1dce5a380cd",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ssl.fastly.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "c12.com"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "151.101.56.6",
+      "port": 443,
+      "uuid": "64c2bc5c-7534-4359-9b1e-e1dce5a380cd",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ssl.fastly.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/?TELEGRAM--BYA---@CoonfigCloud---@CoonfigCloud@CoonfigCloud---@CoonfigCloud@CoonfigCloud---@CoonfigCloud@CoonfigCloud---@CoonfigCloud@CoonfigCloud---@CoonfigCloud@CoonfigCloud---@CoonfigCloud@CoonfigCloud---@CoonfigCloud@CoonfigCloud---@CoonfigCloud",
+        "headers": {
+          "Host": "c12.com"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "k2.cloud--vpn.site",
+      "port": 443,
+      "uuid": "64c2bc5c-7534-4359-9b1e-e1dce5a380cd",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ssl.fastly.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "c12.com"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "95.216.27.15",
+      "port": 2053,
+      "uuid": "1c81f6d3-5771-4c5d-9fdd-1655eff50634",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇫🇮 FI 05 - xiaohe",
+      "udp": true,
       "type": "vmess",
       "server": "me6.movieseryalirani.ir",
       "port": 57361,
@@ -37,7 +128,25 @@
       "security": "auto"
     },
     {
-      "tag": "🇫🇮 FI 02 - xiaohe",
+      "tag": "🇫🇮 FI 06 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "95.216.27.15",
+      "port": 2053,
+      "uuid": "1c81f6d3-5771-4c5d-9fdd-1655eff50634",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true,
+        "client_fingerprint": "random",
+        "reality": true,
+        "public_key": "4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇫🇮 FI 07 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "185.79.138.71",
@@ -55,7 +164,100 @@
       }
     },
     {
-      "tag": "🇫🇮 FI 03 - xiaohe",
+      "tag": "🇫🇮 FI 08 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "185.79.138.71",
+      "port": 448,
+      "uuid": "0b0915d7-6800-4580-a44b-77d84f105e6a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.samsung.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇫🇮 FI 09 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "185.79.138.71",
+      "port": 448,
+      "uuid": "0b0915d7-6800-4580-a44b-77d84f105e6a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.samsung.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇫🇮 FI 10 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "185.79.138.71",
+      "port": 448,
+      "uuid": "0b0915d7-6800-4580-a44b-77d84f105e6a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.samsung.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇫🇮 FI 11 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "me1.movieseryalirani.ir",
+      "port": 443,
+      "uuid": "63aaea7f-2847-4f41-afab-0836b1cf79d9",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "matrix-client.matrix.org",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "CxRZ7oJWwR7okmOoqEEbVYCSfTaBlNA6ycf_UniyeEk",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇫🇮 FI 12 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "151.101.56.6",
+      "port": 443,
+      "uuid": "64c2bc5c-7534-4359-9b1e-e1dce5a380cd",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ssl.fastly.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/?TELEGRAM--BYA--CHANEL---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr--@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr",
+        "headers": {
+          "Host": "c12.com"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI 13 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "185.79.138.71",

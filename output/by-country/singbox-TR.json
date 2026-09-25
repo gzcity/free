@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 02 - xiaohe"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "82.47.63.156",
+      "port": 2053,
+      "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f",
+      "flow": ""
+    },
+    {
+      "tag": "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "151.241.226.201",
+      "port": 2053,
+      "uuid": "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104",
+        "short_id": ""
+      }
+    }
+  ]
+}

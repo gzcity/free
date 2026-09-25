@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇨🇱 CL 01 - xiaohe",
+        "🇨🇱 CL 02 - xiaohe"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "tag": "🇨🇱 CL 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "platform109.golnamakcert.top",
+      "port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "flow": "",
+      "ws": {
+        "path": "/platform109",
+        "headers": {
+          "Host": "platform109.golnamakcert.top"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇱 CL 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "platform108.golnamakcert.top",
+      "port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "flow": "",
+      "ws": {
+        "path": "/platform108",
+        "headers": {
+          "Host": "platform108.golnamakcert.top"
+        }
+      }
+    }
+  ]
+}
