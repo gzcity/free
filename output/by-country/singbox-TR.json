@@ -29,10 +29,19 @@
       "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "test.keoplentuio.xyz",
+      "server": "151.241.226.201",
       "port": 2053,
-      "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f",
-      "flow": ""
+      "uuid": "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "random",
+        "reality": true,
+        "public_key": "bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104",
+        "short_id": ""
+      }
     },
     {
       "tag": "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
@@ -46,7 +55,7 @@
         "enabled": true,
         "server_name": "www.apple.com",
         "insecure": true,
-        "client_fingerprint": "chrome",
+        "client_fingerprint": "firefox",
         "reality": true,
         "public_key": "bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104",
         "short_id": ""

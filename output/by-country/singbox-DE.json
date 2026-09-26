@@ -33,12 +33,7 @@
         "🇩🇪 德国 (Germany) 19 - xiaohe",
         "🇩🇪 德国 (Germany) 20 - xiaohe",
         "🇩🇪 德国 (Germany) 21 - xiaohe",
-        "🇩🇪 德国 (Germany) 22 - xiaohe",
-        "🇩🇪 德国 (Germany) 23 - xiaohe",
-        "🇩🇪 德国 (Germany) 24 - xiaohe",
-        "🇩🇪 德国 (Germany) 25 - xiaohe",
-        "🇩🇪 德国 (Germany) 26 - xiaohe",
-        "🇩🇪 德国 (Germany) 27 - xiaohe"
+        "🇩🇪 德国 (Germany) 22 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -53,48 +48,58 @@
     {
       "tag": "🇩🇪 德国 (Germany) 01 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "82.198.246.37",
-      "port": 180,
-      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-      "alterId": 0,
-      "security": "auto"
+      "type": "shadowsocks",
+      "server": "2.58.81.221",
+      "port": 80,
+      "method": "aes-256-gcm",
+      "password": "kKEd0rBrd56Furjz"
     },
     {
       "tag": "🇩🇪 德国 (Germany) 02 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "82.198.246.37",
-      "port": 180,
-      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-      "alterId": 0,
-      "security": "auto"
+      "type": "vless",
+      "server": "91.107.190.63",
+      "port": 8080,
+      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
+      "flow": "",
+      "ws": {
+        "path": "/?ed=2048",
+        "headers": {
+          "Host": "91.107.190.63"
+        }
+      }
     },
     {
       "tag": "🇩🇪 德国 (Germany) 03 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "8.209.74.72",
-      "port": 20001,
-      "method": "chacha20-ietf-poly1305",
-      "password": "PWpjPo3tqhPN4yRZ"
+      "type": "vless",
+      "server": "162.55.242.208",
+      "port": 2053,
+      "uuid": "659ffdfa-47d2-47d7-af40-5afe0907eead",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "jeS6Zu-p1Gf6GtraIAbpgQoSeT26Xq3GqgqVxccbVhY",
+        "short_id": ""
+      }
     },
     {
       "tag": "🇩🇪 德国 (Germany) 04 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "ger-asli.jorzel.ir",
-      "port": 8087,
-      "uuid": "280e6d2e-b93e-4f51-bc9e-bf2bb709c81c",
+      "server": "163.8.195.241",
+      "port": 2087,
+      "uuid": "56ba5d34-ef22-4ba6-8090-4188b807df54",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "forum.powerampapp.com",
-        "insecure": true,
-        "client_fingerprint": "ios",
-        "reality": true,
-        "public_key": "RIdGdVW-OSclLoLfjqsqtUg08TQUcdVcw2OeiYXgLDU",
-        "short_id": ""
+      "ws": {
+        "path": "/29c8fed7ca22",
+        "headers": {
+          "Host": "163.8.195.241"
+        }
       }
     },
     {
@@ -109,17 +114,18 @@
     {
       "tag": "🇩🇪 德国 (Germany) 06 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "51.195.126.38",
-      "port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "2YdE4lFOid5a"
+      "type": "vmess",
+      "server": "82.198.246.97",
+      "port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "alterId": 0,
+      "security": "auto"
     },
     {
       "tag": "🇩🇪 德国 (Germany) 07 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "82.198.246.250",
+      "server": "82.198.246.97",
       "port": 180,
       "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
       "alterId": 0,
@@ -144,65 +150,19 @@
       "tag": "🇩🇪 德国 (Germany) 09 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "57.129.41.216",
-      "port": 80,
-      "uuid": "7d74eae4-8a06-4306-a923-ad686f30bf26",
+      "server": "hikvision-plus.com",
+      "port": 2052,
+      "uuid": "b1a8d1eb-dfb2-4dd3-afe6-cd0fff8177df",
       "flow": "",
       "ws": {
-        "path": "/vless/",
+        "path": "/@BlueKnight_net--@BlueKnight_net",
         "headers": {
-          "Host": "OV-Germany1.09vpn.com"
+          "Host": "uwu.blueknightnet.qzz.io"
         }
       }
     },
     {
       "tag": "🇩🇪 德国 (Germany) 10 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "91.107.190.63",
-      "port": 8080,
-      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
-      "flow": "",
-      "ws": {
-        "path": "/?ed=2048",
-        "headers": {
-          "Host": "91.107.190.63"
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 11 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "freeman.curtvip.ir",
-      "port": 20410,
-      "uuid": "442581ff-646e-4e99-af3e-a9d9a636a44b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "secureconnect-pa.mtls.clients6.google.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "BErODvy5h6Cjw5zWfX_CZ5ODH9p1XbZwU-ZEHyVXEGI",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 12 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "193.24.210.211",
-      "port": 25040,
-      "password": "Km/pIG4AGCjCOiGWj5FsWA==",
-      "tls": {
-        "enabled": true,
-        "server_name": "/gay-anal",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 13 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "162.55.242.208",
@@ -220,6 +180,37 @@
       }
     },
     {
+      "tag": "🇩🇪 德国 (Germany) 11 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "209.46.102.22",
+      "port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "1hhrqrokj3ag"
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 12 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "2.58.81.221",
+      "port": 443,
+      "method": "aes-256-gcm",
+      "password": "kKEd0rBrd56Furjz"
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 13 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "193.24.210.211",
+      "port": 25040,
+      "password": "Km/pIG4AGCjCOiGWj5FsWA==",
+      "tls": {
+        "enabled": true,
+        "server_name": "/gay-anal",
+        "insecure": true
+      }
+    },
+    {
       "tag": "🇩🇪 德国 (Germany) 14 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
@@ -230,94 +221,6 @@
     },
     {
       "tag": "🇩🇪 德国 (Germany) 15 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "ger-asl.jorzel.ir",
-      "port": 8087,
-      "uuid": "280e6d2e-b93e-4f51-bc9e-bf2bb709c81c",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "forum.powerampapp.com",
-        "insecure": true,
-        "client_fingerprint": "ios",
-        "reality": true,
-        "public_key": "RIdGdVW-OSclLoLfjqsqtUg08TQUcdVcw2OeiYXgLDU",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 16 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "185.226.172.8",
-      "port": 8008,
-      "method": "aes-256-gcm",
-      "password": "XKFKl2rULjIp74"
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 17 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "81.95.4.189",
-      "port": 443,
-      "uuid": "b585dc5e-55bf-4a8b-913a-27c9ccac05c3",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "bab-6.site",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/vws/",
-        "headers": {
-          "Host": "bab-6.site"
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 18 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "82.198.246.97",
-      "port": 180,
-      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 19 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "163.8.195.241",
-      "port": 2087,
-      "uuid": "56ba5d34-ef22-4ba6-8090-4188b807df54",
-      "flow": "",
-      "ws": {
-        "path": "/29c8fed7ca22",
-        "headers": {
-          "Host": "%2F%3F--v2rayNplus--v2rayNplus--v2rayNplus--"
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 20 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "163.8.195.241",
-      "port": 2087,
-      "uuid": "56ba5d34-ef22-4ba6-8090-4188b807df54",
-      "flow": "",
-      "ws": {
-        "path": "/29c8fed7ca22",
-        "headers": {
-          "Host": "163.8.195.241"
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 21 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "35.157.240.237",
@@ -338,7 +241,26 @@
       }
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 22 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 16 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "51.195.126.38",
+      "port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "2YdE4lFOid5a"
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 17 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "82.198.246.37",
+      "port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 18 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "213.202.208.199",
@@ -347,43 +269,35 @@
       "password": "RexnBgU7EV5ADxG"
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 23 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 19 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "82.198.246.97",
+      "port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 20 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "ger-asli.jorzel.ir",
-      "port": 9145,
-      "uuid": "280e6d2e-b93e-4f51-bc9e-bf2bb709c81c",
+      "server": "95.133.236.241",
+      "port": 443,
+      "uuid": "c40ec629-cd50-4569-8ea7-ea7c498423fd",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "android.clients.google.com",
+        "server_name": "ads.x5.ru",
         "insecure": true,
-        "client_fingerprint": "ios",
+        "client_fingerprint": "qq",
         "reality": true,
-        "public_key": "Fw1tpKBQ_bT_eSTbaCSYBthpXAQ76kujwfywvjgpUA0",
+        "public_key": "BzI9KKxbdc7fbgZpK0WX9p6jgJBVJo44dj6D15uW5HA",
         "short_id": ""
       }
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 24 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "ger-asl.jorzel.ir",
-      "port": 9145,
-      "uuid": "280e6d2e-b93e-4f51-bc9e-bf2bb709c81c",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "android.clients.google.com",
-        "insecure": true,
-        "client_fingerprint": "ios",
-        "reality": true,
-        "public_key": "Fw1tpKBQ_bT_eSTbaCSYBthpXAQ76kujwfywvjgpUA0",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 25 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 21 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "81.95.4.189",
@@ -404,27 +318,23 @@
       }
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 26 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 22 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "82.198.246.97",
-      "port": 180,
-      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "server": "193.108.117.54",
+      "port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
       "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 27 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "hikvision-plus.com",
-      "port": 2052,
-      "uuid": "b1a8d1eb-dfb2-4dd3-afe6-cd0fff8177df",
-      "flow": "",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "aidrivercat.org",
+        "insecure": true
+      },
       "ws": {
-        "path": "/@BlueKnight_net--@BlueKnight_net",
+        "path": "/linkvws",
         "headers": {
-          "Host": "uwu.blueknightnet.qzz.io"
+          "Host": "aidrivercat.org"
         }
       }
     }

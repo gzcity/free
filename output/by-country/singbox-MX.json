@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 (家宽) - xiaohe"
+        "🇲🇽 MX 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,19 +25,13 @@
       "tag": "block"
     },
     {
-      "tag": "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
+      "tag": "🇲🇽 MX 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "172.64.158.146",
-      "port": 2082,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "flow": "",
-      "ws": {
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
+      "server": "45.164.20.85",
+      "port": 10226,
+      "uuid": "9aab8f39-ccb3-44ea-acdc-a8aefe211287",
+      "flow": ""
     }
   ]
 }
