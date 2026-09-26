@@ -12,9 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇴 RO 01 - xiaohe",
-        "🇷🇴 RO 02 - xiaohe",
-        "🇷🇴 RO 03 - xiaohe"
+        "🇷🇴 RO 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -28,34 +26,6 @@
     },
     {
       "tag": "🇷🇴 RO 01 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "38.180.35.145",
-      "port": 443,
-      "password": "600421cf-11d7-429f-a65b-c30397f1bc03",
-      "tls": {
-        "enabled": true,
-        "server_name": "bu2.freeguard.org",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇷🇴 RO 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "154.197.75.40",
-      "port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "vms.lifetime37.workers.dev"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇴 RO 03 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "154.46.31.106",
