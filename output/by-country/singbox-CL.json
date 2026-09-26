@@ -14,7 +14,10 @@
       "outbounds": [
         "🇨🇱 CL 01 - xiaohe",
         "🇨🇱 CL 02 - xiaohe",
-        "🇨🇱 CL 03 - xiaohe"
+        "🇨🇱 CL 03 - xiaohe",
+        "🇨🇱 CL 04 - xiaohe",
+        "🇨🇱 CL 05 - xiaohe",
+        "🇨🇱 CL 06 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -30,19 +33,34 @@
       "tag": "🇨🇱 CL 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "platform115.golnamakcert.top",
+      "server": "platform101.golnamakcert.top",
       "port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
       "flow": "",
       "ws": {
-        "path": "/platform115",
+        "path": "/platform101",
         "headers": {
-          "Host": "platform115.halalkhor.info"
+          "Host": "platform101.halalkhor.info"
         }
       }
     },
     {
       "tag": "🇨🇱 CL 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "platform107.golnamakcert.top",
+      "port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "flow": "",
+      "ws": {
+        "path": "/platform107",
+        "headers": {
+          "Host": "platform107.halalkhor.info"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇱 CL 03 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "platform103.golnamakcert.top",
@@ -57,17 +75,47 @@
       }
     },
     {
-      "tag": "🇨🇱 CL 03 - xiaohe",
+      "tag": "🇨🇱 CL 04 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "platform101.golnamakcert.top",
+      "server": "platform106.golnamakcert.top",
       "port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
       "flow": "",
       "ws": {
-        "path": "/platform101",
+        "path": "/platform106",
         "headers": {
-          "Host": "platform101.halalkhor.info"
+          "Host": "platform106.golnamakcert.top"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇱 CL 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "platform108.golnamakcert.top",
+      "port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "flow": "",
+      "ws": {
+        "path": "/platform108",
+        "headers": {
+          "Host": "platform108.halalkhor.info"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇱 CL 06 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "platform107.golnamakcert.top",
+      "port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "flow": "",
+      "ws": {
+        "path": "/platform107",
+        "headers": {
+          "Host": "platform107.golnamakcert.top"
         }
       }
     }

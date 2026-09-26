@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇮🇪 IE 01 - xiaohe",
+        "🇮🇪 IE 02 - xiaohe",
+        "🇮🇪 IE 03 - xiaohe",
+        "🇮🇪 IE 04 - xiaohe"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "tag": "🇮🇪 IE 01 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "20.234.96.89",
+      "port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "V3WiGKNQiqOCsT60"
+    },
+    {
+      "tag": "🇮🇪 IE 02 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "20.234.96.89",
+      "port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "C8QhmBLJzhKo2JHR"
+    },
+    {
+      "tag": "🇮🇪 IE 03 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "20.234.96.89",
+      "port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "r732TlgjWIjfRcok"
+    },
+    {
+      "tag": "🇮🇪 IE 04 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "20.234.96.89",
+      "port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "C8QhmBLJzhKo2JHR"
+    }
+  ]
+}

@@ -12,7 +12,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇵🇱 PL 01 - xiaohe"
+        "🇵🇱 PL 01 - xiaohe",
+        "🇵🇱 PL 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -28,7 +29,25 @@
       "tag": "🇵🇱 PL 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "test.keoplentuio.xyz",
+      "server": "185.62.1.8",
+      "port": 8118,
+      "uuid": "eea1c59d-70fd-4829-8ed7-21ddfe55a0da",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.googleapis.com",
+        "insecure": true,
+        "client_fingerprint": "ios",
+        "reality": true,
+        "public_key": "LjAkLizwkZf35ObrUMFZ22UHXTEJzpgcTvHk9AuzcUM",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "82.47.63.156",
       "port": 2053,
       "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f",
       "flow": ""

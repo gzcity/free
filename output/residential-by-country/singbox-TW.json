@@ -12,8 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe"
+        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -27,15 +26,6 @@
     },
     {
       "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "namrcg001640lrm.cybervena.com",
-      "port": 50099,
-      "method": "chacha20-ietf-poly1305",
-      "password": "a9a0d092-6f0e-4701-81ee-454643d6d506"
-    },
-    {
-      "tag": "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "60.248.219.78",
