@@ -13,9 +13,14 @@
       "tag": "auto",
       "outbounds": [
         "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe"
+        "🇺🇸 美国 (United States) 02 (家宽) - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
+        "🇺🇸 美国 (United States) 04 (家宽) - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 06 (家宽) - xiaohe",
+        "🇯🇵 日本 (Japan) 07 (家宽) - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 08 (家宽) - xiaohe",
+        "🇰🇷 韩国 (South Korea) 09 (家宽) - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -29,15 +34,6 @@
     },
     {
       "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "36.224.141.124",
-      "port": 50099,
-      "method": "chacha20-ietf-poly1305",
-      "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
-    },
-    {
-      "tag": "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "60.248.219.78",
@@ -53,12 +49,66 @@
       "ws": {
         "path": "/81574b6b-c9d7-44a0-b83d-dad56e8cb530",
         "headers": {
-          "Host": "60.248.219.78"
+          "Host": "ty986gfazs.cainiaohub.xyz"
         }
       }
     },
     {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe",
+      "tag": "🇺🇸 美国 (United States) 02 (家宽) - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "162.159.48.32",
+      "port": 80,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
+      "flow": "",
+      "ws": {
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "namrcg001640lrm.cybervena.com",
+      "port": 50099,
+      "method": "chacha20-ietf-poly1305",
+      "password": "a9a0d092-6f0e-4701-81ee-454643d6d506"
+    },
+    {
+      "tag": "🇺🇸 美国 (United States) 04 (家宽) - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "162.159.91.222",
+      "port": 443,
+      "uuid": "50414e45-4c5f-5a45-5553-723a643df685",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "n3zaxce7u0es.crzl48eiuses.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/stream/PANEL_ZEUS/723a643df685/loc-0",
+        "headers": {
+          "Host": "n3zaxce7u0es.crzl48eiuses.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "36.224.141.124",
+      "port": 50099,
+      "method": "chacha20-ietf-poly1305",
+      "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+    },
+    {
+      "tag": "🇭🇰 中国香港 (Hong Kong) 06 (家宽) - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "119.246.1.143",
@@ -66,12 +116,33 @@
       "password": "BxceQaOe",
       "tls": {
         "enabled": true,
-        "server_name": "t.me",
+        "server_name": "t.me%25252fripaojiedian",
         "insecure": true
       }
     },
     {
-      "tag": "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe",
+      "tag": "🇯🇵 日本 (Japan) 07 (家宽) - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "5.9.117.252",
+      "port": 4433,
+      "uuid": "ef286b0e-21ed-4e2b-9110-e2ddc7627892",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇼 中国台湾 (Taiwan) 08 (家宽) - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "118.167.230.191",
@@ -87,6 +158,15 @@
         "public_key": "mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE",
         "short_id": ""
       }
+    },
+    {
+      "tag": "🇰🇷 韩国 (South Korea) 09 (家宽) - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "ce1fc2d8.krkt.hkssip.com",
+      "port": 49642,
+      "method": "aes-256-gcm",
+      "password": "ac9c0a7b"
     }
   ]
 }

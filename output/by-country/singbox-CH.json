@@ -12,8 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇪🇪 EE 01 - xiaohe",
-        "🇪🇪 EE 02 - xiaohe"
+        "🇨🇭 CH 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -26,33 +25,24 @@
       "tag": "block"
     },
     {
-      "tag": "🇪🇪 EE 01 - xiaohe",
+      "tag": "🇨🇭 CH 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "94.183.170.135",
+      "server": "185.18.250.245",
       "port": 443,
-      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "94.183.170.135"
-        }
-      }
-    },
-    {
-      "tag": "🇪🇪 EE 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "94.183.170.135",
-      "port": 8443,
-      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
+      "uuid": "f77299ea-e13d-417d-8cdc-ce5566dfc94b",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "estproxy4.lockdwn.com",
+        "server_name": "edu.ruangguru.com.r3xxe.eu.cc",
         "insecure": true,
         "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/nl-tw",
+        "headers": {
+          "Host": "edu.ruangguru.com.r3xxe.eu.cc"
+        }
       }
     }
   ]
