@@ -19,8 +19,7 @@
         "🇭🇰 中国香港 (Hong Kong) 05 - xiaohe",
         "🇭🇰 中国香港 (Hong Kong) 06 - xiaohe",
         "🇭🇰 中国香港 (Hong Kong) 07 - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 08 - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 09 - xiaohe"
+        "🇭🇰 中国香港 (Hong Kong) 08 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -49,57 +48,17 @@
       "tag": "🇭🇰 中国香港 (Hong Kong) 02 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "119.246.1.143",
-      "port": 443,
-      "password": "BxceQaOe",
+      "server": "2.27.109.179",
+      "port": 45464,
+      "password": "XuMweB2PWs",
       "tls": {
         "enabled": true,
-        "server_name": "t.me%252fripaojiedian",
+        "server_name": "2.27.109.179.sslip.io",
         "insecure": true
       }
     },
     {
       "tag": "🇭🇰 中国香港 (Hong Kong) 03 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "119.246.1.143",
-      "port": 443,
-      "password": "BxceQaOe",
-      "tls": {
-        "enabled": true,
-        "server_name": "t.me%2Fripaojiedian",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "47.238.210.5",
-      "port": 13779,
-      "uuid": "928e6cce-8ced-4243-9a48-a6642edd09b0",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "tesla.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "sth.free-outline.giize.com",
-      "port": 1081,
-      "method": "chacha20-ietf-poly1305",
-      "password": "v7qnj9jvxtnpmj4l"
-    },
-    {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "47.83.207.148",
@@ -120,20 +79,7 @@
       }
     },
     {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 07 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "119.246.1.143",
-      "port": 443,
-      "password": "BxceQaOe",
-      "tls": {
-        "enabled": true,
-        "server_name": "t.me%25252fripaojiedian",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 08 - xiaohe",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "sth.free-outline.giize.com",
@@ -142,7 +88,41 @@
       "password": "ac2jdpwv1zl10jim"
     },
     {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 09 - xiaohe",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "47.243.80.106",
+      "port": 443,
+      "uuid": "f23bb427c1f94373876c2f43e9f790f3",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "wwafj5LHl6bI8aU9.v.3dns.vip",
+        "insecure": true
+      },
+      "ws": {
+        "path": "/ws-vmess",
+        "headers": {
+          "Host": "wwafj5LHl6bI8aU9.v.3dns.vip"
+        }
+      }
+    },
+    {
+      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "119.246.1.143",
+      "port": 443,
+      "password": "BxceQaOe",
+      "tls": {
+        "enabled": true,
+        "server_name": "t.me",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇭🇰 中国香港 (Hong Kong) 07 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "47.238.210.5",
@@ -153,10 +133,31 @@
         "enabled": true,
         "server_name": "tesla.com",
         "insecure": true,
-        "client_fingerprint": "qq",
+        "client_fingerprint": "chrome",
         "reality": true,
         "public_key": "llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg",
         "short_id": ""
+      }
+    },
+    {
+      "tag": "🇭🇰 中国香港 (Hong Kong) 08 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "8.217.229.155",
+      "port": 443,
+      "uuid": "f23bb427c1f94373876c2f43e9f790f3",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "qTKDR8jXE3wEFxJM.v.3dns.vip",
+        "insecure": true
+      },
+      "ws": {
+        "path": "/ws-vmess",
+        "headers": {
+          "Host": "qTKDR8jXE3wEFxJM.v.3dns.vip"
+        }
       }
     }
   ]

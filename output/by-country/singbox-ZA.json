@@ -14,14 +14,7 @@
       "outbounds": [
         "🇿🇦 ZA 01 - xiaohe",
         "🇿🇦 ZA 02 - xiaohe",
-        "🇿🇦 ZA 03 - xiaohe",
-        "🇿🇦 ZA 04 - xiaohe",
-        "🇿🇦 ZA 05 - xiaohe",
-        "🇿🇦 ZA 06 - xiaohe",
-        "🇿🇦 ZA 07 - xiaohe",
-        "🇿🇦 ZA 08 - xiaohe",
-        "🇿🇦 ZA 09 - xiaohe",
-        "🇿🇦 ZA 10 - xiaohe"
+        "🇿🇦 ZA 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -37,52 +30,13 @@
       "tag": "🇿🇦 ZA 01 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "20.164.220.82",
-      "port": 443,
+      "server": "139.84.247.164",
+      "port": 8388,
       "method": "chacha20-ietf-poly1305",
-      "password": "Qy7KyMo4epSCiluJ"
+      "password": "tfAcRikawhNoZAhu"
     },
     {
       "tag": "🇿🇦 ZA 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "platform109.golnamakcert.top",
-      "port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "flow": "",
-      "ws": {
-        "path": "/platform109",
-        "headers": {
-          "Host": "platform109.golnamakcert.top"
-        }
-      }
-    },
-    {
-      "tag": "🇿🇦 ZA 03 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "102.37.156.224",
-      "port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "aduB9HGxQHjA2SBMRjkHX6"
-    },
-    {
-      "tag": "🇿🇦 ZA 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "platform106.golnamakcert.top",
-      "port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "flow": "",
-      "ws": {
-        "path": "/platform106",
-        "headers": {
-          "Host": "platform106.halalkhor.info"
-        }
-      }
-    },
-    {
-      "tag": "🇿🇦 ZA 05 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "platform101.golnamakcert.top",
@@ -97,73 +51,13 @@
       }
     },
     {
-      "tag": "🇿🇦 ZA 06 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "platform107.golnamakcert.top",
-      "port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "flow": "",
-      "ws": {
-        "path": "/platform107",
-        "headers": {
-          "Host": "platform107.golnamakcert.top"
-        }
-      }
-    },
-    {
-      "tag": "🇿🇦 ZA 07 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "platform108.golnamakcert.top",
-      "port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "flow": "",
-      "ws": {
-        "path": "/platform108",
-        "headers": {
-          "Host": "platform108.halalkhor.info"
-        }
-      }
-    },
-    {
-      "tag": "🇿🇦 ZA 08 - xiaohe",
+      "tag": "🇿🇦 ZA 03 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "139.84.247.164",
-      "port": 8388,
+      "server": "102.133.165.160",
+      "port": 16233,
       "method": "chacha20-ietf-poly1305",
-      "password": "tfAcRikawhNoZAhu"
-    },
-    {
-      "tag": "🇿🇦 ZA 09 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "platform107.golnamakcert.top",
-      "port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "flow": "",
-      "ws": {
-        "path": "/platform107",
-        "headers": {
-          "Host": "platform107.halalkhor.info"
-        }
-      }
-    },
-    {
-      "tag": "🇿🇦 ZA 10 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "platform106.golnamakcert.top",
-      "port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "flow": "",
-      "ws": {
-        "path": "/platform106",
-        "headers": {
-          "Host": "platform106.golnamakcert.top"
-        }
-      }
+      "password": "Xsy8Ox4yOV3xLlpxtjzs3X"
     }
   ]
 }

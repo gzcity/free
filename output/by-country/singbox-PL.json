@@ -12,7 +12,13 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇵🇱 PL 01 - xiaohe"
+        "🇵🇱 PL 01 - xiaohe",
+        "🇵🇱 PL 02 - xiaohe",
+        "🇵🇱 PL 03 - xiaohe",
+        "🇵🇱 PL 04 - xiaohe",
+        "🇵🇱 PL 05 - xiaohe",
+        "🇵🇱 PL 06 - xiaohe",
+        "🇵🇱 PL 07 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -27,11 +33,128 @@
     {
       "tag": "🇵🇱 PL 01 - xiaohe",
       "udp": true,
+      "type": "shadowsocks",
+      "server": "146.59.116.19",
+      "port": 17000,
+      "method": "aes-256-gcm",
+      "password": "pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL"
+    },
+    {
+      "tag": "🇵🇱 PL 02 - xiaohe",
+      "udp": true,
       "type": "vless",
-      "server": "test.keoplentuio.xyz",
-      "port": 2053,
-      "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f",
-      "flow": ""
+      "server": "185.62.1.8",
+      "port": 8118,
+      "uuid": "eea1c59d-70fd-4829-8ed7-21ddfe55a0da",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.googleapis.com",
+        "insecure": true,
+        "client_fingerprint": "ios",
+        "reality": true,
+        "public_key": "LjAkLizwkZf35ObrUMFZ22UHXTEJzpgcTvHk9AuzcUM",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "185.229.9.160",
+      "port": 443,
+      "uuid": "9e4f675b-d6bf-42d1-be55-389f622783af",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "smartcaptcha.yandexcloud.net",
+        "insecure": true,
+        "client_fingerprint": "safari",
+        "reality": true,
+        "public_key": "4Y0QLEasqtkWqfbrRedWqrZSPTnB14FDfI9q1v5SsHs",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "185.229.9.157",
+      "port": 443,
+      "uuid": "9e4f675b-d6bf-42d1-be55-389f622783af",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "360.yandex.ru",
+        "insecure": true,
+        "client_fingerprint": "safari",
+        "reality": true,
+        "public_key": "JBKJlzuJH1YzDHAoz28wEKbzWTGpDpKjgtSq0oT0a0k",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.17.247.68",
+      "port": 443,
+      "uuid": "e6cc4788-3c45-4df1-94f3-8303504a65bf",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "khoda.ak-khoda.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/sync",
+        "headers": {
+          "Host": "khoda.ak-khoda.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 06 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.25.22.24",
+      "port": 443,
+      "uuid": "e6cc4788-3c45-4df1-94f3-8303504a65bf",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "khoda.ak-khoda.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/sync",
+        "headers": {
+          "Host": "khoda.ak-khoda.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 07 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.25.146.77",
+      "port": 443,
+      "uuid": "e6cc4788-3c45-4df1-94f3-8303504a65bf",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "khoda.ak-khoda.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/sync",
+        "headers": {
+          "Host": "khoda.ak-khoda.workers.dev"
+        }
+      }
     }
   ]
 }
