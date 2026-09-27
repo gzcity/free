@@ -15,7 +15,7 @@ proxies:
   reality-opts:
     public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
   servername: deepl.com
-  client-fingerprint: chrome
+  client-fingerprint: qq
 - name: 🇨🇾 CY 02 - xiaohe
   type: vless
   server: 194.76.154.31
@@ -29,13 +29,6 @@ proxies:
   servername: deepl.com
   client-fingerprint: firefox
 - name: 🇨🇾 CY 03 - xiaohe
-  type: ss
-  server: 139.100.236.74
-  port: 3
-  cipher: chacha20-ietf-poly1305
-  password: WxYpOK1iPSJySbVNMMJDtw
-  udp: true
-- name: 🇨🇾 CY 04 - xiaohe
   type: vless
   server: 194.76.154.31
   port: 40443
@@ -47,7 +40,7 @@ proxies:
     public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
   servername: deepl.com
   client-fingerprint: qq
-- name: 🇨🇾 CY 05 - xiaohe
+- name: 🇨🇾 CY 04 - xiaohe
   type: vless
   server: 194.76.154.31
   port: 40443
@@ -58,7 +51,7 @@ proxies:
   reality-opts:
     public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
   servername: deepl.com
-  client-fingerprint: random
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -68,7 +61,6 @@ proxy-groups:
   - 🇨🇾 CY 02 - xiaohe
   - 🇨🇾 CY 03 - xiaohe
   - 🇨🇾 CY 04 - xiaohe
-  - 🇨🇾 CY 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -78,6 +70,5 @@ proxy-groups:
   - 🇨🇾 CY 02 - xiaohe
   - 🇨🇾 CY 03 - xiaohe
   - 🇨🇾 CY 04 - xiaohe
-  - 🇨🇾 CY 05 - xiaohe
 rules:
 - MATCH,PROXIES

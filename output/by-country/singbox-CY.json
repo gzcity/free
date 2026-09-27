@@ -15,8 +15,7 @@
         "🇨🇾 CY 01 - xiaohe",
         "🇨🇾 CY 02 - xiaohe",
         "🇨🇾 CY 03 - xiaohe",
-        "🇨🇾 CY 04 - xiaohe",
-        "🇨🇾 CY 05 - xiaohe"
+        "🇨🇾 CY 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -40,7 +39,7 @@
         "enabled": true,
         "server_name": "deepl.com",
         "insecure": true,
-        "client_fingerprint": "chrome",
+        "client_fingerprint": "qq",
         "reality": true,
         "public_key": "MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ",
         "short_id": ""
@@ -67,15 +66,6 @@
     {
       "tag": "🇨🇾 CY 03 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "139.100.236.74",
-      "port": 3,
-      "method": "chacha20-ietf-poly1305",
-      "password": "WxYpOK1iPSJySbVNMMJDtw"
-    },
-    {
-      "tag": "🇨🇾 CY 04 - xiaohe",
-      "udp": true,
       "type": "vless",
       "server": "194.76.154.31",
       "port": 40443,
@@ -92,7 +82,7 @@
       }
     },
     {
-      "tag": "🇨🇾 CY 05 - xiaohe",
+      "tag": "🇨🇾 CY 04 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "194.76.154.31",
@@ -103,7 +93,7 @@
         "enabled": true,
         "server_name": "deepl.com",
         "insecure": true,
-        "client_fingerprint": "random",
+        "client_fingerprint": "chrome",
         "reality": true,
         "public_key": "MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ",
         "short_id": ""

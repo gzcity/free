@@ -13,8 +13,7 @@
       "tag": "auto",
       "outbounds": [
         "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe"
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -43,30 +42,12 @@
       "ws": {
         "path": "/81574b6b-c9d7-44a0-b83d-dad56e8cb530",
         "headers": {
-          "Host": "60.248.219.78"
+          "Host": "ty986gfazs.cainiaohub.xyz"
         }
       }
     },
     {
       "tag": "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "118.167.230.191",
-      "port": 24215,
-      "uuid": "19d5a678-8396-4e3b-93da-ece618d0e83a",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "addons.mozilla.org",
-        "insecure": true,
-        "client_fingerprint": "edge",
-        "reality": true,
-        "public_key": "mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "36.224.141.124",
