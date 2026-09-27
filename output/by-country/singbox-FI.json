@@ -13,12 +13,7 @@
       "tag": "auto",
       "outbounds": [
         "🇫🇮 FI 01 - xiaohe",
-        "🇫🇮 FI 02 - xiaohe",
-        "🇫🇮 FI 03 - xiaohe",
-        "🇫🇮 FI 04 - xiaohe",
-        "🇫🇮 FI 05 - xiaohe",
-        "🇫🇮 FI 06 - xiaohe",
-        "🇫🇮 FI 07 - xiaohe"
+        "🇫🇮 FI 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -34,9 +29,9 @@
       "tag": "🇫🇮 FI 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "a2.arshia-nova.ir",
+      "server": "151.101.56.6",
       "port": 443,
-      "uuid": "9ccf8612-5e16-4b16-834e-4df5fe3611cd",
+      "uuid": "5b8ce557-47d6-4a57-ada2-097a795a6d19",
       "flow": "",
       "tls": {
         "enabled": true,
@@ -45,7 +40,7 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/",
+        "path": "/?TELEGRAM--BYA--CHANEL---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN",
         "headers": {
           "Host": "c12.com"
         }
@@ -55,9 +50,9 @@
       "tag": "🇫🇮 FI 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "151.101.56.6",
+      "server": "k2.cloud--vpn.site",
       "port": 443,
-      "uuid": "9ccf8612-5e16-4b16-834e-4df5fe3611cd",
+      "uuid": "5b8ce557-47d6-4a57-ada2-097a795a6d19",
       "flow": "",
       "tls": {
         "enabled": true,
@@ -70,96 +65,6 @@
         "headers": {
           "Host": "c12.com"
         }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "185.79.138.71",
-      "port": 448,
-      "uuid": "0b0915d7-6800-4580-a44b-77d84f105e6a",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.samsung.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇫🇮 FI 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "185.79.138.71",
-      "port": 448,
-      "uuid": "0b0915d7-6800-4580-a44b-77d84f105e6a",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.samsung.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇫🇮 FI 05 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "185.79.138.71",
-      "port": 448,
-      "uuid": "0b0915d7-6800-4580-a44b-77d84f105e6a",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.samsung.com",
-        "insecure": true,
-        "client_fingerprint": "random",
-        "reality": true,
-        "public_key": "CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇫🇮 FI 06 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "185.79.138.71",
-      "port": 448,
-      "uuid": "0b0915d7-6800-4580-a44b-77d84f105e6a",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.samsung.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇫🇮 FI 07 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "185.79.138.71",
-      "port": 448,
-      "uuid": "0b0915d7-6800-4580-a44b-77d84f105e6a",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.samsung.com",
-        "insecure": true,
-        "client_fingerprint": "qq",
-        "reality": true,
-        "public_key": "CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8",
-        "short_id": ""
       }
     }
   ]

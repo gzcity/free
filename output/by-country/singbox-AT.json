@@ -37,14 +37,19 @@
     {
       "tag": "🇦🇹 AT 02 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "86.106.119.23",
+      "type": "vless",
+      "server": "152.53.1.40",
       "port": 443,
-      "password": "600421cf-11d7-429f-a65b-c30397f1bc03",
+      "uuid": "edde565e-41f5-400e-84ea-7b87a3e84488",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "gr.freeguard.org",
-        "insecure": true
+        "server_name": "at.quattro-tech.ru",
+        "insecure": true,
+        "client_fingerprint": "qq",
+        "reality": true,
+        "public_key": "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc",
+        "short_id": ""
       }
     }
   ]

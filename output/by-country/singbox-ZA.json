@@ -14,8 +14,7 @@
       "outbounds": [
         "🇿🇦 ZA 01 - xiaohe",
         "🇿🇦 ZA 02 - xiaohe",
-        "🇿🇦 ZA 03 - xiaohe",
-        "🇿🇦 ZA 04 - xiaohe"
+        "🇿🇦 ZA 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -48,26 +47,11 @@
     {
       "tag": "🇿🇦 ZA 03 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "platform101.golnamakcert.top",
-      "port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "flow": "",
-      "ws": {
-        "path": "/platform101",
-        "headers": {
-          "Host": "platform101.halalkhor.info"
-        }
-      }
-    },
-    {
-      "tag": "🇿🇦 ZA 04 - xiaohe",
-      "udp": true,
       "type": "shadowsocks",
-      "server": "102.133.165.160",
-      "port": 16233,
+      "server": "20.164.220.189",
+      "port": 443,
       "method": "chacha20-ietf-poly1305",
-      "password": "Xsy8Ox4yOV3xLlpxtjzs3X"
+      "password": "UbkyrKvOtfSd2xQb"
     }
   ]
 }
