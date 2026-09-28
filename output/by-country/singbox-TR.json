@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇭 TH 01 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,18 +25,21 @@
       "tag": "block"
     },
     {
-      "tag": "🇹🇭 TH 01 - xiaohe",
+      "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "103.86.49.57",
-      "port": 80,
-      "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
+      "server": "151.241.226.201",
+      "port": 2053,
+      "uuid": "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8",
       "flow": "",
-      "ws": {
-        "path": "/ws",
-        "headers": {
-          "Host": "aIs.SpEeDtEsT.nEt"
-        }
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104",
+        "short_id": ""
       }
     }
   ]
