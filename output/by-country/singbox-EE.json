@@ -15,9 +15,7 @@
         "🇪🇪 EE 01 - xiaohe",
         "🇪🇪 EE 02 - xiaohe",
         "🇪🇪 EE 03 - xiaohe",
-        "🇪🇪 EE 04 - xiaohe",
-        "🇪🇪 EE 05 - xiaohe",
-        "🇪🇪 EE 06 - xiaohe"
+        "🇪🇪 EE 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -33,36 +31,6 @@
       "tag": "🇪🇪 EE 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "94.183.170.135",
-      "port": 8443,
-      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "estproxy4.lockdwn.com",
-        "insecure": true,
-        "client_fingerprint": null
-      }
-    },
-    {
-      "tag": "🇪🇪 EE 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "94.183.170.135",
-      "port": 8443,
-      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "estproxy4.lockdwn.com",
-        "insecure": true,
-        "client_fingerprint": null
-      }
-    },
-    {
-      "tag": "🇪🇪 EE 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
       "server": "94.183.170.65",
       "port": 8081,
       "uuid": "e60bc99b-6630-4799-af84-f90ebdc643b6",
@@ -75,22 +43,16 @@
       }
     },
     {
-      "tag": "🇪🇪 EE 04 - xiaohe",
+      "tag": "🇪🇪 EE 02 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "94.183.170.135",
-      "port": 8443,
-      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "estproxy4.lockdwn.com",
-        "insecure": true,
-        "client_fingerprint": null
-      }
+      "type": "shadowsocks",
+      "server": "80.97.27.106",
+      "port": 114,
+      "method": "chacha20-ietf-poly1305",
+      "password": "9binmVT58Wnr6vNzxu_JmpzEW6i-FgAj"
     },
     {
-      "tag": "🇪🇪 EE 05 - xiaohe",
+      "tag": "🇪🇪 EE 03 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "94.183.170.135",
@@ -100,12 +62,12 @@
       "ws": {
         "path": "/",
         "headers": {
-          "Host": "94.183.170.135"
+          "Host": "estproxy4.lockdwn.com"
         }
       }
     },
     {
-      "tag": "🇪🇪 EE 06 - xiaohe",
+      "tag": "🇪🇪 EE 04 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "109.206.241.10",

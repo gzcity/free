@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇸 RS 01 - xiaohe"
+        "🇺🇸 美国 (United States) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,23 +25,17 @@
       "tag": "block"
     },
     {
-      "tag": "🇷🇸 RS 01 - xiaohe",
+      "tag": "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "38.180.100.80",
-      "port": 443,
-      "uuid": "97532b08-357e-4140-a6f0-8e07f2ed3327",
+      "server": "188.114.97.6",
+      "port": 8880,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "yf.962456.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
       "ws": {
-        "path": "/proxyip=kr.william.us.ci",
+        "path": "/?ed=2560",
         "headers": {
-          "Host": "yf.962456.xyz"
+          "Host": "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
         }
       }
     }

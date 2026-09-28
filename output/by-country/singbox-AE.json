@@ -13,7 +13,8 @@
       "tag": "auto",
       "outbounds": [
         "🇦🇪 阿联酋 (UAE) 01 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 02 - xiaohe"
+        "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
+        "🇦🇪 阿联酋 (UAE) 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -42,6 +43,21 @@
     },
     {
       "tag": "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "uae.unixzone.us",
+      "port": 22573,
+      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "uae.unixzone.us"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "uae.unixzone.us",

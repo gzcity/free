@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇷🇴 RO 01 - xiaohe"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "tag": "🇷🇴 RO 01 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "80.97.27.106",
+      "port": 111,
+      "method": "chacha20-ietf-poly1305",
+      "password": "9binmVT58Wnr6vNzxu_JmpzEW6i-FgAj"
+    }
+  ]
+}
