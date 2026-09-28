@@ -13,15 +13,7 @@
       "tag": "auto",
       "outbounds": [
         "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 06 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 07 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 08 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 09 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 10 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -37,37 +29,7 @@
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "172.64.154.8",
-      "port": 2086,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "flow": "",
-      "ws": {
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "108.162.198.178",
-      "port": 2086,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "fbsv6.guardora.pro",
+      "server": "217.19.122.200",
       "port": 443,
       "uuid": "bc5ec86c-3e65-4272-994c-59a924c72a68",
       "flow": "",
@@ -85,94 +47,10 @@
       }
     },
     {
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "176.32.35.2",
-      "port": 10090,
-      "method": "aes-256-gcm",
-      "password": "895b4b796a357570"
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "162.159.0.169",
-      "port": 2095,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "flow": "",
-      "ws": {
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 06 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "108.162.198.178",
-      "port": 2082,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 07 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "108.162.198.178",
-      "port": 80,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "flow": "",
-      "ws": {
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 08 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.18.46.234",
-      "port": 8080,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "flow": "",
-      "ws": {
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 09 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "162.159.0.169",
-      "port": 2052,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "flow": "",
-      "ws": {
-        "path": "/?ed=2560security=tls",
-        "headers": {
-          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 10 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "217.19.122.200",
+      "server": "fbsv6.guardora.pro",
       "port": 443,
       "uuid": "bc5ec86c-3e65-4272-994c-59a924c72a68",
       "flow": "",
