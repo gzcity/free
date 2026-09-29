@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇱 AL 01 - xiaohe"
+        "🇦🇲 AM 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,20 +25,20 @@
       "tag": "block"
     },
     {
-      "tag": "🇦🇱 AL 01 - xiaohe",
+      "tag": "🇦🇲 AM 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "85.155.228.185",
-      "port": 443,
-      "uuid": "ca5ffe64-81e0-42f0-a136-03cc4f662a4f",
+      "server": "77.91.68.70",
+      "port": 55983,
+      "uuid": "f667a096-5231-4cfb-8759-92bb32473139",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "avsal.krusofiya.fun",
+        "server_name": "yahoo.com",
         "insecure": true,
-        "client_fingerprint": "random",
+        "client_fingerprint": "chrome",
         "reality": true,
-        "public_key": "9M294WArTUZ9m1fMmvlHauSb5wZo68SkCW_lEgBVAF8",
+        "public_key": "nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg",
         "short_id": ""
       }
     }

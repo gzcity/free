@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇷 BR 01 - xiaohe"
+        "🇨🇦 加拿大 (Canada) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,23 +25,17 @@
       "tag": "block"
     },
     {
-      "tag": "🇧🇷 BR 01 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 01 (家宽) - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "43.174.192.1",
-      "port": 443,
-      "uuid": "fdc48be3-a615-41ac-8bd1-ed844c931048",
+      "server": "188.114.97.6",
+      "port": 2082,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "edgetunnel-4uw.pages.dev",
-        "insecure": true,
-        "client_fingerprint": null
-      },
       "ws": {
-        "path": "/",
+        "path": "/?ed=2560",
         "headers": {
-          "Host": "edgetunnel-4uw.pages.dev"
+          "Host": "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
         }
       }
     }
