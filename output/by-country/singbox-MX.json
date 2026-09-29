@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇲🇽 MX 01 - xiaohe"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "tag": "🇲🇽 MX 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "34.51.29.171",
+      "port": 443,
+      "uuid": "9ad81959-02c6-4679-a419-2af6a16ca07a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "edge",
+        "reality": true,
+        "public_key": "8vHditYTXXNZ37iNTraU4w129svOplF0QUhZwX2n3FA",
+        "short_id": ""
+      }
+    }
+  ]
+}

@@ -16,7 +16,8 @@
         "🇪🇪 EE 02 - xiaohe",
         "🇪🇪 EE 03 - xiaohe",
         "🇪🇪 EE 04 - xiaohe",
-        "🇪🇪 EE 05 - xiaohe"
+        "🇪🇪 EE 05 - xiaohe",
+        "🇪🇪 EE 06 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -48,14 +49,14 @@
       "udp": true,
       "type": "vless",
       "server": "94.183.170.135",
-      "port": 8443,
+      "port": 443,
       "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "estproxy4.lockdwn.com",
-        "insecure": true,
-        "client_fingerprint": null
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "estproxy4.lockdwn.com"
+        }
       }
     },
     {
@@ -68,7 +69,7 @@
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "estproxy4.lockdwn.com",
+        "server_name": "94.183.170.135",
         "insecure": true,
         "client_fingerprint": null
       }
@@ -90,6 +91,21 @@
     },
     {
       "tag": "🇪🇪 EE 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "94.183.170.135",
+      "port": 8443,
+      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "estproxy4.lockdwn.com",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇪🇪 EE 06 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "109.206.241.10",

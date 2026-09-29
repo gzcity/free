@@ -12,7 +12,20 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇾 CY 01 - xiaohe"
+        "🇨🇾 CY 01 - xiaohe",
+        "🇨🇾 CY 02 - xiaohe",
+        "🇨🇾 CY 03 - xiaohe",
+        "🇨🇾 CY 04 - xiaohe",
+        "🇨🇾 CY 05 - xiaohe",
+        "🇨🇾 CY 06 - xiaohe",
+        "🇨🇾 CY 07 - xiaohe",
+        "🇨🇾 CY 08 - xiaohe",
+        "🇨🇾 CY 09 - xiaohe",
+        "🇨🇾 CY 10 - xiaohe",
+        "🇨🇾 CY 11 - xiaohe",
+        "🇨🇾 CY 12 - xiaohe",
+        "🇨🇾 CY 13 - xiaohe",
+        "🇨🇾 CY 14 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -37,6 +50,222 @@
         "server_name": "deepl.com",
         "insecure": true,
         "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇨🇾 CY 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "194.76.154.31",
+      "port": 40443,
+      "uuid": "9f0baff8-bdee-4de9-9515-bcc4932b41fa",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "deepl.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇨🇾 CY 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "194.76.154.31",
+      "port": 40443,
+      "uuid": "9f0baff8-bdee-4de9-9515-bcc4932b41fa",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "deepl.com",
+        "insecure": true,
+        "client_fingerprint": "qq",
+        "reality": true,
+        "public_key": "MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇨🇾 CY 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "194.76.154.31",
+      "port": 40443,
+      "uuid": "9f0baff8-bdee-4de9-9515-bcc4932b41fa",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "deepl.com",
+        "insecure": true,
+        "client_fingerprint": "qq",
+        "reality": true,
+        "public_key": "MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇨🇾 CY 05 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "132.243.255.3",
+      "port": 40440,
+      "method": "aes-256-gcm",
+      "password": "78235e7dc55e9ad1"
+    },
+    {
+      "tag": "🇨🇾 CY 06 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "45.158.199.33",
+      "port": 4,
+      "method": "chacha20-ietf-poly1305",
+      "password": "9qGcNiZj4uCi7DGSjxlg5Q"
+    },
+    {
+      "tag": "🇨🇾 CY 07 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "194.76.154.31",
+      "port": 40443,
+      "uuid": "9f0baff8-bdee-4de9-9515-bcc4932b41fa",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "deepl.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇨🇾 CY 08 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "194.76.154.31",
+      "port": 40443,
+      "uuid": "9f0baff8-bdee-4de9-9515-bcc4932b41fa",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "deepl.com",
+        "insecure": true,
+        "client_fingerprint": "qq",
+        "reality": true,
+        "public_key": "MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇨🇾 CY 09 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "194.76.154.31",
+      "port": 40443,
+      "uuid": "9f0baff8-bdee-4de9-9515-bcc4932b41fa",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "deepl.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇨🇾 CY 10 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "194.76.154.31",
+      "port": 40443,
+      "uuid": "9f0baff8-bdee-4de9-9515-bcc4932b41fa",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "deepl.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇨🇾 CY 11 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "194.76.154.31",
+      "port": 40443,
+      "uuid": "9f0baff8-bdee-4de9-9515-bcc4932b41fa",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "deepl.com",
+        "insecure": true,
+        "client_fingerprint": "random",
+        "reality": true,
+        "public_key": "MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇨🇾 CY 12 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "194.76.154.31",
+      "port": 40443,
+      "uuid": "9f0baff8-bdee-4de9-9515-bcc4932b41fa",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "deepl.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇨🇾 CY 13 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "194.76.154.31",
+      "port": 40443,
+      "uuid": "9f0baff8-bdee-4de9-9515-bcc4932b41fa",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "deepl.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇨🇾 CY 14 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "194.76.154.31",
+      "port": 40443,
+      "uuid": "9f0baff8-bdee-4de9-9515-bcc4932b41fa",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "deepl.com",
+        "insecure": true,
+        "client_fingerprint": "qq",
         "reality": true,
         "public_key": "MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ",
         "short_id": ""
