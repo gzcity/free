@@ -13,7 +13,9 @@
       "tag": "auto",
       "outbounds": [
         "🇫🇮 FI 01 - xiaohe",
-        "🇫🇮 FI 02 - xiaohe"
+        "🇫🇮 FI 02 - xiaohe",
+        "🇫🇮 FI 03 - xiaohe",
+        "🇫🇮 FI 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -29,42 +31,72 @@
       "tag": "🇫🇮 FI 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "151.101.56.6",
+      "server": "138.124.17.179",
       "port": 443,
-      "uuid": "a819a5fb-6177-486b-c6fc-35adb29a2b0c",
+      "uuid": "ca5ffe64-81e0-42f0-a136-03cc4f662a4f",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "ssl.fastly.com",
+        "server_name": "finewl1.krusofiya.fun",
         "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/?TELEGRAM--BYA--CHANEL---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN---@JKVPN--@JKVPN---@JKVPN---@JKVPN---@JKVPN",
-        "headers": {
-          "Host": "c12.com"
-        }
+        "client_fingerprint": "random",
+        "reality": true,
+        "public_key": "eqlfwoHUoRvNeOKYzCzHSV64rSzyUVGS2w_nsOpWIG4",
+        "short_id": ""
       }
     },
     {
       "tag": "🇫🇮 FI 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "k2.cloud--vpn.site",
+      "server": "138.124.17.179",
       "port": 443,
-      "uuid": "a819a5fb-6177-486b-c6fc-35adb29a2b0c",
+      "uuid": "ca5ffe64-81e0-42f0-a136-03cc4f662a4f",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "ssl.fastly.com",
+        "server_name": "finewl1.krusofiya.fun",
         "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET",
-        "headers": {
-          "Host": "c12.com"
-        }
+        "client_fingerprint": "random",
+        "reality": true,
+        "public_key": "eqlfwoHUoRvNeOKYzCzHSV64rSzyUVGS2w_nsOpWIG4",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇫🇮 FI 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "185.79.138.71",
+      "port": 448,
+      "uuid": "0b0915d7-6800-4580-a44b-77d84f105e6a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.samsung.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇫🇮 FI 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "185.79.138.71",
+      "port": 448,
+      "uuid": "0b0915d7-6800-4580-a44b-77d84f105e6a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.samsung.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8",
+        "short_id": ""
       }
     }
   ]

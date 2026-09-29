@@ -14,10 +14,7 @@
       "outbounds": [
         "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 06 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -53,47 +50,8 @@
     {
       "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "195.133.23.200",
-      "port": 40440,
-      "method": "aes-256-gcm",
-      "password": "81a20429165df87e"
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "130.49.189.158",
-      "port": 43558,
-      "method": "chacha20-ietf-poly1305",
-      "password": "ziOeKejhhw+fmWet+xvuJsVJH7U9DvSWq1hlqtaKv+I="
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
-      "udp": true,
       "type": "vless",
-      "server": "95.163.232.171",
-      "port": 14443,
-      "uuid": "365de9e9-ba29-4819-af2d-766f9638e3be",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "media-se.compressor.work",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/ws",
-        "headers": {
-          "Host": "95.163.232.171"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "fbsv6.guardora.pro",
+      "server": "217.19.122.200",
       "port": 443,
       "uuid": "bc5ec86c-3e65-4272-994c-59a924c72a68",
       "flow": "",
@@ -111,13 +69,13 @@
       }
     },
     {
-      "tag": "🇷🇺 俄罗斯 (Russia) 06 - xiaohe",
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "195.58.48.137",
-      "port": 40401,
+      "server": "185.22.154.239",
+      "port": 40101,
       "method": "aes-256-gcm",
-      "password": "8ad9d72a5571df86"
+      "password": "bdb313adf74c2ede"
     }
   ]
 }
