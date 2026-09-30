@@ -19,7 +19,11 @@
         "🇭🇰 中国香港 (Hong Kong) 05 - xiaohe",
         "🇭🇰 中国香港 (Hong Kong) 06 - xiaohe",
         "🇭🇰 中国香港 (Hong Kong) 07 - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 08 - xiaohe"
+        "🇭🇰 中国香港 (Hong Kong) 08 - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 09 - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 10 - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 11 - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 12 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -34,27 +38,84 @@
     {
       "tag": "🇭🇰 中国香港 (Hong Kong) 01 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "2.27.109.179",
-      "port": 45464,
-      "password": "XuMweB2PWs",
+      "type": "vmess",
+      "server": "47.243.153.153",
+      "port": 443,
+      "uuid": "f23bb427c1f94373876c2f43e9f790f3",
+      "alterId": 0,
+      "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "2.27.109.179.sslip.io",
+        "server_name": "I2PSm3Knof5qjjix.v.3dns.vip",
         "insecure": true
+      },
+      "ws": {
+        "path": "/ws-vmess",
+        "headers": {
+          "Host": "I2PSm3Knof5qjjix.v.3dns.vip"
+        }
       }
     },
     {
       "tag": "🇭🇰 中国香港 (Hong Kong) 02 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "212.192.12.24",
-      "port": 8388,
-      "method": "aes-256-gcm",
-      "password": "RpMtrTbA7wdK0Pia"
+      "type": "vmess",
+      "server": "aksai.org",
+      "port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "aksai.org",
+        "insecure": true
+      },
+      "ws": {
+        "path": "/linkvws",
+        "headers": {
+          "Host": "aksai.org"
+        }
+      }
     },
     {
       "tag": "🇭🇰 中国香港 (Hong Kong) 03 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "156.245.232.239",
+      "port": 35043,
+      "uuid": "b15e481d-17e4-41a8-84c2-23d4f0514d9a",
+      "alterId": 0,
+      "security": "auto",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "8.218.195.61",
+      "port": 443,
+      "uuid": "f23bb427c1f94373876c2f43e9f790f3",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "ex1ogt73nzpqkac2.v.3dns.vip",
+        "insecure": true
+      },
+      "ws": {
+        "path": "/ws-vmess",
+        "headers": {
+          "Host": "ex1ogt73nzpqkac2.v.3dns.vip"
+        }
+      }
+    },
+    {
+      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "85.149.211.28",
@@ -75,28 +136,16 @@
       }
     },
     {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - xiaohe",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "47.243.65.243",
-      "port": 443,
-      "uuid": "f23bb427c1f94373876c2f43e9f790f3",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "lcv8v9l7OyamxxfZ.v.3dns.vip",
-        "insecure": true
-      },
-      "ws": {
-        "path": "/ws-vmess",
-        "headers": {
-          "Host": "lcv8v9l7OyamxxfZ.v.3dns.vip"
-        }
-      }
+      "type": "shadowsocks",
+      "server": "212.192.13.143",
+      "port": 20999,
+      "method": "aes-256-gcm",
+      "password": "72553320ae6bcc8f"
     },
     {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - xiaohe",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 07 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "194.99.79.26",
@@ -117,28 +166,6 @@
       }
     },
     {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "2.27.109.179",
-      "port": 45464,
-      "password": "XuMweB2PWs",
-      "tls": {
-        "enabled": true,
-        "server_name": "2.27.109.179.sslip.io",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 07 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "212.192.13.143",
-      "port": 20999,
-      "method": "aes-256-gcm",
-      "password": "72553320ae6bcc8f"
-    },
-    {
       "tag": "🇭🇰 中国香港 (Hong Kong) 08 - xiaohe",
       "udp": true,
       "type": "vless",
@@ -157,6 +184,74 @@
         "headers": {
           "Host": "hk.152568.xyz"
         }
+      }
+    },
+    {
+      "tag": "🇭🇰 中国香港 (Hong Kong) 09 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "194.99.79.26",
+      "port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "aksai.org",
+        "insecure": true
+      },
+      "ws": {
+        "path": "/linkvws",
+        "headers": {
+          "Host": "aksai.org"
+        }
+      }
+    },
+    {
+      "tag": "🇭🇰 中国香港 (Hong Kong) 10 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "2.27.109.179",
+      "port": 45464,
+      "password": "XuMweB2PWs",
+      "tls": {
+        "enabled": true,
+        "server_name": "2.27.109.179.sslip.io",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇭🇰 中国香港 (Hong Kong) 11 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "194.99.79.26",
+      "port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true
+      },
+      "ws": {
+        "path": "/linkvws",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇭🇰 中国香港 (Hong Kong) 12 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "2.27.109.179",
+      "port": 45464,
+      "password": "XuMweB2PWs",
+      "tls": {
+        "enabled": true,
+        "server_name": "2.27.109.179.sslip.io",
+        "insecure": true
       }
     }
   ]

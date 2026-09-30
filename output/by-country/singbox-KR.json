@@ -21,7 +21,9 @@
         "🇰🇷 韩国 (South Korea) 07 - xiaohe",
         "🇰🇷 韩国 (South Korea) 08 - xiaohe",
         "🇰🇷 韩国 (South Korea) 09 - xiaohe",
-        "🇰🇷 韩国 (South Korea) 10 - xiaohe"
+        "🇰🇷 韩国 (South Korea) 10 - xiaohe",
+        "🇰🇷 韩国 (South Korea) 11 - xiaohe",
+        "🇰🇷 韩国 (South Korea) 12 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -36,6 +38,25 @@
     {
       "tag": "🇰🇷 韩国 (South Korea) 01 - xiaohe",
       "udp": true,
+      "type": "shadowsocks",
+      "server": "141.164.45.187",
+      "port": 9090,
+      "method": "aes-256-gcm",
+      "password": "Y6R9pAtvxxzmGC"
+    },
+    {
+      "tag": "🇰🇷 韩国 (South Korea) 02 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "140.238.2.250",
+      "port": 443,
+      "uuid": "41a7089a-040b-4538-8b8d-010902405bde",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇰🇷 韩国 (South Korea) 03 - xiaohe",
+      "udp": true,
       "type": "trojan",
       "server": "154.90.62.70",
       "port": 56127,
@@ -47,7 +68,28 @@
       }
     },
     {
-      "tag": "🇰🇷 韩国 (South Korea) 02 - xiaohe",
+      "tag": "🇰🇷 韩国 (South Korea) 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "158.247.253.111",
+      "port": 2087,
+      "uuid": "9e3132b8-b595-444a-833a-2de44789f9d7",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "shephe.dpdns.org",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/fp=chrome",
+        "headers": {
+          "Host": "shephe.dpdns.org"
+        }
+      }
+    },
+    {
+      "tag": "🇰🇷 韩国 (South Korea) 05 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "151.245.106.49",
@@ -65,25 +107,7 @@
       }
     },
     {
-      "tag": "🇰🇷 韩国 (South Korea) 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "151.245.106.49",
-      "port": 2053,
-      "uuid": "a2de9567-9646-45a9-a410-7303a43bdb6c",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇰🇷 韩国 (South Korea) 04 - xiaohe",
+      "tag": "🇰🇷 韩国 (South Korea) 06 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "140.238.2.250",
@@ -93,20 +117,58 @@
       "security": "auto"
     },
     {
-      "tag": "🇰🇷 韩国 (South Korea) 05 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "141.164.45.187",
-      "port": 9090,
-      "method": "aes-256-gcm",
-      "password": "Y6R9pAtvxxzmGC"
-    },
-    {
-      "tag": "🇰🇷 韩国 (South Korea) 06 - xiaohe",
+      "tag": "🇰🇷 韩国 (South Korea) 07 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "123.111.169.70",
       "port": 2083,
+      "uuid": "9e3132b8-b595-444a-833a-2de44789f9d7",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "shephe.dpdns.org",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "shephe.dpdns.org"
+        }
+      }
+    },
+    {
+      "tag": "🇰🇷 韩国 (South Korea) 08 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "140.238.2.250",
+      "port": 443,
+      "uuid": "41a7089a-040b-4538-8b8d-010902405bde",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇰🇷 韩国 (South Korea) 09 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "132.145.80.230",
+      "port": 80,
+      "uuid": "5155860e-d07d-46c3-9128-3afbd84626c7",
+      "alterId": 0,
+      "security": "auto",
+      "ws": {
+        "path": "/cctv13.m3u8",
+        "headers": {
+          "Host": "kr02.a0a.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇰🇷 韩国 (South Korea) 10 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "158.247.253.111",
+      "port": 2087,
       "uuid": "9e3132b8-b595-444a-833a-2de44789f9d7",
       "flow": "",
       "tls": {
@@ -123,53 +185,32 @@
       }
     },
     {
-      "tag": "🇰🇷 韩国 (South Korea) 07 - xiaohe",
+      "tag": "🇰🇷 韩国 (South Korea) 11 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "154.90.62.70",
-      "port": 56127,
-      "password": "p5jTPcffLgi4gaNOJd2KUTb9YEPBBD5B",
+      "type": "vmess",
+      "server": "140.238.2.250",
+      "port": 443,
+      "uuid": "41a7089a-040b-4538-8b8d-010902405bde",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇰🇷 韩国 (South Korea) 12 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "151.245.106.49",
+      "port": 2053,
+      "uuid": "a2de9567-9646-45a9-a410-7303a43bdb6c",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "154.90.62.70",
-        "insecure": true
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo",
+        "short_id": ""
       }
-    },
-    {
-      "tag": "🇰🇷 韩国 (South Korea) 08 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "132.145.80.230",
-      "port": 80,
-      "uuid": "5155860e-d07d-46c3-9128-3afbd84626c7",
-      "alterId": 0,
-      "security": "auto",
-      "ws": {
-        "path": "/cctv13.m3u8",
-        "headers": {
-          "Host": "kr02.a0a.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🇰🇷 韩国 (South Korea) 09 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "140.238.2.250",
-      "port": 443,
-      "uuid": "41a7089a-040b-4538-8b8d-010902405bde",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇰🇷 韩国 (South Korea) 10 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "140.238.2.250",
-      "port": 443,
-      "uuid": "41a7089a-040b-4538-8b8d-010902405bde",
-      "alterId": 0,
-      "security": "auto"
     }
   ]
 }
