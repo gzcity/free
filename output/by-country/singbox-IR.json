@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇦 加拿大 (Canada) 01 (家宽) - xiaohe"
+        "🇮🇷 IR 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,19 +25,13 @@
       "tag": "block"
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 01 (家宽) - xiaohe",
+      "tag": "🇮🇷 IR 01 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "188.114.97.6",
-      "port": 2082,
-      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
-      "flow": "",
-      "ws": {
-        "path": "/?ed=2560",
-        "headers": {
-          "Host": "zb1zi.s3nx.dyz.hh.vavava.kdns.fr"
-        }
-      }
+      "type": "shadowsocks",
+      "server": "176.120.17.22",
+      "port": 1080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "vUtLhCy8T6zoZv9Y6EP2G9oyWXFFUv-d"
     }
   ]
 }
