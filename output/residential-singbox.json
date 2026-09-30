@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇬🇧 英国 (United Kingdom) 01 (家宽) - xiaohe",
+        "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
@@ -26,23 +26,17 @@
       "tag": "block"
     },
     {
-      "tag": "🇬🇧 英国 (United Kingdom) 01 (家宽) - xiaohe",
+      "tag": "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "162.159.152.4",
-      "port": 443,
-      "uuid": "f2a73750-3087-48ff-a763-1348c15dce68",
+      "server": "162.159.24.131",
+      "port": 2086,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "rayan-007.maxima.dpdns.org",
-        "insecure": true,
-        "client_fingerprint": null
-      },
       "ws": {
-        "path": "/",
+        "path": "/?ed=2560security=tls",
         "headers": {
-          "Host": "rayan-007.maxima.dpdns.org"
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
         }
       }
     },
