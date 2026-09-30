@@ -12,8 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇽 MX 01 - xiaohe",
-        "🇲🇽 MX 02 - xiaohe"
+        "🇲🇽 MX 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -29,35 +28,17 @@
       "tag": "🇲🇽 MX 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "34.51.29.171",
+      "server": "34.51.119.243",
       "port": 443,
-      "uuid": "9ad81959-02c6-4679-a419-2af6a16ca07a",
+      "uuid": "79bc7b01-6e4e-4365-a120-fefac8182bd9",
       "flow": "",
       "tls": {
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "insecure": true,
-        "client_fingerprint": "firefox",
+        "client_fingerprint": "chrome",
         "reality": true,
-        "public_key": "8vHditYTXXNZ37iNTraU4w129svOplF0QUhZwX2n3FA",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇲🇽 MX 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "34.51.29.171",
-      "port": 443,
-      "uuid": "9ad81959-02c6-4679-a419-2af6a16ca07a",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "edge",
-        "reality": true,
-        "public_key": "8vHditYTXXNZ37iNTraU4w129svOplF0QUhZwX2n3FA",
+        "public_key": "vFcM44RcbcO5jcrSWHLd_0exXAnnJLhpCNnMrWCwlzI",
         "short_id": ""
       }
     }

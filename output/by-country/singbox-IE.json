@@ -13,7 +13,17 @@
       "tag": "auto",
       "outbounds": [
         "🇮🇪 IE 01 - xiaohe",
-        "🇮🇪 IE 02 - xiaohe"
+        "🇮🇪 IE 02 - xiaohe",
+        "🇮🇪 IE 03 - xiaohe",
+        "🇮🇪 IE 04 - xiaohe",
+        "🇮🇪 IE 05 - xiaohe",
+        "🇮🇪 IE 06 - xiaohe",
+        "🇮🇪 IE 07 - xiaohe",
+        "🇮🇪 IE 08 - xiaohe",
+        "🇮🇪 IE 09 - xiaohe",
+        "🇮🇪 IE 10 - xiaohe",
+        "🇮🇪 IE 11 - xiaohe",
+        "🇮🇪 IE 12 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -38,7 +48,205 @@
       "tag": "🇮🇪 IE 02 - xiaohe",
       "udp": true,
       "type": "vless",
+      "server": "104.21.236.197",
+      "port": 443,
+      "uuid": "fdc48be3-a615-41ac-8bd1-ed844c931048",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "edgetunnel-4uw.pages.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "edgetunnel-4uw.pages.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇪 IE 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.67.92.203",
+      "port": 443,
+      "uuid": "fdc48be3-a615-41ac-8bd1-ed844c931048",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "edgetunnel-4uw.pages.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "edgetunnel-4uw.pages.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇪 IE 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.26.10.213",
+      "port": 443,
+      "uuid": "fdc48be3-a615-41ac-8bd1-ed844c931048",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "edgetunnel-4uw.pages.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "edgetunnel-4uw.pages.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇪 IE 05 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "20.123.34.66",
+      "port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "r5D6YOSrT6kC76ro"
+    },
+    {
+      "tag": "🇮🇪 IE 06 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.67.73.170",
+      "port": 443,
+      "uuid": "fdc48be3-a615-41ac-8bd1-ed844c931048",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "edgetunnel-4uw.pages.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "edgetunnel-4uw.pages.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇪 IE 07 - xiaohe",
+      "udp": true,
+      "type": "vless",
       "server": "45.141.234.138",
+      "port": 443,
+      "uuid": "fdc48be3-a615-41ac-8bd1-ed844c931048",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "edgetunnel-4uw.pages.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "edgetunnel-4uw.pages.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇪 IE 08 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.67.73.170",
+      "port": 443,
+      "uuid": "fdc48be3-a615-41ac-8bd1-ed844c931048",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "edgetunnel-4uw.pages.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/fp=chrome",
+        "headers": {
+          "Host": "edgetunnel-4uw.pages.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇪 IE 09 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.26.10.213",
+      "port": 443,
+      "uuid": "fdc48be3-a615-41ac-8bd1-ed844c931048",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "edgetunnel-4uw.pages.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "edgetunnel-4uw.pages.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇪 IE 10 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.26.10.213",
+      "port": 443,
+      "uuid": "fdc48be3-a615-41ac-8bd1-ed844c931048",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "edgetunnel-4uw.pages.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/+",
+        "headers": {
+          "Host": "edgetunnel-4uw.pages.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇪 IE 11 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.26.0.226",
+      "port": 443,
+      "uuid": "fdc48be3-a615-41ac-8bd1-ed844c931048",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "edgetunnel-4uw.pages.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/+",
+        "headers": {
+          "Host": "edgetunnel-4uw.pages.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇪 IE 12 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.67.92.203",
       "port": 443,
       "uuid": "fdc48be3-a615-41ac-8bd1-ed844c931048",
       "flow": "",

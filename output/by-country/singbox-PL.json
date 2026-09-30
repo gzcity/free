@@ -27,11 +27,15 @@
     {
       "tag": "🇵🇱 PL 01 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "pl-irancell7.xelfona.ir",
-      "port": 2095,
-      "uuid": "452f869f-7720-47c3-a175-b6673e31d3e8",
-      "flow": ""
+      "type": "trojan",
+      "server": "cheerful-swan.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "cheerful-swan.rooster465.autos",
+        "insecure": true
+      }
     }
   ]
 }
