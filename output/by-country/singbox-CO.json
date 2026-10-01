@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇳🇴 NO 01 - xiaohe"
+        "🇨🇴 CO 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,13 +25,13 @@
       "tag": "block"
     },
     {
-      "tag": "🇳🇴 NO 01 - xiaohe",
+      "tag": "🇨🇴 CO 01 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "185.213.23.63",
-      "port": 990,
-      "method": "chacha20-ietf-poly1305",
-      "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+      "server": "149.104.107.41",
+      "port": 8090,
+      "method": "aes-256-gcm",
+      "password": "PCnnH6SQSnfoS27"
     }
   ]
 }

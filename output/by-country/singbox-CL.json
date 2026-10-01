@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇷 BR 01 - xiaohe"
+        "🇨🇱 CL 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,24 +25,21 @@
       "tag": "block"
     },
     {
-      "tag": "🇧🇷 BR 01 - xiaohe",
+      "tag": "🇨🇱 CL 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "43.174.192.1",
+      "server": "34.176.187.219",
       "port": 443,
-      "uuid": "fdc48be3-a615-41ac-8bd1-ed844c931048",
+      "uuid": "ad5325f8-f0b3-41c4-a561-113529b60e70",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "edgetunnel-4uw.pages.dev",
+        "server_name": "www.cloudflare.com",
         "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "edgetunnel-4uw.pages.dev"
-        }
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "HnHVuSObMrldWGzq1-Eb93fwgu6QQRp6H0_8LX3ikDc",
+        "short_id": ""
       }
     }
   ]

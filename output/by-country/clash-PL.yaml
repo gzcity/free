@@ -13,8 +13,20 @@ proxies:
   sni: cheerful-swan.rooster465.autos
   skip-cert-verify: true
 - name: 🇵🇱 PL 02 - xiaohe
+  type: vless
+  server: pl.srv.vbuste-bot.com
+  port: 444
+  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
+  servername: pl.srv.vbuste-bot.com
+  client-fingerprint: firefox
+- name: 🇵🇱 PL 03 - xiaohe
   type: trojan
-  server: cheerful-swan.rooster465.autos
+  server: 202.78.163.237
   port: 443
   password: UX82473651
   udp: true
@@ -27,6 +39,7 @@ proxy-groups:
   - AUTO
   - 🇵🇱 PL 01 - xiaohe
   - 🇵🇱 PL 02 - xiaohe
+  - 🇵🇱 PL 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -34,5 +47,6 @@ proxy-groups:
   proxies:
   - 🇵🇱 PL 01 - xiaohe
   - 🇵🇱 PL 02 - xiaohe
+  - 🇵🇱 PL 03 - xiaohe
 rules:
 - MATCH,PROXIES

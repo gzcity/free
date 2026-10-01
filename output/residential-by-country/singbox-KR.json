@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇨 SC 01 - xiaohe"
+        "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,13 +25,13 @@
       "tag": "block"
     },
     {
-      "tag": "🇸🇨 SC 01 - xiaohe",
+      "tag": "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "45.207.207.25",
-      "port": 443,
+      "server": "211.174.113.172",
+      "port": 49642,
       "method": "aes-256-gcm",
-      "password": "gj1+XKulKV0nmw6IThckOkkJh5DSM7+C"
+      "password": "ac9c0a7b"
     }
   ]
 }

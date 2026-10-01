@@ -16,7 +16,8 @@
         "🇪🇪 EE 02 - xiaohe",
         "🇪🇪 EE 03 - xiaohe",
         "🇪🇪 EE 04 - xiaohe",
-        "🇪🇪 EE 05 - xiaohe"
+        "🇪🇪 EE 05 - xiaohe",
+        "🇪🇪 EE 06 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -32,19 +33,46 @@
       "tag": "🇪🇪 EE 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "94.183.170.135",
+      "server": "77.72.85.246",
       "port": 8443,
-      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
+      "uuid": "6c713691-3ca2-4446-ad25-113d1bed6b03",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "estproxy4.lockdwn.com",
+        "server_name": "fdghyt.com",
         "insecure": true,
         "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/vpn-wss/fluxor/59011/",
+        "headers": {
+          "Host": "fdghyt.com"
+        }
       }
     },
     {
       "tag": "🇪🇪 EE 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "194.26.141.148",
+      "port": 8443,
+      "uuid": "6c713691-3ca2-4446-ad25-113d1bed6b03",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "fdghyt.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/vpn-wss/fluxor/59011/",
+        "headers": {
+          "Host": "fdghyt.com"
+        }
+      }
+    },
+    {
+      "tag": "🇪🇪 EE 03 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "94.183.170.135",
@@ -59,19 +87,6 @@
       }
     },
     {
-      "tag": "🇪🇪 EE 03 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "109.206.241.10",
-      "port": 449,
-      "password": "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1",
-      "tls": {
-        "enabled": true,
-        "server_name": "russiapower.accesscam.org",
-        "insecure": true
-      }
-    },
-    {
       "tag": "🇪🇪 EE 04 - xiaohe",
       "udp": true,
       "type": "trojan",
@@ -80,7 +95,7 @@
       "password": "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1",
       "tls": {
         "enabled": true,
-        "server_name": "russiapower.accesscam.org",
+        "server_name": "109.206.241.10",
         "insecure": true
       }
     },
@@ -93,8 +108,29 @@
       "password": "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1",
       "tls": {
         "enabled": true,
-        "server_name": "109.206.241.10",
+        "server_name": "russiapower.accesscam.org",
         "insecure": true
+      }
+    },
+    {
+      "tag": "🇪🇪 EE 06 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "ee10.zazazuza.ru",
+      "port": 8443,
+      "uuid": "6c713691-3ca2-4446-ad25-113d1bed6b03",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "fdghyt.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/vpn-wss/fluxor/59011/",
+        "headers": {
+          "Host": "fdghyt.com"
+        }
       }
     }
   ]
