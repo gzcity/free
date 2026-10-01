@@ -27,21 +27,21 @@
     {
       "tag": "🇧🇷 BR 01 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "aksai.org",
+      "type": "vless",
+      "server": "43.174.192.1",
       "port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "alterId": 0,
-      "security": "auto",
+      "uuid": "fdc48be3-a615-41ac-8bd1-ed844c931048",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "",
-        "insecure": true
+        "server_name": "edgetunnel-4uw.pages.dev",
+        "insecure": true,
+        "client_fingerprint": null
       },
       "ws": {
-        "path": "/linkvws",
+        "path": "/",
         "headers": {
-          "Host": ""
+          "Host": "edgetunnel-4uw.pages.dev"
         }
       }
     }

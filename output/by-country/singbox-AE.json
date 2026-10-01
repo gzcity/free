@@ -19,10 +19,7 @@
         "🇦🇪 阿联酋 (UAE) 05 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 06 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 07 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 08 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 09 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 10 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 11 - xiaohe"
+        "🇦🇪 阿联酋 (UAE) 08 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -68,14 +65,20 @@
       "tag": "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "uae.unixzone.us",
-      "port": 22573,
-      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
+      "server": "185.112.249.201",
+      "port": 8443,
+      "uuid": "fdc48be3-a615-41ac-8bd1-ed844c931048",
       "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "edgetunnel-4uw.pages.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
       "ws": {
         "path": "/",
         "headers": {
-          "Host": "uae.unixzone.us"
+          "Host": "edgetunnel-4uw.pages.dev"
         }
       }
     },
@@ -98,20 +101,14 @@
       "tag": "🇦🇪 阿联酋 (UAE) 05 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "185.112.249.201",
-      "port": 8443,
-      "uuid": "fdc48be3-a615-41ac-8bd1-ed844c931048",
+      "server": "84.235.244.108",
+      "port": 22573,
+      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "edgetunnel-4uw.pages.dev",
-        "insecure": true,
-        "client_fingerprint": null
-      },
       "ws": {
         "path": "/",
         "headers": {
-          "Host": "edgetunnel-4uw.pages.dev"
+          "Host": "uae.unixzone.us"
         }
       }
     },
@@ -119,7 +116,7 @@
       "tag": "🇦🇪 阿联酋 (UAE) 06 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "84.235.244.108",
+      "server": "uae.unixzone.us",
       "port": 22573,
       "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
       "flow": "",
@@ -132,51 +129,6 @@
     },
     {
       "tag": "🇦🇪 阿联酋 (UAE) 07 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "uae.unixzone.us",
-      "port": 22573,
-      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "uae.unixzone.us"
-        }
-      }
-    },
-    {
-      "tag": "🇦🇪 阿联酋 (UAE) 08 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "84.235.244.108",
-      "port": 22573,
-      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "uae.unixzone.us"
-        }
-      }
-    },
-    {
-      "tag": "🇦🇪 阿联酋 (UAE) 09 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "uae.unixzone.us",
-      "port": 22573,
-      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "uae.unixzone.us"
-        }
-      }
-    },
-    {
-      "tag": "🇦🇪 阿联酋 (UAE) 10 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "185.112.249.201",
@@ -197,10 +149,10 @@
       }
     },
     {
-      "tag": "🇦🇪 阿联酋 (UAE) 11 - xiaohe",
+      "tag": "🇦🇪 阿联酋 (UAE) 08 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "uae.unixzone.us",
+      "server": "84.235.244.108",
       "port": 22573,
       "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
       "flow": "",

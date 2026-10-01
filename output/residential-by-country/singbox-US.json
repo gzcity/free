@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇶🇦 QA 01 - xiaohe"
+        "🇺🇸 美国 (United States) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,21 +25,18 @@
       "tag": "block"
     },
     {
-      "tag": "🇶🇦 QA 01 - xiaohe",
+      "tag": "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "34.18.222.19",
-      "port": 443,
-      "uuid": "bd82d5e7-4395-40e1-b34e-2974eb0c8555",
+      "server": "104.18.47.113",
+      "port": 8080,
+      "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "ZRWl48Ahw4vlnPSTMkNs6xcCEDd9Qq4AsChUp-mg7A4",
-        "short_id": ""
+      "ws": {
+        "path": "/?ed=2560security=tls",
+        "headers": {
+          "Host": "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
+        }
       }
     }
   ]

@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇪 BE 01 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,21 +25,24 @@
       "tag": "block"
     },
     {
-      "tag": "🇧🇪 BE 01 - xiaohe",
+      "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "35.233.43.229",
+      "server": "78.159.246.110",
       "port": 443,
-      "uuid": "e3fb56fe-bdbc-4f0e-b1ed-de2f7c85f254",
+      "uuid": "bc5ec86c-3e65-4272-994c-59a924c72a68",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
+        "server_name": "fbsv6.guardora.pro",
         "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "i_UbRo65YEpOFuKkNVa0GEMl7xLDx9B1nmeyeNWyJQs",
-        "short_id": ""
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/ws",
+        "headers": {
+          "Host": "fbsv6.guardora.pro"
+        }
       }
     }
   ]

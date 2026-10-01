@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇫🇮 FI 01 - xiaohe",
+        "🇫🇮 FI 02 - xiaohe"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "tag": "🇫🇮 FI 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "smart.avenone.ir",
+      "port": 1085,
+      "uuid": "0c1b7949-fe09-43d9-863f-2c031f66bfc1",
+      "flow": ""
+    },
+    {
+      "tag": "🇫🇮 FI 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "77.42.20.51",
+      "port": 1085,
+      "uuid": "0c1b7949-fe09-43d9-863f-2c031f66bfc1",
+      "flow": ""
+    }
+  ]
+}
