@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇨🇿 CZ 01 - xiaohe",
+        "🇨🇿 CZ 02 - xiaohe"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "tag": "🇨🇿 CZ 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.21.51.145",
+      "port": 8443,
+      "uuid": "ef23616d-8a9d-4b22-b2f5-9bda864de179",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "INDEX.Arcane509.Workers.DEV",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "index.arcane509.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇿 CZ 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.67.167.77",
+      "port": 443,
+      "uuid": "cc08d2d0-8a7a-4469-81d2-c43704451271",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "9tg-d0htbrb5e3tp0c-o7ix23cx0f.ftfgblgft6-1h2iv2oo4h0.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/vl/6871nrbnl9WsdAiOUInt",
+        "headers": {
+          "Host": "9tg-d0htbrb5e3tp0c-o7ix23cx0f.ftfgblgft6-1h2iv2oo4h0.workers.dev"
+        }
+      }
+    }
+  ]
+}

@@ -12,7 +12,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇪🇪 EE 01 - xiaohe"
+        "🇪🇪 EE 01 - xiaohe",
+        "🇪🇪 EE 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -35,6 +36,21 @@
         "enabled": true,
         "server_name": "russiapower.accesscam.org",
         "insecure": true
+      }
+    },
+    {
+      "tag": "🇪🇪 EE 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "94.183.170.135",
+      "port": 8443,
+      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "estproxy4.lockdwn.com",
+        "insecure": true,
+        "client_fingerprint": null
       }
     }
   ]
