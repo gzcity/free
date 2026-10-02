@@ -14,7 +14,8 @@
       "outbounds": [
         "🇵🇱 PL 01 - xiaohe",
         "🇵🇱 PL 02 - xiaohe",
-        "🇵🇱 PL 03 - xiaohe"
+        "🇵🇱 PL 03 - xiaohe",
+        "🇵🇱 PL 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -69,6 +70,15 @@
         "server_name": "cheerful-swan.rooster465.autos",
         "insecure": true
       }
+    },
+    {
+      "tag": "🇵🇱 PL 04 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "94.228.161.7",
+      "port": 4,
+      "method": "chacha20-ietf-poly1305",
+      "password": "MBiJEJ5VgZXVSj58CEEFZA"
     }
   ]
 }

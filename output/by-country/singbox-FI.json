@@ -29,10 +29,19 @@
       "tag": "🇫🇮 FI 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "77.42.20.51",
-      "port": 1085,
-      "uuid": "0c1b7949-fe09-43d9-863f-2c031f66bfc1",
-      "flow": ""
+      "server": "35.228.61.63",
+      "port": 443,
+      "uuid": "06e58eed-afc8-4cbf-a0bf-1b7b42e1a87f",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "wJwb5WExAnmGiq9mmjtMvoA8E-k10u5VvPegm9RomWU",
+        "short_id": ""
+      }
     },
     {
       "tag": "🇫🇮 FI 02 - xiaohe",
