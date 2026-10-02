@@ -27,15 +27,11 @@
     {
       "tag": "🇷🇴 RO 01 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "38.180.35.145",
+      "type": "shadowsocks",
+      "server": "154.46.31.106",
       "port": 443,
-      "password": "600421cf-11d7-429f-a65b-c30397f1bc03",
-      "tls": {
-        "enabled": true,
-        "server_name": "bu2.freeguard.org",
-        "insecure": true
-      }
+      "method": "chacha20-ietf-poly1305",
+      "password": "QFWzCw2uX9B9i6qAYeFBIE"
     }
   ]
 }

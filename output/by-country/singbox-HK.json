@@ -36,20 +36,28 @@
     {
       "tag": "🇭🇰 中国香港 (Hong Kong) 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "telegramx.khp25.com",
-      "port": 1080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "m5nsedvdczx6x06e"
+      "type": "trojan",
+      "server": "2.27.109.179",
+      "port": 45464,
+      "password": "XuMweB2PWs",
+      "tls": {
+        "enabled": true,
+        "server_name": "2.27.109.179.sslip.io",
+        "insecure": true
+      }
     },
     {
       "tag": "🇭🇰 中国香港 (Hong Kong) 02 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "telegram.khp25.com",
-      "port": 1080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "pno0e2keji2gsfea"
+      "type": "trojan",
+      "server": "2.27.109.179",
+      "port": 45464,
+      "password": "XuMweB2PWs",
+      "tls": {
+        "enabled": true,
+        "server_name": "2.27.109.179.sslip.io",
+        "insecure": true
+      }
     },
     {
       "tag": "🇭🇰 中国香港 (Hong Kong) 03 - xiaohe",
@@ -67,26 +75,36 @@
     {
       "tag": "🇭🇰 中国香港 (Hong Kong) 04 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "194.99.79.26",
-      "port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "alterId": 0,
-      "security": "auto",
+      "type": "vless",
+      "server": "195.58.144.56",
+      "port": 11907,
+      "uuid": "07cb07b9-0c4d-46c1-a15a-b147511b6b07",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "",
-        "insecure": true
-      },
+        "server_name": "195.58.144.56",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "156.245.232.239",
+      "port": 35043,
+      "uuid": "b15e481d-17e4-41a8-84c2-23d4f0514d9a",
+      "alterId": 0,
+      "security": "auto",
       "ws": {
-        "path": "/linkvws",
+        "path": "/",
         "headers": {
           "Host": ""
         }
       }
     },
     {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - xiaohe",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "194.99.79.26",
@@ -107,7 +125,7 @@
       }
     },
     {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - xiaohe",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 07 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "2.27.109.179",
@@ -120,22 +138,16 @@
       }
     },
     {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 07 - xiaohe",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 08 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "195.58.144.56",
-      "port": 11907,
-      "uuid": "07cb07b9-0c4d-46c1-a15a-b147511b6b07",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "195.58.144.56",
-        "insecure": true,
-        "client_fingerprint": null
-      }
+      "type": "shadowsocks",
+      "server": "telegram.khp25.com",
+      "port": 1080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "pno0e2keji2gsfea"
     },
     {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 08 - xiaohe",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 09 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "194.99.79.26",
@@ -156,36 +168,23 @@
       }
     },
     {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 09 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "2.27.109.179",
-      "port": 45464,
-      "password": "XuMweB2PWs",
-      "tls": {
-        "enabled": true,
-        "server_name": "2.27.109.179.sslip.io",
-        "insecure": true
-      }
-    },
-    {
       "tag": "🇭🇰 中国香港 (Hong Kong) 10 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "yg1.ygkkk.dpdns.org",
+      "server": "194.99.79.26",
       "port": 443,
-      "uuid": "b2ba4a73-3123-479e-aa96-5973a9ecd0c0",
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
       "alterId": 0,
       "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "jmp1.907737.xyz",
+        "server_name": "",
         "insecure": true
       },
       "ws": {
-        "path": "/b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm",
+        "path": "/linkvws",
         "headers": {
-          "Host": "jmp1.907737.xyz"
+          "Host": ""
         }
       }
     }

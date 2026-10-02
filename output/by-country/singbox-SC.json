@@ -28,15 +28,6 @@
     {
       "tag": "🇸🇨 SC 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "45.207.207.25",
-      "port": 443,
-      "method": "aes-256-gcm",
-      "password": "gj1+XKulKV0nmw6IThckOkkJh5DSM7+C"
-    },
-    {
-      "tag": "🇸🇨 SC 02 - xiaohe",
-      "udp": true,
       "type": "vless",
       "server": "154.211.8.227",
       "port": 2087,
@@ -54,6 +45,15 @@
           "Host": "proxy-34l.pages.dev"
         }
       }
+    },
+    {
+      "tag": "🇸🇨 SC 02 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "45.207.207.25",
+      "port": 443,
+      "method": "aes-256-gcm",
+      "password": "gj1+XKulKV0nmw6IThckOkkJh5DSM7+C"
     }
   ]
 }

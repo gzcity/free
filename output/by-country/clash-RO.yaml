@@ -5,13 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇴 RO 01 - xiaohe
-  type: trojan
-  server: 38.180.35.145
+  type: ss
+  server: 154.46.31.106
   port: 443
-  password: 600421cf-11d7-429f-a65b-c30397f1bc03
+  cipher: chacha20-ietf-poly1305
+  password: QFWzCw2uX9B9i6qAYeFBIE
   udp: true
-  sni: bu2.freeguard.org
-  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select

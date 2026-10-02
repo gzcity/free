@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇻🇳 VN 01 - xiaohe"
+        "🇨🇴 CO 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,17 +25,13 @@
       "tag": "block"
     },
     {
-      "tag": "🇻🇳 VN 01 - xiaohe",
+      "tag": "🇨🇴 CO 01 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "109.110.162.40",
-      "port": 23005,
-      "password": "fac593ac-d6aa-4523-bea9-b3eb2a2b3da3",
-      "tls": {
-        "enabled": true,
-        "server_name": "82.yuanul.com",
-        "insecure": true
-      }
+      "type": "shadowsocks",
+      "server": "149.104.107.41",
+      "port": 8090,
+      "method": "aes-256-gcm",
+      "password": "PCnnH6SQSnfoS27"
     }
   ]
 }
