@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇬🇪 GE 01 - xiaohe"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "tag": "🇬🇪 GE 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "geo.shkola112.site",
+      "port": 443,
+      "uuid": "76ac91c5-ea82-4046-8ee7-2ffbb563ac94",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "geo.shkola112.site",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/api-vless",
+        "headers": {
+          "Host": "geo.shkola112.site"
+        }
+      }
+    }
+  ]
+}

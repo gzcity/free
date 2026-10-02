@@ -12,7 +12,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇩 ID 01 - xiaohe"
+        "🇮🇩 ID 01 - xiaohe",
+        "🇮🇩 ID 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -32,6 +33,24 @@
       "port": 31348,
       "method": "chacha20-ietf-poly1305",
       "password": "8C5valhOd8vfwaTXUSZ6Zyb0Ip34lRR5z7P8az"
+    },
+    {
+      "tag": "🇮🇩 ID 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "34.128.84.173",
+      "port": 443,
+      "uuid": "e440fa81-fe9d-4ca1-b711-f7b72c3d79ed",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "-9nhbWBjFTNIE5q0kg76hjyzCS2giPfZ-fbd8xvmRX0",
+        "short_id": ""
+      }
     }
   ]
 }

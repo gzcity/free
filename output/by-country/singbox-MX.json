@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇲🇽 MX 01 - xiaohe",
+        "🇲🇽 MX 02 - xiaohe"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "tag": "🇲🇽 MX 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "131.196.252.66",
+      "port": 443,
+      "uuid": "b1c31d36-c6b5-414b-88d2-9e24e7bfcca3",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.nihaoyun.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "www.nihaoyun.top"
+        }
+      }
+    },
+    {
+      "tag": "🇲🇽 MX 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "131.196.252.97",
+      "port": 443,
+      "uuid": "b1c31d36-c6b5-414b-88d2-9e24e7bfcca3",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.nihaoyun.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "www.nihaoyun.top"
+        }
+      }
+    }
+  ]
+}

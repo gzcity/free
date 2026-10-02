@@ -31,6 +31,24 @@
     {
       "tag": "🇵🇱 PL 01 - xiaohe",
       "udp": true,
+      "type": "vless",
+      "server": "144.31.4.193",
+      "port": 444,
+      "uuid": "318c935d-c195-41d3-99ad-9bbcfdab3386",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "pl.srv.vbuste-bot.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 02 - xiaohe",
+      "udp": true,
       "type": "trojan",
       "server": "cheerful-swan.rooster465.autos",
       "port": 443,
@@ -42,29 +60,21 @@
       }
     },
     {
-      "tag": "🇵🇱 PL 02 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "202.78.163.237",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "cheerful-swan.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
       "tag": "🇵🇱 PL 03 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "202.78.163.237",
+      "type": "vless",
+      "server": "77.83.246.202",
       "port": 443,
-      "password": "UX82473651",
+      "uuid": "454431fc-71e2-42b1-b375-5b55dd06666a",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "cheerful-swan.rooster465.autos",
-        "insecure": true
+        "server_name": "example.org",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU",
+        "short_id": ""
       }
     },
     {
@@ -83,19 +93,14 @@
     {
       "tag": "🇵🇱 PL 05 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "pl.srv.vbuste-bot.com",
-      "port": 444,
-      "uuid": "318c935d-c195-41d3-99ad-9bbcfdab3386",
-      "flow": "",
+      "type": "trojan",
+      "server": "202.78.163.237",
+      "port": 443,
+      "password": "UX82473651",
       "tls": {
         "enabled": true,
-        "server_name": "pl.srv.vbuste-bot.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08",
-        "short_id": ""
+        "server_name": "cheerful-swan.rooster465.autos",
+        "insecure": true
       }
     }
   ]

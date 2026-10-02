@@ -13,7 +13,8 @@
       "tag": "auto",
       "outbounds": [
         "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 02 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -28,20 +29,53 @@
     {
       "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "bale.xv98.ir",
-      "port": 5051,
-      "method": "chacha20-ietf-poly1305",
-      "password": "68mL2QkZEBlxWa3hcslGDw"
+      "type": "vless",
+      "server": "apadana.gamingnet.ir",
+      "port": 33483,
+      "uuid": "758a691a-45d2-4462-a0e8-991248a6994e",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "apadana.gamingnet.ir"
+        }
+      }
     },
     {
       "tag": "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "178.83.46.216",
-      "port": 2053,
-      "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f",
-      "flow": ""
+      "server": "130.94.1.177",
+      "port": 443,
+      "uuid": "b1c31d36-c6b5-414b-88d2-9e24e7bfcca3",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.nihaoyun.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "www.nihaoyun.top"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "176.96.131.251",
+      "port": 1280,
+      "uuid": "c0e8fb58-a60f-4c15-9444-4e7c109797a8",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "176.96.131.251"
+        }
+      }
     }
   ]
 }

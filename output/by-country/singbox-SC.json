@@ -12,8 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇨 SC 01 - xiaohe",
-        "🇸🇨 SC 02 - xiaohe"
+        "🇸🇨 SC 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -27,27 +26,6 @@
     },
     {
       "tag": "🇸🇨 SC 01 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "154.211.8.227",
-      "port": 2087,
-      "uuid": "40af9131-d540-448a-bc56-5bba147a1dc3",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "proxy-34l.pages.dev",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "proxy-34l.pages.dev"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇨 SC 02 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "45.207.207.25",
