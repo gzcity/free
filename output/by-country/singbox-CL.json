@@ -49,6 +49,36 @@
       "tag": "🇨🇱 CL 02 - xiaohe",
       "udp": true,
       "type": "vless",
+      "server": "platform106.golnamakcert.top",
+      "port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "flow": "",
+      "ws": {
+        "path": "/platform106",
+        "headers": {
+          "Host": "platform106.halalkhor.info"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇱 CL 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "platform102.golnamakcert.top",
+      "port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "flow": "",
+      "ws": {
+        "path": "/platform102",
+        "headers": {
+          "Host": "platform102.halalkhor.info"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇱 CL 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
       "server": "platform103.golnamakcert.top",
       "port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
@@ -61,7 +91,7 @@
       }
     },
     {
-      "tag": "🇨🇱 CL 03 - xiaohe",
+      "tag": "🇨🇱 CL 05 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "platform107.golnamakcert.top",
@@ -76,7 +106,7 @@
       }
     },
     {
-      "tag": "🇨🇱 CL 04 - xiaohe",
+      "tag": "🇨🇱 CL 06 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "platform109.golnamakcert.top",
@@ -87,36 +117,6 @@
         "path": "/platform109",
         "headers": {
           "Host": "platform109.halalkhor.info"
-        }
-      }
-    },
-    {
-      "tag": "🇨🇱 CL 05 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "platform106.golnamakcert.top",
-      "port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "flow": "",
-      "ws": {
-        "path": "/platform106",
-        "headers": {
-          "Host": "platform106.halalkhor.info"
-        }
-      }
-    },
-    {
-      "tag": "🇨🇱 CL 06 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "platform102.golnamakcert.top",
-      "port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "flow": "",
-      "ws": {
-        "path": "/platform102",
-        "headers": {
-          "Host": "platform102.halalkhor.info"
         }
       }
     },

@@ -31,26 +31,8 @@
     {
       "tag": "🇵🇱 PL 01 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "144.31.4.193",
-      "port": 444,
-      "uuid": "318c935d-c195-41d3-99ad-9bbcfdab3386",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "pl.srv.vbuste-bot.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇵🇱 PL 02 - xiaohe",
-      "udp": true,
       "type": "trojan",
-      "server": "cheerful-swan.rooster465.autos",
+      "server": "202.78.163.237",
       "port": 443,
       "password": "UX82473651",
       "tls": {
@@ -60,7 +42,7 @@
       }
     },
     {
-      "tag": "🇵🇱 PL 03 - xiaohe",
+      "tag": "🇵🇱 PL 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "77.83.246.202",
@@ -78,10 +60,28 @@
       }
     },
     {
+      "tag": "🇵🇱 PL 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "144.31.4.193",
+      "port": 444,
+      "uuid": "318c935d-c195-41d3-99ad-9bbcfdab3386",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "pl.srv.vbuste-bot.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08",
+        "short_id": ""
+      }
+    },
+    {
       "tag": "🇵🇱 PL 04 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "202.78.163.237",
+      "server": "cheerful-swan.rooster465.autos",
       "port": 443,
       "password": "UX82473651",
       "tls": {
