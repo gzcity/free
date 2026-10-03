@@ -24,8 +24,7 @@
         "🇪🇪 EE 10 - xiaohe",
         "🇪🇪 EE 11 - xiaohe",
         "🇪🇪 EE 12 - xiaohe",
-        "🇪🇪 EE 13 - xiaohe",
-        "🇪🇪 EE 14 - xiaohe"
+        "🇪🇪 EE 13 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -56,6 +55,49 @@
       "tag": "🇪🇪 EE 02 - xiaohe",
       "udp": true,
       "type": "vless",
+      "server": "94.183.170.135",
+      "port": 8443,
+      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "estproxy4.lockdwn.com",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇪🇪 EE 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "94.183.170.135",
+      "port": 8443,
+      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "estproxy4.lockdwn.com",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇪🇪 EE 04 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "109.206.241.10",
+      "port": 449,
+      "password": "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1",
+      "tls": {
+        "enabled": true,
+        "server_name": "russiapower.accesscam.org",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇪🇪 EE 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
       "server": "77.72.85.246",
       "port": 8443,
       "uuid": "6c713691-3ca2-4446-ad25-113d1bed6b03",
@@ -74,7 +116,28 @@
       }
     },
     {
-      "tag": "🇪🇪 EE 03 - xiaohe",
+      "tag": "🇪🇪 EE 06 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "141.0.187.16",
+      "port": 2083,
+      "uuid": "fba73f98-777a-42a6-83c0-7d1f6f070e8d",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "crt.dodopanel.biz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/vless-ws",
+        "headers": {
+          "Host": "141.0.187.16"
+        }
+      }
+    },
+    {
+      "tag": "🇪🇪 EE 07 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "94.183.170.135",
@@ -84,64 +147,8 @@
       "ws": {
         "path": "/",
         "headers": {
-          "Host": "94.183.170.135"
+          "Host": "estproxy4.lockdwn.com"
         }
-      }
-    },
-    {
-      "tag": "🇪🇪 EE 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "94.183.170.135",
-      "port": 8443,
-      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "estproxy4.lockdwn.com",
-        "insecure": true,
-        "client_fingerprint": null
-      }
-    },
-    {
-      "tag": "🇪🇪 EE 05 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "109.206.241.10",
-      "port": 449,
-      "password": "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1",
-      "tls": {
-        "enabled": true,
-        "server_name": "russiapower.accesscam.org",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇪🇪 EE 06 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "109.206.241.10",
-      "port": 449,
-      "password": "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1",
-      "tls": {
-        "enabled": true,
-        "server_name": "109.206.241.10",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇪🇪 EE 07 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "94.183.170.135",
-      "port": 8443,
-      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "estproxy4.lockdwn.com",
-        "insecure": true,
-        "client_fingerprint": null
       }
     },
     {
@@ -163,24 +170,6 @@
       "tag": "🇪🇪 EE 09 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "143.246.41.23",
-      "port": 25895,
-      "uuid": "f90b7d43-69e2-4b46-a672-8029bc6796a2",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.samsung.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇪🇪 EE 10 - xiaohe",
-      "udp": true,
-      "type": "vless",
       "server": "94.183.170.135",
       "port": 8443,
       "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
@@ -190,6 +179,19 @@
         "server_name": "estproxy4.lockdwn.com",
         "insecure": true,
         "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇪🇪 EE 10 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "109.206.241.10",
+      "port": 449,
+      "password": "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1",
+      "tls": {
+        "enabled": true,
+        "server_name": "russiapower.accesscam.org",
+        "insecure": true
       }
     },
     {
@@ -211,27 +213,6 @@
       "tag": "🇪🇪 EE 12 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "141.0.187.16",
-      "port": 2083,
-      "uuid": "fba73f98-777a-42a6-83c0-7d1f6f070e8d",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "crt.dodopanel.biz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/vless-ws",
-        "headers": {
-          "Host": "141.0.187.16"
-        }
-      }
-    },
-    {
-      "tag": "🇪🇪 EE 13 - xiaohe",
-      "udp": true,
-      "type": "vless",
       "server": "194.26.141.148",
       "port": 8443,
       "uuid": "6c713691-3ca2-4446-ad25-113d1bed6b03",
@@ -250,7 +231,7 @@
       }
     },
     {
-      "tag": "🇪🇪 EE 14 - xiaohe",
+      "tag": "🇪🇪 EE 13 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "77.72.85.246",

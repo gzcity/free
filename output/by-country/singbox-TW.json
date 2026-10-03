@@ -54,32 +54,65 @@
     {
       "tag": "🇹🇼 中国台湾 (Taiwan) 02 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "165.154.195.38",
-      "port": 35034,
-      "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc",
-      "alterId": 0,
-      "security": "auto"
+      "type": "vless",
+      "server": "argo6.5671234.xyz",
+      "port": 443,
+      "uuid": "08aaab35-a42d-4755-a03e-20c18cb1b3e8",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "argo6.5671234.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/e8e2cecb6188f7fb",
+        "headers": {
+          "Host": "argo6.5671234.xyz"
+        }
+      }
     },
     {
       "tag": "🇹🇼 中国台湾 (Taiwan) 03 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "165.154.195.38",
-      "port": 35034,
-      "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc",
-      "alterId": 0,
-      "security": "auto"
+      "type": "vless",
+      "server": "60.248.219.54",
+      "port": 443,
+      "uuid": "06e177f7-240d-4687-bd85-235505801a5e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ty986gfazs.cainiaohub.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/81574b6b-c9d7-44a0-b83d-dad56e8cb530",
+        "headers": {
+          "Host": "60.248.219.54"
+        }
+      }
     },
     {
       "tag": "🇹🇼 中国台湾 (Taiwan) 04 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "165.154.195.38",
-      "port": 35034,
-      "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc",
-      "alterId": 0,
-      "security": "auto"
+      "type": "vless",
+      "server": "60.248.219.53",
+      "port": 443,
+      "uuid": "c1c04450-bf71-4049-ad0c-9cf6d94d9f1f",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ty986gfazs.cainiaohub.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/81574b6b-c9d7-44a0-b83d-dad56e8cb530",
+        "headers": {
+          "Host": "60.248.219.53"
+        }
+      }
     },
     {
       "tag": "🇹🇼 中国台湾 (Taiwan) 05 - xiaohe",

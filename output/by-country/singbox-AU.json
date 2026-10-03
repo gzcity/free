@@ -12,8 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 02 - xiaohe"
+        "🇦🇺 澳大利亚 (Australia) 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -41,19 +40,6 @@
         "reality": true,
         "public_key": "OgTkmAQdLjipA9oLloxbU5BAX3hPjzbvkEGHF4aZ8z4",
         "short_id": ""
-      }
-    },
-    {
-      "tag": "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "au-1.tr202613.com",
-      "port": 443,
-      "password": "2ni2H9zUKdDCjREL8Z",
-      "tls": {
-        "enabled": true,
-        "server_name": "au-1.tr202613.com",
-        "insecure": true
       }
     }
   ]

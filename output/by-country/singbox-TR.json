@@ -65,11 +65,20 @@
     {
       "tag": "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "bale.xv98.ir",
-      "port": 5051,
-      "method": "chacha20-ietf-poly1305",
-      "password": "68mL2QkZEBlxWa3hcslGDw"
+      "type": "vless",
+      "server": "151.241.226.201",
+      "port": 2053,
+      "uuid": "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104",
+        "short_id": ""
+      }
     }
   ]
 }
