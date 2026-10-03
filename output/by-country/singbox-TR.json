@@ -14,8 +14,7 @@
       "outbounds": [
         "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
         "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 04 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -31,32 +30,29 @@
       "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "151.241.226.201",
+      "server": "178.83.46.216",
       "port": 2053,
-      "uuid": "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104",
-        "short_id": ""
-      }
+      "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f",
+      "flow": ""
     },
     {
       "tag": "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "176.96.131.251",
-      "port": 1280,
-      "uuid": "c0e8fb58-a60f-4c15-9444-4e7c109797a8",
+      "server": "155.103.70.53",
+      "port": 30303,
+      "uuid": "d18c6897-2849-456a-8c46-d7ecece47c20",
       "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "wzs.echo.net.eu.org",
+        "insecure": true,
+        "client_fingerprint": null
+      },
       "ws": {
-        "path": "/",
+        "path": "/video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HAAQNCV1EClxZAgMWAlBZXRlKXU4aTV8WGRQRQkoXFgweUABdHg==fp=chrome",
         "headers": {
-          "Host": "176.96.131.251"
+          "Host": "wzs.echo.net.eu.org"
         }
       }
     },
@@ -64,28 +60,22 @@
       "tag": "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "151.241.226.201",
-      "port": 2053,
-      "uuid": "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8",
+      "server": "155.103.70.53",
+      "port": 30303,
+      "uuid": "d18c6897-2849-456a-8c46-d7ecece47c20",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
+        "server_name": "wzs.echo.net.eu.org",
         "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104",
-        "short_id": ""
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HAAQNCV1EClxZAgMWAlBZXRlKXU4aTV8WGRQRQkoXFgweUABdHg==",
+        "headers": {
+          "Host": "wzs.echo.net.eu.org"
+        }
       }
-    },
-    {
-      "tag": "🇹🇷 土耳其 (Turkey) 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "test.keoplentuio.xyz",
-      "port": 2053,
-      "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f",
-      "flow": ""
     }
   ]
 }

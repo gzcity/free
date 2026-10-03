@@ -38,7 +38,7 @@
       "tag": "🇹🇼 中国台湾 (Taiwan) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "118.167.235.241",
+      "server": "hinet1.2yly.com",
       "port": 24215,
       "uuid": "19d5a678-8396-4e3b-93da-ece618d0e83a",
       "flow": "",
@@ -46,7 +46,7 @@
         "enabled": true,
         "server_name": "addons.mozilla.org",
         "insecure": true,
-        "client_fingerprint": "random",
+        "client_fingerprint": "chrome",
         "reality": true,
         "public_key": "mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE",
         "short_id": ""
@@ -56,7 +56,7 @@
       "tag": "🇹🇼 中国台湾 (Taiwan) 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "hinet1.2yly.com",
+      "server": "118.167.235.241",
       "port": 24215,
       "uuid": "19d5a678-8396-4e3b-93da-ece618d0e83a",
       "flow": "",
@@ -64,7 +64,7 @@
         "enabled": true,
         "server_name": "addons.mozilla.org",
         "insecure": true,
-        "client_fingerprint": "chrome",
+        "client_fingerprint": "firefox",
         "reality": true,
         "public_key": "mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE",
         "short_id": ""
@@ -73,20 +73,12 @@
     {
       "tag": "🇹🇼 中国台湾 (Taiwan) 03 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "hinet1.2yly.com",
-      "port": 24215,
-      "uuid": "19d5a678-8396-4e3b-93da-ece618d0e83a",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "addons.mozilla.org",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE",
-        "short_id": ""
-      }
+      "type": "vmess",
+      "server": "165.154.195.38",
+      "port": 35034,
+      "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc",
+      "alterId": 0,
+      "security": "auto"
     },
     {
       "tag": "🇹🇼 中国台湾 (Taiwan) 04 - xiaohe",

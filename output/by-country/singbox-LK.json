@@ -14,7 +14,8 @@
       "outbounds": [
         "🇱🇰 LK 01 - xiaohe",
         "🇱🇰 LK 02 - xiaohe",
-        "🇱🇰 LK 03 - xiaohe"
+        "🇱🇰 LK 03 - xiaohe",
+        "🇱🇰 LK 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -70,6 +71,27 @@
     },
     {
       "tag": "🇱🇰 LK 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "trackydev.site",
+      "port": 443,
+      "uuid": "92d67828-4c56-4795-af5a-f387651380dc",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "trackydev.site",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "trackydev.site"
+        }
+      }
+    },
+    {
+      "tag": "🇱🇰 LK 04 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "trackydev.site",

@@ -12,9 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇷 BR 01 - xiaohe",
-        "🇧🇷 BR 02 - xiaohe",
-        "🇧🇷 BR 03 - xiaohe"
+        "🇧🇷 BR 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -29,50 +27,8 @@
     {
       "tag": "🇧🇷 BR 01 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "aksai.org",
-      "port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "aksai.org",
-        "insecure": true
-      },
-      "ws": {
-        "path": "/linkvws",
-        "headers": {
-          "Host": "aksai.org"
-        }
-      }
-    },
-    {
-      "tag": "🇧🇷 BR 02 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "89.39.161.157",
-      "port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "aksai.org",
-        "insecure": true
-      },
-      "ws": {
-        "path": "/linkvws",
-        "headers": {
-          "Host": "aksai.org"
-        }
-      }
-    },
-    {
-      "tag": "🇧🇷 BR 03 - xiaohe",
-      "udp": true,
       "type": "vless",
-      "server": "br.monkora.org",
+      "server": "147.45.116.19",
       "port": 443,
       "uuid": "454431fc-71e2-42b1-b375-5b55dd06666a",
       "flow": "",
