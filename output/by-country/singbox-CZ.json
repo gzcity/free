@@ -12,8 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 CZ 01 - xiaohe",
-        "🇨🇿 CZ 02 - xiaohe"
+        "🇨🇿 CZ 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -29,36 +28,21 @@
       "tag": "🇨🇿 CZ 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "cz.monkora.org",
-      "port": 443,
-      "uuid": "454431fc-71e2-42b1-b375-5b55dd06666a",
+      "server": "188.114.97.1",
+      "port": 2053,
+      "uuid": "0b3e7958-e5c4-498f-ab21-b49686f95d2d",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "example.org",
+        "server_name": "bold-term-4edd.mbigspot.workers.dev",
         "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇨🇿 CZ 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "86.54.82.184",
-      "port": 443,
-      "uuid": "454431fc-71e2-42b1-b375-5b55dd06666a",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "example.org",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU",
-        "short_id": ""
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "bold-term-4edd.mbigspot.workers.dev"
+        }
       }
     }
   ]

@@ -13,7 +13,8 @@
       "tag": "auto",
       "outbounds": [
         "🇫🇮 FI 01 - xiaohe",
-        "🇫🇮 FI 02 - xiaohe"
+        "🇫🇮 FI 02 - xiaohe",
+        "🇫🇮 FI 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -29,18 +30,15 @@
       "tag": "🇫🇮 FI 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "95.216.27.15",
-      "port": 2053,
-      "uuid": "1c81f6d3-5771-4c5d-9fdd-1655eff50634",
+      "server": "77.42.28.120",
+      "port": 1280,
+      "uuid": "c0e8fb58-a60f-4c15-9444-4e7c109797a8",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.google.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM",
-        "short_id": ""
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "is1-ssl.mzstatic.com"
+        }
       }
     },
     {
@@ -54,7 +52,22 @@
       "ws": {
         "path": "/",
         "headers": {
-          "Host": "is1-ssl.mzstatic.com"
+          "Host": "77.42.28.120"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "77.42.28.120",
+      "port": 1280,
+      "uuid": "c0e8fb58-a60f-4c15-9444-4e7c109797a8",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "77.42.28.120"
         }
       }
     }

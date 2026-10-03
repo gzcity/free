@@ -12,7 +12,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇱 IL 01 - xiaohe"
+        "🇮🇱 IL 01 - xiaohe",
+        "🇮🇱 IL 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -40,6 +41,27 @@
         "reality": true,
         "public_key": "AeQDUAVCESyA1hFkw6lENmgWAY3sBH9CFPpPAddPwVc",
         "short_id": ""
+      }
+    },
+    {
+      "tag": "🇮🇱 IL 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "177.3.208.65",
+      "port": 443,
+      "uuid": "4f34bc04-479c-49ba-91a8-6bb9ed15031c",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "tgmansion.site",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/vless-il",
+        "headers": {
+          "Host": "tgmansion.site"
+        }
       }
     }
   ]
