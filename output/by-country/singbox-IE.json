@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇮🇪 IE 01 - xiaohe",
+        "🇮🇪 IE 02 - xiaohe",
+        "🇮🇪 IE 03 - xiaohe",
+        "🇮🇪 IE 04 - xiaohe"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "tag": "🇮🇪 IE 01 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "20.238.125.195",
+      "port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "Qr3RLHJLngbplPWd"
+    },
+    {
+      "tag": "🇮🇪 IE 02 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "20.238.125.195",
+      "port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "jUg9wluj5iOiY9sI"
+    },
+    {
+      "tag": "🇮🇪 IE 03 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "loved-shark.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "loved-shark.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇮🇪 IE 04 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "20.238.125.195",
+      "port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "ng0XTChgbJJ3Sv2d"
+    }
+  ]
+}

@@ -14,7 +14,8 @@
       "outbounds": [
         "🇱🇰 LK 01 - xiaohe",
         "🇱🇰 LK 02 - xiaohe",
-        "🇱🇰 LK 03 - xiaohe"
+        "🇱🇰 LK 03 - xiaohe",
+        "🇱🇰 LK 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -52,12 +53,27 @@
       "ws": {
         "path": "/",
         "headers": {
-          "Host": "m.zoom.us"
+          "Host": "cloud.ghostdev.lk"
         }
       }
     },
     {
       "tag": "🇱🇰 LK 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "cloud.ghostdev.lk",
+      "port": 80,
+      "uuid": "1eaed465-d720-400b-9f9f-439600a2d093",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "cloud.ghostdev.lk"
+        }
+      }
+    },
+    {
+      "tag": "🇱🇰 LK 04 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "cdn.zoom.us",
