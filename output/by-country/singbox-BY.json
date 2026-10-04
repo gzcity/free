@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇷 BR 01 - xiaohe"
+        "🇧🇾 BY 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,23 +25,23 @@
       "tag": "block"
     },
     {
-      "tag": "🇧🇷 BR 01 - xiaohe",
+      "tag": "🇧🇾 BY 01 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "89.39.161.157",
-      "port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "alterId": 0,
-      "security": "auto",
+      "type": "vless",
+      "server": "89.125.96.93",
+      "port": 2053,
+      "uuid": "6c713691-3ca2-0008-ad25-113d1bed6b03",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "",
-        "insecure": true
+        "server_name": "wss.zazazuza.ru",
+        "insecure": true,
+        "client_fingerprint": null
       },
       "ws": {
-        "path": "/linkvws",
+        "path": "/vpn-wss/fluxor/59011/",
         "headers": {
-          "Host": ""
+          "Host": "wss.zazazuza.ru"
         }
       }
     }

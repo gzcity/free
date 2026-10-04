@@ -12,7 +12,10 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇫🇮 FI 01 - xiaohe"
+        "🇫🇮 FI 01 - xiaohe",
+        "🇫🇮 FI 02 - xiaohe",
+        "🇫🇮 FI 03 - xiaohe",
+        "🇫🇮 FI 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -28,16 +31,52 @@
       "tag": "🇫🇮 FI 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "146.75.119.82",
-      "port": 80,
-      "uuid": "678f2059-61dc-445f-afd7-9b0282a87345",
+      "server": "95.216.27.15",
+      "port": 2053,
+      "uuid": "1c81f6d3-5771-4c5d-9fdd-1655eff50634",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇫🇮 FI 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "mainline.proxy.rlwy.net",
+      "port": 44242,
+      "uuid": "ff07a00f-0592-41dc-b0e1-b41b4732aad0",
       "flow": "",
       "ws": {
-        "path": "ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048",
+        "path": "/",
         "headers": {
-          "Host": "rb24.ir"
+          "Host": "mainline.proxy.rlwy.net"
         }
       }
+    },
+    {
+      "tag": "🇫🇮 FI 03 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "185.103.110.68",
+      "port": 18283,
+      "method": "aes-128-gcm",
+      "password": "f9300a9bf39ae0347c3a3bfbc4dd7754"
+    },
+    {
+      "tag": "🇫🇮 FI 04 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "185.103.110.68",
+      "port": 18283,
+      "method": "aes-128-gcm",
+      "password": "f9300a9bf39ae0347c3a3bfbc4dd7754"
     }
   ]
 }
