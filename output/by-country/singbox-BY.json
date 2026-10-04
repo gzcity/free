@@ -14,7 +14,14 @@
       "outbounds": [
         "🇧🇾 BY 01 - xiaohe",
         "🇧🇾 BY 02 - xiaohe",
-        "🇧🇾 BY 03 - xiaohe"
+        "🇧🇾 BY 03 - xiaohe",
+        "🇧🇾 BY 04 - xiaohe",
+        "🇧🇾 BY 05 - xiaohe",
+        "🇧🇾 BY 06 - xiaohe",
+        "🇧🇾 BY 07 - xiaohe",
+        "🇧🇾 BY 08 - xiaohe",
+        "🇧🇾 BY 09 - xiaohe",
+        "🇧🇾 BY 10 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -30,7 +37,7 @@
       "tag": "🇧🇾 BY 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "89.125.96.88",
+      "server": "89.125.96.74",
       "port": 2053,
       "uuid": "6c713691-3ca2-0008-ad25-113d1bed6b03",
       "flow": "",
@@ -51,7 +58,7 @@
       "tag": "🇧🇾 BY 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "89.125.96.75",
+      "server": "89.125.96.80",
       "port": 2053,
       "uuid": "6c713691-3ca2-0008-ad25-113d1bed6b03",
       "flow": "",
@@ -72,7 +79,154 @@
       "tag": "🇧🇾 BY 03 - xiaohe",
       "udp": true,
       "type": "vless",
+      "server": "89.125.96.89",
+      "port": 2053,
+      "uuid": "6c713691-3ca2-0008-ad25-113d1bed6b03",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "wss.zazazuza.ru",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/vpn-wss/fluxor/59011/",
+        "headers": {
+          "Host": "wss.zazazuza.ru"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇾 BY 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "89.125.96.75",
+      "port": 2053,
+      "uuid": "6c713691-3ca2-0008-ad25-113d1bed6b03",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "wss.zazazuza.ru",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/vpn-wss/fluxor/59011/",
+        "headers": {
+          "Host": "wss.zazazuza.ru"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇾 BY 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "89.125.96.75",
+      "port": 2053,
+      "uuid": "6c713691-3ca2-0008-ad25-113d1bed6b03",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "wss.zazazuza.ru",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/vpn-wss/fluxor/59011/",
+        "headers": {
+          "Host": "wss.zazazuza.ru"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇾 BY 06 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "89.125.96.79",
+      "port": 2053,
+      "uuid": "6c713691-3ca2-0008-ad25-113d1bed6b03",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "wss.zazazuza.ru",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/vpn-wss/fluxor/59011/",
+        "headers": {
+          "Host": "wss.zazazuza.ru"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇾 BY 07 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "89.125.96.88",
+      "port": 2053,
+      "uuid": "6c713691-3ca2-0008-ad25-113d1bed6b03",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "wss.zazazuza.ru",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/vpn-wss/fluxor/59011/",
+        "headers": {
+          "Host": "wss.zazazuza.ru"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇾 BY 08 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "89.125.96.74",
+      "port": 2053,
+      "uuid": "6c713691-3ca2-0008-ad25-113d1bed6b03",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "wss.zazazuza.ru",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/vpn-wss/fluxor/59011/",
+        "headers": {
+          "Host": "wss.zazazuza.ru"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇾 BY 09 - xiaohe",
+      "udp": true,
+      "type": "vless",
       "server": "89.125.96.90",
+      "port": 2053,
+      "uuid": "6c713691-3ca2-0008-ad25-113d1bed6b03",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "wss.zazazuza.ru",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/vpn-wss/fluxor/59011/",
+        "headers": {
+          "Host": "wss.zazazuza.ru"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇾 BY 10 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "89.125.96.81",
       "port": 2053,
       "uuid": "6c713691-3ca2-0008-ad25-113d1bed6b03",
       "flow": "",

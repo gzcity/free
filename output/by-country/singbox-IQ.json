@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇮🇶 IQ 01 - xiaohe"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "tag": "🇮🇶 IQ 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "188.114.97.6",
+      "port": 443,
+      "uuid": "07821f66-cdb7-4c70-9de6-e230cffac470",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "wgrcqwtkfyqujs43.ghydgdbdbddvv.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/vl/Li1khIHH3DNItJyzraemsPBQvu",
+        "headers": {
+          "Host": "wgrcqwtkfyqujs43.ghydgdbdbddvv.workers.dev"
+        }
+      }
+    }
+  ]
+}

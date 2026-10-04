@@ -12,8 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇷 BR 01 - xiaohe",
-        "🇧🇷 BR 02 - xiaohe"
+        "🇧🇷 BR 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -36,32 +35,14 @@
       "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "",
+        "server_name": "aksai.org",
         "insecure": true
       },
       "ws": {
         "path": "/linkvws",
         "headers": {
-          "Host": ""
+          "Host": "aksai.org"
         }
-      }
-    },
-    {
-      "tag": "🇧🇷 BR 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "35.247.243.231",
-      "port": 443,
-      "uuid": "5e517b94-e207-47ee-be3c-3020a57594e8",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "pCImwRkTjx8OIUiu1WFelZQFt1p3Q0lUoPbvjVq8GTs",
-        "short_id": ""
       }
     }
   ]
