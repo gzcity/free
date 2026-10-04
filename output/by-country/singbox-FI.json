@@ -12,8 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇫🇮 FI 01 - xiaohe",
-        "🇫🇮 FI 02 - xiaohe"
+        "🇫🇮 FI 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -28,20 +27,17 @@
     {
       "tag": "🇫🇮 FI 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "185.103.110.68",
-      "port": 18283,
-      "method": "aes-128-gcm",
-      "password": "f9300a9bf39ae0347c3a3bfbc4dd7754"
-    },
-    {
-      "tag": "🇫🇮 FI 02 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "185.103.110.68",
-      "port": 18283,
-      "method": "aes-128-gcm",
-      "password": "f9300a9bf39ae0347c3a3bfbc4dd7754"
+      "type": "vless",
+      "server": "146.75.119.82",
+      "port": 80,
+      "uuid": "678f2059-61dc-445f-afd7-9b0282a87345",
+      "flow": "",
+      "ws": {
+        "path": "ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048",
+        "headers": {
+          "Host": "rb24.ir"
+        }
+      }
     }
   ]
 }

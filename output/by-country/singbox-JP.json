@@ -117,7 +117,13 @@
         "🇯🇵 日本 (Japan) 103 - xiaohe",
         "🇯🇵 日本 (Japan) 104 - xiaohe",
         "🇯🇵 日本 (Japan) 105 - xiaohe",
-        "🇯🇵 日本 (Japan) 106 - xiaohe"
+        "🇯🇵 日本 (Japan) 106 - xiaohe",
+        "🇯🇵 日本 (Japan) 107 - xiaohe",
+        "🇯🇵 日本 (Japan) 108 - xiaohe",
+        "🇯🇵 日本 (Japan) 109 - xiaohe",
+        "🇯🇵 日本 (Japan) 110 - xiaohe",
+        "🇯🇵 日本 (Japan) 111 - xiaohe",
+        "🇯🇵 日本 (Japan) 112 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -132,26 +138,34 @@
     {
       "tag": "🇯🇵 日本 (Japan) 01 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "concrete-aardvark.rooster465.autos",
+      "type": "vless",
+      "server": "104.16.10.9",
       "port": 443,
-      "password": "UX82473651",
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "concrete-aardvark.rooster465.autos",
-        "insecure": true
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
       }
     },
     {
       "tag": "🇯🇵 日本 (Japan) 02 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "43.207.198.39",
+      "server": "promoted-rattler.rooster465.autos",
       "port": 443,
       "password": "UX82473651",
       "tls": {
         "enabled": true,
-        "server_name": "fancy-javelin.rooster465.autos",
+        "server_name": "promoted-rattler.rooster465.autos",
         "insecure": true
       }
     },
@@ -159,7 +173,7 @@
       "tag": "🇯🇵 日本 (Japan) 03 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "13.230.139.12",
+      "server": "brief-glider.rooster465.autos",
       "port": 443,
       "password": "UX82473651",
       "tls": {
@@ -172,7 +186,73 @@
       "tag": "🇯🇵 日本 (Japan) 04 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "13.230.139.12",
+      "server": "54.199.66.128",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "integral-rodent.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "162.159.254.3",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 06 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "45.32.57.118",
+      "port": 4433,
+      "uuid": "35b89832-0a7c-48dd-8d1c-a2891b522195",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 07 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "84.247.155.196",
+      "port": 80,
+      "method": "aes-256-gcm",
+      "password": "3eOFeNssde7PYYMv"
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 08 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "43.207.198.39",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "fancy-javelin.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 09 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "brief-glider.rooster465.autos",
       "port": 443,
       "password": "UX82473651",
       "tls": {
@@ -182,88 +262,72 @@
       }
     },
     {
-      "tag": "🇯🇵 日本 (Japan) 05 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "organic-caribou.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "organic-caribou.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 06 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "concrete-aardvark.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "concrete-aardvark.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 07 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "winning-marten.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "winning-marten.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 08 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "comic-poodle.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "comic-poodle.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 09 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "comic-poodle.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "comic-poodle.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
       "tag": "🇯🇵 日本 (Japan) 10 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "accurate-frog.rooster465.autos",
+      "server": "54.199.66.128",
       "port": 443,
       "password": "UX82473651",
       "tls": {
         "enabled": true,
-        "server_name": "accurate-frog.rooster465.autos",
+        "server_name": "integral-rodent.rooster465.autos",
         "insecure": true
       }
     },
     {
       "tag": "🇯🇵 日本 (Japan) 11 - xiaohe",
       "udp": true,
+      "type": "trojan",
+      "server": "18.176.61.69",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "intense-sole.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 12 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "52.192.217.187",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "evolving-platypus.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 13 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "obliging-louse.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "obliging-louse.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 14 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "45.32.57.118",
+      "port": 4433,
+      "uuid": "35b89832-0a7c-48dd-8d1c-a2891b522195",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 15 - xiaohe",
+      "udp": true,
       "type": "vless",
-      "server": "104.16.10.2",
+      "server": "104.18.153.10",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -281,110 +345,7 @@
       }
     },
     {
-      "tag": "🇯🇵 日本 (Japan) 12 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "54.249.36.167",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "comic-poodle.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 13 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "168.138.43.75",
-      "port": 80,
-      "uuid": "11c3627f-31e8-4695-dfbd-34076e2f1f5d",
-      "alterId": 0,
-      "security": "auto",
-      "ws": {
-        "path": "/cctv13.m3u8",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 14 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "84.247.155.196",
-      "port": 80,
-      "method": "aes-256-gcm",
-      "password": "3eOFeNssde7PYYMv"
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 15 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "promoted-rattler.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "promoted-rattler.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
       "tag": "🇯🇵 日本 (Japan) 16 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "brief-glider.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "brief-glider.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 17 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "18.176.61.69",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "intense-sole.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 18 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "winning-marten.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "winning-marten.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 19 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "integral-rodent.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "integral-rodent.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 20 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "evolving-platypus.rooster465.autos",
@@ -397,30 +358,7 @@
       }
     },
     {
-      "tag": "🇯🇵 日本 (Japan) 21 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "integral-rodent.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "integral-rodent.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 22 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "45.32.57.118",
-      "port": 4433,
-      "uuid": "35b89832-0a7c-48dd-8d1c-a2891b522195",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 23 - xiaohe",
+      "tag": "🇯🇵 日本 (Japan) 17 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "43.207.198.39",
@@ -433,33 +371,7 @@
       }
     },
     {
-      "tag": "🇯🇵 日本 (Japan) 24 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "evolving-platypus.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "evolving-platypus.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 25 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "promoted-rattler.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "promoted-rattler.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 26 - xiaohe",
+      "tag": "🇯🇵 日本 (Japan) 18 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "musical-terrier.rooster465.autos",
@@ -468,6 +380,110 @@
       "tls": {
         "enabled": true,
         "server_name": "musical-terrier.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 19 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "54.199.66.128",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "integral-rodent.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 20 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "integral-rodent.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "integral-rodent.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 21 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "intense-sole.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "intense-sole.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 22 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "dynamic-imp.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "dynamic-imp.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 23 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "dynamic-imp.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "dynamic-imp.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 24 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "prime-corgi.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "prime-corgi.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 25 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "integral-rodent.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "integral-rodent.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 26 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "concrete-aardvark.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "concrete-aardvark.rooster465.autos",
         "insecure": true
       }
     },
@@ -488,57 +504,17 @@
       "tag": "🇯🇵 日本 (Japan) 28 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "intense-sole.rooster465.autos",
+      "server": "assuring-skink.rooster465.autos",
       "port": 443,
       "password": "UX82473651",
       "tls": {
         "enabled": true,
-        "server_name": "intense-sole.rooster465.autos",
+        "server_name": "assuring-skink.rooster465.autos",
         "insecure": true
       }
     },
     {
       "tag": "🇯🇵 日本 (Japan) 29 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "137.220.221.179",
-      "port": 443,
-      "uuid": "a16a3336-c9ab-489f-9b85-c973f5e2cfa4",
-      "flow": ""
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 30 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "137.220.221.179",
-      "port": 443,
-      "uuid": "a16a3336-c9ab-489f-9b85-c973f5e2cfa4",
-      "flow": ""
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 31 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "obliging-louse.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "obliging-louse.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 32 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "149.22.87.204",
-      "port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 33 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "comic-poodle.rooster465.autos",
@@ -551,7 +527,69 @@
       }
     },
     {
+      "tag": "🇯🇵 日本 (Japan) 30 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "assuring-skink.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "assuring-skink.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 31 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "brief-glider.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "brief-glider.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 32 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "prime-corgi.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "prime-corgi.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 33 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "45.32.57.118",
+      "port": 4433,
+      "uuid": "35b89832-0a7c-48dd-8d1c-a2891b522195",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
       "tag": "🇯🇵 日本 (Japan) 34 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "promoted-rattler.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "promoted-rattler.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 35 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "fancy-javelin.rooster465.autos",
@@ -564,7 +602,150 @@
       }
     },
     {
-      "tag": "🇯🇵 日本 (Japan) 35 - xiaohe",
+      "tag": "🇯🇵 日本 (Japan) 36 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "assuring-skink.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "assuring-skink.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 37 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "13.230.139.12",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "brief-glider.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 38 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "fancy-javelin.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "fancy-javelin.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 39 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "54.249.36.167",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "comic-poodle.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 40 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "54.238.153.132",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "obliging-louse.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 41 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "assuring-skink.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "assuring-skink.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 42 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "promoted-rattler.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "promoted-rattler.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 43 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "176.34.5.100",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "assuring-skink.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 44 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "promoted-rattler.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "promoted-rattler.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 45 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "comic-poodle.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "comic-poodle.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 46 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "concrete-aardvark.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "concrete-aardvark.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 47 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "18.176.61.69",
@@ -577,16 +758,7 @@
       }
     },
     {
-      "tag": "🇯🇵 日本 (Japan) 36 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "149.22.87.241",
-      "port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 37 - xiaohe",
+      "tag": "🇯🇵 日本 (Japan) 48 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "52.192.217.187",
@@ -599,20 +771,214 @@
       }
     },
     {
-      "tag": "🇯🇵 日本 (Japan) 38 - xiaohe",
+      "tag": "🇯🇵 日本 (Japan) 49 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "45.32.57.118",
-      "port": 4433,
-      "uuid": "35b89832-0a7c-48dd-8d1c-a2891b522195",
-      "alterId": 0,
-      "security": "auto"
+      "type": "trojan",
+      "server": "integral-rodent.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "integral-rodent.rooster465.autos",
+        "insecure": true
+      }
     },
     {
-      "tag": "🇯🇵 日本 (Japan) 39 - xiaohe",
+      "tag": "🇯🇵 日本 (Japan) 50 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "168.138.43.75",
+      "port": 80,
+      "uuid": "11c3627f-31e8-4695-dfbd-34076e2f1f5d",
+      "alterId": 0,
+      "security": "auto",
+      "ws": {
+        "path": "/cctv13.m3u8",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 51 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "fancy-javelin.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "fancy-javelin.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 52 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.19.12.94",
+      "server": "137.220.221.179",
+      "port": 443,
+      "uuid": "a16a3336-c9ab-489f-9b85-c973f5e2cfa4",
+      "flow": ""
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 53 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "137.220.221.179",
+      "port": 443,
+      "uuid": "a16a3336-c9ab-489f-9b85-c973f5e2cfa4",
+      "flow": ""
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 54 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "137.220.221.179",
+      "port": 443,
+      "uuid": "a16a3336-c9ab-489f-9b85-c973f5e2cfa4",
+      "flow": ""
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 55 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "evolving-platypus.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "evolving-platypus.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 56 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "137.220.221.179",
+      "port": 443,
+      "uuid": "a16a3336-c9ab-489f-9b85-c973f5e2cfa4",
+      "flow": ""
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 57 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "54.249.36.167",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "comic-poodle.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 58 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "137.220.221.179",
+      "port": 443,
+      "uuid": "a16a3336-c9ab-489f-9b85-c973f5e2cfa4",
+      "flow": ""
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 59 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "13.230.139.12",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "brief-glider.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 60 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "accurate-frog.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "accurate-frog.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 61 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "3.112.245.255",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "dynamic-imp.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 62 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "comic-poodle.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "comic-poodle.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 63 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "integral-rodent.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "integral-rodent.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 64 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "accurate-frog.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "accurate-frog.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 65 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "52.192.217.187",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "evolving-platypus.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 66 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.21.34.106",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -630,98 +996,20 @@
       }
     },
     {
-      "tag": "🇯🇵 日本 (Japan) 40 - xiaohe",
+      "tag": "🇯🇵 日本 (Japan) 67 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "promoted-rattler.rooster465.autos",
+      "server": "concrete-aardvark.rooster465.autos",
       "port": 443,
       "password": "UX82473651",
       "tls": {
         "enabled": true,
-        "server_name": "promoted-rattler.rooster465.autos",
+        "server_name": "concrete-aardvark.rooster465.autos",
         "insecure": true
       }
     },
     {
-      "tag": "🇯🇵 日本 (Japan) 41 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "accurate-frog.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "accurate-frog.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 42 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "54.199.66.128",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "integral-rodent.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 43 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "musical-terrier.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "musical-terrier.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 44 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "obliging-louse.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "obliging-louse.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 45 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "fancy-javelin.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "fancy-javelin.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 46 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "assuring-skink.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "assuring-skink.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 47 - xiaohe",
+      "tag": "🇯🇵 日本 (Japan) 68 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "organic-caribou.rooster465.autos",
@@ -734,155 +1022,7 @@
       }
     },
     {
-      "tag": "🇯🇵 日本 (Japan) 48 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "integral-rodent.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "integral-rodent.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 49 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "fancy-javelin.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "fancy-javelin.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 50 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "promoted-rattler.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "promoted-rattler.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 51 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "assuring-skink.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "assuring-skink.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 52 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "54.249.36.167",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "comic-poodle.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 53 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "comic-poodle.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "comic-poodle.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 54 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "45.32.57.118",
-      "port": 4433,
-      "uuid": "35b89832-0a7c-48dd-8d1c-a2891b522195",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 55 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "brief-glider.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "brief-glider.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 56 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "43.130.241.204",
-      "port": 443,
-      "uuid": "8344360f-0349-4784-a19f-33fd92e89389",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "api.w2m.ink",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/v2",
-        "headers": {
-          "Host": "api.w2m.ink"
-        }
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 57 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "organic-caribou.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "organic-caribou.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 58 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "obliging-louse.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "obliging-louse.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 59 - xiaohe",
+      "tag": "🇯🇵 日本 (Japan) 69 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "intense-sole.rooster465.autos",
@@ -895,36 +1035,33 @@
       }
     },
     {
-      "tag": "🇯🇵 日本 (Japan) 60 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "168.138.43.75",
-      "port": 80,
-      "uuid": "11c3627f-31e8-4695-dfbd-34076e2f1f5d",
-      "alterId": 0,
-      "security": "auto",
-      "ws": {
-        "path": "/cctv13.m3u8",
-        "headers": {
-          "Host": "none"
-        }
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 61 - xiaohe",
+      "tag": "🇯🇵 日本 (Japan) 70 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "176.34.5.100",
+      "server": "organic-caribou.rooster465.autos",
       "port": 443,
       "password": "UX82473651",
       "tls": {
         "enabled": true,
-        "server_name": "assuring-skink.rooster465.autos",
+        "server_name": "organic-caribou.rooster465.autos",
         "insecure": true
       }
     },
     {
-      "tag": "🇯🇵 日本 (Japan) 62 - xiaohe",
+      "tag": "🇯🇵 日本 (Japan) 71 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "musical-terrier.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "musical-terrier.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 72 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "winning-marten.rooster465.autos",
@@ -937,7 +1074,20 @@
       }
     },
     {
-      "tag": "🇯🇵 日本 (Japan) 63 - xiaohe",
+      "tag": "🇯🇵 日本 (Japan) 73 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "13.230.139.12",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "brief-glider.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 74 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "149.22.87.240",
@@ -946,30 +1096,33 @@
       "password": "shadowsocks"
     },
     {
-      "tag": "🇯🇵 日本 (Japan) 64 - xiaohe",
+      "tag": "🇯🇵 日本 (Japan) 75 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "54.249.36.167",
+      "server": "43.207.198.39",
       "port": 443,
       "password": "UX82473651",
       "tls": {
         "enabled": true,
-        "server_name": "comic-poodle.rooster465.autos",
+        "server_name": "fancy-javelin.rooster465.autos",
         "insecure": true
       }
     },
     {
-      "tag": "🇯🇵 日本 (Japan) 65 - xiaohe",
+      "tag": "🇯🇵 日本 (Japan) 76 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "45.32.57.118",
-      "port": 4433,
-      "uuid": "35b89832-0a7c-48dd-8d1c-a2891b522195",
-      "alterId": 0,
-      "security": "auto"
+      "type": "trojan",
+      "server": "winning-marten.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "winning-marten.rooster465.autos",
+        "insecure": true
+      }
     },
     {
-      "tag": "🇯🇵 日本 (Japan) 66 - xiaohe",
+      "tag": "🇯🇵 日本 (Japan) 77 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "104.17.50.53",
@@ -990,158 +1143,15 @@
       }
     },
     {
-      "tag": "🇯🇵 日本 (Japan) 67 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "168.138.43.75",
-      "port": 80,
-      "uuid": "11c3627f-31e8-4695-dfbd-34076e2f1f5d",
-      "alterId": 0,
-      "security": "auto",
-      "ws": {
-        "path": "/cctv13.m3u8",
-        "headers": {
-          "Host": "168.138.43.75"
-        }
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 68 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "intense-sole.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "intense-sole.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 69 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "prime-corgi.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "prime-corgi.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 70 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "54.199.66.128",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "integral-rodent.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 71 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "intense-sole.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "intense-sole.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 72 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "45.32.57.118",
-      "port": 4433,
-      "uuid": "35b89832-0a7c-48dd-8d1c-a2891b522195",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 73 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "54.199.66.128",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "integral-rodent.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 74 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "evolving-platypus.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "evolving-platypus.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 75 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "assuring-skink.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "assuring-skink.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 76 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "concrete-aardvark.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "concrete-aardvark.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 77 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "assuring-skink.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "assuring-skink.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
       "tag": "🇯🇵 日本 (Japan) 78 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "integral-rodent.rooster465.autos",
+      "server": "musical-terrier.rooster465.autos",
       "port": 443,
       "password": "UX82473651",
       "tls": {
         "enabled": true,
-        "server_name": "integral-rodent.rooster465.autos",
+        "server_name": "musical-terrier.rooster465.autos",
         "insecure": true
       }
     },
@@ -1149,12 +1159,12 @@
       "tag": "🇯🇵 日本 (Japan) 79 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "assuring-skink.rooster465.autos",
+      "server": "54.249.36.167",
       "port": 443,
       "password": "UX82473651",
       "tls": {
         "enabled": true,
-        "server_name": "assuring-skink.rooster465.autos",
+        "server_name": "comic-poodle.rooster465.autos",
         "insecure": true
       }
     },
@@ -1162,50 +1172,17 @@
       "tag": "🇯🇵 日本 (Japan) 80 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "13.230.139.12",
+      "server": "intense-sole.rooster465.autos",
       "port": 443,
       "password": "UX82473651",
       "tls": {
         "enabled": true,
-        "server_name": "brief-glider.rooster465.autos",
+        "server_name": "intense-sole.rooster465.autos",
         "insecure": true
       }
     },
     {
       "tag": "🇯🇵 日本 (Japan) 81 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "52.192.217.187",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "evolving-platypus.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 82 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "45.32.57.118",
-      "port": 4433,
-      "uuid": "35b89832-0a7c-48dd-8d1c-a2891b522195",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 83 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "45.32.57.118",
-      "port": 4433,
-      "uuid": "35b89832-0a7c-48dd-8d1c-a2891b522195",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 84 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "organic-caribou.rooster465.autos",
@@ -1218,78 +1195,20 @@
       }
     },
     {
-      "tag": "🇯🇵 日本 (Japan) 85 - xiaohe",
+      "tag": "🇯🇵 日本 (Japan) 82 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "18.176.61.69",
+      "server": "obliging-louse.rooster465.autos",
       "port": 443,
       "password": "UX82473651",
       "tls": {
         "enabled": true,
-        "server_name": "intense-sole.rooster465.autos",
+        "server_name": "obliging-louse.rooster465.autos",
         "insecure": true
       }
     },
     {
-      "tag": "🇯🇵 日本 (Japan) 86 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "comic-poodle.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "comic-poodle.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 87 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "dynamic-imp.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "dynamic-imp.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 88 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "137.220.221.179",
-      "port": 443,
-      "uuid": "a16a3336-c9ab-489f-9b85-c973f5e2cfa4",
-      "flow": ""
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 89 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "45.32.57.118",
-      "port": 4433,
-      "uuid": "35b89832-0a7c-48dd-8d1c-a2891b522195",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 90 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "brief-glider.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "brief-glider.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 91 - xiaohe",
+      "tag": "🇯🇵 日本 (Japan) 83 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "evolving-platypus.rooster465.autos",
@@ -1302,7 +1221,94 @@
       }
     },
     {
-      "tag": "🇯🇵 日本 (Japan) 92 - xiaohe",
+      "tag": "🇯🇵 日本 (Japan) 84 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "obliging-louse.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "obliging-louse.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 85 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "musical-terrier.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "musical-terrier.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 86 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "intense-sole.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "intense-sole.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 87 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "149.22.87.241",
+      "port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 88 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "accurate-frog.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "accurate-frog.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 89 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "evolving-platypus.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "evolving-platypus.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 90 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "comic-poodle.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "comic-poodle.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 91 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "45.32.57.118",
@@ -1312,41 +1318,59 @@
       "security": "auto"
     },
     {
+      "tag": "🇯🇵 日本 (Japan) 92 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.19.12.94",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws#telegram--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
       "tag": "🇯🇵 日本 (Japan) 93 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "fancy-javelin.rooster465.autos",
+      "server": "176.34.5.100",
       "port": 443,
       "password": "UX82473651",
       "tls": {
         "enabled": true,
-        "server_name": "fancy-javelin.rooster465.autos",
+        "server_name": "assuring-skink.rooster465.autos",
         "insecure": true
       }
     },
     {
       "tag": "🇯🇵 日本 (Japan) 94 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "dynamic-imp.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "dynamic-imp.rooster465.autos",
-        "insecure": true
-      }
+      "type": "vmess",
+      "server": "45.32.57.118",
+      "port": 4433,
+      "uuid": "35b89832-0a7c-48dd-8d1c-a2891b522195",
+      "alterId": 0,
+      "security": "auto"
     },
     {
       "tag": "🇯🇵 日本 (Japan) 95 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "integral-rodent.rooster465.autos",
+      "server": "176.34.5.100",
       "port": 443,
       "password": "UX82473651",
       "tls": {
         "enabled": true,
-        "server_name": "integral-rodent.rooster465.autos",
+        "server_name": "assuring-skink.rooster465.autos",
         "insecure": true
       }
     },
@@ -1364,12 +1388,12 @@
       "tag": "🇯🇵 日本 (Japan) 97 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "musical-terrier.rooster465.autos",
+      "server": "fancy-javelin.rooster465.autos",
       "port": 443,
       "password": "UX82473651",
       "tls": {
         "enabled": true,
-        "server_name": "musical-terrier.rooster465.autos",
+        "server_name": "fancy-javelin.rooster465.autos",
         "insecure": true
       }
     },
@@ -1377,12 +1401,12 @@
       "tag": "🇯🇵 日本 (Japan) 98 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "winning-marten.rooster465.autos",
+      "server": "18.176.61.69",
       "port": 443,
       "password": "UX82473651",
       "tls": {
         "enabled": true,
-        "server_name": "winning-marten.rooster465.autos",
+        "server_name": "intense-sole.rooster465.autos",
         "insecure": true
       }
     },
@@ -1390,17 +1414,56 @@
       "tag": "🇯🇵 日本 (Japan) 99 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "accurate-frog.rooster465.autos",
+      "server": "dynamic-imp.rooster465.autos",
       "port": 443,
       "password": "UX82473651",
       "tls": {
         "enabled": true,
-        "server_name": "accurate-frog.rooster465.autos",
+        "server_name": "dynamic-imp.rooster465.autos",
         "insecure": true
       }
     },
     {
       "tag": "🇯🇵 日本 (Japan) 100 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "45.32.57.118",
+      "port": 4433,
+      "uuid": "35b89832-0a7c-48dd-8d1c-a2891b522195",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 101 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "assuring-skink.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "assuring-skink.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 102 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "168.138.43.75",
+      "port": 80,
+      "uuid": "11c3627f-31e8-4695-dfbd-34076e2f1f5d",
+      "alterId": 0,
+      "security": "auto",
+      "ws": {
+        "path": "/cctv13.m3u8",
+        "headers": {
+          "Host": "jp01.a0a.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 103 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "168.138.43.75",
@@ -1416,20 +1479,17 @@
       }
     },
     {
-      "tag": "🇯🇵 日本 (Japan) 101 - xiaohe",
+      "tag": "🇯🇵 日本 (Japan) 104 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "fancy-javelin.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "fancy-javelin.rooster465.autos",
-        "insecure": true
-      }
+      "type": "vmess",
+      "server": "45.32.57.118",
+      "port": 4433,
+      "uuid": "35b89832-0a7c-48dd-8d1c-a2891b522195",
+      "alterId": 0,
+      "security": "auto"
     },
     {
-      "tag": "🇯🇵 日本 (Japan) 102 - xiaohe",
+      "tag": "🇯🇵 日本 (Japan) 105 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "promoted-rattler.rooster465.autos",
@@ -1442,63 +1502,87 @@
       }
     },
     {
-      "tag": "🇯🇵 日本 (Japan) 103 - xiaohe",
+      "tag": "🇯🇵 日本 (Japan) 106 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "104.16.10.104",
+      "type": "shadowsocks",
+      "server": "149.22.87.204",
       "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
     },
     {
-      "tag": "🇯🇵 日本 (Japan) 104 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "168.138.43.75",
-      "port": 80,
-      "uuid": "11c3627f-31e8-4695-dfbd-34076e2f1f5d",
-      "alterId": 0,
-      "security": "auto",
-      "ws": {
-        "path": "/cctv13.m3u8",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 105 - xiaohe",
+      "tag": "🇯🇵 日本 (Japan) 107 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "176.34.5.100",
+      "server": "prime-corgi.rooster465.autos",
       "port": 443,
       "password": "UX82473651",
       "tls": {
         "enabled": true,
-        "server_name": "assuring-skink.rooster465.autos",
+        "server_name": "prime-corgi.rooster465.autos",
         "insecure": true
       }
     },
     {
-      "tag": "🇯🇵 日本 (Japan) 106 - xiaohe",
+      "tag": "🇯🇵 日本 (Japan) 108 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "137.220.221.179",
       "port": 443,
       "uuid": "a16a3336-c9ab-489f-9b85-c973f5e2cfa4",
       "flow": ""
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 109 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "fancy-javelin.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "fancy-javelin.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 110 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "integral-rodent.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "integral-rodent.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 111 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "comic-poodle.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "comic-poodle.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 112 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "winning-marten.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "winning-marten.rooster465.autos",
+        "insecure": true
+      }
     }
   ]
 }
