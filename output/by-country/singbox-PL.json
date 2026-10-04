@@ -14,7 +14,8 @@
       "outbounds": [
         "🇵🇱 PL 01 - xiaohe",
         "🇵🇱 PL 02 - xiaohe",
-        "🇵🇱 PL 03 - xiaohe"
+        "🇵🇱 PL 03 - xiaohe",
+        "🇵🇱 PL 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -43,7 +44,7 @@
       "tag": "🇵🇱 PL 02 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "cheerful-swan.rooster465.autos",
+      "server": "202.78.163.237",
       "port": 443,
       "password": "UX82473651",
       "tls": {
@@ -57,6 +58,19 @@
       "udp": true,
       "type": "trojan",
       "server": "202.78.163.237",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "cheerful-swan.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 04 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "cheerful-swan.rooster465.autos",
       "port": 443,
       "password": "UX82473651",
       "tls": {

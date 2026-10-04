@@ -26,8 +26,7 @@
         "🇭🇰 中国香港 (Hong Kong) 12 - xiaohe",
         "🇭🇰 中国香港 (Hong Kong) 13 - xiaohe",
         "🇭🇰 中国香港 (Hong Kong) 14 - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 15 - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 16 - xiaohe"
+        "🇭🇰 中国香港 (Hong Kong) 15 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -43,12 +42,12 @@
       "tag": "🇭🇰 中国香港 (Hong Kong) 01 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "2.27.109.179",
-      "port": 45464,
-      "password": "XuMweB2PWs",
+      "server": "185.244.208.69",
+      "port": 443,
+      "password": "UX82473651",
       "tls": {
         "enabled": true,
-        "server_name": "2.27.109.179.sslip.io",
+        "server_name": "strong-haddock.rooster465.autos",
         "insecure": true
       }
     },
@@ -69,7 +68,7 @@
       "tag": "🇭🇰 中国香港 (Hong Kong) 03 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "strong-haddock.rooster465.autos",
+      "server": "185.244.208.69",
       "port": 443,
       "password": "UX82473651",
       "tls": {
@@ -82,17 +81,35 @@
       "tag": "🇭🇰 中国香港 (Hong Kong) 04 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "47.240.80.220",
-      "port": 2052,
-      "password": "tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz",
+      "server": "2.27.109.179",
+      "port": 45464,
+      "password": "XuMweB2PWs",
       "tls": {
         "enabled": true,
-        "server_name": "47.240.80.220",
+        "server_name": "2.27.109.179.sslip.io",
         "insecure": true
       }
     },
     {
       "tag": "🇭🇰 中国香港 (Hong Kong) 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "34.96.188.243",
+      "port": 443,
+      "uuid": "75d38591-267e-4d89-98bc-164f25b50880",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "HV_4dmK3rwzqhWP1yOpC1L8BObd5lpZRYTzUflsi2x4",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "194.99.79.26",
@@ -113,23 +130,10 @@
       }
     },
     {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "ihk135.zxom.eu.org",
-      "port": 20016,
-      "password": "62ae18560ab740e0",
-      "tls": {
-        "enabled": true,
-        "server_name": "ihk135.zxom.eu.org",
-        "insecure": true
-      }
-    },
-    {
       "tag": "🇭🇰 中国香港 (Hong Kong) 07 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "185.244.208.69",
+      "server": "strong-haddock.rooster465.autos",
       "port": 443,
       "password": "UX82473651",
       "tls": {
@@ -141,21 +145,29 @@
     {
       "tag": "🇭🇰 中国香港 (Hong Kong) 08 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "ihk135.zxom.eu.org",
-      "port": 20016,
-      "password": "62ae18560ab740e0",
+      "type": "vmess",
+      "server": "8.218.195.61",
+      "port": 443,
+      "uuid": "f23bb427-c1f9-4373-876c-2f43e9f790f3",
+      "alterId": 0,
+      "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "ihk135.zxom.eu.org",
+        "server_name": "EX1oGt73NzPQKAc2.v.3dns.vip",
         "insecure": true
+      },
+      "ws": {
+        "path": "/ws-vmess",
+        "headers": {
+          "Host": "EX1oGt73NzPQKAc2.v.3dns.vip"
+        }
       }
     },
     {
       "tag": "🇭🇰 中国香港 (Hong Kong) 09 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "aksai.org",
+      "server": "194.99.79.26",
       "port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
       "alterId": 0,
@@ -175,47 +187,37 @@
     {
       "tag": "🇭🇰 中国香港 (Hong Kong) 10 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "34.96.188.243",
-      "port": 443,
-      "uuid": "75d38591-267e-4d89-98bc-164f25b50880",
-      "flow": "",
+      "type": "trojan",
+      "server": "2.27.109.179",
+      "port": 45464,
+      "password": "XuMweB2PWs",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "HV_4dmK3rwzqhWP1yOpC1L8BObd5lpZRYTzUflsi2x4",
-        "short_id": ""
+        "server_name": "2.27.109.179.sslip.io",
+        "insecure": true
       }
     },
     {
       "tag": "🇭🇰 中国香港 (Hong Kong) 11 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "34.92.16.7",
-      "port": 443,
-      "uuid": "90153538-ef08-4942-b8e1-41e7c523e659",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "tSBJnEt6E1dy6UgX9gX5wUfvZ2KAXjGWVKsEq886OWM",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 12 - xiaohe",
-      "udp": true,
       "type": "shadowsocks",
       "server": "sth.free-outline.giize.com",
       "port": 1081,
       "method": "chacha20-ietf-poly1305",
-      "password": "5koepr9k4rjabc1z"
+      "password": "n7vuxdsmlqnrbxqe"
+    },
+    {
+      "tag": "🇭🇰 中国香港 (Hong Kong) 12 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "2.27.109.179",
+      "port": 45464,
+      "password": "XuMweB2PWs",
+      "tls": {
+        "enabled": true,
+        "server_name": "2.27.109.179.sslip.io",
+        "insecure": true
+      }
     },
     {
       "tag": "🇭🇰 中国香港 (Hong Kong) 13 - xiaohe",
@@ -229,40 +231,15 @@
     {
       "tag": "🇭🇰 中国香港 (Hong Kong) 14 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "194.99.79.26",
-      "port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true
-      },
-      "ws": {
-        "path": "/linkvws",
-        "headers": {
-          "Host": ""
-        }
-      }
+      "type": "shadowsocks",
+      "server": "sth.free-outline.giize.com",
+      "port": 1081,
+      "method": "chacha20-ietf-poly1305",
+      "password": "5koepr9k4rjabc1z"
     },
     {
       "tag": "🇭🇰 中国香港 (Hong Kong) 15 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "47.240.80.220",
-      "port": 2052,
-      "password": "tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn.12169.top",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 16 - xiaohe",
-      "udp": true,
       "type": "vmess",
       "server": "194.99.79.26",
       "port": 443,
@@ -271,13 +248,13 @@
       "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "",
+        "server_name": "aksai.org",
         "insecure": true
       },
       "ws": {
         "path": "/linkvws",
         "headers": {
-          "Host": ""
+          "Host": "aksai.org"
         }
       }
     }

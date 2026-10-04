@@ -46,17 +46,19 @@
     {
       "tag": "🇮🇳 印度 (India) 02 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "152.67.8.205",
-      "port": 80,
-      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
-      "alterId": 0,
-      "security": "auto",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "152.67.8.205"
-        }
+      "type": "vless",
+      "server": "194.61.31.126",
+      "port": 2053,
+      "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
+        "short_id": ""
       }
     }
   ]

@@ -14,7 +14,7 @@ proxies:
   skip-cert-verify: true
 - name: 🇵🇱 PL 02 - xiaohe
   type: trojan
-  server: cheerful-swan.rooster465.autos
+  server: 202.78.163.237
   port: 443
   password: UX82473651
   udp: true
@@ -28,6 +28,14 @@ proxies:
   udp: true
   sni: cheerful-swan.rooster465.autos
   skip-cert-verify: true
+- name: 🇵🇱 PL 04 - xiaohe
+  type: trojan
+  server: cheerful-swan.rooster465.autos
+  port: 443
+  password: UX82473651
+  udp: true
+  sni: cheerful-swan.rooster465.autos
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -36,6 +44,7 @@ proxy-groups:
   - 🇵🇱 PL 01 - xiaohe
   - 🇵🇱 PL 02 - xiaohe
   - 🇵🇱 PL 03 - xiaohe
+  - 🇵🇱 PL 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -44,5 +53,6 @@ proxy-groups:
   - 🇵🇱 PL 01 - xiaohe
   - 🇵🇱 PL 02 - xiaohe
   - 🇵🇱 PL 03 - xiaohe
+  - 🇵🇱 PL 04 - xiaohe
 rules:
 - MATCH,PROXIES
