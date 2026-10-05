@@ -39,7 +39,7 @@
         "enabled": true,
         "server_name": "deepl.com",
         "insecure": true,
-        "client_fingerprint": "chrome",
+        "client_fingerprint": "firefox",
         "reality": true,
         "public_key": "MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ",
         "short_id": ""
@@ -47,15 +47,6 @@
     },
     {
       "tag": "🇨🇾 CY 02 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "45.149.114.171",
-      "port": 777,
-      "method": "chacha20-ietf-poly1305",
-      "password": "Jeoq8ujfkqZKKvACQhoqBQ1PA3uq4242"
-    },
-    {
-      "tag": "🇨🇾 CY 03 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "194.76.154.31",
@@ -73,7 +64,7 @@
       }
     },
     {
-      "tag": "🇨🇾 CY 04 - xiaohe",
+      "tag": "🇨🇾 CY 03 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "194.76.154.31",
@@ -84,11 +75,20 @@
         "enabled": true,
         "server_name": "deepl.com",
         "insecure": true,
-        "client_fingerprint": "firefox",
+        "client_fingerprint": "chrome",
         "reality": true,
         "public_key": "MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ",
         "short_id": ""
       }
+    },
+    {
+      "tag": "🇨🇾 CY 04 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "45.149.114.171",
+      "port": 777,
+      "method": "chacha20-ietf-poly1305",
+      "password": "Jeoq8ujfkqZKKvACQhoqBQ1PA3uq4242"
     }
   ]
 }

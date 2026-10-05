@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇹 LT 01 - xiaohe"
+        "🇲🇽 MX 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,19 +25,13 @@
       "tag": "block"
     },
     {
-      "tag": "🇱🇹 LT 01 - xiaohe",
+      "tag": "🇲🇽 MX 01 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "89.116.180.30",
-      "port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "vms.lifetime09.workers.dev"
-        }
-      }
+      "type": "shadowsocks",
+      "server": "147.78.1.234",
+      "port": 16673,
+      "method": "aes-128-gcm",
+      "password": "67c57ae584eecd70396fcd7ca7521130"
     }
   ]
 }

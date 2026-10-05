@@ -16,8 +16,7 @@
         "🇵🇱 PL 02 - xiaohe",
         "🇵🇱 PL 03 - xiaohe",
         "🇵🇱 PL 04 - xiaohe",
-        "🇵🇱 PL 05 - xiaohe",
-        "🇵🇱 PL 06 - xiaohe"
+        "🇵🇱 PL 05 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -32,6 +31,19 @@
     {
       "tag": "🇵🇱 PL 01 - xiaohe",
       "udp": true,
+      "type": "trojan",
+      "server": "202.78.163.237",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "cheerful-swan.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 02 - xiaohe",
+      "udp": true,
       "type": "vless",
       "server": "70.34.252.154",
       "port": 80,
@@ -41,21 +53,6 @@
         "path": "/",
         "headers": {
           "Host": "70.34.252.154"
-        }
-      }
-    },
-    {
-      "tag": "🇵🇱 PL 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "70.34.255.101",
-      "port": 80,
-      "uuid": "a889262f-5fe3-4c93-9aaa-3721318dd389",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "70.34.255.101"
         }
       }
     },
@@ -77,6 +74,21 @@
     {
       "tag": "🇵🇱 PL 04 - xiaohe",
       "udp": true,
+      "type": "vless",
+      "server": "70.34.252.154",
+      "port": 80,
+      "uuid": "d9c7ec1f-5aa3-469a-b860-760c686806b0",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "70.34.252.154"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 05 - xiaohe",
+      "udp": true,
       "type": "trojan",
       "server": "202.78.163.237",
       "port": 443,
@@ -85,45 +97,6 @@
         "enabled": true,
         "server_name": "cheerful-swan.rooster465.autos",
         "insecure": true
-      }
-    },
-    {
-      "tag": "🇵🇱 PL 05 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "62.152.58.90",
-      "port": 443,
-      "uuid": "1bb2af63-4472-44ed-9c70-8f316258b68b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "360.yandex.ru",
-        "insecure": true,
-        "client_fingerprint": "random",
-        "reality": true,
-        "public_key": "JBKJlzuJH1YzDHAoz28wEKbzWTGpDpKjgtSq0oT0a0k",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇵🇱 PL 06 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "iiproxy8.iiproxy.com",
-      "port": 8443,
-      "uuid": "806fa224-44f7-4c1b-b7a3-05bfdfdfbf87",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "iiproxy8.iiproxy.com",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "iiproxy8.iiproxy.com"
-        }
       }
     }
   ]

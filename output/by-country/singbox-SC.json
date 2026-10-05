@@ -12,9 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇨 SC 01 - xiaohe",
-        "🇸🇨 SC 02 - xiaohe",
-        "🇸🇨 SC 03 - xiaohe"
+        "🇸🇨 SC 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -28,32 +26,6 @@
     },
     {
       "tag": "🇸🇨 SC 01 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "node5.luoye.ee",
-      "port": 443,
-      "password": "53210e66-b1a6-484d-85e9-4e0e8432c47c",
-      "tls": {
-        "enabled": true,
-        "server_name": "node5.luoye.ee",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇨 SC 02 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "45.205.26.194",
-      "port": 443,
-      "password": "53210e66-b1a6-484d-85e9-4e0e8432c47c",
-      "tls": {
-        "enabled": true,
-        "server_name": "node5.luoye.ee",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇨 SC 03 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "45.207.207.25",

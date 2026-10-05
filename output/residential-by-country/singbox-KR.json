@@ -12,8 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe",
-        "🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe"
+        "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -27,21 +26,6 @@
     },
     {
       "tag": "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.66.140.62",
-      "port": 8880,
-      "uuid": "2efeba50-78fe-4729-9821-1fb9819ed9e8",
-      "flow": "",
-      "ws": {
-        "path": "/pyip=ProxyIP.KR.CMLiussss.net",
-        "headers": {
-          "Host": "dark-dew-c3ed.48-97c.workers.dev"
-        }
-      }
-    },
-    {
-      "tag": "🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "211.174.113.172",
