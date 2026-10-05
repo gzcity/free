@@ -15,7 +15,10 @@
         "🇦🇪 阿联酋 (UAE) 01 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 04 - xiaohe"
+        "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
+        "🇦🇪 阿联酋 (UAE) 05 - xiaohe",
+        "🇦🇪 阿联酋 (UAE) 06 - xiaohe",
+        "🇦🇪 阿联酋 (UAE) 07 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -46,15 +49,18 @@
       "tag": "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "uae.unixzone.us",
-      "port": 22573,
-      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
+      "server": "eu86.vaultberry.cloud",
+      "port": 443,
+      "uuid": "cfcb4c51-5c89-4132-a86d-bbbb757b56fb",
       "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "uae.unixzone.us"
-        }
+      "tls": {
+        "enabled": true,
+        "server_name": "eu86.vaultberry.cloud",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "zYNnGVEkMFCUR_9NcYeaXfm9A_L-PP6iG2sIIST6S0M",
+        "short_id": ""
       }
     },
     {
@@ -74,6 +80,51 @@
     },
     {
       "tag": "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "uae.unixzone.us",
+      "port": 22573,
+      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "uae.unixzone.us"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇪 阿联酋 (UAE) 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "uae.unixzone.us",
+      "port": 22573,
+      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "uae.unixzone.us"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇪 阿联酋 (UAE) 06 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "uae.unixzone.us",
+      "port": 22573,
+      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "uae.unixzone.us"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇪 阿联酋 (UAE) 07 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "uae.unixzone.us",

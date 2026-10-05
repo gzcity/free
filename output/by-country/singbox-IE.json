@@ -33,15 +33,11 @@
     {
       "tag": "🇮🇪 IE 01 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "loved-shark.rooster465.autos",
+      "type": "shadowsocks",
+      "server": "20.166.33.115",
       "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "loved-shark.rooster465.autos",
-        "insecure": true
-      }
+      "method": "chacha20-ietf-poly1305",
+      "password": "xyn9JRjicrWOWqAJ"
     },
     {
       "tag": "🇮🇪 IE 02 - xiaohe",
@@ -94,12 +90,12 @@
       "tag": "🇮🇪 IE 05 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "sacred-anemone.rooster465.autos",
+      "server": "loved-shark.rooster465.autos",
       "port": 443,
       "password": "UX82473651",
       "tls": {
         "enabled": true,
-        "server_name": "sacred-anemone.rooster465.autos",
+        "server_name": "loved-shark.rooster465.autos",
         "insecure": true
       }
     },
@@ -107,12 +103,12 @@
       "tag": "🇮🇪 IE 06 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "sacred-anemone.rooster465.autos",
+      "server": "loved-shark.rooster465.autos",
       "port": 443,
       "password": "UX82473651",
       "tls": {
         "enabled": true,
-        "server_name": "sacred-anemone.rooster465.autos",
+        "server_name": "loved-shark.rooster465.autos",
         "insecure": true
       }
     },
@@ -120,12 +116,12 @@
       "tag": "🇮🇪 IE 07 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "3.253.106.233",
+      "server": "sacred-anemone.rooster465.autos",
       "port": 443,
       "password": "UX82473651",
       "tls": {
         "enabled": true,
-        "server_name": "loved-shark.rooster465.autos",
+        "server_name": "sacred-anemone.rooster465.autos",
         "insecure": true
       }
     }

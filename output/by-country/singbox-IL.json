@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇽 MX 01 - xiaohe"
+        "🇮🇱 IL 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,13 +25,13 @@
       "tag": "block"
     },
     {
-      "tag": "🇲🇽 MX 01 - xiaohe",
+      "tag": "🇮🇱 IL 01 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "147.78.1.234",
-      "port": 16673,
-      "method": "aes-128-gcm",
-      "password": "67c57ae584eecd70396fcd7ca7521130"
+      "server": "45.144.172.123",
+      "port": 10771,
+      "method": "aes-256-gcm",
+      "password": "78235e7dc55e9ad1"
     }
   ]
 }
