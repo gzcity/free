@@ -5,6 +5,22 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇨 SC 01 - xiaohe
+  type: trojan
+  server: node5.luoye.ee
+  port: 443
+  password: 53210e66-b1a6-484d-85e9-4e0e8432c47c
+  udp: true
+  sni: node5.luoye.ee
+  skip-cert-verify: true
+- name: 🇸🇨 SC 02 - xiaohe
+  type: trojan
+  server: 45.205.26.194
+  port: 443
+  password: 53210e66-b1a6-484d-85e9-4e0e8432c47c
+  udp: true
+  sni: node5.luoye.ee
+  skip-cert-verify: true
+- name: 🇸🇨 SC 03 - xiaohe
   type: ss
   server: 45.207.207.25
   port: 443
@@ -17,11 +33,15 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇸🇨 SC 01 - xiaohe
+  - 🇸🇨 SC 02 - xiaohe
+  - 🇸🇨 SC 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇸🇨 SC 01 - xiaohe
+  - 🇸🇨 SC 02 - xiaohe
+  - 🇸🇨 SC 03 - xiaohe
 rules:
 - MATCH,PROXIES

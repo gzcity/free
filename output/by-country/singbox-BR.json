@@ -35,13 +35,13 @@
       "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "",
+        "server_name": "aksai.org",
         "insecure": true
       },
       "ws": {
         "path": "/linkvws",
         "headers": {
-          "Host": ""
+          "Host": "aksai.org"
         }
       }
     }
