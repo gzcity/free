@@ -1,0 +1,47 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+proxies:
+- name: 🇷🇴 RO 01 - xiaohe
+  type: trojan
+  server: 77.74.123.106
+  port: 4443
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  udp: true
+  sni: grape-test-italy.dynuddns.net
+  skip-cert-verify: true
+- name: 🇷🇴 RO 02 - xiaohe
+  type: ss
+  server: bogging-eyeteeth-fly.freesocks.work
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: QFWzCw2uX9B9i6qAYeFBIE
+  udp: true
+- name: 🇷🇴 RO 03 - xiaohe
+  type: trojan
+  server: 38.180.35.145
+  port: 443
+  password: 600421cf-11d7-429f-a65b-c30397f1bc03
+  udp: true
+  sni: bu2.freeguard.org
+  skip-cert-verify: true
+proxy-groups:
+- name: PROXIES
+  type: select
+  proxies:
+  - AUTO
+  - 🇷🇴 RO 01 - xiaohe
+  - 🇷🇴 RO 02 - xiaohe
+  - 🇷🇴 RO 03 - xiaohe
+- name: AUTO
+  type: url-test
+  url: https://www.google.com/generate_204
+  interval: 300
+  proxies:
+  - 🇷🇴 RO 01 - xiaohe
+  - 🇷🇴 RO 02 - xiaohe
+  - 🇷🇴 RO 03 - xiaohe
+rules:
+- MATCH,PROXIES

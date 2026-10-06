@@ -12,8 +12,9 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇹 AT 01 - xiaohe",
-        "🇦🇹 AT 02 - xiaohe"
+        "🇷🇴 RO 01 - xiaohe",
+        "🇷🇴 RO 02 - xiaohe",
+        "🇷🇴 RO 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -26,7 +27,7 @@
       "tag": "block"
     },
     {
-      "tag": "🇦🇹 AT 01 - xiaohe",
+      "tag": "🇷🇴 RO 01 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "77.74.123.106",
@@ -39,13 +40,26 @@
       }
     },
     {
-      "tag": "🇦🇹 AT 02 - xiaohe",
+      "tag": "🇷🇴 RO 02 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "82.110.60.9",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+      "server": "bogging-eyeteeth-fly.freesocks.work",
+      "port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "QFWzCw2uX9B9i6qAYeFBIE"
+    },
+    {
+      "tag": "🇷🇴 RO 03 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "38.180.35.145",
+      "port": 443,
+      "password": "600421cf-11d7-429f-a65b-c30397f1bc03",
+      "tls": {
+        "enabled": true,
+        "server_name": "bu2.freeguard.org",
+        "insecure": true
+      }
     }
   ]
 }
