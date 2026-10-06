@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇱 IL 01 - xiaohe"
+        "🇴🇲 OM 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,13 +25,13 @@
       "tag": "block"
     },
     {
-      "tag": "🇮🇱 IL 01 - xiaohe",
+      "tag": "🇴🇲 OM 01 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "45.144.172.123",
-      "port": 10771,
-      "method": "aes-256-gcm",
-      "password": "78235e7dc55e9ad1"
+      "server": "w7k2mf.5tencent.asia",
+      "port": 35016,
+      "method": "aes-128-gcm",
+      "password": "6ee847c4-04ef-4786-9720-eb6f73fbd80b"
     }
   ]
 }
