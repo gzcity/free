@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇳 CN 01 - xiaohe"
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,23 +25,23 @@
       "tag": "block"
     },
     {
-      "tag": "🇨🇳 CN 01 - xiaohe",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "146.56.221.148",
+      "server": "103.180.20.108",
       "port": 8443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "uuid": "c1c04450-bf71-4049-ad0c-9cf6d94d9f1f",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "ccc.010304.xyz",
+        "server_name": "ty986gfazs.cainiaohub.xyz",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/",
+        "path": "/81574b6b-c9d7-44a0-b83d-dad56e8cb530",
         "headers": {
-          "Host": "ccc.010304.xyz"
+          "Host": "103.180.20.108"
         }
       }
     }

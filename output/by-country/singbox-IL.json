@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇸 RS 01 - xiaohe"
+        "🇮🇱 IL 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,16 +25,24 @@
       "tag": "block"
     },
     {
-      "tag": "🇷🇸 RS 01 - xiaohe",
+      "tag": "🇮🇱 IL 01 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "77.74.123.106",
-      "port": 4443,
-      "password": "s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z",
+      "type": "vless",
+      "server": "177.3.208.65",
+      "port": 443,
+      "uuid": "4f34bc04-479c-49ba-91a8-6bb9ed15031c",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "grape-test-italy.dynuddns.net",
-        "insecure": true
+        "server_name": "tgmansion.site",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/vless-il",
+        "headers": {
+          "Host": "tgmansion.site"
+        }
       }
     }
   ]

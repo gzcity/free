@@ -13,7 +13,10 @@
       "tag": "auto",
       "outbounds": [
         "🇨🇾 CY 01 - xiaohe",
-        "🇨🇾 CY 02 - xiaohe"
+        "🇨🇾 CY 02 - xiaohe",
+        "🇨🇾 CY 03 - xiaohe",
+        "🇨🇾 CY 04 - xiaohe",
+        "🇨🇾 CY 05 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -27,6 +30,33 @@
     },
     {
       "tag": "🇨🇾 CY 01 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "45.149.114.171",
+      "port": 777,
+      "method": "chacha20-ietf-poly1305",
+      "password": "Jeoq8ujfkqZKKvACQhoqBQ1PA3uq4242"
+    },
+    {
+      "tag": "🇨🇾 CY 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "194.76.154.31",
+      "port": 40443,
+      "uuid": "9f0baff8-bdee-4de9-9515-bcc4932b41fa",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "deepl.com",
+        "insecure": true,
+        "client_fingerprint": "qq",
+        "reality": true,
+        "public_key": "MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇨🇾 CY 03 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "194.76.154.31",
@@ -44,7 +74,25 @@
       }
     },
     {
-      "tag": "🇨🇾 CY 02 - xiaohe",
+      "tag": "🇨🇾 CY 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "194.76.154.31",
+      "port": 40443,
+      "uuid": "9f0baff8-bdee-4de9-9515-bcc4932b41fa",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "deepl.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇨🇾 CY 05 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "194.76.154.31",

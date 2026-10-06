@@ -6,19 +6,19 @@ log-level: info
 proxies:
 - name: 🇮🇪 IE 01 - xiaohe
   type: trojan
-  server: 3.253.106.233
-  port: 443
-  password: UX82473651
-  udp: true
-  sni: loved-shark.rooster465.autos
-  skip-cert-verify: true
-- name: 🇮🇪 IE 02 - xiaohe
-  type: trojan
   server: sacred-anemone.rooster465.autos
   port: 443
   password: UX82473651
   udp: true
   sni: sacred-anemone.rooster465.autos
+  skip-cert-verify: true
+- name: 🇮🇪 IE 02 - xiaohe
+  type: trojan
+  server: loved-shark.rooster465.autos
+  port: 443
+  password: UX82473651
+  udp: true
+  sni: loved-shark.rooster465.autos
   skip-cert-verify: true
 - name: 🇮🇪 IE 03 - xiaohe
   type: trojan
@@ -30,20 +30,13 @@ proxies:
   skip-cert-verify: true
 - name: 🇮🇪 IE 04 - xiaohe
   type: trojan
-  server: loved-shark.rooster465.autos
+  server: sacred-anemone.rooster465.autos
   port: 443
   password: UX82473651
   udp: true
-  sni: loved-shark.rooster465.autos
+  sni: sacred-anemone.rooster465.autos
   skip-cert-verify: true
 - name: 🇮🇪 IE 05 - xiaohe
-  type: ss
-  server: 20.166.33.115
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: xyn9JRjicrWOWqAJ
-  udp: true
-- name: 🇮🇪 IE 06 - xiaohe
   type: vless
   server: 23.95.225.10
   port: 8443
@@ -57,15 +50,7 @@ proxies:
     path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
-- name: 🇮🇪 IE 07 - xiaohe
-  type: trojan
-  server: loved-shark.rooster465.autos
-  port: 443
-  password: UX82473651
-  udp: true
-  sni: loved-shark.rooster465.autos
-  skip-cert-verify: true
-- name: 🇮🇪 IE 08 - xiaohe
+- name: 🇮🇪 IE 06 - xiaohe
   type: trojan
   server: sacred-anemone.rooster465.autos
   port: 443
@@ -73,6 +58,13 @@ proxies:
   udp: true
   sni: sacred-anemone.rooster465.autos
   skip-cert-verify: true
+- name: 🇮🇪 IE 07 - xiaohe
+  type: ss
+  server: 20.223.236.165
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: CNL3mxdfZKiPKizL
+  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -85,7 +77,6 @@ proxy-groups:
   - 🇮🇪 IE 05 - xiaohe
   - 🇮🇪 IE 06 - xiaohe
   - 🇮🇪 IE 07 - xiaohe
-  - 🇮🇪 IE 08 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -98,6 +89,5 @@ proxy-groups:
   - 🇮🇪 IE 05 - xiaohe
   - 🇮🇪 IE 06 - xiaohe
   - 🇮🇪 IE 07 - xiaohe
-  - 🇮🇪 IE 08 - xiaohe
 rules:
 - MATCH,PROXIES
