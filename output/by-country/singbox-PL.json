@@ -63,6 +63,21 @@
       "tag": "🇵🇱 PL 03 - xiaohe",
       "udp": true,
       "type": "vless",
+      "server": "70.34.252.154",
+      "port": 80,
+      "uuid": "d9c7ec1f-5aa3-469a-b860-760c686806b0",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "70.34.252.154"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
       "server": "70.34.255.101",
       "port": 80,
       "uuid": "a889262f-5fe3-4c93-9aaa-3721318dd389",
@@ -75,53 +90,7 @@
       }
     },
     {
-      "tag": "🇵🇱 PL 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "78.17.109.97",
-      "port": 6443,
-      "uuid": "dfe8ea9e-fd77-48e6-86ee-7bc1019de1e7",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ok.ru",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "NP5_ymQeqYr_EP7aAPIl3YBRghX60zLq6m74Ht4bFUI",
-        "short_id": ""
-      }
-    },
-    {
       "tag": "🇵🇱 PL 05 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "202.78.163.237",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "cheerful-swan.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇵🇱 PL 06 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "70.34.252.154",
-      "port": 80,
-      "uuid": "d9c7ec1f-5aa3-469a-b860-760c686806b0",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "70.34.252.154"
-        }
-      }
-    },
-    {
-      "tag": "🇵🇱 PL 07 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "cheerful-swan.rooster465.autos",
@@ -134,18 +103,42 @@
       }
     },
     {
+      "tag": "🇵🇱 PL 06 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "202.78.163.237",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "cheerful-swan.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 07 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "202.78.163.237",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "cheerful-swan.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
       "tag": "🇵🇱 PL 08 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "70.34.252.154",
-      "port": 80,
-      "uuid": "d9c7ec1f-5aa3-469a-b860-760c686806b0",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "70.34.252.154"
-        }
+      "type": "trojan",
+      "server": "202.78.163.237",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "cheerful-swan.rooster465.autos",
+        "insecure": true
       }
     }
   ]

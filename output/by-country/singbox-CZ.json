@@ -12,7 +12,12 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 CZ 01 - xiaohe"
+        "🇨🇿 CZ 01 - xiaohe",
+        "🇨🇿 CZ 02 - xiaohe",
+        "🇨🇿 CZ 03 - xiaohe",
+        "🇨🇿 CZ 04 - xiaohe",
+        "🇨🇿 CZ 05 - xiaohe",
+        "🇨🇿 CZ 06 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -28,20 +33,101 @@
       "tag": "🇨🇿 CZ 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "45.12.28.108",
+      "server": "95.182.95.178",
       "port": 443,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "fzo5i.ir46.90k.hh.ov0.kdns.fr",
+        "server_name": "ccc.010304.xyz",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/glasspanel/guest000_0_5de14443985f/",
+        "path": "/fp",
         "headers": {
-          "Host": "fzo5i.ir46.90k.hh.ov0.kdns.fr"
+          "Host": "ccc.010304.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇿 CZ 02 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "46.8.100.93",
+      "port": 443,
+      "password": "WFer-5gN21nfHbVB2N8s71Z74EPUfzVj",
+      "tls": {
+        "enabled": true,
+        "server_name": "nl.zhabulik.ru",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇿 CZ 03 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "46.8.100.93",
+      "port": 443,
+      "password": "WFer-5gN21nfHbVB2N8s71Z74EPUfzVj",
+      "tls": {
+        "enabled": true,
+        "server_name": "nl.zhabulik.ru",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇿 CZ 04 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "46.8.100.93",
+      "port": 443,
+      "password": "WFer-5gN21nfHbVB2N8s71Z74EPUfzVj",
+      "tls": {
+        "enabled": true,
+        "server_name": "nl.zhabulik.ru",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇿 CZ 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.67.170.140",
+      "port": 2053,
+      "uuid": "ef23616d-8a9d-4b22-b2f5-9bda864de179",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "INDEX.Arcane509.Workers.DEV",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "index.arcane509.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇿 CZ 06 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "95.182.95.178",
+      "port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/fp",
+        "headers": {
+          "Host": "ccc.010304.xyz"
         }
       }
     }

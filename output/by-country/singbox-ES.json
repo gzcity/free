@@ -30,6 +30,27 @@
     {
       "tag": "🇪🇸 西班牙 (Spain) 01 - xiaohe",
       "udp": true,
+      "type": "vless",
+      "server": "104.25.220.68",
+      "port": 443,
+      "uuid": "9952b71a-6c86-4522-888f-ff9ea9b93536",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "1.hshs8227shhshs.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "1.hshs8227shhshs.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇪🇸 西班牙 (Spain) 02 - xiaohe",
+      "udp": true,
       "type": "shadowsocks",
       "server": "108.181.121.226",
       "port": 8388,
@@ -37,22 +58,13 @@
       "password": "WSyL4XTwNsdv"
     },
     {
-      "tag": "🇪🇸 西班牙 (Spain) 02 - xiaohe",
+      "tag": "🇪🇸 西班牙 (Spain) 03 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "140.174.184.5",
       "port": 8388,
       "method": "chacha20-ietf-poly1305",
       "password": "qItG8SueYQcP"
-    },
-    {
-      "tag": "🇪🇸 西班牙 (Spain) 03 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "108.181.121.226",
-      "port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "WSyL4XTwNsdv"
     },
     {
       "tag": "🇪🇸 西班牙 (Spain) 04 - xiaohe",
