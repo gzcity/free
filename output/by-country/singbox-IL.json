@@ -40,7 +40,7 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/fp=chrome",
+        "path": "/",
         "headers": {
           "Host": "ccc.010304.xyz"
         }
@@ -61,7 +61,7 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/",
+        "path": "/fp=chrome",
         "headers": {
           "Host": "ccc.010304.xyz"
         }
