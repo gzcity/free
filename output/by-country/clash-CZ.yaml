@@ -19,13 +19,19 @@ proxies:
     headers:
       Host: ccc.010304.xyz
 - name: 🇨🇿 CZ 02 - xiaohe
-  type: trojan
-  server: 46.8.100.93
+  type: vless
+  server: 95.182.95.178
   port: 443
-  password: WFer-5gN21nfHbVB2N8s71Z74EPUfzVj
+  uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
-  sni: nl.zhabulik.ru
+  tls: true
   skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /fp
+    headers:
+      Host: ccc.010304.xyz
 - name: 🇨🇿 CZ 03 - xiaohe
   type: trojan
   server: 46.8.100.93
@@ -43,33 +49,29 @@ proxies:
   sni: nl.zhabulik.ru
   skip-cert-verify: true
 - name: 🇨🇿 CZ 05 - xiaohe
-  type: vless
-  server: 172.67.170.140
-  port: 2053
-  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: INDEX.Arcane509.Workers.DEV
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: index.arcane509.workers.dev
-- name: 🇨🇿 CZ 06 - xiaohe
-  type: vless
-  server: 95.182.95.178
+  type: trojan
+  server: 46.8.100.93
   port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  password: WFer-5gN21nfHbVB2N8s71Z74EPUfzVj
   udp: true
-  tls: true
+  sni: nl.zhabulik.ru
   skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: ccc.010304.xyz
+- name: 🇨🇿 CZ 06 - xiaohe
+  type: trojan
+  server: 46.8.100.93
+  port: 443
+  password: WFer-5gN21nfHbVB2N8s71Z74EPUfzVj
+  udp: true
+  sni: nl.zhabulik.ru
+  skip-cert-verify: true
+- name: 🇨🇿 CZ 07 - xiaohe
+  type: trojan
+  server: 46.8.100.93
+  port: 443
+  password: WFer-5gN21nfHbVB2N8s71Z74EPUfzVj
+  udp: true
+  sni: nl.zhabulik.ru
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -81,6 +83,7 @@ proxy-groups:
   - 🇨🇿 CZ 04 - xiaohe
   - 🇨🇿 CZ 05 - xiaohe
   - 🇨🇿 CZ 06 - xiaohe
+  - 🇨🇿 CZ 07 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -92,5 +95,6 @@ proxy-groups:
   - 🇨🇿 CZ 04 - xiaohe
   - 🇨🇿 CZ 05 - xiaohe
   - 🇨🇿 CZ 06 - xiaohe
+  - 🇨🇿 CZ 07 - xiaohe
 rules:
 - MATCH,PROXIES

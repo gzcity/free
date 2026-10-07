@@ -16,8 +16,7 @@
         "🇮🇳 印度 (India) 02 - xiaohe",
         "🇮🇳 印度 (India) 03 - xiaohe",
         "🇮🇳 印度 (India) 04 - xiaohe",
-        "🇮🇳 印度 (India) 05 - xiaohe",
-        "🇮🇳 印度 (India) 06 - xiaohe"
+        "🇮🇳 印度 (India) 05 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -31,27 +30,6 @@
     },
     {
       "tag": "🇮🇳 印度 (India) 01 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "185.67.125.90",
-      "port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "aksai.org",
-        "insecure": true
-      },
-      "ws": {
-        "path": "/linkvws",
-        "headers": {
-          "Host": "aksai.org"
-        }
-      }
-    },
-    {
-      "tag": "🇮🇳 印度 (India) 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "194.61.31.126",
@@ -69,7 +47,7 @@
       }
     },
     {
-      "tag": "🇮🇳 印度 (India) 03 - xiaohe",
+      "tag": "🇮🇳 印度 (India) 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "194.61.31.126",
@@ -80,14 +58,14 @@
         "enabled": true,
         "server_name": "www.apple.com",
         "insecure": true,
-        "client_fingerprint": "random",
+        "client_fingerprint": "chrome",
         "reality": true,
         "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
         "short_id": ""
       }
     },
     {
-      "tag": "🇮🇳 印度 (India) 04 - xiaohe",
+      "tag": "🇮🇳 印度 (India) 03 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "152.67.8.205",
@@ -103,7 +81,7 @@
       }
     },
     {
-      "tag": "🇮🇳 印度 (India) 05 - xiaohe",
+      "tag": "🇮🇳 印度 (India) 04 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "194.61.31.126",
@@ -121,7 +99,7 @@
       }
     },
     {
-      "tag": "🇮🇳 印度 (India) 06 - xiaohe",
+      "tag": "🇮🇳 印度 (India) 05 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "194.61.31.126",
@@ -132,7 +110,7 @@
         "enabled": true,
         "server_name": "www.apple.com",
         "insecure": true,
-        "client_fingerprint": "chrome",
+        "client_fingerprint": "random",
         "reality": true,
         "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
         "short_id": ""
