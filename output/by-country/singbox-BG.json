@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇧🇬 BG 01 - xiaohe",
+        "🇧🇬 BG 02 - xiaohe"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "tag": "🇧🇬 BG 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "31.40.204.131",
+      "port": 443,
+      "uuid": "86b6c7ba-d613-4567-962a-acfdad5c22db",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "0gltyawm4dbxby5k6kw-3d2475.arta-ts.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "0gltyawm4dbxby5k6kw-3d2475.arta-ts.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇬 BG 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "31.40.204.131",
+      "port": 443,
+      "uuid": "86b6c7ba-d613-4567-962a-acfdad5c22db",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "0gltyawm4dbxby5k6kw-3d2475.arta-ts.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "0gltyawm4dbxby5k6kw-3d2475.arta-ts.workers.dev"
+        }
+      }
+    }
+  ]
+}

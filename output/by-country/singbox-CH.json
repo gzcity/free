@@ -40,7 +40,7 @@
         "enabled": true,
         "server_name": "www.apple.com",
         "insecure": true,
-        "client_fingerprint": "chrome",
+        "client_fingerprint": "random",
         "reality": true,
         "public_key": "A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0",
         "short_id": ""
@@ -85,11 +85,20 @@
     {
       "tag": "🇨🇭 CH 04 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "132.243.175.144",
-      "port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3"
+      "type": "vless",
+      "server": "208.69.78.217",
+      "port": 2053,
+      "uuid": "c0dd6d59-1573-43af-8b70-1470b2632a6d",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0",
+        "short_id": ""
+      }
     },
     {
       "tag": "🇨🇭 CH 05 - xiaohe",
