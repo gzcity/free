@@ -15,7 +15,15 @@
         "🇵🇱 PL 01 - xiaohe",
         "🇵🇱 PL 02 - xiaohe",
         "🇵🇱 PL 03 - xiaohe",
-        "🇵🇱 PL 04 - xiaohe"
+        "🇵🇱 PL 04 - xiaohe",
+        "🇵🇱 PL 05 - xiaohe",
+        "🇵🇱 PL 06 - xiaohe",
+        "🇵🇱 PL 07 - xiaohe",
+        "🇵🇱 PL 08 - xiaohe",
+        "🇵🇱 PL 09 - xiaohe",
+        "🇵🇱 PL 10 - xiaohe",
+        "🇵🇱 PL 11 - xiaohe",
+        "🇵🇱 PL 12 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -44,21 +52,6 @@
       "tag": "🇵🇱 PL 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "70.34.255.101",
-      "port": 80,
-      "uuid": "a889262f-5fe3-4c93-9aaa-3721318dd389",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "70.34.255.101"
-        }
-      }
-    },
-    {
-      "tag": "🇵🇱 PL 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
       "server": "70.34.252.154",
       "port": 80,
       "uuid": "d9c7ec1f-5aa3-469a-b860-760c686806b0",
@@ -67,6 +60,21 @@
         "path": "/",
         "headers": {
           "Host": "70.34.252.154"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "70.34.255.101",
+      "port": 80,
+      "uuid": "a889262f-5fe3-4c93-9aaa-3721318dd389",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "70.34.255.101"
         }
       }
     },
@@ -83,6 +91,122 @@
         "headers": {
           "Host": "70.34.255.101"
         }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 05 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "cheerful-swan.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "cheerful-swan.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 06 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "70.34.252.154",
+      "port": 80,
+      "uuid": "d9c7ec1f-5aa3-469a-b860-760c686806b0",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "70.34.252.154"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 07 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "cheerful-swan.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "cheerful-swan.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 08 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "70.34.255.101",
+      "port": 80,
+      "uuid": "a889262f-5fe3-4c93-9aaa-3721318dd389",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "70.34.255.101"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 09 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "70.34.255.101",
+      "port": 80,
+      "uuid": "a889262f-5fe3-4c93-9aaa-3721318dd389",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "70.34.255.101"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 10 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "95.85.253.241",
+      "port": 2053,
+      "uuid": "ee0a38e3-d148-48ac-ba99-5133446c2377",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "95.85.253.241",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 11 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "95.85.253.241",
+      "port": 2087,
+      "uuid": "ee0a38e3-d148-48ac-ba99-5133446c2377",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "95.85.253.241",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 12 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "95.85.253.241",
+      "port": 2087,
+      "uuid": "ee0a38e3-d148-48ac-ba99-5133446c2377",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "95.85.253.241",
+        "insecure": true,
+        "client_fingerprint": null
       }
     }
   ]
