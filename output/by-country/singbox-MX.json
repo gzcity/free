@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe"
+        "🇲🇽 MX 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,13 +25,13 @@
       "tag": "block"
     },
     {
-      "tag": "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe",
+      "tag": "🇲🇽 MX 01 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "ce1fc2d8.krkt.hkssip.com",
-      "port": 49642,
-      "method": "aes-256-gcm",
-      "password": "ac9c0a7b"
+      "server": "147.78.1.141",
+      "port": 16672,
+      "method": "aes-128-gcm",
+      "password": "67c57ae584eecd70396fcd7ca7521130"
     }
   ]
 }
