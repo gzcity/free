@@ -5,45 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - xiaohe
-  type: trojan
-  server: 2.27.109.179
-  port: 45464
-  password: XuMweB2PWs
-  udp: true
-  sni: 2.27.109.179.sslip.io
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
-  type: vmess
-  server: 156.245.232.239
-  port: 35043
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ''
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
-  type: vmess
-  server: qtkdr8jxe3wefxjm.v.3dns.vip
-  port: 443
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: qTKDR8jXE3wEFxJM.v.3dns.vip
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
   type: vmess
   server: 47.244.120.197
   port: 44867
@@ -58,7 +19,21 @@ proxies:
     path: /arki
     headers:
       Host: ''
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
+- name: 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
+  type: vless
+  server: 43.161.226.55
+  port: 443
+  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: x.m-90.xyz
+  network: ws
+  ws-opts:
+    path: t.me/TEAMNETGRATISCOL
+    headers:
+      Host: x.m-90.xyz
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
   type: trojan
   server: 2.27.109.179
   port: 45464
@@ -66,7 +41,15 @@ proxies:
   udp: true
   sni: 2.27.109.179.sslip.io
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - xiaohe
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
+  type: trojan
+  server: 2.27.109.179
+  port: 45464
+  password: XuMweB2PWs
+  udp: true
+  sni: 2.27.109.179.sslip.io
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
   type: vmess
   server: 156.245.232.239
   port: 35043
@@ -81,6 +64,14 @@ proxies:
     path: /
     headers:
       Host: ''
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - xiaohe
+  type: trojan
+  server: full-ox.rooster465.autos
+  port: 443
+  password: UX82473651
+  udp: true
+  sni: full-ox.rooster465.autos
+  skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 07 - xiaohe
   type: vless
   server: 43.129.80.179
@@ -96,69 +87,6 @@ proxies:
     headers:
       Host: ccc.010304.xyz
 - name: 🇭🇰 中国香港 (Hong Kong) 08 - xiaohe
-  type: trojan
-  server: 2.27.109.179
-  port: 45464
-  password: XuMweB2PWs
-  udp: true
-  sni: 2.27.109.179.sslip.io
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 09 - xiaohe
-  type: vless
-  server: 172.67.152.71
-  port: 8880
-  uuid: ed189537-41de-4abe-9f8b-bb75d457722d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
-    headers:
-      Host: lucky-cake-4f58.318-5ee.workers.dev
-- name: 🇭🇰 中国香港 (Hong Kong) 10 - xiaohe
-  type: vless
-  server: 47.238.210.5
-  port: 13779
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-  servername: tesla.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 11 - xiaohe
-  type: vmess
-  server: 156.245.232.239
-  port: 35043
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: ''
-    headers:
-      Host: ''
-- name: 🇭🇰 中国香港 (Hong Kong) 12 - xiaohe
-  type: vmess
-  server: 47.244.120.197
-  port: 23026
-  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /arki
-    headers:
-      Host: ''
-- name: 🇭🇰 中国香港 (Hong Kong) 13 - xiaohe
   type: vmess
   server: 47.244.120.197
   port: 36703
@@ -173,6 +101,29 @@ proxies:
     path: /arki
     headers:
       Host: ''
+- name: 🇭🇰 中国香港 (Hong Kong) 09 - xiaohe
+  type: vmess
+  server: 156.245.232.239
+  port: 35043
+  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ''
+- name: 🇭🇰 中国香港 (Hong Kong) 10 - xiaohe
+  type: trojan
+  server: 2.27.109.179
+  port: 45464
+  password: XuMweB2PWs
+  udp: true
+  sni: 2.27.109.179.sslip.io
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -188,9 +139,6 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 08 - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 09 - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 10 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 11 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 12 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 13 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -206,8 +154,5 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 08 - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 09 - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 10 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 11 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 12 - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 13 - xiaohe
 rules:
 - MATCH,PROXIES
