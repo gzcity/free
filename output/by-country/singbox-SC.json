@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇴 RO 01 - xiaohe"
+        "🇸🇨 SC 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,23 +25,23 @@
       "tag": "block"
     },
     {
-      "tag": "🇷🇴 RO 01 - xiaohe",
+      "tag": "🇸🇨 SC 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "46.183.16.4",
+      "server": "154.211.8.227",
       "port": 2087,
-      "uuid": "69d76969-4c52-40f5-ac1d-303571634362",
+      "uuid": "40af9131-d540-448a-bc56-5bba147a1dc3",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "ro1.b0w.ir",
+        "server_name": "proxy-34l.pages.dev",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
         "path": "/",
         "headers": {
-          "Host": "46.183.16.4"
+          "Host": "proxy-34l.pages.dev"
         }
       }
     }

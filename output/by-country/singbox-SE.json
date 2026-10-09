@@ -12,8 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇪 SE 01 - xiaohe",
-        "🇸🇪 SE 02 - xiaohe"
+        "🇸🇪 SE 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -27,27 +26,6 @@
     },
     {
       "tag": "🇸🇪 SE 01 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "77.110.97.245",
-      "port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇪 SE 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "94.143.231.146",
