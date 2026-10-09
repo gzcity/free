@@ -28,10 +28,10 @@
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "46.17.45.31",
-      "port": 50660,
-      "method": "aes-256-gcm",
-      "password": "bdb313adf74c2ede"
+      "server": "130.49.189.158",
+      "port": 43558,
+      "method": "chacha20-ietf-poly1305",
+      "password": "eicdhshSrFLCx/sZ1PSpuKyoVWGZpU95tFS4iGC1c04="
     }
   ]
 }
