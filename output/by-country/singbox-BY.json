@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇨 SC 01 - xiaohe"
+        "🇧🇾 BY 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,23 +25,23 @@
       "tag": "block"
     },
     {
-      "tag": "🇸🇨 SC 01 - xiaohe",
+      "tag": "🇧🇾 BY 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "188.114.97.6",
-      "port": 443,
-      "uuid": "698b212d-ca12-4794-8256-252a6e1b4533",
+      "server": "89.125.96.93",
+      "port": 2053,
+      "uuid": "6c713691-3ca2-0008-ad25-113d1bed6b03",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "w2p6.vpnpolar.online",
+        "server_name": "wss.zazazuza.ru",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/beeline?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET",
+        "path": "/vpn-wss/fluxor/59011/",
         "headers": {
-          "Host": "w2p6.vpnpolar.online"
+          "Host": "wss.zazazuza.ru"
         }
       }
     }

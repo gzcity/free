@@ -14,7 +14,9 @@
       "outbounds": [
         "🇧🇬 BG 01 - xiaohe",
         "🇧🇬 BG 02 - xiaohe",
-        "🇧🇬 BG 03 - xiaohe"
+        "🇧🇬 BG 03 - xiaohe",
+        "🇧🇬 BG 04 - xiaohe",
+        "🇧🇬 BG 05 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -70,6 +72,48 @@
     },
     {
       "tag": "🇧🇬 BG 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "31.40.204.131",
+      "port": 443,
+      "uuid": "86b6c7ba-d613-4567-962a-acfdad5c22db",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "0gltyawm4dbxby5k6kw-3d2475.arta-ts.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "0gltyawm4dbxby5k6kw-3d2475.arta-ts.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇬 BG 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "194.226.121.119",
+      "port": 443,
+      "uuid": "ec6f8131-7a5d-4117-9627-6fb2b39ae0da",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "drive.korroh.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/remote.php/dav/89f7661a0011ce46",
+        "headers": {
+          "Host": "drive.korroh.com"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇬 BG 05 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "cloud.korroh.com",

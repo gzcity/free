@@ -5,13 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇪 IE 01 - xiaohe
-  type: trojan
-  server: 34.242.77.118
+  type: ss
+  server: 20.123.1.55
   port: 443
-  password: UX82473651
+  cipher: chacha20-ietf-poly1305
+  password: YF329KNGVTUZ1qrH
   udp: true
-  sni: sacred-anemone.rooster465.autos
-  skip-cert-verify: true
 - name: 🇮🇪 IE 02 - xiaohe
   type: ss
   server: 20.123.1.55
@@ -34,13 +33,6 @@ proxies:
     headers:
       Host: ccc.010304.xyz
 - name: 🇮🇪 IE 04 - xiaohe
-  type: ss
-  server: 20.123.1.55
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: YF329KNGVTUZ1qrH
-  udp: true
-- name: 🇮🇪 IE 05 - xiaohe
   type: trojan
   server: master-possum.rooster465.autos
   port: 443
@@ -48,13 +40,13 @@ proxies:
   udp: true
   sni: master-possum.rooster465.autos
   skip-cert-verify: true
-- name: 🇮🇪 IE 06 - xiaohe
+- name: 🇮🇪 IE 05 - xiaohe
   type: trojan
-  server: master-possum.rooster465.autos
+  server: 34.242.77.118
   port: 443
   password: UX82473651
   udp: true
-  sni: master-possum.rooster465.autos
+  sni: sacred-anemone.rooster465.autos
   skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
@@ -66,7 +58,6 @@ proxy-groups:
   - 🇮🇪 IE 03 - xiaohe
   - 🇮🇪 IE 04 - xiaohe
   - 🇮🇪 IE 05 - xiaohe
-  - 🇮🇪 IE 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -77,6 +68,5 @@ proxy-groups:
   - 🇮🇪 IE 03 - xiaohe
   - 🇮🇪 IE 04 - xiaohe
   - 🇮🇪 IE 05 - xiaohe
-  - 🇮🇪 IE 06 - xiaohe
 rules:
 - MATCH,PROXIES
