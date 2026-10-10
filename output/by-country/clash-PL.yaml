@@ -5,32 +5,14 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇵🇱 PL 01 - xiaohe
-  type: vless
-  server: 2.26.225.89
-  port: 8443
-  uuid: 51a1fd52-fd88-4905-a976-35e44be28e4b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: pl.flen-vpn.xyz
-- name: 🇵🇱 PL 02 - xiaohe
   type: trojan
-  server: enabling-snipe.rooster465.autos
-  port: 443
-  password: UX82473651
+  server: 222.167.245.248
+  port: 2097
+  password: gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU
   udp: true
-  sni: enabling-snipe.rooster465.autos
+  sni: pol2.fytpn.com
   skip-cert-verify: true
-- name: 🇵🇱 PL 03 - xiaohe
-  type: vless
-  server: pl.flen-vpn.xyz
-  port: 8443
-  uuid: 51a1fd52-fd88-4905-a976-35e44be28e4b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: pl.flen-vpn.xyz
-- name: 🇵🇱 PL 04 - xiaohe
+- name: 🇵🇱 PL 02 - xiaohe
   type: vless
   server: 95.85.253.241
   port: 2087
@@ -39,16 +21,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: 95.85.253.241
-- name: 🇵🇱 PL 05 - xiaohe
-  type: vless
-  server: 95.85.253.241
-  port: 2083
-  uuid: ee0a38e3-d148-48ac-ba99-5133446c2377
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 95.85.253.241
-- name: 🇵🇱 PL 06 - xiaohe
+- name: 🇵🇱 PL 03 - xiaohe
   type: vless
   server: 95.85.253.241
   port: 2053
@@ -57,24 +30,15 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: 95.85.253.241
-- name: 🇵🇱 PL 07 - xiaohe
+- name: 🇵🇱 PL 04 - xiaohe
   type: trojan
-  server: 222.167.245.248
-  port: 2097
-  password: gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU
+  server: 202.78.163.237
+  port: 443
+  password: UX82473651
   udp: true
-  sni: pol2.fytpn.com
+  sni: cheerful-swan.rooster465.autos
   skip-cert-verify: true
-- name: 🇵🇱 PL 08 - xiaohe
-  type: vless
-  server: 95.85.253.241
-  port: 2053
-  uuid: ee0a38e3-d148-48ac-ba99-5133446c2377
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 95.85.253.241
-- name: 🇵🇱 PL 09 - xiaohe
+- name: 🇵🇱 PL 05 - xiaohe
   type: vless
   server: 2.26.225.89
   port: 8443
@@ -83,14 +47,50 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: pl.flen-vpn.xyz
-- name: 🇵🇱 PL 10 - xiaohe
+- name: 🇵🇱 PL 06 - xiaohe
+  type: vless
+  server: 95.85.253.241
+  port: 2083
+  uuid: ee0a38e3-d148-48ac-ba99-5133446c2377
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 95.85.253.241
+- name: 🇵🇱 PL 07 - xiaohe
+  type: vless
+  server: pl.flen-vpn.xyz
+  port: 8443
+  uuid: 51a1fd52-fd88-4905-a976-35e44be28e4b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: pl.flen-vpn.xyz
+- name: 🇵🇱 PL 08 - xiaohe
+  type: vless
+  server: 95.85.253.241
+  port: 2083
+  uuid: ee0a38e3-d148-48ac-ba99-5133446c2377
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 95.85.253.241
+- name: 🇵🇱 PL 09 - xiaohe
   type: trojan
-  server: 202.78.163.237
+  server: enabling-snipe.rooster465.autos
   port: 443
   password: UX82473651
   udp: true
-  sni: cheerful-swan.rooster465.autos
+  sni: enabling-snipe.rooster465.autos
   skip-cert-verify: true
+- name: 🇵🇱 PL 10 - xiaohe
+  type: vless
+  server: 2.26.225.89
+  port: 8443
+  uuid: 51a1fd52-fd88-4905-a976-35e44be28e4b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: pl.flen-vpn.xyz
 proxy-groups:
 - name: PROXIES
   type: select

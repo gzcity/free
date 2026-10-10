@@ -12,8 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe"
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -43,27 +42,6 @@
         "path": "/81574b6b-c9d7-44a0-b83d-dad56e8cb530",
         "headers": {
           "Host": "103.180.20.108"
-        }
-      }
-    },
-    {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "61.18.134.10",
-      "port": 443,
-      "uuid": "e077d2c2-7dc5-4e6e-a44d-79c4e4d8b384",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "mswo-gy191m.zhiyuantech.cloud",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/e077d2c2-7dc5-4e6e-a44d-79c4e4d8b384",
-        "headers": {
-          "Host": "mswo-gy191m.zhiyuantech.cloud"
         }
       }
     }

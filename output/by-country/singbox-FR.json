@@ -34,9 +34,7 @@
         "🇫🇷 法国 (France) 20 - xiaohe",
         "🇫🇷 法国 (France) 21 - xiaohe",
         "🇫🇷 法国 (France) 22 - xiaohe",
-        "🇫🇷 法国 (France) 23 - xiaohe",
-        "🇫🇷 法国 (France) 24 - xiaohe",
-        "🇫🇷 法国 (France) 25 - xiaohe"
+        "🇫🇷 法国 (France) 23 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -52,64 +50,40 @@
       "tag": "🇫🇷 法国 (France) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "82.126.161.49",
-      "port": 443,
-      "uuid": "489f1717-d3c7-4940-ad68-bdbdbab857f4",
+      "server": "172.67.190.248",
+      "port": 8443,
+      "uuid": "7c99dc89-bf49-45c9-acc5-e43f36657518",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "x.m-90.xyz",
+        "server_name": "www.large-files.info",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "t.me/TEAMNETGRATISCOL",
+        "path": "/var/www/html/video/preview/download/i8o0la",
         "headers": {
-          "Host": "x.m-90.xyz"
+          "Host": "www.large-files.info"
         }
       }
     },
     {
       "tag": "🇫🇷 法国 (France) 02 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "54.37.136.194",
-      "port": 2053,
-      "uuid": "e8a432c8-5d84-49a5-b822-67ed761a58f9",
-      "flow": "",
+      "type": "vmess",
+      "server": "141.95.65.9",
+      "port": 1234,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "random",
-        "reality": true,
-        "public_key": "Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A",
-        "short_id": ""
+        "server_name": "",
+        "insecure": true
       }
     },
     {
       "tag": "🇫🇷 法国 (France) 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.21.84.30",
-      "port": 2053,
-      "uuid": "9d672694-c146-422e-b3b5-3717a38a0fcc",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "fr.api-music-fa.com",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/api/voip/updates/static/fr2035",
-        "headers": {
-          "Host": "fr.api-music-fa.com"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 04 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "51.77.217.70",
@@ -120,23 +94,44 @@
         "enabled": true,
         "server_name": "www.apple.com",
         "insecure": true,
-        "client_fingerprint": "chrome",
+        "client_fingerprint": "random",
         "reality": true,
         "public_key": "g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w",
         "short_id": ""
       }
     },
     {
+      "tag": "🇫🇷 法国 (France) 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.67.175.23",
+      "port": 443,
+      "uuid": "50414e45-4c5f-5a45-5553-ef859652a80e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "trex-panel-nubj0s.samifakor.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/stream/TrexBridge/ef859652a80e",
+        "headers": {
+          "Host": "trex-panel-nubj0s.samifakor.workers.dev"
+        }
+      }
+    },
+    {
       "tag": "🇫🇷 法国 (France) 05 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.21.84.30",
+      "server": "8.47.69.0",
       "port": 2053,
       "uuid": "9d672694-c146-422e-b3b5-3717a38a0fcc",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "fr.api-music-fa.com",
+        "server_name": "vless.api-music-fa.com",
         "insecure": true,
         "client_fingerprint": null
       },
@@ -150,14 +145,41 @@
     {
       "tag": "🇫🇷 法国 (France) 06 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "51.255.13.232",
-      "port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "BqnqToih0PbU"
+      "type": "vless",
+      "server": "172.67.185.98",
+      "port": 2053,
+      "uuid": "9d672694-c146-422e-b3b5-3717a38a0fcc",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "fr.api-music-fa.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/api/voip/updates/static/fr2035",
+        "headers": {
+          "Host": "fr.api-music-fa.com"
+        }
+      }
     },
     {
       "tag": "🇫🇷 法国 (France) 07 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "141.95.65.9",
+      "port": 1234,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 08 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "162.19.204.71",
@@ -172,39 +194,19 @@
       }
     },
     {
-      "tag": "🇫🇷 法国 (France) 08 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "51.77.217.70",
-      "port": 2053,
-      "uuid": "bf16ee0c-8b3c-41e4-ab3a-8b48033c404e",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true,
-        "client_fingerprint": "random",
-        "reality": true,
-        "public_key": "g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w",
-        "short_id": ""
-      }
-    },
-    {
       "tag": "🇫🇷 法国 (France) 09 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "54.37.136.194",
-      "port": 2053,
-      "uuid": "e8a432c8-5d84-49a5-b822-67ed761a58f9",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A",
-        "short_id": ""
+      "type": "vmess",
+      "server": "57.128.164.21",
+      "port": 80,
+      "uuid": "10029c03-5d2f-4185-aab2-cbf91eef7361",
+      "alterId": 0,
+      "security": "auto",
+      "ws": {
+        "path": "/d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560",
+        "headers": {
+          "Host": "https.http.www.net.com.ramseyv2.ir."
+        }
       }
     },
     {
@@ -231,21 +233,98 @@
     {
       "tag": "🇫🇷 法国 (France) 11 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "https.http.www.net.com.ramseyv2.ir.",
-      "port": 80,
-      "uuid": "10029c03-5d2f-4185-aab2-cbf91eef7361",
-      "alterId": 0,
-      "security": "auto",
+      "type": "vless",
+      "server": "104.21.60.29",
+      "port": 8443,
+      "uuid": "7c99dc89-bf49-45c9-acc5-e43f36657518",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.large-files.info",
+        "insecure": true,
+        "client_fingerprint": null
+      },
       "ws": {
-        "path": "/d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560",
+        "path": "/var/www/html/video/preview/download/i8o0la",
         "headers": {
-          "Host": "https.http.www.net.com.ramseyv2.ir."
+          "Host": "www.large-files.info"
         }
       }
     },
     {
       "tag": "🇫🇷 法国 (France) 12 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "51.255.13.232",
+      "port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "BqnqToih0PbU"
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 13 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.67.193.182",
+      "port": 443,
+      "uuid": "50414e45-4c5f-5a45-5553-ef859652a80e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "trex-panel-nubj0s.samifakor.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/stream/TrexBridge/ef859652a80e",
+        "headers": {
+          "Host": "trex-panel-nubj0s.samifakor.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 14 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.20.17.127",
+      "port": 443,
+      "uuid": "50414e45-4c5f-5a45-5553-ef859652a80e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "trex-panel-nubj0s.samifakor.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/stream/TrexBridge/ef859652a80e",
+        "headers": {
+          "Host": "trex-panel-nubj0s.samifakor.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 15 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.21.84.30",
+      "port": 2053,
+      "uuid": "9d672694-c146-422e-b3b5-3717a38a0fcc",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "fr.api-music-fa.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/api/voip/updates/static/fr2035",
+        "headers": {
+          "Host": "fr.api-music-fa.com"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 16 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "57.128.164.21",
@@ -261,95 +340,18 @@
       }
     },
     {
-      "tag": "🇫🇷 法国 (France) 13 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "141.95.65.9",
-      "port": 1234,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 14 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "54.37.136.194",
-      "port": 2053,
-      "uuid": "e8a432c8-5d84-49a5-b822-67ed761a58f9",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 15 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "8.47.69.0",
-      "port": 2053,
-      "uuid": "9d672694-c146-422e-b3b5-3717a38a0fcc",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "vless.api-music-fa.com",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/api/voip/updates/static/fr2035",
-        "headers": {
-          "Host": "fr.api-music-fa.com"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 16 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "54.37.136.194",
-      "port": 2053,
-      "uuid": "e8a432c8-5d84-49a5-b822-67ed761a58f9",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A",
-        "short_id": ""
-      }
-    },
-    {
       "tag": "🇫🇷 法国 (France) 17 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "172.67.190.248",
-      "port": 8443,
-      "uuid": "7c99dc89-bf49-45c9-acc5-e43f36657518",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.large-files.info",
-        "insecure": true,
-        "client_fingerprint": null
-      },
+      "type": "vmess",
+      "server": "57.128.164.21",
+      "port": 80,
+      "uuid": "10029c03-5d2f-4185-aab2-cbf91eef7361",
+      "alterId": 0,
+      "security": "auto",
       "ws": {
-        "path": "/var/www/html/video/preview/download/i8o0la",
+        "path": "/d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560",
         "headers": {
-          "Host": "www.large-files.info"
+          "Host": "https.http.www.net.com.ramseyv2.ir."
         }
       }
     },
@@ -378,89 +380,67 @@
       "tag": "🇫🇷 法国 (France) 19 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "51.77.217.70",
+      "server": "172.67.185.98",
       "port": 2053,
-      "uuid": "bf16ee0c-8b3c-41e4-ab3a-8b48033c404e",
+      "uuid": "9d672694-c146-422e-b3b5-3717a38a0fcc",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
+        "server_name": "fr.api-music-fa.com",
         "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w",
-        "short_id": ""
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/api/voip/updates/static/fr2035",
+        "headers": {
+          "Host": "fr.api-music-fa.com"
+        }
       }
     },
     {
       "tag": "🇫🇷 法国 (France) 20 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "162.19.204.71",
-      "port": 1234,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "alterId": 0,
-      "security": "auto",
+      "type": "vless",
+      "server": "8.47.69.0",
+      "port": 2053,
+      "uuid": "9d672694-c146-422e-b3b5-3717a38a0fcc",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "",
-        "insecure": true
+        "server_name": "vless.api-music-fa.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/api/voip/updates/static/fr2035",
+        "headers": {
+          "Host": "fr.api-music-fa.com"
+        }
       }
     },
     {
       "tag": "🇫🇷 法国 (France) 21 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "57.128.164.21",
-      "port": 80,
-      "uuid": "10029c03-5d2f-4185-aab2-cbf91eef7361",
-      "alterId": 0,
-      "security": "auto",
+      "type": "vless",
+      "server": "104.21.72.47",
+      "port": 443,
+      "uuid": "50414e45-4c5f-5a45-5553-ef859652a80e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "trex-panel-nubj0s.samifakor.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
       "ws": {
-        "path": "/d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560",
+        "path": "/stream/TrexBridge/ef859652a80e",
         "headers": {
-          "Host": "https.http.www.net.com.ramseyv2.ir."
+          "Host": "trex-panel-nubj0s.samifakor.workers.dev"
         }
       }
     },
     {
       "tag": "🇫🇷 法国 (France) 22 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.21.60.29",
-      "port": 8443,
-      "uuid": "7c99dc89-bf49-45c9-acc5-e43f36657518",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.large-files.info",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/var/www/html/video/preview/download/i8o0la",
-        "headers": {
-          "Host": "www.large-files.info"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 23 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "141.95.65.9",
-      "port": 1234,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 24 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "54.37.136.194",
@@ -478,18 +458,23 @@
       }
     },
     {
-      "tag": "🇫🇷 法国 (France) 25 - xiaohe",
+      "tag": "🇫🇷 法国 (France) 23 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "57.128.164.21",
-      "port": 80,
-      "uuid": "10029c03-5d2f-4185-aab2-cbf91eef7361",
-      "alterId": 0,
-      "security": "auto",
+      "type": "vless",
+      "server": "8.47.69.0",
+      "port": 2053,
+      "uuid": "9d672694-c146-422e-b3b5-3717a38a0fcc",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "vless.api-music-fa.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
       "ws": {
-        "path": "/d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560",
+        "path": "/api/voip/updates/static/fr2035",
         "headers": {
-          "Host": "https.http.www.net.com.ramseyv2.ir."
+          "Host": "fr.api-music-fa.com"
         }
       }
     }

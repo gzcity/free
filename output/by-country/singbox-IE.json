@@ -29,6 +29,32 @@
     {
       "tag": "🇮🇪 IE 01 - xiaohe",
       "udp": true,
+      "type": "trojan",
+      "server": "adapting-basilisk.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "adapting-basilisk.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇮🇪 IE 02 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "sacred-anemone.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "sacred-anemone.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇮🇪 IE 03 - xiaohe",
+      "udp": true,
       "type": "vless",
       "server": "23.95.225.10",
       "port": 8443,
@@ -45,32 +71,6 @@
         "headers": {
           "Host": "ccc.010304.xyz"
         }
-      }
-    },
-    {
-      "tag": "🇮🇪 IE 02 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "adapting-basilisk.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "adapting-basilisk.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇮🇪 IE 03 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "master-possum.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "master-possum.rooster465.autos",
-        "insecure": true
       }
     }
   ]

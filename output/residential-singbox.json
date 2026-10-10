@@ -14,8 +14,7 @@
       "outbounds": [
         "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - xiaohe"
+        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -31,27 +30,6 @@
       "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "59.125.69.24",
-      "port": 443,
-      "uuid": "06e177f7-240d-4687-bd85-235505801a5e",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ty986gfazs.cainiaohub.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/81574b6b-c9d7-44a0-b83d-dad56e8cb530",
-        "headers": {
-          "Host": "59.125.69.24"
-        }
-      }
-    },
-    {
-      "tag": "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
-      "udp": true,
-      "type": "vless",
       "server": "61.230.162.88",
       "port": 24215,
       "uuid": "19d5a678-8396-4e3b-93da-ece618d0e83a",
@@ -64,6 +42,27 @@
         "reality": true,
         "public_key": "mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE",
         "short_id": ""
+      }
+    },
+    {
+      "tag": "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "60.248.219.54",
+      "port": 443,
+      "uuid": "06e177f7-240d-4687-bd85-235505801a5e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ty986gfazs.cainiaohub.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/81574b6b-c9d7-44a0-b83d-dad56e8cb530",
+        "headers": {
+          "Host": "60.248.219.54"
+        }
       }
     },
     {
@@ -84,27 +83,6 @@
         "path": "/81574b6b-c9d7-44a0-b83d-dad56e8cb530",
         "headers": {
           "Host": "103.180.20.108"
-        }
-      }
-    },
-    {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "61.18.134.10",
-      "port": 443,
-      "uuid": "e077d2c2-7dc5-4e6e-a44d-79c4e4d8b384",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "mswo-gy191m.zhiyuantech.cloud",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/e077d2c2-7dc5-4e6e-a44d-79c4e4d8b384",
-        "headers": {
-          "Host": "mswo-gy191m.zhiyuantech.cloud"
         }
       }
     }

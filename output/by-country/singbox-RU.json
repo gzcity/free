@@ -12,7 +12,9 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇺 俄罗斯 (Russia) 01 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -26,6 +28,45 @@
     },
     {
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "79.174.92.222",
+      "port": 443,
+      "uuid": "03ca8c3f-e777-45b5-a1b1-592094ca99ee",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "m.vk.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "_PYBo3dyZRpGC44vADqcmlBCSeAVh1X8l3mulghVsTI",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "185.86.145.183",
+      "port": 443,
+      "uuid": "7ec9f26a-edec-4bf1-addd-700626df27c1",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cosmo-pulse.ru",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/nl7ws",
+        "headers": {
+          "Host": "cosmo-pulse.ru"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "130.49.189.158",

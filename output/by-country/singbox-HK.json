@@ -27,7 +27,8 @@
         "🇭🇰 中国香港 (Hong Kong) 13 - xiaohe",
         "🇭🇰 中国香港 (Hong Kong) 14 - xiaohe",
         "🇭🇰 中国香港 (Hong Kong) 15 - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 16 - xiaohe"
+        "🇭🇰 中国香港 (Hong Kong) 16 - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 17 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -42,47 +43,84 @@
     {
       "tag": "🇭🇰 中国香港 (Hong Kong) 01 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "93ucrn4i0pffuabk.v.3dns.vip",
-      "port": 443,
-      "uuid": "f23bb427-c1f9-4373-876c-2f43e9f790f3",
-      "alterId": 0,
-      "security": "auto",
+      "type": "trojan",
+      "server": "2.27.109.179",
+      "port": 45464,
+      "password": "XuMweB2PWs",
       "tls": {
         "enabled": true,
-        "server_name": "93ucrn4i0pffuabk.v.3dns.vip",
+        "server_name": "2.27.109.179.sslip.io",
         "insecure": true
-      },
-      "ws": {
-        "path": "/ws-vmess",
-        "headers": {
-          "Host": "93ucrn4i0pffuabk.v.3dns.vip"
-        }
       }
     },
     {
       "tag": "🇭🇰 中国香港 (Hong Kong) 02 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "8.217.254.88",
+      "server": "156.245.232.239",
+      "port": 35043,
+      "uuid": "b15e481d-17e4-41a8-84c2-23d4f0514d9a",
+      "alterId": 0,
+      "security": "auto",
+      "ws": {
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇭🇰 中国香港 (Hong Kong) 03 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "full-ox.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "full-ox.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "8.217.13.103",
       "port": 443,
       "uuid": "f23bb427-c1f9-4373-876c-2f43e9f790f3",
       "alterId": 0,
       "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "2b9hwy8ocx7q74nm.v.3dns.vip",
+        "server_name": "qtkdr8jxe3wefxjm.v.3dns.vip",
         "insecure": true
       },
       "ws": {
         "path": "/ws-vmess",
         "headers": {
-          "Host": "2b9hwy8ocx7q74nm.v.3dns.vip"
+          "Host": "qtkdr8jxe3wefxjm.v.3dns.vip"
         }
       }
     },
     {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 03 - xiaohe",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "156.245.232.239",
+      "port": 35043,
+      "uuid": "b15e481d-17e4-41a8-84c2-23d4f0514d9a",
+      "alterId": 0,
+      "security": "auto",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "43.129.80.179",
@@ -103,22 +141,49 @@
       }
     },
     {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - xiaohe",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 07 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "octpus.tesst18.ir",
-      "port": 26022,
-      "uuid": "6033f3d7-540d-42b8-b747-f2e785097c7e",
-      "flow": "",
+      "type": "trojan",
+      "server": "full-ox.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "full-ox.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇭🇰 中国香港 (Hong Kong) 08 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "47.244.120.197",
+      "port": 44867,
+      "uuid": "845e6b08-2919-4290-ade0-5dc7dcea59ca",
+      "alterId": 0,
+      "security": "auto",
       "ws": {
-        "path": "/",
+        "path": "/arki",
         "headers": {
-          "Host": "play.google.com"
+          "Host": ""
         }
       }
     },
     {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - xiaohe",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 09 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "2.27.109.179",
+      "port": 45464,
+      "password": "XuMweB2PWs",
+      "tls": {
+        "enabled": true,
+        "server_name": "2.27.109.179.sslip.io",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇭🇰 中国香港 (Hong Kong) 10 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "47.243.153.153",
@@ -139,28 +204,7 @@
       }
     },
     {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "8.218.195.61",
-      "port": 443,
-      "uuid": "f23bb427c1f94373876c2f43e9f790f3",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "EX1oGt73NzPQKAc2.v.3dns.vip",
-        "insecure": true
-      },
-      "ws": {
-        "path": "/ws-vmess",
-        "headers": {
-          "Host": "EX1oGt73NzPQKAc2.v.3dns.vip"
-        }
-      }
-    },
-    {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 07 - xiaohe",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 11 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "34.92.19.135",
@@ -174,71 +218,6 @@
         "client_fingerprint": "chrome",
         "reality": true,
         "public_key": "tSBJnEt6E1dy6UgX9gX5wUfvZ2KAXjGWVKsEq886OWM",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 08 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "full-ox.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "full-ox.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 09 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "2.27.109.179",
-      "port": 45464,
-      "password": "XuMweB2PWs",
-      "tls": {
-        "enabled": true,
-        "server_name": "2.27.109.179.sslip.io",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 10 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "43.161.226.55",
-      "port": 443,
-      "uuid": "489f1717-d3c7-4940-ad68-bdbdbab857f4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "x.m-90.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "t.me/TEAMNETGRATISCOL",
-        "headers": {
-          "Host": "x.m-90.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 11 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "47.238.210.5",
-      "port": 13779,
-      "uuid": "928e6cce-8ced-4243-9a48-a6642edd09b0",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "tesla.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg",
         "short_id": ""
       }
     },
@@ -259,25 +238,47 @@
       "tag": "🇭🇰 中国香港 (Hong Kong) 13 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "qtkdr8jxe3wefxjm.v.3dns.vip",
-      "port": 443,
-      "uuid": "f23bb427-c1f9-4373-876c-2f43e9f790f3",
+      "server": "47.244.120.197",
+      "port": 23026,
+      "uuid": "b9de1bc9-baa7-41ac-86f7-ccd59695cb21",
       "alterId": 0,
       "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "qTKDR8jXE3wEFxJM.v.3dns.vip",
-        "insecure": true
-      },
       "ws": {
-        "path": "/ws-vmess",
+        "path": "/arki",
         "headers": {
-          "Host": "qTKDR8jXE3wEFxJM.v.3dns.vip"
+          "Host": "47.244.120.197"
         }
       }
     },
     {
       "tag": "🇭🇰 中国香港 (Hong Kong) 14 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "ruot.ayucloudservices.nl",
+      "port": 40004,
+      "method": "aes-128-gcm",
+      "password": "70a5c510-d56d-43e7-b150-9c00c969bd50"
+    },
+    {
+      "tag": "🇭🇰 中国香港 (Hong Kong) 15 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "47.238.210.5",
+      "port": 13779,
+      "uuid": "928e6cce-8ced-4243-9a48-a6642edd09b0",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "tesla.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇭🇰 中国香港 (Hong Kong) 16 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "yg1.ygkkk.dpdns.org",
@@ -298,34 +299,18 @@
       }
     },
     {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 15 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "full-ox.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "full-ox.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 16 - xiaohe",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 17 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "47.238.210.5",
-      "port": 13779,
-      "uuid": "928e6cce-8ced-4243-9a48-a6642edd09b0",
+      "server": "172.65.90.52",
+      "port": 8880,
+      "uuid": "30e4c878-15ca-4f53-ab32-04c60ecd3f31",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "tesla.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg",
-        "short_id": ""
+      "ws": {
+        "path": "/pyip=ProxyIP.US.CMLiussss.net",
+        "headers": {
+          "Host": "blue-rice-7142.30-346.workers.dev"
+        }
       }
     }
   ]
