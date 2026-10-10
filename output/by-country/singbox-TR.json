@@ -30,27 +30,6 @@
       "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "203.202.232.211",
-      "port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/fp=chrome",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
       "server": "130.94.1.150",
       "port": 443,
       "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
@@ -69,13 +48,34 @@
       }
     },
     {
+      "tag": "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "test.keoplentuio.xyz",
+      "port": 2053,
+      "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f",
+      "flow": ""
+    },
+    {
       "tag": "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "www.asamping.ir",
-      "port": 1468,
-      "method": "aes-128-gcm",
-      "password": "l2NidZbckMu4PnIHsJTYJg"
+      "type": "vless",
+      "server": "130.94.1.150",
+      "port": 443,
+      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "lucasjow.us.ci",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/cart/docs/www/proxyip=108.160.132.132",
+        "headers": {
+          "Host": "lucasjow.us.ci"
+        }
+      }
     }
   ]
 }

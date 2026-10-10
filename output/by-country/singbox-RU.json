@@ -14,7 +14,8 @@
       "outbounds": [
         "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -48,20 +49,20 @@
       "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "185.86.145.183",
+      "server": "185.147.27.215",
       "port": 443,
-      "uuid": "7ec9f26a-edec-4bf1-addd-700626df27c1",
+      "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "cosmo-pulse.ru",
+        "server_name": "ap2.directly.chat",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/nl7ws",
+        "path": "/md/1",
         "headers": {
-          "Host": "cosmo-pulse.ru"
+          "Host": "ap2.directly.chat"
         }
       }
     },
@@ -73,6 +74,15 @@
       "port": 43558,
       "method": "chacha20-ietf-poly1305",
       "password": "eicdhshSrFLCx/sZ1PSpuKyoVWGZpU95tFS4iGC1c04="
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "194.87.196.107",
+      "port": 40440,
+      "method": "aes-256-gcm",
+      "password": "4938e975724d0ed1"
     }
   ]
 }

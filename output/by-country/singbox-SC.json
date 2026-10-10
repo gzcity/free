@@ -28,20 +28,20 @@
       "tag": "🇸🇨 SC 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "154.211.8.227",
-      "port": 2087,
-      "uuid": "40af9131-d540-448a-bc56-5bba147a1dc3",
+      "server": "188.114.97.6",
+      "port": 443,
+      "uuid": "698b212d-ca12-4794-8256-252a6e1b4533",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "proxy-34l.pages.dev",
+        "server_name": "w2p6.vpnpolar.online",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/",
+        "path": "/beeline?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET",
         "headers": {
-          "Host": "proxy-34l.pages.dev"
+          "Host": "w2p6.vpnpolar.online"
         }
       }
     }
