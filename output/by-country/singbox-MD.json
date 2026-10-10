@@ -27,7 +27,8 @@
         "🇲🇩 MD 13 - xiaohe",
         "🇲🇩 MD 14 - xiaohe",
         "🇲🇩 MD 15 - xiaohe",
-        "🇲🇩 MD 16 - xiaohe"
+        "🇲🇩 MD 16 - xiaohe",
+        "🇲🇩 MD 17 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -41,153 +42,6 @@
     },
     {
       "tag": "🇲🇩 MD 01 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "87.228.71.196",
-      "port": 443,
-      "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ap2.directly.chat",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/md/1",
-        "headers": {
-          "Host": "ap2.directly.chat"
-        }
-      }
-    },
-    {
-      "tag": "🇲🇩 MD 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "87.228.71.197",
-      "port": 443,
-      "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ap2.directly.chat",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/md/1",
-        "headers": {
-          "Host": "ap2.directly.chat"
-        }
-      }
-    },
-    {
-      "tag": "🇲🇩 MD 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "185.147.27.131",
-      "port": 443,
-      "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ap2.directly.chat",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/md/1",
-        "headers": {
-          "Host": "ap2.directly.chat"
-        }
-      }
-    },
-    {
-      "tag": "🇲🇩 MD 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "45.139.24.28",
-      "port": 443,
-      "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ap2.directly.chat",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/md/1",
-        "headers": {
-          "Host": "ap2.directly.chat"
-        }
-      }
-    },
-    {
-      "tag": "🇲🇩 MD 05 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "185.147.27.196",
-      "port": 443,
-      "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ap2.directly.chat",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/md/1",
-        "headers": {
-          "Host": "ap2.directly.chat"
-        }
-      }
-    },
-    {
-      "tag": "🇲🇩 MD 06 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "185.147.27.68",
-      "port": 443,
-      "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ap2.directly.chat",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/md/1",
-        "headers": {
-          "Host": "ap2.directly.chat"
-        }
-      }
-    },
-    {
-      "tag": "🇲🇩 MD 07 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "87.228.71.195",
-      "port": 443,
-      "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ap2.directly.chat",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/md/1",
-        "headers": {
-          "Host": "ap2.directly.chat"
-        }
-      }
-    },
-    {
-      "tag": "🇲🇩 MD 08 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "185.147.27.130",
@@ -208,10 +62,157 @@
       }
     },
     {
-      "tag": "🇲🇩 MD 09 - xiaohe",
+      "tag": "🇲🇩 MD 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "185.147.27.196",
+      "port": 443,
+      "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ap2.directly.chat",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/md/1",
+        "headers": {
+          "Host": "ap2.directly.chat"
+        }
+      }
+    },
+    {
+      "tag": "🇲🇩 MD 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "45.139.24.28",
+      "port": 443,
+      "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ap2.directly.chat",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/md/1",
+        "headers": {
+          "Host": "ap2.directly.chat"
+        }
+      }
+    },
+    {
+      "tag": "🇲🇩 MD 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "87.228.71.198",
+      "port": 443,
+      "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ap2.directly.chat",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/md/1",
+        "headers": {
+          "Host": "ap2.directly.chat"
+        }
+      }
+    },
+    {
+      "tag": "🇲🇩 MD 05 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "185.147.27.116",
+      "port": 443,
+      "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ap2.directly.chat",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/md/1",
+        "headers": {
+          "Host": "ap2.directly.chat"
+        }
+      }
+    },
+    {
+      "tag": "🇲🇩 MD 06 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "185.147.27.217",
+      "port": 443,
+      "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ap2.directly.chat",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/md/1",
+        "headers": {
+          "Host": "ap2.directly.chat"
+        }
+      }
+    },
+    {
+      "tag": "🇲🇩 MD 07 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "87.228.71.197",
+      "port": 443,
+      "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ap2.directly.chat",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/md/1",
+        "headers": {
+          "Host": "ap2.directly.chat"
+        }
+      }
+    },
+    {
+      "tag": "🇲🇩 MD 08 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "87.228.71.195",
+      "port": 443,
+      "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ap2.directly.chat",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/md/1",
+        "headers": {
+          "Host": "ap2.directly.chat"
+        }
+      }
+    },
+    {
+      "tag": "🇲🇩 MD 09 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "185.147.27.215",
       "port": 443,
       "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
       "flow": "",
@@ -253,7 +254,7 @@
       "tag": "🇲🇩 MD 11 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "185.147.27.115",
+      "server": "185.147.27.68",
       "port": 443,
       "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
       "flow": "",
@@ -295,7 +296,7 @@
       "tag": "🇲🇩 MD 13 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "185.147.27.216",
+      "server": "185.147.27.131",
       "port": 443,
       "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
       "flow": "",
@@ -316,7 +317,7 @@
       "tag": "🇲🇩 MD 14 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "87.228.71.198",
+      "server": "185.147.27.105",
       "port": 443,
       "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
       "flow": "",
@@ -337,7 +338,7 @@
       "tag": "🇲🇩 MD 15 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "185.147.27.105",
+      "server": "87.228.71.196",
       "port": 443,
       "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
       "flow": "",
@@ -358,7 +359,28 @@
       "tag": "🇲🇩 MD 16 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "185.147.27.217",
+      "server": "185.147.27.115",
+      "port": 443,
+      "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ap2.directly.chat",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/md/1",
+        "headers": {
+          "Host": "ap2.directly.chat"
+        }
+      }
+    },
+    {
+      "tag": "🇲🇩 MD 17 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "185.147.27.216",
       "port": 443,
       "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
       "flow": "",

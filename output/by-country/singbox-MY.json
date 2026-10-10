@@ -13,8 +13,7 @@
       "tag": "auto",
       "outbounds": [
         "🇲🇾 MY 01 - xiaohe",
-        "🇲🇾 MY 02 - xiaohe",
-        "🇲🇾 MY 03 - xiaohe"
+        "🇲🇾 MY 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -49,21 +48,6 @@
     },
     {
       "tag": "🇲🇾 MY 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "166.88.35.245",
-      "port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "flow": "",
-      "ws": {
-        "path": "/platform117",
-        "headers": {
-          "Host": "platform117.halalkhor.info"
-        }
-      }
-    },
-    {
-      "tag": "🇲🇾 MY 03 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "216.173.67.59",
