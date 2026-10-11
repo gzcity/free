@@ -12,8 +12,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 02 - xiaohe"
+        "🇸🇪 SE 01 - xiaohe",
+        "🇸🇪 SE 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -26,44 +26,44 @@
       "tag": "block"
     },
     {
-      "tag": "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
+      "tag": "🇸🇪 SE 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "208.103.161.5",
+      "server": "94.143.231.146",
       "port": 443,
-      "uuid": "d042a74a-c305-4eec-a89f-39a348022c92",
+      "uuid": "6e05822a-e9da-4135-a9db-71aa07a944af",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "dry-butterfly-8eb9.tmpgnacio83.workers.dev",
+        "server_name": "sub.merky.top",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/",
+        "path": "/merky-connect/de6/",
         "headers": {
-          "Host": "dry-butterfly-8eb9.tmpgnacio83.workers.dev"
+          "Host": "sub.merky.top"
         }
       }
     },
     {
-      "tag": "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
+      "tag": "🇸🇪 SE 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "208.103.161.5",
+      "server": "94.143.231.146",
       "port": 443,
-      "uuid": "d042a74a-c305-4eec-a89f-39a348022c92",
+      "uuid": "6e05822a-e9da-4135-a9db-71aa07a944af",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "dry-butterfly-8eb9.tmpgnacio83.workers.dev",
+        "server_name": "sub.merky.top",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/",
+        "path": "/merky-connect/de6/",
         "headers": {
-          "Host": "dry-butterfly-8eb9.tmpgnacio83.workers.dev"
+          "Host": "sub.merky.top"
         }
       }
     }
