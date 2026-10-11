@@ -12,7 +12,9 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe"
+        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -26,6 +28,48 @@
     },
     {
       "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "654168416355441.d6f54hd1j.cc",
+      "port": 443,
+      "uuid": "ecdc303d-bcbf-4129-bc02-dd67703f7081",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true
+      },
+      "ws": {
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "24864168545164.d6f54hd1j.cc",
+      "port": 443,
+      "uuid": "ecdc303d-bcbf-4129-bc02-dd67703f7081",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "24864168545164.d6f54hd1j.cc",
+        "insecure": true
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "24864168545164.d6f54hd1j.cc"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "60.248.219.78",

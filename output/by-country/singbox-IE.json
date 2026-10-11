@@ -16,7 +16,10 @@
         "🇮🇪 IE 02 - xiaohe",
         "🇮🇪 IE 03 - xiaohe",
         "🇮🇪 IE 04 - xiaohe",
-        "🇮🇪 IE 05 - xiaohe"
+        "🇮🇪 IE 05 - xiaohe",
+        "🇮🇪 IE 06 - xiaohe",
+        "🇮🇪 IE 07 - xiaohe",
+        "🇮🇪 IE 08 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -31,6 +34,28 @@
     {
       "tag": "🇮🇪 IE 01 - xiaohe",
       "udp": true,
+      "type": "shadowsocks",
+      "server": "20.123.1.55",
+      "port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "YF329KNGVTUZ1qrH"
+    },
+    {
+      "tag": "🇮🇪 IE 02 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "3.253.106.233",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "loved-shark.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇮🇪 IE 03 - xiaohe",
+      "udp": true,
       "type": "trojan",
       "server": "adapting-basilisk.rooster465.autos",
       "port": 443,
@@ -42,16 +67,7 @@
       }
     },
     {
-      "tag": "🇮🇪 IE 02 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "20.123.1.55",
-      "port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "YF329KNGVTUZ1qrH"
-    },
-    {
-      "tag": "🇮🇪 IE 03 - xiaohe",
+      "tag": "🇮🇪 IE 04 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "master-possum.rooster465.autos",
@@ -64,7 +80,16 @@
       }
     },
     {
-      "tag": "🇮🇪 IE 04 - xiaohe",
+      "tag": "🇮🇪 IE 05 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "20.234.97.18",
+      "port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "GayYa2V7pUbJBfKu"
+    },
+    {
+      "tag": "🇮🇪 IE 06 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "34.242.77.118",
@@ -77,13 +102,38 @@
       }
     },
     {
-      "tag": "🇮🇪 IE 05 - xiaohe",
+      "tag": "🇮🇪 IE 07 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "20.123.1.55",
+      "type": "vless",
+      "server": "23.95.225.10",
+      "port": 8443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/fp=chrome",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇪 IE 08 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "sacred-anemone.rooster465.autos",
       "port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "YF329KNGVTUZ1qrH"
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "sacred-anemone.rooster465.autos",
+        "insecure": true
+      }
     }
   ]
 }

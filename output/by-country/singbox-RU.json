@@ -13,9 +13,7 @@
       "tag": "auto",
       "outbounds": [
         "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -31,58 +29,19 @@
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "130.49.189.158",
-      "port": 43558,
-      "method": "chacha20-ietf-poly1305",
-      "password": "eicdhshSrFLCx/sZ1PSpuKyoVWGZpU95tFS4iGC1c04="
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "185.229.9.176",
-      "port": 46018,
-      "uuid": "a5893c8b-28a2-4947-9a1c-708db25506c3",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ligastavok.ru",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "een4U3X5mnY1gH2swiakXS9BJ8P4omf8Qp_s8sTp_3Y",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "91.215.43.248",
-      "port": 443,
-      "uuid": "a5893c8b-28a2-4947-9a1c-708db25506c3",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "my.kempekl.online",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/gateway/v1/ws/a64eb463966ba9c4bfd628f1de0362ae",
-        "headers": {
-          "Host": "my.kempekl.online"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
       "server": "46.29.166.27",
       "port": 20221,
       "method": "aes-256-gcm",
       "password": "6b39ae3234dfd68b"
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "176.32.35.102",
+      "port": 20111,
+      "method": "aes-256-gcm",
+      "password": "bdb313adf74c2ede"
     }
   ]
 }
