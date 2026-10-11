@@ -18,8 +18,7 @@
         "🇵🇱 PL 04 - xiaohe",
         "🇵🇱 PL 05 - xiaohe",
         "🇵🇱 PL 06 - xiaohe",
-        "🇵🇱 PL 07 - xiaohe",
-        "🇵🇱 PL 08 - xiaohe"
+        "🇵🇱 PL 07 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -35,6 +34,37 @@
       "tag": "🇵🇱 PL 01 - xiaohe",
       "udp": true,
       "type": "vless",
+      "server": "185.229.9.176",
+      "port": 46018,
+      "uuid": "a5893c8b-28a2-4947-9a1c-708db25506c3",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ligastavok.ru",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "een4U3X5mnY1gH2swiakXS9BJ8P4omf8Qp_s8sTp_3Y",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 02 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "202.78.163.237",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "cheerful-swan.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
       "server": "2.26.225.89",
       "port": 8443,
       "uuid": "51a1fd52-fd88-4905-a976-35e44be28e4b",
@@ -42,39 +72,6 @@
       "tls": {
         "enabled": true,
         "server_name": "pl.flen-vpn.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      }
-    },
-    {
-      "tag": "🇵🇱 PL 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "pl-1-1.unturned-rust-dead.lol",
-      "port": 443,
-      "uuid": "c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "pl-1-1.unturned-rust-dead.lol",
-        "insecure": true,
-        "client_fingerprint": "random",
-        "reality": true,
-        "public_key": "gS0qvWKumWcOVoAgf8SHt6Sm3tqpBw07c5sA_Clb1hg",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇵🇱 PL 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "95.85.253.241",
-      "port": 2087,
-      "uuid": "ee0a38e3-d148-48ac-ba99-5133446c2377",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "95.85.253.241",
         "insecure": true,
         "client_fingerprint": null
       }
@@ -99,7 +96,7 @@
       "udp": true,
       "type": "vless",
       "server": "95.85.253.241",
-      "port": 2083,
+      "port": 2087,
       "uuid": "ee0a38e3-d148-48ac-ba99-5133446c2377",
       "flow": "",
       "tls": {
@@ -127,27 +124,22 @@
     {
       "tag": "🇵🇱 PL 07 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "202.78.163.237",
+      "type": "vless",
+      "server": "91.215.43.248",
       "port": 443,
-      "password": "UX82473651",
+      "uuid": "a5893c8b-28a2-4947-9a1c-708db25506c3",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "cheerful-swan.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇵🇱 PL 08 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "202.78.163.237",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "cheerful-swan.rooster465.autos",
-        "insecure": true
+        "server_name": "my.kempekl.online",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/gateway/v1/ws/a64eb463966ba9c4bfd628f1de0362ae",
+        "headers": {
+          "Host": "my.kempekl.online"
+        }
       }
     }
   ]

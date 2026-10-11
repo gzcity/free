@@ -15,8 +15,7 @@
         "🇧🇬 BG 01 - xiaohe",
         "🇧🇬 BG 02 - xiaohe",
         "🇧🇬 BG 03 - xiaohe",
-        "🇧🇬 BG 04 - xiaohe",
-        "🇧🇬 BG 05 - xiaohe"
+        "🇧🇬 BG 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -109,27 +108,6 @@
         "path": "/remote.php/dav/89f7661a0011ce46",
         "headers": {
           "Host": "drive.korroh.com"
-        }
-      }
-    },
-    {
-      "tag": "🇧🇬 BG 05 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "cloud.korroh.com",
-      "port": 443,
-      "uuid": "ec6f8131-7a5d-4117-9627-6fb2b39ae0da",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloud.korroh.com",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/remote.php/dav/89f7661a0011ce46",
-        "headers": {
-          "Host": "cloud.korroh.com"
         }
       }
     }

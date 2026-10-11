@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇷 BR 01 - xiaohe"
+        "🇬🇧 英国 (United Kingdom) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,21 +25,24 @@
       "tag": "block"
     },
     {
-      "tag": "🇧🇷 BR 01 - xiaohe",
+      "tag": "🇬🇧 英国 (United Kingdom) 01 (家宽) - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "35.199.90.53",
+      "server": "162.159.153.4",
       "port": 443,
-      "uuid": "5e517b94-e207-47ee-be3c-3020a57594e8",
+      "uuid": "f2a73750-3087-48ff-a763-1348c15dce68",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
+        "server_name": "rAyAn-007.mAxImA.DpDnS.OrG",
         "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "pCImwRkTjx8OIUiu1WFelZQFt1p3Q0lUoPbvjVq8GTs",
-        "short_id": ""
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "rAyAn-007.mAxImA.DpDnS.OrG"
+        }
       }
     }
   ]
