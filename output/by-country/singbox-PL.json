@@ -15,9 +15,7 @@
         "🇵🇱 PL 01 - xiaohe",
         "🇵🇱 PL 02 - xiaohe",
         "🇵🇱 PL 03 - xiaohe",
-        "🇵🇱 PL 04 - xiaohe",
-        "🇵🇱 PL 05 - xiaohe",
-        "🇵🇱 PL 06 - xiaohe"
+        "🇵🇱 PL 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -33,15 +31,18 @@
       "tag": "🇵🇱 PL 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "2.26.225.89",
-      "port": 8443,
-      "uuid": "51a1fd52-fd88-4905-a976-35e44be28e4b",
+      "server": "80.47.12.94",
+      "port": 443,
+      "uuid": "c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "pl.flen-vpn.xyz",
+        "server_name": "pl-1-1.unturned-rust-dead.lol",
         "insecure": true,
-        "client_fingerprint": null
+        "client_fingerprint": "random",
+        "reality": true,
+        "public_key": "gS0qvWKumWcOVoAgf8SHt6Sm3tqpBw07c5sA_Clb1hg",
+        "short_id": ""
       }
     },
     {
@@ -62,36 +63,20 @@
     {
       "tag": "🇵🇱 PL 03 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "202.78.163.237",
-      "port": 443,
-      "password": "UX82473651",
+      "type": "vless",
+      "server": "2.26.225.89",
+      "port": 8443,
+      "uuid": "51a1fd52-fd88-4905-a976-35e44be28e4b",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "cheerful-swan.rooster465.autos",
-        "insecure": true
+        "server_name": "pl.flen-vpn.xyz",
+        "insecure": true,
+        "client_fingerprint": null
       }
     },
     {
       "tag": "🇵🇱 PL 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "pl-1-1.unturned-rust-dead.lol",
-      "port": 443,
-      "uuid": "c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "pl-1-1.unturned-rust-dead.lol",
-        "insecure": true,
-        "client_fingerprint": "random",
-        "reality": true,
-        "public_key": "gS0qvWKumWcOVoAgf8SHt6Sm3tqpBw07c5sA_Clb1hg",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇵🇱 PL 05 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "91.215.43.248",
@@ -109,24 +94,6 @@
         "headers": {
           "Host": "my.kempekl.online"
         }
-      }
-    },
-    {
-      "tag": "🇵🇱 PL 06 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "80.47.12.94",
-      "port": 443,
-      "uuid": "c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "pl-1-1.unturned-rust-dead.lol",
-        "insecure": true,
-        "client_fingerprint": "random",
-        "reality": true,
-        "public_key": "gS0qvWKumWcOVoAgf8SHt6Sm3tqpBw07c5sA_Clb1hg",
-        "short_id": ""
       }
     }
   ]

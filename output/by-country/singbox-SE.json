@@ -12,8 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇪 SE 01 - xiaohe",
-        "🇸🇪 SE 02 - xiaohe"
+        "🇸🇪 SE 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -29,42 +28,18 @@
       "tag": "🇸🇪 SE 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "94.143.231.146",
+      "server": "732051t.se1.h1clayd.click",
       "port": 443,
-      "uuid": "6e05822a-e9da-4135-a9db-71aa07a944af",
+      "uuid": "ec572cf0-1337-4c51-b4ec-ff2f538c1f4c",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "sub.merky.top",
+        "server_name": "732051t.se1.h1clayd.click",
         "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/merky-connect/de6/",
-        "headers": {
-          "Host": "sub.merky.top"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇪 SE 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "94.143.231.146",
-      "port": 443,
-      "uuid": "6e05822a-e9da-4135-a9db-71aa07a944af",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "sub.merky.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/merky-connect/de6/",
-        "headers": {
-          "Host": "sub.merky.top"
-        }
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "NqyAfxsF9xeJZi_5itA5VCxaja1ioXjw7xPM_QonKVk",
+        "short_id": ""
       }
     }
   ]
