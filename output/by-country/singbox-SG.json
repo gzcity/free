@@ -196,7 +196,27 @@
         "🇸🇬 新加坡 (Singapore) 182 - xiaohe",
         "🇸🇬 新加坡 (Singapore) 183 - xiaohe",
         "🇸🇬 新加坡 (Singapore) 184 - xiaohe",
-        "🇸🇬 新加坡 (Singapore) 185 - xiaohe"
+        "🇸🇬 新加坡 (Singapore) 185 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 186 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 187 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 188 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 189 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 190 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 191 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 192 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 193 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 194 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 195 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 196 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 197 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 198 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 199 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 200 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 201 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 202 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 203 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 204 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 205 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -211,182 +231,6 @@
     {
       "tag": "🇸🇬 新加坡 (Singapore) 01 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "217.217.254.126",
-      "port": 2053,
-      "uuid": "cb15cce9-73ed-4928-b38c-462f0732cbe9",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 02 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "simple-molly.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "simple-molly.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "free.nadun.store",
-      "port": 443,
-      "uuid": "20ff936a-8eb5-4d27-9cce-93f2016d467b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "free.nadun.store",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "free.nadun.store"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "217.217.254.126",
-      "port": 2053,
-      "uuid": "cb15cce9-73ed-4928-b38c-462f0732cbe9",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 05 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "139.180.146.200",
-      "port": 8886,
-      "password": "e26a229d-e8f2-4ff9-8c7d-58a9d83ee437",
-      "tls": {
-        "enabled": true,
-        "server_name": "139.180.146.200",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 06 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "217.217.254.126",
-      "port": 2053,
-      "uuid": "cb15cce9-73ed-4928-b38c-462f0732cbe9",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 07 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "brave-tomcat.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "brave-tomcat.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 08 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.207",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 09 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "joint-ewe.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "joint-ewe.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 10 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "brave-tomcat.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "brave-tomcat.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 11 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "intense-wildcat.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "intense-wildcat.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 12 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "inspired-hound.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "inspired-hound.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 13 - xiaohe",
-      "udp": true,
       "type": "vmess",
       "server": "149.88.23.202",
       "port": 18000,
@@ -395,56 +239,7 @@
       "security": "auto"
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 14 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "217.217.254.126",
-      "port": 2053,
-      "uuid": "cb15cce9-73ed-4928-b38c-462f0732cbe9",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 15 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "52.221.222.185",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "joint-ewe.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 16 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "34.87.113.18",
-      "port": 443,
-      "uuid": "5567cac6-2a32-4318-83cd-7df3a9eebbd7",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "qq",
-        "reality": true,
-        "public_key": "hJCcmOf_ECJ3GUfHUjsgfcFKcgGb22H7cz_m_FvcVm4",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 17 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 02 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "3.1.252.137",
@@ -457,33 +252,134 @@
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 18 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 03 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "139.180.146.200",
-      "port": 8886,
-      "password": "e26a229d-e8f2-4ff9-8c7d-58a9d83ee437",
-      "tls": {
-        "enabled": true,
-        "server_name": "139.180.146.200",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 19 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "13.212.35.242",
+      "server": "musical-mouse.rooster465.autos",
       "port": 443,
       "password": "UX82473651",
       "tls": {
         "enabled": true,
-        "server_name": "ace-liger.rooster465.autos",
+        "server_name": "musical-mouse.rooster465.autos",
         "insecure": true
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 20 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 04 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "joint-ewe.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "joint-ewe.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "217.217.254.126",
+      "port": 2053,
+      "uuid": "cb15cce9-73ed-4928-b38c-462f0732cbe9",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 06 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "musical-mouse.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "musical-mouse.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 07 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "18.141.136.8",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "musical-mouse.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 08 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "43.174.193.1",
+      "port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 09 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "musical-mouse.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "musical-mouse.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 10 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "ww11.levikogjgfdd.ir",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 11 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "moral-basilisk.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "moral-basilisk.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 12 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "inviting-ferret.rooster465.autos",
@@ -496,48 +392,151 @@
       }
     },
     {
+      "tag": "🇸🇬 新加坡 (Singapore) 13 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.64.150.28",
+      "port": 2082,
+      "uuid": "e5cc16a6-ea42-46b2-82ae-ad2157e1641b",
+      "flow": "",
+      "ws": {
+        "path": "/fp",
+        "headers": {
+          "Host": "hhlfy.twiladaphne.ndjp.net"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 14 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "joint-ewe.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "joint-ewe.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 15 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "217.217.254.126",
+      "port": 2053,
+      "uuid": "cb15cce9-73ed-4928-b38c-462f0732cbe9",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 16 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "fond-mammoth.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "fond-mammoth.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 17 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "brave-tomcat.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "brave-tomcat.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 18 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "ace-liger.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "ace-liger.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 19 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "ace-liger.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "ace-liger.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 20 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "brave-tomcat.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "brave-tomcat.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
       "tag": "🇸🇬 新加坡 (Singapore) 21 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.202",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
+      "type": "trojan",
+      "server": "ace-liger.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "ace-liger.rooster465.autos",
+        "insecure": true
+      }
     },
     {
       "tag": "🇸🇬 新加坡 (Singapore) 22 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "intense-wildcat.rooster465.autos",
+      "server": "54.151.181.75",
       "port": 443,
       "password": "UX82473651",
       "tls": {
         "enabled": true,
-        "server_name": "intense-wildcat.rooster465.autos",
+        "server_name": "moral-basilisk.rooster465.autos",
         "insecure": true
       }
     },
     {
       "tag": "🇸🇬 新加坡 (Singapore) 23 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "free.nadun.store",
-      "port": 443,
-      "uuid": "20ff936a-8eb5-4d27-9cce-93f2016d467b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "free.nadun.store",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "free.nadun.store"
-        }
-      }
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
     },
     {
       "tag": "🇸🇬 新加坡 (Singapore) 24 - xiaohe",
@@ -556,12 +555,12 @@
       "tag": "🇸🇬 新加坡 (Singapore) 25 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "inspired-hound.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
+      "server": "139.180.146.200",
+      "port": 8886,
+      "password": "e26a229d-e8f2-4ff9-8c7d-58a9d83ee437",
       "tls": {
         "enabled": true,
-        "server_name": "inspired-hound.rooster465.autos",
+        "server_name": "139.180.146.200",
         "insecure": true
       }
     },
@@ -591,26 +590,23 @@
     {
       "tag": "🇸🇬 新加坡 (Singapore) 28 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "musical-mouse.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "musical-mouse.rooster465.autos",
-        "insecure": true
-      }
+      "type": "vmess",
+      "server": "ww11.levikogjgfdd.ir",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
     },
     {
       "tag": "🇸🇬 新加坡 (Singapore) 29 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "inviting-ferret.rooster465.autos",
+      "server": "rested-seahorse.rooster465.autos",
       "port": 443,
       "password": "UX82473651",
       "tls": {
         "enabled": true,
-        "server_name": "inviting-ferret.rooster465.autos",
+        "server_name": "rested-seahorse.rooster465.autos",
         "insecure": true
       }
     },
@@ -626,6 +622,39 @@
     },
     {
       "tag": "🇸🇬 新加坡 (Singapore) 31 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 32 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 33 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "glorious-glider.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "glorious-glider.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 34 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "34.87.113.18",
@@ -643,239 +672,17 @@
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 32 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "rested-seahorse.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "rested-seahorse.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 33 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "52.221.219.241",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "fond-mammoth.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 34 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "simple-molly.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "simple-molly.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
       "tag": "🇸🇬 新加坡 (Singapore) 35 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "pet-antelope.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "pet-antelope.rooster465.autos",
-        "insecure": true
-      }
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
     },
     {
       "tag": "🇸🇬 新加坡 (Singapore) 36 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "free.nadun.store",
-      "port": 443,
-      "uuid": "20ff936a-8eb5-4d27-9cce-93f2016d467b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "free.nadun.store",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "free.nadun.store"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 37 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "musical-mouse.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "musical-mouse.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 38 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "glorious-glider.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "glorious-glider.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 39 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "simple-molly.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "simple-molly.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 40 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "ace-liger.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "ace-liger.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 41 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "ww11.levikogjgfdd.ir",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 42 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.207",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 43 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.207",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 44 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.207",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 45 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "free.nadun.store",
-      "port": 443,
-      "uuid": "20ff936a-8eb5-4d27-9cce-93f2016d467b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "free.nadun.store",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "free.nadun.store"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 46 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "ww11.levikogjgfdd.ir",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 47 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "moral-basilisk.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "moral-basilisk.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 48 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "ww11.levikogjgfdd.ir",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 49 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "13.229.121.67",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "rested-seahorse.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 50 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "217.217.254.126",
@@ -893,38 +700,238 @@
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 51 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 37 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "cdn-dynmedia.shalana.shop",
+      "server": "free.nadun.store",
       "port": 443,
-      "uuid": "d3ad7253-2dbd-42fd-9b07-04caea38de54",
+      "uuid": "20ff936a-8eb5-4d27-9cce-93f2016d467b",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "cdn-dynmedia.shalana.shop",
+        "server_name": "free.nadun.store",
         "insecure": true,
         "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "free.nadun.store"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 38 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "inspired-hound.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "inspired-hound.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 39 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "18.141.136.8",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "musical-mouse.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 40 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "inspired-hound.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "inspired-hound.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 41 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "34.87.113.18",
+      "port": 443,
+      "uuid": "5567cac6-2a32-4318-83cd-7df3a9eebbd7",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "safari",
+        "reality": true,
+        "public_key": "hJCcmOf_ECJ3GUfHUjsgfcFKcgGb22H7cz_m_FvcVm4",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 42 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 43 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "pet-antelope.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "pet-antelope.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 44 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "inviting-ferret.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "inviting-ferret.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 45 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "217.217.254.126",
+      "port": 2053,
+      "uuid": "cb15cce9-73ed-4928-b38c-462f0732cbe9",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 46 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "intense-wildcat.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "intense-wildcat.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 47 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "ww11.levikogjgfdd.ir",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 48 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "glorious-glider.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "glorious-glider.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 49 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "56.10.9.77",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "inviting-ferret.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 50 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "free.nadun.store",
+      "port": 443,
+      "uuid": "20ff936a-8eb5-4d27-9cce-93f2016d467b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "free.nadun.store",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "free.nadun.store"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 51 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "joint-ewe.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "joint-ewe.rooster465.autos",
+        "insecure": true
       }
     },
     {
       "tag": "🇸🇬 新加坡 (Singapore) 52 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "support.zoom.us",
-      "port": 8443,
-      "uuid": "ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65",
+      "server": "104.17.3.81",
+      "port": 443,
+      "uuid": "fc60147e-76b8-4bc5-b691-90b2da79e3d2",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "primelinelk.me",
+        "server_name": "nautica-cff.kloningstrife002.workers.dev",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/xprolk-primeline",
+        "path": "/138.2.74.219-28616",
         "headers": {
-          "Host": "primelinelk.me"
+          "Host": "nautica-cff.kloningstrife002.workers.dev"
         }
       }
     },
@@ -932,7 +939,7 @@
       "tag": "🇸🇬 新加坡 (Singapore) 53 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "170.114.45.6",
+      "server": "support.zoom.us",
       "port": 8443,
       "uuid": "ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65",
       "flow": "",
@@ -953,6 +960,420 @@
       "tag": "🇸🇬 新加坡 (Singapore) 54 - xiaohe",
       "udp": true,
       "type": "vless",
+      "server": "217.217.254.126",
+      "port": 2053,
+      "uuid": "cb15cce9-73ed-4928-b38c-462f0732cbe9",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 55 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "ww11.levikogjgfdd.ir",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 56 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 57 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 58 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "139.180.146.200",
+      "port": 8886,
+      "password": "e26a229d-e8f2-4ff9-8c7d-58a9d83ee437",
+      "tls": {
+        "enabled": true,
+        "server_name": "139.180.146.200",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 59 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "52.221.218.179",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "real-cardinal.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 60 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "free.nadun.store",
+      "port": 443,
+      "uuid": "20ff936a-8eb5-4d27-9cce-93f2016d467b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "free.nadun.store",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "free.nadun.store"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 61 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "ww11.levikogjgfdd.ir",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 62 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "94.237.77.225",
+      "port": 443,
+      "uuid": "d3ad7253-2dbd-42fd-9b07-04caea38de54",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn-dynmedia.shalana.shop",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 63 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "156.224.76.205",
+      "port": 443,
+      "uuid": "7b102311-43fd-4e8f-877e-8090623c101d",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "vp10.pages.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "vp10.pages.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 64 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "cdn-dynmedia.shalana.shop",
+      "port": 443,
+      "uuid": "d3ad7253-2dbd-42fd-9b07-04caea38de54",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn-dynmedia.shalana.shop",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 65 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "217.217.254.126",
+      "port": 2053,
+      "uuid": "cb15cce9-73ed-4928-b38c-462f0732cbe9",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 66 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "cdn-dynmedia.shalana.shop",
+      "port": 443,
+      "uuid": "d3ad7253-2dbd-42fd-9b07-04caea38de54",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn-dynmedia.shalana.shop",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 67 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 68 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "139.180.146.200",
+      "port": 8886,
+      "password": "e26a229d-e8f2-4ff9-8c7d-58a9d83ee437",
+      "tls": {
+        "enabled": true,
+        "server_name": "139.180.146.200",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 69 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "217.217.254.126",
+      "port": 2053,
+      "uuid": "cb15cce9-73ed-4928-b38c-462f0732cbe9",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 70 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "52.221.222.185",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "joint-ewe.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 71 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "simple-molly.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "simple-molly.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 72 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "170.114.46.6",
+      "port": 8443,
+      "uuid": "ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "primelinelk.me",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/xprolk-primeline",
+        "headers": {
+          "Host": "primelinelk.me"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 73 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "moral-basilisk.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "moral-basilisk.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 74 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "free.nadun.store",
+      "port": 443,
+      "uuid": "20ff936a-8eb5-4d27-9cce-93f2016d467b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "free.nadun.store",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "free.nadun.store"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 75 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.202",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 76 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.202",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 77 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "real-cardinal.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "real-cardinal.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 78 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "34.87.113.18",
+      "port": 443,
+      "uuid": "5567cac6-2a32-4318-83cd-7df3a9eebbd7",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "hJCcmOf_ECJ3GUfHUjsgfcFKcgGb22H7cz_m_FvcVm4",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 79 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "56.10.9.77",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "inviting-ferret.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 80 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "54.179.60.162",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "intense-wildcat.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 81 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "fond-mammoth.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "fond-mammoth.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 82 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "real-cardinal.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "real-cardinal.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 83 - xiaohe",
+      "udp": true,
+      "type": "vless",
       "server": "170.114.45.6",
       "port": 8443,
       "uuid": "ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65",
@@ -971,424 +1392,15 @@
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 55 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.207",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 56 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "170.114.46.6",
-      "port": 8443,
-      "uuid": "ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "primelinelk.me",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/xprolk-primeline",
-        "headers": {
-          "Host": "primelinelk.me"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 57 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "support.zoom.us",
-      "port": 8443,
-      "uuid": "ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "primelinelk.me",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/xprolk-primeline",
-        "headers": {
-          "Host": "primelinelk.me"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 58 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "217.217.254.126",
-      "port": 2053,
-      "uuid": "cb15cce9-73ed-4928-b38c-462f0732cbe9",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 59 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 84 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "musical-mouse.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "musical-mouse.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 60 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "13.229.59.187",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "inspired-hound.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 61 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "ww11.levikogjgfdd.ir",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 62 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "inspired-hound.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "inspired-hound.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 63 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "glorious-glider.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "glorious-glider.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 64 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "13.229.59.187",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "inspired-hound.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 65 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "joint-ewe.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "joint-ewe.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 66 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "139.162.27.96",
-      "port": 2096,
-      "uuid": "6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "free-server.techsonic.dev",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/free-server.techsonic.dev",
-        "headers": {
-          "Host": "free-server.techsonic.dev"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 67 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "intense-wildcat.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "intense-wildcat.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 68 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "real-cardinal.rooster465.autos",
+      "server": "52.221.218.179",
       "port": 443,
       "password": "UX82473651",
       "tls": {
         "enabled": true,
         "server_name": "real-cardinal.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 69 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "170.114.46.6",
-      "port": 8443,
-      "uuid": "ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "primelinelk.me",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/xprolk-primeline",
-        "headers": {
-          "Host": "primelinelk.me"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 70 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "52.221.219.241",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "fond-mammoth.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 71 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "fond-mammoth.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "fond-mammoth.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 72 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "ww11.levikogjgfdd.ir",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 73 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "217.217.254.126",
-      "port": 2053,
-      "uuid": "cb15cce9-73ed-4928-b38c-462f0732cbe9",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 74 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "54.179.60.162",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "intense-wildcat.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 75 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "free.nadun.store",
-      "port": 443,
-      "uuid": "20ff936a-8eb5-4d27-9cce-93f2016d467b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "free.nadun.store",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "free.nadun.store"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 76 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.207",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 77 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.207",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 78 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "ace-liger.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "ace-liger.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 79 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "52.221.222.185",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "joint-ewe.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 80 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "13.212.35.242",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "ace-liger.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 81 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "3.1.252.137",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "brave-tomcat.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 82 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "joint-ewe.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "joint-ewe.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 83 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.202",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 84 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "rested-seahorse.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "rested-seahorse.rooster465.autos",
         "insecure": true
       }
     },
@@ -1405,491 +1417,14 @@
     {
       "tag": "🇸🇬 新加坡 (Singapore) 86 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "fond-mammoth.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "fond-mammoth.rooster465.autos",
-        "insecure": true
-      }
+      "type": "vless",
+      "server": "47.237.74.17",
+      "port": 16263,
+      "uuid": "c538c9dd-2e3f-488f-a8ca-ac5b7c0773f3",
+      "flow": ""
     },
     {
       "tag": "🇸🇬 新加坡 (Singapore) 87 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "support.zoom.us",
-      "port": 8443,
-      "uuid": "ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "primelinelk.me",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/xprolk-primeline",
-        "headers": {
-          "Host": "primelinelk.me"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 88 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "18.141.136.8",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "musical-mouse.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 89 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "moral-basilisk.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "moral-basilisk.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 90 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "54.179.60.162",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "intense-wildcat.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 91 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "217.217.254.126",
-      "port": 2053,
-      "uuid": "cb15cce9-73ed-4928-b38c-462f0732cbe9",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 92 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "rested-seahorse.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "rested-seahorse.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 93 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.207",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 94 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "47.131.250.125",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "simple-molly.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 95 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "inviting-ferret.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "inviting-ferret.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 96 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "ww11.levikogjgfdd.ir",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 97 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "54.151.181.75",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "moral-basilisk.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 98 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.207",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 99 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "ww11.levikogjgfdd.ir",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 100 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "34.87.113.18",
-      "port": 443,
-      "uuid": "5567cac6-2a32-4318-83cd-7df3a9eebbd7",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "hJCcmOf_ECJ3GUfHUjsgfcFKcgGb22H7cz_m_FvcVm4",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 101 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "fond-mammoth.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "fond-mammoth.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 102 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "real-cardinal.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "real-cardinal.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 103 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "support.zoom.us",
-      "port": 8443,
-      "uuid": "ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "primelinelk.me",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/xprolk-primeline",
-        "headers": {
-          "Host": "primelinelk.me"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 104 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "support.zoom.us",
-      "port": 8443,
-      "uuid": "ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "primelinelk.me",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/xprolk-primeline",
-        "headers": {
-          "Host": "primelinelk.me"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 105 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "43.174.193.1",
-      "port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 106 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "52.221.218.179",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "real-cardinal.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 107 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "43.174.193.1",
-      "port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 108 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "34.87.113.18",
-      "port": 443,
-      "uuid": "5567cac6-2a32-4318-83cd-7df3a9eebbd7",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "qq",
-        "reality": true,
-        "public_key": "hJCcmOf_ECJ3GUfHUjsgfcFKcgGb22H7cz_m_FvcVm4",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 109 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "3.1.252.137",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "brave-tomcat.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 110 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.207",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 111 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "cdn-dynmedia.shalana.shop",
-      "port": 443,
-      "uuid": "d3ad7253-2dbd-42fd-9b07-04caea38de54",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn-dynmedia.shalana.shop",
-        "insecure": true,
-        "client_fingerprint": null
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 112 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "simple-molly.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "simple-molly.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 113 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "56.10.9.77",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "inviting-ferret.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 114 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "129.150.51.127",
-      "port": 49289,
-      "uuid": "0590ab38-cb22-41d3-8312-6f396a5cec58",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.microsoft.com",
-        "insecure": true,
-        "client_fingerprint": null
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 115 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "glorious-glider.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "glorious-glider.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 116 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "moral-basilisk.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "moral-basilisk.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 117 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "34.87.113.18",
-      "port": 443,
-      "uuid": "5567cac6-2a32-4318-83cd-7df3a9eebbd7",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "hJCcmOf_ECJ3GUfHUjsgfcFKcgGb22H7cz_m_FvcVm4",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 118 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "support.zoom.us",
-      "port": 8443,
-      "uuid": "ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "primelinelk.me",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/xprolk-primeline",
-        "headers": {
-          "Host": "primelinelk.me"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 119 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "free.nadun.store",
@@ -1910,7 +1445,285 @@
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 120 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 88 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 89 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "52.221.222.185",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "joint-ewe.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 90 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "inviting-ferret.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "inviting-ferret.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 91 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "joint-ewe.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "joint-ewe.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 92 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "glorious-glider.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "glorious-glider.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 93 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "13.212.35.242",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "ace-liger.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 94 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "brave-tomcat.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "brave-tomcat.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 95 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.202",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 96 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "rested-seahorse.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "rested-seahorse.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 97 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "52.221.219.241",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "fond-mammoth.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 98 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 99 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "cdn-dynmedia.shalana.shop",
+      "port": 443,
+      "uuid": "d3ad7253-2dbd-42fd-9b07-04caea38de54",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn-dynmedia.shalana.shop",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 100 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "intense-wildcat.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "intense-wildcat.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 101 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "moral-basilisk.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "moral-basilisk.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 102 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "fond-mammoth.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "fond-mammoth.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 103 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "54.151.181.75",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "moral-basilisk.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 104 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "34.87.113.18",
+      "port": 443,
+      "uuid": "5567cac6-2a32-4318-83cd-7df3a9eebbd7",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "hJCcmOf_ECJ3GUfHUjsgfcFKcgGb22H7cz_m_FvcVm4",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 105 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "217.217.254.126",
+      "port": 2053,
+      "uuid": "cb15cce9-73ed-4928-b38c-462f0732cbe9",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 106 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "217.217.254.126",
+      "port": 2053,
+      "uuid": "cb15cce9-73ed-4928-b38c-462f0732cbe9",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 107 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "brave-tomcat.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "brave-tomcat.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 108 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 109 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "139.162.27.96",
@@ -1931,108 +1744,7 @@
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 121 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "moral-basilisk.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "moral-basilisk.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 122 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "217.217.254.126",
-      "port": 2053,
-      "uuid": "cb15cce9-73ed-4928-b38c-462f0732cbe9",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "random",
-        "reality": true,
-        "public_key": "VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 123 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "52.221.218.179",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "real-cardinal.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 124 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.207",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 125 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "joint-ewe.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "joint-ewe.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 126 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "rested-seahorse.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "rested-seahorse.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 127 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "free.nadun.store",
-      "port": 443,
-      "uuid": "20ff936a-8eb5-4d27-9cce-93f2016d467b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "free.nadun.store",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "free.nadun.store"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 128 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 110 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "149.88.23.202",
@@ -2042,20 +1754,7 @@
       "security": "auto"
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 129 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "rested-seahorse.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "rested-seahorse.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 130 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 111 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "pet-antelope.rooster465.autos",
@@ -2068,43 +1767,56 @@
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 131 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "intense-wildcat.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "intense-wildcat.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 132 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "real-cardinal.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "real-cardinal.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 133 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 112 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "149.88.23.207",
+      "server": "ww11.levikogjgfdd.ir",
       "port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "alterId": 0,
       "security": "auto"
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 134 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 113 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "47.131.250.125",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "simple-molly.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 114 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "13.229.121.67",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "rested-seahorse.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 115 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "ace-liger.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "ace-liger.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 116 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "217.217.254.126",
@@ -2122,108 +1834,48 @@
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 135 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "inspired-hound.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "inspired-hound.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 136 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "54.151.181.75",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "moral-basilisk.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 137 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "52.221.219.241",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "fond-mammoth.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 138 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "34.87.113.18",
-      "port": 443,
-      "uuid": "5567cac6-2a32-4318-83cd-7df3a9eebbd7",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "hJCcmOf_ECJ3GUfHUjsgfcFKcgGb22H7cz_m_FvcVm4",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 139 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "170.114.46.6",
-      "port": 8443,
-      "uuid": "ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "primelinelk.me",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/xprolk-primeline",
-        "headers": {
-          "Host": "primelinelk.me"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 140 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 117 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "149.88.23.202",
+      "server": "ww11.levikogjgfdd.ir",
       "port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "alterId": 0,
       "security": "auto"
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 141 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 118 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "fond-mammoth.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
+      "type": "vless",
+      "server": "139.162.27.96",
+      "port": 2096,
+      "uuid": "6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "fond-mammoth.rooster465.autos",
-        "insecure": true
+        "server_name": "free-server.techsonic.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/free-server.techsonic.dev",
+        "headers": {
+          "Host": "free-server.techsonic.dev"
+        }
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 142 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 119 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 120 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "170.114.46.6",
@@ -2244,103 +1896,17 @@
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 143 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 121 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "18.141.136.8",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "musical-mouse.rooster465.autos",
-        "insecure": true
-      }
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 144 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "188.114.97.6",
-      "port": 443,
-      "uuid": "20ff936a-8eb5-4d27-9cce-93f2016d467b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "free.nadun.store",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "free.nadun.store"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 145 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "139.180.146.200",
-      "port": 8886,
-      "password": "e26a229d-e8f2-4ff9-8c7d-58a9d83ee437",
-      "tls": {
-        "enabled": true,
-        "server_name": "139.180.146.200",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 146 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "56.10.9.77",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "inviting-ferret.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 147 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "45.118.133.249",
-      "port": 443,
-      "uuid": "20ff936a-8eb5-4d27-9cce-93f2016d467b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "free.nadun.store",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "free.nadun.store"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 148 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "cdn-dynmedia.shalana.shop",
-      "port": 443,
-      "uuid": "d3ad7253-2dbd-42fd-9b07-04caea38de54",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn-dynmedia.shalana.shop",
-        "insecure": true,
-        "client_fingerprint": null
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 149 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 122 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "34.87.113.18",
@@ -2358,51 +1924,131 @@
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 150 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 123 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "217.217.254.126",
-      "port": 2053,
-      "uuid": "cb15cce9-73ed-4928-b38c-462f0732cbe9",
+      "server": "free.nadun.store",
+      "port": 443,
+      "uuid": "20ff936a-8eb5-4d27-9cce-93f2016d467b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "free.nadun.store",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "free.nadun.store"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 124 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "ww11.levikogjgfdd.ir",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 125 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.18.35.86",
+      "port": 2082,
+      "uuid": "e5cc16a6-ea42-46b2-82ae-ad2157e1641b",
+      "flow": "",
+      "ws": {
+        "path": "/fp",
+        "headers": {
+          "Host": "hhlfy.twiladaphne.ndjp.net"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 126 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "56.10.9.77",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "inviting-ferret.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 127 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "52.221.219.241",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "fond-mammoth.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 128 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "5.9.117.252",
+      "port": 4433,
+      "uuid": "ef286b0e-21ed-4e2b-9110-e2ddc7627892",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 129 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "34.87.113.18",
+      "port": 443,
+      "uuid": "5567cac6-2a32-4318-83cd-7df3a9eebbd7",
       "flow": "",
       "tls": {
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "insecure": true,
-        "client_fingerprint": "chrome",
+        "client_fingerprint": "qq",
         "reality": true,
-        "public_key": "VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw",
+        "public_key": "hJCcmOf_ECJ3GUfHUjsgfcFKcgGb22H7cz_m_FvcVm4",
         "short_id": ""
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 151 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 130 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "brave-tomcat.rooster465.autos",
+      "server": "13.229.59.187",
       "port": 443,
       "password": "UX82473651",
       "tls": {
         "enabled": true,
-        "server_name": "brave-tomcat.rooster465.autos",
+        "server_name": "inspired-hound.rooster465.autos",
         "insecure": true
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 152 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "real-cardinal.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "real-cardinal.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 153 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 131 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "fond-mammoth.rooster465.autos",
@@ -2415,28 +2061,71 @@
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 154 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 132 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "217.217.254.126",
-      "port": 2053,
-      "uuid": "cb15cce9-73ed-4928-b38c-462f0732cbe9",
+      "server": "162.159.156.214",
+      "port": 8880,
+      "uuid": "8991a496-1baa-486f-9948-ffe44e68c072",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw",
-        "short_id": ""
+      "ws": {
+        "path": "/pyip=ProxyIP.SG.CMLiussss.net",
+        "headers": {
+          "Host": "soft-band-8da6.426.workers.dev"
+        }
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 155 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 133 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 134 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "170.114.45.6",
+      "port": 8443,
+      "uuid": "ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "primelinelk.me",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/xprolk-primeline",
+        "headers": {
+          "Host": "primelinelk.me"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 135 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "cdn-dynmedia.shalana.shop",
+      "port": 443,
+      "uuid": "d3ad7253-2dbd-42fd-9b07-04caea38de54",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn-dynmedia.shalana.shop",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 136 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "brave-tomcat.rooster465.autos",
+      "server": "3.1.252.137",
       "port": 443,
       "password": "UX82473651",
       "tls": {
@@ -2446,293 +2135,7 @@
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 156 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "intense-wildcat.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "intense-wildcat.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 157 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "34.87.113.18",
-      "port": 443,
-      "uuid": "5567cac6-2a32-4318-83cd-7df3a9eebbd7",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "hJCcmOf_ECJ3GUfHUjsgfcFKcgGb22H7cz_m_FvcVm4",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 158 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "ace-liger.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "ace-liger.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 159 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "34.87.113.18",
-      "port": 443,
-      "uuid": "5567cac6-2a32-4318-83cd-7df3a9eebbd7",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "safari",
-        "reality": true,
-        "public_key": "hJCcmOf_ECJ3GUfHUjsgfcFKcgGb22H7cz_m_FvcVm4",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 160 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "52.221.220.227",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "pet-antelope.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 161 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "170.114.46.6",
-      "port": 8443,
-      "uuid": "ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "primelinelk.me",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/xprolk-primeline",
-        "headers": {
-          "Host": "primelinelk.me"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 162 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "support.zoom.us",
-      "port": 8443,
-      "uuid": "ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "primelinelk.me",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/xprolk-primeline",
-        "headers": {
-          "Host": "primelinelk.me"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 163 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "musical-mouse.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "musical-mouse.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 164 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "170.114.45.6",
-      "port": 8443,
-      "uuid": "ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "primelinelk.me",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/xprolk-primeline",
-        "headers": {
-          "Host": "primelinelk.me"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 165 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.207",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 166 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "simple-molly.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "simple-molly.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 167 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "cdn-dynmedia.shalana.shop",
-      "port": 443,
-      "uuid": "d3ad7253-2dbd-42fd-9b07-04caea38de54",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn-dynmedia.shalana.shop",
-        "insecure": true,
-        "client_fingerprint": null
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 168 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "cdn-dynmedia.shalana.shop",
-      "port": 443,
-      "uuid": "d3ad7253-2dbd-42fd-9b07-04caea38de54",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn-dynmedia.shalana.shop",
-        "insecure": true,
-        "client_fingerprint": null
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 169 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "170.114.45.6",
-      "port": 8443,
-      "uuid": "ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "primelinelk.me",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/xprolk-primeline",
-        "headers": {
-          "Host": "primelinelk.me"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 170 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.207",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 171 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "glorious-glider.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "glorious-glider.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 172 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "cdn-dynmedia.shalana.shop",
-      "port": 443,
-      "uuid": "d3ad7253-2dbd-42fd-9b07-04caea38de54",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn-dynmedia.shalana.shop",
-        "insecure": true,
-        "client_fingerprint": null
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 173 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "moral-basilisk.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "moral-basilisk.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 174 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.207",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 175 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 137 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "13.229.121.67",
@@ -2745,22 +2148,20 @@
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 176 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 138 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "172.64.150.28",
-      "port": 2082,
-      "uuid": "e5cc16a6-ea42-46b2-82ae-ad2157e1641b",
-      "flow": "",
-      "ws": {
-        "path": "/fp",
-        "headers": {
-          "Host": "hhlfy.twiladaphne.ndjp.net"
-        }
+      "type": "trojan",
+      "server": "13.229.59.187",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "inspired-hound.rooster465.autos",
+        "insecure": true
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 177 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 139 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "149.88.23.207",
@@ -2770,7 +2171,95 @@
       "security": "auto"
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 178 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 140 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "inspired-hound.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "inspired-hound.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 141 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "musical-mouse.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "musical-mouse.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 142 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "intense-wildcat.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "intense-wildcat.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 143 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "52.221.220.227",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "pet-antelope.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 144 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "ww11.levikogjgfdd.ir",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 145 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "intense-wildcat.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "intense-wildcat.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 146 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "54.151.181.75",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "moral-basilisk.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 147 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "real-cardinal.rooster465.autos",
@@ -2783,7 +2272,171 @@
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 179 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 148 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 149 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "129.153.71.28",
+      "port": 28863,
+      "uuid": "3e956106-7f92-4cbf-bf77-715d3890fa84",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 150 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "ww11.levikogjgfdd.ir",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 151 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "fond-mammoth.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "fond-mammoth.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 152 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "simple-molly.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "simple-molly.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 153 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "52.221.219.241",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "fond-mammoth.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 154 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "ww11.levikogjgfdd.ir",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 155 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "inviting-ferret.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "inviting-ferret.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 156 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "ww11.levikogjgfdd.ir",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 157 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 158 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "pet-antelope.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "pet-antelope.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 159 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "cdn-dynmedia.shalana.shop",
+      "port": 443,
+      "uuid": "d3ad7253-2dbd-42fd-9b07-04caea38de54",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn-dynmedia.shalana.shop",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 160 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "simple-molly.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "simple-molly.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 161 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "188.114.97.6",
@@ -2804,7 +2457,38 @@
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 180 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 162 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "45.127.32.220",
+      "port": 55002,
+      "uuid": "b25731af-0428-4274-be5d-31a273a8d632",
+      "alterId": 0,
+      "security": "auto",
+      "ws": {
+        "path": "b25731af-0428-4274-be5d-31a273a8d632-vm",
+        "headers": {
+          "Host": "www.bing.com"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 163 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.66.214.247",
+      "port": 8880,
+      "uuid": "e7f6f783-6754-4228-a5d0-aeed84b9949a",
+      "flow": "",
+      "ws": {
+        "path": "/pyip=ProxyIP.SG.CMLiussss.net",
+        "headers": {
+          "Host": "sweet-sun-c70f.317-ba5.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 164 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "217.217.254.126",
@@ -2822,20 +2506,22 @@
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 181 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 165 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "joint-ewe.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "joint-ewe.rooster465.autos",
-        "insecure": true
+      "type": "vless",
+      "server": "172.66.140.62",
+      "port": 8880,
+      "uuid": "160ca353-676d-4b7f-a041-0289e388b865",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "proud-cloud-7bdd.208-a52.workers.dev"
+        }
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 182 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 166 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "cdn-dynmedia.shalana.shop",
@@ -2850,7 +2536,7 @@
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 183 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 167 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "inspired-hound.rooster465.autos",
@@ -2863,10 +2549,244 @@
       }
     },
     {
+      "tag": "🇸🇬 新加坡 (Singapore) 168 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "rested-seahorse.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "rested-seahorse.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 169 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "34.87.113.18",
+      "port": 443,
+      "uuid": "5567cac6-2a32-4318-83cd-7df3a9eebbd7",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "hJCcmOf_ECJ3GUfHUjsgfcFKcgGb22H7cz_m_FvcVm4",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 170 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "moral-basilisk.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "moral-basilisk.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 171 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "217.217.254.126",
+      "port": 2053,
+      "uuid": "cb15cce9-73ed-4928-b38c-462f0732cbe9",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "random",
+        "reality": true,
+        "public_key": "VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 172 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "34.87.113.18",
+      "port": 443,
+      "uuid": "5567cac6-2a32-4318-83cd-7df3a9eebbd7",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "hJCcmOf_ECJ3GUfHUjsgfcFKcgGb22H7cz_m_FvcVm4",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 173 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "free.nadun.store",
+      "port": 443,
+      "uuid": "20ff936a-8eb5-4d27-9cce-93f2016d467b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "free.nadun.store",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "free.nadun.store"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 174 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "34.87.113.18",
+      "port": 443,
+      "uuid": "5567cac6-2a32-4318-83cd-7df3a9eebbd7",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "qq",
+        "reality": true,
+        "public_key": "hJCcmOf_ECJ3GUfHUjsgfcFKcgGb22H7cz_m_FvcVm4",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 175 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "ww11.levikogjgfdd.ir",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 176 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "pet-antelope.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "pet-antelope.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 177 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "simple-molly.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "simple-molly.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 178 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "217.217.254.126",
+      "port": 2053,
+      "uuid": "cb15cce9-73ed-4928-b38c-462f0732cbe9",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 179 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "34.87.113.18",
+      "port": 443,
+      "uuid": "5567cac6-2a32-4318-83cd-7df3a9eebbd7",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "safari",
+        "reality": true,
+        "public_key": "hJCcmOf_ECJ3GUfHUjsgfcFKcgGb22H7cz_m_FvcVm4",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 180 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "musical-mouse.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "musical-mouse.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 181 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "ww11.levikogjgfdd.ir",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 182 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 183 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
       "tag": "🇸🇬 新加坡 (Singapore) 184 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "149.88.23.202",
+      "server": "149.88.23.207",
       "port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "alterId": 0,
@@ -2876,13 +2796,286 @@
       "tag": "🇸🇬 新加坡 (Singapore) 185 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "54.151.181.75",
+      "server": "rested-seahorse.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "rested-seahorse.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 186 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "moral-basilisk.rooster465.autos",
       "port": 443,
       "password": "UX82473651",
       "tls": {
         "enabled": true,
         "server_name": "moral-basilisk.rooster465.autos",
         "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 187 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "simple-molly.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "simple-molly.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 188 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "170.114.46.6",
+      "port": 8443,
+      "uuid": "ba9ba1d3-19c8-4792-9d3f-ddd2cdcc2e65",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "primelinelk.me",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/xprolk-primeline",
+        "headers": {
+          "Host": "primelinelk.me"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 189 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "52.221.220.227",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "pet-antelope.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 190 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "ww11.levikogjgfdd.ir",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 191 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "inspired-hound.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "inspired-hound.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 192 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "glorious-glider.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "glorious-glider.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 193 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 194 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "54.179.60.162",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "intense-wildcat.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 195 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.202",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 196 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "ww11.levikogjgfdd.ir",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 197 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "129.150.51.127",
+      "port": 49289,
+      "uuid": "0590ab38-cb22-41d3-8312-6f396a5cec58",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.microsoft.com",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 198 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "joint-ewe.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "joint-ewe.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 199 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "217.217.254.126",
+      "port": 2053,
+      "uuid": "cb15cce9-73ed-4928-b38c-462f0732cbe9",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "VzRjuHwcY-nLqkEIJS4S1CpButKc90Bh0gDbphyZ0Tw",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 200 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "rested-seahorse.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "rested-seahorse.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 201 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "brave-tomcat.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "brave-tomcat.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 202 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "intense-wildcat.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "intense-wildcat.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 203 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "43.174.193.1",
+      "port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 204 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "3.1.252.137",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "brave-tomcat.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 205 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.66.140.62",
+      "port": 8880,
+      "uuid": "2b5753cf-4d0a-4746-b63d-cd67a3de2ccc",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "crimson-hill-8061.166-dcf.workers.dev"
+        }
       }
     }
   ]

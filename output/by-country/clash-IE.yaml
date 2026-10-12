@@ -5,12 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇪 IE 01 - xiaohe
-  type: ss
-  server: 20.123.1.55
+  type: trojan
+  server: adapting-basilisk.rooster465.autos
   port: 443
-  cipher: chacha20-ietf-poly1305
-  password: YF329KNGVTUZ1qrH
+  password: UX82473651
   udp: true
+  sni: adapting-basilisk.rooster465.autos
+  skip-cert-verify: true
 - name: 🇮🇪 IE 02 - xiaohe
   type: trojan
   server: 3.253.106.233
@@ -21,28 +22,76 @@ proxies:
   skip-cert-verify: true
 - name: 🇮🇪 IE 03 - xiaohe
   type: trojan
-  server: adapting-basilisk.rooster465.autos
+  server: 34.242.77.118
   port: 443
   password: UX82473651
   udp: true
-  sni: adapting-basilisk.rooster465.autos
+  sni: sacred-anemone.rooster465.autos
   skip-cert-verify: true
 - name: 🇮🇪 IE 04 - xiaohe
-  type: trojan
-  server: master-possum.rooster465.autos
-  port: 443
-  password: UX82473651
-  udp: true
-  sni: master-possum.rooster465.autos
-  skip-cert-verify: true
-- name: 🇮🇪 IE 05 - xiaohe
   type: ss
   server: 20.234.97.18
   port: 443
   cipher: chacha20-ietf-poly1305
   password: GayYa2V7pUbJBfKu
   udp: true
+- name: 🇮🇪 IE 05 - xiaohe
+  type: trojan
+  server: 3.253.106.233
+  port: 443
+  password: UX82473651
+  udp: true
+  sni: loved-shark.rooster465.autos
+  skip-cert-verify: true
 - name: 🇮🇪 IE 06 - xiaohe
+  type: trojan
+  server: 3.253.106.233
+  port: 443
+  password: UX82473651
+  udp: true
+  sni: loved-shark.rooster465.autos
+  skip-cert-verify: true
+- name: 🇮🇪 IE 07 - xiaohe
+  type: trojan
+  server: adapting-basilisk.rooster465.autos
+  port: 443
+  password: UX82473651
+  udp: true
+  sni: adapting-basilisk.rooster465.autos
+  skip-cert-verify: true
+- name: 🇮🇪 IE 08 - xiaohe
+  type: trojan
+  server: sacred-anemone.rooster465.autos
+  port: 443
+  password: UX82473651
+  udp: true
+  sni: sacred-anemone.rooster465.autos
+  skip-cert-verify: true
+- name: 🇮🇪 IE 09 - xiaohe
+  type: trojan
+  server: sacred-anemone.rooster465.autos
+  port: 443
+  password: UX82473651
+  udp: true
+  sni: sacred-anemone.rooster465.autos
+  skip-cert-verify: true
+- name: 🇮🇪 IE 10 - xiaohe
+  type: trojan
+  server: sacred-anemone.rooster465.autos
+  port: 443
+  password: UX82473651
+  udp: true
+  sni: sacred-anemone.rooster465.autos
+  skip-cert-verify: true
+- name: 🇮🇪 IE 11 - xiaohe
+  type: trojan
+  server: 54.72.130.222
+  port: 443
+  password: UX82473651
+  udp: true
+  sni: adapting-basilisk.rooster465.autos
+  skip-cert-verify: true
+- name: 🇮🇪 IE 12 - xiaohe
   type: trojan
   server: 34.242.77.118
   port: 443
@@ -50,7 +99,15 @@ proxies:
   udp: true
   sni: sacred-anemone.rooster465.autos
   skip-cert-verify: true
-- name: 🇮🇪 IE 07 - xiaohe
+- name: 🇮🇪 IE 13 - xiaohe
+  type: trojan
+  server: adapting-basilisk.rooster465.autos
+  port: 443
+  password: UX82473651
+  udp: true
+  sni: adapting-basilisk.rooster465.autos
+  skip-cert-verify: true
+- name: 🇮🇪 IE 14 - xiaohe
   type: vless
   server: 23.95.225.10
   port: 8443
@@ -64,14 +121,6 @@ proxies:
     path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
-- name: 🇮🇪 IE 08 - xiaohe
-  type: trojan
-  server: sacred-anemone.rooster465.autos
-  port: 443
-  password: UX82473651
-  udp: true
-  sni: sacred-anemone.rooster465.autos
-  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -85,6 +134,12 @@ proxy-groups:
   - 🇮🇪 IE 06 - xiaohe
   - 🇮🇪 IE 07 - xiaohe
   - 🇮🇪 IE 08 - xiaohe
+  - 🇮🇪 IE 09 - xiaohe
+  - 🇮🇪 IE 10 - xiaohe
+  - 🇮🇪 IE 11 - xiaohe
+  - 🇮🇪 IE 12 - xiaohe
+  - 🇮🇪 IE 13 - xiaohe
+  - 🇮🇪 IE 14 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -98,5 +153,11 @@ proxy-groups:
   - 🇮🇪 IE 06 - xiaohe
   - 🇮🇪 IE 07 - xiaohe
   - 🇮🇪 IE 08 - xiaohe
+  - 🇮🇪 IE 09 - xiaohe
+  - 🇮🇪 IE 10 - xiaohe
+  - 🇮🇪 IE 11 - xiaohe
+  - 🇮🇪 IE 12 - xiaohe
+  - 🇮🇪 IE 13 - xiaohe
+  - 🇮🇪 IE 14 - xiaohe
 rules:
 - MATCH,PROXIES

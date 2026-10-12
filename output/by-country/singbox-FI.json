@@ -14,7 +14,10 @@
       "outbounds": [
         "🇫🇮 FI 01 - xiaohe",
         "🇫🇮 FI 02 - xiaohe",
-        "🇫🇮 FI 03 - xiaohe"
+        "🇫🇮 FI 03 - xiaohe",
+        "🇫🇮 FI 04 - xiaohe",
+        "🇫🇮 FI 05 - xiaohe",
+        "🇫🇮 FI 06 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -29,14 +32,47 @@
     {
       "tag": "🇫🇮 FI 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "185.103.110.66",
-      "port": 18280,
-      "method": "aes-128-gcm",
-      "password": "f9300a9bf39ae0347c3a3bfbc4dd7754"
+      "type": "vless",
+      "server": "199.232.239.239",
+      "port": 443,
+      "uuid": "2968eb62-dd97-4c8f-fbca-d69388f1b572",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "speedtest.net",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/?ed=2056/؟/@v2ray_configs_pools",
+        "headers": {
+          "Host": "mr_anonoijji.global.ssl.fastly.net"
+        }
+      }
     },
     {
       "tag": "🇫🇮 FI 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "ansooyefilter-telegram.arshia-nova.ir",
+      "port": 443,
+      "uuid": "2968eb62-dd97-4c8f-fbca-d69388f1b572",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "speedtest.net",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/?ed=2056",
+        "headers": {
+          "Host": "mr_anonoijji.global.ssl.fastly.net"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI 03 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "95.216.27.15",
@@ -54,13 +90,31 @@
       }
     },
     {
-      "tag": "🇫🇮 FI 03 - xiaohe",
+      "tag": "🇫🇮 FI 04 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "edge10.cyrionflare.com",
       "port": 2052,
       "uuid": "1a8ecc41-6e62-431b-8eca-87c2fa4dc286",
       "flow": ""
+    },
+    {
+      "tag": "🇫🇮 FI 05 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "185.103.110.66",
+      "port": 18280,
+      "method": "aes-128-gcm",
+      "password": "f9300a9bf39ae0347c3a3bfbc4dd7754"
+    },
+    {
+      "tag": "🇫🇮 FI 06 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "185.103.110.68",
+      "port": 18283,
+      "method": "aes-128-gcm",
+      "password": "f9300a9bf39ae0347c3a3bfbc4dd7754"
     }
   ]
 }
