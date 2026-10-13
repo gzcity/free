@@ -30,16 +30,14 @@
     {
       "tag": "🇪🇪 EE 01 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "94.183.170.135",
-      "port": 8443,
-      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
-      "flow": "",
+      "type": "trojan",
+      "server": "109.206.241.10",
+      "port": 449,
+      "password": "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1",
       "tls": {
         "enabled": true,
-        "server_name": "estproxy4.lockdwn.com",
-        "insecure": true,
-        "client_fingerprint": null
+        "server_name": "russiapower.accesscam.org",
+        "insecure": true
       }
     },
     {
@@ -60,22 +58,14 @@
     {
       "tag": "🇪🇪 EE 03 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "5.189.254.168",
-      "port": 2053,
-      "uuid": "51a0af77-a60c-4d9b-81a4-f50e1b38d90b",
-      "flow": "",
+      "type": "trojan",
+      "server": "109.206.241.10",
+      "port": 449,
+      "password": "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1",
       "tls": {
         "enabled": true,
-        "server_name": "cf3.schzyc.cc.cd",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/proxyip=ProxyIP.CMLiussss.netfp=chrome",
-        "headers": {
-          "Host": "cf3.schzyc.cc.cd"
-        }
+        "server_name": "109.206.241.10",
+        "insecure": true
       }
     },
     {
@@ -87,7 +77,7 @@
       "password": "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1",
       "tls": {
         "enabled": true,
-        "server_name": "russiapower.accesscam.org",
+        "server_name": "109.206.241.10",
         "insecure": true
       }
     }

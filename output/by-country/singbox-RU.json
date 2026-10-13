@@ -12,8 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -28,30 +27,21 @@
     {
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "130.49.189.158",
-      "port": 43558,
-      "method": "chacha20-ietf-poly1305",
-      "password": "52+ggoCvKFVJyT1NDiuWOZw2rHIvAg3tgqgJl8aeCwY="
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-      "udp": true,
       "type": "vless",
-      "server": "45.130.125.126",
+      "server": "91.215.43.248",
       "port": 443,
-      "uuid": "b69b43d1-091d-4d7c-90b2-7a8bbad9d6a9",
+      "uuid": "a5893c8b-28a2-4947-9a1c-708db25506c3",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv",
+        "server_name": "my.kempekl.online",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/eyJqdW5rIjoiY0U2T212Y21yeEhUZHRKYSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0",
+        "path": "/gateway/v1/ws/a64eb463966ba9c4bfd628f1de0362ae",
         "headers": {
-          "Host": "BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv"
+          "Host": "my.kempekl.online"
         }
       }
     }

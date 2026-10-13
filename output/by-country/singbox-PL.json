@@ -13,9 +13,7 @@
       "tag": "auto",
       "outbounds": [
         "🇵🇱 PL 01 - xiaohe",
-        "🇵🇱 PL 02 - xiaohe",
-        "🇵🇱 PL 03 - xiaohe",
-        "🇵🇱 PL 04 - xiaohe"
+        "🇵🇱 PL 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -31,45 +29,6 @@
       "tag": "🇵🇱 PL 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "91.215.43.248",
-      "port": 443,
-      "uuid": "a5893c8b-28a2-4947-9a1c-708db25506c3",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "my.kempekl.online",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/gateway/v1/ws/a64eb463966ba9c4bfd628f1de0362ae",
-        "headers": {
-          "Host": "my.kempekl.online"
-        }
-      }
-    },
-    {
-      "tag": "🇵🇱 PL 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "80.47.12.94",
-      "port": 443,
-      "uuid": "c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "pl-1-1.unturned-rust-dead.lol",
-        "insecure": true,
-        "client_fingerprint": "random",
-        "reality": true,
-        "public_key": "gS0qvWKumWcOVoAgf8SHt6Sm3tqpBw07c5sA_Clb1hg",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇵🇱 PL 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
       "server": "2.26.225.89",
       "port": 8443,
       "uuid": "51a1fd52-fd88-4905-a976-35e44be28e4b",
@@ -82,7 +41,7 @@
       }
     },
     {
-      "tag": "🇵🇱 PL 04 - xiaohe",
+      "tag": "🇵🇱 PL 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "2.26.225.89",
