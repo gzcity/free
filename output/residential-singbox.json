@@ -30,7 +30,7 @@
       "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "60.248.219.53",
+      "server": "60.248.219.78",
       "port": 443,
       "uuid": "c1c04450-bf71-4049-ad0c-9cf6d94d9f1f",
       "flow": "",
@@ -43,33 +43,12 @@
       "ws": {
         "path": "/81574b6b-c9d7-44a0-b83d-dad56e8cb530",
         "headers": {
-          "Host": "60.248.219.53"
+          "Host": "60.248.219.78"
         }
       }
     },
     {
       "tag": "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "103.148.73.173",
-      "port": 8443,
-      "uuid": "c1c04450-bf71-4049-ad0c-9cf6d94d9f1f",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ty986gfazs.cainiaohub.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/81574b6b-c9d7-44a0-b83d-dad56e8cb530",
-        "headers": {
-          "Host": "103.148.73.173"
-        }
-      }
-    },
-    {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "103.180.20.108",
@@ -86,6 +65,27 @@
         "path": "/81574b6b-c9d7-44a0-b83d-dad56e8cb530",
         "headers": {
           "Host": "103.180.20.108"
+        }
+      }
+    },
+    {
+      "tag": "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "103.148.73.173",
+      "port": 8443,
+      "uuid": "c1c04450-bf71-4049-ad0c-9cf6d94d9f1f",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ty986gfazs.cainiaohub.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/81574b6b-c9d7-44a0-b83d-dad56e8cb530",
+        "headers": {
+          "Host": "103.148.73.173"
         }
       }
     }
