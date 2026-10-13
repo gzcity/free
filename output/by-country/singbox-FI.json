@@ -15,9 +15,7 @@
         "🇫🇮 FI 01 - xiaohe",
         "🇫🇮 FI 02 - xiaohe",
         "🇫🇮 FI 03 - xiaohe",
-        "🇫🇮 FI 04 - xiaohe",
-        "🇫🇮 FI 05 - xiaohe",
-        "🇫🇮 FI 06 - xiaohe"
+        "🇫🇮 FI 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -33,61 +31,31 @@
       "tag": "🇫🇮 FI 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "199.232.239.239",
-      "port": 443,
-      "uuid": "2968eb62-dd97-4c8f-fbca-d69388f1b572",
+      "server": "95.216.27.15",
+      "port": 2053,
+      "uuid": "1c81f6d3-5771-4c5d-9fdd-1655eff50634",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "speedtest.net",
+        "server_name": "www.google.com",
         "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/?ed",
-        "headers": {
-          "Host": "mr_anonoijji.global.ssl.fastly.net"
-        }
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM",
+        "short_id": ""
       }
     },
     {
       "tag": "🇫🇮 FI 02 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "95.216.27.15",
-      "port": 2053,
-      "uuid": "1c81f6d3-5771-4c5d-9fdd-1655eff50634",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.google.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM",
-        "short_id": ""
-      }
+      "type": "shadowsocks",
+      "server": "185.103.110.68",
+      "port": 18283,
+      "method": "aes-128-gcm",
+      "password": "f9300a9bf39ae0347c3a3bfbc4dd7754"
     },
     {
       "tag": "🇫🇮 FI 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "95.216.27.15",
-      "port": 2053,
-      "uuid": "1c81f6d3-5771-4c5d-9fdd-1655eff50634",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.google.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇫🇮 FI 04 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "edge10.cyrionflare.com",
@@ -96,20 +64,11 @@
       "flow": ""
     },
     {
-      "tag": "🇫🇮 FI 05 - xiaohe",
+      "tag": "🇫🇮 FI 04 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "185.103.110.66",
       "port": 18280,
-      "method": "aes-128-gcm",
-      "password": "f9300a9bf39ae0347c3a3bfbc4dd7754"
-    },
-    {
-      "tag": "🇫🇮 FI 06 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "185.103.110.68",
-      "port": 18283,
       "method": "aes-128-gcm",
       "password": "f9300a9bf39ae0347c3a3bfbc4dd7754"
     }
