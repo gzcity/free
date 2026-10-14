@@ -25,7 +25,8 @@
         "🇫🇷 法国 (France) 11 - xiaohe",
         "🇫🇷 法国 (France) 12 - xiaohe",
         "🇫🇷 法国 (France) 13 - xiaohe",
-        "🇫🇷 法国 (France) 14 - xiaohe"
+        "🇫🇷 法国 (France) 14 - xiaohe",
+        "🇫🇷 法国 (France) 15 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -57,7 +58,7 @@
       "tag": "🇫🇷 法国 (France) 02 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "162.19.204.71",
+      "server": "141.95.65.9",
       "port": 1234,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
       "alterId": 0,
@@ -71,53 +72,36 @@
     {
       "tag": "🇫🇷 法国 (France) 03 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "79.174.92.222",
-      "port": 443,
-      "uuid": "03ca8c3f-e777-45b5-a1b1-592094ca99ee",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "m.vk.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "_PYBo3dyZRpGC44vADqcmlBCSeAVh1X8l3mulghVsTI",
-        "short_id": ""
+      "type": "vmess",
+      "server": "145.239.55.210",
+      "port": 80,
+      "uuid": "067fcd63-b215-4abd-8529-ae929a9971a9",
+      "alterId": 0,
+      "security": "auto",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "google.whatsapp.snapp.torob.basalam.fortresshost.ir."
+        }
       }
     },
     {
       "tag": "🇫🇷 法国 (France) 04 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "cf1.w3bschool.ir",
-      "port": 2083,
-      "uuid": "7684d613-0ae9-41d2-9a38-66752ae680b4",
-      "flow": "",
+      "type": "vmess",
+      "server": "162.19.204.71",
+      "port": 1234,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "ch.topdigit.ir",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/path",
-        "headers": {
-          "Host": "ch.topdigit.ir"
-        }
+        "server_name": "",
+        "insecure": true
       }
     },
     {
       "tag": "🇫🇷 法国 (France) 05 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "54.36.174.134",
-      "port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "e5c65ph"
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 06 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "141.95.65.9",
@@ -132,18 +116,27 @@
       }
     },
     {
+      "tag": "🇫🇷 法国 (France) 06 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "54.36.174.134",
+      "port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "e5c65ph"
+    },
+    {
       "tag": "🇫🇷 法国 (France) 07 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "145.239.55.210",
+      "server": "54.37.131.126",
       "port": 80,
-      "uuid": "067fcd63-b215-4abd-8529-ae929a9971a9",
+      "uuid": "6deef9ad-1357-443d-f95c-cb18952c20b3",
       "alterId": 0,
       "security": "auto",
       "ws": {
         "path": "/",
         "headers": {
-          "Host": "google.whatsapp.snapp.torob.basalam.fortresshost.ir."
+          "Host": "google.whatsapp.snapp.torob.basalam.hesanid8.ir."
         }
       }
     },
@@ -175,6 +168,63 @@
     {
       "tag": "🇫🇷 法国 (France) 10 - xiaohe",
       "udp": true,
+      "type": "vless",
+      "server": "54.37.136.194",
+      "port": 2053,
+      "uuid": "e8a432c8-5d84-49a5-b822-67ed761a58f9",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 11 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "79.174.92.222",
+      "port": 443,
+      "uuid": "03ca8c3f-e777-45b5-a1b1-592094ca99ee",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "m.vk.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "_PYBo3dyZRpGC44vADqcmlBCSeAVh1X8l3mulghVsTI",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 12 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "eu5.998998.best",
+      "port": 443,
+      "uuid": "5504eaa8-1395-402f-8e0e-75ecd762e627",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nat3.outsidemyheart.space",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/ew4p98tu34wtghe39?ed=2560",
+        "headers": {
+          "Host": "nat3.outsidemyheart.space"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 13 - xiaohe",
+      "udp": true,
       "type": "vmess",
       "server": "54.37.131.126",
       "port": 80,
@@ -186,63 +236,6 @@
         "headers": {
           "Host": "google.whatsapp.snapp.torob.basalam.hesanid8.ir."
         }
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 11 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "199.232.78.160",
-      "port": 443,
-      "uuid": "XpnTeam-3",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "Speedtest.net",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "Appxdn.global.ssl.fastly.net"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 12 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "199.232.78.170",
-      "port": 443,
-      "uuid": "XpnTeam-4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "Speedtest.net",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "Appxdn.global.ssl.fastly.net"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 13 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "141.95.65.9",
-      "port": 1234,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true
       }
     },
     {
@@ -258,6 +251,22 @@
         "path": "/",
         "headers": {
           "Host": "google.whatsapp.snapp.torob.basalam.hesanid8.ir."
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 15 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "145.239.55.210",
+      "port": 80,
+      "uuid": "067fcd63-b215-4abd-8529-ae929a9971a9",
+      "alterId": 0,
+      "security": "auto",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "google.whatsapp.snapp.torob.basalam.fortresshost.ir."
         }
       }
     }
