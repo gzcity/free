@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇺 俄罗斯 (Russia) 01 - xiaohe"
+        "🇦🇲 AM 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,20 +25,20 @@
       "tag": "block"
     },
     {
-      "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
+      "tag": "🇦🇲 AM 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "79.174.92.222",
-      "port": 443,
-      "uuid": "03ca8c3f-e777-45b5-a1b1-592094ca99ee",
+      "server": "77.91.68.70",
+      "port": 55983,
+      "uuid": "f667a096-5231-4cfb-8759-92bb32473139",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "m.vk.com",
+        "server_name": "yahoo.com",
         "insecure": true,
-        "client_fingerprint": "firefox",
+        "client_fingerprint": "chrome",
         "reality": true,
-        "public_key": "_PYBo3dyZRpGC44vADqcmlBCSeAVh1X8l3mulghVsTI",
+        "public_key": "nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg",
         "short_id": ""
       }
     }

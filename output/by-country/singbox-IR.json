@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇷 土耳其 (Turkey) 01 - xiaohe"
+        "🇮🇷 IR 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,24 +25,21 @@
       "tag": "block"
     },
     {
-      "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
+      "tag": "🇮🇷 IR 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "203.202.232.211",
-      "port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "server": "79.175.136.238",
+      "port": 7879,
+      "uuid": "bd5ea9bc-16ec-408e-b933-4219ed022de1",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "ccc.010304.xyz",
+        "server_name": "account.samsung.com",
         "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/fp=chrome",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "0PVs0FZprxXi0bV-YX-SkyAx6a_9GHjSZ6hpCpa1lnE",
+        "short_id": ""
       }
     }
   ]
