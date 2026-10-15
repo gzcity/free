@@ -15,8 +15,7 @@
         "🇪🇸 西班牙 (Spain) 01 - xiaohe",
         "🇪🇸 西班牙 (Spain) 02 - xiaohe",
         "🇪🇸 西班牙 (Spain) 03 - xiaohe",
-        "🇪🇸 西班牙 (Spain) 04 - xiaohe",
-        "🇪🇸 西班牙 (Spain) 05 - xiaohe"
+        "🇪🇸 西班牙 (Spain) 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -30,6 +29,24 @@
     },
     {
       "tag": "🇪🇸 西班牙 (Spain) 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "212.227.235.66",
+      "port": 2053,
+      "uuid": "ead0dd61-d398-40ad-80d6-a0e1e516d7d3",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇪🇸 西班牙 (Spain) 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "31.57.190.49",
@@ -47,24 +64,6 @@
         "headers": {
           "Host": "lucasjow.us.ci"
         }
-      }
-    },
-    {
-      "tag": "🇪🇸 西班牙 (Spain) 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "212.227.235.66",
-      "port": 2053,
-      "uuid": "ead0dd61-d398-40ad-80d6-a0e1e516d7d3",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk",
-        "short_id": ""
       }
     },
     {
@@ -105,15 +104,6 @@
         "public_key": "7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk",
         "short_id": ""
       }
-    },
-    {
-      "tag": "🇪🇸 西班牙 (Spain) 05 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "185.227.174.29",
-      "port": 8389,
-      "method": "aes-256-gcm",
-      "password": "EwUhOxemnPqaUvJgq4S8ug"
     }
   ]
 }

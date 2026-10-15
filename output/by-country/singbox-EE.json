@@ -15,8 +15,7 @@
         "🇪🇪 EE 01 - xiaohe",
         "🇪🇪 EE 02 - xiaohe",
         "🇪🇪 EE 03 - xiaohe",
-        "🇪🇪 EE 04 - xiaohe",
-        "🇪🇪 EE 05 - xiaohe"
+        "🇪🇪 EE 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -30,27 +29,6 @@
     },
     {
       "tag": "🇪🇪 EE 01 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "5.189.254.168",
-      "port": 2053,
-      "uuid": "51a0af77-a60c-4d9b-81a4-f50e1b38d90b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "cf3.schzyc.cc.cd",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/proxyip=ProxyIP.CMLiussss.netfp=chrome",
-        "headers": {
-          "Host": "cf3.schzyc.cc.cd"
-        }
-      }
-    },
-    {
-      "tag": "🇪🇪 EE 02 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "eu3.998998.best",
@@ -71,7 +49,7 @@
       }
     },
     {
-      "tag": "🇪🇪 EE 03 - xiaohe",
+      "tag": "🇪🇪 EE 02 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "109.206.241.10",
@@ -84,7 +62,7 @@
       }
     },
     {
-      "tag": "🇪🇪 EE 04 - xiaohe",
+      "tag": "🇪🇪 EE 03 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "109.206.241.10",
@@ -97,7 +75,7 @@
       }
     },
     {
-      "tag": "🇪🇪 EE 05 - xiaohe",
+      "tag": "🇪🇪 EE 04 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "109.206.241.10",

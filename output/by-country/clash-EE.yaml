@@ -5,20 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇪🇪 EE 01 - xiaohe
-  type: vless
-  server: 5.189.254.168
-  port: 2053
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cf3.schzyc.cc.cd
-  network: ws
-  ws-opts:
-    path: /proxyip=ProxyIP.CMLiussss.netfp=chrome
-    headers:
-      Host: cf3.schzyc.cc.cd
-- name: 🇪🇪 EE 02 - xiaohe
   type: vmess
   server: eu3.998998.best
   port: 443
@@ -34,7 +20,7 @@ proxies:
     path: /aiaiai
     headers:
       Host: server40.9966338.xyz
-- name: 🇪🇪 EE 03 - xiaohe
+- name: 🇪🇪 EE 02 - xiaohe
   type: trojan
   server: 109.206.241.10
   port: 449
@@ -42,7 +28,7 @@ proxies:
   udp: true
   sni: 109.206.241.10
   skip-cert-verify: true
-- name: 🇪🇪 EE 04 - xiaohe
+- name: 🇪🇪 EE 03 - xiaohe
   type: trojan
   server: 109.206.241.10
   port: 449
@@ -50,7 +36,7 @@ proxies:
   udp: true
   sni: russiapower.accesscam.org
   skip-cert-verify: true
-- name: 🇪🇪 EE 05 - xiaohe
+- name: 🇪🇪 EE 04 - xiaohe
   type: trojan
   server: 109.206.241.10
   port: 449
@@ -67,7 +53,6 @@ proxy-groups:
   - 🇪🇪 EE 02 - xiaohe
   - 🇪🇪 EE 03 - xiaohe
   - 🇪🇪 EE 04 - xiaohe
-  - 🇪🇪 EE 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -77,6 +62,5 @@ proxy-groups:
   - 🇪🇪 EE 02 - xiaohe
   - 🇪🇪 EE 03 - xiaohe
   - 🇪🇪 EE 04 - xiaohe
-  - 🇪🇪 EE 05 - xiaohe
 rules:
 - MATCH,PROXIES

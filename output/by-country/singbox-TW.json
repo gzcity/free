@@ -12,9 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇼 中国台湾 (Taiwan) 01 - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 02 - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 03 - xiaohe"
+        "🇹🇼 中国台湾 (Taiwan) 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -28,48 +26,6 @@
     },
     {
       "tag": "🇹🇼 中国台湾 (Taiwan) 01 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "fujrdt.d6f54hd1j.cc",
-      "port": 443,
-      "uuid": "d877dc6f-7323-4b47-a7dd-14228cbae854",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "fujrdt.d6f54hd1j.cc",
-        "insecure": true
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "fujrdt.d6f54hd1j.cc"
-        }
-      }
-    },
-    {
-      "tag": "🇹🇼 中国台湾 (Taiwan) 02 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "fujrdt.d6f54hd1j.cc",
-      "port": 443,
-      "uuid": "d877dc6f-7323-4b47-a7dd-14228cbae854",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "fujrdt.d6f54hd1j.cc",
-        "insecure": true
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "fujrdt.d6f54hd1j.cc"
-        }
-      }
-    },
-    {
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "165.154.195.38",

@@ -28,22 +28,19 @@
     {
       "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "fujrdt.d6f54hd1j.cc",
-      "port": 443,
-      "uuid": "d877dc6f-7323-4b47-a7dd-14228cbae854",
-      "alterId": 0,
-      "security": "auto",
+      "type": "vless",
+      "server": "hinet1.2yly.com",
+      "port": 24215,
+      "uuid": "19d5a678-8396-4e3b-93da-ece618d0e83a",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "fujrdt.d6f54hd1j.cc",
-        "insecure": true
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "fujrdt.d6f54hd1j.cc"
-        }
+        "server_name": "addons.mozilla.org",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE",
+        "short_id": ""
       }
     },
     {
