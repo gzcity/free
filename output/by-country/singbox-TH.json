@@ -34,6 +34,30 @@
     {
       "tag": "🇹🇭 TH 01 - xiaohe",
       "udp": true,
+      "type": "shadowsocks",
+      "server": "pphfree2.mvpnpvpn.de5.net",
+      "port": 52351,
+      "method": "aes-256-gcm",
+      "password": "sxajCTwrlK0zl+zmHpX0p0jXIfatnzlLzWlSQ950L1c="
+    },
+    {
+      "tag": "🇹🇭 TH 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "support.zoom.us.v2ray.simspeedup.com",
+      "port": 80,
+      "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
+      "flow": "",
+      "ws": {
+        "path": "/ws",
+        "headers": {
+          "Host": "support.zoom.us.v2ray.simspeedup.com"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇭 TH 03 - xiaohe",
+      "udp": true,
       "type": "vless",
       "server": "v2ray.simspeedup.com",
       "port": 80,
@@ -47,25 +71,22 @@
       }
     },
     {
-      "tag": "🇹🇭 TH 02 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "pphfree2.mvpnpvpn.de5.net",
-      "port": 52351,
-      "method": "aes-256-gcm",
-      "password": "sxajCTwrlK0zl+zmHpX0p0jXIfatnzlLzWlSQ950L1c="
-    },
-    {
-      "tag": "🇹🇭 TH 03 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "pphfree2.mvpnpvpn.de5.net",
-      "port": 52351,
-      "method": "aes-256-gcm",
-      "password": "sxajCTwrlK0zl+zmHpX0p0jXIfatnzlLzWlSQ950L1c="
-    },
-    {
       "tag": "🇹🇭 TH 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "103.86.49.57",
+      "port": 80,
+      "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
+      "flow": "",
+      "ws": {
+        "path": "/ws",
+        "headers": {
+          "Host": "ais.speedtest.net"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇭 TH 05 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "103.107.52.106",
@@ -74,19 +95,22 @@
       "password": "sxajCTwrlK0zl+zmHpX0p0jXIfatnzlLzWlSQ950L1c="
     },
     {
-      "tag": "🇹🇭 TH 05 - xiaohe",
+      "tag": "🇹🇭 TH 06 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "pphfree2.mvpnpvpn.de5.net",
+      "port": 52351,
+      "method": "aes-256-gcm",
+      "password": "sxajCTwrlK0zl+zmHpX0p0jXIfatnzlLzWlSQ950L1c="
+    },
+    {
+      "tag": "🇹🇭 TH 07 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.18.26.90",
-      "port": 443,
+      "server": "v2ray.simspeedup.com",
+      "port": 80,
       "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "v2ray.simspeedup.com",
-        "insecure": true,
-        "client_fingerprint": null
-      },
       "ws": {
         "path": "/ws",
         "headers": {
@@ -95,7 +119,7 @@
       }
     },
     {
-      "tag": "🇹🇭 TH 06 - xiaohe",
+      "tag": "🇹🇭 TH 08 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "104.16.10.2",
@@ -112,42 +136,6 @@
         "path": "/ws",
         "headers": {
           "Host": "v2ray.simspeedup.com"
-        }
-      }
-    },
-    {
-      "tag": "🇹🇭 TH 07 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.16.111.193",
-      "port": 443,
-      "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "v2ray.simspeedup.com",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/ws",
-        "headers": {
-          "Host": "v2ray.simspeedup.com"
-        }
-      }
-    },
-    {
-      "tag": "🇹🇭 TH 08 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "v2ray.simspeedup.com",
-      "port": 80,
-      "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
-      "flow": "",
-      "ws": {
-        "path": "/ws",
-        "headers": {
-          "Host": "ais.speedtest.net"
         }
       }
     }

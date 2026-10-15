@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇽 MX 01 - xiaohe"
+        "🇮🇷 IR 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,13 +25,20 @@
       "tag": "block"
     },
     {
-      "tag": "🇲🇽 MX 01 - xiaohe",
+      "tag": "🇮🇷 IR 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "64.177.90.30",
-      "port": 8388,
-      "method": "aes-256-gcm",
-      "password": "BWyPPTusFKhGgzKh"
+      "type": "vmess",
+      "server": "nl-2a972c8052.shamanapp.online",
+      "port": 33736,
+      "uuid": "b3a11068-1a7e-4643-85de-7c82cce46943",
+      "alterId": 0,
+      "security": "auto",
+      "ws": {
+        "path": "/vmess-ws",
+        "headers": {
+          "Host": ""
+        }
+      }
     }
   ]
 }
