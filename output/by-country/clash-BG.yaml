@@ -1,0 +1,50 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+proxies:
+- name: 🇧🇬 BG 01 - xiaohe
+  type: vless
+  server: nl5.hap-plus.ru
+  port: 8443
+  uuid: 05d7a479-a099-40cf-aecf-41aa934767b0
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nl5.hap-plus.ru
+  network: ws
+  ws-opts:
+    path: /api/v1/events
+    headers:
+      Host: nl5.hap-plus.ru
+- name: 🇧🇬 BG 02 - xiaohe
+  type: vless
+  server: nl5.hap-plus.ru
+  port: 8443
+  uuid: 05d7a479-a099-40cf-aecf-41aa934767b0
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nl5.hap-plus.ru
+  network: ws
+  ws-opts:
+    path: /api/v1/events
+    headers:
+      Host: nl5.hap-plus.ru
+proxy-groups:
+- name: PROXIES
+  type: select
+  proxies:
+  - AUTO
+  - 🇧🇬 BG 01 - xiaohe
+  - 🇧🇬 BG 02 - xiaohe
+- name: AUTO
+  type: url-test
+  url: https://www.google.com/generate_204
+  interval: 300
+  proxies:
+  - 🇧🇬 BG 01 - xiaohe
+  - 🇧🇬 BG 02 - xiaohe
+rules:
+- MATCH,PROXIES
