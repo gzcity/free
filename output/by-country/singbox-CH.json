@@ -16,7 +16,9 @@
         "🇨🇭 CH 02 - xiaohe",
         "🇨🇭 CH 03 - xiaohe",
         "🇨🇭 CH 04 - xiaohe",
-        "🇨🇭 CH 05 - xiaohe"
+        "🇨🇭 CH 05 - xiaohe",
+        "🇨🇭 CH 06 - xiaohe",
+        "🇨🇭 CH 07 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -30,6 +32,15 @@
     },
     {
       "tag": "🇨🇭 CH 01 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "132.243.175.144",
+      "port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3"
+    },
+    {
+      "tag": "🇨🇭 CH 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "208.69.78.217",
@@ -47,29 +58,20 @@
       }
     },
     {
-      "tag": "🇨🇭 CH 02 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "132.243.175.144",
-      "port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3"
-    },
-    {
       "tag": "🇨🇭 CH 03 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "208.69.78.217",
-      "port": 2053,
-      "uuid": "c0dd6d59-1573-43af-8b70-1470b2632a6d",
+      "server": "45.133.151.186",
+      "port": 25414,
+      "uuid": "d54a7512-dda3-4218-8ae7-c591d300fd7c",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
+        "server_name": "www.icloud.com",
         "insecure": true,
-        "client_fingerprint": "chrome",
+        "client_fingerprint": "ios",
         "reality": true,
-        "public_key": "A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0",
+        "public_key": "KjcB2_xuklgTEHo_L_y3YdGdQoDgA91Yaa3YgRu_Iis",
         "short_id": ""
       }
     },
@@ -97,6 +99,33 @@
         "client_fingerprint": "firefox",
         "reality": true,
         "public_key": "A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇨🇭 CH 06 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "86.106.84.194",
+      "port": 13261,
+      "method": "aes-128-gcm",
+      "password": "2bf536a4bd6008511734a505d248de2c"
+    },
+    {
+      "tag": "🇨🇭 CH 07 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "45.133.151.186",
+      "port": 25393,
+      "uuid": "d54a7512-dda3-4218-8ae7-c591d300fd7c",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.samsung.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "04F4vhrx_H_SHsrsVw1eCpwlysu4kL3hTl9GAr00XkI",
         "short_id": ""
       }
     }

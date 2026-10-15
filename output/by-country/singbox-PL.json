@@ -14,7 +14,8 @@
       "outbounds": [
         "🇵🇱 PL 01 - xiaohe",
         "🇵🇱 PL 02 - xiaohe",
-        "🇵🇱 PL 03 - xiaohe"
+        "🇵🇱 PL 03 - xiaohe",
+        "🇵🇱 PL 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -30,16 +31,10 @@
       "tag": "🇵🇱 PL 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "2.26.225.89",
-      "port": 8443,
-      "uuid": "51a1fd52-fd88-4905-a976-35e44be28e4b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "2.26.225.89",
-        "insecure": true,
-        "client_fingerprint": null
-      }
+      "server": "test.keoplentuio.xyz",
+      "port": 2053,
+      "uuid": "9ef61079-6f7d-4911-9608-943da85d8e6f",
+      "flow": ""
     },
     {
       "tag": "🇵🇱 PL 02 - xiaohe",
@@ -67,6 +62,21 @@
       "tls": {
         "enabled": true,
         "server_name": "pl.flen-vpn.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "2.26.225.89",
+      "port": 8443,
+      "uuid": "51a1fd52-fd88-4905-a976-35e44be28e4b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "2.26.225.89",
         "insecure": true,
         "client_fingerprint": null
       }

@@ -12,7 +12,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇷 BR 01 - xiaohe"
+        "🇧🇷 BR 01 - xiaohe",
+        "🇧🇷 BR 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -27,11 +28,38 @@
     {
       "tag": "🇧🇷 BR 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "216.128.168.190",
-      "port": 8388,
-      "method": "aes-256-gcm",
-      "password": "owVdNnQcdPgthSyX"
+      "type": "vless",
+      "server": "35.199.90.53",
+      "port": 443,
+      "uuid": "5e517b94-e207-47ee-be3c-3020a57594e8",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "pCImwRkTjx8OIUiu1WFelZQFt1p3Q0lUoPbvjVq8GTs",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇧🇷 BR 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "35.199.90.53",
+      "port": 443,
+      "uuid": "5e517b94-e207-47ee-be3c-3020a57594e8",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "pCImwRkTjx8OIUiu1WFelZQFt1p3Q0lUoPbvjVq8GTs",
+        "short_id": ""
+      }
     }
   ]
 }

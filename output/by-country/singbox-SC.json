@@ -15,7 +15,8 @@
         "🇸🇨 SC 01 - xiaohe",
         "🇸🇨 SC 02 - xiaohe",
         "🇸🇨 SC 03 - xiaohe",
-        "🇸🇨 SC 04 - xiaohe"
+        "🇸🇨 SC 04 - xiaohe",
+        "🇸🇨 SC 05 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -32,36 +33,27 @@
       "udp": true,
       "type": "vless",
       "server": "45.137.43.168",
-      "port": 14430,
+      "port": 10443,
       "uuid": "b4cc503a-c352-4775-85ad-fc982086884a",
-      "flow": "",
-      "ws": {
-        "path": "/vless",
-        "headers": {
-          "Host": "45.137.43.168"
-        }
-      }
+      "flow": ""
     },
     {
       "tag": "🇸🇨 SC 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "45.137.43.168",
-      "port": 10443,
+      "port": 14430,
       "uuid": "b4cc503a-c352-4775-85ad-fc982086884a",
-      "flow": ""
+      "flow": "",
+      "ws": {
+        "path": "/vless",
+        "headers": {
+          "Host": "45.137.43.168"
+        }
+      }
     },
     {
       "tag": "🇸🇨 SC 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "45.137.43.168",
-      "port": 10443,
-      "uuid": "b4cc503a-c352-4775-85ad-fc982086884a",
-      "flow": ""
-    },
-    {
-      "tag": "🇸🇨 SC 04 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "45.137.43.168",
@@ -74,6 +66,24 @@
           "Host": "45.137.43.168"
         }
       }
+    },
+    {
+      "tag": "🇸🇨 SC 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "45.137.43.168",
+      "port": 10443,
+      "uuid": "b4cc503a-c352-4775-85ad-fc982086884a",
+      "flow": ""
+    },
+    {
+      "tag": "🇸🇨 SC 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "45.137.43.168",
+      "port": 10443,
+      "uuid": "b4cc503a-c352-4775-85ad-fc982086884a",
+      "flow": ""
     }
   ]
 }

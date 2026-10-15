@@ -28,7 +28,18 @@
         "🇨🇦 加拿大 (Canada) 14 - xiaohe",
         "🇨🇦 加拿大 (Canada) 15 - xiaohe",
         "🇨🇦 加拿大 (Canada) 16 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 17 - xiaohe"
+        "🇨🇦 加拿大 (Canada) 17 - xiaohe",
+        "🇨🇦 加拿大 (Canada) 18 - xiaohe",
+        "🇨🇦 加拿大 (Canada) 19 - xiaohe",
+        "🇨🇦 加拿大 (Canada) 20 - xiaohe",
+        "🇨🇦 加拿大 (Canada) 21 - xiaohe",
+        "🇨🇦 加拿大 (Canada) 22 - xiaohe",
+        "🇨🇦 加拿大 (Canada) 23 - xiaohe",
+        "🇨🇦 加拿大 (Canada) 24 - xiaohe",
+        "🇨🇦 加拿大 (Canada) 25 - xiaohe",
+        "🇨🇦 加拿大 (Canada) 26 - xiaohe",
+        "🇨🇦 加拿大 (Canada) 27 - xiaohe",
+        "🇨🇦 加拿大 (Canada) 28 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -43,15 +54,6 @@
     {
       "tag": "🇨🇦 加拿大 (Canada) 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "51.222.136.236",
-      "port": 8882,
-      "method": "aes-256-gcm",
-      "password": "kDWvXYZoTBcGkC4"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 02 - xiaohe",
-      "udp": true,
       "type": "vless",
       "server": "milo.rubinaz.xyz",
       "port": 8080,
@@ -59,7 +61,38 @@
       "flow": ""
     },
     {
+      "tag": "🇨🇦 加拿大 (Canada) 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.67.155.65",
+      "port": 8443,
+      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "lucasjow.us.ci",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/cart/docs/www/proxyip",
+        "headers": {
+          "Host": "lucasjow.us.ci"
+        }
+      }
+    },
+    {
       "tag": "🇨🇦 加拿大 (Canada) 03 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "134.195.196.211",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 04 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "66.70.179.198",
@@ -70,42 +103,23 @@
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "insecure": true,
-        "client_fingerprint": "firefox",
+        "client_fingerprint": "random",
         "reality": true,
         "public_key": "k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU",
         "short_id": ""
       }
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 04 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "51.79.85.185",
-      "port": 8118,
-      "method": "aes-256-gcm",
-      "password": "cdBIDV42DCwnfIN"
-    },
-    {
       "tag": "🇨🇦 加拿大 (Canada) 05 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "134.195.196.211",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
+      "type": "shadowsocks",
+      "server": "51.222.12.127",
+      "port": 445,
+      "method": "aes-256-gcm",
+      "password": "zDNVedRFPQexG9v"
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 06 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "milo.rubinaz.xyz",
-      "port": 8080,
-      "uuid": "6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8",
-      "flow": ""
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 07 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "148.113.196.75",
@@ -126,23 +140,43 @@
       }
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 08 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 07 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "51.222.200.165",
-      "port": 5000,
-      "method": "aes-256-gcm",
-      "password": "Y6R9pAtvxxzmGC"
+      "server": "149.22.95.183",
+      "port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 08 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.67.155.65",
+      "port": 8443,
+      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "lucasjow.us.ci",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/cart/docs/www/proxyip",
+        "headers": {
+          "Host": "lucasjow.us.ci"
+        }
+      }
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 09 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "23.162.200.198",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
+      "type": "vless",
+      "server": "milo.rubinaz.xyz",
+      "port": 8080,
+      "uuid": "6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8",
+      "flow": ""
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 10 - xiaohe",
@@ -156,58 +190,90 @@
     {
       "tag": "🇨🇦 加拿大 (Canada) 11 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "51.79.64.198",
-      "port": 8119,
-      "method": "aes-256-gcm",
-      "password": "cdBIDV42DCwnfIN"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 12 - xiaohe",
-      "udp": true,
       "type": "vmess",
-      "server": "134.195.196.211",
+      "server": "23.162.200.198",
       "port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "alterId": 0,
       "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 12 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.67.155.65",
+      "port": 8443,
+      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "lucasjow.us.ci",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/cart/docs/www/proxyip",
+        "headers": {
+          "Host": "lucasjow.us.ci"
+        }
+      }
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 13 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "149.22.95.183",
-      "port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
+      "server": "51.79.85.185",
+      "port": 8118,
+      "method": "aes-256-gcm",
+      "password": "cdBIDV42DCwnfIN"
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 14 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "134.195.196.211",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
+      "type": "shadowsocks",
+      "server": "51.222.200.165",
+      "port": 5000,
+      "method": "aes-256-gcm",
+      "password": "Y6R9pAtvxxzmGC"
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 15 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "milo.rubinaz.xyz",
-      "port": 8080,
-      "uuid": "6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8",
-      "flow": ""
+      "server": "66.70.179.198",
+      "port": 2053,
+      "uuid": "dc620cd6-a9d8-4a0f-8f18-006b895db77e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU",
+        "short_id": ""
+      }
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 16 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "51.222.141.125",
-      "port": 445,
-      "method": "aes-256-gcm",
-      "password": "zDNVedRFPQexG9v"
+      "type": "vless",
+      "server": "cf.090227.xyz",
+      "port": 443,
+      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "lucasjow.us.ci",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "lucasjow.us.ci"
+        }
+      }
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 17 - xiaohe",
@@ -217,6 +283,166 @@
       "port": 8080,
       "uuid": "6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8",
       "flow": ""
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 18 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "134.195.196.211",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 19 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.21.91.244",
+      "port": 443,
+      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "lucasjow.us.ci",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560",
+        "headers": {
+          "Host": "lucasjow.us.ci"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 20 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.21.91.244",
+      "port": 443,
+      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "lucasjow.us.ci",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560",
+        "headers": {
+          "Host": "lucasjow.us.ci"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 21 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.67.155.65",
+      "port": 8443,
+      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "lucasjow.us.ci",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "lucasjow.us.ci"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 22 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.67.155.65",
+      "port": 2053,
+      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "lucasjow.us.ci",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/cart/docs/www/proxyip",
+        "headers": {
+          "Host": "lucasjow.us.ci"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 23 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "51.222.136.236",
+      "port": 8882,
+      "method": "aes-256-gcm",
+      "password": "kDWvXYZoTBcGkC4"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 24 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "51.222.155.32",
+      "port": 5003,
+      "method": "aes-256-gcm",
+      "password": "g5MeD6Ft3CWlJId"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 25 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "milo.rubinaz.xyz",
+      "port": 8080,
+      "uuid": "6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8",
+      "flow": ""
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 26 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.67.155.65",
+      "port": 2053,
+      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "lucasjow.us.ci",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/cart/docs/www/proxyip",
+        "headers": {
+          "Host": "lucasjow.us.ci"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 27 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "51.222.200.165",
+      "port": 5000,
+      "method": "aes-256-gcm",
+      "password": "Y6R9pAtvxxzmGC"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 28 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "51.222.155.113",
+      "port": 5601,
+      "method": "aes-256-gcm",
+      "password": "Y6R9pAtvxxzmGC"
     }
   ]
 }
