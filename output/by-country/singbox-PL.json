@@ -17,7 +17,8 @@
         "🇵🇱 PL 03 - xiaohe",
         "🇵🇱 PL 04 - xiaohe",
         "🇵🇱 PL 05 - xiaohe",
-        "🇵🇱 PL 06 - xiaohe"
+        "🇵🇱 PL 06 - xiaohe",
+        "🇵🇱 PL 07 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -33,15 +34,18 @@
       "tag": "🇵🇱 PL 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "2.26.225.89",
-      "port": 8443,
-      "uuid": "51a1fd52-fd88-4905-a976-35e44be28e4b",
+      "server": "164.37.224.232",
+      "port": 25452,
+      "uuid": "68c3d665-b2b5-4ffb-9f37-9f3d8c47324d",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "pl.flen-vpn.xyz",
+        "server_name": "www.ns.nl",
         "insecure": true,
-        "client_fingerprint": null
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "zJI16_ywLd4clshY0IQQPxQ_YBbIq2b0XTO_dnTJOy4",
+        "short_id": ""
       }
     },
     {
@@ -63,21 +67,6 @@
       "tag": "🇵🇱 PL 03 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "2.26.225.89",
-      "port": 8443,
-      "uuid": "51a1fd52-fd88-4905-a976-35e44be28e4b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "pl.flen-vpn.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      }
-    },
-    {
-      "tag": "🇵🇱 PL 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
       "server": "164.37.224.232",
       "port": 25452,
       "uuid": "68c3d665-b2b5-4ffb-9f37-9f3d8c47324d",
@@ -90,6 +79,21 @@
         "reality": true,
         "public_key": "zJI16_ywLd4clshY0IQQPxQ_YBbIq2b0XTO_dnTJOy4",
         "short_id": ""
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "2.26.225.89",
+      "port": 8443,
+      "uuid": "51a1fd52-fd88-4905-a976-35e44be28e4b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "pl.flen-vpn.xyz",
+        "insecure": true,
+        "client_fingerprint": null
       }
     },
     {
@@ -109,6 +113,21 @@
     },
     {
       "tag": "🇵🇱 PL 06 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "2.26.225.89",
+      "port": 8443,
+      "uuid": "51a1fd52-fd88-4905-a976-35e44be28e4b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "pl.flen-vpn.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 07 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "164.37.224.232",

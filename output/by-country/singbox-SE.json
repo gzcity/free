@@ -19,7 +19,8 @@
         "🇸🇪 SE 05 - xiaohe",
         "🇸🇪 SE 06 - xiaohe",
         "🇸🇪 SE 07 - xiaohe",
-        "🇸🇪 SE 08 - xiaohe"
+        "🇸🇪 SE 08 - xiaohe",
+        "🇸🇪 SE 09 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -34,29 +35,17 @@
     {
       "tag": "🇸🇪 SE 01 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "94.143.231.146",
-      "port": 443,
-      "uuid": "6e05822a-e9da-4135-a9db-71aa07a944af",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "sub.merky.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/merky-connect/de6/",
-        "headers": {
-          "Host": "sub.merky.top"
-        }
-      }
+      "type": "shadowsocks",
+      "server": "mui.firzav.ir",
+      "port": 1080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "ZJdYmMiJBWkbTZ5nExBRpQ_f7uIG7wL4"
     },
     {
       "tag": "🇸🇪 SE 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "94.143.231.146",
+      "server": "sub.merky.top",
       "port": 443,
       "uuid": "6e05822a-e9da-4135-a9db-71aa07a944af",
       "flow": "",
@@ -77,25 +66,34 @@
       "tag": "🇸🇪 SE 03 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "94.143.231.146",
-      "port": 443,
-      "uuid": "6e05822a-e9da-4135-a9db-71aa07a944af",
+      "server": "5.178.109.174",
+      "port": 14430,
+      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "sub.merky.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
       "ws": {
-        "path": "/merky-connect/de6/",
+        "path": "/vless",
         "headers": {
-          "Host": "94.143.231.146"
+          "Host": "5.178.109.174"
         }
       }
     },
     {
       "tag": "🇸🇪 SE 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "5.178.109.174",
+      "port": 14430,
+      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
+      "flow": "",
+      "ws": {
+        "path": "/vless",
+        "headers": {
+          "Host": "5.178.109.174"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇪 SE 05 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "77.110.97.245",
@@ -116,22 +114,28 @@
       }
     },
     {
-      "tag": "🇸🇪 SE 05 - xiaohe",
+      "tag": "🇸🇪 SE 06 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "5.178.109.174",
-      "port": 14430,
-      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
+      "server": "94.143.231.146",
+      "port": 443,
+      "uuid": "6e05822a-e9da-4135-a9db-71aa07a944af",
       "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "sub.merky.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
       "ws": {
-        "path": "/vless",
+        "path": "/merky-connect/de6/",
         "headers": {
-          "Host": "5.178.109.174"
+          "Host": "sub.merky.top"
         }
       }
     },
     {
-      "tag": "🇸🇪 SE 06 - xiaohe",
+      "tag": "🇸🇪 SE 07 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "94.143.231.146",
@@ -152,22 +156,25 @@
       }
     },
     {
-      "tag": "🇸🇪 SE 07 - xiaohe",
+      "tag": "🇸🇪 SE 08 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "5.178.109.174",
-      "port": 14430,
-      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
+      "server": "88.216.223.66",
+      "port": 443,
+      "uuid": "244d9eab-3311-40c7-b47f-4968dc3088a6",
       "flow": "",
-      "ws": {
-        "path": "/vless",
-        "headers": {
-          "Host": "5.178.109.174"
-        }
+      "tls": {
+        "enabled": true,
+        "server_name": "tcpswed1.figurapn.ru",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ",
+        "short_id": ""
       }
     },
     {
-      "tag": "🇸🇪 SE 08 - xiaohe",
+      "tag": "🇸🇪 SE 09 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "5.178.109.174",

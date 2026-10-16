@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇦🇺 澳大利亚 (Australia) 01 - xiaohe"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "tag": "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "172.67.195.146",
+      "port": 443,
+      "uuid": "f5f0babe-aea2-4f07-a1fc-3c9820253f49",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "aus.lovehk.xyz",
+        "insecure": true
+      },
+      "ws": {
+        "path": "/Sydney3",
+        "headers": {
+          "Host": "aus.lovehk.xyz"
+        }
+      }
+    }
+  ]
+}

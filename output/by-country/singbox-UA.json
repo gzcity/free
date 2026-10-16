@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇺🇦 UA 01 - xiaohe"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "tag": "🇺🇦 UA 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "91.196.163.140",
+      "port": 14430,
+      "uuid": "e86a3662-9b31-4d59-bc80-9e8644749b95",
+      "flow": "",
+      "ws": {
+        "path": "/vless",
+        "headers": {
+          "Host": "91.196.163.140"
+        }
+      }
+    }
+  ]
+}
