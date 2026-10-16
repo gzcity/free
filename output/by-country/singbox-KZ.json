@@ -32,9 +32,9 @@
       "tag": "🇰🇿 KZ 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "77.73.232.61",
-      "port": 19747,
-      "uuid": "2a9ed01e-5455-44b4-a66a-76ee8165f0ac",
+      "server": "83.222.23.81",
+      "port": 38065,
+      "uuid": "4b9063e0-3288-44e9-9aac-80fbfce323a0",
       "flow": "",
       "tls": {
         "enabled": true,
@@ -42,7 +42,7 @@
         "insecure": true,
         "client_fingerprint": "chrome",
         "reality": true,
-        "public_key": "ZO9dTeg1slvTXgVsBsaJ1BDvz_YUImTLJjbHs-GdVyM",
+        "public_key": "dSSDPTK6AHfAdRAXD9i4rzqcNIY65RxlF25UyCKdiyo",
         "short_id": ""
       }
     },
@@ -68,24 +68,6 @@
       "tag": "🇰🇿 KZ 03 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "109.248.170.119",
-      "port": 13447,
-      "uuid": "b573cefb-7bc7-4a42-b407-b8b534e66773",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇰🇿 KZ 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
       "server": "178.236.16.98",
       "port": 35728,
       "uuid": "a00d89f6-ab7e-4e30-a5e5-54c701d62c93",
@@ -97,6 +79,24 @@
         "client_fingerprint": "chrome",
         "reality": true,
         "public_key": "vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇰🇿 KZ 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "109.248.170.119",
+      "port": 13447,
+      "uuid": "b573cefb-7bc7-4a42-b407-b8b534e66773",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE",
         "short_id": ""
       }
     },

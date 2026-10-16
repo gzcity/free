@@ -37,12 +37,38 @@
       "password": "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1",
       "tls": {
         "enabled": true,
-        "server_name": "109.206.241.10",
+        "server_name": "russiapower.accesscam.org",
         "insecure": true
       }
     },
     {
       "tag": "🇪🇪 EE 02 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "109.206.241.10",
+      "port": 449,
+      "password": "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1",
+      "tls": {
+        "enabled": true,
+        "server_name": "russiapower.accesscam.org",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇪🇪 EE 03 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "109.206.241.10",
+      "port": 449,
+      "password": "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1",
+      "tls": {
+        "enabled": true,
+        "server_name": "109.206.241.10",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇪🇪 EE 04 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "eu3.998998.best",
@@ -60,32 +86,6 @@
         "headers": {
           "Host": "server40.9966338.xyz"
         }
-      }
-    },
-    {
-      "tag": "🇪🇪 EE 03 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "109.206.241.10",
-      "port": 449,
-      "password": "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1",
-      "tls": {
-        "enabled": true,
-        "server_name": "russiapower.accesscam.org",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇪🇪 EE 04 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "109.206.241.10",
-      "port": 449,
-      "password": "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1",
-      "tls": {
-        "enabled": true,
-        "server_name": "russiapower.accesscam.org",
-        "insecure": true
       }
     },
     {

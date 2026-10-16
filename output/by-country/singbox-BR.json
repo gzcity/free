@@ -18,7 +18,15 @@
         "🇧🇷 BR 04 - xiaohe",
         "🇧🇷 BR 05 - xiaohe",
         "🇧🇷 BR 06 - xiaohe",
-        "🇧🇷 BR 07 - xiaohe"
+        "🇧🇷 BR 07 - xiaohe",
+        "🇧🇷 BR 08 - xiaohe",
+        "🇧🇷 BR 09 - xiaohe",
+        "🇧🇷 BR 10 - xiaohe",
+        "🇧🇷 BR 11 - xiaohe",
+        "🇧🇷 BR 12 - xiaohe",
+        "🇧🇷 BR 13 - xiaohe",
+        "🇧🇷 BR 14 - xiaohe",
+        "🇧🇷 BR 15 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -34,57 +42,6 @@
       "tag": "🇧🇷 BR 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "35.199.90.53",
-      "port": 443,
-      "uuid": "5e517b94-e207-47ee-be3c-3020a57594e8",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "pCImwRkTjx8OIUiu1WFelZQFt1p3Q0lUoPbvjVq8GTs",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇧🇷 BR 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "35.199.90.53",
-      "port": 443,
-      "uuid": "5e517b94-e207-47ee-be3c-3020a57594e8",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "pCImwRkTjx8OIUiu1WFelZQFt1p3Q0lUoPbvjVq8GTs",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇧🇷 BR 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "platform106.golnamakcert.top",
-      "port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "flow": "",
-      "ws": {
-        "path": "/platform106",
-        "headers": {
-          "Host": "platform106.halalkhor.info"
-        }
-      }
-    },
-    {
-      "tag": "🇧🇷 BR 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
       "server": "platform102.golnamakcert.top",
       "port": 80,
       "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
@@ -97,7 +54,7 @@
       }
     },
     {
-      "tag": "🇧🇷 BR 05 - xiaohe",
+      "tag": "🇧🇷 BR 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "platform107.golnamakcert.top",
@@ -112,7 +69,82 @@
       }
     },
     {
+      "tag": "🇧🇷 BR 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "platform117.golnamakcert.top",
+      "port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "flow": "",
+      "ws": {
+        "path": "/platform117",
+        "headers": {
+          "Host": "platform117.halalkhor.info"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇷 BR 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "platform103.golnamakcert.top",
+      "port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "flow": "",
+      "ws": {
+        "path": "/platform103",
+        "headers": {
+          "Host": "platform103.halalkhor.info"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇷 BR 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "platform106.golnamakcert.top",
+      "port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "flow": "",
+      "ws": {
+        "path": "/platform106",
+        "headers": {
+          "Host": "platform106.halalkhor.info"
+        }
+      }
+    },
+    {
       "tag": "🇧🇷 BR 06 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "platform106.golnamakcert.top",
+      "port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "flow": "",
+      "ws": {
+        "path": "/platform106",
+        "headers": {
+          "Host": "platform106.halalkhor.info"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇷 BR 07 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "platform107.golnamakcert.top",
+      "port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "flow": "",
+      "ws": {
+        "path": "/platform107",
+        "headers": {
+          "Host": "platform107.halalkhor.info"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇷 BR 08 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "platform107.golnamakcert.top",
@@ -127,7 +159,97 @@
       }
     },
     {
-      "tag": "🇧🇷 BR 07 - xiaohe",
+      "tag": "🇧🇷 BR 09 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "platform107.golnamakcert.top",
+      "port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "flow": "",
+      "ws": {
+        "path": "/platform107",
+        "headers": {
+          "Host": "platform107.halalkhor.info"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇷 BR 10 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "platform108.golnamakcert.top",
+      "port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "flow": "",
+      "ws": {
+        "path": "/platform108",
+        "headers": {
+          "Host": "platform108.halalkhor.info"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇷 BR 11 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "platform117.golnamakcert.top",
+      "port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "flow": "",
+      "ws": {
+        "path": "/platform117",
+        "headers": {
+          "Host": "platform117.halalkhor.info"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇷 BR 12 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "platform108.golnamakcert.top",
+      "port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "flow": "",
+      "ws": {
+        "path": "/platform108",
+        "headers": {
+          "Host": "platform108.halalkhor.info"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇷 BR 13 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "platform102.golnamakcert.top",
+      "port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "flow": "",
+      "ws": {
+        "path": "/platform102",
+        "headers": {
+          "Host": "platform102.halalkhor.info"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇷 BR 14 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "platform118.golnamakcert.top",
+      "port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "flow": "",
+      "ws": {
+        "path": "/platform118",
+        "headers": {
+          "Host": "platform118.halalkhor.info"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇷 BR 15 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "platform101.golnamakcert.top",

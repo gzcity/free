@@ -18,7 +18,9 @@
         "🇫🇮 FI 04 - xiaohe",
         "🇫🇮 FI 05 - xiaohe",
         "🇫🇮 FI 06 - xiaohe",
-        "🇫🇮 FI 07 - xiaohe"
+        "🇫🇮 FI 07 - xiaohe",
+        "🇫🇮 FI 08 - xiaohe",
+        "🇫🇮 FI 09 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -42,7 +44,7 @@
         "enabled": true,
         "server_name": "www.google.com",
         "insecure": true,
-        "client_fingerprint": "random",
+        "client_fingerprint": "firefox",
         "reality": true,
         "public_key": "4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM",
         "short_id": ""
@@ -52,37 +54,31 @@
       "tag": "🇫🇮 FI 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "95.216.27.15",
-      "port": 2053,
-      "uuid": "1c81f6d3-5771-4c5d-9fdd-1655eff50634",
+      "server": "cdn.topingr.ir",
+      "port": 443,
+      "uuid": "497f5381-3533-4c6a-939c-66eb3a7de108",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "www.google.com",
+        "server_name": "cdn.topingr.ir",
         "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM",
-        "short_id": ""
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/gropcdn",
+        "headers": {
+          "Host": "cdn.topingr.ir"
+        }
       }
     },
     {
       "tag": "🇫🇮 FI 03 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "95.216.27.15",
-      "port": 2053,
-      "uuid": "1c81f6d3-5771-4c5d-9fdd-1655eff50634",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.google.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM",
-        "short_id": ""
-      }
+      "server": "edge10.cyrionflare.com",
+      "port": 2052,
+      "uuid": "1a8ecc41-6e62-431b-8eca-87c2fa4dc286",
+      "flow": ""
     },
     {
       "tag": "🇫🇮 FI 04 - xiaohe",
@@ -96,7 +92,7 @@
         "enabled": true,
         "server_name": "www.google.com",
         "insecure": true,
-        "client_fingerprint": "firefox",
+        "client_fingerprint": "random",
         "reality": true,
         "public_key": "4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM",
         "short_id": ""
@@ -106,10 +102,19 @@
       "tag": "🇫🇮 FI 05 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "edge10.cyrionflare.com",
-      "port": 2052,
-      "uuid": "1a8ecc41-6e62-431b-8eca-87c2fa4dc286",
-      "flow": ""
+      "server": "95.216.27.15",
+      "port": 2053,
+      "uuid": "1c81f6d3-5771-4c5d-9fdd-1655eff50634",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM",
+        "short_id": ""
+      }
     },
     {
       "tag": "🇫🇮 FI 06 - xiaohe",
@@ -128,6 +133,45 @@
     },
     {
       "tag": "🇫🇮 FI 07 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "95.216.27.15",
+      "port": 2053,
+      "uuid": "1c81f6d3-5771-4c5d-9fdd-1655eff50634",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇫🇮 FI 08 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "cdn.topingr.ir",
+      "port": 443,
+      "uuid": "497f5381-3533-4c6a-939c-66eb3a7de108",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.topingr.ir",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/gropcdn",
+        "headers": {
+          "Host": "cdn.topingr.ir"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI 09 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "edge10.cyrionflare.com",
