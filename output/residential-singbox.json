@@ -13,9 +13,7 @@
       "tag": "auto",
       "outbounds": [
         "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
-        "🇺🇸 美国 (United States) 02 (家宽) - xiaohe",
-        "🇩🇪 德国 (Germany) 03 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe"
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -39,56 +37,14 @@
         "enabled": true,
         "server_name": "addons.mozilla.org",
         "insecure": true,
-        "client_fingerprint": "qq",
+        "client_fingerprint": "chrome",
         "reality": true,
         "public_key": "mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE",
         "short_id": ""
       }
     },
     {
-      "tag": "🇺🇸 美国 (United States) 02 (家宽) - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.66.47.45",
-      "port": 2083,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "wk1.f1w.de5.net",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "wk1.f1w.de5.net"
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 03 (家宽) - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "209.38.238.229",
-      "port": 20202,
-      "uuid": "d18c6897-2849-456a-8c46-d7ecece47c20",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "wzs.echo.net.eu.org",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HUlZXSwcZUQABSgMNQRoaSVhfRhoOChkDDUs=",
-        "headers": {
-          "Host": "wzs.echo.net.eu.org"
-        }
-      }
-    },
-    {
-      "tag": "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "60.248.219.78",

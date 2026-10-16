@@ -6,34 +6,27 @@ log-level: info
 proxies:
 - name: 🇰🇷 韩国 (South Korea) 01 - xiaohe
   type: trojan
-  server: 43.201.100.203
+  server: optimum-snapper.rooster465.autos
   port: 443
   password: UX82473651
   udp: true
   sni: optimum-snapper.rooster465.autos
   skip-cert-verify: true
 - name: 🇰🇷 韩国 (South Korea) 02 - xiaohe
-  type: vmess
-  server: 132.145.80.230
-  port: 80
-  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /cctv13.m3u8
-    headers:
-      Host: kr02.a0a.xyz
-- name: 🇰🇷 韩国 (South Korea) 03 - xiaohe
   type: trojan
-  server: pure-kodiak.rooster465.autos
+  server: optimum-snapper.rooster465.autos
   port: 443
   password: UX82473651
   udp: true
-  sni: pure-kodiak.rooster465.autos
+  sni: optimum-snapper.rooster465.autos
+  skip-cert-verify: true
+- name: 🇰🇷 韩国 (South Korea) 03 - xiaohe
+  type: trojan
+  server: noted-cougar.rooster465.autos
+  port: 443
+  password: UX82473651
+  udp: true
+  sni: noted-cougar.rooster465.autos
   skip-cert-verify: true
 - name: 🇰🇷 韩国 (South Korea) 04 - xiaohe
   type: trojan
@@ -44,58 +37,6 @@ proxies:
   sni: pretty-rat.rooster465.autos
   skip-cert-verify: true
 - name: 🇰🇷 韩国 (South Korea) 05 - xiaohe
-  type: vmess
-  server: jp4.998998.best
-  port: 443
-  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nat12.9966338.xyz
-  network: ws
-  ws-opts:
-    path: /vvvvvvvvv
-    headers:
-      Host: nat12.9966338.xyz
-- name: 🇰🇷 韩国 (South Korea) 06 - xiaohe
-  type: trojan
-  server: central-jawfish.rooster465.autos
-  port: 443
-  password: UX82473651
-  udp: true
-  sni: central-jawfish.rooster465.autos
-  skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 07 - xiaohe
-  type: trojan
-  server: central-jawfish.rooster465.autos
-  port: 443
-  password: UX82473651
-  udp: true
-  sni: central-jawfish.rooster465.autos
-  skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 08 - xiaohe
-  type: trojan
-  server: noted-cougar.rooster465.autos
-  port: 443
-  password: UX82473651
-  udp: true
-  sni: noted-cougar.rooster465.autos
-  skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 09 - xiaohe
-  type: vless
-  server: 34.22.111.30
-  port: 443
-  uuid: cb2abff3-5fe6-4b5a-aa19-5739deb285b6
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: M0QKczb2MzOH45qDViIAbb9LPrVVyCp880D4HlwIKnA
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇰🇷 韩国 (South Korea) 10 - xiaohe
   type: trojan
   server: pretty-rat.rooster465.autos
   port: 443
@@ -103,61 +44,33 @@ proxies:
   udp: true
   sni: pretty-rat.rooster465.autos
   skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 11 - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 06 - xiaohe
   type: trojan
-  server: 3.35.207.188
-  port: 443
-  password: UX82473651
+  server: 154.90.62.70
+  port: 56127
+  password: p5jTPcffLgi4gaNOJd2KUTb9YEPBBD5B
   udp: true
-  sni: main-fawn.rooster465.autos
+  sni: 154.90.62.70
   skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 12 - xiaohe
-  type: ss
-  server: 141.164.45.187
-  port: 8091
-  cipher: aes-256-gcm
-  password: PCnnH6SQSnfoS27
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 13 - xiaohe
-  type: vmess
-  server: 132.145.80.230
-  port: 80
-  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /cctv13.m3u8
-    headers:
-      Host: kr02.a0a.xyz
-- name: 🇰🇷 韩国 (South Korea) 14 - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 07 - xiaohe
   type: trojan
-  server: 3.34.131.153
-  port: 443
-  password: UX82473651
-  udp: true
-  sni: pretty-rat.rooster465.autos
-  skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 15 - xiaohe
-  type: trojan
-  server: optimum-snapper.rooster465.autos
+  server: 43.201.100.203
   port: 443
   password: UX82473651
   udp: true
   sni: optimum-snapper.rooster465.autos
   skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 16 - xiaohe
-  type: trojan
-  server: 3.34.131.153
+- name: 🇰🇷 韩国 (South Korea) 08 - xiaohe
+  type: vmess
+  server: 140.238.2.250
   port: 443
-  password: UX82473651
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+  alterId: 0
+  cipher: auto
   udp: true
-  sni: pretty-rat.rooster465.autos
+  tls: false
   skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 17 - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 09 - xiaohe
   type: vless
   server: 151.245.106.49
   port: 2053
@@ -169,6 +82,74 @@ proxies:
     public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
   servername: www.cloudflare.com
   client-fingerprint: random
+- name: 🇰🇷 韩国 (South Korea) 10 - xiaohe
+  type: vless
+  server: 151.245.106.49
+  port: 2053
+  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇰🇷 韩国 (South Korea) 11 - xiaohe
+  type: trojan
+  server: 3.34.192.47
+  port: 443
+  password: UX82473651
+  udp: true
+  sni: central-jawfish.rooster465.autos
+  skip-cert-verify: true
+- name: 🇰🇷 韩国 (South Korea) 12 - xiaohe
+  type: trojan
+  server: 3.35.207.188
+  port: 443
+  password: UX82473651
+  udp: true
+  sni: main-fawn.rooster465.autos
+  skip-cert-verify: true
+- name: 🇰🇷 韩国 (South Korea) 13 - xiaohe
+  type: trojan
+  server: pure-kodiak.rooster465.autos
+  port: 443
+  password: UX82473651
+  udp: true
+  sni: pure-kodiak.rooster465.autos
+  skip-cert-verify: true
+- name: 🇰🇷 韩国 (South Korea) 14 - xiaohe
+  type: trojan
+  server: 3.36.50.213
+  port: 443
+  password: UX82473651
+  udp: true
+  sni: pure-kodiak.rooster465.autos
+  skip-cert-verify: true
+- name: 🇰🇷 韩国 (South Korea) 15 - xiaohe
+  type: trojan
+  server: 3.35.168.225
+  port: 443
+  password: UX82473651
+  udp: true
+  sni: noted-cougar.rooster465.autos
+  skip-cert-verify: true
+- name: 🇰🇷 韩国 (South Korea) 16 - xiaohe
+  type: trojan
+  server: 3.34.131.153
+  port: 443
+  password: UX82473651
+  udp: true
+  sni: pretty-rat.rooster465.autos
+  skip-cert-verify: true
+- name: 🇰🇷 韩国 (South Korea) 17 - xiaohe
+  type: trojan
+  server: noted-cougar.rooster465.autos
+  port: 443
+  password: UX82473651
+  udp: true
+  sni: noted-cougar.rooster465.autos
+  skip-cert-verify: true
 - name: 🇰🇷 韩国 (South Korea) 18 - xiaohe
   type: trojan
   server: main-fawn.rooster465.autos
@@ -201,28 +182,27 @@ proxies:
   sni: pure-kodiak.rooster465.autos
   skip-cert-verify: true
 - name: 🇰🇷 韩国 (South Korea) 21 - xiaohe
-  type: trojan
-  server: 3.35.207.188
-  port: 443
-  password: UX82473651
+  type: ss
+  server: 141.164.45.187
+  port: 6697
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
   udp: true
-  sni: main-fawn.rooster465.autos
-  skip-cert-verify: true
 - name: 🇰🇷 韩国 (South Korea) 22 - xiaohe
   type: trojan
-  server: optimum-snapper.rooster465.autos
+  server: central-jawfish.rooster465.autos
   port: 443
   password: UX82473651
   udp: true
-  sni: optimum-snapper.rooster465.autos
+  sni: central-jawfish.rooster465.autos
   skip-cert-verify: true
 - name: 🇰🇷 韩国 (South Korea) 23 - xiaohe
   type: trojan
-  server: main-fawn.rooster465.autos
+  server: pure-kodiak.rooster465.autos
   port: 443
   password: UX82473651
   udp: true
-  sni: main-fawn.rooster465.autos
+  sni: pure-kodiak.rooster465.autos
   skip-cert-verify: true
 - name: 🇰🇷 韩国 (South Korea) 24 - xiaohe
   type: trojan
@@ -234,11 +214,11 @@ proxies:
   skip-cert-verify: true
 - name: 🇰🇷 韩国 (South Korea) 25 - xiaohe
   type: trojan
-  server: 3.35.168.225
+  server: 3.35.207.188
   port: 443
   password: UX82473651
   udp: true
-  sni: noted-cougar.rooster465.autos
+  sni: main-fawn.rooster465.autos
   skip-cert-verify: true
 - name: 🇰🇷 韩国 (South Korea) 26 - xiaohe
   type: trojan
@@ -249,40 +229,6 @@ proxies:
   sni: optimum-snapper.rooster465.autos
   skip-cert-verify: true
 - name: 🇰🇷 韩国 (South Korea) 27 - xiaohe
-  type: ss
-  server: 141.164.45.187
-  port: 6679
-  cipher: aes-256-gcm
-  password: TEzjfAYq2IjtuoS
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 28 - xiaohe
-  type: vless
-  server: 151.245.106.49
-  port: 2053
-  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇰🇷 韩国 (South Korea) 29 - xiaohe
-  type: ss
-  server: 141.164.45.187
-  port: 9090
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 30 - xiaohe
-  type: trojan
-  server: pure-kodiak.rooster465.autos
-  port: 443
-  password: UX82473651
-  udp: true
-  sni: pure-kodiak.rooster465.autos
-  skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 31 - xiaohe
   type: vless
   server: 34.22.111.30
   port: 443
@@ -294,31 +240,41 @@ proxies:
     public-key: M0QKczb2MzOH45qDViIAbb9LPrVVyCp880D4HlwIKnA
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇰🇷 韩国 (South Korea) 32 - xiaohe
-  type: trojan
-  server: noted-cougar.rooster465.autos
+- name: 🇰🇷 韩国 (South Korea) 28 - xiaohe
+  type: vless
+  server: 34.22.111.30
   port: 443
-  password: UX82473651
+  uuid: cb2abff3-5fe6-4b5a-aa19-5739deb285b6
   udp: true
-  sni: noted-cougar.rooster465.autos
+  tls: true
   skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 33 - xiaohe
-  type: trojan
-  server: 43.201.100.203
-  port: 443
-  password: UX82473651
+  reality-opts:
+    public-key: M0QKczb2MzOH45qDViIAbb9LPrVVyCp880D4HlwIKnA
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇰🇷 韩国 (South Korea) 29 - xiaohe
+  type: vmess
+  server: 132.145.80.230
+  port: 80
+  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
+  alterId: 0
+  cipher: auto
   udp: true
-  sni: optimum-snapper.rooster465.autos
+  tls: false
   skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 34 - xiaohe
-  type: trojan
-  server: 3.34.192.47
-  port: 443
-  password: UX82473651
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: kr02.a0a.xyz
+- name: 🇰🇷 韩国 (South Korea) 30 - xiaohe
+  type: ss
+  server: 141.164.45.187
+  port: 8888
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
   udp: true
-  sni: central-jawfish.rooster465.autos
-  skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 35 - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 31 - xiaohe
   type: trojan
   server: main-fawn.rooster465.autos
   port: 443
@@ -326,32 +282,15 @@ proxies:
   udp: true
   sni: main-fawn.rooster465.autos
   skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 36 - xiaohe
-  type: ss
-  server: 141.164.45.187
-  port: 9101
-  cipher: aes-256-gcm
-  password: e4FCWrgpkji3QY
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 37 - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 32 - xiaohe
   type: trojan
-  server: 154.90.62.70
-  port: 56127
-  password: p5jTPcffLgi4gaNOJd2KUTb9YEPBBD5B
-  udp: true
-  sni: 154.90.62.70
-  skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 38 - xiaohe
-  type: vmess
-  server: 140.238.2.250
+  server: 3.34.192.47
   port: 443
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
-  alterId: 0
-  cipher: auto
+  password: UX82473651
   udp: true
-  tls: false
+  sni: central-jawfish.rooster465.autos
   skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 39 - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 33 - xiaohe
   type: trojan
   server: 3.34.131.153
   port: 443
@@ -359,21 +298,30 @@ proxies:
   udp: true
   sni: pretty-rat.rooster465.autos
   skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 40 - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 34 - xiaohe
   type: trojan
-  server: 3.36.50.213
+  server: central-jawfish.rooster465.autos
   port: 443
   password: UX82473651
   udp: true
-  sni: pure-kodiak.rooster465.autos
+  sni: central-jawfish.rooster465.autos
   skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 41 - xiaohe
-  type: ss
-  server: 141.164.45.187
-  port: 5498
-  cipher: aes-256-gcm
-  password: lGqs95QkFHo2NV
+- name: 🇰🇷 韩国 (South Korea) 35 - xiaohe
+  type: trojan
+  server: 43.201.100.203
+  port: 443
+  password: UX82473651
   udp: true
+  sni: optimum-snapper.rooster465.autos
+  skip-cert-verify: true
+- name: 🇰🇷 韩国 (South Korea) 36 - xiaohe
+  type: trojan
+  server: 3.34.131.153
+  port: 443
+  password: UX82473651
+  udp: true
+  sni: pretty-rat.rooster465.autos
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -415,11 +363,6 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 34 - xiaohe
   - 🇰🇷 韩国 (South Korea) 35 - xiaohe
   - 🇰🇷 韩国 (South Korea) 36 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 37 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 38 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 39 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 40 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 41 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -461,10 +404,5 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 34 - xiaohe
   - 🇰🇷 韩国 (South Korea) 35 - xiaohe
   - 🇰🇷 韩国 (South Korea) 36 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 37 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 38 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 39 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 40 - xiaohe
-  - 🇰🇷 韩国 (South Korea) 41 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -18,7 +18,8 @@
         "🇵🇱 PL 04 - xiaohe",
         "🇵🇱 PL 05 - xiaohe",
         "🇵🇱 PL 06 - xiaohe",
-        "🇵🇱 PL 07 - xiaohe"
+        "🇵🇱 PL 07 - xiaohe",
+        "🇵🇱 PL 08 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -79,6 +80,21 @@
       "tag": "🇵🇱 PL 04 - xiaohe",
       "udp": true,
       "type": "vless",
+      "server": "2.26.225.89",
+      "port": 8443,
+      "uuid": "51a1fd52-fd88-4905-a976-35e44be28e4b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "pl.flen-vpn.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
       "server": "pl4.h1cloud.net",
       "port": 25080,
       "uuid": "0c3ad9d5-cffd-4748-b8df-ab145288144b",
@@ -91,21 +107,6 @@
         "reality": true,
         "public_key": "CMAkhR1kevtK85rK9B5nmQtFZATsLOIq6nuG83BA8lI",
         "short_id": ""
-      }
-    },
-    {
-      "tag": "🇵🇱 PL 05 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "2.26.225.89",
-      "port": 8443,
-      "uuid": "51a1fd52-fd88-4905-a976-35e44be28e4b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "pl.flen-vpn.xyz",
-        "insecure": true,
-        "client_fingerprint": null
       }
     },
     {
@@ -128,6 +129,24 @@
     },
     {
       "tag": "🇵🇱 PL 07 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "pl4.h1cloud.net",
+      "port": 25080,
+      "uuid": "0c3ad9d5-cffd-4748-b8df-ab145288144b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ceneo.pl",
+        "insecure": true,
+        "client_fingerprint": "random",
+        "reality": true,
+        "public_key": "CMAkhR1kevtK85rK9B5nmQtFZATsLOIq6nuG83BA8lI",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 08 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "pl4.h1cloud.net",

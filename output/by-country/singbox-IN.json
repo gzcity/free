@@ -55,6 +55,64 @@
       "tag": "🇮🇳 印度 (India) 02 - xiaohe",
       "udp": true,
       "type": "vless",
+      "server": "13.140.56.100",
+      "port": 14430,
+      "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
+      "flow": "",
+      "ws": {
+        "path": "/vless",
+        "headers": {
+          "Host": "13.140.56.100"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇳 印度 (India) 03 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "172.105.39.124",
+      "port": 7002,
+      "method": "aes-256-gcm",
+      "password": "RexnBgU7EV5ADxG"
+    },
+    {
+      "tag": "🇮🇳 印度 (India) 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "194.61.31.126",
+      "port": 2053,
+      "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇮🇳 印度 (India) 05 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "152.67.8.205",
+      "port": 80,
+      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
+      "alterId": 0,
+      "security": "auto",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "None"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇳 印度 (India) 06 - xiaohe",
+      "udp": true,
+      "type": "vless",
       "server": "194.61.31.126",
       "port": 2053,
       "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
@@ -70,53 +128,7 @@
       }
     },
     {
-      "tag": "🇮🇳 印度 (India) 03 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "152.67.8.205",
-      "port": 80,
-      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
-      "alterId": 0,
-      "security": "auto",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "152.67.8.205"
-        }
-      }
-    },
-    {
-      "tag": "🇮🇳 印度 (India) 04 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "172.105.39.124",
-      "port": 7002,
-      "method": "aes-256-gcm",
-      "password": "RexnBgU7EV5ADxG"
-    },
-    {
-      "tag": "🇮🇳 印度 (India) 05 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "168.144.155.167",
-      "port": 443,
-      "uuid": "51a0af77-a60c-4d9b-81a4-f50e1b38d90b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "cf3.schzyc.cc.cd",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/proxyip=ProxyIP.CMLiussss.net",
-        "headers": {
-          "Host": "cf3.schzyc.cc.cd"
-        }
-      }
-    },
-    {
-      "tag": "🇮🇳 印度 (India) 06 - xiaohe",
+      "tag": "🇮🇳 印度 (India) 07 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "152.67.8.205",
@@ -132,7 +144,7 @@
       }
     },
     {
-      "tag": "🇮🇳 印度 (India) 07 - xiaohe",
+      "tag": "🇮🇳 印度 (India) 08 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "13.140.56.100",
@@ -144,24 +156,6 @@
         "headers": {
           "Host": "13.140.56.100"
         }
-      }
-    },
-    {
-      "tag": "🇮🇳 印度 (India) 08 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "194.61.31.126",
-      "port": 2053,
-      "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
-        "short_id": ""
       }
     },
     {
@@ -192,9 +186,9 @@
       "alterId": 0,
       "security": "auto",
       "ws": {
-        "path": "",
+        "path": "/",
         "headers": {
-          "Host": ""
+          "Host": "152.67.8.205"
         }
       }
     },
@@ -210,7 +204,7 @@
       "ws": {
         "path": "/",
         "headers": {
-          "Host": "None"
+          "Host": ""
         }
       }
     },
@@ -233,16 +227,15 @@
     {
       "tag": "🇮🇳 印度 (India) 13 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "152.67.8.205",
-      "port": 80,
-      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
-      "alterId": 0,
-      "security": "auto",
+      "type": "vless",
+      "server": "13.140.56.100",
+      "port": 14430,
+      "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
+      "flow": "",
       "ws": {
-        "path": "/",
+        "path": "/vless",
         "headers": {
-          "Host": ""
+          "Host": "13.140.56.100"
         }
       }
     }

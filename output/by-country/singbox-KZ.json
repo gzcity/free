@@ -13,7 +13,10 @@
       "tag": "auto",
       "outbounds": [
         "🇰🇿 KZ 01 - xiaohe",
-        "🇰🇿 KZ 02 - xiaohe"
+        "🇰🇿 KZ 02 - xiaohe",
+        "🇰🇿 KZ 03 - xiaohe",
+        "🇰🇿 KZ 04 - xiaohe",
+        "🇰🇿 KZ 05 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -27,6 +30,60 @@
     },
     {
       "tag": "🇰🇿 KZ 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "77.73.232.61",
+      "port": 19747,
+      "uuid": "2a9ed01e-5455-44b4-a66a-76ee8165f0ac",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "ZO9dTeg1slvTXgVsBsaJ1BDvz_YUImTLJjbHs-GdVyM",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇰🇿 KZ 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "109.248.170.119",
+      "port": 13447,
+      "uuid": "b573cefb-7bc7-4a42-b407-b8b534e66773",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇰🇿 KZ 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "109.248.170.119",
+      "port": 13447,
+      "uuid": "b573cefb-7bc7-4a42-b407-b8b534e66773",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇰🇿 KZ 04 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "178.236.16.98",
@@ -44,7 +101,7 @@
       }
     },
     {
-      "tag": "🇰🇿 KZ 02 - xiaohe",
+      "tag": "🇰🇿 KZ 05 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "109.248.170.119",
@@ -55,7 +112,7 @@
         "enabled": true,
         "server_name": "yahoo.com",
         "insecure": true,
-        "client_fingerprint": "chrome",
+        "client_fingerprint": "firefox",
         "reality": true,
         "public_key": "_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE",
         "short_id": ""
