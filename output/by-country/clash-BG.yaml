@@ -20,7 +20,7 @@ proxies:
       Host: nl5.hap-plus.ru
 - name: 🇧🇬 BG 02 - xiaohe
   type: vless
-  server: nl5.hap-plus.ru
+  server: 93.152.215.176
   port: 8443
   uuid: 05d7a479-a099-40cf-aecf-41aa934767b0
   udp: true
@@ -74,20 +74,6 @@ proxies:
     path: /api/v1/events
     headers:
       Host: nl5.hap-plus.ru
-- name: 🇧🇬 BG 06 - xiaohe
-  type: vless
-  server: nl5.hap-plus.ru
-  port: 8443
-  uuid: 05d7a479-a099-40cf-aecf-41aa934767b0
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nl5.hap-plus.ru
-  network: ws
-  ws-opts:
-    path: /api/v1/events
-    headers:
-      Host: nl5.hap-plus.ru
 proxy-groups:
 - name: PROXIES
   type: select
@@ -98,7 +84,6 @@ proxy-groups:
   - 🇧🇬 BG 03 - xiaohe
   - 🇧🇬 BG 04 - xiaohe
   - 🇧🇬 BG 05 - xiaohe
-  - 🇧🇬 BG 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -109,6 +94,5 @@ proxy-groups:
   - 🇧🇬 BG 03 - xiaohe
   - 🇧🇬 BG 04 - xiaohe
   - 🇧🇬 BG 05 - xiaohe
-  - 🇧🇬 BG 06 - xiaohe
 rules:
 - MATCH,PROXIES

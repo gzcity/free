@@ -29,19 +29,19 @@
       "tag": "🇷🇴 RO 01 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "154.46.31.106",
-      "port": 443,
+      "server": "194.68.44.42",
+      "port": 64546,
       "method": "chacha20-ietf-poly1305",
-      "password": "QFWzCw2uX9B9i6qAYeFBIE"
+      "password": "U83u9OGpvSatIUW7LsWffr"
     },
     {
       "tag": "🇷🇴 RO 02 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "194.68.44.42",
-      "port": 64546,
+      "server": "bogging-eyeteeth-fly.freesocks.work",
+      "port": 443,
       "method": "chacha20-ietf-poly1305",
-      "password": "U83u9OGpvSatIUW7LsWffr"
+      "password": "QFWzCw2uX9B9i6qAYeFBIE"
     }
   ]
 }

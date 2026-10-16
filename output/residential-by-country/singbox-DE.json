@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇲 AM 01 - xiaohe"
+        "🇩🇪 德国 (Germany) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,21 +25,24 @@
       "tag": "block"
     },
     {
-      "tag": "🇦🇲 AM 01 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 01 (家宽) - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "77.91.68.70",
-      "port": 55983,
-      "uuid": "f667a096-5231-4cfb-8759-92bb32473139",
+      "server": "209.38.238.229",
+      "port": 20202,
+      "uuid": "d18c6897-2849-456a-8c46-d7ecece47c20",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "yahoo.com",
+        "server_name": "wzs.echo.net.eu.org",
         "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg",
-        "short_id": ""
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HUlZXSwcZUQABSgMNQRoaSVhfRhoOChkDDUs=",
+        "headers": {
+          "Host": "wzs.echo.net.eu.org"
+        }
       }
     }
   ]
