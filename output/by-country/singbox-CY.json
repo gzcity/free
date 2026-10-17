@@ -17,8 +17,7 @@
         "🇨🇾 CY 03 - xiaohe",
         "🇨🇾 CY 04 - xiaohe",
         "🇨🇾 CY 05 - xiaohe",
-        "🇨🇾 CY 06 - xiaohe",
-        "🇨🇾 CY 07 - xiaohe"
+        "🇨🇾 CY 06 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -50,12 +49,27 @@
       "udp": true,
       "type": "vless",
       "server": "5.253.29.254",
+      "port": 14430,
+      "uuid": "c7c27192-60a5-4ce1-b613-95270d82309d",
+      "flow": "",
+      "ws": {
+        "path": "/vless",
+        "headers": {
+          "Host": "5.253.29.254"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇾 CY 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "5.253.29.254",
       "port": 10443,
       "uuid": "c7c27192-60a5-4ce1-b613-95270d82309d",
       "flow": ""
     },
     {
-      "tag": "🇨🇾 CY 03 - xiaohe",
+      "tag": "🇨🇾 CY 04 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "5.253.29.254",
@@ -68,15 +82,6 @@
           "Host": "5.253.29.254"
         }
       }
-    },
-    {
-      "tag": "🇨🇾 CY 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "5.253.29.254",
-      "port": 10443,
-      "uuid": "c7c27192-60a5-4ce1-b613-95270d82309d",
-      "flow": ""
     },
     {
       "tag": "🇨🇾 CY 05 - xiaohe",
@@ -95,21 +100,6 @@
     },
     {
       "tag": "🇨🇾 CY 06 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "5.253.29.254",
-      "port": 14430,
-      "uuid": "c7c27192-60a5-4ce1-b613-95270d82309d",
-      "flow": "",
-      "ws": {
-        "path": "/vless",
-        "headers": {
-          "Host": "5.253.29.254"
-        }
-      }
-    },
-    {
-      "tag": "🇨🇾 CY 07 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "5.253.29.254",

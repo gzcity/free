@@ -13,9 +13,7 @@
       "tag": "auto",
       "outbounds": [
         "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -30,48 +28,6 @@
     {
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "188.225.25.71",
-      "port": 443,
-      "uuid": "b3a7fe26-2ea7-4aa1-ba7a-8ef37a1a71c5",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "s3-ge.videocdnpink.video",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/api/53d53ac3/a7fa61/096357bebc62",
-        "headers": {
-          "Host": "s3-ge.videocdnpink.video"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "s3-ge.videocdnpink.video",
-      "port": 443,
-      "uuid": "b3a7fe26-2ea7-4aa1-ba7a-8ef37a1a71c5",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "s3-ge.videocdnpink.video",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/api/53d53ac3/a7fa61/096357bebc62",
-        "headers": {
-          "Host": "s3-ge.videocdnpink.video"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-      "udp": true,
       "type": "shadowsocks",
       "server": "130.49.189.158",
       "port": 43558,
@@ -79,7 +35,7 @@
       "password": "j3PKOCj7wHl5Pk6thI9HyXtCa6JU180IlBpWANgFjkY="
     },
     {
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "194.87.196.107",
