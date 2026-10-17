@@ -36,24 +36,6 @@
       "tag": "🇵🇱 PL 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "164.37.224.232",
-      "port": 25452,
-      "uuid": "68c3d665-b2b5-4ffb-9f37-9f3d8c47324d",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.ns.nl",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "zJI16_ywLd4clshY0IQQPxQ_YBbIq2b0XTO_dnTJOy4",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇵🇱 PL 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
       "server": "38.244.186.167",
       "port": 8445,
       "uuid": "f3b8d5f8-cbe9-4aca-ab34-005c51262d5e",
@@ -69,13 +51,37 @@
       }
     },
     {
+      "tag": "🇵🇱 PL 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "38.244.186.167",
+      "port": 8445,
+      "uuid": "f3b8d5f8-cbe9-4aca-ab34-005c51262d5e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.samsung.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "-s2SHiKfXMJRYizNuu8URrx6MgyoQtBJ0QAj33qMog0",
+        "short_id": ""
+      }
+    },
+    {
       "tag": "🇵🇱 PL 03 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "milo.rubinaz.xyz",
-      "port": 8080,
-      "uuid": "6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8",
-      "flow": ""
+      "server": "2.26.225.89",
+      "port": 8443,
+      "uuid": "51a1fd52-fd88-4905-a976-35e44be28e4b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "pl.flen-vpn.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      }
     },
     {
       "tag": "🇵🇱 PL 04 - xiaohe",
@@ -105,7 +111,7 @@
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "2.26.225.89",
+        "server_name": "pl.flen-vpn.xyz",
         "insecure": true,
         "client_fingerprint": null
       }
@@ -129,7 +135,25 @@
       "tag": "🇵🇱 PL 07 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "nl2.h1cloud.net",
+      "server": "164.37.224.232",
+      "port": 25452,
+      "uuid": "68c3d665-b2b5-4ffb-9f37-9f3d8c47324d",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ns.nl",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "zJI16_ywLd4clshY0IQQPxQ_YBbIq2b0XTO_dnTJOy4",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 08 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "164.37.224.232",
       "port": 25452,
       "uuid": "68c3d665-b2b5-4ffb-9f37-9f3d8c47324d",
       "flow": "",
@@ -141,21 +165,6 @@
         "reality": true,
         "public_key": "zJI16_ywLd4clshY0IQQPxQ_YBbIq2b0XTO_dnTJOy4",
         "short_id": ""
-      }
-    },
-    {
-      "tag": "🇵🇱 PL 08 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "2.26.225.89",
-      "port": 8443,
-      "uuid": "51a1fd52-fd88-4905-a976-35e44be28e4b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "pl.flen-vpn.xyz",
-        "insecure": true,
-        "client_fingerprint": null
       }
     },
     {

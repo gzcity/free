@@ -13,7 +13,9 @@
       "tag": "auto",
       "outbounds": [
         "🇨🇿 CZ 01 - xiaohe",
-        "🇨🇿 CZ 02 - xiaohe"
+        "🇨🇿 CZ 02 - xiaohe",
+        "🇨🇿 CZ 03 - xiaohe",
+        "🇨🇿 CZ 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -38,22 +40,52 @@
       "tag": "🇨🇿 CZ 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "81.90.31.111",
+      "server": "cl-glb6e059ee.gcdn.co",
       "port": 443,
-      "uuid": "d78d6815-5f00-4fe3-8aae-3344aeb7783f",
+      "uuid": "6206cb76-491d-4237-baf1-8c29eea4eafb",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "1f0c1c7297521d51.wgse.info",
+        "server_name": "node-3.wt419.site",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/ws",
+        "path": "/qVnRkTxmLwBzHjYpFaDgUcSeNrKxMtVbWqZhPcLsJfGy",
         "headers": {
-          "Host": "1f0c1c7297521d51.wgse.info"
+          "Host": "node-3.wt419.site"
         }
       }
+    },
+    {
+      "tag": "🇨🇿 CZ 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "195.133.24.39",
+      "port": 8443,
+      "uuid": "5aeb8159-7ecd-4051-89c3-82fb1cecff2e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "sub.777lfvpn.site",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/lfvpn-v28-vless",
+        "headers": {
+          "Host": "sub.777lfvpn.site"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇿 CZ 04 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "67.159.18.34",
+      "port": 17001,
+      "method": "aes-256-gcm",
+      "password": "I6o9NnialYLMEjVt28RF4dpjmr9wMvNL"
     }
   ]
 }
