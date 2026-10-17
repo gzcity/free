@@ -14,7 +14,9 @@
       "outbounds": [
         "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 05 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -30,19 +32,28 @@
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "194.87.196.107",
-      "port": 18443,
-      "method": "aes-256-gcm",
-      "password": "Lpq5UPVHtQYiuB9jEUNc2WkeIYCUH9DE"
+      "server": "38.60.223.254",
+      "port": 10881,
+      "method": "aes-128-gcm",
+      "password": "663b3405bf0662d0105907f4ceceb9f6"
     },
     {
       "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "194.87.196.107",
-      "port": 18443,
-      "method": "aes-256-gcm",
-      "password": "Lpq5UPVHtQYiuB9jEUNc2WkeIYCUH9DE"
+      "type": "vless",
+      "server": "aelix-al.safire-soleiman.ir",
+      "port": 6311,
+      "uuid": "2ffa91fe-e1cc-4c44-a90a-45002feae978",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.google.com",
+        "insecure": true,
+        "client_fingerprint": "qq",
+        "reality": true,
+        "public_key": "lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo",
+        "short_id": ""
+      }
     },
     {
       "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
@@ -52,6 +63,24 @@
       "port": 18443,
       "method": "aes-256-gcm",
       "password": "cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa"
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "194.87.196.107",
+      "port": 18443,
+      "method": "aes-256-gcm",
+      "password": "Lpq5UPVHtQYiuB9jEUNc2WkeIYCUH9DE"
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "194.87.196.107",
+      "port": 18443,
+      "method": "aes-256-gcm",
+      "password": "Lpq5UPVHtQYiuB9jEUNc2WkeIYCUH9DE"
     }
   ]
 }

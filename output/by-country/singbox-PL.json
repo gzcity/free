@@ -42,7 +42,7 @@
         "enabled": true,
         "server_name": "www.ns.nl",
         "insecure": true,
-        "client_fingerprint": "chrome",
+        "client_fingerprint": "firefox",
         "reality": true,
         "public_key": "zJI16_ywLd4clshY0IQQPxQ_YBbIq2b0XTO_dnTJOy4",
         "short_id": ""
@@ -67,18 +67,15 @@
       "tag": "🇵🇱 PL 03 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "164.37.224.232",
-      "port": 25452,
-      "uuid": "68c3d665-b2b5-4ffb-9f37-9f3d8c47324d",
+      "server": "2.26.225.89",
+      "port": 8443,
+      "uuid": "51a1fd52-fd88-4905-a976-35e44be28e4b",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "www.ns.nl",
+        "server_name": "pl.flen-vpn.xyz",
         "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "zJI16_ywLd4clshY0IQQPxQ_YBbIq2b0XTO_dnTJOy4",
-        "short_id": ""
+        "client_fingerprint": null
       }
     },
     {
@@ -91,7 +88,7 @@
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "pl.flen-vpn.xyz",
+        "server_name": "2.26.225.89",
         "insecure": true,
         "client_fingerprint": null
       }
@@ -100,15 +97,18 @@
       "tag": "🇵🇱 PL 05 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "2.26.225.89",
-      "port": 8443,
-      "uuid": "51a1fd52-fd88-4905-a976-35e44be28e4b",
+      "server": "164.37.224.232",
+      "port": 25452,
+      "uuid": "68c3d665-b2b5-4ffb-9f37-9f3d8c47324d",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "pl.flen-vpn.xyz",
+        "server_name": "www.ns.nl",
         "insecure": true,
-        "client_fingerprint": null
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "zJI16_ywLd4clshY0IQQPxQ_YBbIq2b0XTO_dnTJOy4",
+        "short_id": ""
       }
     },
     {

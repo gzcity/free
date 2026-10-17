@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇦 UA 01 - xiaohe"
+        "🇱🇻 LV 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,17 +25,23 @@
       "tag": "block"
     },
     {
-      "tag": "🇺🇦 UA 01 - xiaohe",
+      "tag": "🇱🇻 LV 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "91.196.163.140",
-      "port": 14430,
-      "uuid": "e86a3662-9b31-4d59-bc80-9e8644749b95",
+      "server": "cdn.topingr.ir",
+      "port": 443,
+      "uuid": "497f5381-3533-4c6a-939c-66eb3a7de108",
       "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.topingr.ir",
+        "insecure": true,
+        "client_fingerprint": null
+      },
       "ws": {
-        "path": "/vless",
+        "path": "/gropcdn",
         "headers": {
-          "Host": "91.196.163.140"
+          "Host": "cdn.topingr.ir"
         }
       }
     }

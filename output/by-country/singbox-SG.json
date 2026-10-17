@@ -107,7 +107,22 @@
         "🇸🇬 新加坡 (Singapore) 93 - xiaohe",
         "🇸🇬 新加坡 (Singapore) 94 - xiaohe",
         "🇸🇬 新加坡 (Singapore) 95 - xiaohe",
-        "🇸🇬 新加坡 (Singapore) 96 - xiaohe"
+        "🇸🇬 新加坡 (Singapore) 96 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 97 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 98 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 99 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 100 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 101 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 102 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 103 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 104 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 105 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 106 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 107 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 108 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 109 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 110 - xiaohe",
+        "🇸🇬 新加坡 (Singapore) 111 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -123,884 +138,6 @@
       "tag": "🇸🇬 新加坡 (Singapore) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "188.114.98.0",
-      "port": 443,
-      "uuid": "20ff936a-8eb5-4d27-9cce-93f2016d467b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "free.nadun.store",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "free.nadun.store"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "free.nadun.store",
-      "port": 443,
-      "uuid": "20ff936a-8eb5-4d27-9cce-93f2016d467b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "free.nadun.store",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "free.nadun.store"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 03 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "inviting-ferret.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "inviting-ferret.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 04 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "simple-molly.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "simple-molly.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 05 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "musical-mouse.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "musical-mouse.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 06 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "moral-basilisk.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "moral-basilisk.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 07 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "141.193.213.20",
-      "port": 8443,
-      "uuid": "29c3dd6b-b164-40ca-a0d5-f06aca52a8b2",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "u.srilankangrill.online",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "u.srilankangrill.online"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 08 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "glorious-glider.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "glorious-glider.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 09 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "inviting-ferret.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "inviting-ferret.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 10 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "brave-tomcat.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "brave-tomcat.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 11 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "511.150333.xyz",
-      "port": 21004,
-      "uuid": "41b1c169-5905-4d98-b6a6-56896c25737c",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 12 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "18.141.136.8",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "musical-mouse.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 13 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "support.zoom.us",
-      "port": 80,
-      "uuid": "b8d8a5b0-867f-4491-b4e4-30edc04bb10e",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "u.srilankangrill.online"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 14 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "86.38.247.109",
-      "port": 2087,
-      "password": "sshs8_6481354771",
-      "tls": {
-        "enabled": true,
-        "server_name": "ul-singapore1.09vpn.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 15 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "45.38.60.153",
-      "port": 2053,
-      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "lucasjow.us.ci",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "lucasjow.us.ci"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 16 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "139.162.27.96",
-      "port": 2096,
-      "uuid": "6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "free-server.techsonic.dev",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/free-server.techsonic.dev",
-        "headers": {
-          "Host": "free-server.techsonic.dev"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 17 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "139.180.146.200",
-      "port": 8886,
-      "password": "e26a229d-e8f2-4ff9-8c7d-58a9d83ee437",
-      "tls": {
-        "enabled": true,
-        "server_name": "139.180.146.200",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 18 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.207",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 19 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.207",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 20 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "47.131.250.125",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "simple-molly.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 21 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "moral-basilisk.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "moral-basilisk.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 22 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "ww11.levikogjgfdd.ir",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 23 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "simple-molly.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "simple-molly.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 24 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "43.174.193.1",
-      "port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 25 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "54.151.181.75",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "moral-basilisk.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 26 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "inviting-ferret.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "inviting-ferret.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 27 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "brave-tomcat.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "brave-tomcat.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 28 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.207",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 29 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.16.10.233",
-      "port": 443,
-      "uuid": "b8d8a5b0-867f-4491-b4e4-30edc04bb10e",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "u.srilankangrill.online",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "u.srilankangrill.online"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 30 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.207",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 31 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "47.131.250.125",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "simple-molly.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 32 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.207",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 33 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.16.10.235",
-      "port": 443,
-      "uuid": "b8d8a5b0-867f-4491-b4e4-30edc04bb10e",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "u.srilankangrill.online",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "u.srilankangrill.online"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 34 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "141.193.213.21",
-      "port": 8443,
-      "uuid": "29c3dd6b-b164-40ca-a0d5-f06aca52a8b2",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "u.srilankangrill.online",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "u.srilankangrill.online"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 35 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.64.150.28",
-      "port": 2082,
-      "uuid": "e5cc16a6-ea42-46b2-82ae-ad2157e1641b",
-      "flow": "",
-      "ws": {
-        "path": "/fpfp=chrome",
-        "headers": {
-          "Host": "hhlfy.twiladaphne.ndjp.net"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 36 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "188.114.97.6",
-      "port": 443,
-      "uuid": "20ff936a-8eb5-4d27-9cce-93f2016d467b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "free.nadun.store",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "free.nadun.store"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 37 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "ww11.levikogjgfdd.ir",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 38 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "3.1.252.137",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "brave-tomcat.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 39 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "brave-tomcat.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "brave-tomcat.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 40 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "139.162.27.96",
-      "port": 2096,
-      "uuid": "6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "free-server.techsonic.dev",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/free-server.techsonic.dev",
-        "headers": {
-          "Host": "free-server.techsonic.dev"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 41 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.202",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 42 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "47.131.250.125",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "simple-molly.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 43 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "511.150333.xyz",
-      "port": 21003,
-      "uuid": "41b1c169-5905-4d98-b6a6-56896c25737c",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 44 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "141.193.213.20",
-      "port": 8443,
-      "uuid": "29c3dd6b-b164-40ca-a0d5-f06aca52a8b2",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "u.srilankangrill.online",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "u.srilankangrill.online"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 45 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "3.1.252.137",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "brave-tomcat.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 46 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "free.nadun.store",
-      "port": 443,
-      "uuid": "20ff936a-8eb5-4d27-9cce-93f2016d467b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "free.nadun.store",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "free.nadun.store"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 47 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "glorious-glider.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "glorious-glider.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 48 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.64.150.43",
-      "port": 2082,
-      "uuid": "e5cc16a6-ea42-46b2-82ae-ad2157e1641b",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "hhlfy.twiladaphne.ndjp.net"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 49 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "45.118.133.249",
-      "port": 443,
-      "uuid": "20ff936a-8eb5-4d27-9cce-93f2016d467b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "free.nadun.store",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "free.nadun.store"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 50 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "511.150333.xyz",
-      "port": 21001,
-      "uuid": "41b1c169-5905-4d98-b6a6-56896c25737c",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 51 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.202",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 52 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "ww11.levikogjgfdd.ir",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 53 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.207",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 54 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "54.151.181.75",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "moral-basilisk.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 55 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "ww11.levikogjgfdd.ir",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 56 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.207",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 57 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "18.141.136.8",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "musical-mouse.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 58 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.207",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 59 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.207",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 60 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.207",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 61 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "inviting-ferret.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "inviting-ferret.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 62 - xiaohe",
-      "udp": true,
-      "type": "vless",
       "server": "172.64.150.28",
       "port": 2082,
       "uuid": "e5cc16a6-ea42-46b2-82ae-ad2157e1641b",
@@ -1013,373 +150,7 @@
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 63 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "56.10.9.77",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "inviting-ferret.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 64 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "musical-mouse.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "musical-mouse.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 65 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "moral-basilisk.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "moral-basilisk.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 66 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "musical-mouse.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "musical-mouse.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 67 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "511.150333.xyz",
-      "port": 21001,
-      "uuid": "41b1c169-5905-4d98-b6a6-56896c25737c",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 68 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "511.150333.xyz",
-      "port": 21003,
-      "uuid": "41b1c169-5905-4d98-b6a6-56896c25737c",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 69 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.16.10.199",
-      "port": 443,
-      "uuid": "b8d8a5b0-867f-4491-b4e4-30edc04bb10e",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "u.srilankangrill.online",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "u.srilankangrill.online"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 70 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.16.156.227",
-      "port": 443,
-      "uuid": "b8d8a5b0-867f-4491-b4e4-30edc04bb10e",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "u.srilankangrill.online",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "u.srilankangrill.online"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 71 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "188.114.98.0",
-      "port": 443,
-      "uuid": "20ff936a-8eb5-4d27-9cce-93f2016d467b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "free.nadun.store",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "free.nadun.store"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 72 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "141.193.213.21",
-      "port": 8443,
-      "uuid": "29c3dd6b-b164-40ca-a0d5-f06aca52a8b2",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "u.srilankangrill.online",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "u.srilankangrill.online"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 73 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "56.10.9.77",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "inviting-ferret.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 74 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "simple-molly.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "simple-molly.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 75 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "moral-basilisk.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "moral-basilisk.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 76 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "139.180.146.200",
-      "port": 8886,
-      "password": "e26a229d-e8f2-4ff9-8c7d-58a9d83ee437",
-      "tls": {
-        "enabled": true,
-        "server_name": "139.180.146.200",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 77 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.19.178.244",
-      "port": 443,
-      "uuid": "b8d8a5b0-867f-4491-b4e4-30edc04bb10e",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "u.srilankangrill.online",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "u.srilankangrill.online"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 78 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "support.zoom.us",
-      "port": 80,
-      "uuid": "b8d8a5b0-867f-4491-b4e4-30edc04bb10e",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "u.srilankangrill.online"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 79 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "511.150333.xyz",
-      "port": 21004,
-      "uuid": "41b1c169-5905-4d98-b6a6-56896c25737c",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 80 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "musical-mouse.rooster465.autos",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "musical-mouse.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 81 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "56.10.9.77",
-      "port": 443,
-      "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "inviting-ferret.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 82 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.16.10.234",
-      "port": 443,
-      "uuid": "b8d8a5b0-867f-4491-b4e4-30edc04bb10e",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "u.srilankangrill.online",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "u.srilankangrill.online"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 83 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "545.150333.xyz",
-      "port": 21003,
-      "uuid": "b17f6233-6726-41ff-9f62-fde7ccdbd282",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "7RyQhh-unO6BjkHRVycWKlFyQgJ3vi5_bAI3Mc8CGCA",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 84 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "139.180.146.200",
-      "port": 8886,
-      "password": "e26a229d-e8f2-4ff9-8c7d-58a9d83ee437",
-      "tls": {
-        "enabled": true,
-        "server_name": "139.180.146.200",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 85 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "ww11.levikogjgfdd.ir",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 86 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "104.16.10.10",
@@ -1400,25 +171,119 @@
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 87 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 03 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "511.150333.xyz",
-      "port": 21002,
-      "uuid": "41b1c169-5905-4d98-b6a6-56896c25737c",
+      "server": "188.114.98.0",
+      "port": 443,
+      "uuid": "20ff936a-8eb5-4d27-9cce-93f2016d467b",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
+        "server_name": "free.nadun.store",
         "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU",
-        "short_id": ""
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "free.nadun.store"
+        }
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 88 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 04 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "brave-tomcat.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "brave-tomcat.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.16.10.234",
+      "port": 443,
+      "uuid": "b8d8a5b0-867f-4491-b4e4-30edc04bb10e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "u.srilankangrill.online",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "u.srilankangrill.online"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 06 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.16.10.233",
+      "port": 443,
+      "uuid": "b8d8a5b0-867f-4491-b4e4-30edc04bb10e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "u.srilankangrill.online",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "u.srilankangrill.online"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 07 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "56.10.9.77",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "inviting-ferret.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 08 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "musical-mouse.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "musical-mouse.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 09 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "ww11.levikogjgfdd.ir",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 10 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "free.nadun.store",
@@ -1439,30 +304,44 @@
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 89 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "149.88.23.207",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 90 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "ww11.levikogjgfdd.ir",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 91 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 11 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "45.118.133.249",
+      "server": "104.16.10.235",
+      "port": 443,
+      "uuid": "b8d8a5b0-867f-4491-b4e4-30edc04bb10e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "u.srilankangrill.online",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "u.srilankangrill.online"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 12 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "54.151.181.75",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "moral-basilisk.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 13 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "free.nadun.store",
       "port": 443,
       "uuid": "20ff936a-8eb5-4d27-9cce-93f2016d467b",
       "flow": "",
@@ -1480,46 +359,41 @@
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 92 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 14 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "musical-mouse.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "musical-mouse.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 15 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "45.118.133.249",
+      "server": "104.16.156.227",
       "port": 443,
-      "uuid": "20ff936a-8eb5-4d27-9cce-93f2016d467b",
+      "uuid": "b8d8a5b0-867f-4491-b4e4-30edc04bb10e",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "free.nadun.store",
+        "server_name": "u.srilankangrill.online",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
         "path": "/",
         "headers": {
-          "Host": "free.nadun.store"
+          "Host": "u.srilankangrill.online"
         }
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 93 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "511.150333.xyz",
-      "port": 21004,
-      "uuid": "41b1c169-5905-4d98-b6a6-56896c25737c",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇸🇬 新加坡 (Singapore) 94 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 16 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "188.114.97.6",
@@ -1540,7 +414,484 @@
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 95 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 17 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "45.118.133.249",
+      "port": 443,
+      "uuid": "20ff936a-8eb5-4d27-9cce-93f2016d467b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "free.nadun.store",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "free.nadun.store"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 18 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "moral-basilisk.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "moral-basilisk.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 19 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.18.35.86",
+      "port": 8080,
+      "uuid": "e5cc16a6-ea42-46b2-82ae-ad2157e1641b",
+      "flow": "",
+      "ws": {
+        "path": "/?------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------Configvibes------&",
+        "headers": {
+          "Host": "hhlfy.twiladaphne.ndjp.net"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 20 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "511.150333.xyz",
+      "port": 21001,
+      "uuid": "41b1c169-5905-4d98-b6a6-56896c25737c",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 21 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 22 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "moral-basilisk.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "moral-basilisk.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 23 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "18.141.136.8",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "musical-mouse.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 24 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "glorious-glider.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "glorious-glider.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 25 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "511.150333.xyz",
+      "port": 21004,
+      "uuid": "41b1c169-5905-4d98-b6a6-56896c25737c",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 26 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "inviting-ferret.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "inviting-ferret.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 27 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "3.1.252.137",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "brave-tomcat.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 28 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "simple-molly.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "simple-molly.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 29 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "141.193.213.21",
+      "port": 8443,
+      "uuid": "29c3dd6b-b164-40ca-a0d5-f06aca52a8b2",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "u.srilankangrill.online",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "u.srilankangrill.online"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 30 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "inviting-ferret.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "inviting-ferret.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 31 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "139.180.146.200",
+      "port": 8886,
+      "password": "e26a229d-e8f2-4ff9-8c7d-58a9d83ee437",
+      "tls": {
+        "enabled": true,
+        "server_name": "139.180.146.200",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 32 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 33 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "45.118.133.249",
+      "port": 443,
+      "uuid": "20ff936a-8eb5-4d27-9cce-93f2016d467b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "free.nadun.store",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "free.nadun.store"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 34 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 35 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "43.103.4.68",
+      "port": 443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "edg-2oo.pages.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/city?ed=2560fp=chrome",
+        "headers": {
+          "Host": "edg-2oo.pages.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 36 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "ww11.levikogjgfdd.ir",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 37 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "musical-mouse.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "musical-mouse.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 38 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "47.237.74.17",
+      "port": 16263,
+      "uuid": "c538c9dd-2e3f-488f-a8ca-ac5b7c0773f3",
+      "flow": ""
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 39 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "free.nadun.store",
+      "port": 443,
+      "uuid": "20ff936a-8eb5-4d27-9cce-93f2016d467b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "free.nadun.store",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "free.nadun.store"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 40 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "glorious-glider.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "glorious-glider.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 41 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "brave-tomcat.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "brave-tomcat.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 42 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 43 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "511.150333.xyz",
+      "port": 21001,
+      "uuid": "41b1c169-5905-4d98-b6a6-56896c25737c",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 44 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.16.10.199",
+      "port": 443,
+      "uuid": "b8d8a5b0-867f-4491-b4e4-30edc04bb10e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "u.srilankangrill.online",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "u.srilankangrill.online"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 45 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "support.zoom.us",
+      "port": 80,
+      "uuid": "b8d8a5b0-867f-4491-b4e4-30edc04bb10e",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "u.srilankangrill.online"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 46 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "139.162.27.96",
+      "port": 2096,
+      "uuid": "6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "free-server.techsonic.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/free-server.techsonic.dev",
+        "headers": {
+          "Host": "free-server.techsonic.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 47 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "141.193.213.20",
+      "port": 8443,
+      "uuid": "29c3dd6b-b164-40ca-a0d5-f06aca52a8b2",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "u.srilankangrill.online",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "u.srilankangrill.online"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 48 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 49 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "47.131.250.125",
@@ -1553,7 +904,583 @@
       }
     },
     {
-      "tag": "🇸🇬 新加坡 (Singapore) 96 - xiaohe",
+      "tag": "🇸🇬 新加坡 (Singapore) 50 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "139.180.146.200",
+      "port": 8886,
+      "password": "e26a229d-e8f2-4ff9-8c7d-58a9d83ee437",
+      "tls": {
+        "enabled": true,
+        "server_name": "139.180.146.200",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 51 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 52 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.16.10.235",
+      "port": 443,
+      "uuid": "b8d8a5b0-867f-4491-b4e4-30edc04bb10e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "u.srilankangrill.online",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "u.srilankangrill.online"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 53 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "54.151.181.75",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "moral-basilisk.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 54 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "47.131.250.125",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "simple-molly.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 55 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "inviting-ferret.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "inviting-ferret.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 56 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.202",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 57 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "178.94.25.73",
+      "port": 10443,
+      "uuid": "2dacc738-5720-4824-b8bc-e3db57596ba7",
+      "flow": ""
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 58 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.17.3.81",
+      "port": 443,
+      "uuid": "fc60147e-76b8-4bc5-b691-90b2da79e3d2",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nautica-cff.kloningstrife002.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/138.2.74.219-28616",
+        "headers": {
+          "Host": "nautica-cff.kloningstrife002.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 59 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "45.38.60.153",
+      "port": 2053,
+      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "lucasjow.us.ci",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "lucasjow.us.ci"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 60 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "47.131.250.125",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "simple-molly.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 61 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "47.131.250.125",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "simple-molly.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 62 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 63 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "simple-molly.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "simple-molly.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 64 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "139.180.146.200",
+      "port": 8886,
+      "password": "e26a229d-e8f2-4ff9-8c7d-58a9d83ee437",
+      "tls": {
+        "enabled": true,
+        "server_name": "139.180.146.200",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 65 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "support.zoom.us",
+      "port": 80,
+      "uuid": "b8d8a5b0-867f-4491-b4e4-30edc04bb10e",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "u.srilankangrill.online"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 66 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "188.114.97.6",
+      "port": 443,
+      "uuid": "20ff936a-8eb5-4d27-9cce-93f2016d467b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "free.nadun.store",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "free.nadun.store"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 67 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "free.nadun.store",
+      "port": 443,
+      "uuid": "20ff936a-8eb5-4d27-9cce-93f2016d467b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "free.nadun.store",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "free.nadun.store"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 68 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "511.150333.xyz",
+      "port": 21004,
+      "uuid": "41b1c169-5905-4d98-b6a6-56896c25737c",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 69 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "ww11.levikogjgfdd.ir",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 70 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "188.114.98.0",
+      "port": 443,
+      "uuid": "20ff936a-8eb5-4d27-9cce-93f2016d467b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "free.nadun.store",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "free.nadun.store"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 71 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.19.178.244",
+      "port": 443,
+      "uuid": "b8d8a5b0-867f-4491-b4e4-30edc04bb10e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "u.srilankangrill.online",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "u.srilankangrill.online"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 72 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 73 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "moral-basilisk.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "moral-basilisk.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 74 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "inviting-ferret.rooster465.autos",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "inviting-ferret.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 75 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "free.nadun.store",
+      "port": 443,
+      "uuid": "20ff936a-8eb5-4d27-9cce-93f2016d467b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "free.nadun.store",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "free.nadun.store"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 76 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "ww11.levikogjgfdd.ir",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 77 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 78 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "156.224.76.205",
+      "port": 443,
+      "uuid": "7b102311-43fd-4e8f-877e-8090623c101d",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "vp10.pages.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "vp10.pages.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 79 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "545.150333.xyz",
+      "port": 21003,
+      "uuid": "b17f6233-6726-41ff-9f62-fde7ccdbd282",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "7RyQhh-unO6BjkHRVycWKlFyQgJ3vi5_bAI3Mc8CGCA",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 80 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "ww11.levikogjgfdd.ir",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 81 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "43.174.193.1",
+      "port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 82 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "139.162.27.96",
+      "port": 2096,
+      "uuid": "6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "free-server.techsonic.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/free-server.techsonic.dev",
+        "headers": {
+          "Host": "free-server.techsonic.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 83 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "141.193.213.20",
+      "port": 8443,
+      "uuid": "29c3dd6b-b164-40ca-a0d5-f06aca52a8b2",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "u.srilankangrill.online",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "u.srilankangrill.online"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 84 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.202",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 85 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "56.10.9.77",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "inviting-ferret.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 86 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 87 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.21.5.75",
+      "port": 443,
+      "uuid": "b8d8a5b0-867f-4491-b4e4-30edc04bb10e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "u.srilankangrill.online",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "u.srilankangrill.online"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 88 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "511.150333.xyz",
@@ -1568,6 +1495,392 @@
         "reality": true,
         "public_key": "HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU",
         "short_id": ""
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 89 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 90 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "3.1.252.137",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "brave-tomcat.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 91 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "56.10.9.77",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "inviting-ferret.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 92 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "511.150333.xyz",
+      "port": 21004,
+      "uuid": "41b1c169-5905-4d98-b6a6-56896c25737c",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 93 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.16.10.10",
+      "port": 443,
+      "uuid": "b8d8a5b0-867f-4491-b4e4-30edc04bb10e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "u.srilankangrill.online",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "u.srilankangrill.online"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 94 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "141.193.213.21",
+      "port": 8443,
+      "uuid": "29c3dd6b-b164-40ca-a0d5-f06aca52a8b2",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "u.srilankangrill.online",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "u.srilankangrill.online"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 95 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "3.1.252.137",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "brave-tomcat.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 96 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "news.zoom.us",
+      "port": 8443,
+      "uuid": "29c3dd6b-b164-40ca-a0d5-f06aca52a8b2",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "u.srilankangrill.online",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "u.srilankangrill.online"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 97 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.21.5.75",
+      "port": 443,
+      "uuid": "b8d8a5b0-867f-4491-b4e4-30edc04bb10e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "u.srilankangrill.online",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "u.srilankangrill.online"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 98 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "43.174.193.1",
+      "port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/fp=chrome",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 99 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "545.150333.xyz",
+      "port": 21001,
+      "uuid": "b17f6233-6726-41ff-9f62-fde7ccdbd282",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "7RyQhh-unO6BjkHRVycWKlFyQgJ3vi5_bAI3Mc8CGCA",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 100 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.202",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 101 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "ww11.levikogjgfdd.ir",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 102 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "511.150333.xyz",
+      "port": 21002,
+      "uuid": "41b1c169-5905-4d98-b6a6-56896c25737c",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 103 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "45.118.133.249",
+      "port": 443,
+      "uuid": "20ff936a-8eb5-4d27-9cce-93f2016d467b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "free.nadun.store",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "free.nadun.store"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 104 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "149.88.23.207",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 105 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "45.118.133.249",
+      "port": 443,
+      "uuid": "20ff936a-8eb5-4d27-9cce-93f2016d467b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "free.nadun.store",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "free.nadun.store"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 106 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "free.nadun.store",
+      "port": 443,
+      "uuid": "20ff936a-8eb5-4d27-9cce-93f2016d467b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "free.nadun.store",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "free.nadun.store"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 107 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "511.150333.xyz",
+      "port": 21003,
+      "uuid": "41b1c169-5905-4d98-b6a6-56896c25737c",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 108 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "511.150333.xyz",
+      "port": 21003,
+      "uuid": "41b1c169-5905-4d98-b6a6-56896c25737c",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "HZwHZBP3x4Yo4UQiHcypRJIU_UdZY5OAapQM8RUqVAU",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 109 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.64.150.43",
+      "port": 2082,
+      "uuid": "e5cc16a6-ea42-46b2-82ae-ad2157e1641b",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "hhlfy.twiladaphne.ndjp.net"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 110 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.16.156.227",
+      "port": 443,
+      "uuid": "b8d8a5b0-867f-4491-b4e4-30edc04bb10e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "u.srilankangrill.online",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "u.srilankangrill.online"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 新加坡 (Singapore) 111 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "18.141.136.8",
+      "port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "musical-mouse.rooster465.autos",
+        "insecure": true
       }
     }
   ]

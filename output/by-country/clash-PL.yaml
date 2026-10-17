@@ -15,7 +15,7 @@ proxies:
   reality-opts:
     public-key: zJI16_ywLd4clshY0IQQPxQ_YBbIq2b0XTO_dnTJOy4
   servername: www.ns.nl
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇵🇱 PL 02 - xiaohe
   type: vless
   server: 2.26.225.89
@@ -27,6 +27,24 @@ proxies:
   servername: pl.flen-vpn.xyz
 - name: 🇵🇱 PL 03 - xiaohe
   type: vless
+  server: 2.26.225.89
+  port: 8443
+  uuid: 51a1fd52-fd88-4905-a976-35e44be28e4b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: pl.flen-vpn.xyz
+- name: 🇵🇱 PL 04 - xiaohe
+  type: vless
+  server: 2.26.225.89
+  port: 8443
+  uuid: 51a1fd52-fd88-4905-a976-35e44be28e4b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 2.26.225.89
+- name: 🇵🇱 PL 05 - xiaohe
+  type: vless
   server: 164.37.224.232
   port: 25452
   uuid: 68c3d665-b2b5-4ffb-9f37-9f3d8c47324d
@@ -36,25 +54,7 @@ proxies:
   reality-opts:
     public-key: zJI16_ywLd4clshY0IQQPxQ_YBbIq2b0XTO_dnTJOy4
   servername: www.ns.nl
-  client-fingerprint: firefox
-- name: 🇵🇱 PL 04 - xiaohe
-  type: vless
-  server: 2.26.225.89
-  port: 8443
-  uuid: 51a1fd52-fd88-4905-a976-35e44be28e4b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: pl.flen-vpn.xyz
-- name: 🇵🇱 PL 05 - xiaohe
-  type: vless
-  server: 2.26.225.89
-  port: 8443
-  uuid: 51a1fd52-fd88-4905-a976-35e44be28e4b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: pl.flen-vpn.xyz
+  client-fingerprint: chrome
 - name: 🇵🇱 PL 06 - xiaohe
   type: vless
   server: 2.26.225.89
