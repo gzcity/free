@@ -38,7 +38,8 @@
         "🇫🇷 法国 (France) 24 - xiaohe",
         "🇫🇷 法国 (France) 25 - xiaohe",
         "🇫🇷 法国 (France) 26 - xiaohe",
-        "🇫🇷 法国 (France) 27 - xiaohe"
+        "🇫🇷 法国 (France) 27 - xiaohe",
+        "🇫🇷 法国 (France) 28 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -53,6 +54,27 @@
     {
       "tag": "🇫🇷 法国 (France) 01 - xiaohe",
       "udp": true,
+      "type": "vless",
+      "server": "188.114.98.0",
+      "port": 443,
+      "uuid": "2bdcf0ac-f84e-471f-98dc-a1807acab1cb",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "skycitybox-bidarbash.sbs",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/zoodi",
+        "headers": {
+          "Host": "skycitybox-bidarbash.sbs"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 02 - xiaohe",
+      "udp": true,
       "type": "shadowsocks",
       "server": "51.83.192.80",
       "port": 8388,
@@ -60,39 +82,7 @@
       "password": "itzvpn@321"
     },
     {
-      "tag": "🇫🇷 法国 (France) 02 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "145.239.55.210",
-      "port": 80,
-      "uuid": "067fcd63-b215-4abd-8529-ae929a9971a9",
-      "alterId": 0,
-      "security": "auto",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "google.whatsapp.snapp.torob.basalam.fortresshost.ir."
-        }
-      }
-    },
-    {
       "tag": "🇫🇷 法国 (France) 03 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "145.239.55.210",
-      "port": 80,
-      "uuid": "067fcd63-b215-4abd-8529-ae929a9971a9",
-      "alterId": 0,
-      "security": "auto",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "google.whatsapp.snapp.torob.basalam.fortresshost.ir."
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 04 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "51.77.217.70",
@@ -103,9 +93,27 @@
         "enabled": true,
         "server_name": "www.apple.com",
         "insecure": true,
-        "client_fingerprint": "chrome",
+        "client_fingerprint": "firefox",
         "reality": true,
         "public_key": "g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "54.37.136.194",
+      "port": 2053,
+      "uuid": "e8a432c8-5d84-49a5-b822-67ed761a58f9",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A",
         "short_id": ""
       }
     },
@@ -113,17 +121,17 @@
       "tag": "🇫🇷 法国 (France) 05 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "51.77.217.70",
+      "server": "54.37.136.194",
       "port": 2053,
-      "uuid": "bf16ee0c-8b3c-41e4-ab3a-8b48033c404e",
+      "uuid": "e8a432c8-5d84-49a5-b822-67ed761a58f9",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
+        "server_name": "www.cloudflare.com",
         "insecure": true,
-        "client_fingerprint": "chrome",
+        "client_fingerprint": "random",
         "reality": true,
-        "public_key": "g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w",
+        "public_key": "Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A",
         "short_id": ""
       }
     },
@@ -148,6 +156,15 @@
     {
       "tag": "🇫🇷 法国 (France) 07 - xiaohe",
       "udp": true,
+      "type": "shadowsocks",
+      "server": "54.36.174.140",
+      "port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "e5c65ph"
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 08 - xiaohe",
+      "udp": true,
       "type": "vless",
       "server": "54.37.136.194",
       "port": 2053,
@@ -157,30 +174,32 @@
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "insecure": true,
-        "client_fingerprint": "random",
+        "client_fingerprint": "chrome",
         "reality": true,
         "public_key": "Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A",
         "short_id": ""
       }
     },
     {
-      "tag": "🇫🇷 法国 (France) 08 - xiaohe",
+      "tag": "🇫🇷 法国 (France) 09 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "54.37.131.126",
-      "port": 80,
-      "uuid": "6deef9ad-1357-443d-f95c-cb18952c20b3",
-      "alterId": 0,
-      "security": "auto",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "google.whatsapp.snapp.torob.basalam.hesanid8.ir."
-        }
+      "type": "vless",
+      "server": "51.77.217.70",
+      "port": 2053,
+      "uuid": "bf16ee0c-8b3c-41e4-ab3a-8b48033c404e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w",
+        "short_id": ""
       }
     },
     {
-      "tag": "🇫🇷 法国 (France) 09 - xiaohe",
+      "tag": "🇫🇷 法国 (France) 10 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "skycitybox-bidarbash.sbs",
@@ -201,52 +220,52 @@
       }
     },
     {
-      "tag": "🇫🇷 法国 (France) 10 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "54.36.174.134",
-      "port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "e5c65ph"
-    },
-    {
       "tag": "🇫🇷 法国 (France) 11 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "54.36.174.140",
-      "port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "e5c65ph"
+      "type": "vmess",
+      "server": "145.239.55.210",
+      "port": 80,
+      "uuid": "067fcd63-b215-4abd-8529-ae929a9971a9",
+      "alterId": 0,
+      "security": "auto",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "google.whatsapp.snapp.torob.basalam.fortresshost.ir."
+        }
+      }
     },
     {
       "tag": "🇫🇷 法国 (France) 12 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "104.26.13.235",
-      "port": 443,
-      "uuid": "5504eaa8-1395-402f-8e0e-75ecd762e627",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "nat9.outsidemyheart.space",
-        "insecure": true,
-        "client_fingerprint": null
-      },
+      "type": "vmess",
+      "server": "145.239.55.210",
+      "port": 80,
+      "uuid": "067fcd63-b215-4abd-8529-ae929a9971a9",
+      "alterId": 0,
+      "security": "auto",
       "ws": {
-        "path": "/saosaosao",
+        "path": "/",
         "headers": {
-          "Host": "nat9.outsidemyheart.space"
+          "Host": "google.whatsapp.snapp.torob.basalam.fortresshost.ir."
         }
       }
     },
     {
       "tag": "🇫🇷 法国 (France) 13 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "pl134.vpnbook.com",
-      "port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "e5c65ph"
+      "type": "vmess",
+      "server": "54.37.131.126",
+      "port": 80,
+      "uuid": "6deef9ad-1357-443d-f95c-cb18952c20b3",
+      "alterId": 0,
+      "security": "auto",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "google.whatsapp.snapp.torob.basalam.hesanid8.ir."
+        }
+      }
     },
     {
       "tag": "🇫🇷 法国 (France) 14 - xiaohe",
@@ -268,21 +287,6 @@
       "tag": "🇫🇷 法国 (France) 15 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "46.226.166.208",
-      "port": 14430,
-      "uuid": "af827fd0-6381-426f-bc5e-dcd9a7baeaac",
-      "flow": "",
-      "ws": {
-        "path": "/vless",
-        "headers": {
-          "Host": "46.226.166.208"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 16 - xiaohe",
-      "udp": true,
-      "type": "vless",
       "server": "skycitybox-bidarbash.sbs",
       "port": 443,
       "uuid": "2bdcf0ac-f84e-471f-98dc-a1807acab1cb",
@@ -299,6 +303,15 @@
           "Host": "skycitybox-bidarbash.sbs"
         }
       }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 16 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "pl140.vpnbook.com",
+      "port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "e5c65ph"
     },
     {
       "tag": "🇫🇷 法国 (France) 17 - xiaohe",
@@ -322,7 +335,7 @@
       "tag": "🇫🇷 法国 (France) 18 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "188.114.98.0",
+      "server": "skycitybox-bidarbash.sbs",
       "port": 443,
       "uuid": "2bdcf0ac-f84e-471f-98dc-a1807acab1cb",
       "flow": "",
@@ -342,11 +355,20 @@
     {
       "tag": "🇫🇷 法国 (France) 19 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "pl140.vpnbook.com",
-      "port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "e5c65ph"
+      "type": "vless",
+      "server": "51.77.217.70",
+      "port": 2053,
+      "uuid": "bf16ee0c-8b3c-41e4-ab3a-8b48033c404e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w",
+        "short_id": ""
+      }
     },
     {
       "tag": "🇫🇷 法国 (France) 20 - xiaohe",
@@ -369,41 +391,14 @@
     {
       "tag": "🇫🇷 法国 (France) 21 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "54.37.136.194",
-      "port": 2053,
-      "uuid": "e8a432c8-5d84-49a5-b822-67ed761a58f9",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A",
-        "short_id": ""
-      }
+      "type": "shadowsocks",
+      "server": "54.36.174.134",
+      "port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "e5c65ph"
     },
     {
       "tag": "🇫🇷 法国 (France) 22 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "51.77.217.70",
-      "port": 2053,
-      "uuid": "bf16ee0c-8b3c-41e4-ab3a-8b48033c404e",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 23 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "skycitybox-bidarbash.sbs",
@@ -424,40 +419,16 @@
       }
     },
     {
+      "tag": "🇫🇷 法国 (France) 23 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "51.83.192.80",
+      "port": 8388,
+      "method": "aes-256-gcm",
+      "password": "itzvpn@321"
+    },
+    {
       "tag": "🇫🇷 法国 (France) 24 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "46.226.166.208",
-      "port": 14430,
-      "uuid": "af827fd0-6381-426f-bc5e-dcd9a7baeaac",
-      "flow": "",
-      "ws": {
-        "path": "/vless",
-        "headers": {
-          "Host": "46.226.166.208"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 25 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "54.37.136.194",
-      "port": 2053,
-      "uuid": "e8a432c8-5d84-49a5-b822-67ed761a58f9",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 26 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "57.128.164.21",
@@ -473,24 +444,64 @@
       }
     },
     {
+      "tag": "🇫🇷 法国 (France) 25 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "pl134.vpnbook.com",
+      "port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "e5c65ph"
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 26 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "145.239.55.210",
+      "port": 80,
+      "uuid": "067fcd63-b215-4abd-8529-ae929a9971a9",
+      "alterId": 0,
+      "security": "auto",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "google.whatsapp.snapp.torob.basalam.fortresshost.ir."
+        }
+      }
+    },
+    {
       "tag": "🇫🇷 法国 (France) 27 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "skycitybox-bidarbash.sbs",
+      "server": "104.26.13.235",
       "port": 443,
-      "uuid": "2bdcf0ac-f84e-471f-98dc-a1807acab1cb",
+      "uuid": "5504eaa8-1395-402f-8e0e-75ecd762e627",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "skycitybox-bidarbash.sbs",
+        "server_name": "nat9.outsidemyheart.space",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/zoodi",
+        "path": "/saosaosao",
         "headers": {
-          "Host": "skycitybox-bidarbash.sbs"
+          "Host": "nat9.outsidemyheart.space"
         }
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 28 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "162.19.204.71",
+      "port": 1234,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true
       }
     }
   ]

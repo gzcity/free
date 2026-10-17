@@ -18,7 +18,8 @@
         "🇹🇼 中国台湾 (Taiwan) 04 - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 05 - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 06 - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 07 - xiaohe"
+        "🇹🇼 中国台湾 (Taiwan) 07 - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 08 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -42,7 +43,7 @@
         "enabled": true,
         "server_name": "addons.mozilla.org",
         "insecure": true,
-        "client_fingerprint": "chrome",
+        "client_fingerprint": "safari",
         "reality": true,
         "public_key": "mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE",
         "short_id": ""
@@ -60,7 +61,7 @@
         "enabled": true,
         "server_name": "addons.mozilla.org",
         "insecure": true,
-        "client_fingerprint": "safari",
+        "client_fingerprint": "qq",
         "reality": true,
         "public_key": "mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE",
         "short_id": ""
@@ -108,6 +109,16 @@
     },
     {
       "tag": "🇹🇼 中国台湾 (Taiwan) 07 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "165.154.195.38",
+      "port": 35034,
+      "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇹🇼 中国台湾 (Taiwan) 08 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "165.154.195.38",
