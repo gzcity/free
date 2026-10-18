@@ -14,7 +14,8 @@
       "outbounds": [
         "🇧🇬 BG 01 - xiaohe",
         "🇧🇬 BG 02 - xiaohe",
-        "🇧🇬 BG 03 - xiaohe"
+        "🇧🇬 BG 03 - xiaohe",
+        "🇧🇬 BG 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -73,6 +74,27 @@
       "udp": true,
       "type": "vless",
       "server": "93.152.215.176",
+      "port": 8443,
+      "uuid": "05d7a479-a099-40cf-aecf-41aa934767b0",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nl5.hap-plus.ru",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/api/v1/events",
+        "headers": {
+          "Host": "nl5.hap-plus.ru"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇬 BG 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "nl5.hap-plus.ru",
       "port": 8443,
       "uuid": "05d7a479-a099-40cf-aecf-41aa934767b0",
       "flow": "",

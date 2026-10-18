@@ -21,14 +21,6 @@ proxies:
   sni: 109.206.241.10
   skip-cert-verify: true
 - name: 🇪🇪 EE 03 - xiaohe
-  type: trojan
-  server: 109.206.241.10
-  port: 449
-  password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1
-  udp: true
-  sni: russiapower.accesscam.org
-  skip-cert-verify: true
-- name: 🇪🇪 EE 04 - xiaohe
   type: vless
   server: ee.h1cloud.net
   port: 25895
@@ -40,6 +32,22 @@ proxies:
     public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k
   servername: www.samsung.com
   client-fingerprint: chrome
+- name: 🇪🇪 EE 04 - xiaohe
+  type: trojan
+  server: 109.206.241.10
+  port: 449
+  password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1
+  udp: true
+  sni: russiapower.accesscam.org
+  skip-cert-verify: true
+- name: 🇪🇪 EE 05 - xiaohe
+  type: trojan
+  server: 109.206.241.10
+  port: 449
+  password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1
+  udp: true
+  sni: 109.206.241.10
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -49,6 +57,7 @@ proxy-groups:
   - 🇪🇪 EE 02 - xiaohe
   - 🇪🇪 EE 03 - xiaohe
   - 🇪🇪 EE 04 - xiaohe
+  - 🇪🇪 EE 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -58,5 +67,6 @@ proxy-groups:
   - 🇪🇪 EE 02 - xiaohe
   - 🇪🇪 EE 03 - xiaohe
   - 🇪🇪 EE 04 - xiaohe
+  - 🇪🇪 EE 05 - xiaohe
 rules:
 - MATCH,PROXIES

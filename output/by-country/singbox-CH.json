@@ -29,6 +29,24 @@
     {
       "tag": "🇨🇭 CH 01 - xiaohe",
       "udp": true,
+      "type": "shadowsocks",
+      "server": "132.243.175.144",
+      "port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3"
+    },
+    {
+      "tag": "🇨🇭 CH 02 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "132.243.175.144",
+      "port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3"
+    },
+    {
+      "tag": "🇨🇭 CH 03 - xiaohe",
+      "udp": true,
       "type": "vless",
       "server": "ch.srv.vbuste.ru",
       "port": 444,
@@ -43,24 +61,6 @@
         "public_key": "0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08",
         "short_id": ""
       }
-    },
-    {
-      "tag": "🇨🇭 CH 02 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "132.243.175.144",
-      "port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3"
-    },
-    {
-      "tag": "🇨🇭 CH 03 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "132.243.175.144",
-      "port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3"
     }
   ]
 }

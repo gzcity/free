@@ -40,7 +40,7 @@
         "enabled": true,
         "server_name": "www.google.com",
         "insecure": true,
-        "client_fingerprint": "random",
+        "client_fingerprint": "chrome",
         "reality": true,
         "public_key": "4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM",
         "short_id": ""
@@ -58,7 +58,7 @@
         "enabled": true,
         "server_name": "www.google.com",
         "insecure": true,
-        "client_fingerprint": "chrome",
+        "client_fingerprint": "random",
         "reality": true,
         "public_key": "4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM",
         "short_id": ""
@@ -101,15 +101,18 @@
       "tag": "🇫🇮 FI 05 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "45.144.234.157",
-      "port": 14430,
-      "uuid": "59b0d30e-9b29-4fda-a35c-b2901ec32db7",
+      "server": "95.216.27.15",
+      "port": 2053,
+      "uuid": "1c81f6d3-5771-4c5d-9fdd-1655eff50634",
       "flow": "",
-      "ws": {
-        "path": "/vless",
-        "headers": {
-          "Host": "45.144.234.157"
-        }
+      "tls": {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM",
+        "short_id": ""
       }
     }
   ]
