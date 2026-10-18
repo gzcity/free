@@ -14,7 +14,8 @@
       "outbounds": [
         "🇪🇪 EE 01 - xiaohe",
         "🇪🇪 EE 02 - xiaohe",
-        "🇪🇪 EE 03 - xiaohe"
+        "🇪🇪 EE 03 - xiaohe",
+        "🇪🇪 EE 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -61,8 +62,26 @@
       "password": "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1",
       "tls": {
         "enabled": true,
-        "server_name": "109.206.241.10",
+        "server_name": "russiapower.accesscam.org",
         "insecure": true
+      }
+    },
+    {
+      "tag": "🇪🇪 EE 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "ee.h1cloud.net",
+      "port": 25895,
+      "uuid": "f90b7d43-69e2-4b46-a672-8029bc6796a2",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.samsung.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k",
+        "short_id": ""
       }
     }
   ]

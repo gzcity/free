@@ -29,22 +29,14 @@
     {
       "tag": "🇲🇾 MY 01 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "104.21.23.80",
+      "type": "trojan",
+      "server": "47.250.84.25",
       "port": 443,
-      "uuid": "f5f0babe-aea2-4f07-a1fc-3c9820253f49",
-      "alterId": 0,
-      "security": "auto",
+      "password": "5931134d1cde66bf83a54acdfebe7ab2",
       "tls": {
         "enabled": true,
-        "server_name": "my.lovehk.xyz",
+        "server_name": "47.250.84.25",
         "insecure": true
-      },
-      "ws": {
-        "path": "/KualaLumpur1",
-        "headers": {
-          "Host": "my.lovehk.xyz"
-        }
       }
     },
     {

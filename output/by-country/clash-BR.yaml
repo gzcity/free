@@ -5,13 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇷 BR 01 - xiaohe
-  type: ss
-  server: 200.181.82.92
-  port: 20031
-  cipher: aes-256-gcm
-  password: 0dad9116-eb88-47b6-98dd-67c9ed43afa6
-  udp: true
-- name: 🇧🇷 BR 02 - xiaohe
   type: trojan
   server: 200.181.82.92
   port: 28055
@@ -19,7 +12,7 @@ proxies:
   udp: true
   sni: www.baidu.com
   skip-cert-verify: true
-- name: 🇧🇷 BR 03 - xiaohe
+- name: 🇧🇷 BR 02 - xiaohe
   type: trojan
   server: 200.181.82.91
   port: 28087
@@ -27,7 +20,7 @@ proxies:
   udp: true
   sni: www.baidu.com
   skip-cert-verify: true
-- name: 🇧🇷 BR 04 - xiaohe
+- name: 🇧🇷 BR 03 - xiaohe
   type: ss
   server: 200.181.82.91
   port: 20013
@@ -42,7 +35,6 @@ proxy-groups:
   - 🇧🇷 BR 01 - xiaohe
   - 🇧🇷 BR 02 - xiaohe
   - 🇧🇷 BR 03 - xiaohe
-  - 🇧🇷 BR 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -51,6 +43,5 @@ proxy-groups:
   - 🇧🇷 BR 01 - xiaohe
   - 🇧🇷 BR 02 - xiaohe
   - 🇧🇷 BR 03 - xiaohe
-  - 🇧🇷 BR 04 - xiaohe
 rules:
 - MATCH,PROXIES

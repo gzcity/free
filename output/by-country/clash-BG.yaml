@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇧🇬 BG 01 - xiaohe
   type: vless
-  server: nl5.hap-plus.ru
+  server: 93.152.215.176
   port: 8443
   uuid: 05d7a479-a099-40cf-aecf-41aa934767b0
   udp: true
@@ -34,7 +34,7 @@ proxies:
       Host: nl5.hap-plus.ru
 - name: 🇧🇬 BG 03 - xiaohe
   type: vless
-  server: nl5.hap-plus.ru
+  server: 93.152.215.176
   port: 8443
   uuid: 05d7a479-a099-40cf-aecf-41aa934767b0
   udp: true
