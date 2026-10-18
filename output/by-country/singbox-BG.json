@@ -14,10 +14,7 @@
       "outbounds": [
         "🇧🇬 BG 01 - xiaohe",
         "🇧🇬 BG 02 - xiaohe",
-        "🇧🇬 BG 03 - xiaohe",
-        "🇧🇬 BG 04 - xiaohe",
-        "🇧🇬 BG 05 - xiaohe",
-        "🇧🇬 BG 06 - xiaohe"
+        "🇧🇬 BG 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -33,7 +30,7 @@
       "tag": "🇧🇬 BG 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "nl5.hap-plus.ru",
+      "server": "93.152.215.176",
       "port": 8443,
       "uuid": "05d7a479-a099-40cf-aecf-41aa934767b0",
       "flow": "",
@@ -54,18 +51,21 @@
       "tag": "🇧🇬 BG 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "p1real4.greewebservices.ir",
-      "port": 1260,
-      "uuid": "b374647d-7516-4d1e-8c85-544c7d734c1f",
+      "server": "93.152.215.176",
+      "port": 8443,
+      "uuid": "05d7a479-a099-40cf-aecf-41aa934767b0",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "play.googleapis.com",
+        "server_name": "nl5.hap-plus.ru",
         "insecure": true,
-        "client_fingerprint": "ios",
-        "reality": true,
-        "public_key": "xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8",
-        "short_id": ""
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/api/v1/events",
+        "headers": {
+          "Host": "nl5.hap-plus.ru"
+        }
       }
     },
     {
@@ -87,61 +87,6 @@
         "headers": {
           "Host": "nl5.hap-plus.ru"
         }
-      }
-    },
-    {
-      "tag": "🇧🇬 BG 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "93.152.215.176",
-      "port": 8443,
-      "uuid": "05d7a479-a099-40cf-aecf-41aa934767b0",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "nl5.hap-plus.ru",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/api/v1/events",
-        "headers": {
-          "Host": "nl5.hap-plus.ru"
-        }
-      }
-    },
-    {
-      "tag": "🇧🇬 BG 05 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "nl5.hap-plus.ru",
-      "port": 8443,
-      "uuid": "05d7a479-a099-40cf-aecf-41aa934767b0",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "nl5.hap-plus.ru",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/api/v1/events",
-        "headers": {
-          "Host": "nl5.hap-plus.ru"
-        }
-      }
-    },
-    {
-      "tag": "🇧🇬 BG 06 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "ger8.fytpn.com",
-      "port": 443,
-      "password": "-VbTw-xqE7XYmEsoZTE7ShJoYLCjdBMQ",
-      "tls": {
-        "enabled": true,
-        "server_name": "ger1.fytpn.com",
-        "insecure": true
       }
     }
   ]

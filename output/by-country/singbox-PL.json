@@ -15,7 +15,9 @@
         "🇵🇱 PL 01 - xiaohe",
         "🇵🇱 PL 02 - xiaohe",
         "🇵🇱 PL 03 - xiaohe",
-        "🇵🇱 PL 04 - xiaohe"
+        "🇵🇱 PL 04 - xiaohe",
+        "🇵🇱 PL 05 - xiaohe",
+        "🇵🇱 PL 06 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -31,18 +33,15 @@
       "tag": "🇵🇱 PL 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "38.244.186.167",
-      "port": 8445,
-      "uuid": "f3b8d5f8-cbe9-4aca-ab34-005c51262d5e",
+      "server": "2.26.225.89",
+      "port": 8443,
+      "uuid": "51a1fd52-fd88-4905-a976-35e44be28e4b",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "www.samsung.com",
+        "server_name": "pl.flen-vpn.xyz",
         "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "-s2SHiKfXMJRYizNuu8URrx6MgyoQtBJ0QAj33qMog0",
-        "short_id": ""
+        "client_fingerprint": null
       }
     },
     {
@@ -79,6 +78,24 @@
       "tag": "🇵🇱 PL 04 - xiaohe",
       "udp": true,
       "type": "vless",
+      "server": "38.244.186.167",
+      "port": 8445,
+      "uuid": "f3b8d5f8-cbe9-4aca-ab34-005c51262d5e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.samsung.com",
+        "insecure": true,
+        "client_fingerprint": "safari",
+        "reality": true,
+        "public_key": "-s2SHiKfXMJRYizNuu8URrx6MgyoQtBJ0QAj33qMog0",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
       "server": "2.26.225.89",
       "port": 8443,
       "uuid": "51a1fd52-fd88-4905-a976-35e44be28e4b",
@@ -88,6 +105,24 @@
         "server_name": "pl.flen-vpn.xyz",
         "insecure": true,
         "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 06 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "38.244.186.167",
+      "port": 8445,
+      "uuid": "f3b8d5f8-cbe9-4aca-ab34-005c51262d5e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.samsung.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "-s2SHiKfXMJRYizNuu8URrx6MgyoQtBJ0QAj33qMog0",
+        "short_id": ""
       }
     }
   ]
