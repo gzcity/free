@@ -27,15 +27,7 @@
         "🇮🇳 印度 (India) 13 - xiaohe",
         "🇮🇳 印度 (India) 14 - xiaohe",
         "🇮🇳 印度 (India) 15 - xiaohe",
-        "🇮🇳 印度 (India) 16 - xiaohe",
-        "🇮🇳 印度 (India) 17 - xiaohe",
-        "🇮🇳 印度 (India) 18 - xiaohe",
-        "🇮🇳 印度 (India) 19 - xiaohe",
-        "🇮🇳 印度 (India) 20 - xiaohe",
-        "🇮🇳 印度 (India) 21 - xiaohe",
-        "🇮🇳 印度 (India) 22 - xiaohe",
-        "🇮🇳 印度 (India) 23 - xiaohe",
-        "🇮🇳 印度 (India) 24 - xiaohe"
+        "🇮🇳 印度 (India) 16 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -50,64 +42,69 @@
     {
       "tag": "🇮🇳 印度 (India) 01 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "152.67.8.205",
-      "port": 80,
-      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
-      "alterId": 0,
-      "security": "auto",
-      "ws": {
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
+      "type": "vless",
+      "server": "194.61.31.126",
+      "port": 2053,
+      "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
+        "short_id": ""
       }
     },
     {
       "tag": "🇮🇳 印度 (India) 02 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "152.67.8.205",
-      "port": 80,
-      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
-      "alterId": 0,
-      "security": "auto",
-      "ws": {
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
+      "type": "vless",
+      "server": "194.61.31.126",
+      "port": 2053,
+      "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
+        "short_id": ""
       }
     },
     {
       "tag": "🇮🇳 印度 (India) 03 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "152.67.8.205",
-      "port": 80,
-      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
-      "alterId": 0,
-      "security": "auto",
-      "ws": {
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
+      "type": "vless",
+      "server": "194.61.31.126",
+      "port": 2053,
+      "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "random",
+        "reality": true,
+        "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
+        "short_id": ""
       }
     },
     {
       "tag": "🇮🇳 印度 (India) 04 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "152.67.8.205",
-      "port": 80,
-      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
-      "alterId": 0,
-      "security": "auto",
+      "type": "vless",
+      "server": "13.140.56.100",
+      "port": 14430,
+      "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
+      "flow": "",
       "ws": {
-        "path": "",
+        "path": "/vless",
         "headers": {
-          "Host": ""
+          "Host": "13.140.56.100"
         }
       }
     },
@@ -121,7 +118,7 @@
       "alterId": 0,
       "security": "auto",
       "ws": {
-        "path": "/",
+        "path": "",
         "headers": {
           "Host": ""
         }
@@ -130,15 +127,16 @@
     {
       "tag": "🇮🇳 印度 (India) 06 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "13.140.56.100",
-      "port": 14430,
-      "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
-      "flow": "",
+      "type": "vmess",
+      "server": "152.67.8.205",
+      "port": 80,
+      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
+      "alterId": 0,
+      "security": "auto",
       "ws": {
-        "path": "/vless",
+        "path": "/",
         "headers": {
-          "Host": "13.140.56.100"
+          "Host": ""
         }
       }
     },
@@ -168,7 +166,7 @@
       "alterId": 0,
       "security": "auto",
       "ws": {
-        "path": "",
+        "path": "/",
         "headers": {
           "Host": ""
         }
@@ -184,7 +182,7 @@
       "alterId": 0,
       "security": "auto",
       "ws": {
-        "path": "/",
+        "path": "",
         "headers": {
           "Host": ""
         }
@@ -194,40 +192,19 @@
       "tag": "🇮🇳 印度 (India) 10 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "194.61.31.126",
-      "port": 2053,
-      "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
+      "server": "13.140.56.100",
+      "port": 14430,
+      "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
-        "short_id": ""
+      "ws": {
+        "path": "/vless",
+        "headers": {
+          "Host": "13.140.56.100"
+        }
       }
     },
     {
       "tag": "🇮🇳 印度 (India) 11 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "194.61.31.126",
-      "port": 2053,
-      "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true,
-        "client_fingerprint": "random",
-        "reality": true,
-        "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇮🇳 印度 (India) 12 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "152.67.8.205",
@@ -243,32 +220,43 @@
       }
     },
     {
+      "tag": "🇮🇳 印度 (India) 12 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "172.105.39.124",
+      "port": 7002,
+      "method": "aes-256-gcm",
+      "password": "RexnBgU7EV5ADxG"
+    },
+    {
       "tag": "🇮🇳 印度 (India) 13 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "13.140.56.100",
-      "port": 14430,
-      "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
-      "flow": "",
+      "type": "vmess",
+      "server": "152.67.8.205",
+      "port": 80,
+      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
+      "alterId": 0,
+      "security": "auto",
       "ws": {
-        "path": "/vless",
+        "path": "",
         "headers": {
-          "Host": "13.140.56.100"
+          "Host": ""
         }
       }
     },
     {
       "tag": "🇮🇳 印度 (India) 14 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "13.140.56.100",
-      "port": 14430,
-      "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
-      "flow": "",
+      "type": "vmess",
+      "server": "152.67.8.205",
+      "port": 80,
+      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
+      "alterId": 0,
+      "security": "auto",
       "ws": {
-        "path": "/vless",
+        "path": "/",
         "headers": {
-          "Host": "13.140.56.100"
+          "Host": ""
         }
       }
     },
@@ -302,127 +290,6 @@
           "Host": "13.140.56.100"
         }
       }
-    },
-    {
-      "tag": "🇮🇳 印度 (India) 17 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "152.67.8.205",
-      "port": 80,
-      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
-      "alterId": 0,
-      "security": "auto",
-      "ws": {
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇮🇳 印度 (India) 18 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "152.67.8.205",
-      "port": 80,
-      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
-      "alterId": 0,
-      "security": "auto",
-      "ws": {
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇮🇳 印度 (India) 19 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "152.67.8.205",
-      "port": 80,
-      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
-      "alterId": 0,
-      "security": "auto",
-      "ws": {
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇮🇳 印度 (India) 20 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "152.67.8.205",
-      "port": 80,
-      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
-      "alterId": 0,
-      "security": "auto",
-      "ws": {
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇮🇳 印度 (India) 21 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "152.67.8.205",
-      "port": 80,
-      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
-      "alterId": 0,
-      "security": "auto",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇮🇳 印度 (India) 22 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "152.67.8.205",
-      "port": 80,
-      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
-      "alterId": 0,
-      "security": "auto",
-      "ws": {
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇮🇳 印度 (India) 23 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "152.67.8.205",
-      "port": 80,
-      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
-      "alterId": 0,
-      "security": "auto",
-      "ws": {
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇮🇳 印度 (India) 24 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "139.84.166.47",
-      "port": 8388,
-      "method": "aes-256-gcm",
-      "password": "GEdoeeqLZtkJRgSa"
     }
   ]
 }

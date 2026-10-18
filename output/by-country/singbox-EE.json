@@ -29,22 +29,14 @@
     {
       "tag": "🇪🇪 EE 01 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "eu3.998998.best",
-      "port": 443,
-      "uuid": "5504eaa8-1395-402f-8e0e-75ecd762e627",
-      "alterId": 0,
-      "security": "auto",
+      "type": "trojan",
+      "server": "109.206.241.10",
+      "port": 449,
+      "password": "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1",
       "tls": {
         "enabled": true,
-        "server_name": "server40.9966338.xyz",
+        "server_name": "russiapower.accesscam.org",
         "insecure": true
-      },
-      "ws": {
-        "path": "/aiaiai",
-        "headers": {
-          "Host": "server40.9966338.xyz"
-        }
       }
     },
     {
@@ -56,7 +48,7 @@
       "password": "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1",
       "tls": {
         "enabled": true,
-        "server_name": "russiapower.accesscam.org",
+        "server_name": "109.206.241.10",
         "insecure": true
       }
     },

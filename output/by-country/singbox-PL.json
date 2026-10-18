@@ -62,6 +62,15 @@
     {
       "tag": "🇵🇱 PL 03 - xiaohe",
       "udp": true,
+      "type": "shadowsocks",
+      "server": "200.181.82.91",
+      "port": 21818,
+      "method": "aes-256-gcm",
+      "password": "0dad9116-eb88-47b6-98dd-67c9ed43afa6"
+    },
+    {
+      "tag": "🇵🇱 PL 04 - xiaohe",
+      "udp": true,
       "type": "vless",
       "server": "2.26.225.89",
       "port": 8443,
@@ -72,24 +81,6 @@
         "server_name": "pl.flen-vpn.xyz",
         "insecure": true,
         "client_fingerprint": null
-      }
-    },
-    {
-      "tag": "🇵🇱 PL 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "38.244.186.167",
-      "port": 8445,
-      "uuid": "f3b8d5f8-cbe9-4aca-ab34-005c51262d5e",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.samsung.com",
-        "insecure": true,
-        "client_fingerprint": "safari",
-        "reality": true,
-        "public_key": "-s2SHiKfXMJRYizNuu8URrx6MgyoQtBJ0QAj33qMog0",
-        "short_id": ""
       }
     },
     {
@@ -110,19 +101,14 @@
     {
       "tag": "🇵🇱 PL 06 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "38.244.186.167",
-      "port": 8445,
-      "uuid": "f3b8d5f8-cbe9-4aca-ab34-005c51262d5e",
-      "flow": "",
+      "type": "trojan",
+      "server": "pl2.dedushka.top",
+      "port": 443,
+      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
       "tls": {
         "enabled": true,
-        "server_name": "www.samsung.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "-s2SHiKfXMJRYizNuu8URrx6MgyoQtBJ0QAj33qMog0",
-        "short_id": ""
+        "server_name": "pl2.dedushka.top",
+        "insecure": true
       }
     }
   ]

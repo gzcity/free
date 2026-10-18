@@ -39,15 +39,6 @@
     {
       "tag": "🇨🇿 CZ 02 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "67.159.18.34",
-      "port": 17001,
-      "method": "aes-256-gcm",
-      "password": "I6o9NnialYLMEjVt28RF4dpjmr9wMvNL"
-    },
-    {
-      "tag": "🇨🇿 CZ 03 - xiaohe",
-      "udp": true,
       "type": "vless",
       "server": "cl-glb6e059ee.gcdn.co",
       "port": 443,
@@ -65,6 +56,15 @@
           "Host": "node-3.wt419.site"
         }
       }
+    },
+    {
+      "tag": "🇨🇿 CZ 03 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "67.159.18.34",
+      "port": 17001,
+      "method": "aes-256-gcm",
+      "password": "I6o9NnialYLMEjVt28RF4dpjmr9wMvNL"
     },
     {
       "tag": "🇨🇿 CZ 04 - xiaohe",
