@@ -39,7 +39,7 @@
         "enabled": true,
         "server_name": "www.google.com",
         "insecure": true,
-        "client_fingerprint": "random",
+        "client_fingerprint": "chrome",
         "reality": true,
         "public_key": "4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM",
         "short_id": ""
@@ -47,6 +47,24 @@
     },
     {
       "tag": "🇫🇮 FI 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "95.216.27.15",
+      "port": 2053,
+      "uuid": "1c81f6d3-5771-4c5d-9fdd-1655eff50634",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "insecure": true,
+        "client_fingerprint": "random",
+        "reality": true,
+        "public_key": "4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇫🇮 FI 03 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "45.144.234.157",
@@ -61,39 +79,24 @@
       }
     },
     {
-      "tag": "🇫🇮 FI 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "95.216.27.15",
-      "port": 2053,
-      "uuid": "1c81f6d3-5771-4c5d-9fdd-1655eff50634",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.google.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM",
-        "short_id": ""
-      }
-    },
-    {
       "tag": "🇫🇮 FI 04 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "65.109.243.156",
-      "port": 2112,
-      "uuid": "36c3dcc2-17b6-4478-b8a7-3978e6d5afe9",
+      "server": "199.232.239.239",
+      "port": 443,
+      "uuid": "434f0115-bf40-44ac-cf80-5c14f4b6f6b3",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "play.google.com",
+        "server_name": "www.firefox.com",
         "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "p8pUe3hwND5rhAti-yRQ5qMaIkNdhxOV1K1jpbtJlEQ",
-        "short_id": ""
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/?ed=2056/?TELEGRAM--KANAL--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray--@mainv2ray",
+        "headers": {
+          "Host": "mpkoe7ypcibr80p102020.global.ssl.fastly.net"
+        }
       }
     }
   ]
