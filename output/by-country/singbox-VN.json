@@ -12,7 +12,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇻🇳 VN 01 - xiaohe"
+        "🇻🇳 VN 01 - xiaohe",
+        "🇻🇳 VN 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -26,6 +27,27 @@
     },
     {
       "tag": "🇻🇳 VN 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.67.168.158",
+      "port": 2087,
+      "uuid": "1d0e8e53-6999-4752-ac21-c0c54ff5bc09",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "vn11vina.210z.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/vlessvina",
+        "headers": {
+          "Host": "vn11vina.210z.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇻🇳 VN 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "172.67.168.158",
