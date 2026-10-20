@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇹 AT 01 - xiaohe"
+        "🇨🇿 CZ 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,13 +25,13 @@
       "tag": "block"
     },
     {
-      "tag": "🇦🇹 AT 01 - xiaohe",
+      "tag": "🇨🇿 CZ 01 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "82.110.60.9",
-      "port": 19999,
+      "server": "67.159.18.34",
+      "port": 17001,
       "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+      "password": "I6o9NnialYLMEjVt28RF4dpjmr9wMvNL"
     }
   ]
 }

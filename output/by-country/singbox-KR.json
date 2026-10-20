@@ -18,11 +18,7 @@
         "🇰🇷 韩国 (South Korea) 04 - xiaohe",
         "🇰🇷 韩国 (South Korea) 05 - xiaohe",
         "🇰🇷 韩国 (South Korea) 06 - xiaohe",
-        "🇰🇷 韩国 (South Korea) 07 - xiaohe",
-        "🇰🇷 韩国 (South Korea) 08 - xiaohe",
-        "🇰🇷 韩国 (South Korea) 09 - xiaohe",
-        "🇰🇷 韩国 (South Korea) 10 - xiaohe",
-        "🇰🇷 韩国 (South Korea) 11 - xiaohe"
+        "🇰🇷 韩国 (South Korea) 07 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -36,40 +32,6 @@
     },
     {
       "tag": "🇰🇷 韩国 (South Korea) 01 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "132.145.80.230",
-      "port": 80,
-      "uuid": "5155860e-d07d-46c3-9128-3afbd84626c7",
-      "alterId": 0,
-      "security": "auto",
-      "ws": {
-        "path": "/cctv13.m3u8",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇰🇷 韩国 (South Korea) 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "151.245.106.49",
-      "port": 2053,
-      "uuid": "a2de9567-9646-45a9-a410-7303a43bdb6c",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇰🇷 韩国 (South Korea) 03 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "151.245.106.49",
@@ -87,7 +49,7 @@
       }
     },
     {
-      "tag": "🇰🇷 韩国 (South Korea) 04 - xiaohe",
+      "tag": "🇰🇷 韩国 (South Korea) 02 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "140.238.2.250",
@@ -97,16 +59,7 @@
       "security": "auto"
     },
     {
-      "tag": "🇰🇷 韩国 (South Korea) 05 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "141.164.45.187",
-      "port": 5498,
-      "method": "aes-256-gcm",
-      "password": "lGqs95QkFHo2NV"
-    },
-    {
-      "tag": "🇰🇷 韩国 (South Korea) 06 - xiaohe",
+      "tag": "🇰🇷 韩国 (South Korea) 03 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "154.90.62.70",
@@ -119,17 +72,7 @@
       }
     },
     {
-      "tag": "🇰🇷 韩国 (South Korea) 07 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "140.238.2.250",
-      "port": 443,
-      "uuid": "41a7089a-040b-4538-8b8d-010902405bde",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇰🇷 韩国 (South Korea) 08 - xiaohe",
+      "tag": "🇰🇷 韩国 (South Korea) 04 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "141.164.45.187",
@@ -138,7 +81,7 @@
       "password": "Y6R9pAtvxxzmGC"
     },
     {
-      "tag": "🇰🇷 韩国 (South Korea) 09 - xiaohe",
+      "tag": "🇰🇷 韩国 (South Korea) 05 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "140.238.2.250",
@@ -148,7 +91,7 @@
       "security": "auto"
     },
     {
-      "tag": "🇰🇷 韩国 (South Korea) 10 - xiaohe",
+      "tag": "🇰🇷 韩国 (South Korea) 06 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "141.164.45.187",
@@ -157,7 +100,7 @@
       "password": "TEzjfAYq2IjtuoS"
     },
     {
-      "tag": "🇰🇷 韩国 (South Korea) 11 - xiaohe",
+      "tag": "🇰🇷 韩国 (South Korea) 07 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "151.245.106.49",
@@ -168,7 +111,7 @@
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "insecure": true,
-        "client_fingerprint": "firefox",
+        "client_fingerprint": "chrome",
         "reality": true,
         "public_key": "F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo",
         "short_id": ""

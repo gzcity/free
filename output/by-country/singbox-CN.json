@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇶 IQ 01 - xiaohe"
+        "🇨🇳 CN 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,23 +25,23 @@
       "tag": "block"
     },
     {
-      "tag": "🇮🇶 IQ 01 - xiaohe",
+      "tag": "🇨🇳 CN 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "190.93.244.209",
+      "server": "188.114.98.0",
       "port": 443,
-      "uuid": "903883c7-e62f-436e-a28c-e777637bb757",
+      "uuid": "fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "loaD-Bal-AC000A.sTAGiNg-Api-78c1a1.WorKErs.deV",
+        "server_name": "vpn.cintaku.qzz.io",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/vl/7yxyRoUx67K43EW4zOdKqawWj2mXHsfh?ed=2560",
+        "path": "/vlessws",
         "headers": {
-          "Host": "LOAd-bal-Ac000a.StaGInG-aPi-78C1A1.wOrkeRs.dEV"
+          "Host": "vpn.cintaku.qzz.io"
         }
       }
     }

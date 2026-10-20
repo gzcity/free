@@ -13,8 +13,7 @@
       "tag": "auto",
       "outbounds": [
         "🇨🇾 CY 01 - xiaohe",
-        "🇨🇾 CY 02 - xiaohe",
-        "🇨🇾 CY 03 - xiaohe"
+        "🇨🇾 CY 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -31,21 +30,18 @@
       "udp": true,
       "type": "vless",
       "server": "5.253.29.254",
-      "port": 10443,
+      "port": 14430,
       "uuid": "c7c27192-60a5-4ce1-b613-95270d82309d",
-      "flow": ""
+      "flow": "",
+      "ws": {
+        "path": "/vless",
+        "headers": {
+          "Host": "5.253.29.254"
+        }
+      }
     },
     {
       "tag": "🇨🇾 CY 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "5.253.29.254",
-      "port": 10443,
-      "uuid": "c7c27192-60a5-4ce1-b613-95270d82309d",
-      "flow": ""
-    },
-    {
-      "tag": "🇨🇾 CY 03 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "5.253.29.254",

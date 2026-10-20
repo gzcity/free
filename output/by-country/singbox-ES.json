@@ -1,0 +1,295 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇪🇸 西班牙 (Spain) 01 - xiaohe",
+        "🇪🇸 西班牙 (Spain) 02 - xiaohe",
+        "🇪🇸 西班牙 (Spain) 03 - xiaohe",
+        "🇪🇸 西班牙 (Spain) 04 - xiaohe",
+        "🇪🇸 西班牙 (Spain) 05 - xiaohe",
+        "🇪🇸 西班牙 (Spain) 06 - xiaohe",
+        "🇪🇸 西班牙 (Spain) 07 - xiaohe",
+        "🇪🇸 西班牙 (Spain) 08 - xiaohe",
+        "🇪🇸 西班牙 (Spain) 09 - xiaohe",
+        "🇪🇸 西班牙 (Spain) 10 - xiaohe",
+        "🇪🇸 西班牙 (Spain) 11 - xiaohe",
+        "🇪🇸 西班牙 (Spain) 12 - xiaohe",
+        "🇪🇸 西班牙 (Spain) 13 - xiaohe",
+        "🇪🇸 西班牙 (Spain) 14 - xiaohe",
+        "🇪🇸 西班牙 (Spain) 15 - xiaohe",
+        "🇪🇸 西班牙 (Spain) 16 - xiaohe"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "tag": "🇪🇸 西班牙 (Spain) 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "188.114.98.0",
+      "port": 443,
+      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "lucasjow.us.ci",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "T",
+        "headers": {
+          "Host": "lucasjow.us.ci"
+        }
+      }
+    },
+    {
+      "tag": "🇪🇸 西班牙 (Spain) 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "188.114.98.0",
+      "port": 443,
+      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "lucasjow.us.ci",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560",
+        "headers": {
+          "Host": "lucasjow.us.ci"
+        }
+      }
+    },
+    {
+      "tag": "🇪🇸 西班牙 (Spain) 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "212.227.235.66",
+      "port": 2053,
+      "uuid": "ead0dd61-d398-40ad-80d6-a0e1e516d7d3",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇪🇸 西班牙 (Spain) 04 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "202.50.253.72",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇪🇸 西班牙 (Spain) 05 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "202.50.253.45",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇪🇸 西班牙 (Spain) 06 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "202.50.253.36",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇪🇸 西班牙 (Spain) 07 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "188.114.98.0",
+      "port": 443,
+      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "lucasjow.us.ci",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---",
+        "headers": {
+          "Host": "lucasjow.us.ci"
+        }
+      }
+    },
+    {
+      "tag": "🇪🇸 西班牙 (Spain) 08 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "188.114.98.0",
+      "port": 443,
+      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "lucasjow.us.ci",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "0",
+        "headers": {
+          "Host": "lucasjow.us.ci"
+        }
+      }
+    },
+    {
+      "tag": "🇪🇸 西班牙 (Spain) 09 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "202.50.253.27",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇪🇸 西班牙 (Spain) 10 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "188.114.97.6",
+      "port": 443,
+      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "lucasjow.us.ci",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "lucasjow.us.ci"
+        }
+      }
+    },
+    {
+      "tag": "🇪🇸 西班牙 (Spain) 11 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "212.227.235.66",
+      "port": 2053,
+      "uuid": "ead0dd61-d398-40ad-80d6-a0e1e516d7d3",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "random",
+        "reality": true,
+        "public_key": "7Y6Xb5Ql_03K25x8yKUSOKI2JTOMyv2nyCcFza90uxk",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇪🇸 西班牙 (Spain) 12 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "cf.877774.xyz",
+      "port": 443,
+      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "lucasjow.us.ci",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "lucasjow.us.ci"
+        }
+      }
+    },
+    {
+      "tag": "🇪🇸 西班牙 (Spain) 13 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "cf.877774.xyz",
+      "port": 443,
+      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "lucasjow.us.ci",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/+",
+        "headers": {
+          "Host": "lucasjow.us.ci"
+        }
+      }
+    },
+    {
+      "tag": "🇪🇸 西班牙 (Spain) 14 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "85.90.217.42",
+      "port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "85.90.217.42",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇪🇸 西班牙 (Spain) 15 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "202.50.253.63",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇪🇸 西班牙 (Spain) 16 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "202.50.253.99",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    }
+  ]
+}

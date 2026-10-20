@@ -15,8 +15,7 @@
         "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
         "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
         "🇦🇺 澳大利亚 (Australia) 03 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 04 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 05 - xiaohe"
+        "🇦🇺 澳大利亚 (Australia) 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -68,21 +67,18 @@
       "tag": "🇦🇺 澳大利亚 (Australia) 03 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.18.155.229",
-      "port": 443,
-      "uuid": "42026ed0-7d74-4585-8e46-0fe6aa4d665a",
+      "server": "212.81.47.99",
+      "port": 51106,
+      "uuid": "f5f0babe-aea2-4f07-a1fc-3c9820253f49",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "www.genflix.co.id.r3xxe.eu.cc",
+        "server_name": "apple.com",
         "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/au-do",
-        "headers": {
-          "Host": "www.genflix.co.id.r3xxe.eu.cc"
-        }
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "2k8UhfxEK4WSVLWUr-uRExRiTiAsacWpe6I1xrnyt38",
+        "short_id": ""
       }
     },
     {
@@ -98,24 +94,6 @@
         "server_name": "apple.com",
         "insecure": true,
         "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "2k8UhfxEK4WSVLWUr-uRExRiTiAsacWpe6I1xrnyt38",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇦🇺 澳大利亚 (Australia) 05 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "212.81.47.99",
-      "port": 51106,
-      "uuid": "f5f0babe-aea2-4f07-a1fc-3c9820253f49",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "apple.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
         "reality": true,
         "public_key": "2k8UhfxEK4WSVLWUr-uRExRiTiAsacWpe6I1xrnyt38",
         "short_id": ""

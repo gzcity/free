@@ -28,6 +28,15 @@
     {
       "tag": "🇷🇴 RO 01 - xiaohe",
       "udp": true,
+      "type": "shadowsocks",
+      "server": "154.46.31.106",
+      "port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "QFWzCw2uX9B9i6qAYeFBIE"
+    },
+    {
+      "tag": "🇷🇴 RO 02 - xiaohe",
+      "udp": true,
       "type": "trojan",
       "server": "de1.dedushka.top",
       "port": 443,
@@ -37,15 +46,6 @@
         "server_name": "de1.dedushka.top",
         "insecure": true
       }
-    },
-    {
-      "tag": "🇷🇴 RO 02 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "154.46.31.106",
-      "port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "QFWzCw2uX9B9i6qAYeFBIE"
     }
   ]
 }
