@@ -28,20 +28,14 @@
       "tag": "🇹🇭 TH 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.16.10.185",
-      "port": 443,
+      "server": "103.86.49.57",
+      "port": 80,
       "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "v2ray.simspeedup.com",
-        "insecure": true,
-        "client_fingerprint": null
-      },
       "ws": {
         "path": "/ws",
         "headers": {
-          "Host": "v2ray.simspeedup.com"
+          "Host": "ais.speedtest.net"
         }
       }
     }
