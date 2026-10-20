@@ -12,8 +12,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇻🇳 VN 01 - xiaohe",
-        "🇻🇳 VN 02 - xiaohe"
+        "🇸🇨 SC 01 - xiaohe",
+        "🇸🇨 SC 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -26,44 +26,44 @@
       "tag": "block"
     },
     {
-      "tag": "🇻🇳 VN 01 - xiaohe",
+      "tag": "🇸🇨 SC 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "172.67.168.158",
+      "server": "154.211.8.227",
       "port": 2087,
-      "uuid": "1d0e8e53-6999-4752-ac21-c0c54ff5bc09",
+      "uuid": "40af9131-d540-448a-bc56-5bba147a1dc3",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "vn11vina.210z.dev",
+        "server_name": "proxy-34l.pages.dev",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/vlessvina",
+        "path": "/",
         "headers": {
-          "Host": "vn11vina.210z.dev"
+          "Host": "proxy-34l.pages.dev"
         }
       }
     },
     {
-      "tag": "🇻🇳 VN 02 - xiaohe",
+      "tag": "🇸🇨 SC 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "172.67.168.158",
-      "port": 2087,
-      "uuid": "1d0e8e53-6999-4752-ac21-c0c54ff5bc09",
+      "server": "154.218.15.250",
+      "port": 2083,
+      "uuid": "40af9131-d540-448a-bc56-5bba147a1dc3",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "vn11vina.210z.dev",
+        "server_name": "proxy-1cu.pages.dev",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/vlessvina",
+        "path": "/",
         "headers": {
-          "Host": "vn11vina.210z.dev"
+          "Host": "proxy-1cu.pages.dev"
         }
       }
     }

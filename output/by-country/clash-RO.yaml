@@ -5,13 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇴 RO 01 - xiaohe
-  type: ss
-  server: 154.46.31.106
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: QFWzCw2uX9B9i6qAYeFBIE
-  udp: true
-- name: 🇷🇴 RO 02 - xiaohe
   type: trojan
   server: de1.dedushka.top
   port: 443
@@ -19,6 +12,13 @@ proxies:
   udp: true
   sni: de1.dedushka.top
   skip-cert-verify: true
+- name: 🇷🇴 RO 02 - xiaohe
+  type: ss
+  server: 154.46.31.106
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: QFWzCw2uX9B9i6qAYeFBIE
+  udp: true
 proxy-groups:
 - name: PROXIES
   type: select

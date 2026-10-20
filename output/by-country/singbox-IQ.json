@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇱 IL 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,23 +25,23 @@
       "tag": "block"
     },
     {
-      "tag": "🇮🇱 IL 01 - xiaohe",
+      "tag": "🇮🇶 IQ 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "185.253.75.119",
+      "server": "190.93.244.209",
       "port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "uuid": "903883c7-e62f-436e-a28c-e777637bb757",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "ccc.010304.xyz",
+        "server_name": "loaD-Bal-AC000A.sTAGiNg-Api-78c1a1.WorKErs.deV",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/",
+        "path": "/vl/7yxyRoUx67K43EW4zOdKqawWj2mXHsfh?ed=2560",
         "headers": {
-          "Host": "ccc.010304.xyz"
+          "Host": "LOAd-bal-Ac000a.StaGInG-aPi-78C1A1.wOrkeRs.dEV"
         }
       }
     }
