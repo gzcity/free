@@ -20,18 +20,7 @@
         "🇫🇷 法国 (France) 06 - xiaohe",
         "🇫🇷 法国 (France) 07 - xiaohe",
         "🇫🇷 法国 (France) 08 - xiaohe",
-        "🇫🇷 法国 (France) 09 - xiaohe",
-        "🇫🇷 法国 (France) 10 - xiaohe",
-        "🇫🇷 法国 (France) 11 - xiaohe",
-        "🇫🇷 法国 (France) 12 - xiaohe",
-        "🇫🇷 法国 (France) 13 - xiaohe",
-        "🇫🇷 法国 (France) 14 - xiaohe",
-        "🇫🇷 法国 (France) 15 - xiaohe",
-        "🇫🇷 法国 (France) 16 - xiaohe",
-        "🇫🇷 法国 (France) 17 - xiaohe",
-        "🇫🇷 法国 (France) 18 - xiaohe",
-        "🇫🇷 法国 (France) 19 - xiaohe",
-        "🇫🇷 法国 (France) 20 - xiaohe"
+        "🇫🇷 法国 (France) 09 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -46,273 +35,38 @@
     {
       "tag": "🇫🇷 法国 (France) 01 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "141.95.65.9",
-      "port": 1234,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true
+      "type": "vless",
+      "server": "138.124.70.41",
+      "port": 14430,
+      "uuid": "6cc745e3-4eb9-46c8-a4a1-85dee7b87edc",
+      "flow": "",
+      "ws": {
+        "path": "/vless",
+        "headers": {
+          "Host": "138.124.70.41"
+        }
       }
     },
     {
       "tag": "🇫🇷 法国 (France) 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "188.114.98.0",
-      "port": 443,
-      "uuid": "2bdcf0ac-f84e-471f-98dc-a1807acab1cb",
+      "server": "54.37.136.194",
+      "port": 2053,
+      "uuid": "e8a432c8-5d84-49a5-b822-67ed761a58f9",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "redcloudport-bidarbash.sbs",
+        "server_name": "www.cloudflare.com",
         "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/zoodi",
-        "headers": {
-          "Host": "redcloudport-bidarbash.sbs"
-        }
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A",
+        "short_id": ""
       }
     },
     {
       "tag": "🇫🇷 法国 (France) 03 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "57.128.164.21",
-      "port": 80,
-      "uuid": "bda82bcd-f6e2-46ae-9552-673f0b87ac30",
-      "alterId": 0,
-      "security": "auto",
-      "ws": {
-        "path": "/d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560",
-        "headers": {
-          "Host": "https.http.www.net.com.ramseyv2.ir."
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "54.37.136.194",
-      "port": 2053,
-      "uuid": "e8a432c8-5d84-49a5-b822-67ed761a58f9",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 05 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "54.37.136.194",
-      "port": 2053,
-      "uuid": "e8a432c8-5d84-49a5-b822-67ed761a58f9",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 06 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "redrocketnode-bidarbash.sbs",
-      "port": 443,
-      "uuid": "2bdcf0ac-f84e-471f-98dc-a1807acab1cb",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "redrocketnode-bidarbash.sbs",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/zoodi",
-        "headers": {
-          "Host": "redrocketnode-bidarbash.sbs"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 07 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "162.19.204.71",
-      "port": 1234,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 08 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "162.19.204.71",
-      "port": 1234,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 09 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "54.37.136.194",
-      "port": 2053,
-      "uuid": "e8a432c8-5d84-49a5-b822-67ed761a58f9",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 10 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "51.77.217.70",
-      "port": 2053,
-      "uuid": "bf16ee0c-8b3c-41e4-ab3a-8b48033c404e",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 11 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.67.171.33",
-      "port": 443,
-      "uuid": "2bdcf0ac-f84e-471f-98dc-a1807acab1cb",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "redcloudport-bidarbash.sbs",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/zoodi",
-        "headers": {
-          "Host": "redcloudport-bidarbash.sbs"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 12 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "141.95.65.9",
-      "port": 1234,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 13 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.21.47.118",
-      "port": 443,
-      "uuid": "2bdcf0ac-f84e-471f-98dc-a1807acab1cb",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "redcloudport-bidarbash.sbs",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/zoodi",
-        "headers": {
-          "Host": "redcloudport-bidarbash.sbs"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 14 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "54.37.136.194",
-      "port": 2053,
-      "uuid": "e8a432c8-5d84-49a5-b822-67ed761a58f9",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "random",
-        "reality": true,
-        "public_key": "Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 15 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "54.37.136.194",
-      "port": 2053,
-      "uuid": "e8a432c8-5d84-49a5-b822-67ed761a58f9",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 16 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "145.239.55.210",
@@ -328,43 +82,37 @@
       }
     },
     {
-      "tag": "🇫🇷 法国 (France) 17 - xiaohe",
+      "tag": "🇫🇷 法国 (France) 04 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "51.77.217.70",
-      "port": 2053,
-      "uuid": "bf16ee0c-8b3c-41e4-ab3a-8b48033c404e",
-      "flow": "",
+      "type": "vmess",
+      "server": "162.19.204.71",
+      "port": 1234,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true,
-        "client_fingerprint": "random",
-        "reality": true,
-        "public_key": "g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w",
-        "short_id": ""
+        "server_name": "",
+        "insecure": true
       }
     },
     {
-      "tag": "🇫🇷 法国 (France) 18 - xiaohe",
+      "tag": "🇫🇷 法国 (France) 05 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "54.37.136.194",
-      "port": 2053,
-      "uuid": "e8a432c8-5d84-49a5-b822-67ed761a58f9",
-      "flow": "",
+      "type": "vmess",
+      "server": "141.95.65.9",
+      "port": 1234,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A",
-        "short_id": ""
+        "server_name": "",
+        "insecure": true
       }
     },
     {
-      "tag": "🇫🇷 法国 (France) 19 - xiaohe",
+      "tag": "🇫🇷 法国 (France) 06 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "54.37.131.126",
@@ -380,18 +128,52 @@
       }
     },
     {
-      "tag": "🇫🇷 法国 (France) 20 - xiaohe",
+      "tag": "🇫🇷 法国 (France) 07 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "141.95.65.9",
+      "port": 1234,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 08 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "57.128.164.21",
+      "port": 80,
+      "uuid": "bda82bcd-f6e2-46ae-9552-673f0b87ac30",
+      "alterId": 0,
+      "security": "auto",
+      "ws": {
+        "path": "/d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560",
+        "headers": {
+          "Host": "https.http.www.net.com.ramseyv2.ir."
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 09 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "138.124.70.41",
-      "port": 14430,
-      "uuid": "6cc745e3-4eb9-46c8-a4a1-85dee7b87edc",
+      "server": "51.77.217.70",
+      "port": 2053,
+      "uuid": "bf16ee0c-8b3c-41e4-ab3a-8b48033c404e",
       "flow": "",
-      "ws": {
-        "path": "/vless",
-        "headers": {
-          "Host": "138.124.70.41"
-        }
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w",
+        "short_id": ""
       }
     }
   ]

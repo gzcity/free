@@ -12,8 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 CZ 01 - xiaohe",
-        "🇨🇿 CZ 02 - xiaohe"
+        "🇨🇿 CZ 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -27,27 +26,6 @@
     },
     {
       "tag": "🇨🇿 CZ 01 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "153.76.190.31",
-      "port": 2083,
-      "uuid": "d65fb384-5029-4edf-bdc7-0f5960600e3d",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "speedtestmark.com",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/vless-ws",
-        "headers": {
-          "Host": "153.76.190.31"
-        }
-      }
-    },
-    {
-      "tag": "🇨🇿 CZ 02 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "67.159.18.34",

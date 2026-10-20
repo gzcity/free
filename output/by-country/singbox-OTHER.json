@@ -49,9 +49,7 @@
         "🌐 其他地区 (Other) 35 - xiaohe",
         "🌐 其他地区 (Other) 36 - xiaohe",
         "🌐 其他地区 (Other) 37 - xiaohe",
-        "🌐 其他地区 (Other) 38 - xiaohe",
-        "🌐 其他地区 (Other) 39 - xiaohe",
-        "🌐 其他地区 (Other) 40 - xiaohe"
+        "🌐 其他地区 (Other) 38 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -67,28 +65,7 @@
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "188.114.97.6",
-      "port": 443,
-      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "lucasjow.us.ci",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/cart/docs/www/proxyip=108.160.132.132?ed#",
-        "headers": {
-          "Host": "lucasjow.us.ci"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.16.10.234",
+      "server": "104.16.10.9",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -106,10 +83,10 @@
       }
     },
     {
-      "tag": "🌐 其他地区 (Other) 03 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.21.91.244",
+      "server": "188.114.97.6",
       "port": 443,
       "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
       "flow": "",
@@ -120,161 +97,35 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET",
+        "path": "/cart/docs/www/proxyip=108.160.132.132?ed#Telegram---@MTMVPN",
         "headers": {
           "Host": "lucasjow.us.ci"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.16.111.202",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
         }
       }
     },
     {
       "tag": "🌐 其他地区 (Other) 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.21.91.244",
-      "port": 443,
-      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "lucasjow.us.ci",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/cart/docs/www/proxyip=108.160.132.132?ed#Telegram---Chanel0111Net",
-        "headers": {
-          "Host": "lucasjow.us.ci"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 05 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "188.114.97.6",
-      "port": 443,
-      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "lucasjow.us.ci",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/cart/docs/www/proxyip=108.160.132.132?ed#Telegram---bored_vpn",
-        "headers": {
-          "Host": "lucasjow.us.ci"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 06 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "188.114.97.6",
-      "port": 443,
-      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "lucasjow.us.ci",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/cart/docs/www/proxyip=108.160.132.132",
-        "headers": {
-          "Host": "lucasjow.us.ci"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 07 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "b2n.ir",
-      "port": 443,
-      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "lucasjow.us.ci",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/cart/docs/www/proxyip=108.160.132.132?ed#",
-        "headers": {
-          "Host": "lucasjow.us.ci"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 08 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.64.158.170",
-      "port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 09 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.18.41.190",
-      "port": 443,
-      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "lucasjow.us.ci",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/cart/docs/www/proxyip=108.160.132.132",
-        "headers": {
-          "Host": "lucasjow.us.ci"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 10 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "188.114.97.6",
-      "port": 443,
-      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "lucasjow.us.ci",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/cart/docs/www/proxyip=108.160.132.132",
-        "headers": {
-          "Host": "lucasjow.us.ci"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 11 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "188.114.97.6",
@@ -295,7 +146,28 @@
       }
     },
     {
-      "tag": "🌐 其他地区 (Other) 12 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.19.33.237",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 06 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "188.114.97.6",
@@ -316,43 +188,7 @@
       }
     },
     {
-      "tag": "🌐 其他地区 (Other) 13 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.21.93.182",
-      "port": 443,
-      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "lucasjow.us.ci",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/cart/docs/www/proxyip=108.160.132.132?ed#Telegram---MTMVPN---MTMVPN---MTMVPN---MTMVPN",
-        "headers": {
-          "Host": "lucasjow.us.ci"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 14 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "199.232.78.159",
-      "port": 80,
-      "uuid": "927c80e3-d08c-4cd9-8ad5-dd5e026e0f0f",
-      "flow": "",
-      "ws": {
-        "path": "ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048",
-        "headers": {
-          "Host": "rb24.ir"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 15 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 07 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "104.21.91.244",
@@ -373,31 +209,10 @@
       }
     },
     {
-      "tag": "🌐 其他地区 (Other) 16 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 08 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "172.64.146.66",
-      "port": 443,
-      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "lucasjow.us.ci",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/cart/docs/www/proxyip=108.160.132.132",
-        "headers": {
-          "Host": "lucasjow.us.ci"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 17 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "b2n.ir",
+      "server": "104.21.93.182",
       "port": 443,
       "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
       "flow": "",
@@ -415,28 +230,169 @@
       }
     },
     {
-      "tag": "🌐 其他地区 (Other) 18 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 09 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.21.70.21",
+      "server": "104.21.91.244",
       "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "jp3.yohototo.top",
+        "server_name": "lucasjow.us.ci",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/tyxyws",
+        "path": "/cart/docs/www/proxyip=108.160.132.132?ed#Telegram---Chanel0111Net",
         "headers": {
-          "Host": "jp3.yohototo.top"
+          "Host": "lucasjow.us.ci"
         }
       }
     },
     {
-      "tag": "🌐 其他地区 (Other) 19 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 10 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "188.114.97.6",
+      "port": 443,
+      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "lucasjow.us.ci",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/cart/docs/www/proxyip=108.160.132.132?ed#Telegram---bored_vpn",
+        "headers": {
+          "Host": "lucasjow.us.ci"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 11 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "188.114.97.6",
+      "port": 443,
+      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "lucasjow.us.ci",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/cart/docs/www/proxyip=108.160.132.132",
+        "headers": {
+          "Host": "lucasjow.us.ci"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 12 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.64.150.43",
+      "port": 8080,
+      "uuid": "e5cc16a6-ea42-46b2-82ae-ad2157e1641b",
+      "flow": "",
+      "ws": {
+        "path": "/sg-melbi",
+        "headers": {
+          "Host": "hhlfy.twiladaphne.ndjp.net"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 13 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.64.158.170",
+      "port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 14 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.21.91.244",
+      "port": 443,
+      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "lucasjow.us.ci",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET",
+        "headers": {
+          "Host": "lucasjow.us.ci"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 15 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.21.91.244",
+      "port": 443,
+      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "lucasjow.us.ci",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/cart/docs/www/proxyip=108.160.132.132?ed#Telegram---@MTMVPN---@MTMVPN---@MTMVPN---@MTMVPN",
+        "headers": {
+          "Host": "lucasjow.us.ci"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 16 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "188.114.97.6",
+      "port": 443,
+      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "lucasjow.us.ci",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/cart/docs/www/proxyip=108.160.132.132?ed#",
+        "headers": {
+          "Host": "lucasjow.us.ci"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 17 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "104.18.40.100",
@@ -457,7 +413,7 @@
       }
     },
     {
-      "tag": "🌐 其他地区 (Other) 20 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 18 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "188.114.97.6",
@@ -478,25 +434,10 @@
       }
     },
     {
-      "tag": "🌐 其他地区 (Other) 21 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 19 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "199.232.78.159",
-      "port": 80,
-      "uuid": "927c80e3-d08c-4cd9-8ad5-dd5e026e0f0f",
-      "flow": "",
-      "ws": {
-        "path": "ws/?ed=2048/@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN@GHOFLSHCAN/?2048",
-        "headers": {
-          "Host": "rb24.ir"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 22 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.18.41.190",
+      "server": "104.21.93.182",
       "port": 443,
       "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
       "flow": "",
@@ -507,17 +448,38 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "%2Fcart%2Fdocs%2Fwww%2Fproxyip%3D108.160.132.132",
+        "path": "/cart/docs/www/proxyip=108.160.132.132?ed#Telegram---MTMVPN---MTMVPN---MTMVPN---MTMVPN",
         "headers": {
           "Host": "lucasjow.us.ci"
         }
       }
     },
     {
-      "tag": "🌐 其他地区 (Other) 23 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 20 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "b2n.ir",
+      "server": "188.114.97.6",
+      "port": 443,
+      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "lucasjow.us.ci",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/cart/docs/www/proxyip=108.160.132.132",
+        "headers": {
+          "Host": "lucasjow.us.ci"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 21 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "188.114.97.6",
       "port": 443,
       "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
       "flow": "",
@@ -535,25 +497,46 @@
       }
     },
     {
-      "tag": "🌐 其他地区 (Other) 24 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 22 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "172.64.150.43",
-      "port": 8080,
+      "server": "104.18.35.86",
+      "port": 2082,
       "uuid": "e5cc16a6-ea42-46b2-82ae-ad2157e1641b",
       "flow": "",
       "ws": {
-        "path": "/sg-melbi",
+        "path": "/fp",
         "headers": {
           "Host": "hhlfy.twiladaphne.ndjp.net"
         }
       }
     },
     {
-      "tag": "🌐 其他地区 (Other) 25 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 23 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.18.41.190",
+      "server": "172.64.153.153",
+      "port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 24 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.67.172.155",
       "port": 443,
       "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
       "flow": "",
@@ -564,7 +547,28 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "%2Fcart%2Fdocs%2Fwww%2Fproxyip%3D108.160.132.132",
+        "path": "/cart/docs/www/proxyip=108.160.132.132",
+        "headers": {
+          "Host": "lucasjow.us.ci"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 25 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "b2n.ir",
+      "port": 443,
+      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "lucasjow.us.ci",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/cart/docs/www/proxyip=108.160.132.132?ed#",
         "headers": {
           "Host": "lucasjow.us.ci"
         }
@@ -574,7 +578,7 @@
       "tag": "🌐 其他地区 (Other) 26 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "188.114.97.6",
+      "server": "104.19.33.237",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -616,48 +620,6 @@
       "tag": "🌐 其他地区 (Other) 28 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "b2n.ir",
-      "port": 443,
-      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "lucasjow.us.ci",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/cart/docs/www/proxyip=108.160.132.132?ed#TELEGRAM---@MTMVPN---@MTMVPN---@MTMVPN---@MTMVPN",
-        "headers": {
-          "Host": "lucasjow.us.ci"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 29 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "162.159.250.29",
-      "port": 443,
-      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "lucasjow.us.ci",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/cart/docs/www/proxyip=108.160.132.132?ed#Telegram---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP",
-        "headers": {
-          "Host": "lucasjow.us.ci"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 30 - xiaohe",
-      "udp": true,
-      "type": "vless",
       "server": "104.18.47.73",
       "port": 443,
       "uuid": "d342d11e-d224-4463-b982-532309285094",
@@ -676,10 +638,31 @@
       }
     },
     {
-      "tag": "🌐 其他地区 (Other) 31 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 29 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.18.0.181",
+      "server": "104.16.10.56",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 30 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.18.35.86",
       "port": 2082,
       "uuid": "e5cc16a6-ea42-46b2-82ae-ad2157e1641b",
       "flow": "",
@@ -691,31 +674,10 @@
       }
     },
     {
-      "tag": "🌐 其他地区 (Other) 32 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 31 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.21.93.182",
-      "port": 443,
-      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "lucasjow.us.ci",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/cart/docs/www/proxyip=108.160.132.132?ed#TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI",
-        "headers": {
-          "Host": "lucasjow.us.ci"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 33 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "188.114.97.6",
+      "server": "b2n.ir",
       "port": 443,
       "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
       "flow": "",
@@ -733,7 +695,22 @@
       }
     },
     {
-      "tag": "🌐 其他地区 (Other) 34 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 32 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.64.150.28",
+      "port": 2082,
+      "uuid": "e5cc16a6-ea42-46b2-82ae-ad2157e1641b",
+      "flow": "",
+      "ws": {
+        "path": "/fp",
+        "headers": {
+          "Host": "hhlfy.twiladaphne.ndjp.net"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 33 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "172.67.155.65",
@@ -754,49 +731,7 @@
       }
     },
     {
-      "tag": "🌐 其他地区 (Other) 35 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "188.114.97.6",
-      "port": 443,
-      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "lucasjow.us.ci",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/cart/docs/www/proxyip=108.160.132.132?ed#Telegram---@MTMVPN",
-        "headers": {
-          "Host": "lucasjow.us.ci"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 36 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.67.172.155",
-      "port": 443,
-      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "lucasjow.us.ci",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/cart/docs/www/proxyip=108.160.132.132",
-        "headers": {
-          "Host": "lucasjow.us.ci"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 37 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 34 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "b2n.ir",
@@ -811,6 +746,63 @@
       },
       "ws": {
         "path": "/cart/docs/www/proxyip=108.160.132.132?ed#Telegram---EVAY_VPN---EVAY_VPN---EVAY_VPN---EVAY_VPN",
+        "headers": {
+          "Host": "lucasjow.us.ci"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 35 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.18.0.181",
+      "port": 2082,
+      "uuid": "e5cc16a6-ea42-46b2-82ae-ad2157e1641b",
+      "flow": "",
+      "ws": {
+        "path": "/fp",
+        "headers": {
+          "Host": "hhlfy.twiladaphne.ndjp.net"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 36 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.18.41.190",
+      "port": 443,
+      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "lucasjow.us.ci",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "%2Fcart%2Fdocs%2Fwww%2Fproxyip%3D108.160.132.132",
+        "headers": {
+          "Host": "lucasjow.us.ci"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 37 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.18.41.190",
+      "port": 443,
+      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "lucasjow.us.ci",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "%2Fcart%2Fdocs%2Fwww%2Fproxyip%3D108.160.132.132",
         "headers": {
           "Host": "lucasjow.us.ci"
         }
@@ -834,48 +826,6 @@
         "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed",
         "headers": {
           "Host": "ccc.010304.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 39 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.64.153.153",
-      "port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 40 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.16.111.102",
-      "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
         }
       }
     }
