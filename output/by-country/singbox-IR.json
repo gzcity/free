@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇮🇷 IR 01 - xiaohe",
+        "🇮🇷 IR 02 - xiaohe"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "tag": "🇮🇷 IR 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "tun2.w-ert.org",
+      "port": 42924,
+      "uuid": "3e16033f-71d8-417b-abea-7756253f3c3d",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.aparat.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "woId47r1U8pEuDwHoC026bJHVWha2RHjufq1Kw3QoRU",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇮🇷 IR 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "a652768e4c2240fc.tunvi.w-ert.org",
+      "port": 448,
+      "uuid": "b2dacbda-8221-4548-a104-aa8aa56ab282",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.aparat.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "woId47r1U8pEuDwHoC026bJHVWha2RHjufq1Kw3QoRU",
+        "short_id": ""
+      }
+    }
+  ]
+}

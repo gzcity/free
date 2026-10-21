@@ -12,9 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇫🇮 FI 01 - xiaohe",
-        "🇫🇮 FI 02 - xiaohe",
-        "🇫🇮 FI 03 - xiaohe"
+        "🇫🇮 FI 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -28,48 +26,6 @@
     },
     {
       "tag": "🇫🇮 FI 01 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "144.31.34.146",
-      "port": 2096,
-      "uuid": "6e05822a-e9da-4135-a9db-71aa07a944af",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "fi1.merky.one",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/mky-ws-4f19c8a7",
-        "headers": {
-          "Host": "fi1.merky.one"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "188.114.98.0",
-      "port": 443,
-      "uuid": "6e05822a-e9da-4135-a9db-71aa07a944af",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "fi1.merky.one",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/mky-ws-4f19c8a7",
-        "headers": {
-          "Host": "fi1.merky.one"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI 03 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "144.31.34.146",

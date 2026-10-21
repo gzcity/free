@@ -12,9 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇳 CN 01 - xiaohe",
-        "🇨🇳 CN 02 - xiaohe",
-        "🇨🇳 CN 03 - xiaohe"
+        "🇨🇳 CN 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -30,49 +28,7 @@
       "tag": "🇨🇳 CN 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "188.114.98.0",
-      "port": 443,
-      "uuid": "fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn.cintaku.qzz.io",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/vlessws",
-        "headers": {
-          "Host": "vpn.cintaku.qzz.io"
-        }
-      }
-    },
-    {
-      "tag": "🇨🇳 CN 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
       "server": "vpn.cintaku.qzz.io",
-      "port": 443,
-      "uuid": "fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn.cintaku.qzz.io",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/vlessws",
-        "headers": {
-          "Host": "vpn.cintaku.qzz.io"
-        }
-      }
-    },
-    {
-      "tag": "🇨🇳 CN 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "188.114.98.0",
       "port": 443,
       "uuid": "fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349",
       "flow": "",
