@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 CZ 01 - xiaohe"
+        "🇺🇸 美国 (United States) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,24 +25,16 @@
       "tag": "block"
     },
     {
-      "tag": "🇨🇿 CZ 01 - xiaohe",
+      "tag": "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "162.159.153.4",
+      "type": "trojan",
+      "server": "176.122.162.190",
       "port": 443,
-      "uuid": "f2a73750-3087-48ff-a763-1348c15dce68",
-      "flow": "",
+      "password": "35fd040b3a765ffff6dda3029eb36eee",
       "tls": {
         "enabled": true,
-        "server_name": "rayan-007.maxima.dpdns.org",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "rayan-007.maxima.dpdns.org"
-        }
+        "server_name": "www.microsoft.com",
+        "insecure": true
       }
     }
   ]

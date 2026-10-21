@@ -13,7 +13,8 @@
       "tag": "auto",
       "outbounds": [
         "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe"
+        "🇺🇸 美国 (United States) 02 (家宽) - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -47,7 +48,20 @@
       }
     },
     {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe",
+      "tag": "🇺🇸 美国 (United States) 02 (家宽) - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "176.122.162.190",
+      "port": 443,
+      "password": "35fd040b3a765ffff6dda3029eb36eee",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.microsoft.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "103.180.20.108",

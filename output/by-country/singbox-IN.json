@@ -23,7 +23,10 @@
         "🇮🇳 印度 (India) 09 - xiaohe",
         "🇮🇳 印度 (India) 10 - xiaohe",
         "🇮🇳 印度 (India) 11 - xiaohe",
-        "🇮🇳 印度 (India) 12 - xiaohe"
+        "🇮🇳 印度 (India) 12 - xiaohe",
+        "🇮🇳 印度 (India) 13 - xiaohe",
+        "🇮🇳 印度 (India) 14 - xiaohe",
+        "🇮🇳 印度 (India) 15 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -38,6 +41,24 @@
     {
       "tag": "🇮🇳 印度 (India) 01 - xiaohe",
       "udp": true,
+      "type": "vless",
+      "server": "194.61.31.126",
+      "port": 2053,
+      "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "random",
+        "reality": true,
+        "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇮🇳 印度 (India) 02 - xiaohe",
+      "udp": true,
       "type": "vmess",
       "server": "152.67.8.205",
       "port": 80,
@@ -45,24 +66,9 @@
       "alterId": 0,
       "security": "auto",
       "ws": {
-        "path": "",
+        "path": "/",
         "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇮🇳 印度 (India) 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "13.140.56.100",
-      "port": 14430,
-      "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
-      "flow": "",
-      "ws": {
-        "path": "/vless",
-        "headers": {
-          "Host": "13.140.56.100"
+          "Host": "in-152.67.8.205-0250"
         }
       }
     },
@@ -70,29 +76,33 @@
       "tag": "🇮🇳 印度 (India) 03 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "13.140.56.100",
-      "port": 14430,
-      "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
+      "server": "194.61.31.126",
+      "port": 2053,
+      "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
       "flow": "",
-      "ws": {
-        "path": "/vless",
-        "headers": {
-          "Host": "13.140.56.100"
-        }
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
+        "short_id": ""
       }
     },
     {
       "tag": "🇮🇳 印度 (India) 04 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "13.140.56.100",
-      "port": 14430,
-      "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
-      "flow": "",
+      "type": "vmess",
+      "server": "152.67.8.205",
+      "port": 80,
+      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
+      "alterId": 0,
+      "security": "auto",
       "ws": {
-        "path": "/vless",
+        "path": "/",
         "headers": {
-          "Host": "13.140.56.100"
+          "Host": "in-152.67.8.205-0184"
         }
       }
     },
@@ -115,18 +125,15 @@
       "tag": "🇮🇳 印度 (India) 06 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "194.61.31.126",
-      "port": 2053,
-      "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
+      "server": "13.140.56.100",
+      "port": 14430,
+      "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
-        "short_id": ""
+      "ws": {
+        "path": "/vless",
+        "headers": {
+          "Host": "13.140.56.100"
+        }
       }
     },
     {
@@ -141,26 +148,24 @@
       "ws": {
         "path": "",
         "headers": {
-          "Host": "in-152.67.8.205-0202"
+          "Host": ""
         }
       }
     },
     {
       "tag": "🇮🇳 印度 (India) 08 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "194.61.31.126",
-      "port": 2053,
-      "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
-        "short_id": ""
+      "type": "vmess",
+      "server": "152.67.8.205",
+      "port": 80,
+      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
+      "alterId": 0,
+      "security": "auto",
+      "ws": {
+        "path": "",
+        "headers": {
+          "Host": "in-152.67.8.205-0204"
+        }
       }
     },
     {
@@ -175,7 +180,7 @@
       "ws": {
         "path": "/",
         "headers": {
-          "Host": ""
+          "Host": "in-152.67.8.205-0204"
         }
       }
     },
@@ -197,6 +202,70 @@
     {
       "tag": "🇮🇳 印度 (India) 11 - xiaohe",
       "udp": true,
+      "type": "vless",
+      "server": "194.61.31.126",
+      "port": 2053,
+      "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇮🇳 印度 (India) 12 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "13.140.56.100",
+      "port": 14430,
+      "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
+      "flow": "",
+      "ws": {
+        "path": "/vless",
+        "headers": {
+          "Host": "13.140.56.100"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇳 印度 (India) 13 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "13.140.56.100",
+      "port": 14430,
+      "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
+      "flow": "",
+      "ws": {
+        "path": "/vless",
+        "headers": {
+          "Host": "13.140.56.100"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇳 印度 (India) 14 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "152.67.8.205",
+      "port": 80,
+      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
+      "alterId": 0,
+      "security": "auto",
+      "ws": {
+        "path": "",
+        "headers": {
+          "Host": "in-152.67.8.205-0202"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇳 印度 (India) 15 - xiaohe",
+      "udp": true,
       "type": "vmess",
       "server": "152.67.8.205",
       "port": 80,
@@ -208,24 +277,6 @@
         "headers": {
           "Host": ""
         }
-      }
-    },
-    {
-      "tag": "🇮🇳 印度 (India) 12 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "194.61.31.126",
-      "port": 2053,
-      "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true,
-        "client_fingerprint": "random",
-        "reality": true,
-        "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
-        "short_id": ""
       }
     }
   ]

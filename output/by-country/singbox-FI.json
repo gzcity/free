@@ -30,8 +30,8 @@
       "tag": "🇫🇮 FI 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "188.114.98.0",
-      "port": 443,
+      "server": "144.31.34.146",
+      "port": 2096,
       "uuid": "6e05822a-e9da-4135-a9db-71aa07a944af",
       "flow": "",
       "tls": {
@@ -51,8 +51,8 @@
       "tag": "🇫🇮 FI 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "144.31.34.146",
-      "port": 2096,
+      "server": "188.114.98.0",
+      "port": 443,
       "uuid": "6e05822a-e9da-4135-a9db-71aa07a944af",
       "flow": "",
       "tls": {
