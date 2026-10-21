@@ -60,7 +60,12 @@
         "🇩🇪 德国 (Germany) 46 - xiaohe",
         "🇩🇪 德国 (Germany) 47 - xiaohe",
         "🇩🇪 德国 (Germany) 48 - xiaohe",
-        "🇩🇪 德国 (Germany) 49 - xiaohe"
+        "🇩🇪 德国 (Germany) 49 - xiaohe",
+        "🇩🇪 德国 (Germany) 50 - xiaohe",
+        "🇩🇪 德国 (Germany) 51 - xiaohe",
+        "🇩🇪 德国 (Germany) 52 - xiaohe",
+        "🇩🇪 德国 (Germany) 53 - xiaohe",
+        "🇩🇪 德国 (Germany) 54 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -75,91 +80,75 @@
     {
       "tag": "🇩🇪 德国 (Germany) 01 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "45.131.153.149",
-      "port": 443,
-      "uuid": "f38e591d-d13a-4c30-9763-6be3ad65f3ec",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "de.zhou-yufan.com",
-        "insecure": true
-      }
+      "type": "shadowsocks",
+      "server": "185.176.204.18",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "tag": "🇩🇪 德国 (Germany) 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "144.31.34.146",
-      "port": 2096,
-      "uuid": "6e05822a-e9da-4135-a9db-71aa07a944af",
+      "server": "91.107.247.173",
+      "port": 2083,
+      "uuid": "7858128a-6b5e-4f86-9bff-52c1f1e6439d",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "fi1.merky.one",
+        "server_name": "sino.bestsellers1.site",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/mky-ws-4f19c8a7",
+        "path": "/",
         "headers": {
-          "Host": "fi1.merky.one"
+          "Host": "sino.bestsellers1.site"
         }
       }
     },
     {
       "tag": "🇩🇪 德国 (Germany) 03 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "188.241.241.117",
+      "type": "vless",
+      "server": "903.rtgpu.com",
       "port": 443,
-      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+      "uuid": "c6438331-a79b-4471-fd5e-42c2eeac29fa",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "de8.dedushka.top",
-        "insecure": true
+        "server_name": "903.rtgpu.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/nmd2",
+        "headers": {
+          "Host": "903.rtgpu.com"
+        }
       }
     },
     {
       "tag": "🇩🇪 德国 (Germany) 04 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "31.77.126.2",
-      "port": 443,
-      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "lucasjow.us.ci",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560",
-        "headers": {
-          "Host": "lucasjow.us.ci"
-        }
-      }
+      "type": "shadowsocks",
+      "server": "213.202.208.199",
+      "port": 7001,
+      "method": "aes-256-gcm",
+      "password": "RexnBgU7EV5ADxG"
     },
     {
       "tag": "🇩🇪 德国 (Germany) 05 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "mix2.998998.best",
-      "port": 443,
-      "uuid": "5504eaa8-1395-402f-8e0e-75ecd762e627",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "server10.9966338.xyz",
-        "insecure": true
-      },
+      "type": "vless",
+      "server": "57.129.41.216",
+      "port": 80,
+      "uuid": "7d74eae4-8a06-4306-a923-ad686f30bf26",
+      "flow": "",
       "ws": {
-        "path": "/rthiugoyretdsuigg",
+        "path": "/vless/",
         "headers": {
-          "Host": "server10.9966338.xyz"
+          "Host": "OV-Germany1.09vpn.com"
         }
       }
     },
@@ -167,12 +156,12 @@
       "tag": "🇩🇪 德国 (Germany) 06 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "188.241.241.235",
+      "server": "de5.dedushka.top",
       "port": 443,
       "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
       "tls": {
         "enabled": true,
-        "server_name": "de9.dedushka.top",
+        "server_name": "de5.dedushka.top",
         "insecure": true
       }
     },
@@ -180,7 +169,7 @@
       "tag": "🇩🇪 德国 (Germany) 07 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "de2.dedushka.top",
+      "server": "188.241.241.122",
       "port": 443,
       "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
       "tls": {
@@ -205,6 +194,40 @@
     {
       "tag": "🇩🇪 德国 (Germany) 09 - xiaohe",
       "udp": true,
+      "type": "vless",
+      "server": "hoert1rert.localip.ir",
+      "port": 2087,
+      "uuid": "a5db5ab5-8d28-49c0-ad55-0ad4724e4c0d",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "hoert1rert.localip.ir",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/hokm",
+        "headers": {
+          "Host": "hoert1rert.localip.ir"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 10 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "188.241.241.200",
+      "port": 443,
+      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+      "tls": {
+        "enabled": true,
+        "server_name": "de7.dedushka.top",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 11 - xiaohe",
+      "udp": true,
       "type": "trojan",
       "server": "188.241.241.122",
       "port": 443,
@@ -216,96 +239,7 @@
       }
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 10 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "46.225.46.136",
-      "port": 2087,
-      "uuid": "a5db5ab5-8d28-49c0-ad55-0ad4724e4c0d",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "hoert1rert.localip.ir",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/hokm",
-        "headers": {
-          "Host": "hoert1rert.localip.ir"
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 11 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "188.241.241.236",
-      "port": 443,
-      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
-      "tls": {
-        "enabled": true,
-        "server_name": "de10.dedushka.top",
-        "insecure": true
-      }
-    },
-    {
       "tag": "🇩🇪 德国 (Germany) 12 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "188.241.241.236",
-      "port": 443,
-      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
-      "tls": {
-        "enabled": true,
-        "server_name": "de10.dedushka.top",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 13 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.67.133.118",
-      "port": 2053,
-      "uuid": "26769ac3-b34c-430a-87f8-e1de14619d25",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "uwu.blueknightnet.qzz.io",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net",
-        "headers": {
-          "Host": "uwu.blueknightnet.qzz.io"
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 14 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "46.225.46.136",
-      "port": 2087,
-      "uuid": "a5db5ab5-8d28-49c0-ad55-0ad4724e4c0d",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "hoert1rert.localip.ir",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/hokm",
-        "headers": {
-          "Host": "hoert1rert.localip.ir"
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 15 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "31.77.126.2",
@@ -326,7 +260,20 @@
       }
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 16 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 13 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "de3.dedushka.top",
+      "port": 443,
+      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+      "tls": {
+        "enabled": true,
+        "server_name": "de3.dedushka.top",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 14 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "172.67.181.232",
@@ -347,240 +294,80 @@
       }
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 17 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 15 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "91.107.188.129",
-      "port": 2083,
-      "uuid": "36592d47-b9f5-4e8f-949e-45ac05472aab",
+      "server": "172.67.133.118",
+      "port": 2053,
+      "uuid": "26769ac3-b34c-430a-87f8-e1de14619d25",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "site.check-looks.space",
+        "server_name": "uwu.blueknightnet.qzz.io",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/",
+        "path": "/@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net",
         "headers": {
-          "Host": "91.107.188.129"
+          "Host": "uwu.blueknightnet.qzz.io"
         }
+      }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 16 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "188.241.241.235",
+      "port": 443,
+      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+      "tls": {
+        "enabled": true,
+        "server_name": "de9.dedushka.top",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 17 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "188.241.241.235",
+      "port": 443,
+      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+      "tls": {
+        "enabled": true,
+        "server_name": "de9.dedushka.top",
+        "insecure": true
       }
     },
     {
       "tag": "🇩🇪 德国 (Germany) 18 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "188.241.241.122",
+      "server": "de6.dedushka.top",
       "port": 443,
       "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
       "tls": {
         "enabled": true,
-        "server_name": "de2.dedushka.top",
+        "server_name": "de6.dedushka.top",
         "insecure": true
       }
     },
     {
       "tag": "🇩🇪 德国 (Germany) 19 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "57.129.41.216",
-      "port": 80,
-      "uuid": "7d74eae4-8a06-4306-a923-ad686f30bf26",
-      "flow": "",
-      "ws": {
-        "path": "/vless/",
-        "headers": {
-          "Host": "OV-Germany1.09vpn.com"
-        }
+      "type": "trojan",
+      "server": "de6.dedushka.top",
+      "port": 443,
+      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+      "tls": {
+        "enabled": true,
+        "server_name": "de6.dedushka.top",
+        "insecure": true
       }
     },
     {
       "tag": "🇩🇪 德国 (Germany) 20 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "185.226.172.8",
-      "port": 8008,
-      "method": "aes-256-gcm",
-      "password": "XKFKl2rULjIp74"
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 21 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "de2.dedushka.top",
-      "port": 443,
-      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
-      "tls": {
-        "enabled": true,
-        "server_name": "de2.dedushka.top",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 22 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "188.241.241.200",
-      "port": 443,
-      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
-      "tls": {
-        "enabled": true,
-        "server_name": "de7.dedushka.top",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 23 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "de7.dedushka.top",
-      "port": 443,
-      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
-      "tls": {
-        "enabled": true,
-        "server_name": "de7.dedushka.top",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 24 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "de7.dedushka.top",
-      "port": 443,
-      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
-      "tls": {
-        "enabled": true,
-        "server_name": "de7.dedushka.top",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 25 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "188.241.241.236",
-      "port": 443,
-      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
-      "tls": {
-        "enabled": true,
-        "server_name": "de10.dedushka.top",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 26 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "91.107.247.173",
-      "port": 2083,
-      "uuid": "7858128a-6b5e-4f86-9bff-52c1f1e6439d",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "sino.bestsellers1.site",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "91.107.247.173"
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 27 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "146.75.59.186",
-      "port": 443,
-      "uuid": "dc7d45c9-c942-41e3-b880-9a7fd5b64e2f",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "firefox.com",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET",
-        "headers": {
-          "Host": "copy_az_channel_NUFiLTER_a1i.global.ssl.fastly.net."
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 28 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "188.241.241.122",
-      "port": 443,
-      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
-      "tls": {
-        "enabled": true,
-        "server_name": "de2.dedushka.top",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 29 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "91.107.247.173",
-      "port": 2083,
-      "uuid": "7858128a-6b5e-4f86-9bff-52c1f1e6439d",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "sino.bestsellers1.site",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "sino.bestsellers1.site"
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 30 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "188.241.241.122",
-      "port": 443,
-      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
-      "tls": {
-        "enabled": true,
-        "server_name": "de2.dedushka.top",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 31 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "46.225.46.136",
-      "port": 2087,
-      "uuid": "a5db5ab5-8d28-49c0-ad55-0ad4724e4c0d",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "hoert1rert.localip.ir",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/hokm",
-        "headers": {
-          "Host": "hoert1rert.localip.ir"
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 32 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "188.241.241.102",
@@ -593,7 +380,88 @@
       }
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 33 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 21 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.67.204.153",
+      "port": 2053,
+      "uuid": "aa5d861a-7799-41a7-bdf4-7a6414cf98fd",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "uwu.blueknightnet.qzz.io",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net",
+        "headers": {
+          "Host": "uwu.blueknightnet.qzz.io"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 22 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "94.143.231.146",
+      "port": 443,
+      "uuid": "6e05822a-e9da-4135-a9db-71aa07a944af",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "sub.merky.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/merky-connect/de6/",
+        "headers": {
+          "Host": "sub.merky.top"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 23 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "de2.dedushka.top",
+      "port": 443,
+      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+      "tls": {
+        "enabled": true,
+        "server_name": "de2.dedushka.top",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 24 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "188.241.241.122",
+      "port": 443,
+      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+      "tls": {
+        "enabled": true,
+        "server_name": "de2.dedushka.top",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 25 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "188.241.241.49",
+      "port": 443,
+      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+      "tls": {
+        "enabled": true,
+        "server_name": "de6.dedushka.top",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 26 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "104.21.93.52",
@@ -614,33 +482,150 @@
       }
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 34 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 27 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "de3.dedushka.top",
+      "server": "de6.dedushka.top",
       "port": 443,
       "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
       "tls": {
         "enabled": true,
-        "server_name": "de3.dedushka.top",
+        "server_name": "de6.dedushka.top",
         "insecure": true
       }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 28 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "188.241.241.122",
+      "port": 443,
+      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+      "tls": {
+        "enabled": true,
+        "server_name": "de2.dedushka.top",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 29 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "188.241.241.117",
+      "port": 443,
+      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+      "tls": {
+        "enabled": true,
+        "server_name": "de8.dedushka.top",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 30 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "188.241.241.117",
+      "port": 443,
+      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+      "tls": {
+        "enabled": true,
+        "server_name": "de8.dedushka.top",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 31 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "de5.dedushka.top",
+      "port": 443,
+      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+      "tls": {
+        "enabled": true,
+        "server_name": "de5.dedushka.top",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 32 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "de5.dedushka.top",
+      "port": 443,
+      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+      "tls": {
+        "enabled": true,
+        "server_name": "de5.dedushka.top",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 33 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "185.176.204.18",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 34 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "185.226.172.8",
+      "port": 8008,
+      "method": "aes-256-gcm",
+      "password": "XKFKl2rULjIp74"
     },
     {
       "tag": "🇩🇪 德国 (Germany) 35 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "188.241.241.236",
-      "port": 443,
-      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+      "type": "vless",
+      "server": "91.107.188.129",
+      "port": 2083,
+      "uuid": "36592d47-b9f5-4e8f-949e-45ac05472aab",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "de10.dedushka.top",
-        "insecure": true
+        "server_name": "site.check-looks.space",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "91.107.188.129"
+        }
       }
     },
     {
       "tag": "🇩🇪 德国 (Germany) 36 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "de8.dedushka.top",
+      "port": 443,
+      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+      "tls": {
+        "enabled": true,
+        "server_name": "de8.dedushka.top",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 37 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "188.241.241.122",
+      "port": 443,
+      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+      "tls": {
+        "enabled": true,
+        "server_name": "de2.dedushka.top",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 38 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "46.225.46.136",
@@ -661,10 +646,23 @@
       }
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 37 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 39 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "188.241.241.49",
+      "port": 443,
+      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+      "tls": {
+        "enabled": true,
+        "server_name": "de6.dedushka.top",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 40 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "hoert1rert.localip.ir",
+      "server": "46.225.46.136",
       "port": 2087,
       "uuid": "a5db5ab5-8d28-49c0-ad55-0ad4724e4c0d",
       "flow": "",
@@ -682,10 +680,10 @@
       }
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 38 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 41 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "188.241.241.122",
+      "server": "de2.dedushka.top",
       "port": 443,
       "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
       "tls": {
@@ -695,41 +693,124 @@
       }
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 39 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 42 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "188.241.241.122",
+      "server": "188.241.241.236",
       "port": 443,
       "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
       "tls": {
         "enabled": true,
-        "server_name": "de2.dedushka.top",
+        "server_name": "de10.dedushka.top",
         "insecure": true
       }
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 40 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 43 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "45.131.153.149",
+      "port": 443,
+      "uuid": "f38e591d-d13a-4c30-9763-6be3ad65f3ec",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "de.zhou-yufan.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 44 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "903.rtgpu.com",
-      "port": 443,
-      "uuid": "c6438331-a79b-4471-fd5e-42c2eeac29fa",
+      "server": "46.225.46.136",
+      "port": 2087,
+      "uuid": "a5db5ab5-8d28-49c0-ad55-0ad4724e4c0d",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "903.rtgpu.com",
+        "server_name": "hoert1rert.localip.ir",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/nmd2",
+        "path": "/hokm",
         "headers": {
-          "Host": "903.rtgpu.com"
+          "Host": "hoert1rert.localip.ir"
         }
       }
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 41 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 45 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "188.114.98.0",
+      "port": 443,
+      "uuid": "a8a6aba0-bbe4-4eaa-8bb7-98601ef162bc",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "omid-3x-ui.abolfzlllll.us.ci",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/ws",
+        "headers": {
+          "Host": "omid-3x-ui.abolfzlllll.us.ci"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 46 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.21.5.128",
+      "port": 2053,
+      "uuid": "26769ac3-b34c-430a-87f8-e1de14619d25",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "uwu.blueknightnet.qzz.io",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net",
+        "headers": {
+          "Host": "uwu.blueknightnet.qzz.io"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 47 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "188.241.241.236",
+      "port": 443,
+      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+      "tls": {
+        "enabled": true,
+        "server_name": "de10.dedushka.top",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 48 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "188.241.241.236",
+      "port": 443,
+      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+      "tls": {
+        "enabled": true,
+        "server_name": "de10.dedushka.top",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 49 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "188.241.241.200",
@@ -742,64 +823,7 @@
       }
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 42 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "188.241.241.117",
-      "port": 443,
-      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
-      "tls": {
-        "enabled": true,
-        "server_name": "de8.dedushka.top",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 43 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "de5.dedushka.top",
-      "port": 443,
-      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
-      "tls": {
-        "enabled": true,
-        "server_name": "de5.dedushka.top",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 44 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "connect.wecantos.site",
-      "port": 10000,
-      "uuid": "a05ecf37-c661-4247-ab09-4432cf0f3cc1",
-      "flow": ""
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 45 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "test.wecantos.site",
-      "port": 20000,
-      "uuid": "ca59a503-db23-44af-9879-49747d8da98f",
-      "flow": ""
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 46 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "de6.dedushka.top",
-      "port": 443,
-      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
-      "tls": {
-        "enabled": true,
-        "server_name": "de6.dedushka.top",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 47 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 50 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "de12.dedushka.top",
@@ -812,16 +836,34 @@
       }
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 48 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 51 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "213.202.208.199",
-      "port": 7001,
-      "method": "aes-256-gcm",
-      "password": "RexnBgU7EV5ADxG"
+      "type": "vless",
+      "server": "connect.wecantos.site",
+      "port": 10000,
+      "uuid": "a05ecf37-c661-4247-ab09-4432cf0f3cc1",
+      "flow": ""
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 49 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 52 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "connect.wecantos.site",
+      "port": 10000,
+      "uuid": "a05ecf37-c661-4247-ab09-4432cf0f3cc1",
+      "flow": ""
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 53 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "31.76.11.83",
+      "port": 15731,
+      "method": "chacha20-ietf-poly1305",
+      "password": "xAYXtB+XMdfWWOlmL8PWcOZEPfKHKVv7NcTY6jpcL/A="
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 54 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "31.76.11.83",

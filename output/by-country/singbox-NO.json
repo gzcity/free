@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇪 IE 01 - xiaohe"
+        "🇳🇴 NO 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,17 +25,13 @@
       "tag": "block"
     },
     {
-      "tag": "🇮🇪 IE 01 - xiaohe",
+      "tag": "🇳🇴 NO 01 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "ie1.dedushka.top",
-      "port": 443,
-      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
-      "tls": {
-        "enabled": true,
-        "server_name": "ie1.dedushka.top",
-        "insecure": true
-      }
+      "type": "shadowsocks",
+      "server": "185.213.23.63",
+      "port": 990,
+      "method": "chacha20-ietf-poly1305",
+      "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
     }
   ]
 }
