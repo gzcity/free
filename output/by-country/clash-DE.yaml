@@ -5,174 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇩🇪 德国 (Germany) 01 - xiaohe
-  type: ss
-  server: 213.202.208.199
-  port: 7001
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-  udp: true
-- name: 🇩🇪 德国 (Germany) 02 - xiaohe
-  type: vless
-  server: 57.129.41.216
-  port: 80
-  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: OV-Germany1.09vpn.com
-- name: 🇩🇪 德国 (Germany) 03 - xiaohe
-  type: trojan
-  server: 188.241.241.102
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  udp: true
-  sni: de4.dedushka.top
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 04 - xiaohe
-  type: trojan
-  server: 188.241.241.102
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  udp: true
-  sni: de4.dedushka.top
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 05 - xiaohe
-  type: ss
-  server: 185.226.172.8
-  port: 8008
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-  udp: true
-- name: 🇩🇪 德国 (Germany) 06 - xiaohe
-  type: trojan
-  server: 188.241.241.122
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  udp: true
-  sni: de2.dedushka.top
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 07 - xiaohe
-  type: vless
-  server: 94.143.231.146
-  port: 443
-  uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: sub.merky.top
-  network: ws
-  ws-opts:
-    path: /merky-connect/de6/
-    headers:
-      Host: sub.merky.top
-- name: 🇩🇪 德国 (Germany) 08 - xiaohe
-  type: trojan
-  server: 188.241.241.236
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  udp: true
-  sni: de10.dedushka.top
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 09 - xiaohe
-  type: trojan
-  server: 188.241.241.235
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  udp: true
-  sni: de9.dedushka.top
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 10 - xiaohe
-  type: vless
-  server: wwww.qarvian.ir
-  port: 443
-  uuid: dc7d45c9-c942-41e3-b880-9a7fd5b64e2f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: firefox.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: copy_az_channel_NUFiLTER_a11ia.global.ssl.fastly.net.
-- name: 🇩🇪 德国 (Germany) 11 - xiaohe
-  type: trojan
-  server: de8.dedushka.top
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  udp: true
-  sni: de8.dedushka.top
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 12 - xiaohe
-  type: trojan
-  server: 188.241.241.200
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  udp: true
-  sni: de7.dedushka.top
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 13 - xiaohe
-  type: trojan
-  server: de8.dedushka.top
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  udp: true
-  sni: de8.dedushka.top
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 14 - xiaohe
-  type: vmess
-  server: 45.131.153.149
-  port: 443
-  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: de.zhou-yufan.com
-- name: 🇩🇪 德国 (Germany) 15 - xiaohe
-  type: trojan
-  server: 188.241.241.117
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  udp: true
-  sni: de8.dedushka.top
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 16 - xiaohe
-  type: trojan
-  server: de9.dedushka.top
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  udp: true
-  sni: de9.dedushka.top
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 17 - xiaohe
-  type: trojan
-  server: de-bots4.h1cloud.net
-  port: 25267
-  password: happybirthdaydaniel
-  udp: true
-  sni: t.me%2Ffuckthewall
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 18 - xiaohe
-  type: vless
-  server: 91.107.247.173
-  port: 2083
-  uuid: 7858128a-6b5e-4f86-9bff-52c1f1e6439d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: sino.bestsellers1.site
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sino.bestsellers1.site
-- name: 🇩🇪 德国 (Germany) 19 - xiaohe
   type: vless
   server: 91.107.247.173
   port: 2083
@@ -186,15 +18,35 @@ proxies:
     path: /
     headers:
       Host: 91.107.247.173
-- name: 🇩🇪 德国 (Germany) 20 - xiaohe
-  type: trojan
-  server: 188.241.241.117
+- name: 🇩🇪 德国 (Germany) 02 - xiaohe
+  type: vless
+  server: 188.114.98.0
   port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  uuid: a8a6aba0-bbe4-4eaa-8bb7-98601ef162bc
   udp: true
-  sni: de8.dedushka.top
+  tls: true
   skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 21 - xiaohe
+  servername: omid-3x-ui.abolfzlllll.us.ci
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: omid-3x-ui.abolfzlllll.us.ci
+- name: 🇩🇪 德国 (Germany) 03 - xiaohe
+  type: vless
+  server: 46.101.253.244
+  port: 2083
+  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edge.yzkvm.top
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: edge.yzkvm.top
+- name: 🇩🇪 德国 (Germany) 04 - xiaohe
   type: trojan
   server: 188.241.241.122
   port: 443
@@ -202,21 +54,463 @@ proxies:
   udp: true
   sni: de2.dedushka.top
   skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 22 - xiaohe
-  type: vless
-  server: shortbig.ir
+- name: 🇩🇪 德国 (Germany) 05 - xiaohe
+  type: trojan
+  server: 188.241.241.122
   port: 443
-  uuid: ed6c724c-435f-4f83-a781-f57579af320b
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: de2.dedushka.top
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 06 - xiaohe
+  type: vless
+  server: 46.225.46.136
+  port: 2087
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e4c0d
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: alman.5f2vvtqh5syot.info
+  servername: hoert1rert.localip.ir
   network: ws
   ws-opts:
-    path: /9d9fdbc18c834cffab4276811501fbae
+    path: /hokm
     headers:
-      Host: alman.5f2vvtqh5syot.info
+      Host: hoert1rert.localip.ir
+- name: 🇩🇪 德国 (Germany) 07 - xiaohe
+  type: ss
+  server: 213.202.208.199
+  port: 5000
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: 🇩🇪 德国 (Germany) 08 - xiaohe
+  type: trojan
+  server: 188.241.241.236
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: de10.dedushka.top
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 09 - xiaohe
+  type: trojan
+  server: 188.241.241.102
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: de4.dedushka.top
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 10 - xiaohe
+  type: trojan
+  server: de9.dedushka.top
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: de9.dedushka.top
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 11 - xiaohe
+  type: trojan
+  server: 188.241.241.122
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: de2.dedushka.top
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 12 - xiaohe
+  type: trojan
+  server: de5.dedushka.top
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: de5.dedushka.top
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 13 - xiaohe
+  type: trojan
+  server: 188.241.241.236
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: de10.dedushka.top
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 14 - xiaohe
+  type: trojan
+  server: de2.dedushka.top
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: de2.dedushka.top
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 15 - xiaohe
+  type: trojan
+  server: de7.dedushka.top
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: de7.dedushka.top
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 16 - xiaohe
+  type: vless
+  server: test.wecantos.site
+  port: 20000
+  uuid: ca59a503-db23-44af-9879-49747d8da98f
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 17 - xiaohe
+  type: vless
+  server: connect.wecantos.site
+  port: 10000
+  uuid: a05ecf37-c661-4247-ab09-4432cf0f3cc1
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 18 - xiaohe
+  type: trojan
+  server: 188.241.241.117
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: de8.dedushka.top
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 19 - xiaohe
+  type: trojan
+  server: de4.dedushka.top
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: de4.dedushka.top
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 20 - xiaohe
+  type: trojan
+  server: de3.dedushka.top
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: de3.dedushka.top
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 21 - xiaohe
+  type: trojan
+  server: 188.241.241.200
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: de7.dedushka.top
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 22 - xiaohe
+  type: vless
+  server: 185.141.227.223
+  port: 443
+  uuid: c720cb74-4c84-4fce-b8ae-637dbaa16199
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: z1q3pv4g78.rucdncomp.pro
+  network: ws
+  ws-opts:
+    path: /useraction/events/b892639b7195/
+    headers:
+      Host: z1q3pv4g78.rucdncomp.pro
 - name: 🇩🇪 德国 (Germany) 23 - xiaohe
+  type: vless
+  server: 46.225.46.136
+  port: 2087
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e4c0d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: hoert1rert.localip.ir
+  network: ws
+  ws-opts:
+    path: /hokm
+    headers:
+      Host: hoert1rert.localip.ir
+- name: 🇩🇪 德国 (Germany) 24 - xiaohe
+  type: trojan
+  server: de-bots4.h1cloud.net
+  port: 25267
+  password: happybirthdaydaniel
+  udp: true
+  sni: t.me%2Ffuckthewall
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 25 - xiaohe
+  type: trojan
+  server: 179.254.115.148
+  port: 25267
+  password: happybirthdaydaniel
+  udp: true
+  sni: t.me%2Ffuckthewall
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 26 - xiaohe
+  type: trojan
+  server: 188.241.241.117
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: de8.dedushka.top
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 27 - xiaohe
+  type: trojan
+  server: 188.241.241.122
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: de2.dedushka.top
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 28 - xiaohe
+  type: trojan
+  server: 188.241.241.236
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: de10.dedushka.top
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 29 - xiaohe
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-52108a2d5224
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: web-app-nr6wpa.app-tp57xz.workers.dev
+  network: ws
+  ws-opts:
+    path: /api/ws
+    headers:
+      Host: web-app-nr6wpa.app-tp57xz.workers.dev
+- name: 🇩🇪 德国 (Germany) 30 - xiaohe
+  type: trojan
+  server: de4.dedushka.top
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: de4.dedushka.top
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 31 - xiaohe
+  type: trojan
+  server: 188.241.241.200
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: de7.dedushka.top
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 32 - xiaohe
+  type: trojan
+  server: 188.241.241.235
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: de9.dedushka.top
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 33 - xiaohe
+  type: trojan
+  server: de6.dedushka.top
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: de6.dedushka.top
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 34 - xiaohe
+  type: ss
+  server: 185.226.172.8
+  port: 8008
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+  udp: true
+- name: 🇩🇪 德国 (Germany) 35 - xiaohe
+  type: trojan
+  server: 188.241.241.235
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: de9.dedushka.top
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 36 - xiaohe
+  type: trojan
+  server: de7.dedushka.top
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: de7.dedushka.top
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 37 - xiaohe
+  type: trojan
+  server: 188.241.241.49
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: de6.dedushka.top
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 38 - xiaohe
+  type: trojan
+  server: 188.241.241.235
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: de9.dedushka.top
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 39 - xiaohe
+  type: vless
+  server: 172.67.130.187
+  port: 2083
+  uuid: 2b8738de-1af5-4267-b101-c05707769ed4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fans.liverpool.qzz.io
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiY0Y0cENQUmxsNyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    headers:
+      Host: fans.liverpool.qzz.io
+- name: 🇩🇪 德国 (Germany) 40 - xiaohe
+  type: trojan
+  server: 188.241.241.117
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: de8.dedushka.top
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 41 - xiaohe
+  type: vless
+  server: 91.107.247.173
+  port: 2083
+  uuid: 7858128a-6b5e-4f86-9bff-52c1f1e6439d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sino.bestsellers1.site
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sino.bestsellers1.site
+- name: 🇩🇪 德国 (Germany) 42 - xiaohe
+  type: trojan
+  server: de8.dedushka.top
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: de8.dedushka.top
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 43 - xiaohe
+  type: vless
+  server: 185.141.227.223
+  port: 443
+  uuid: a443d7bf-f506-46ce-b64d-cf8891c0a9f7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: z1q3pv4g78.rucdncomp.pro
+  network: ws
+  ws-opts:
+    path: /useraction/events/b892639b7195/
+    headers:
+      Host: z1q3pv4g78.rucdncomp.pro
+- name: 🇩🇪 德国 (Germany) 44 - xiaohe
+  type: vless
+  server: 167.172.165.106
+  port: 2083
+  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edge.yzkvm.top
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: edge.yzkvm.top
+- name: 🇩🇪 德国 (Germany) 45 - xiaohe
+  type: trojan
+  server: 188.241.241.122
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: de2.dedushka.top
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 46 - xiaohe
+  type: vless
+  server: 46.225.46.136
+  port: 2087
+  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e4c0d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: hoert1rert.localip.ir
+  network: ws
+  ws-opts:
+    path: /hokm
+    headers:
+      Host: hoert1rert.localip.ir
+- name: 🇩🇪 德国 (Germany) 47 - xiaohe
+  type: vless
+  server: 57.129.41.216
+  port: 80
+  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless/
+    headers:
+      Host: OV-Germany1.09vpn.com
+- name: 🇩🇪 德国 (Germany) 48 - xiaohe
+  type: vmess
+  server: 45.131.153.149
+  port: 443
+  uuid: f38e591d-d13a-4c30-9763-6be3ad65f3ec
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: de.zhou-yufan.com
+- name: 🇩🇪 德国 (Germany) 49 - xiaohe
+  type: trojan
+  server: de10.dedushka.top
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: de10.dedushka.top
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 50 - xiaohe
+  type: trojan
+  server: 188.241.241.102
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: de4.dedushka.top
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 51 - xiaohe
+  type: vless
+  server: connect.wecantos.site
+  port: 10000
+  uuid: a05ecf37-c661-4247-ab09-4432cf0f3cc1
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 52 - xiaohe
+  type: vless
+  server: pl1.h1cloud.net
+  port: 27591
+  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM
+  servername: www.samsung.com
+  client-fingerprint: chrome
+- name: 🇩🇪 德国 (Germany) 53 - xiaohe
+  type: trojan
+  server: 188.241.241.236
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: de10.dedushka.top
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 54 - xiaohe
   type: vless
   server: 57.129.41.216
   port: 80
@@ -229,7 +523,15 @@ proxies:
     path: /vless/
     headers:
       Host: ov-germany1.09vpn.com
-- name: 🇩🇪 德国 (Germany) 24 - xiaohe
+- name: 🇩🇪 德国 (Germany) 55 - xiaohe
+  type: trojan
+  server: 188.241.241.122
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: de2.dedushka.top
+  skip-cert-verify: true
+- name: 🇩🇪 德国 (Germany) 56 - xiaohe
   type: trojan
   server: de6.dedushka.top
   port: 443
@@ -237,97 +539,23 @@ proxies:
   udp: true
   sni: de6.dedushka.top
   skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 25 - xiaohe
+- name: 🇩🇪 德国 (Germany) 57 - xiaohe
   type: trojan
-  server: 188.241.241.236
+  server: de7.dedushka.top
   port: 443
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   udp: true
-  sni: de10.dedushka.top
+  sni: de7.dedushka.top
   skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 26 - xiaohe
-  type: vless
-  server: 146.75.59.186
-  port: 443
-  uuid: dc7d45c9-c942-41e3-b880-9a7fd5b64e2f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: firefox.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: copy_az_channel_NUFiLTER_a1i.global.ssl.fastly.net.
-- name: 🇩🇪 德国 (Germany) 27 - xiaohe
+- name: 🇩🇪 德国 (Germany) 58 - xiaohe
   type: trojan
-  server: 179.254.115.148
+  server: de-bots4.h1cloud.net
   port: 25267
   password: happybirthdaydaniel
   udp: true
-  sni: t.me%2Ffuckthewall
+  sni: de-bots4.h1cloud.net
   skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 28 - xiaohe
-  type: vless
-  server: 146.75.59.186
-  port: 443
-  uuid: dc7d45c9-c942-41e3-b880-9a7fd5b64e2f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: firefox.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: copy_az_channel_NUFiLTER_a1i.global.ssl.fastly.net.
-- name: 🇩🇪 德国 (Germany) 29 - xiaohe
-  type: trojan
-  server: 188.241.241.122
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  udp: true
-  sni: de2.dedushka.top
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 30 - xiaohe
-  type: trojan
-  server: de8.dedushka.top
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  udp: true
-  sni: de8.dedushka.top
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 31 - xiaohe
-  type: vless
-  server: 94.143.231.146
-  port: 443
-  uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: sub.merky.top
-  network: ws
-  ws-opts:
-    path: /merky-connect/de6/
-    headers:
-      Host: 94.143.231.146
-- name: 🇩🇪 德国 (Germany) 32 - xiaohe
-  type: trojan
-  server: 188.241.241.122
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  udp: true
-  sni: de2.dedushka.top
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 33 - xiaohe
-  type: trojan
-  server: 188.241.241.236
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  udp: true
-  sni: de10.dedushka.top
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 34 - xiaohe
+- name: 🇩🇪 德国 (Germany) 59 - xiaohe
   type: trojan
   server: 188.241.241.117
   port: 443
@@ -335,7 +563,35 @@ proxies:
   udp: true
   sni: de8.dedushka.top
   skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 35 - xiaohe
+- name: 🇩🇪 德国 (Germany) 60 - xiaohe
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: ed6c724c-435f-4f83-a781-f57579af320b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: alman.5f2vvtqh5syot.info
+  network: ws
+  ws-opts:
+    path: /9d9fdbc18c834cffab4276811501fbae
+    headers:
+      Host: alman.5f2vvtqh5syot.info
+- name: 🇩🇪 德国 (Germany) 61 - xiaohe
+  type: vless
+  server: 172.66.44.124
+  port: 8443
+  uuid: b2f2f9f2-1864-48ea-839b-22815faff1f1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
+- name: 🇩🇪 德国 (Germany) 62 - xiaohe
   type: vless
   server: 46.225.46.136
   port: 2087
@@ -349,59 +605,35 @@ proxies:
     path: /hokm
     headers:
       Host: hoert1rert.localip.ir
-- name: 🇩🇪 德国 (Germany) 36 - xiaohe
-  type: vless
-  server: 46.225.46.136
-  port: 2087
-  uuid: a5db5ab5-8d28-49c0-ad55-0ad4724e4c0d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: hoert1rert.localip.ir
-  network: ws
-  ws-opts:
-    path: /hokm
-    headers:
-      Host: hoert1rert.localip.ir
-- name: 🇩🇪 德国 (Germany) 37 - xiaohe
+- name: 🇩🇪 德国 (Germany) 63 - xiaohe
   type: trojan
-  server: 188.241.241.236
+  server: de10.dedushka.top
   port: 443
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   udp: true
   sni: de10.dedushka.top
   skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 38 - xiaohe
-  type: trojan
-  server: de6.dedushka.top
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  udp: true
-  sni: de6.dedushka.top
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 39 - xiaohe
-  type: trojan
-  server: 188.241.241.200
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  udp: true
-  sni: de7.dedushka.top
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 40 - xiaohe
-  type: trojan
-  server: de3.dedushka.top
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  udp: true
-  sni: de3.dedushka.top
-  skip-cert-verify: true
-- name: 🇩🇪 德国 (Germany) 41 - xiaohe
+- name: 🇩🇪 德国 (Germany) 64 - xiaohe
   type: vless
-  server: test.wecantos.site
-  port: 20000
-  uuid: ca59a503-db23-44af-9879-49747d8da98f
+  server: alman.5f2vvtqh5syot.info
+  port: 443
+  uuid: ed6c724c-435f-4f83-a781-f57579af320b
   udp: true
-  tls: false
+  tls: true
+  skip-cert-verify: true
+  servername: alman.5f2vvtqh5syot.info
+  network: ws
+  ws-opts:
+    path: /9d9fdbc18c834cffab4276811501fbae
+    headers:
+      Host: alman.5f2vvtqh5syot.info
+- name: 🇩🇪 德国 (Germany) 65 - xiaohe
+  type: trojan
+  server: de2.dedushka.top
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: de2.dedushka.top
   skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
@@ -449,6 +681,30 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 39 - xiaohe
   - 🇩🇪 德国 (Germany) 40 - xiaohe
   - 🇩🇪 德国 (Germany) 41 - xiaohe
+  - 🇩🇪 德国 (Germany) 42 - xiaohe
+  - 🇩🇪 德国 (Germany) 43 - xiaohe
+  - 🇩🇪 德国 (Germany) 44 - xiaohe
+  - 🇩🇪 德国 (Germany) 45 - xiaohe
+  - 🇩🇪 德国 (Germany) 46 - xiaohe
+  - 🇩🇪 德国 (Germany) 47 - xiaohe
+  - 🇩🇪 德国 (Germany) 48 - xiaohe
+  - 🇩🇪 德国 (Germany) 49 - xiaohe
+  - 🇩🇪 德国 (Germany) 50 - xiaohe
+  - 🇩🇪 德国 (Germany) 51 - xiaohe
+  - 🇩🇪 德国 (Germany) 52 - xiaohe
+  - 🇩🇪 德国 (Germany) 53 - xiaohe
+  - 🇩🇪 德国 (Germany) 54 - xiaohe
+  - 🇩🇪 德国 (Germany) 55 - xiaohe
+  - 🇩🇪 德国 (Germany) 56 - xiaohe
+  - 🇩🇪 德国 (Germany) 57 - xiaohe
+  - 🇩🇪 德国 (Germany) 58 - xiaohe
+  - 🇩🇪 德国 (Germany) 59 - xiaohe
+  - 🇩🇪 德国 (Germany) 60 - xiaohe
+  - 🇩🇪 德国 (Germany) 61 - xiaohe
+  - 🇩🇪 德国 (Germany) 62 - xiaohe
+  - 🇩🇪 德国 (Germany) 63 - xiaohe
+  - 🇩🇪 德国 (Germany) 64 - xiaohe
+  - 🇩🇪 德国 (Germany) 65 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -495,5 +751,29 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 39 - xiaohe
   - 🇩🇪 德国 (Germany) 40 - xiaohe
   - 🇩🇪 德国 (Germany) 41 - xiaohe
+  - 🇩🇪 德国 (Germany) 42 - xiaohe
+  - 🇩🇪 德国 (Germany) 43 - xiaohe
+  - 🇩🇪 德国 (Germany) 44 - xiaohe
+  - 🇩🇪 德国 (Germany) 45 - xiaohe
+  - 🇩🇪 德国 (Germany) 46 - xiaohe
+  - 🇩🇪 德国 (Germany) 47 - xiaohe
+  - 🇩🇪 德国 (Germany) 48 - xiaohe
+  - 🇩🇪 德国 (Germany) 49 - xiaohe
+  - 🇩🇪 德国 (Germany) 50 - xiaohe
+  - 🇩🇪 德国 (Germany) 51 - xiaohe
+  - 🇩🇪 德国 (Germany) 52 - xiaohe
+  - 🇩🇪 德国 (Germany) 53 - xiaohe
+  - 🇩🇪 德国 (Germany) 54 - xiaohe
+  - 🇩🇪 德国 (Germany) 55 - xiaohe
+  - 🇩🇪 德国 (Germany) 56 - xiaohe
+  - 🇩🇪 德国 (Germany) 57 - xiaohe
+  - 🇩🇪 德国 (Germany) 58 - xiaohe
+  - 🇩🇪 德国 (Germany) 59 - xiaohe
+  - 🇩🇪 德国 (Germany) 60 - xiaohe
+  - 🇩🇪 德国 (Germany) 61 - xiaohe
+  - 🇩🇪 德国 (Germany) 62 - xiaohe
+  - 🇩🇪 德国 (Germany) 63 - xiaohe
+  - 🇩🇪 德国 (Germany) 64 - xiaohe
+  - 🇩🇪 德国 (Germany) 65 - xiaohe
 rules:
 - MATCH,PROXIES

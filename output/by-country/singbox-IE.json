@@ -27,11 +27,15 @@
     {
       "tag": "🇮🇪 IE 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "4.210.68.244",
+      "type": "trojan",
+      "server": "ie1.dedushka.top",
       "port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "UUjphkQAh5BkOdbf"
+      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+      "tls": {
+        "enabled": true,
+        "server_name": "ie1.dedushka.top",
+        "insecure": true
+      }
     }
   ]
 }
