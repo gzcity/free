@@ -14,7 +14,7 @@
       "outbounds": [
         "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe",
         "🇭🇰 中国香港 (Hong Kong) 05 (家宽) - xiaohe"
       ],
@@ -30,27 +30,6 @@
     },
     {
       "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "60.248.219.53",
-      "port": 443,
-      "uuid": "c1c04450-bf71-4049-ad0c-9cf6d94d9f1f",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ty986gfazs.cainiaohub.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/81574b6b-c9d7-44a0-b83d-dad56e8cb530",
-        "headers": {
-          "Host": "60.248.219.53"
-        }
-      }
-    },
-    {
-      "tag": "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "9641684.sdf65h4.top",
@@ -71,11 +50,11 @@
       }
     },
     {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "103.148.73.173",
-      "port": 8443,
+      "server": "60.248.219.78",
+      "port": 443,
       "uuid": "c1c04450-bf71-4049-ad0c-9cf6d94d9f1f",
       "flow": "",
       "tls": {
@@ -92,7 +71,7 @@
       }
     },
     {
-      "tag": "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "hinet1.2yly.com",
@@ -103,17 +82,38 @@
         "enabled": true,
         "server_name": "addons.mozilla.org",
         "insecure": true,
-        "client_fingerprint": "ios",
+        "client_fingerprint": "safari",
         "reality": true,
         "public_key": "mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE",
         "short_id": ""
       }
     },
     {
+      "tag": "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "9641684.sdf65h4.top",
+      "port": 443,
+      "uuid": "250c015d-bab0-4ed3-b638-b4eda48f5840",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true
+      },
+      "ws": {
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
       "tag": "🇭🇰 中国香港 (Hong Kong) 05 (家宽) - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "103.180.20.108",
+      "server": "103.148.73.173",
       "port": 8443,
       "uuid": "c1c04450-bf71-4049-ad0c-9cf6d94d9f1f",
       "flow": "",
@@ -126,7 +126,7 @@
       "ws": {
         "path": "/81574b6b-c9d7-44a0-b83d-dad56e8cb530",
         "headers": {
-          "Host": "103.180.20.108"
+          "Host": "ty986gfazs.cainiaohub.xyz"
         }
       }
     }

@@ -1,0 +1,166 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇨🇭 CH 01 - xiaohe",
+        "🇨🇭 CH 02 - xiaohe",
+        "🇨🇭 CH 03 - xiaohe",
+        "🇨🇭 CH 04 - xiaohe",
+        "🇨🇭 CH 05 - xiaohe",
+        "🇨🇭 CH 06 - xiaohe",
+        "🇨🇭 CH 07 - xiaohe"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "tag": "🇨🇭 CH 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "185.18.250.245",
+      "port": 443,
+      "uuid": "f77299ea-e13d-417d-8cdc-ce5566dfc94b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "edu.ruangguru.com.r3xxe.eu.cc",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/nl-tw",
+        "headers": {
+          "Host": "edu.ruangguru.com.r3xxe.eu.cc"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇭 CH 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "162.159.228.255",
+      "port": 443,
+      "uuid": "b135a1e0-ebdb-4d46-b3fa-bd1e78580244",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇭 CH 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "109.120.155.155",
+      "port": 444,
+      "uuid": "99ab6748-3d57-4562-9451-843c15960b9b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇭 CH 04 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "132.243.175.144",
+      "port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3"
+    },
+    {
+      "tag": "🇨🇭 CH 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "178.83.110.32",
+      "port": 7443,
+      "uuid": "9bb71136-2380-4b6a-97be-1d4ba11d5a55",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇭 CH 06 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "144.31.135.38",
+      "port": 9444,
+      "uuid": "01c96414-9fcd-4f79-9274-2c8d8045e48d",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇭 CH 07 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "208.69.78.217",
+      "port": 2053,
+      "uuid": "c0dd6d59-1573-43af-8b70-1470b2632a6d",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0",
+        "short_id": ""
+      }
+    }
+  ]
+}
