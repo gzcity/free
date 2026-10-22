@@ -31,7 +31,7 @@
       "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "45.144.214.144",
+      "server": "sable56.fars-remen.ir",
       "port": 8446,
       "uuid": "633c1bb0-60d5-41fb-a9c4-11f408b264ec",
       "flow": "",
@@ -49,18 +49,21 @@
       "tag": "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "sable56.fars-remen.ir",
-      "port": 8446,
-      "uuid": "633c1bb0-60d5-41fb-a9c4-11f408b264ec",
+      "server": "155.103.71.142",
+      "port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "storage-p2.googleapis.com",
+        "server_name": "ccc.010304.xyz",
         "insecure": true,
-        "client_fingerprint": "edge",
-        "reality": true,
-        "public_key": "7OwcalQiQ5RaMsYRjvtwTxZWS3sCpjOefcr3WYKFh04",
-        "short_id": ""
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/fp=chromefp=chrome",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
       }
     },
     {
@@ -87,23 +90,12 @@
     {
       "tag": "🇹🇷 土耳其 (Turkey) 04 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "155.103.71.142",
+      "type": "vmess",
+      "server": "free.ertebatgoostar.ir",
       "port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/fp=chromefp=chrome",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      }
+      "uuid": "c9eab439-53bf-46e4-ba58-fc368ae1ee8c",
+      "alterId": 0,
+      "security": "auto"
     }
   ]
 }
