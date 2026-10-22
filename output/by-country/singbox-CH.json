@@ -13,7 +13,8 @@
       "tag": "auto",
       "outbounds": [
         "🇨🇭 CH 01 - xiaohe",
-        "🇨🇭 CH 02 - xiaohe"
+        "🇨🇭 CH 02 - xiaohe",
+        "🇨🇭 CH 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -45,6 +46,15 @@
     },
     {
       "tag": "🇨🇭 CH 02 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "132.243.175.144",
+      "port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3"
+    },
+    {
+      "tag": "🇨🇭 CH 03 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "132.243.175.144",

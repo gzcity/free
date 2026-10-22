@@ -12,7 +12,10 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇷 土耳其 (Turkey) 01 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -28,6 +31,42 @@
       "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
       "udp": true,
       "type": "vless",
+      "server": "45.144.214.144",
+      "port": 8446,
+      "uuid": "633c1bb0-60d5-41fb-a9c4-11f408b264ec",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "storage-p2.googleapis.com",
+        "insecure": true,
+        "client_fingerprint": "edge",
+        "reality": true,
+        "public_key": "7OwcalQiQ5RaMsYRjvtwTxZWS3sCpjOefcr3WYKFh04",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "sable56.fars-remen.ir",
+      "port": 8446,
+      "uuid": "633c1bb0-60d5-41fb-a9c4-11f408b264ec",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "storage-p2.googleapis.com",
+        "insecure": true,
+        "client_fingerprint": "edge",
+        "reality": true,
+        "public_key": "7OwcalQiQ5RaMsYRjvtwTxZWS3sCpjOefcr3WYKFh04",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
       "server": "155.103.71.142",
       "port": 443,
       "uuid": "d342d11e-d224-4463-b982-532309285094",
@@ -40,6 +79,27 @@
       },
       "ws": {
         "path": "/fp=chrome",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 土耳其 (Turkey) 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "155.103.71.142",
+      "port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/fp=chromefp=chrome",
         "headers": {
           "Host": "ccc.010304.xyz"
         }
