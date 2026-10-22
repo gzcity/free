@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇵🇱 PL 01 - xiaohe
   type: trojan
-  server: 31.133.0.182
+  server: pl1.dedushka.top
   port: 443
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   udp: true
@@ -14,85 +14,37 @@ proxies:
   skip-cert-verify: true
 - name: 🇵🇱 PL 02 - xiaohe
   type: trojan
-  server: pl1.dedushka.top
+  server: 31.133.0.182
   port: 443
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   udp: true
   sni: pl1.dedushka.top
   skip-cert-verify: true
 - name: 🇵🇱 PL 03 - xiaohe
-  type: vless
-  server: site.teslamotor.site
-  port: 20001
-  uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
+  type: trojan
+  server: 31.133.0.186
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   udp: true
-  tls: false
+  sni: pl2.dedushka.top
   skip-cert-verify: true
 - name: 🇵🇱 PL 04 - xiaohe
   type: trojan
-  server: pl1.dedushka.top
+  server: 31.133.0.186
   port: 443
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   udp: true
-  sni: pl1.dedushka.top
+  sni: pl2.dedushka.top
   skip-cert-verify: true
 - name: 🇵🇱 PL 05 - xiaohe
   type: trojan
-  server: pl1.dedushka.top
+  server: pl2.dedushka.top
   port: 443
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   udp: true
-  sni: pl1.dedushka.top
+  sni: pl2.dedushka.top
   skip-cert-verify: true
 - name: 🇵🇱 PL 06 - xiaohe
-  type: vless
-  server: site.teslamotor.site
-  port: 20001
-  uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇵🇱 PL 07 - xiaohe
-  type: trojan
-  server: pl2.dedushka.top
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  udp: true
-  sni: pl2.dedushka.top
-  skip-cert-verify: true
-- name: 🇵🇱 PL 08 - xiaohe
-  type: trojan
-  server: 31.133.0.186
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  udp: true
-  sni: pl2.dedushka.top
-  skip-cert-verify: true
-- name: 🇵🇱 PL 09 - xiaohe
-  type: trojan
-  server: pl2.dedushka.top
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  udp: true
-  sni: pl2.dedushka.top
-  skip-cert-verify: true
-- name: 🇵🇱 PL 10 - xiaohe
-  type: trojan
-  server: 31.133.0.186
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  udp: true
-  sni: pl2.dedushka.top
-  skip-cert-verify: true
-- name: 🇵🇱 PL 11 - xiaohe
-  type: trojan
-  server: 31.133.0.186
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  udp: true
-  sni: pl2.dedushka.top
-  skip-cert-verify: true
-- name: 🇵🇱 PL 12 - xiaohe
   type: trojan
   server: 31.133.0.182
   port: 443
@@ -100,13 +52,61 @@ proxies:
   udp: true
   sni: pl1.dedushka.top
   skip-cert-verify: true
-- name: 🇵🇱 PL 13 - xiaohe
+- name: 🇵🇱 PL 07 - xiaohe
+  type: trojan
+  server: pl1.dedushka.top
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: pl1.dedushka.top
+  skip-cert-verify: true
+- name: 🇵🇱 PL 08 - xiaohe
   type: trojan
   server: pl2.dedushka.top
   port: 443
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   udp: true
   sni: pl2.dedushka.top
+  skip-cert-verify: true
+- name: 🇵🇱 PL 09 - xiaohe
+  type: trojan
+  server: 31.133.0.186
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: pl2.dedushka.top
+  skip-cert-verify: true
+- name: 🇵🇱 PL 10 - xiaohe
+  type: trojan
+  server: pl2.dedushka.top
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: pl2.dedushka.top
+  skip-cert-verify: true
+- name: 🇵🇱 PL 11 - xiaohe
+  type: trojan
+  server: pl2.dedushka.top
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: pl2.dedushka.top
+  skip-cert-verify: true
+- name: 🇵🇱 PL 12 - xiaohe
+  type: trojan
+  server: 31.133.0.186
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: pl2.dedushka.top
+  skip-cert-verify: true
+- name: 🇵🇱 PL 13 - xiaohe
+  type: trojan
+  server: pl1.dedushka.top
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: pl1.dedushka.top
   skip-cert-verify: true
 - name: 🇵🇱 PL 14 - xiaohe
   type: vless

@@ -57,28 +57,20 @@
     {
       "tag": "🇷🇴 RO 03 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "it1.dedushka.top",
+      "type": "shadowsocks",
+      "server": "154.46.31.106",
       "port": 443,
-      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
-      "tls": {
-        "enabled": true,
-        "server_name": "it1.dedushka.top",
-        "insecure": true
-      }
+      "method": "chacha20-ietf-poly1305",
+      "password": "QFWzCw2uX9B9i6qAYeFBIE"
     },
     {
       "tag": "🇷🇴 RO 04 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "it1.dedushka.top",
-      "port": 443,
-      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
-      "tls": {
-        "enabled": true,
-        "server_name": "it1.dedushka.top",
-        "insecure": true
-      }
+      "type": "shadowsocks",
+      "server": "194.68.44.42",
+      "port": 64546,
+      "method": "chacha20-ietf-poly1305",
+      "password": "U83u9OGpvSatIUW7LsWffr"
     },
     {
       "tag": "🇷🇴 RO 05 - xiaohe",

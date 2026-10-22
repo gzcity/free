@@ -33,6 +33,15 @@
     {
       "tag": "🇫🇷 法国 (France) 01 - xiaohe",
       "udp": true,
+      "type": "vless",
+      "server": "51.44.38.228",
+      "port": 22222,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "flow": ""
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 02 - xiaohe",
+      "udp": true,
       "type": "vmess",
       "server": "145.239.55.210",
       "port": 80,
@@ -45,15 +54,6 @@
           "Host": "google.whatsapp.snapp.torob.basalam.fortresshost.ir."
         }
       }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "51.44.38.228",
-      "port": 22224,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-      "flow": ""
     },
     {
       "tag": "🇫🇷 法国 (France) 03 - xiaohe",
@@ -89,24 +89,6 @@
     {
       "tag": "🇫🇷 法国 (France) 05 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "13.37.140.13",
-      "port": 22223,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-      "flow": ""
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 06 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "35.180.76.81",
-      "port": 22224,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-      "flow": ""
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 07 - xiaohe",
-      "udp": true,
       "type": "vmess",
       "server": "57.128.164.21",
       "port": 80,
@@ -119,6 +101,24 @@
           "Host": "https.http.www.net.com.ramseyv2.ir."
         }
       }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 06 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "51.44.38.228",
+      "port": 22224,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "flow": ""
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 07 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "51.44.38.228",
+      "port": 22224,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "flow": ""
     }
   ]
 }
