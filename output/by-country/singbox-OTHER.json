@@ -25,10 +25,7 @@
         "🌐 其他地区 (Other) 11 - xiaohe",
         "🌐 其他地区 (Other) 12 - xiaohe",
         "🌐 其他地区 (Other) 13 - xiaohe",
-        "🌐 其他地区 (Other) 14 - xiaohe",
-        "🌐 其他地区 (Other) 15 - xiaohe",
-        "🌐 其他地区 (Other) 16 - xiaohe",
-        "🌐 其他地区 (Other) 17 - xiaohe"
+        "🌐 其他地区 (Other) 14 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -44,20 +41,20 @@
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "172.64.158.170",
+      "server": "104.16.10.56",
       "port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "ccc.010304.xyz",
+        "server_name": "jp3.yohototo.top",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed",
+        "path": "/tyxyws",
         "headers": {
-          "Host": "ccc.010304.xyz"
+          "Host": "jp3.yohototo.top"
         }
       }
     },
@@ -65,7 +62,7 @@
       "tag": "🌐 其他地区 (Other) 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.16.10.9",
+      "server": "104.17.210.74",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -86,7 +83,7 @@
       "tag": "🌐 其他地区 (Other) 03 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "162.159.254.3",
+      "server": "104.21.34.106",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -107,20 +104,20 @@
       "tag": "🌐 其他地区 (Other) 04 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "172.64.153.153",
-      "port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "server": "172.67.181.232",
+      "port": 2053,
+      "uuid": "e3fb01b6-69b4-41d7-babf-696d992de194",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "ccc.010304.xyz",
+        "server_name": "uwu.blueknightnet.qzz.io",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed",
+        "path": "/@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net",
         "headers": {
-          "Host": "ccc.010304.xyz"
+          "Host": "uwu.blueknightnet.qzz.io"
         }
       }
     },
@@ -128,7 +125,7 @@
       "tag": "🌐 其他地区 (Other) 05 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.18.37.247",
+      "server": "172.64.153.153",
       "port": 443,
       "uuid": "d342d11e-d224-4463-b982-532309285094",
       "flow": "",
@@ -149,7 +146,49 @@
       "tag": "🌐 其他地区 (Other) 06 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.21.34.106",
+      "server": "172.67.204.153",
+      "port": 2053,
+      "uuid": "aa5d861a-7799-41a7-bdf4-7a6414cf98fd",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "uwu.blueknightnet.qzz.io",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net",
+        "headers": {
+          "Host": "uwu.blueknightnet.qzz.io"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 07 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.64.158.170",
+      "port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 08 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.17.50.53",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -167,7 +206,49 @@
       }
     },
     {
-      "tag": "🌐 其他地区 (Other) 07 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 09 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.18.37.247",
+      "port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 10 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.24.31.89",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 11 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "104.16.111.195",
@@ -188,169 +269,7 @@
       }
     },
     {
-      "tag": "🌐 其他地区 (Other) 08 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "cf.090227.xyz",
-      "port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/fp=chrome",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 09 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.21.93.52",
-      "port": 2053,
-      "uuid": "aa5d861a-7799-41a7-bdf4-7a6414cf98fd",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "uwu.blueknightnet.qzz.io",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net",
-        "headers": {
-          "Host": "uwu.blueknightnet.qzz.io"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 10 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.67.181.232",
-      "port": 2053,
-      "uuid": "e3fb01b6-69b4-41d7-babf-696d992de194",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "uwu.blueknightnet.qzz.io",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net",
-        "headers": {
-          "Host": "uwu.blueknightnet.qzz.io"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 11 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.16.111.202",
-      "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
       "tag": "🌐 其他地区 (Other) 12 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.64.150.28",
-      "port": 2082,
-      "uuid": "e5cc16a6-ea42-46b2-82ae-ad2157e1641b",
-      "flow": "",
-      "ws": {
-        "path": "/fp",
-        "headers": {
-          "Host": "hhlfy.twiladaphne.ndjp.net"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 13 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.18.42.98",
-      "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 14 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.16.10.63",
-      "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 15 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.18.47.73",
-      "port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 16 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "104.18.40.100",
@@ -371,17 +290,44 @@
       }
     },
     {
-      "tag": "🌐 其他地区 (Other) 17 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 13 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "199.232.78.159",
-      "port": 80,
-      "uuid": "72448696-2953-449f-8925-22d638f28da9",
+      "server": "104.18.47.73",
+      "port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
       "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
       "ws": {
-        "path": "ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048",
+        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed",
         "headers": {
-          "Host": "rb24.ir"
+          "Host": "ccc.010304.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 14 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "cf.090227.xyz",
+      "port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/fp=chrome",
+        "headers": {
+          "Host": "ccc.010304.xyz"
         }
       }
     }
