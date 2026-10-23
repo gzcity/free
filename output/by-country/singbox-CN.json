@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇳🇱 荷兰 (Netherlands) 01 (家宽) - xiaohe"
+        "🇨🇳 CN 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,23 +25,23 @@
       "tag": "block"
     },
     {
-      "tag": "🇳🇱 荷兰 (Netherlands) 01 (家宽) - xiaohe",
+      "tag": "🇨🇳 CN 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "162.159.153.4",
+      "server": "vpn.cintaku.qzz.io",
       "port": 443,
-      "uuid": "f2a73750-3087-48ff-a763-1348c15dce68",
+      "uuid": "fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "rAyAn-007.mAxImA.DpDnS.OrG",
+        "server_name": "vpn.cintaku.qzz.io",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/",
+        "path": "/vlessws",
         "headers": {
-          "Host": "rAyAn-007.mAxImA.DpDnS.OrG"
+          "Host": "vpn.cintaku.qzz.io"
         }
       }
     }

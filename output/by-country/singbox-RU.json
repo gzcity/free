@@ -12,7 +12,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇺 俄罗斯 (Russia) 01 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -32,6 +33,15 @@
       "port": 43558,
       "method": "chacha20-ietf-poly1305",
       "password": "nQeEoXC5Yl5PZnPLvKUpFTU9cyQcNG902zpibWkwGbo="
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "176.32.33.153",
+      "port": 18443,
+      "method": "aes-256-gcm",
+      "password": "cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa"
     }
   ]
 }

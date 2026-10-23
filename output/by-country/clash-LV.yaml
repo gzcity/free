@@ -20,6 +20,30 @@ proxies:
   udp: true
   sni: lv1.dedushka.top
   skip-cert-verify: true
+- name: 🇱🇻 LV 03 - xiaohe
+  type: trojan
+  server: lv1.dedushka.top
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: lv1.dedushka.top
+  skip-cert-verify: true
+- name: 🇱🇻 LV 04 - xiaohe
+  type: trojan
+  server: lv1.dedushka.top
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: lv1.dedushka.top
+  skip-cert-verify: true
+- name: 🇱🇻 LV 05 - xiaohe
+  type: trojan
+  server: lv1.dedushka.top
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: lv1.dedushka.top
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -27,6 +51,9 @@ proxy-groups:
   - AUTO
   - 🇱🇻 LV 01 - xiaohe
   - 🇱🇻 LV 02 - xiaohe
+  - 🇱🇻 LV 03 - xiaohe
+  - 🇱🇻 LV 04 - xiaohe
+  - 🇱🇻 LV 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -34,5 +61,8 @@ proxy-groups:
   proxies:
   - 🇱🇻 LV 01 - xiaohe
   - 🇱🇻 LV 02 - xiaohe
+  - 🇱🇻 LV 03 - xiaohe
+  - 🇱🇻 LV 04 - xiaohe
+  - 🇱🇻 LV 05 - xiaohe
 rules:
 - MATCH,PROXIES

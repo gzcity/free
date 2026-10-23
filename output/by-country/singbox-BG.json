@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇿 UZ 01 - xiaohe"
+        "🇧🇬 BG 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,24 +25,21 @@
       "tag": "block"
     },
     {
-      "tag": "🇺🇿 UZ 01 - xiaohe",
+      "tag": "🇧🇬 BG 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "157.22.128.7",
-      "port": 443,
-      "uuid": "04c808e2-0b59-47b0-a54b-32fc7ef1c902",
+      "server": "p2real4.greewebservices.ir",
+      "port": 1340,
+      "uuid": "2582857a-632b-4c4e-9b67-96213cbaf58c",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "free.cndyw.ggff.net",
+        "server_name": "play.googleapis.com",
         "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "pyip=bpb.yousef.isegaro.comfp=random",
-        "headers": {
-          "Host": "free.cndyw.ggff.net"
-        }
+        "client_fingerprint": "ios",
+        "reality": true,
+        "public_key": "xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8",
+        "short_id": ""
       }
     }
   ]
