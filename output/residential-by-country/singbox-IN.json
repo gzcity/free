@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇬 BG 01 - xiaohe"
+        "🇮🇳 印度 (India) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,21 +25,24 @@
       "tag": "block"
     },
     {
-      "tag": "🇧🇬 BG 01 - xiaohe",
+      "tag": "🇮🇳 印度 (India) 01 (家宽) - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "p2real4.greewebservices.ir",
-      "port": 1340,
-      "uuid": "2582857a-632b-4c4e-9b67-96213cbaf58c",
+      "server": "122.176.216.52",
+      "port": 443,
+      "uuid": "16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "play.googleapis.com",
+        "server_name": "app-6ada5023.deploy.meerasolution.com",
         "insecure": true,
-        "client_fingerprint": "ios",
-        "reality": true,
-        "public_key": "xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8",
-        "short_id": ""
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
+        "headers": {
+          "Host": "app-6ada5023.deploy.meerasolution.com"
+        }
       }
     }
   ]

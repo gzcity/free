@@ -6,62 +6,7 @@ log-level: info
 proxies:
 - name: 🇷🇴 RO 01 - xiaohe
   type: ss
-  server: 194.68.44.42
-  port: 64546
-  cipher: chacha20-ietf-poly1305
-  password: U83u9OGpvSatIUW7LsWffr
-  udp: true
-- name: 🇷🇴 RO 02 - xiaohe
-  type: trojan
-  server: de1.dedushka.top
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  udp: true
-  sni: de1.dedushka.top
-  skip-cert-verify: true
-- name: 🇷🇴 RO 03 - xiaohe
-  type: trojan
-  server: de1.dedushka.top
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  udp: true
-  sni: de1.dedushka.top
-  skip-cert-verify: true
-- name: 🇷🇴 RO 04 - xiaohe
-  type: trojan
-  server: 92.42.100.132
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  udp: true
-  sni: it1.dedushka.top
-  skip-cert-verify: true
-- name: 🇷🇴 RO 05 - xiaohe
-  type: trojan
-  server: it1.dedushka.top
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  udp: true
-  sni: it1.dedushka.top
-  skip-cert-verify: true
-- name: 🇷🇴 RO 06 - xiaohe
-  type: trojan
-  server: it1.dedushka.top
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  udp: true
-  sni: it1.dedushka.top
-  skip-cert-verify: true
-- name: 🇷🇴 RO 07 - xiaohe
-  type: trojan
-  server: it1.dedushka.top
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  udp: true
-  sni: it1.dedushka.top
-  skip-cert-verify: true
-- name: 🇷🇴 RO 08 - xiaohe
-  type: ss
-  server: bogging-eyeteeth-fly.freesocks.work
+  server: 154.46.31.106
   port: 443
   cipher: chacha20-ietf-poly1305
   password: QFWzCw2uX9B9i6qAYeFBIE
@@ -72,25 +17,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇷🇴 RO 01 - xiaohe
-  - 🇷🇴 RO 02 - xiaohe
-  - 🇷🇴 RO 03 - xiaohe
-  - 🇷🇴 RO 04 - xiaohe
-  - 🇷🇴 RO 05 - xiaohe
-  - 🇷🇴 RO 06 - xiaohe
-  - 🇷🇴 RO 07 - xiaohe
-  - 🇷🇴 RO 08 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇷🇴 RO 01 - xiaohe
-  - 🇷🇴 RO 02 - xiaohe
-  - 🇷🇴 RO 03 - xiaohe
-  - 🇷🇴 RO 04 - xiaohe
-  - 🇷🇴 RO 05 - xiaohe
-  - 🇷🇴 RO 06 - xiaohe
-  - 🇷🇴 RO 07 - xiaohe
-  - 🇷🇴 RO 08 - xiaohe
 rules:
 - MATCH,PROXIES
