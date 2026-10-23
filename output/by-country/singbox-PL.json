@@ -25,8 +25,7 @@
         "🇵🇱 PL 11 - xiaohe",
         "🇵🇱 PL 12 - xiaohe",
         "🇵🇱 PL 13 - xiaohe",
-        "🇵🇱 PL 14 - xiaohe",
-        "🇵🇱 PL 15 - xiaohe"
+        "🇵🇱 PL 14 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -55,7 +54,7 @@
       "tag": "🇵🇱 PL 02 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "31.133.0.186",
+      "server": "pl2.dedushka.top",
       "port": 443,
       "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
       "tls": {
@@ -68,56 +67,17 @@
       "tag": "🇵🇱 PL 03 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "pl1.dedushka.top",
+      "server": "31.133.0.186",
       "port": 443,
       "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
       "tls": {
         "enabled": true,
-        "server_name": "pl1.dedushka.top",
+        "server_name": "pl2.dedushka.top",
         "insecure": true
       }
     },
     {
       "tag": "🇵🇱 PL 04 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "31.133.0.182",
-      "port": 443,
-      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
-      "tls": {
-        "enabled": true,
-        "server_name": "pl1.dedushka.top",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇵🇱 PL 05 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "pl1.dedushka.top",
-      "port": 443,
-      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
-      "tls": {
-        "enabled": true,
-        "server_name": "pl1.dedushka.top",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇵🇱 PL 06 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "pl1.dedushka.top",
-      "port": 443,
-      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
-      "tls": {
-        "enabled": true,
-        "server_name": "pl1.dedushka.top",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇵🇱 PL 07 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "pl2.dedushka.top",
@@ -130,7 +90,20 @@
       }
     },
     {
-      "tag": "🇵🇱 PL 08 - xiaohe",
+      "tag": "🇵🇱 PL 05 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "31.133.0.182",
+      "port": 443,
+      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+      "tls": {
+        "enabled": true,
+        "server_name": "pl1.dedushka.top",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 06 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "2.26.225.89",
@@ -145,7 +118,7 @@
       }
     },
     {
-      "tag": "🇵🇱 PL 09 - xiaohe",
+      "tag": "🇵🇱 PL 07 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "2.26.225.89",
@@ -160,10 +133,23 @@
       }
     },
     {
-      "tag": "🇵🇱 PL 10 - xiaohe",
+      "tag": "🇵🇱 PL 08 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "pl2.dedushka.top",
+      "server": "pl1.dedushka.top",
+      "port": 443,
+      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+      "tls": {
+        "enabled": true,
+        "server_name": "pl1.dedushka.top",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 09 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "31.133.0.186",
       "port": 443,
       "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
       "tls": {
@@ -173,13 +159,30 @@
       }
     },
     {
+      "tag": "🇵🇱 PL 10 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "pl1.dedushka.top",
+      "port": 443,
+      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+      "tls": {
+        "enabled": true,
+        "server_name": "pl1.dedushka.top",
+        "insecure": true
+      }
+    },
+    {
       "tag": "🇵🇱 PL 11 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "edge10.cyrionflare.com",
-      "port": 2052,
-      "uuid": "1a8ecc41-6e62-431b-8eca-87c2fa4dc286",
-      "flow": ""
+      "type": "trojan",
+      "server": "31.133.0.182",
+      "port": 443,
+      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+      "tls": {
+        "enabled": true,
+        "server_name": "pl1.dedushka.top",
+        "insecure": true
+      }
     },
     {
       "tag": "🇵🇱 PL 12 - xiaohe",
@@ -190,7 +193,7 @@
       "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
       "tls": {
         "enabled": true,
-        "server_name": "pl2.dedushka.top",
+        "server_name": "31.133.0.186",
         "insecure": true
       }
     },
@@ -206,28 +209,11 @@
     {
       "tag": "🇵🇱 PL 14 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "31.133.0.186",
-      "port": 443,
-      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
-      "tls": {
-        "enabled": true,
-        "server_name": "pl2.dedushka.top",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇵🇱 PL 15 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "pl2.dedushka.top",
-      "port": 443,
-      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
-      "tls": {
-        "enabled": true,
-        "server_name": "pl2.dedushka.top",
-        "insecure": true
-      }
+      "type": "vless",
+      "server": "edge10.cyrionflare.com",
+      "port": 2052,
+      "uuid": "1a8ecc41-6e62-431b-8eca-87c2fa4dc286",
+      "flow": ""
     }
   ]
 }

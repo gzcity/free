@@ -12,8 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇪 IE 01 - xiaohe",
-        "🇮🇪 IE 02 - xiaohe"
+        "🇮🇪 IE 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -28,20 +27,15 @@
     {
       "tag": "🇮🇪 IE 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "20.166.51.228",
+      "type": "trojan",
+      "server": "ie1.dedushka.top",
       "port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "LVMlhvK82To1FGsy"
-    },
-    {
-      "tag": "🇮🇪 IE 02 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "20.166.51.228",
-      "port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "LVMlhvK82To1FGsy"
+      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+      "tls": {
+        "enabled": true,
+        "server_name": "ie1.dedushka.top",
+        "insecure": true
+      }
     }
   ]
 }

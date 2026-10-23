@@ -16,10 +16,7 @@
         "🇫🇷 法国 (France) 02 - xiaohe",
         "🇫🇷 法国 (France) 03 - xiaohe",
         "🇫🇷 法国 (France) 04 - xiaohe",
-        "🇫🇷 法国 (France) 05 - xiaohe",
-        "🇫🇷 法国 (France) 06 - xiaohe",
-        "🇫🇷 法国 (France) 07 - xiaohe",
-        "🇫🇷 法国 (France) 08 - xiaohe"
+        "🇫🇷 法国 (France) 05 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -35,20 +32,35 @@
       "tag": "🇫🇷 法国 (France) 01 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "57.128.164.21",
+      "server": "145.239.55.210",
       "port": 80,
-      "uuid": "bda82bcd-f6e2-46ae-9552-673f0b87ac30",
+      "uuid": "067fcd63-b215-4abd-8529-ae929a9971a9",
       "alterId": 0,
       "security": "auto",
       "ws": {
-        "path": "/d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560",
+        "path": "/",
         "headers": {
-          "Host": "https.http.www.net.com.ramseyv2.ir."
+          "Host": "google.whatsapp.snapp.torob.basalam.fortresshost.ir."
         }
       }
     },
     {
       "tag": "🇫🇷 法国 (France) 02 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "141.95.65.9",
+      "port": 1234,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 03 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "162.19.204.71",
@@ -63,7 +75,7 @@
       }
     },
     {
-      "tag": "🇫🇷 法国 (France) 03 - xiaohe",
+      "tag": "🇫🇷 法国 (France) 04 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "54.37.131.126",
@@ -79,87 +91,18 @@
       }
     },
     {
-      "tag": "🇫🇷 法国 (France) 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "51.77.217.70",
-      "port": 2053,
-      "uuid": "bf16ee0c-8b3c-41e4-ab3a-8b48033c404e",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w",
-        "short_id": ""
-      }
-    },
-    {
       "tag": "🇫🇷 法国 (France) 05 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "162.19.204.71",
-      "port": 1234,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 06 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "145.239.55.210",
+      "server": "57.128.164.21",
       "port": 80,
-      "uuid": "067fcd63-b215-4abd-8529-ae929a9971a9",
+      "uuid": "bda82bcd-f6e2-46ae-9552-673f0b87ac30",
       "alterId": 0,
       "security": "auto",
       "ws": {
-        "path": "/",
+        "path": "/d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560",
         "headers": {
-          "Host": "google.whatsapp.snapp.torob.basalam.fortresshost.ir."
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 07 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "141.95.65.9",
-      "port": 1234,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 08 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "fr2.downbala.com",
-      "port": 443,
-      "uuid": "1252717c-393b-4ab7-96f7-7f49cf77e9e3",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "t0.m.awsstatic.com",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/timer/?ed=2560",
-        "headers": {
-          "Host": "fr2.downbala.com"
+          "Host": "https.http.www.net.com.ramseyv2.ir."
         }
       }
     }

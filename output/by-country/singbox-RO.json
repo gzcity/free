@@ -14,7 +14,11 @@
       "outbounds": [
         "🇷🇴 RO 01 - xiaohe",
         "🇷🇴 RO 02 - xiaohe",
-        "🇷🇴 RO 03 - xiaohe"
+        "🇷🇴 RO 03 - xiaohe",
+        "🇷🇴 RO 04 - xiaohe",
+        "🇷🇴 RO 05 - xiaohe",
+        "🇷🇴 RO 06 - xiaohe",
+        "🇷🇴 RO 07 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -54,6 +58,50 @@
     },
     {
       "tag": "🇷🇴 RO 03 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "194.68.44.42",
+      "port": 64546,
+      "method": "chacha20-ietf-poly1305",
+      "password": "U83u9OGpvSatIUW7LsWffr"
+    },
+    {
+      "tag": "🇷🇴 RO 04 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "it1.dedushka.top",
+      "port": 443,
+      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+      "tls": {
+        "enabled": true,
+        "server_name": "it1.dedushka.top",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇷🇴 RO 05 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "bogging-eyeteeth-fly.freesocks.work",
+      "port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "QFWzCw2uX9B9i6qAYeFBIE"
+    },
+    {
+      "tag": "🇷🇴 RO 06 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "de1.dedushka.top",
+      "port": 443,
+      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+      "tls": {
+        "enabled": true,
+        "server_name": "de1.dedushka.top",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇷🇴 RO 07 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "de1.dedushka.top",
