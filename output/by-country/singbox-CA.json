@@ -68,22 +68,13 @@
       "tag": "🇨🇦 加拿大 (Canada) 01 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "51.222.200.165",
-      "port": 5000,
-      "method": "aes-256-gcm",
-      "password": "Y6R9pAtvxxzmGC"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 02 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "51.79.85.185",
-      "port": 8118,
+      "server": "51.79.64.198",
+      "port": 8119,
       "method": "aes-256-gcm",
       "password": "cdBIDV42DCwnfIN"
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 03 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "66.70.179.198",
@@ -94,20 +85,31 @@
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "insecure": true,
-        "client_fingerprint": "chrome",
+        "client_fingerprint": "random",
         "reality": true,
         "public_key": "k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU",
         "short_id": ""
       }
     },
     {
+      "tag": "🇨🇦 加拿大 (Canada) 03 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "134.195.196.211",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
       "tag": "🇨🇦 加拿大 (Canada) 04 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "212.74.39.214",
-      "port": 8080,
-      "uuid": "6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8",
-      "flow": ""
+      "type": "vmess",
+      "server": "134.195.196.211",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 05 - xiaohe",
@@ -132,30 +134,20 @@
     {
       "tag": "🇨🇦 加拿大 (Canada) 07 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "23.162.200.198",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
+      "type": "shadowsocks",
+      "server": "149.22.95.183",
+      "port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 08 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "66.70.179.198",
-      "port": 2053,
-      "uuid": "dc620cd6-a9d8-4a0f-8f18-006b895db77e",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "random",
-        "reality": true,
-        "public_key": "k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU",
-        "short_id": ""
-      }
+      "type": "shadowsocks",
+      "server": "51.222.12.127",
+      "port": 445,
+      "method": "aes-256-gcm",
+      "password": "zDNVedRFPQexG9v"
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 09 - xiaohe",
@@ -180,25 +172,16 @@
       "tag": "🇨🇦 加拿大 (Canada) 11 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "66.70.179.198",
-      "port": 2053,
-      "uuid": "dc620cd6-a9d8-4a0f-8f18-006b895db77e",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "random",
-        "reality": true,
-        "public_key": "k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU",
-        "short_id": ""
-      }
+      "server": "milo.rubinaz.xyz",
+      "port": 8080,
+      "uuid": "6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8",
+      "flow": ""
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 12 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "23.162.200.198",
+      "server": "134.195.196.211",
       "port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "alterId": 0,
@@ -207,51 +190,48 @@
     {
       "tag": "🇨🇦 加拿大 (Canada) 13 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "51.79.64.198",
-      "port": 8119,
-      "method": "aes-256-gcm",
-      "password": "cdBIDV42DCwnfIN"
+      "type": "vless",
+      "server": "milo.rubinaz.xyz",
+      "port": 8080,
+      "uuid": "6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8",
+      "flow": ""
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 14 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "23.162.200.198",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
+      "type": "vless",
+      "server": "66.70.179.198",
+      "port": 2053,
+      "uuid": "dc620cd6-a9d8-4a0f-8f18-006b895db77e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU",
+        "short_id": ""
+      }
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 15 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "51.222.136.236",
-      "port": 8882,
+      "server": "51.79.85.185",
+      "port": 8118,
       "method": "aes-256-gcm",
-      "password": "kDWvXYZoTBcGkC4"
+      "password": "cdBIDV42DCwnfIN"
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 16 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "148.113.196.75",
-      "port": 8443,
-      "uuid": "08f96221-9b7b-4e6f-8ffe-aee8b9c9b504",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ov-canada1.09vpn.com",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/vless/",
-        "headers": {
-          "Host": "148.113.196.75"
-        }
-      }
+      "type": "vmess",
+      "server": "134.195.196.211",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 17 - xiaohe",
@@ -276,6 +256,37 @@
     {
       "tag": "🇨🇦 加拿大 (Canada) 19 - xiaohe",
       "udp": true,
+      "type": "vless",
+      "server": "148.113.196.75",
+      "port": 8443,
+      "uuid": "08f96221-9b7b-4e6f-8ffe-aee8b9c9b504",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ov-canada1.09vpn.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/vless/",
+        "headers": {
+          "Host": "148.113.196.75"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 20 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "134.195.196.211",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 21 - xiaohe",
+      "udp": true,
       "type": "shadowsocks",
       "server": "51.222.12.127",
       "port": 445,
@@ -283,51 +294,22 @@
       "password": "zDNVedRFPQexG9v"
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 20 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "149.22.95.183",
-      "port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 21 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "134.195.196.211",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
       "tag": "🇨🇦 加拿大 (Canada) 22 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "134.195.196.211",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
+      "type": "shadowsocks",
+      "server": "51.222.141.125",
+      "port": 445,
+      "method": "aes-256-gcm",
+      "password": "zDNVedRFPQexG9v"
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 23 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "66.70.179.198",
-      "port": 2053,
-      "uuid": "dc620cd6-a9d8-4a0f-8f18-006b895db77e",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU",
-        "short_id": ""
-      }
+      "type": "shadowsocks",
+      "server": "51.222.155.32",
+      "port": 5003,
+      "method": "aes-256-gcm",
+      "password": "g5MeD6Ft3CWlJId"
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 24 - xiaohe",
@@ -343,7 +325,7 @@
       "tag": "🇨🇦 加拿大 (Canada) 25 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "134.195.196.211",
+      "server": "23.162.200.198",
       "port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "alterId": 0,
@@ -362,53 +344,23 @@
     {
       "tag": "🇨🇦 加拿大 (Canada) 27 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "134.195.196.211",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
+      "type": "vless",
+      "server": "milo.rubinaz.xyz",
+      "port": 8080,
+      "uuid": "6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8",
+      "flow": ""
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 28 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "51.79.49.116",
+      "server": "51.222.136.236",
       "port": 8882,
       "method": "aes-256-gcm",
       "password": "kDWvXYZoTBcGkC4"
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 29 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "134.195.196.211",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 30 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "134.195.196.211",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 31 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "51.222.141.125",
-      "port": 445,
-      "method": "aes-256-gcm",
-      "password": "zDNVedRFPQexG9v"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 32 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "66.70.179.198",
@@ -426,19 +378,58 @@
       }
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 33 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 30 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "134.195.196.211",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 31 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "212.74.39.214",
-      "port": 8080,
-      "uuid": "6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8",
-      "flow": ""
+      "server": "66.70.179.198",
+      "port": 2053,
+      "uuid": "dc620cd6-a9d8-4a0f-8f18-006b895db77e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 32 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "134.195.196.211",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 33 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "23.162.200.198",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 34 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "134.195.196.211",
+      "server": "23.162.200.198",
       "port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "alterId": 0,
@@ -457,26 +448,17 @@
     {
       "tag": "🇨🇦 加拿大 (Canada) 36 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "66.70.179.198",
-      "port": 2053,
-      "uuid": "dc620cd6-a9d8-4a0f-8f18-006b895db77e",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU",
-        "short_id": ""
-      }
+      "type": "shadowsocks",
+      "server": "51.79.49.116",
+      "port": 8882,
+      "method": "aes-256-gcm",
+      "password": "kDWvXYZoTBcGkC4"
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 37 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "134.195.196.211",
+      "server": "23.162.200.198",
       "port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "alterId": 0,
@@ -485,26 +467,18 @@
     {
       "tag": "🇨🇦 加拿大 (Canada) 38 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "66.70.179.198",
-      "port": 2053,
-      "uuid": "dc620cd6-a9d8-4a0f-8f18-006b895db77e",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU",
-        "short_id": ""
-      }
+      "type": "vmess",
+      "server": "23.162.200.198",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 39 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "23.162.200.198",
+      "server": "134.195.196.211",
       "port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "alterId": 0,

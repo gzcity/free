@@ -12,8 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇲 AM 01 - xiaohe",
-        "🇦🇲 AM 02 - xiaohe"
+        "🇦🇲 AM 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -27,21 +26,6 @@
     },
     {
       "tag": "🇦🇲 AM 01 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "194.36.37.59",
-      "port": 10004,
-      "uuid": "f7376394-cd54-11f1-bb6a-bff6d0326f6a",
-      "flow": "",
-      "ws": {
-        "path": "/vpnjantit",
-        "headers": {
-          "Host": "194.36.37.59"
-        }
-      }
-    },
-    {
-      "tag": "🇦🇲 AM 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "194.36.37.59",

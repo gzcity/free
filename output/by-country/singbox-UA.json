@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇿 KZ 01 - xiaohe"
+        "🇺🇦 UA 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,18 +25,23 @@
       "tag": "block"
     },
     {
-      "tag": "🇰🇿 KZ 01 - xiaohe",
+      "tag": "🇺🇦 UA 01 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "38.107.234.57",
-      "port": 80,
-      "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
-      "alterId": 0,
-      "security": "auto",
+      "type": "vless",
+      "server": "213.111.148.137",
+      "port": 443,
+      "uuid": "40af9131-d540-448a-bc56-5bba147a1dc3",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "proxy-1cu.pages.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
       "ws": {
-        "path": "/vmess/",
+        "path": "/fp=android",
         "headers": {
-          "Host": "38.107.234.57"
+          "Host": "proxy-1cu.pages.dev"
         }
       }
     }

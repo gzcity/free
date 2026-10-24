@@ -12,8 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇪 IE 01 - xiaohe",
-        "🇮🇪 IE 02 - xiaohe"
+        "🇮🇪 IE 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -27,15 +26,6 @@
     },
     {
       "tag": "🇮🇪 IE 01 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "20.223.233.241",
-      "port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "Ds3hlPero5ov6gae"
-    },
-    {
-      "tag": "🇮🇪 IE 02 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "20.223.233.241",
