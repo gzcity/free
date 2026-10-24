@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇰 LK 01 - xiaohe"
+        "🇰🇿 KZ 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,18 +25,21 @@
       "tag": "block"
     },
     {
-      "tag": "🇱🇰 LK 01 - xiaohe",
+      "tag": "🇰🇿 KZ 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "free.sahanwickramasinghe.me",
-      "port": 80,
-      "uuid": "fcdb24e3-5e66-4c45-b89e-ac9441f4dcda",
+      "server": "46.8.43.125",
+      "port": 443,
+      "uuid": "846cedee-2a52-4a62-a0b9-11850ead6a8b",
       "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "free.sahanwickramasinghe.me"
-        }
+      "tls": {
+        "enabled": true,
+        "server_name": "kz-central.v8x2b.lol",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "ER-T5En54-sn6IXy7jU8vQVcBbOiWvznnezf3qZ273w",
+        "short_id": ""
       }
     }
   ]

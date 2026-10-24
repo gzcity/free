@@ -15,7 +15,8 @@
         "🇷🇴 RO 01 - xiaohe",
         "🇷🇴 RO 02 - xiaohe",
         "🇷🇴 RO 03 - xiaohe",
-        "🇷🇴 RO 04 - xiaohe"
+        "🇷🇴 RO 04 - xiaohe",
+        "🇷🇴 RO 05 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -56,6 +57,15 @@
     },
     {
       "tag": "🇷🇴 RO 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "edge10.cyrionflare.com",
+      "port": 2052,
+      "uuid": "1a8ecc41-6e62-431b-8eca-87c2fa4dc286",
+      "flow": ""
+    },
+    {
+      "tag": "🇷🇴 RO 05 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "edge10.cyrionflare.com",
