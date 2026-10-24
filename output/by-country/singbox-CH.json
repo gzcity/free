@@ -30,15 +30,6 @@
     {
       "tag": "🇨🇭 CH 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "132.243.175.144",
-      "port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3"
-    },
-    {
-      "tag": "🇨🇭 CH 02 - xiaohe",
-      "udp": true,
       "type": "vless",
       "server": "208.69.78.217",
       "port": 2053,
@@ -55,46 +46,40 @@
       }
     },
     {
+      "tag": "🇨🇭 CH 02 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "132.243.175.144",
+      "port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3"
+    },
+    {
       "tag": "🇨🇭 CH 03 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "185.18.250.245",
-      "port": 443,
-      "uuid": "f77299ea-e13d-417d-8cdc-ce5566dfc94b",
+      "server": "208.69.78.217",
+      "port": 2053,
+      "uuid": "c0dd6d59-1573-43af-8b70-1470b2632a6d",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "edu.ruangguru.com.r3xxe.eu.cc",
+        "server_name": "www.apple.com",
         "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/nl-tw",
-        "headers": {
-          "Host": "edu.ruangguru.com.r3xxe.eu.cc"
-        }
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0",
+        "short_id": ""
       }
     },
     {
       "tag": "🇨🇭 CH 04 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "57.129.52.47",
-      "port": 52014,
-      "uuid": "ecc4675b-1607-4699-8b20-23af97b671af",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev"
-        }
-      }
+      "type": "shadowsocks",
+      "server": "132.243.175.144",
+      "port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3"
     }
   ]
 }
