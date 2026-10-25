@@ -13,11 +13,7 @@
       "tag": "auto",
       "outbounds": [
         "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 06 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -32,89 +28,14 @@
     {
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "217.19.122.156",
-      "port": 443,
-      "uuid": "a443d7bf-f506-46ce-b64d-cf8891c0a9f7",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "z1q3pv4g78.rucdncomp.pro",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/useraction/events/b892639b7195/",
-        "headers": {
-          "Host": "z1q3pv4g78.rucdncomp.pro"
-        }
-      }
+      "type": "shadowsocks",
+      "server": "195.133.23.50",
+      "port": 18443,
+      "method": "aes-256-gcm",
+      "password": "Lpq5UPVHtQYiuB9jEUNc2WkeIYCUH9DE"
     },
     {
       "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "130.49.189.158",
-      "port": 43558,
-      "method": "chacha20-ietf-poly1305",
-      "password": "rWIg16plgZ82V7MTNcw1UTgiYK4ooPUB95qVhKIwIDc="
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "158.160.180.165",
-      "port": 24212,
-      "uuid": "c58c1205-b308-416f-8503-c04557abf93d",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "158.160.180.165",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "46.243.142.104",
-      "port": 443,
-      "uuid": "9ba53795-4356-40ab-8067-76ec2ae2a3d8",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "santehdv.site",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/media/stream/qUWu2oaFgxAw",
-        "headers": {
-          "Host": "santehdv.site"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "pl1.h1cloud.net",
-      "port": 27591,
-      "uuid": "056405e8-de9f-4d0d-8145-956f13cc34da",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.samsung.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 06 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "46.17.43.227",
