@@ -13,7 +13,8 @@
       "tag": "auto",
       "outbounds": [
         "🇲🇾 MY 01 - xiaohe",
-        "🇲🇾 MY 02 - xiaohe"
+        "🇲🇾 MY 02 - xiaohe",
+        "🇲🇾 MY 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -29,20 +30,14 @@
       "tag": "🇲🇾 MY 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "216.173.67.59",
-      "port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "server": "platform128.golnamakcert.top",
+      "port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
       "ws": {
-        "path": "/fp=chrome",
+        "path": "/platform128",
         "headers": {
-          "Host": "ccc.010304.xyz"
+          "Host": "platform128.halalkhor.info"
         }
       }
     },
@@ -62,6 +57,27 @@
         "reality": true,
         "public_key": "jT5prLDhvJ86zZVz5pDX907oQbeZ0Hyb_VcDSiJxQQU",
         "short_id": ""
+      }
+    },
+    {
+      "tag": "🇲🇾 MY 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "216.173.67.59",
+      "port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/fp=chrome",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
       }
     }
   ]

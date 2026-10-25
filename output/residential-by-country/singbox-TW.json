@@ -12,7 +12,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe"
+        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -43,6 +44,19 @@
         "headers": {
           "Host": "60.248.219.54"
         }
+      }
+    },
+    {
+      "tag": "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "gu232.izzzzzi.com",
+      "port": 20052,
+      "password": "e56e752c86a640cd",
+      "tls": {
+        "enabled": true,
+        "server_name": "gu232.izzzzzi.com",
+        "insecure": true
       }
     }
   ]

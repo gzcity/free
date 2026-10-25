@@ -51,20 +51,14 @@
       "tag": "🇱🇹 LT 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "88.216.69.253",
-      "port": 443,
-      "uuid": "c4edb87e-8544-4fa4-bd1c-b0cda9a34b46",
+      "server": "88.216.69.30",
+      "port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "a.cwvps.eu.org",
-        "insecure": true,
-        "client_fingerprint": null
-      },
       "ws": {
-        "path": "/ws",
+        "path": "/",
         "headers": {
-          "Host": "a.cwvps.eu.org"
+          "Host": "vms.lifetime06.workers.dev"
         }
       }
     },
