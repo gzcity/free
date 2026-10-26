@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇸🇨 SC 01 - xiaohe",
+        "🇸🇨 SC 02 - xiaohe"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "tag": "🇸🇨 SC 01 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "156.239.224.107",
+      "port": 57278,
+      "uuid": "1270bed5-f908-4ecc-f1c8-de246033b186",
+      "alterId": 0,
+      "security": "auto",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC 02 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "156.239.224.107",
+      "port": 57278,
+      "uuid": "1270bed5-f908-4ecc-f1c8-de246033b186",
+      "alterId": 0,
+      "security": "auto",
+      "ws": {
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    }
+  ]
+}

@@ -44,7 +44,7 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/fp=chromefp=chrome",
+        "path": "/fp=chrome",
         "headers": {
           "Host": "ccc.010304.xyz"
         }
@@ -62,7 +62,7 @@
         "enabled": true,
         "server_name": "www.apple.com",
         "insecure": true,
-        "client_fingerprint": "chrome",
+        "client_fingerprint": "random",
         "reality": true,
         "public_key": "bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104",
         "short_id": ""
@@ -80,7 +80,7 @@
         "enabled": true,
         "server_name": "www.apple.com",
         "insecure": true,
-        "client_fingerprint": "firefox",
+        "client_fingerprint": "chrome",
         "reality": true,
         "public_key": "bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104",
         "short_id": ""
@@ -89,14 +89,32 @@
     {
       "tag": "🇹🇷 土耳其 (Turkey) 04 - xiaohe",
       "udp": true,
+      "type": "vless",
+      "server": "151.241.226.201",
+      "port": 2053,
+      "uuid": "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇹🇷 土耳其 (Turkey) 05 - xiaohe",
+      "udp": true,
       "type": "shadowsocks",
-      "server": "87.236.166.49",
+      "server": "location8.cpanel-host10.ir",
       "port": 56134,
       "method": "chacha20-ietf-poly1305",
       "password": "uvKNudV-N8AUCrykPiyznA"
     },
     {
-      "tag": "🇹🇷 土耳其 (Turkey) 05 - xiaohe",
+      "tag": "🇹🇷 土耳其 (Turkey) 06 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "155.103.71.142",
@@ -110,20 +128,11 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/fp=chrome",
+        "path": "/fp=chromefp=chrome",
         "headers": {
           "Host": "ccc.010304.xyz"
         }
       }
-    },
-    {
-      "tag": "🇹🇷 土耳其 (Turkey) 06 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "87.236.166.215",
-      "port": 56134,
-      "method": "chacha20-ietf-poly1305",
-      "password": "uvKNudV-N8AUCrykPiyznA"
     }
   ]
 }
