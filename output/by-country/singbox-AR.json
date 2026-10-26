@@ -12,8 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇾 CY 01 - xiaohe",
-        "🇨🇾 CY 02 - xiaohe"
+        "🇦🇷 AR 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -26,28 +25,25 @@
       "tag": "block"
     },
     {
-      "tag": "🇨🇾 CY 01 - xiaohe",
+      "tag": "🇦🇷 AR 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "5.253.29.254",
-      "port": 14430,
-      "uuid": "c7c27192-60a5-4ce1-b613-95270d82309d",
+      "server": "131.255.6.88",
+      "port": 443,
+      "uuid": "04c808e2-0b59-47b0-a54b-32fc7ef1c902",
       "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "free.cndyw.ggff.net",
+        "insecure": true,
+        "client_fingerprint": null
+      },
       "ws": {
-        "path": "/vless",
+        "path": "/",
         "headers": {
-          "Host": "5.253.29.254"
+          "Host": "free.cndyw.ggff.net"
         }
       }
-    },
-    {
-      "tag": "🇨🇾 CY 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "5.253.29.254",
-      "port": 10443,
-      "uuid": "c7c27192-60a5-4ce1-b613-95270d82309d",
-      "flow": ""
     }
   ]
 }

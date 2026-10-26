@@ -12,7 +12,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇻🇳 VN 01 - xiaohe"
+        "🇻🇳 VN 01 - xiaohe",
+        "🇻🇳 VN 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -32,6 +33,24 @@
       "port": 2086,
       "uuid": "b83faafc-cbb7-4655-99d4-2c4c39a49d1b",
       "flow": ""
+    },
+    {
+      "tag": "🇻🇳 VN 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "163.61.182.194",
+      "port": 34646,
+      "uuid": "608af979-75ff-4480-b1fd-9c4a36962835",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "api.receptivity.io",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "UuXUXzPnZM8IY-D5bQPy4iBIzEpK4PJFEOJzeObISRA",
+        "short_id": ""
+      }
     }
   ]
 }

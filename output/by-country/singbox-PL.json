@@ -17,7 +17,10 @@
         "🇵🇱 PL 03 - xiaohe",
         "🇵🇱 PL 04 - xiaohe",
         "🇵🇱 PL 05 - xiaohe",
-        "🇵🇱 PL 06 - xiaohe"
+        "🇵🇱 PL 06 - xiaohe",
+        "🇵🇱 PL 07 - xiaohe",
+        "🇵🇱 PL 08 - xiaohe",
+        "🇵🇱 PL 09 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -42,10 +45,16 @@
       "tag": "🇵🇱 PL 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "edge10.cyrionflare.com",
-      "port": 2052,
-      "uuid": "1a8ecc41-6e62-431b-8eca-87c2fa4dc286",
-      "flow": ""
+      "server": "2.26.6.1",
+      "port": 2087,
+      "uuid": "b9fdc03f-389b-4cda-9be4-155b623bee15",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "2.26.6.1",
+        "insecure": true,
+        "client_fingerprint": null
+      }
     },
     {
       "tag": "🇵🇱 PL 03 - xiaohe",
@@ -60,9 +69,9 @@
       "tag": "🇵🇱 PL 04 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "edge10.cyrionflare.com",
-      "port": 2052,
-      "uuid": "1a8ecc41-6e62-431b-8eca-87c2fa4dc286",
+      "server": "site.teslamotor.site",
+      "port": 20001,
+      "uuid": "8e8210b7-71a4-4799-8b9b-2e69698b1eaf",
       "flow": ""
     },
     {
@@ -82,6 +91,51 @@
       "port": 20001,
       "uuid": "8e8210b7-71a4-4799-8b9b-2e69698b1eaf",
       "flow": ""
+    },
+    {
+      "tag": "🇵🇱 PL 07 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "tr2.soft10.ir",
+      "port": 2053,
+      "uuid": "480b4042-f713-43d7-b24b-b4064c97f841",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "tr2.soft10.ir",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "tr2.soft10.ir"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 08 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "site.teslamotor.site",
+      "port": 20001,
+      "uuid": "8e8210b7-71a4-4799-8b9b-2e69698b1eaf",
+      "flow": ""
+    },
+    {
+      "tag": "🇵🇱 PL 09 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "2.26.6.1",
+      "port": 2087,
+      "uuid": "b9fdc03f-389b-4cda-9be4-155b623bee15",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "2.26.6.1",
+        "insecure": true,
+        "client_fingerprint": null
+      }
     }
   ]
 }

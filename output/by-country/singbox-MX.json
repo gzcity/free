@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇲🇽 MX 01 - xiaohe",
+        "🇲🇽 MX 02 - xiaohe"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "tag": "🇲🇽 MX 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "mx001.zestapp778.com",
+      "port": 19167,
+      "uuid": "e9a8144e-5237-488a-afb1-9ca3d8d54c80",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "mx001.zestapp778.com",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇲🇽 MX 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "131.196.253.141",
+      "port": 443,
+      "uuid": "0575005f-0ba9-4d6d-85e0-4a6a8cbafc1b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "kclx.eu.org",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/154.16.10.34-8080",
+        "headers": {
+          "Host": "kclx.eu.org"
+        }
+      }
+    }
+  ]
+}
