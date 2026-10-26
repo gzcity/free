@@ -27,11 +27,20 @@
     {
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "46.17.43.227",
-      "port": 18443,
-      "method": "aes-256-gcm",
-      "password": "NTiHBg64fsY8u8DbGrtypD9gPGSL386p"
+      "type": "vless",
+      "server": "de12b.h1cloud.net",
+      "port": 25172,
+      "uuid": "5a519754-a673-4462-83f6-5eb25d2af141",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "Xr55Hig_JTeUluiGfSnma6zMHG2Uv5Xu30ZODGF5xGA",
+        "short_id": ""
+      }
     }
   ]
 }

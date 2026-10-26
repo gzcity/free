@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇷 AR 01 - xiaohe"
+        "🇱🇺 LU 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,24 +25,21 @@
       "tag": "block"
     },
     {
-      "tag": "🇦🇷 AR 01 - xiaohe",
+      "tag": "🇱🇺 LU 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "131.255.6.88",
-      "port": 443,
-      "uuid": "04c808e2-0b59-47b0-a54b-32fc7ef1c902",
+      "server": "107.189.7.176",
+      "port": 32752,
+      "uuid": "4970c1cd-13e1-498a-920a-61d07be2fa65",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "free.cndyw.ggff.net",
+        "server_name": "www.apple.com",
         "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "free.cndyw.ggff.net"
-        }
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "pfFcQxKv4EPhCDUoZMCmTjj4FK7HHQg_me-In3bOejA",
+        "short_id": ""
       }
     }
   ]
