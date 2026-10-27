@@ -46,15 +46,6 @@
       "tag": "🇧🇾 BY 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "178.172.227.124",
-      "port": 10443,
-      "uuid": "1af36694-b548-4b18-89a0-bc076eab4ed7",
-      "flow": ""
-    },
-    {
-      "tag": "🇧🇾 BY 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
       "server": "178.172.227.228",
       "port": 14430,
       "uuid": "b6e5dc56-836f-48c1-9163-b0b0b43b647d",
@@ -67,7 +58,7 @@
       }
     },
     {
-      "tag": "🇧🇾 BY 04 - xiaohe",
+      "tag": "🇧🇾 BY 03 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "178.172.227.124",
@@ -80,6 +71,15 @@
           "Host": "178.172.227.124"
         }
       }
+    },
+    {
+      "tag": "🇧🇾 BY 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "178.172.227.124",
+      "port": 10443,
+      "uuid": "1af36694-b548-4b18-89a0-bc076eab4ed7",
+      "flow": ""
     }
   ]
 }

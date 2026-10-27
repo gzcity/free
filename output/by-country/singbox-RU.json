@@ -13,7 +13,8 @@
       "tag": "auto",
       "outbounds": [
         "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -28,6 +29,19 @@
     {
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
       "udp": true,
+      "type": "trojan",
+      "server": "de-bots4.h1cloud.net",
+      "port": 25267,
+      "password": "happybirthdaydaniel",
+      "tls": {
+        "enabled": true,
+        "server_name": "t.me/FuckTheWall",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
+      "udp": true,
       "type": "shadowsocks",
       "server": "91.206.92.238",
       "port": 18443,
@@ -35,7 +49,7 @@
       "password": "cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa"
     },
     {
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "195.133.5.107",

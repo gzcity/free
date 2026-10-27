@@ -27,22 +27,14 @@
     {
       "tag": "🇮🇱 IL 01 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "177.3.208.65",
+      "type": "trojan",
+      "server": "64.176.163.182",
       "port": 443,
-      "uuid": "4f34bc04-479c-49ba-91a8-6bb9ed15031c",
-      "flow": "",
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "tgmansion.site",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/vless-il",
-        "headers": {
-          "Host": "tgmansion.site"
-        }
+        "server_name": "exploreeducationsectoropportunitiestodayandadvancecareers.com",
+        "insecure": true
       }
     }
   ]

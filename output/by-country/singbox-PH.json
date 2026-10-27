@@ -15,7 +15,9 @@
         "🇵🇭 PH 01 - xiaohe",
         "🇵🇭 PH 02 - xiaohe",
         "🇵🇭 PH 03 - xiaohe",
-        "🇵🇭 PH 04 - xiaohe"
+        "🇵🇭 PH 04 - xiaohe",
+        "🇵🇭 PH 05 - xiaohe",
+        "🇵🇭 PH 06 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -46,7 +48,7 @@
       "tag": "🇵🇭 PH 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "ph001.zestapp778.com",
+      "server": "130.94.53.51",
       "port": 15656,
       "uuid": "e9a8144e-5237-488a-afb1-9ca3d8d54c80",
       "flow": "",
@@ -74,6 +76,36 @@
     },
     {
       "tag": "🇵🇭 PH 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "ph001.zestapp778.com",
+      "port": 15656,
+      "uuid": "e9a8144e-5237-488a-afb1-9ca3d8d54c80",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ph001.zestapp778.com",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇵🇭 PH 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "130.94.53.51",
+      "port": 15656,
+      "uuid": "e9a8144e-5237-488a-afb1-9ca3d8d54c80",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ph001.zestapp778.com",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇵🇭 PH 06 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "130.94.53.51",
