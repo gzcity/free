@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇱 IL 01 - xiaohe"
+        "🇧🇬 BG 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,16 +25,21 @@
       "tag": "block"
     },
     {
-      "tag": "🇮🇱 IL 01 - xiaohe",
+      "tag": "🇧🇬 BG 01 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "64.176.163.182",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "type": "vless",
+      "server": "p11real3.greewebservices.ir",
+      "port": 2202,
+      "uuid": "f234330e-f9df-46e3-8f60-b2af5173c147",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "exploreeducationsectoropportunitiestodayandadvancecareers.com",
-        "insecure": true
+        "server_name": "play.googleapis.com",
+        "insecure": true,
+        "client_fingerprint": "ios",
+        "reality": true,
+        "public_key": "xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8",
+        "short_id": ""
       }
     }
   ]
