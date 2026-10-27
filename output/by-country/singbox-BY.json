@@ -15,8 +15,7 @@
         "🇧🇾 BY 01 - xiaohe",
         "🇧🇾 BY 02 - xiaohe",
         "🇧🇾 BY 03 - xiaohe",
-        "🇧🇾 BY 04 - xiaohe",
-        "🇧🇾 BY 05 - xiaohe"
+        "🇧🇾 BY 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -69,21 +68,6 @@
     },
     {
       "tag": "🇧🇾 BY 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "178.172.227.228",
-      "port": 14430,
-      "uuid": "b6e5dc56-836f-48c1-9163-b0b0b43b647d",
-      "flow": "",
-      "ws": {
-        "path": "/vless",
-        "headers": {
-          "Host": "178.172.227.228"
-        }
-      }
-    },
-    {
-      "tag": "🇧🇾 BY 05 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "178.172.227.124",
