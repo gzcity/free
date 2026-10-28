@@ -13,7 +13,8 @@
       "tag": "auto",
       "outbounds": [
         "🇲🇽 MX 01 - xiaohe",
-        "🇲🇽 MX 02 - xiaohe"
+        "🇲🇽 MX 02 - xiaohe",
+        "🇲🇽 MX 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -49,6 +50,21 @@
         "enabled": true,
         "server_name": "connectwithtopemployersandfindidealjobs.com",
         "insecure": true
+      }
+    },
+    {
+      "tag": "🇲🇽 MX 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "mx001.zestapp778.com",
+      "port": 19167,
+      "uuid": "e9a8144e-5237-488a-afb1-9ca3d8d54c80",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "mx001.zestapp778.com",
+        "insecure": true,
+        "client_fingerprint": null
       }
     }
   ]

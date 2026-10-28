@@ -12,7 +12,9 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇺 俄罗斯 (Russia) 01 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -28,7 +30,7 @@
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "xsru2.freeddns.org",
+      "server": "147.45.175.81",
       "port": 443,
       "uuid": "c90395e6-2140-47ad-a54d-9b166729d3ef",
       "flow": "",
@@ -44,6 +46,24 @@
           "Host": "xsru2.freeddns.org"
         }
       }
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "46.17.41.61",
+      "port": 18443,
+      "method": "aes-256-gcm",
+      "password": "NTiHBg64fsY8u8DbGrtypD9gPGSL386p"
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "91.206.92.238",
+      "port": 18443,
+      "method": "aes-256-gcm",
+      "password": "cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa"
     }
   ]
 }

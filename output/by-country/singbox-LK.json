@@ -15,7 +15,8 @@
         "🇱🇰 LK 01 - xiaohe",
         "🇱🇰 LK 02 - xiaohe",
         "🇱🇰 LK 03 - xiaohe",
-        "🇱🇰 LK 04 - xiaohe"
+        "🇱🇰 LK 04 - xiaohe",
+        "🇱🇰 LK 05 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -68,7 +69,7 @@
       "ws": {
         "path": "/",
         "headers": {
-          "Host": "free.nadun.store"
+          "Host": "Free.nadun.store"
         }
       }
     },
@@ -77,6 +78,21 @@
       "udp": true,
       "type": "vless",
       "server": "170.114.45.6",
+      "port": 8080,
+      "uuid": "990bf436-f1b9-4e7f-857d-14378acc4ae5",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "free.nadun.store"
+        }
+      }
+    },
+    {
+      "tag": "🇱🇰 LK 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "support.zoom.us",
       "port": 8080,
       "uuid": "990bf436-f1b9-4e7f-857d-14378acc4ae5",
       "flow": "",

@@ -24,7 +24,11 @@
         "🇮🇳 印度 (India) 10 - xiaohe",
         "🇮🇳 印度 (India) 11 - xiaohe",
         "🇮🇳 印度 (India) 12 - xiaohe",
-        "🇮🇳 印度 (India) 13 - xiaohe"
+        "🇮🇳 印度 (India) 13 - xiaohe",
+        "🇮🇳 印度 (India) 14 - xiaohe",
+        "🇮🇳 印度 (India) 15 - xiaohe",
+        "🇮🇳 印度 (India) 16 - xiaohe",
+        "🇮🇳 印度 (India) 17 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -40,6 +44,24 @@
       "tag": "🇮🇳 印度 (India) 01 - xiaohe",
       "udp": true,
       "type": "vless",
+      "server": "194.61.31.126",
+      "port": 2053,
+      "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "random",
+        "reality": true,
+        "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇮🇳 印度 (India) 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
       "server": "13.140.56.100",
       "port": 14430,
       "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
@@ -49,21 +71,6 @@
         "headers": {
           "Host": "13.140.56.100"
         }
-      }
-    },
-    {
-      "tag": "🇮🇳 印度 (India) 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "in002.zestapp778.com",
-      "port": 46362,
-      "uuid": "e9a8144e-5237-488a-afb1-9ca3d8d54c80",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "in002.zestapp778.com",
-        "insecure": true,
-        "client_fingerprint": null
       }
     },
     {
@@ -78,7 +85,7 @@
         "enabled": true,
         "server_name": "www.apple.com",
         "insecure": true,
-        "client_fingerprint": "chrome",
+        "client_fingerprint": "random",
         "reality": true,
         "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
         "short_id": ""
@@ -88,15 +95,15 @@
       "tag": "🇮🇳 印度 (India) 04 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "in002.zestapp778.com",
-      "port": 46362,
-      "uuid": "e9a8144e-5237-488a-afb1-9ca3d8d54c80",
+      "server": "13.140.56.100",
+      "port": 14430,
+      "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "in002.zestapp778.com",
-        "insecure": true,
-        "client_fingerprint": null
+      "ws": {
+        "path": "/vless",
+        "headers": {
+          "Host": "13.140.56.100"
+        }
       }
     },
     {
@@ -139,25 +146,40 @@
       "tag": "🇮🇳 印度 (India) 07 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "122.176.216.52",
+      "server": "in.smrtai.top",
       "port": 443,
-      "uuid": "16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
+      "uuid": "6bdc8320-7eae-46fc-be08-f5f54e65dfc8",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "app-6ada5023.deploy.meerasolution.com",
+        "server_name": "www.cloudflare.com",
         "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
-        "headers": {
-          "Host": "app-6ada5023.deploy.meerasolution.com"
-        }
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q",
+        "short_id": ""
       }
     },
     {
       "tag": "🇮🇳 印度 (India) 08 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "194.61.31.126",
+      "port": 2053,
+      "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇮🇳 印度 (India) 09 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "13.140.56.100",
@@ -172,7 +194,7 @@
       }
     },
     {
-      "tag": "🇮🇳 印度 (India) 09 - xiaohe",
+      "tag": "🇮🇳 印度 (India) 10 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "178.212.35.198",
@@ -190,49 +212,28 @@
       }
     },
     {
-      "tag": "🇮🇳 印度 (India) 10 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "13.140.56.100",
-      "port": 14430,
-      "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
-      "flow": "",
-      "ws": {
-        "path": "/vless",
-        "headers": {
-          "Host": "13.140.56.100"
-        }
-      }
-    },
-    {
       "tag": "🇮🇳 印度 (India) 11 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "13.140.56.100",
-      "port": 14430,
-      "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
+      "server": "in.smrtai.top",
+      "port": 443,
+      "uuid": "6bdc8320-7eae-46fc-be08-f5f54e65dfc8",
       "flow": "",
-      "ws": {
-        "path": "/vless",
-        "headers": {
-          "Host": "13.140.56.100"
-        }
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q",
+        "short_id": ""
       }
     },
     {
       "tag": "🇮🇳 印度 (India) 12 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "172.105.39.124",
-      "port": 7002,
-      "method": "aes-256-gcm",
-      "password": "RexnBgU7EV5ADxG"
-    },
-    {
-      "tag": "🇮🇳 印度 (India) 13 - xiaohe",
-      "udp": true,
       "type": "vless",
-      "server": "139.84.145.241",
+      "server": "in002.zestapp778.com",
       "port": 46362,
       "uuid": "e9a8144e-5237-488a-afb1-9ca3d8d54c80",
       "flow": "",
@@ -241,6 +242,96 @@
         "server_name": "in002.zestapp778.com",
         "insecure": true,
         "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇮🇳 印度 (India) 13 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "13.140.56.100",
+      "port": 14430,
+      "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
+      "flow": "",
+      "ws": {
+        "path": "/vless",
+        "headers": {
+          "Host": "13.140.56.100"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇳 印度 (India) 14 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "178.212.35.198",
+      "port": 443,
+      "uuid": "6bdc8320-7eae-46fc-be08-f5f54e65dfc8",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇮🇳 印度 (India) 15 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "194.61.31.126",
+      "port": 2053,
+      "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇮🇳 印度 (India) 16 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "194.61.31.126",
+      "port": 2053,
+      "uuid": "1d4e18bd-1f26-4915-b35a-7ace4826e76a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇮🇳 印度 (India) 17 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "122.176.216.52",
+      "port": 443,
+      "uuid": "16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "app-6ada5023.deploy.meerasolution.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
+        "headers": {
+          "Host": "app-6ada5023.deploy.meerasolution.com"
+        }
       }
     }
   ]
