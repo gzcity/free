@@ -21,7 +21,9 @@
         "🇵🇱 PL 07 - xiaohe",
         "🇵🇱 PL 08 - xiaohe",
         "🇵🇱 PL 09 - xiaohe",
-        "🇵🇱 PL 10 - xiaohe"
+        "🇵🇱 PL 10 - xiaohe",
+        "🇵🇱 PL 11 - xiaohe",
+        "🇵🇱 PL 12 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -35,6 +37,75 @@
     },
     {
       "tag": "🇵🇱 PL 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "2.26.6.1",
+      "port": 2087,
+      "uuid": "b9fdc03f-389b-4cda-9be4-155b623bee15",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "2.26.6.1",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "168.222.43.53",
+      "port": 2052,
+      "uuid": "1a8ecc41-6e62-431b-8eca-87c2fa4dc286",
+      "flow": ""
+    },
+    {
+      "tag": "🇵🇱 PL 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "155.117.5.208",
+      "port": 20001,
+      "uuid": "8e8210b7-71a4-4799-8b9b-2e69698b1eaf",
+      "flow": ""
+    },
+    {
+      "tag": "🇵🇱 PL 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "site.teslamotor.site",
+      "port": 20001,
+      "uuid": "8e8210b7-71a4-4799-8b9b-2e69698b1eaf",
+      "flow": ""
+    },
+    {
+      "tag": "🇵🇱 PL 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "site.teslamotor.site",
+      "port": 20001,
+      "uuid": "8e8210b7-71a4-4799-8b9b-2e69698b1eaf",
+      "flow": ""
+    },
+    {
+      "tag": "🇵🇱 PL 06 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "edge10.cyrionflare.com",
+      "port": 2052,
+      "uuid": "1a8ecc41-6e62-431b-8eca-87c2fa4dc286",
+      "flow": ""
+    },
+    {
+      "tag": "🇵🇱 PL 07 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "site.teslamotor.site",
+      "port": 20001,
+      "uuid": "8e8210b7-71a4-4799-8b9b-2e69698b1eaf",
+      "flow": ""
+    },
+    {
+      "tag": "🇵🇱 PL 08 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "216.24.57.225",
@@ -55,7 +126,7 @@
       }
     },
     {
-      "tag": "🇵🇱 PL 02 - xiaohe",
+      "tag": "🇵🇱 PL 09 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "2.26.6.1",
@@ -68,69 +139,6 @@
         "insecure": true,
         "client_fingerprint": null
       }
-    },
-    {
-      "tag": "🇵🇱 PL 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "site.teslamotor.site",
-      "port": 20001,
-      "uuid": "8e8210b7-71a4-4799-8b9b-2e69698b1eaf",
-      "flow": ""
-    },
-    {
-      "tag": "🇵🇱 PL 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "site.teslamotor.site",
-      "port": 20001,
-      "uuid": "8e8210b7-71a4-4799-8b9b-2e69698b1eaf",
-      "flow": ""
-    },
-    {
-      "tag": "🇵🇱 PL 05 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "edge10.cyrionflare.com",
-      "port": 2052,
-      "uuid": "1a8ecc41-6e62-431b-8eca-87c2fa4dc286",
-      "flow": ""
-    },
-    {
-      "tag": "🇵🇱 PL 06 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "168.222.43.53",
-      "port": 2052,
-      "uuid": "1a8ecc41-6e62-431b-8eca-87c2fa4dc286",
-      "flow": ""
-    },
-    {
-      "tag": "🇵🇱 PL 07 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "site.teslamotor.site",
-      "port": 20001,
-      "uuid": "8e8210b7-71a4-4799-8b9b-2e69698b1eaf",
-      "flow": ""
-    },
-    {
-      "tag": "🇵🇱 PL 08 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "site.teslamotor.site",
-      "port": 20001,
-      "uuid": "8e8210b7-71a4-4799-8b9b-2e69698b1eaf",
-      "flow": ""
-    },
-    {
-      "tag": "🇵🇱 PL 09 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "site.teslamotor.site",
-      "port": 20001,
-      "uuid": "8e8210b7-71a4-4799-8b9b-2e69698b1eaf",
-      "flow": ""
     },
     {
       "tag": "🇵🇱 PL 10 - xiaohe",
@@ -146,6 +154,36 @@
         "insecure": true,
         "client_fingerprint": null
       }
+    },
+    {
+      "tag": "🇵🇱 PL 11 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "216.24.57.225",
+      "port": 2083,
+      "uuid": "3bcbd7ef-e05b-4745-a1de-5ecf98dd2fb6",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "pol.netvia.ir",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/wss",
+        "headers": {
+          "Host": "pol.netvia.ir"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 12 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "site.teslamotor.site",
+      "port": 20001,
+      "uuid": "8e8210b7-71a4-4799-8b9b-2e69698b1eaf",
+      "flow": ""
     }
   ]
 }
