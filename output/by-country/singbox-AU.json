@@ -16,7 +16,8 @@
         "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
         "🇦🇺 澳大利亚 (Australia) 03 - xiaohe",
         "🇦🇺 澳大利亚 (Australia) 04 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 05 - xiaohe"
+        "🇦🇺 澳大利亚 (Australia) 05 - xiaohe",
+        "🇦🇺 澳大利亚 (Australia) 06 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -37,41 +38,15 @@
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "connectwithemployerstohireyouridealteam.com",
+        "server_name": "45.63.30.142",
         "insecure": true
       }
     },
     {
       "tag": "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "45.63.30.142",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "45.63.30.142",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇦🇺 澳大利亚 (Australia) 03 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "45.63.30.142",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "45.63.30.142",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇦🇺 澳大利亚 (Australia) 04 - xiaohe",
-      "udp": true,
       "type": "vless",
-      "server": "au001.zestapp778.com",
+      "server": "149.28.177.190",
       "port": 35652,
       "uuid": "e9a8144e-5237-488a-afb1-9ca3d8d54c80",
       "flow": "",
@@ -80,6 +55,34 @@
         "server_name": "au001.zestapp778.com",
         "insecure": true,
         "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇦🇺 澳大利亚 (Australia) 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "149.28.177.190",
+      "port": 35652,
+      "uuid": "e9a8144e-5237-488a-afb1-9ca3d8d54c80",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "au001.zestapp778.com",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇦🇺 澳大利亚 (Australia) 04 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "45.63.30.142",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "connectwithemployerstohireyouridealteam.com",
+        "insecure": true
       }
     },
     {
@@ -92,6 +95,19 @@
       "tls": {
         "enabled": true,
         "server_name": "connectwithemployerstohireyouridealteam.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇦🇺 澳大利亚 (Australia) 06 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "45.63.30.142",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "45.63.30.142",
         "insecure": true
       }
     }

@@ -12,7 +12,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇺 LU 01 - xiaohe"
+        "🇱🇺 LU 01 - xiaohe",
+        "🇱🇺 LU 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -26,6 +27,24 @@
     },
     {
       "tag": "🇱🇺 LU 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "107.189.7.176",
+      "port": 32752,
+      "uuid": "4970c1cd-13e1-498a-920a-61d07be2fa65",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "pfFcQxKv4EPhCDUoZMCmTjj4FK7HHQg_me-In3bOejA",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇱🇺 LU 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "107.189.7.176",

@@ -12,13 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 06 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 07 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -32,54 +26,6 @@
     },
     {
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "217.19.122.156",
-      "port": 443,
-      "uuid": "c720cb74-4c84-4fce-b8ae-637dbaa16199",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "z1q3pv4g78.rucdncomp.pro",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/useraction/events/b892639b7195/",
-        "headers": {
-          "Host": "z1q3pv4g78.rucdncomp.pro"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "171.22.119.74",
-      "port": 8447,
-      "uuid": "6aed42ba-cd2d-4671-87d9-c949b6876888",
-      "flow": ""
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "171.22.119.74",
-      "port": 8447,
-      "uuid": "6aed42ba-cd2d-4671-87d9-c949b6876888",
-      "flow": ""
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "171.22.119.74",
-      "port": 8447,
-      "uuid": "6aed42ba-cd2d-4671-87d9-c949b6876888",
-      "flow": ""
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "xsru2.freeddns.org",
@@ -98,24 +44,6 @@
           "Host": "xsru2.freeddns.org"
         }
       }
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 06 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "alb.rvpn.app",
-      "port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "hTTg7lwQMzpaF7KXpY3A8w"
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 07 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "130.49.189.158",
-      "port": 43558,
-      "method": "chacha20-ietf-poly1305",
-      "password": "cZGr8nLHdf+FE5ZAw0Y/Rzsml4AyikGL481Pg7eBpsI="
     }
   ]
 }

@@ -14,8 +14,7 @@
       "outbounds": [
         "🇨🇭 CH 01 - xiaohe",
         "🇨🇭 CH 02 - xiaohe",
-        "🇨🇭 CH 03 - xiaohe",
-        "🇨🇭 CH 04 - xiaohe"
+        "🇨🇭 CH 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -39,6 +38,15 @@
     {
       "tag": "🇨🇭 CH 02 - xiaohe",
       "udp": true,
+      "type": "shadowsocks",
+      "server": "132.243.175.144",
+      "port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3"
+    },
+    {
+      "tag": "🇨🇭 CH 03 - xiaohe",
+      "udp": true,
       "type": "vless",
       "server": "208.69.78.217",
       "port": 2053,
@@ -52,36 +60,6 @@
         "reality": true,
         "public_key": "A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0",
         "short_id": ""
-      }
-    },
-    {
-      "tag": "🇨🇭 CH 03 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "132.243.175.144",
-      "port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3"
-    },
-    {
-      "tag": "🇨🇭 CH 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "147.45.42.73",
-      "port": 20443,
-      "uuid": "f293db4d-7ab1-4faf-bb15-89540d8709cb",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/@Marisa_kristi",
-        "headers": {
-          "Host": "8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev"
-        }
       }
     }
   ]
