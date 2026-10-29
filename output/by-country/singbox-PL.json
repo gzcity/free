@@ -24,7 +24,8 @@
         "🇵🇱 PL 10 - xiaohe",
         "🇵🇱 PL 11 - xiaohe",
         "🇵🇱 PL 12 - xiaohe",
-        "🇵🇱 PL 13 - xiaohe"
+        "🇵🇱 PL 13 - xiaohe",
+        "🇵🇱 PL 14 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -40,13 +41,40 @@
       "tag": "🇵🇱 PL 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "168.222.43.53",
+      "server": "site.teslamotor.site",
+      "port": 20001,
+      "uuid": "8e8210b7-71a4-4799-8b9b-2e69698b1eaf",
+      "flow": ""
+    },
+    {
+      "tag": "🇵🇱 PL 02 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "pol.rvpn.app",
+      "port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "8z2OB_gvFvpKgjFi8s9Cvw"
+    },
+    {
+      "tag": "🇵🇱 PL 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "edge10.cyrionflare.com",
       "port": 2052,
       "uuid": "1a8ecc41-6e62-431b-8eca-87c2fa4dc286",
       "flow": ""
     },
     {
-      "tag": "🇵🇱 PL 02 - xiaohe",
+      "tag": "🇵🇱 PL 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "site.teslamotor.site",
+      "port": 20001,
+      "uuid": "8e8210b7-71a4-4799-8b9b-2e69698b1eaf",
+      "flow": ""
+    },
+    {
+      "tag": "🇵🇱 PL 05 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "2.26.6.1",
@@ -61,7 +89,7 @@
       }
     },
     {
-      "tag": "🇵🇱 PL 03 - xiaohe",
+      "tag": "🇵🇱 PL 06 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "164.37.224.228",
@@ -77,39 +105,6 @@
         "public_key": "wkpC2kKl2gNMM6uOP-K1__k70YUKS8c5t7aFW_PF7UM",
         "short_id": ""
       }
-    },
-    {
-      "tag": "🇵🇱 PL 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "2.26.6.1",
-      "port": 2087,
-      "uuid": "b9fdc03f-389b-4cda-9be4-155b623bee15",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "2.26.6.1",
-        "insecure": true,
-        "client_fingerprint": null
-      }
-    },
-    {
-      "tag": "🇵🇱 PL 05 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "site.teslamotor.site",
-      "port": 20001,
-      "uuid": "8e8210b7-71a4-4799-8b9b-2e69698b1eaf",
-      "flow": ""
-    },
-    {
-      "tag": "🇵🇱 PL 06 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "site.teslamotor.site",
-      "port": 20001,
-      "uuid": "8e8210b7-71a4-4799-8b9b-2e69698b1eaf",
-      "flow": ""
     },
     {
       "tag": "🇵🇱 PL 07 - xiaohe",
@@ -133,6 +128,21 @@
       "tag": "🇵🇱 PL 09 - xiaohe",
       "udp": true,
       "type": "vless",
+      "server": "2.26.6.1",
+      "port": 2087,
+      "uuid": "b9fdc03f-389b-4cda-9be4-155b623bee15",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "2.26.6.1",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 10 - xiaohe",
+      "udp": true,
+      "type": "vless",
       "server": "216.24.57.225",
       "port": 2083,
       "uuid": "3bcbd7ef-e05b-4745-a1de-5ecf98dd2fb6",
@@ -151,28 +161,13 @@
       }
     },
     {
-      "tag": "🇵🇱 PL 10 - xiaohe",
+      "tag": "🇵🇱 PL 11 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "site.teslamotor.site",
       "port": 20001,
       "uuid": "8e8210b7-71a4-4799-8b9b-2e69698b1eaf",
       "flow": ""
-    },
-    {
-      "tag": "🇵🇱 PL 11 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "2.26.6.1",
-      "port": 2087,
-      "uuid": "b9fdc03f-389b-4cda-9be4-155b623bee15",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "2.26.6.1",
-        "insecure": true,
-        "client_fingerprint": null
-      }
     },
     {
       "tag": "🇵🇱 PL 12 - xiaohe",
@@ -187,7 +182,16 @@
       "tag": "🇵🇱 PL 13 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "edge10.cyrionflare.com",
+      "server": "site.teslamotor.site",
+      "port": 20001,
+      "uuid": "8e8210b7-71a4-4799-8b9b-2e69698b1eaf",
+      "flow": ""
+    },
+    {
+      "tag": "🇵🇱 PL 14 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "168.222.43.53",
       "port": 2052,
       "uuid": "1a8ecc41-6e62-431b-8eca-87c2fa4dc286",
       "flow": ""

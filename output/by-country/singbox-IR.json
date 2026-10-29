@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇼 中国台湾 (Taiwan) 01 - xiaohe"
+        "🇮🇷 IR 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,24 +25,18 @@
       "tag": "block"
     },
     {
-      "tag": "🇹🇼 中国台湾 (Taiwan) 01 - xiaohe",
+      "tag": "🇮🇷 IR 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "60.248.219.78",
-      "port": 443,
-      "uuid": "c1c04450-bf71-4049-ad0c-9cf6d94d9f1f",
+      "server": "req.apptrendv.com",
+      "port": 2083,
+      "uuid": "7cc18adc-1ef0-42c9-8e7b-722d7622c7dd",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "ty986gfazs.cainiaohub.xyz",
+        "server_name": "email.apptrendv.com",
         "insecure": true,
         "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/81574b6b-c9d7-44a0-b83d-dad56e8cb530",
-        "headers": {
-          "Host": "60.248.219.78"
-        }
       }
     }
   ]

@@ -75,7 +75,12 @@
         "🌐 其他地区 (Other) 61 - xiaohe",
         "🌐 其他地区 (Other) 62 - xiaohe",
         "🌐 其他地区 (Other) 63 - xiaohe",
-        "🌐 其他地区 (Other) 64 - xiaohe"
+        "🌐 其他地区 (Other) 64 - xiaohe",
+        "🌐 其他地区 (Other) 65 - xiaohe",
+        "🌐 其他地区 (Other) 66 - xiaohe",
+        "🌐 其他地区 (Other) 67 - xiaohe",
+        "🌐 其他地区 (Other) 68 - xiaohe",
+        "🌐 其他地区 (Other) 69 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -91,7 +96,7 @@
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.18.35.15",
+      "server": "104.18.45.38",
       "port": 443,
       "uuid": "d342d11e-d224-4463-b982-532309285094",
       "flow": "",
@@ -102,7 +107,7 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/fp=chrome",
+        "path": "/fp",
         "headers": {
           "Host": "ccc.010304.xyz"
         }
@@ -112,20 +117,20 @@
       "tag": "🌐 其他地区 (Other) 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.18.37.127",
+      "server": "172.67.141.182",
       "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "uuid": "ce440dcf-e570-4a50-af37-bf588ee8a988",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "jp3.yohototo.top",
+        "server_name": "6qwoom7kdrcoan3ui4ra5dy.pages.dev",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/tyxyws",
+        "path": "/vl/KSPdmco70dfoXFS292o2Nv6yPt?ed=2560#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET",
         "headers": {
-          "Host": "jp3.yohototo.top"
+          "Host": "6qwoom7kdrcoan3ui4ra5dy.pages.dev"
         }
       }
     },
@@ -133,127 +138,7 @@
       "tag": "🌐 其他地区 (Other) 03 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "172.64.150.28",
-      "port": 2082,
-      "uuid": "e5cc16a6-ea42-46b2-82ae-ad2157e1641b",
-      "flow": "",
-      "ws": {
-        "path": "/fp",
-        "headers": {
-          "Host": "hhlfy.twiladaphne.ndjp.net"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.16.111.195",
-      "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 05 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.27.46.35",
-      "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 06 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "162.159.254.3",
-      "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 07 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.18.35.15",
-      "port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/fp=chrome",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 08 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "188.114.97.6",
-      "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 09 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.64.158.170",
+      "server": "104.18.45.38",
       "port": 443,
       "uuid": "d342d11e-d224-4463-b982-532309285094",
       "flow": "",
@@ -271,256 +156,10 @@
       }
     },
     {
-      "tag": "🌐 其他地区 (Other) 10 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 04 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "172.64.150.181",
-      "port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 11 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.18.36.242",
-      "port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 12 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.21.70.228",
-      "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 13 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.18.47.73",
-      "port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 14 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.17.50.227",
-      "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 15 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "8.47.69.60",
-      "port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 16 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.18.0.181",
-      "port": 8080,
-      "uuid": "e5cc16a6-ea42-46b2-82ae-ad2157e1641b",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "hhlfy.twiladaphne.ndjp.net"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 17 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.66.154.57",
-      "port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 18 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.66.154.57",
-      "port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 19 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.66.154.57",
-      "port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 20 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.24.0.1",
-      "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 21 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.16.10.185",
-      "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 22 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "chatgpt.com",
+      "server": "104.18.35.15",
       "port": 443,
       "uuid": "d342d11e-d224-4463-b982-532309285094",
       "flow": "",
@@ -538,175 +177,7 @@
       }
     },
     {
-      "tag": "🌐 其他地区 (Other) 23 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.16.10.48",
-      "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 24 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.64.152.241",
-      "port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/fp",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 25 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.64.152.241",
-      "port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/fp=chrome",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 26 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.21.219.160",
-      "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 27 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.17.50.53",
-      "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 28 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.64.146.66",
-      "port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 29 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.66.154.57",
-      "port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 30 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "cf.090227.xyz",
-      "port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/fp=chromefp=chrome",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 31 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 05 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "172.64.153.153",
@@ -727,52 +198,25 @@
       }
     },
     {
-      "tag": "🌐 其他地区 (Other) 32 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 06 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.19.33.237",
-      "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "server": "172.64.150.28",
+      "port": 2082,
+      "uuid": "e5cc16a6-ea42-46b2-82ae-ad2157e1641b",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
       "ws": {
-        "path": "/tyxyws",
+        "path": "/fp",
         "headers": {
-          "Host": "jp3.yohototo.top"
+          "Host": "hhlfy.twiladaphne.ndjp.net"
         }
       }
     },
     {
-      "tag": "🌐 其他地区 (Other) 33 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 07 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.24.0.1",
-      "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 34 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.18.45.38",
+      "server": "172.64.153.66",
       "port": 443,
       "uuid": "d342d11e-d224-4463-b982-532309285094",
       "flow": "",
@@ -783,14 +227,266 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/fp",
+        "path": "/",
         "headers": {
           "Host": "ccc.010304.xyz"
         }
       }
     },
     {
-      "tag": "🌐 其他地区 (Other) 35 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 08 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "8.47.69.60",
+      "port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 09 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.64.155.209",
+      "port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 10 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.21.221.158",
+      "port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/fp=chrome",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 11 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "8.47.69.60",
+      "port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 12 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.67.145.14",
+      "port": 443,
+      "uuid": "50414e45-4c5f-5a45-5553-7bac159e3b40",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "web-app-ji3j1z.app-wuuhuw.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/api/ws",
+        "headers": {
+          "Host": "web-app-ji3j1z.app-wuuhuw.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 13 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.19.48.107",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 14 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.64.146.66",
+      "port": 443,
+      "uuid": "16e80f38-e97e-4b14-ba89-77d87a3e637f",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ex3r.qzz.io",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/sg-orcl",
+        "headers": {
+          "Host": "ex3r.qzz.io"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 15 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.27.110.37",
+      "port": 443,
+      "uuid": "50414e45-4c5f-5a45-5553-7bac159e3b40",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "web-app-ji3j1z.app-wuuhuw.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/api/ws",
+        "headers": {
+          "Host": "web-app-ji3j1z.app-wuuhuw.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 16 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.18.32.47",
+      "port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 17 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.18.35.15",
+      "port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/fp=chrome",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 18 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "px2.5ibtc.cn",
+      "port": 443,
+      "uuid": "326227e2-f2d1-4f43-8715-9da854f5f4c0",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "px2.5ibtc.cn",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/326227e2-f2d1-4f43-8715-9da854f5f4c0",
+        "headers": {
+          "Host": "px2.5ibtc.cn"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 19 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.26.4.2",
+      "port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/fp=chromefp=chrome",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 20 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "172.64.152.241",
@@ -804,17 +500,38 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/fp",
+        "path": "/fp=chrome",
         "headers": {
           "Host": "ccc.010304.xyz"
         }
       }
     },
     {
-      "tag": "🌐 其他地区 (Other) 36 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 21 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.18.45.38",
+      "server": "104.21.73.135",
+      "port": 443,
+      "uuid": "50414e45-4c5f-5a45-5553-7bac159e3b40",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "web-app-ji3j1z.app-wuuhuw.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/api/ws",
+        "headers": {
+          "Host": "web-app-ji3j1z.app-wuuhuw.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 22 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.18.47.73",
       "port": 443,
       "uuid": "d342d11e-d224-4463-b982-532309285094",
       "flow": "",
@@ -825,17 +542,179 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560",
+        "path": "/",
         "headers": {
           "Host": "ccc.010304.xyz"
         }
       }
     },
     {
-      "tag": "🌐 其他地区 (Other) 37 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 23 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.21.6.186",
+      "server": "cf.090227.xyz",
+      "port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/fp=chromefp=chrome",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 24 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.66.154.57",
+      "port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 25 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "cf.877774.xyz",
+      "port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 26 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.67.160.192",
+      "port": 443,
+      "uuid": "2bcfbfba-b446-4ad5-93ad-72af9e008f61",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nuclear.us.kg",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/free/103.101.153.32:443",
+        "headers": {
+          "Host": "nuclear.us.kg"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 27 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.18.35.86",
+      "port": 2082,
+      "uuid": "e5cc16a6-ea42-46b2-82ae-ad2157e1641b",
+      "flow": "",
+      "ws": {
+        "path": "/fp",
+        "headers": {
+          "Host": "hhlfy.twiladaphne.ndjp.net"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 28 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.64.144.198",
+      "port": 443,
+      "uuid": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "powered-by-surena.configfarsi695fcfe8a2e58.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "powered-by-surena.configfarsi695fcfe8a2e58.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 29 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.18.45.176",
+      "port": 443,
+      "uuid": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "powered-by-surena.configfarsi695fce27aa549.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/?ed",
+        "headers": {
+          "Host": "powered-by-surena.configfarsi695fce27aa549.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 30 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.64.147.154",
+      "port": 443,
+      "uuid": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "powered-by-surena.configfarsi695fcfe8a2e58.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "powered-by-surena.configfarsi695fcfe8a2e58.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 31 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.16.10.9",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -853,10 +732,136 @@
       }
     },
     {
+      "tag": "🌐 其他地区 (Other) 32 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.18.40.100",
+      "port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/fp=chrome",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 33 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "188.114.97.6",
+      "port": 2087,
+      "uuid": "50414e45-4c5f-5a45-5553-6f51879c0594",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "levikoconfig.levikogjgfdd.ir",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "levikoconfig.levikogjgfdd.ir"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 34 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.64.147.84",
+      "port": 443,
+      "uuid": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "powered-by-surena.configfarsi695fce27aa549.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/?ed",
+        "headers": {
+          "Host": "powered-by-surena.configfarsi695fce27aa549.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 35 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.18.36.242",
+      "port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 36 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.18.41.190",
+      "port": 443,
+      "uuid": "16e80f38-e97e-4b14-ba89-77d87a3e637f",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ex3r.qzz.io",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/sg-orcl",
+        "headers": {
+          "Host": "ex3r.qzz.io"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 37 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.64.146.66",
+      "port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      }
+    },
+    {
       "tag": "🌐 其他地区 (Other) 38 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.18.32.47",
+      "server": "104.18.47.73",
       "port": 443,
       "uuid": "d342d11e-d224-4463-b982-532309285094",
       "flow": "",
@@ -888,7 +893,7 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/fp=chrome",
+        "path": "/fp=unsafe",
         "headers": {
           "Host": "ccc.010304.xyz"
         }
@@ -898,7 +903,7 @@
       "tag": "🌐 其他地区 (Other) 40 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "cf.877774.xyz",
+      "server": "172.64.229.72",
       "port": 443,
       "uuid": "d342d11e-d224-4463-b982-532309285094",
       "flow": "",
@@ -919,7 +924,7 @@
       "tag": "🌐 其他地区 (Other) 41 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.17.50.227",
+      "server": "188.114.97.6",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -940,37 +945,7 @@
       "tag": "🌐 其他地区 (Other) 42 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "172.64.150.28",
-      "port": 2082,
-      "uuid": "e5cc16a6-ea42-46b2-82ae-ad2157e1641b",
-      "flow": "",
-      "ws": {
-        "path": "/fp",
-        "headers": {
-          "Host": "hhlfy.twiladaphne.ndjp.net"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 43 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.17.44.17",
-      "port": 8080,
-      "uuid": "e5cc16a6-ea42-46b2-82ae-ad2157e1641b",
-      "flow": "",
-      "ws": {
-        "path": "/sg-melbi",
-        "headers": {
-          "Host": "hhlfy.twiladaphne.ndjp.net"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 44 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.64.155.209",
+      "server": "104.18.41.86",
       "port": 443,
       "uuid": "d342d11e-d224-4463-b982-532309285094",
       "flow": "",
@@ -988,28 +963,28 @@
       }
     },
     {
-      "tag": "🌐 其他地区 (Other) 45 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 43 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "cf.877774.xyz",
+      "server": "172.67.160.192",
       "port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "uuid": "2bcfbfba-b446-4ad5-93ad-72af9e008f61",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "ccc.010304.xyz",
+        "server_name": "nuclear.us.kg",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/fp",
+        "path": "/free/1.226.227.169:50001",
         "headers": {
-          "Host": "ccc.010304.xyz"
+          "Host": "nuclear.us.kg"
         }
       }
     },
     {
-      "tag": "🌐 其他地区 (Other) 46 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 44 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "172.64.157.229",
@@ -1030,10 +1005,10 @@
       }
     },
     {
-      "tag": "🌐 其他地区 (Other) 47 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 45 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "8.47.69.60",
+      "server": "104.18.41.190",
       "port": 443,
       "uuid": "d342d11e-d224-4463-b982-532309285094",
       "flow": "",
@@ -1047,6 +1022,48 @@
         "path": "/",
         "headers": {
           "Host": "ccc.010304.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 46 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.64.145.202",
+      "port": 2083,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "newwk1.f1w.de5.net",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "newwk1.f1w.de5.net"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 47 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.64.144.240",
+      "port": 443,
+      "uuid": "87c467e9-f0af-4b03-8fbd-65fd375d3a26",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "pmpmppm.pages.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/?ed=2048fp=randomizedfp=chrome",
+        "headers": {
+          "Host": "pmpmppm.pages.dev"
         }
       }
     },
@@ -1075,20 +1092,20 @@
       "tag": "🌐 其他地区 (Other) 49 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "172.64.153.66",
+      "server": "104.24.0.1",
       "port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "ccc.010304.xyz",
+        "server_name": "jp3.yohototo.top",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/",
+        "path": "/tyxyws",
         "headers": {
-          "Host": "ccc.010304.xyz"
+          "Host": "jp3.yohototo.top"
         }
       }
     },
@@ -1096,20 +1113,20 @@
       "tag": "🌐 其他地区 (Other) 50 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.18.47.73",
-      "port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "server": "188.114.97.6",
+      "port": 2096,
+      "uuid": "50414e45-4c5f-5a45-5553-6f51879c0594",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "ccc.010304.xyz",
+        "server_name": "levikoconfig.levikogjgfdd.ir",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
         "path": "/",
         "headers": {
-          "Host": "ccc.010304.xyz"
+          "Host": "levikoconfig.levikogjgfdd.ir"
         }
       }
     },
@@ -1117,7 +1134,7 @@
       "tag": "🌐 其他地区 (Other) 51 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.18.41.190",
+      "server": "172.64.152.241",
       "port": 443,
       "uuid": "d342d11e-d224-4463-b982-532309285094",
       "flow": "",
@@ -1128,7 +1145,7 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/",
+        "path": "/fp",
         "headers": {
           "Host": "ccc.010304.xyz"
         }
@@ -1138,20 +1155,14 @@
       "tag": "🌐 其他地区 (Other) 52 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.21.70.21",
-      "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "server": "172.64.150.28",
+      "port": 2082,
+      "uuid": "e5cc16a6-ea42-46b2-82ae-ad2157e1641b",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
       "ws": {
-        "path": "/tyxyws",
+        "path": "/fp",
         "headers": {
-          "Host": "jp3.yohototo.top"
+          "Host": "hhlfy.twiladaphne.ndjp.net"
         }
       }
     },
@@ -1159,20 +1170,20 @@
       "tag": "🌐 其他地区 (Other) 53 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "172.67.156.147",
+      "server": "172.66.154.57",
       "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "jp3.yohototo.top",
+        "server_name": "ccc.010304.xyz",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/tyxyws",
+        "path": "/",
         "headers": {
-          "Host": "jp3.yohototo.top"
+          "Host": "ccc.010304.xyz"
         }
       }
     },
@@ -1180,7 +1191,7 @@
       "tag": "🌐 其他地区 (Other) 54 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "cf.090227.xyz",
+      "server": "104.21.221.158",
       "port": 443,
       "uuid": "d342d11e-d224-4463-b982-532309285094",
       "flow": "",
@@ -1201,7 +1212,7 @@
       "tag": "🌐 其他地区 (Other) 55 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.21.221.158",
+      "server": "172.64.152.241",
       "port": 443,
       "uuid": "d342d11e-d224-4463-b982-532309285094",
       "flow": "",
@@ -1212,7 +1223,7 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/fp=unsafe",
+        "path": "/fp",
         "headers": {
           "Host": "ccc.010304.xyz"
         }
@@ -1222,7 +1233,7 @@
       "tag": "🌐 其他地区 (Other) 56 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.18.153.10",
+      "server": "188.114.98.0",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -1243,20 +1254,20 @@
       "tag": "🌐 其他地区 (Other) 57 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.21.0.87",
+      "server": "104.27.124.133",
       "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "uuid": "50414e45-4c5f-5a45-5553-7bac159e3b40",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "jp3.yohototo.top",
+        "server_name": "web-app-ji3j1z.app-wuuhuw.workers.dev",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/tyxyws",
+        "path": "/api/ws",
         "headers": {
-          "Host": "jp3.yohototo.top"
+          "Host": "web-app-ji3j1z.app-wuuhuw.workers.dev"
         }
       }
     },
@@ -1264,7 +1275,70 @@
       "tag": "🌐 其他地区 (Other) 58 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.16.10.234",
+      "server": "172.64.158.170",
+      "port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 59 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "vl.cocopon.top",
+      "port": 443,
+      "uuid": "44f06ad1-982c-4e03-849f-899c1c8dc14f",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "vl.cocopon.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/fp=chrome",
+        "headers": {
+          "Host": "vl.cocopon.top"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 60 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.64.149.65",
+      "port": 443,
+      "uuid": "5dc15e15-f285-4a9d-959b-0e4fbdd77b63",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "powered-by-surena.configfarsi695fcfe8a2e58.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "powered-by-surena.configfarsi695fcfe8a2e58.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 61 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.67.156.147",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -1282,28 +1356,28 @@
       }
     },
     {
-      "tag": "🌐 其他地区 (Other) 59 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 62 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "188.114.96.3",
-      "port": 8443,
-      "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
-      "alterId": 0,
-      "security": "auto",
+      "type": "vless",
+      "server": "104.21.70.21",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "v2ray1.dozapp.xyz",
-        "insecure": true
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
       },
       "ws": {
-        "path": "/lMnsZUN4/",
+        "path": "/tyxyws",
         "headers": {
-          "Host": "v2ray1.dozapp.xyz"
+          "Host": "jp3.yohototo.top"
         }
       }
     },
     {
-      "tag": "🌐 其他地区 (Other) 60 - xiaohe",
+      "tag": "🌐 其他地区 (Other) 63 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "104.21.221.158",
@@ -1317,70 +1391,7 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/fp=chrome",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 61 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.18.45.38",
-      "port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/fpfp=unsafe",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 62 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.64.229.72",
-      "port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "ccc.010304.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 63 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.18.41.86",
-      "port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ccc.010304.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
+        "path": "/fp=chromefp=unsafe",
         "headers": {
           "Host": "ccc.010304.xyz"
         }
@@ -1388,6 +1399,111 @@
     },
     {
       "tag": "🌐 其他地区 (Other) 64 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "cf.877774.xyz",
+      "port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/fp",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 65 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "cf.090227.xyz",
+      "port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/fp=chrome",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 66 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.67.217.240",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 67 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.19.33.25",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 68 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.64.150.181",
+      "port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "ccc.010304.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🌐 其他地区 (Other) 69 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "172.66.154.57",
@@ -1401,7 +1517,7 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/fp=chrome",
+        "path": "/",
         "headers": {
           "Host": "ccc.010304.xyz"
         }

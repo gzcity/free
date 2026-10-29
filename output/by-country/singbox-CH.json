@@ -18,7 +18,11 @@
         "🇨🇭 CH 04 - xiaohe",
         "🇨🇭 CH 05 - xiaohe",
         "🇨🇭 CH 06 - xiaohe",
-        "🇨🇭 CH 07 - xiaohe"
+        "🇨🇭 CH 07 - xiaohe",
+        "🇨🇭 CH 08 - xiaohe",
+        "🇨🇭 CH 09 - xiaohe",
+        "🇨🇭 CH 10 - xiaohe",
+        "🇨🇭 CH 11 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -42,11 +46,20 @@
     {
       "tag": "🇨🇭 CH 02 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "132.243.175.144",
-      "port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3"
+      "type": "vless",
+      "server": "208.69.78.217",
+      "port": 2053,
+      "uuid": "c0dd6d59-1573-43af-8b70-1470b2632a6d",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0",
+        "short_id": ""
+      }
     },
     {
       "tag": "🇨🇭 CH 03 - xiaohe",
@@ -60,7 +73,7 @@
         "enabled": true,
         "server_name": "www.apple.com",
         "insecure": true,
-        "client_fingerprint": "random",
+        "client_fingerprint": "firefox",
         "reality": true,
         "public_key": "A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0",
         "short_id": ""
@@ -87,20 +100,11 @@
     {
       "tag": "🇨🇭 CH 05 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "208.69.78.217",
-      "port": 2053,
-      "uuid": "c0dd6d59-1573-43af-8b70-1470b2632a6d",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0",
-        "short_id": ""
-      }
+      "type": "shadowsocks",
+      "server": "132.243.175.144",
+      "port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3"
     },
     {
       "tag": "🇨🇭 CH 06 - xiaohe",
@@ -114,7 +118,7 @@
         "enabled": true,
         "server_name": "www.apple.com",
         "insecure": true,
-        "client_fingerprint": "chrome",
+        "client_fingerprint": "random",
         "reality": true,
         "public_key": "A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0",
         "short_id": ""
@@ -132,10 +136,85 @@
         "enabled": true,
         "server_name": "www.apple.com",
         "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇨🇭 CH 08 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "208.69.78.217",
+      "port": 2053,
+      "uuid": "c0dd6d59-1573-43af-8b70-1470b2632a6d",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
         "client_fingerprint": "chrome",
         "reality": true,
         "public_key": "A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0",
         "short_id": ""
+      }
+    },
+    {
+      "tag": "🇨🇭 CH 09 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "149.33.15.213",
+      "port": 443,
+      "uuid": "054362fb-e485-4a3f-9568-4c5b0f60e074",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "swz.proxyplankton.ru",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇨🇭 CH 10 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "128.241.25.3",
+      "port": 30021,
+      "uuid": "53339ee0-1412-4550-89c7-48d1cb71b390",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇭 CH 11 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "128.241.25.72",
+      "port": 30021,
+      "uuid": "65f26a08-9a5e-4b28-9004-f98676cc1e49",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev"
+        }
       }
     }
   ]

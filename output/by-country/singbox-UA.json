@@ -27,11 +27,23 @@
     {
       "tag": "🇺🇦 UA 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "104.253.216.227",
-      "port": 49917,
-      "method": "chacha20-ietf-poly1305",
-      "password": "G9ZuLN5DE9qqouTZwYUcvYsDJx8gyL1nCu3N7yRZFjPmYKhzSi8GkpVuexmTHAz2uvcErKkex1K2ceR2GH3L444HRNnN1YpP"
+      "type": "vless",
+      "server": "213.111.148.137",
+      "port": 443,
+      "uuid": "40af9131-d540-448a-bc56-5bba147a1dc3",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "proxy-1cu.pages.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/fp=android",
+        "headers": {
+          "Host": "proxy-1cu.pages.dev"
+        }
+      }
     }
   ]
 }

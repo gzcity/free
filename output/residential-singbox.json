@@ -12,8 +12,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇳 印度 (India) 01 (家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
+        "🇮🇳 印度 (India) 02 (家宽) - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
         "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - xiaohe"
       ],
@@ -28,28 +28,7 @@
       "tag": "block"
     },
     {
-      "tag": "🇮🇳 印度 (India) 01 (家宽) - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "122.176.216.52",
-      "port": 443,
-      "uuid": "16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "app-6ada5023.deploy.meerasolution.com",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
-        "headers": {
-          "Host": "app-6ada5023.deploy.meerasolution.com"
-        }
-      }
-    },
-    {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "103.148.73.173",
@@ -66,6 +45,27 @@
         "path": "/81574b6b-c9d7-44a0-b83d-dad56e8cb530",
         "headers": {
           "Host": "103.148.73.173"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇳 印度 (India) 02 (家宽) - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "122.176.216.52",
+      "port": 443,
+      "uuid": "16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "app-6ada5023.deploy.meerasolution.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
+        "headers": {
+          "Host": "app-6ada5023.deploy.meerasolution.com"
         }
       }
     },
