@@ -33,16 +33,14 @@
     {
       "tag": "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "au001.zestapp778.com",
-      "port": 35652,
-      "uuid": "e9a8144e-5237-488a-afb1-9ca3d8d54c80",
-      "flow": "",
+      "type": "trojan",
+      "server": "45.63.30.142",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "au001.zestapp778.com",
-        "insecure": true,
-        "client_fingerprint": null
+        "server_name": "connectwithemployerstohireyouridealteam.com",
+        "insecure": true
       }
     },
     {
@@ -67,7 +65,7 @@
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "connectwithemployerstohireyouridealteam.com",
+        "server_name": "45.63.30.142",
         "insecure": true
       }
     },
@@ -80,7 +78,7 @@
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "connectwithemployerstohireyouridealteam.com",
+        "server_name": "45.63.30.142",
         "insecure": true
       }
     },
@@ -108,7 +106,7 @@
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "45.63.30.142",
+        "server_name": "connectwithemployerstohireyouridealteam.com",
         "insecure": true
       }
     },
@@ -121,7 +119,7 @@
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "45.63.30.142",
+        "server_name": "connectwithemployerstohireyouridealteam.com",
         "insecure": true
       }
     }

@@ -13,7 +13,8 @@
       "tag": "auto",
       "outbounds": [
         "🇧🇷 BR 01 - xiaohe",
-        "🇧🇷 BR 02 - xiaohe"
+        "🇧🇷 BR 02 - xiaohe",
+        "🇧🇷 BR 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -40,6 +41,19 @@
     },
     {
       "tag": "🇧🇷 BR 02 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "216.238.104.154",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "216.238.104.154",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇧🇷 BR 03 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "216.238.104.154",

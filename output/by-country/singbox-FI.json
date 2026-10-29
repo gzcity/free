@@ -17,11 +17,7 @@
         "🇫🇮 FI 03 - xiaohe",
         "🇫🇮 FI 04 - xiaohe",
         "🇫🇮 FI 05 - xiaohe",
-        "🇫🇮 FI 06 - xiaohe",
-        "🇫🇮 FI 07 - xiaohe",
-        "🇫🇮 FI 08 - xiaohe",
-        "🇫🇮 FI 09 - xiaohe",
-        "🇫🇮 FI 10 - xiaohe"
+        "🇫🇮 FI 06 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -37,32 +33,41 @@
       "tag": "🇫🇮 FI 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "95.216.27.15",
-      "port": 2053,
-      "uuid": "1c81f6d3-5771-4c5d-9fdd-1655eff50634",
+      "server": "hw3.divarkhaghazi.com",
+      "port": 465,
+      "uuid": "924e20da-fcad-4e7e-8113-c62d27a0d01e",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "www.google.com",
+        "server_name": "hw3.divarkhaghazi.com.",
         "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM",
-        "short_id": ""
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "hw3.divarkhaghazi.com."
+        }
       }
     },
     {
       "tag": "🇫🇮 FI 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "45.144.234.157",
-      "port": 14430,
-      "uuid": "59b0d30e-9b29-4fda-a35c-b2901ec32db7",
+      "server": "65.109.211.81",
+      "port": 465,
+      "uuid": "09f30c46-3964-41ce-882a-72aee83ddd42",
       "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "hw6.divarkhaghazi.com.",
+        "insecure": true,
+        "client_fingerprint": null
+      },
       "ws": {
-        "path": "/vless",
+        "path": "/",
         "headers": {
-          "Host": "45.144.234.157"
+          "Host": "hw6.divarkhaghazi.com."
         }
       }
     },
@@ -91,7 +96,7 @@
       "tag": "🇫🇮 FI 04 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "hw3.divarkhaghazi.com",
+      "server": "65.109.210.221",
       "port": 465,
       "uuid": "924e20da-fcad-4e7e-8113-c62d27a0d01e",
       "flow": "",
@@ -112,87 +117,6 @@
       "tag": "🇫🇮 FI 05 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "199.232.239.239",
-      "port": 443,
-      "uuid": "36805edb-1e85-4199-a59f-117010b70017",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "firefox.com",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel/@CloudVPNchannel?ed=2056",
-        "headers": {
-          "Host": "mpkoe7ypcibr80p102020123.global.ssl.fastly.net"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI 06 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "65.109.211.81",
-      "port": 465,
-      "uuid": "09f30c46-3964-41ce-882a-72aee83ddd42",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "hw6.divarkhaghazi.com.",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "hw6.divarkhaghazi.com."
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI 07 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "95.216.27.15",
-      "port": 2053,
-      "uuid": "1c81f6d3-5771-4c5d-9fdd-1655eff50634",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.google.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇫🇮 FI 08 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "65.109.210.221",
-      "port": 465,
-      "uuid": "924e20da-fcad-4e7e-8113-c62d27a0d01e",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "hw3.divarkhaghazi.com.",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "hw3.divarkhaghazi.com."
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI 09 - xiaohe",
-      "udp": true,
-      "type": "vless",
       "server": "hw3.divarkhaghazi.com",
       "port": 465,
       "uuid": "924e20da-fcad-4e7e-8113-c62d27a0d01e",
@@ -211,7 +135,7 @@
       }
     },
     {
-      "tag": "🇫🇮 FI 10 - xiaohe",
+      "tag": "🇫🇮 FI 06 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "45.144.234.157",

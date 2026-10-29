@@ -16,11 +16,7 @@
         "🇷🇴 RO 02 - xiaohe",
         "🇷🇴 RO 03 - xiaohe",
         "🇷🇴 RO 04 - xiaohe",
-        "🇷🇴 RO 05 - xiaohe",
-        "🇷🇴 RO 06 - xiaohe",
-        "🇷🇴 RO 07 - xiaohe",
-        "🇷🇴 RO 08 - xiaohe",
-        "🇷🇴 RO 09 - xiaohe"
+        "🇷🇴 RO 05 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -36,7 +32,7 @@
       "tag": "🇷🇴 RO 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "edge10.cyrionflare.com",
+      "server": "178.83.45.226",
       "port": 2052,
       "uuid": "1a8ecc41-6e62-431b-8eca-87c2fa4dc286",
       "flow": ""
@@ -44,11 +40,11 @@
     {
       "tag": "🇷🇴 RO 02 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "154.46.31.106",
-      "port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "QFWzCw2uX9B9i6qAYeFBIE"
+      "type": "vless",
+      "server": "155.117.5.208",
+      "port": 2052,
+      "uuid": "1a8ecc41-6e62-431b-8eca-87c2fa4dc286",
+      "flow": ""
     },
     {
       "tag": "🇷🇴 RO 03 - xiaohe",
@@ -62,11 +58,11 @@
     {
       "tag": "🇷🇴 RO 04 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "155.117.5.208",
-      "port": 2052,
-      "uuid": "1a8ecc41-6e62-431b-8eca-87c2fa4dc286",
-      "flow": ""
+      "type": "shadowsocks",
+      "server": "154.46.31.106",
+      "port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "QFWzCw2uX9B9i6qAYeFBIE"
     },
     {
       "tag": "🇷🇴 RO 05 - xiaohe",
@@ -76,42 +72,6 @@
       "port": 2052,
       "uuid": "1a8ecc41-6e62-431b-8eca-87c2fa4dc286",
       "flow": ""
-    },
-    {
-      "tag": "🇷🇴 RO 06 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "edge10.cyrionflare.com",
-      "port": 2052,
-      "uuid": "1a8ecc41-6e62-431b-8eca-87c2fa4dc286",
-      "flow": ""
-    },
-    {
-      "tag": "🇷🇴 RO 07 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "178.83.45.226",
-      "port": 2052,
-      "uuid": "1a8ecc41-6e62-431b-8eca-87c2fa4dc286",
-      "flow": ""
-    },
-    {
-      "tag": "🇷🇴 RO 08 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "edge10.cyrionflare.com",
-      "port": 2052,
-      "uuid": "1a8ecc41-6e62-431b-8eca-87c2fa4dc286",
-      "flow": ""
-    },
-    {
-      "tag": "🇷🇴 RO 09 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "194.68.44.42",
-      "port": 64546,
-      "method": "chacha20-ietf-poly1305",
-      "password": "U83u9OGpvSatIUW7LsWffr"
     }
   ]
 }
