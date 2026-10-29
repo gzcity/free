@@ -12,7 +12,10 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇱 IL 01 - xiaohe"
+        "🇮🇱 IL 01 - xiaohe",
+        "🇮🇱 IL 02 - xiaohe",
+        "🇮🇱 IL 03 - xiaohe",
+        "🇮🇱 IL 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -26,6 +29,50 @@
     },
     {
       "tag": "🇮🇱 IL 01 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "64.176.163.182",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "exploreeducationsectoropportunitiestodayandadvancecareers.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇮🇱 IL 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "79.182.39.236",
+      "port": 25362,
+      "uuid": "36fb6650-8a50-42b5-9f66-06538806f32c",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.chip.de",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇮🇱 IL 03 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "64.176.163.182",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "exploreeducationsectoropportunitiestodayandadvancecareers.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇮🇱 IL 04 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "64.176.163.182",

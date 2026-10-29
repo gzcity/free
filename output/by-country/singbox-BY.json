@@ -32,29 +32,23 @@
       "tag": "🇧🇾 BY 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "178.172.227.228",
-      "port": 14430,
-      "uuid": "b6e5dc56-836f-48c1-9163-b0b0b43b647d",
-      "flow": "",
-      "ws": {
-        "path": "/vless",
-        "headers": {
-          "Host": "178.172.227.228"
-        }
-      }
+      "server": "178.172.227.124",
+      "port": 10443,
+      "uuid": "1af36694-b548-4b18-89a0-bc076eab4ed7",
+      "flow": ""
     },
     {
       "tag": "🇧🇾 BY 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "178.172.227.228",
+      "server": "178.172.227.124",
       "port": 14430,
-      "uuid": "b6e5dc56-836f-48c1-9163-b0b0b43b647d",
+      "uuid": "1af36694-b548-4b18-89a0-bc076eab4ed7",
       "flow": "",
       "ws": {
         "path": "/vless",
         "headers": {
-          "Host": "178.172.227.228"
+          "Host": "178.172.227.124"
         }
       }
     },
@@ -63,9 +57,15 @@
       "udp": true,
       "type": "vless",
       "server": "178.172.227.124",
-      "port": 10443,
+      "port": 14430,
       "uuid": "1af36694-b548-4b18-89a0-bc076eab4ed7",
-      "flow": ""
+      "flow": "",
+      "ws": {
+        "path": "/vless",
+        "headers": {
+          "Host": "178.172.227.124"
+        }
+      }
     },
     {
       "tag": "🇧🇾 BY 04 - xiaohe",

@@ -12,17 +12,51 @@ proxies:
   udp: true
   sni: exploreeducationsectoropportunitiestodayandadvancecareers.com
   skip-cert-verify: true
+- name: 🇮🇱 IL 02 - xiaohe
+  type: vless
+  server: 79.182.39.236
+  port: 25362
+  uuid: 36fb6650-8a50-42b5-9f66-06538806f32c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA
+  servername: www.chip.de
+  client-fingerprint: firefox
+- name: 🇮🇱 IL 03 - xiaohe
+  type: trojan
+  server: 64.176.163.182
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: exploreeducationsectoropportunitiestodayandadvancecareers.com
+  skip-cert-verify: true
+- name: 🇮🇱 IL 04 - xiaohe
+  type: trojan
+  server: 64.176.163.182
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: exploreeducationsectoropportunitiestodayandadvancecareers.com
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇮🇱 IL 01 - xiaohe
+  - 🇮🇱 IL 02 - xiaohe
+  - 🇮🇱 IL 03 - xiaohe
+  - 🇮🇱 IL 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇮🇱 IL 01 - xiaohe
+  - 🇮🇱 IL 02 - xiaohe
+  - 🇮🇱 IL 03 - xiaohe
+  - 🇮🇱 IL 04 - xiaohe
 rules:
 - MATCH,PROXIES
