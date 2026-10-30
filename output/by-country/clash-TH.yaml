@@ -5,24 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇭 TH 01 - xiaohe
-  type: vless
-  server: 38.60.233.38
-  port: 22222
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: th001.zestapp778.com
-- name: 🇹🇭 TH 02 - xiaohe
-  type: vless
-  server: th001.zestapp778.com
-  port: 22222
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: th001.zestapp778.com
-- name: 🇹🇭 TH 03 - xiaohe
   type: trojan
   server: th001.zestapp778.com
   port: 33079
@@ -30,42 +12,14 @@ proxies:
   udp: true
   sni: th001.zestapp778.com
   skip-cert-verify: true
-- name: 🇹🇭 TH 04 - xiaohe
-  type: vless
+- name: 🇹🇭 TH 02 - xiaohe
+  type: trojan
   server: th001.zestapp778.com
-  port: 22222
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  port: 33079
+  password: 5t6i121em5lkmsmk
   udp: true
-  tls: true
+  sni: th001.zestapp778.com
   skip-cert-verify: true
-  servername: th001.zestapp778.com
-- name: 🇹🇭 TH 05 - xiaohe
-  type: vless
-  server: th001.zestapp778.com
-  port: 22222
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: th001.zestapp778.com
-- name: 🇹🇭 TH 06 - xiaohe
-  type: vless
-  server: th001.zestapp778.com
-  port: 22222
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: th001.zestapp778.com
-- name: 🇹🇭 TH 07 - xiaohe
-  type: vless
-  server: 38.60.233.38
-  port: 22222
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: th001.zestapp778.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -73,11 +27,6 @@ proxy-groups:
   - AUTO
   - 🇹🇭 TH 01 - xiaohe
   - 🇹🇭 TH 02 - xiaohe
-  - 🇹🇭 TH 03 - xiaohe
-  - 🇹🇭 TH 04 - xiaohe
-  - 🇹🇭 TH 05 - xiaohe
-  - 🇹🇭 TH 06 - xiaohe
-  - 🇹🇭 TH 07 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -85,10 +34,5 @@ proxy-groups:
   proxies:
   - 🇹🇭 TH 01 - xiaohe
   - 🇹🇭 TH 02 - xiaohe
-  - 🇹🇭 TH 03 - xiaohe
-  - 🇹🇭 TH 04 - xiaohe
-  - 🇹🇭 TH 05 - xiaohe
-  - 🇹🇭 TH 06 - xiaohe
-  - 🇹🇭 TH 07 - xiaohe
 rules:
 - MATCH,PROXIES

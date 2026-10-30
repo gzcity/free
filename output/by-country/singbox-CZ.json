@@ -12,7 +12,9 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇿 CZ 01 - xiaohe"
+        "🇨🇿 CZ 01 - xiaohe",
+        "🇨🇿 CZ 02 - xiaohe",
+        "🇨🇿 CZ 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -26,6 +28,48 @@
     },
     {
       "tag": "🇨🇿 CZ 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "155.212.240.10",
+      "port": 443,
+      "uuid": "f27b6f65-6e59-4f89-b929-afa397ca587f",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "n.bitpulse.me",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/019bcbad-3813-7cce-8786-3ac0e418f128?ed=2560",
+        "headers": {
+          "Host": "n.bitpulse.me"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇿 CZ 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "188.114.98.0",
+      "port": 443,
+      "uuid": "f27b6f65-6e59-4f89-b929-afa397ca587f",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "n.bitpulse.me",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/019bcbad-3813-7cce-8786-3ac0e418f128?ed=2560",
+        "headers": {
+          "Host": "n.bitpulse.me"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇿 CZ 03 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "155.212.240.10",

@@ -12,7 +12,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇦 UA 01 - xiaohe"
+        "🇺🇦 UA 01 - xiaohe",
+        "🇺🇦 UA 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -29,6 +30,15 @@
       "udp": true,
       "type": "shadowsocks",
       "server": "staging.lastilhame.monster",
+      "port": 49917,
+      "method": "chacha20-ietf-poly1305",
+      "password": "G9ZuLN5DE9qqouTZwYUcvYsDJx8gyL1nCu3N7yRZFjPmYKhzSi8GkpVuexmTHAz2uvcErKkex1K2ceR2GH3L444HRNnN1YpP"
+    },
+    {
+      "tag": "🇺🇦 UA 02 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "104.253.216.227",
       "port": 49917,
       "method": "chacha20-ietf-poly1305",
       "password": "G9ZuLN5DE9qqouTZwYUcvYsDJx8gyL1nCu3N7yRZFjPmYKhzSi8GkpVuexmTHAz2uvcErKkex1K2ceR2GH3L444HRNnN1YpP"

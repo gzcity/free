@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "194.87.143.165",
+      "port": 8443,
+      "uuid": "f9613819-d2fe-4b3a-a2e6-40c184c6854c",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "wsru1.wba-pn.ru",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "194.87.143.165"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "159.194.251.76",
+      "port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "MODziWLa9qMuW-4yPa0rfw"
+    }
+  ]
+}
