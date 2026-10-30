@@ -12,8 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇬🇷 GR 01 - xiaohe",
-        "🇬🇷 GR 02 - xiaohe"
+        "🇬🇷 GR 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -27,15 +26,6 @@
     },
     {
       "tag": "🇬🇷 GR 01 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "178.253.16.185",
-      "port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "x2A6AsyZ-rAllz0wbKHzWA"
-    },
-    {
-      "tag": "🇬🇷 GR 02 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "ams1.rvpn.app",

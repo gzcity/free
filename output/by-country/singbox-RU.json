@@ -13,7 +13,8 @@
       "tag": "auto",
       "outbounds": [
         "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -27,6 +28,24 @@
     },
     {
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "186.246.9.29",
+      "port": 443,
+      "uuid": "b2847c3b-5278-4b06-9c66-bc919d2dfec7",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "wordpress.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "MPNMomAMn_lu9YMYjD2jAQWrI-rTM4hj9Jgg9d6qzTA",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "194.87.143.165",
@@ -47,13 +66,13 @@
       }
     },
     {
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "159.194.251.76",
+      "server": "130.49.189.54",
       "port": 8388,
       "method": "chacha20-ietf-poly1305",
-      "password": "MODziWLa9qMuW-4yPa0rfw"
+      "password": "hTTg7lwQMzpaF7KXpY3A8w"
     }
   ]
 }
