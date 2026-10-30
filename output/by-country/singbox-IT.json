@@ -18,9 +18,7 @@
         "🇮🇹 意大利 (Italy) 04 - xiaohe",
         "🇮🇹 意大利 (Italy) 05 - xiaohe",
         "🇮🇹 意大利 (Italy) 06 - xiaohe",
-        "🇮🇹 意大利 (Italy) 07 - xiaohe",
-        "🇮🇹 意大利 (Italy) 08 - xiaohe",
-        "🇮🇹 意大利 (Italy) 09 - xiaohe"
+        "🇮🇹 意大利 (Italy) 07 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -53,6 +51,24 @@
     {
       "tag": "🇮🇹 意大利 (Italy) 02 - xiaohe",
       "udp": true,
+      "type": "shadowsocks",
+      "server": "202.50.253.90",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇮🇹 意大利 (Italy) 03 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "185.164.175.81",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇮🇹 意大利 (Italy) 04 - xiaohe",
+      "udp": true,
       "type": "vless",
       "server": "57.131.38.163",
       "port": 2053,
@@ -69,52 +85,28 @@
       }
     },
     {
-      "tag": "🇮🇹 意大利 (Italy) 03 - xiaohe",
+      "tag": "🇮🇹 意大利 (Italy) 05 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "57.131.38.163",
-      "port": 2053,
-      "uuid": "d4b08cd6-0903-411a-9dac-45dbdf5c9712",
+      "server": "146.75.59.186",
+      "port": 443,
+      "uuid": "c1a3a6ee-34d3-4fcd-8763-c2231adabed6",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
+        "server_name": "firefox.com",
         "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "Ej2H5ucT7qKegYcT8wODdlxa-cLHr7F4hDVUHzAhcnc",
-        "short_id": ""
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "lrussiaaboijji.global.ssl.fastly.net."
+        }
       }
     },
     {
-      "tag": "🇮🇹 意大利 (Italy) 04 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "185.164.175.81",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "tag": "🇮🇹 意大利 (Italy) 05 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "202.50.253.90",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
       "tag": "🇮🇹 意大利 (Italy) 06 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "202.50.253.81",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "tag": "🇮🇹 意大利 (Italy) 07 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "57.131.38.163",
@@ -132,16 +124,7 @@
       }
     },
     {
-      "tag": "🇮🇹 意大利 (Italy) 08 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "202.50.253.99",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "tag": "🇮🇹 意大利 (Italy) 09 - xiaohe",
+      "tag": "🇮🇹 意大利 (Italy) 07 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "185.164.175.81",
