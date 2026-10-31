@@ -20,8 +20,7 @@
         "🇷🇺 俄罗斯 (Russia) 06 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 07 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 08 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 09 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 10 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 09 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -35,66 +34,6 @@
     },
     {
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "159.194.251.76",
-      "port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "MODziWLa9qMuW-4yPa0rfw"
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "87.120.166.160",
-      "port": 443,
-      "uuid": "7b91b2c3-8af3-449b-a555-00c9460989f4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "lvi.su",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/vpn-relay?token=27fede42482b3c29d4c1c9640876c250&pool=whitelist2",
-        "headers": {
-          "Host": "lvi.su"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "msk2.rvpn.app",
-      "port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "MODziWLa9qMuW-4yPa0rfw"
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "91.185.83.45",
-      "port": 443,
-      "uuid": "c720cb74-4c84-4fce-b8ae-637dbaa16199",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "nguyxejonb.rucdncomp.pro",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/service/telemetry/0294da469190/",
-        "headers": {
-          "Host": "nguyxejonb.rucdncomp.pro"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "lvi.su",
@@ -115,7 +54,16 @@
       }
     },
     {
-      "tag": "🇷🇺 俄罗斯 (Russia) 06 - xiaohe",
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "alb.rvpn.app",
+      "port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "hTTg7lwQMzpaF7KXpY3A8w"
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "194.87.143.165",
@@ -136,7 +84,7 @@
       }
     },
     {
-      "tag": "🇷🇺 俄罗斯 (Russia) 07 - xiaohe",
+      "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "130.49.189.54",
@@ -145,16 +93,46 @@
       "password": "hTTg7lwQMzpaF7KXpY3A8w"
     },
     {
-      "tag": "🇷🇺 俄罗斯 (Russia) 08 - xiaohe",
+      "tag": "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "alb.rvpn.app",
+      "server": "159.194.251.76",
       "port": 8388,
       "method": "chacha20-ietf-poly1305",
-      "password": "hTTg7lwQMzpaF7KXpY3A8w"
+      "password": "MODziWLa9qMuW-4yPa0rfw"
     },
     {
-      "tag": "🇷🇺 俄罗斯 (Russia) 09 - xiaohe",
+      "tag": "🇷🇺 俄罗斯 (Russia) 06 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "msk2.rvpn.app",
+      "port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "MODziWLa9qMuW-4yPa0rfw"
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 07 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "87.120.166.160",
+      "port": 443,
+      "uuid": "7b91b2c3-8af3-449b-a555-00c9460989f4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "lvi.su",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/vpn-relay?token=27fede42482b3c29d4c1c9640876c250&pool=whitelist2",
+        "headers": {
+          "Host": "lvi.su"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 08 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "87.242.119.253",
@@ -169,7 +147,7 @@
       }
     },
     {
-      "tag": "🇷🇺 俄罗斯 (Russia) 10 - xiaohe",
+      "tag": "🇷🇺 俄罗斯 (Russia) 09 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "185.22.155.121",

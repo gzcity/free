@@ -31,7 +31,7 @@
       "tag": "🇷🇴 RO 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "155.117.5.208",
+      "server": "edge10.cyrionflare.com",
       "port": 2052,
       "uuid": "1a8ecc41-6e62-431b-8eca-87c2fa4dc286",
       "flow": ""
@@ -40,7 +40,7 @@
       "tag": "🇷🇴 RO 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "edge10.cyrionflare.com",
+      "server": "155.117.5.208",
       "port": 2052,
       "uuid": "1a8ecc41-6e62-431b-8eca-87c2fa4dc286",
       "flow": ""
@@ -58,10 +58,10 @@
       "tag": "🇷🇴 RO 04 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "bogging-eyeteeth-fly.freesocks.work",
-      "port": 443,
+      "server": "194.68.44.42",
+      "port": 64546,
       "method": "chacha20-ietf-poly1305",
-      "password": "QFWzCw2uX9B9i6qAYeFBIE"
+      "password": "U83u9OGpvSatIUW7LsWffr"
     }
   ]
 }
