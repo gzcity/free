@@ -20,7 +20,8 @@
         "🇭🇰 中国香港 (Hong Kong) 06 - xiaohe",
         "🇭🇰 中国香港 (Hong Kong) 07 - xiaohe",
         "🇭🇰 中国香港 (Hong Kong) 08 - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 09 - xiaohe"
+        "🇭🇰 中国香港 (Hong Kong) 09 - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 10 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -35,68 +36,26 @@
     {
       "tag": "🇭🇰 中国香港 (Hong Kong) 01 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "rhHiErkwRf6fHs2H.v.3dns.vip",
+      "type": "vless",
+      "server": "172.67.149.199",
       "port": 443,
-      "uuid": "78b3f149-f037-465d-b2fb-11adb6f73ff8",
-      "alterId": 0,
-      "security": "auto",
+      "uuid": "326227e2-f2d1-4f43-8715-9da854f5f4c0",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "rhHiErkwRf6fHs2H.v.3dns.vip",
-        "insecure": true
+        "server_name": "px2.5ibtc.cn",
+        "insecure": true,
+        "client_fingerprint": null
       },
       "ws": {
-        "path": "/ws-vmess",
+        "path": "/326227e2-f2d1-4f43-8715-9da854f5f4c0",
         "headers": {
-          "Host": "rhHiErkwRf6fHs2H.v.3dns.vip"
+          "Host": "px2.5ibtc.cn"
         }
       }
     },
     {
       "tag": "🇭🇰 中国香港 (Hong Kong) 02 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "vah4urdzl3jdx5r2.v.3dns.vip",
-      "port": 443,
-      "uuid": "f23bb427-c1f9-4373-876c-2f43e9f790f3",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "vah4urdzl3jdx5r2.v.3dns.vip",
-        "insecure": true
-      },
-      "ws": {
-        "path": "/ws-vmess",
-        "headers": {
-          "Host": "vah4urdzl3jdx5r2.v.3dns.vip"
-        }
-      }
-    },
-    {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 03 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "rhhierkwrf6fhs2h.v.3dns.vip",
-      "port": 443,
-      "uuid": "78b3f149-f037-465d-b2fb-11adb6f73ff8",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "rhhierkwrf6fhs2h.v.3dns.vip",
-        "insecure": true
-      },
-      "ws": {
-        "path": "/ws-vmess",
-        "headers": {
-          "Host": "rhhierkwrf6fhs2h.v.3dns.vip"
-        }
-      }
-    },
-    {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "euu1yalfmcqvljex.v.3dns.vip",
@@ -117,7 +76,91 @@
       }
     },
     {
+      "tag": "🇭🇰 中国香港 (Hong Kong) 03 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "i2psm3knof5qjjix.v.3dns.vip",
+      "port": 443,
+      "uuid": "f23bb427-c1f9-4373-876c-2f43e9f790f3",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "i2psm3knof5qjjix.v.3dns.vip",
+        "insecure": true
+      },
+      "ws": {
+        "path": "/ws-vmess",
+        "headers": {
+          "Host": "i2psm3knof5qjjix.v.3dns.vip"
+        }
+      }
+    },
+    {
+      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "8.217.13.103",
+      "port": 443,
+      "uuid": "f23bb427c1f94373876c2f43e9f790f3",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "qTKDR8jXE3wEFxJM.v.3dns.vip",
+        "insecure": true
+      },
+      "ws": {
+        "path": "/ws-vmess",
+        "headers": {
+          "Host": "qTKDR8jXE3wEFxJM.v.3dns.vip"
+        }
+      }
+    },
+    {
       "tag": "🇭🇰 中国香港 (Hong Kong) 05 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "8.218.195.61",
+      "port": 443,
+      "uuid": "f23bb427c1f94373876c2f43e9f790f3",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "EX1oGt73NzPQKAc2.v.3dns.vip",
+        "insecure": true
+      },
+      "ws": {
+        "path": "/ws-vmess",
+        "headers": {
+          "Host": "EX1oGt73NzPQKAc2.v.3dns.vip"
+        }
+      }
+    },
+    {
+      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "47.243.194.125",
+      "port": 443,
+      "uuid": "f23bb427c1f94373876c2f43e9f790f3",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "nycqg19zkwacpm1b.v.3dns.vip",
+        "insecure": true
+      },
+      "ws": {
+        "path": "/ws-vmess",
+        "headers": {
+          "Host": "nycqg19zkwacpm1b.v.3dns.vip"
+        }
+      }
+    },
+    {
+      "tag": "🇭🇰 中国香港 (Hong Kong) 07 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "47.244.120.197",
@@ -133,81 +176,60 @@
       }
     },
     {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 06 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "rhHiErkwRf6fHs2H.v.3dns.vip",
-      "port": 443,
-      "uuid": "78b3f149-f037-465d-b2fb-11adb6f73ff8",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "rhHiErkwRf6fHs2H.v.3dns.vip",
-        "insecure": true
-      },
-      "ws": {
-        "path": "/ws-vmess",
-        "headers": {
-          "Host": "rhHiErkwRf6fHs2H.v.3dns.vip"
-        }
-      }
-    },
-    {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 07 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "euu1yAlfmcqvLJEx.v.3dns.vip",
-      "port": 443,
-      "uuid": "d237ab38-1974-4b36-94a3-0665ce8587b9",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "euu1yAlfmcqvLJEx.v.3dns.vip",
-        "insecure": true
-      },
-      "ws": {
-        "path": "/ws-vmess",
-        "headers": {
-          "Host": "euu1yAlfmcqvLJEx.v.3dns.vip"
-        }
-      }
-    },
-    {
       "tag": "🇭🇰 中国香港 (Hong Kong) 08 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "195.58.144.56",
-      "port": 11907,
-      "uuid": "07cb07b9-0c4d-46c1-a15a-b147511b6b07",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "195.58.144.56",
-        "insecure": true,
-        "client_fingerprint": null
-      }
-    },
-    {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 09 - xiaohe",
-      "udp": true,
       "type": "vmess",
-      "server": "8.217.13.103",
+      "server": "47.243.194.125",
       "port": 443,
       "uuid": "f23bb427-c1f9-4373-876c-2f43e9f790f3",
       "alterId": 0,
       "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "qtkdr8jxe3wefxjm.v.3dns.vip",
+        "server_name": "NYcQg19zkwaCPM1B.v.3dns.vip",
         "insecure": true
       },
       "ws": {
         "path": "/ws-vmess",
         "headers": {
-          "Host": "qtkdr8jxe3wefxjm.v.3dns.vip"
+          "Host": "NYcQg19zkwaCPM1B.v.3dns.vip"
         }
+      }
+    },
+    {
+      "tag": "🇭🇰 中国香港 (Hong Kong) 09 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "8.218.195.61",
+      "port": 443,
+      "uuid": "f23bb427-c1f9-4373-876c-2f43e9f790f3",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "ex1ogt73nzpqkac2.v.3dns.vip",
+        "insecure": true
+      },
+      "ws": {
+        "path": "/ws-vmess",
+        "headers": {
+          "Host": "ex1ogt73nzpqkac2.v.3dns.vip"
+        }
+      }
+    },
+    {
+      "tag": "🇭🇰 中国香港 (Hong Kong) 10 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "152.175.6.229",
+      "port": 31884,
+      "uuid": "e9a8144e-5237-488a-afb1-9ca3d8d54c80",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk010.zestapp778.com",
+        "insecure": true,
+        "client_fingerprint": null
       }
     }
   ]
