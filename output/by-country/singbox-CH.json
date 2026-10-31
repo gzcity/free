@@ -24,10 +24,7 @@
         "🇨🇭 CH 10 - xiaohe",
         "🇨🇭 CH 11 - xiaohe",
         "🇨🇭 CH 12 - xiaohe",
-        "🇨🇭 CH 13 - xiaohe",
-        "🇨🇭 CH 14 - xiaohe",
-        "🇨🇭 CH 15 - xiaohe",
-        "🇨🇭 CH 16 - xiaohe"
+        "🇨🇭 CH 13 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -42,34 +39,27 @@
     {
       "tag": "🇨🇭 CH 01 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "149.33.15.213",
+      "type": "trojan",
+      "server": "208.69.78.19",
       "port": 443,
-      "uuid": "054362fb-e485-4a3f-9568-4c5b0f60e074",
-      "flow": "",
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "swz.proxyplankton.ru",
-        "insecure": true,
-        "client_fingerprint": null
+        "server_name": "www.yourultimateprofessionalcareerhub.com",
+        "insecure": true
       }
     },
     {
       "tag": "🇨🇭 CH 02 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "208.69.78.217",
-      "port": 2053,
-      "uuid": "c0dd6d59-1573-43af-8b70-1470b2632a6d",
-      "flow": "",
+      "type": "trojan",
+      "server": "208.69.78.60",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true,
-        "client_fingerprint": "random",
-        "reality": true,
-        "public_key": "A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0",
-        "short_id": ""
+        "server_name": "cdn.yourultimateprofessionalcareerhub.com",
+        "insecure": true
       }
     },
     {
@@ -111,14 +101,41 @@
     {
       "tag": "🇨🇭 CH 05 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "132.243.175.144",
-      "port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3"
+      "type": "vless",
+      "server": "208.69.78.217",
+      "port": 2053,
+      "uuid": "c0dd6d59-1573-43af-8b70-1470b2632a6d",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "random",
+        "reality": true,
+        "public_key": "A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0",
+        "short_id": ""
+      }
     },
     {
       "tag": "🇨🇭 CH 06 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "208.69.78.217",
+      "port": 2053,
+      "uuid": "c0dd6d59-1573-43af-8b70-1470b2632a6d",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇨🇭 CH 07 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "208.69.78.19",
@@ -131,50 +148,33 @@
       }
     },
     {
-      "tag": "🇨🇭 CH 07 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "208.69.78.29",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "learn.yourultimateprofessionalcareerhub.com",
-        "insecure": true
-      }
-    },
-    {
       "tag": "🇨🇭 CH 08 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "208.69.78.208",
+      "type": "vless",
+      "server": "149.33.15.213",
       "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "uuid": "054362fb-e485-4a3f-9568-4c5b0f60e074",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "resources.yourultimateprofessionalcareerhub.com",
-        "insecure": true
+        "server_name": "swz.proxyplankton.ru",
+        "insecure": true,
+        "client_fingerprint": null
       }
     },
     {
       "tag": "🇨🇭 CH 09 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "199.232.78.159",
+      "server": "149.33.15.213",
       "port": 443,
-      "uuid": "c1a3a6ee-34d3-4fcd-8763-c2231adabed6",
+      "uuid": "054362fb-e485-4a3f-9568-4c5b0f60e074",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "firefox.com",
+        "server_name": "swz.proxyplankton.ru",
         "insecure": true,
         "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "lofinlaoijji.global.ssl.fastly.net"
-        }
       }
     },
     {
@@ -199,97 +199,43 @@
       "tag": "🇨🇭 CH 11 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "199.232.78.159",
-      "port": 443,
-      "uuid": "c1a3a6ee-34d3-4fcd-8763-c2231adabed6",
+      "server": "208.69.78.217",
+      "port": 2053,
+      "uuid": "c0dd6d59-1573-43af-8b70-1470b2632a6d",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "firefox.com",
+        "server_name": "www.apple.com",
         "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "lofinlaoijji.global.ssl.fastly.net"
-        }
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0",
+        "short_id": ""
       }
     },
     {
       "tag": "🇨🇭 CH 12 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "208.69.78.217",
-      "port": 2053,
-      "uuid": "c0dd6d59-1573-43af-8b70-1470b2632a6d",
-      "flow": "",
+      "type": "trojan",
+      "server": "208.69.78.29",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0",
-        "short_id": ""
+        "server_name": "learn.yourultimateprofessionalcareerhub.com",
+        "insecure": true
       }
     },
     {
       "tag": "🇨🇭 CH 13 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "149.33.15.213",
-      "port": 443,
-      "uuid": "054362fb-e485-4a3f-9568-4c5b0f60e074",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "swz.proxyplankton.ru",
-        "insecure": true,
-        "client_fingerprint": null
-      }
-    },
-    {
-      "tag": "🇨🇭 CH 14 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "208.69.78.217",
-      "port": 2053,
-      "uuid": "c0dd6d59-1573-43af-8b70-1470b2632a6d",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇨🇭 CH 15 - xiaohe",
-      "udp": true,
       "type": "trojan",
-      "server": "208.69.78.60",
+      "server": "208.69.78.208",
       "port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "cdn.yourultimateprofessionalcareerhub.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇭 CH 16 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "208.69.78.19",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.yourultimateprofessionalcareerhub.com",
+        "server_name": "resources.yourultimateprofessionalcareerhub.com",
         "insecure": true
       }
     }

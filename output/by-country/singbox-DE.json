@@ -49,7 +49,10 @@
         "🇩🇪 德国 (Germany) 35 - xiaohe",
         "🇩🇪 德国 (Germany) 36 - xiaohe",
         "🇩🇪 德国 (Germany) 37 - xiaohe",
-        "🇩🇪 德国 (Germany) 38 - xiaohe"
+        "🇩🇪 德国 (Germany) 38 - xiaohe",
+        "🇩🇪 德国 (Germany) 39 - xiaohe",
+        "🇩🇪 德国 (Germany) 40 - xiaohe",
+        "🇩🇪 德国 (Germany) 41 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -78,25 +81,43 @@
       "tag": "🇩🇪 德国 (Germany) 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "91.107.247.173",
-      "port": 2083,
-      "uuid": "7858128a-6b5e-4f86-9bff-52c1f1e6439d",
+      "server": "www.buydomains.com",
+      "port": 443,
+      "uuid": "4d945644-69ab-47e0-98b3-d43a6313135d",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "sino.bestsellers1.site",
+        "server_name": "mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/",
+        "path": "/vl/SaXqikbSPA3ImtmZKAFin?ed=2560",
         "headers": {
-          "Host": "91.107.247.173"
+          "Host": "mhoX6Xz96zGe3qv5HISuFj9B.paGeS.DEV"
         }
       }
     },
     {
       "tag": "🇩🇪 德国 (Germany) 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "193.148.253.194",
+      "port": 25362,
+      "uuid": "36fb6650-8a50-42b5-9f66-06538806f32c",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.chip.de",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 04 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "193.108.119.96",
@@ -109,28 +130,25 @@
       }
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "57.129.41.216",
-      "port": 80,
-      "uuid": "7d74eae4-8a06-4306-a923-ad686f30bf26",
-      "flow": "",
-      "ws": {
-        "path": "/vless/",
-        "headers": {
-          "Host": "OV-Germany1.09vpn.com"
-        }
-      }
-    },
-    {
       "tag": "🇩🇪 德国 (Germany) 05 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "185.226.172.8",
-      "port": 8008,
-      "method": "aes-256-gcm",
-      "password": "XKFKl2rULjIp74"
+      "type": "vless",
+      "server": "104.18.35.86",
+      "port": 443,
+      "uuid": "1c7f675f-5923-463f-83fb-af4c898cecea",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "0Ee6wOQz4W8W0cDqiTgq6XZ-q0o9r6o9.merTEssWAgGEr08.WoRKErs.dEv",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/eyJqdW5rIjoiZWhuWFFGNWRISXBjSmRGWSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
+        "headers": {
+          "Host": "0Ee6wOQz4W8W0cDqiTgq6XZ-q0o9r6o9.merTEssWAgGEr08.WoRKErs.dEv"
+        }
+      }
     },
     {
       "tag": "🇩🇪 德国 (Germany) 06 - xiaohe",
@@ -148,35 +166,55 @@
     {
       "tag": "🇩🇪 德国 (Germany) 07 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "8.211.196.252",
-      "port": 443,
-      "method": "2022-blake3-chacha20-poly1305",
-      "password": "Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4="
+      "type": "vless",
+      "server": "140.225.208.60",
+      "port": 2083,
+      "uuid": "e3c3b722-1264-4cdc-a97c-b0a1bb73cd67",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "speedtestmark.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/vless-ws",
+        "headers": {
+          "Host": "140.225.208.60"
+        }
+      }
     },
     {
       "tag": "🇩🇪 德国 (Germany) 08 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "45.32.157.84",
-      "port": 443,
-      "password": "Tg3RnK7Xp8B1",
+      "type": "vless",
+      "server": "91.107.188.129",
+      "port": 2083,
+      "uuid": "36592d47-b9f5-4e8f-949e-45ac05472aab",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com",
-        "insecure": true
+        "server_name": "site.check-looks.space",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "91.107.188.129"
+        }
       }
     },
     {
       "tag": "🇩🇪 德国 (Germany) 09 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "193.108.119.15",
+      "server": "193.108.119.96",
       "port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "courses.iloverussia2026.com",
+        "server_name": "learn.iloverussia2026.com",
         "insecure": true
       }
     },
@@ -205,7 +243,7 @@
       "tag": "🇩🇪 德国 (Germany) 11 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "hw7.divarkhaghazi.com",
+      "server": "91.107.180.176",
       "port": 465,
       "uuid": "d0d3d49c-56e8-40e1-9e83-793d03f83d93",
       "flow": "",
@@ -225,82 +263,6 @@
     {
       "tag": "🇩🇪 德国 (Germany) 12 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "185.176.204.18",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 13 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "connect.wecantos.site",
-      "port": 10000,
-      "uuid": "a05ecf37-c661-4247-ab09-4432cf0f3cc1",
-      "flow": ""
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 14 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "connect.wecantos.site",
-      "port": 10000,
-      "uuid": "a05ecf37-c661-4247-ab09-4432cf0f3cc1",
-      "flow": ""
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 15 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "connect.wecantos.site",
-      "port": 10000,
-      "uuid": "a05ecf37-c661-4247-ab09-4432cf0f3cc1",
-      "flow": ""
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 16 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "168.222.43.53",
-      "port": 10000,
-      "uuid": "a05ecf37-c661-4247-ab09-4432cf0f3cc1",
-      "flow": ""
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 17 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "168.222.43.53",
-      "port": 10000,
-      "uuid": "a05ecf37-c661-4247-ab09-4432cf0f3cc1",
-      "flow": ""
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 18 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "155.117.5.208",
-      "port": 10000,
-      "uuid": "a05ecf37-c661-4247-ab09-4432cf0f3cc1",
-      "flow": ""
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 19 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "193.108.119.78",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.iloverussia2026.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 20 - xiaohe",
-      "udp": true,
       "type": "trojan",
       "server": "193.108.119.15",
       "port": 443,
@@ -312,33 +274,46 @@
       }
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 21 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 13 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "193.108.119.96",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "type": "vless",
+      "server": "104.17.70.206",
+      "port": 8443,
+      "uuid": "5f704d93-7e7f-45b5-81f5-08db4a946220",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "learn.iloverussia2026.com",
-        "insecure": true
+        "server_name": "free.sahanwickramasinghe.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "free.sahanwickramasinghe.com"
+        }
       }
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 22 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 14 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "193.108.119.193",
+      "type": "shadowsocks",
+      "server": "8.211.196.252",
       "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "resources.iloverussia2026.com",
-        "insecure": true
-      }
+      "method": "2022-blake3-chacha20-poly1305",
+      "password": "Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4="
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 23 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 15 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "8.211.196.252",
+      "port": 443,
+      "method": "2022-blake3-chacha20-poly1305",
+      "password": "Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4="
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 16 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "193.108.119.29",
@@ -351,25 +326,121 @@
       }
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 24 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 17 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "155.117.5.208",
-      "port": 10000,
-      "uuid": "a05ecf37-c661-4247-ab09-4432cf0f3cc1",
-      "flow": ""
+      "server": "hw7.divarkhaghazi.com",
+      "port": 465,
+      "uuid": "d0d3d49c-56e8-40e1-9e83-793d03f83d93",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "hw7.divarkhaghazi.com.",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "hw7.divarkhaghazi.com."
+        }
+      }
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 25 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 18 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "178.83.45.226",
-      "port": 10000,
-      "uuid": "a05ecf37-c661-4247-ab09-4432cf0f3cc1",
-      "flow": ""
+      "server": "148.253.210.191",
+      "port": 443,
+      "uuid": "53f03acd-fec1-6685-fc8f-03baf9550cb8",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "148-253-210-191.sslip.io",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/test-ws",
+        "headers": {
+          "Host": "148-253-210-191.sslip.io"
+        }
+      }
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 26 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 19 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "195.141.65.98",
+      "port": 443,
+      "uuid": "53f03acd-fec1-6685-fc8f-03baf9550cb8",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "148-253-210-191.sslip.io",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/test-ws",
+        "headers": {
+          "Host": "148-253-210-191.sslip.io"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 20 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "91.107.247.173",
+      "port": 2083,
+      "uuid": "7858128a-6b5e-4f86-9bff-52c1f1e6439d",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "sino.bestsellers1.site",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "91.107.247.173"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 21 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "31.12.75.64",
+      "port": 443,
+      "uuid": "50414e45-4c5f-5a45-5553-15038a30cbef",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "oizs5zecux0s.pouriayy1.workers.dev",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/stream/PANEL_ZEUS/15038a30cbef/loc-0",
+        "headers": {
+          "Host": "oizs5zecux0s.pouriayy1.workers.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 22 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "185.226.172.8",
+      "port": 8008,
+      "method": "aes-256-gcm",
+      "password": "XKFKl2rULjIp74"
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 23 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "168.222.43.53",
@@ -378,7 +449,101 @@
       "flow": ""
     },
     {
+      "tag": "🇩🇪 德国 (Germany) 24 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "178.83.45.226",
+      "port": 10000,
+      "uuid": "a05ecf37-c661-4247-ab09-4432cf0f3cc1",
+      "flow": ""
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 25 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "connect.wecantos.site",
+      "port": 10000,
+      "uuid": "a05ecf37-c661-4247-ab09-4432cf0f3cc1",
+      "flow": ""
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 26 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "connect.wecantos.site",
+      "port": 10000,
+      "uuid": "a05ecf37-c661-4247-ab09-4432cf0f3cc1",
+      "flow": ""
+    },
+    {
       "tag": "🇩🇪 德国 (Germany) 27 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "connect.wecantos.site",
+      "port": 10000,
+      "uuid": "a05ecf37-c661-4247-ab09-4432cf0f3cc1",
+      "flow": ""
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 28 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "168.222.43.53",
+      "port": 10000,
+      "uuid": "a05ecf37-c661-4247-ab09-4432cf0f3cc1",
+      "flow": ""
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 29 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "168.222.43.53",
+      "port": 10000,
+      "uuid": "a05ecf37-c661-4247-ab09-4432cf0f3cc1",
+      "flow": ""
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 30 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "155.117.5.208",
+      "port": 10000,
+      "uuid": "a05ecf37-c661-4247-ab09-4432cf0f3cc1",
+      "flow": ""
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 31 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "155.117.5.208",
+      "port": 10000,
+      "uuid": "a05ecf37-c661-4247-ab09-4432cf0f3cc1",
+      "flow": ""
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 32 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "connect.wecantos.site",
+      "port": 10000,
+      "uuid": "a05ecf37-c661-4247-ab09-4432cf0f3cc1",
+      "flow": ""
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 33 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "193.108.119.193",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "resources.iloverussia2026.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 34 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "www.gptcloudai.com",
@@ -399,54 +564,16 @@
       }
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 28 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 35 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "91.107.180.176",
-      "port": 465,
-      "uuid": "d0d3d49c-56e8-40e1-9e83-793d03f83d93",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "hw7.divarkhaghazi.com.",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "hw7.divarkhaghazi.com."
-        }
-      }
+      "type": "shadowsocks",
+      "server": "185.176.204.18",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 29 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "193.108.119.96",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "learn.iloverussia2026.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 30 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "193.108.119.15",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "courses.iloverussia2026.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 31 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 36 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "91.107.247.173",
@@ -467,28 +594,35 @@
       }
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 32 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 37 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "91.107.188.129",
-      "port": 2083,
-      "uuid": "36592d47-b9f5-4e8f-949e-45ac05472aab",
+      "server": "57.129.41.216",
+      "port": 80,
+      "uuid": "7d74eae4-8a06-4306-a923-ad686f30bf26",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "site.check-looks.space",
-        "insecure": true,
-        "client_fingerprint": null
-      },
       "ws": {
-        "path": "/",
+        "path": "/vless/",
         "headers": {
-          "Host": "91.107.188.129"
+          "Host": "OV-Germany1.09vpn.com"
         }
       }
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 33 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 38 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "193.108.119.15",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "courses.iloverussia2026.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇩🇪 德国 (Germany) 39 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "185.176.204.18",
@@ -497,82 +631,29 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 34 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "hile.ratzofinder.ir",
-      "port": 2082,
-      "uuid": "890c12b5-c3dd-48d4-accc-0dce2db1b637",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.google.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "mRKBERszJtP2vL6peLVkAsTrnRJdbRigzUjYvb-K534",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 35 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "193.148.253.194",
-      "port": 25362,
-      "uuid": "36fb6650-8a50-42b5-9f66-06538806f32c",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.chip.de",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 36 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "connect.wecantos.site",
-      "port": 10000,
-      "uuid": "a05ecf37-c661-4247-ab09-4432cf0f3cc1",
-      "flow": ""
-    },
-    {
-      "tag": "🇩🇪 德国 (Germany) 37 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 40 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "193.108.119.96",
+      "server": "193.108.119.78",
       "port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "learn.iloverussia2026.com",
+        "server_name": "www.iloverussia2026.com",
         "insecure": true
       }
     },
     {
-      "tag": "🇩🇪 德国 (Germany) 38 - xiaohe",
+      "tag": "🇩🇪 德国 (Germany) 41 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "148.253.210.191",
+      "type": "trojan",
+      "server": "193.108.119.15",
       "port": 443,
-      "uuid": "53f03acd-fec1-6685-fc8f-03baf9550cb8",
-      "flow": "",
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "148-253-210-191.sslip.io",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/test-ws",
-        "headers": {
-          "Host": "148-253-210-191.sslip.io"
-        }
+        "server_name": "courses.iloverussia2026.com",
+        "insecure": true
       }
     }
   ]

@@ -36,20 +36,20 @@
       "tag": "🇫🇮 FI 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "65.109.211.81",
+      "server": "hw3.divarkhaghazi.com",
       "port": 465,
-      "uuid": "09f30c46-3964-41ce-882a-72aee83ddd42",
+      "uuid": "924e20da-fcad-4e7e-8113-c62d27a0d01e",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "hw6.divarkhaghazi.com.",
+        "server_name": "hw3.divarkhaghazi.com.",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
         "path": "/",
         "headers": {
-          "Host": "hw6.divarkhaghazi.com."
+          "Host": "hw3.divarkhaghazi.com."
         }
       }
     },
@@ -57,7 +57,7 @@
       "tag": "🇫🇮 FI 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "hw3.divarkhaghazi.com.",
+      "server": "hw3.divarkhaghazi.com",
       "port": 465,
       "uuid": "924e20da-fcad-4e7e-8113-c62d27a0d01e",
       "flow": "",
@@ -78,14 +78,20 @@
       "tag": "🇫🇮 FI 03 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "45.144.234.157",
-      "port": 14430,
-      "uuid": "59b0d30e-9b29-4fda-a35c-b2901ec32db7",
+      "server": "hw3.divarkhaghazi.com.",
+      "port": 465,
+      "uuid": "924e20da-fcad-4e7e-8113-c62d27a0d01e",
       "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "hw3.divarkhaghazi.com.",
+        "insecure": true,
+        "client_fingerprint": null
+      },
       "ws": {
-        "path": "/vless",
+        "path": "/",
         "headers": {
-          "Host": "45.144.234.157"
+          "Host": "hw3.divarkhaghazi.com."
         }
       }
     },
@@ -93,7 +99,7 @@
       "tag": "🇫🇮 FI 04 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "hw3.divarkhaghazi.com",
+      "server": "65.109.210.221",
       "port": 465,
       "uuid": "924e20da-fcad-4e7e-8113-c62d27a0d01e",
       "flow": "",
@@ -114,27 +120,6 @@
       "tag": "🇫🇮 FI 05 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "hw3.divarkhaghazi.com",
-      "port": 465,
-      "uuid": "924e20da-fcad-4e7e-8113-c62d27a0d01e",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "hw3.divarkhaghazi.com.",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "hw3.divarkhaghazi.com."
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI 06 - xiaohe",
-      "udp": true,
-      "type": "vless",
       "server": "45.144.234.157",
       "port": 14430,
       "uuid": "59b0d30e-9b29-4fda-a35c-b2901ec32db7",
@@ -143,6 +128,27 @@
         "path": "/vless",
         "headers": {
           "Host": "45.144.234.157"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI 06 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "65.109.211.81",
+      "port": 465,
+      "uuid": "09f30c46-3964-41ce-882a-72aee83ddd42",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "hw6.divarkhaghazi.com.",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "hw6.divarkhaghazi.com."
         }
       }
     },
@@ -186,20 +192,14 @@
       "tag": "🇫🇮 FI 09 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "65.109.210.221",
-      "port": 465,
-      "uuid": "924e20da-fcad-4e7e-8113-c62d27a0d01e",
+      "server": "45.144.234.157",
+      "port": 14430,
+      "uuid": "59b0d30e-9b29-4fda-a35c-b2901ec32db7",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "hw3.divarkhaghazi.com.",
-        "insecure": true,
-        "client_fingerprint": null
-      },
       "ws": {
-        "path": "/",
+        "path": "/vless",
         "headers": {
-          "Host": "hw3.divarkhaghazi.com."
+          "Host": "45.144.234.157"
         }
       }
     }
