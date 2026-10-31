@@ -5,18 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇱 IL 01 - xiaohe
-  type: vless
-  server: 79.182.39.37
-  port: 27591
-  uuid: 056405e8-de9f-4d0d-8145-956f13cc34da
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: LY0H47MWx87_L_JBzxFAuTzKZB53U7MrZQK8-dNnMxM
-  servername: www.samsung.com
-  client-fingerprint: firefox
-- name: 🇮🇱 IL 02 - xiaohe
   type: trojan
   server: 64.176.163.182
   port: 443
@@ -30,13 +18,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇮🇱 IL 01 - xiaohe
-  - 🇮🇱 IL 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇮🇱 IL 01 - xiaohe
-  - 🇮🇱 IL 02 - xiaohe
 rules:
 - MATCH,PROXIES

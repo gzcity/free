@@ -15,7 +15,8 @@
         "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
         "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
         "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 04 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 04 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 05 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -89,6 +90,27 @@
     },
     {
       "tag": "🇹🇷 土耳其 (Turkey) 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "177.3.208.65",
+      "port": 443,
+      "uuid": "4f34bc04-479c-49ba-91a8-6bb9ed15031c",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "tgmansion.site",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/vless-tr",
+        "headers": {
+          "Host": "177.3.208.65"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 土耳其 (Turkey) 05 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "151.241.226.201",

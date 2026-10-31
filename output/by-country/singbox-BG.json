@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇧🇬 BG 01 - xiaohe"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "tag": "🇧🇬 BG 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "p1real4.greewebservices.ir",
+      "port": 1260,
+      "uuid": "f234330e-f9df-46e3-8f60-b2af5173c147",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.googleapis.com",
+        "insecure": true,
+        "client_fingerprint": "ios",
+        "reality": true,
+        "public_key": "xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8",
+        "short_id": ""
+      }
+    }
+  ]
+}
