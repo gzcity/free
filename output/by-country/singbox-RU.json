@@ -15,8 +15,7 @@
         "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 05 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -32,7 +31,7 @@
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "87.120.166.160",
+      "server": "lvi.su",
       "port": 443,
       "uuid": "7b91b2c3-8af3-449b-a555-00c9460989f4",
       "flow": "",
@@ -74,7 +73,7 @@
       "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "lvi.su",
+      "server": "87.120.166.160",
       "port": 443,
       "uuid": "7b91b2c3-8af3-449b-a555-00c9460989f4",
       "flow": "",
@@ -107,21 +106,6 @@
         "reality": true,
         "public_key": "OIWmjOL9lOxVRm-ejEvQf_G-Km-5Rw3L-w5d8rhVzQw",
         "short_id": ""
-      }
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "87.242.119.253",
-      "port": 443,
-      "uuid": "aba9cdd4-026c-0001-87a9-9b3e5f24dd82",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "hvtlr-ru-47sb.fade.mom",
-        "insecure": true,
-        "client_fingerprint": null
       }
     }
   ]

@@ -46,57 +46,23 @@
     {
       "tag": "🇨🇭 CH 01 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "208.69.78.60",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "type": "vless",
+      "server": "208.69.78.217",
+      "port": 2053,
+      "uuid": "c0dd6d59-1573-43af-8b70-1470b2632a6d",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "cdn.yourultimateprofessionalcareerhub.com",
-        "insecure": true
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0",
+        "short_id": ""
       }
     },
     {
       "tag": "🇨🇭 CH 02 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "208.69.78.19",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.yourultimateprofessionalcareerhub.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇭 CH 03 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "208.69.78.19",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.yourultimateprofessionalcareerhub.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇭 CH 04 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "208.69.78.208",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "resources.yourultimateprofessionalcareerhub.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇭 CH 05 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "208.69.78.217",
@@ -114,7 +80,7 @@
       }
     },
     {
-      "tag": "🇨🇭 CH 06 - xiaohe",
+      "tag": "🇨🇭 CH 03 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "208.69.78.217",
@@ -132,7 +98,7 @@
       }
     },
     {
-      "tag": "🇨🇭 CH 07 - xiaohe",
+      "tag": "🇨🇭 CH 04 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "208.69.78.19",
@@ -145,21 +111,55 @@
       }
     },
     {
-      "tag": "🇨🇭 CH 08 - xiaohe",
+      "tag": "🇨🇭 CH 05 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "208.69.78.217",
-      "port": 2053,
-      "uuid": "c0dd6d59-1573-43af-8b70-1470b2632a6d",
-      "flow": "",
+      "type": "trojan",
+      "server": "208.69.78.19",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0",
-        "short_id": ""
+        "server_name": "www.yourultimateprofessionalcareerhub.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇭 CH 06 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "208.69.78.19",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.yourultimateprofessionalcareerhub.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇭 CH 07 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "208.69.78.60",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.yourultimateprofessionalcareerhub.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇭 CH 08 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "208.69.78.19",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.yourultimateprofessionalcareerhub.com",
+        "insecure": true
       }
     },
     {
@@ -178,6 +178,32 @@
     {
       "tag": "🇨🇭 CH 10 - xiaohe",
       "udp": true,
+      "type": "trojan",
+      "server": "208.69.78.208",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "resources.yourultimateprofessionalcareerhub.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇭 CH 11 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "208.69.78.29",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "learn.yourultimateprofessionalcareerhub.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇭 CH 12 - xiaohe",
+      "udp": true,
       "type": "vless",
       "server": "208.69.78.217",
       "port": 2053,
@@ -194,25 +220,7 @@
       }
     },
     {
-      "tag": "🇨🇭 CH 11 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "208.69.78.217",
-      "port": 2053,
-      "uuid": "c0dd6d59-1573-43af-8b70-1470b2632a6d",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true,
-        "client_fingerprint": "random",
-        "reality": true,
-        "public_key": "A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇨🇭 CH 12 - xiaohe",
+      "tag": "🇨🇭 CH 13 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "208.69.78.29",
@@ -225,7 +233,7 @@
       }
     },
     {
-      "tag": "🇨🇭 CH 13 - xiaohe",
+      "tag": "🇨🇭 CH 14 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "208.69.78.19",
@@ -234,19 +242,6 @@
       "tls": {
         "enabled": true,
         "server_name": "www.yourultimateprofessionalcareerhub.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇭 CH 14 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "208.69.78.33",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "courses.yourultimateprofessionalcareerhub.com",
         "insecure": true
       }
     },
@@ -288,7 +283,7 @@
         "enabled": true,
         "server_name": "www.apple.com",
         "insecure": true,
-        "client_fingerprint": "chrome",
+        "client_fingerprint": "random",
         "reality": true,
         "public_key": "A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0",
         "short_id": ""
@@ -298,26 +293,31 @@
       "tag": "🇨🇭 CH 18 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "208.69.78.29",
+      "server": "208.69.78.33",
       "port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "learn.yourultimateprofessionalcareerhub.com",
+        "server_name": "courses.yourultimateprofessionalcareerhub.com",
         "insecure": true
       }
     },
     {
       "tag": "🇨🇭 CH 19 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "208.69.78.19",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "type": "vless",
+      "server": "208.69.78.217",
+      "port": 2053,
+      "uuid": "c0dd6d59-1573-43af-8b70-1470b2632a6d",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "www.yourultimateprofessionalcareerhub.com",
-        "insecure": true
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0",
+        "short_id": ""
       }
     },
     {

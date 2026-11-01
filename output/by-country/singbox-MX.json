@@ -34,6 +34,32 @@
       "tag": "🇲🇽 MX 01 - xiaohe",
       "udp": true,
       "type": "trojan",
+      "server": "216.238.80.100",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "connectwithtopemployersandfindidealjobs.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇲🇽 MX 02 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "216.238.80.100",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "connectwithtopemployersandfindidealjobs.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇲🇽 MX 03 - xiaohe",
+      "udp": true,
+      "type": "trojan",
       "server": "mx001.zestapp778.com",
       "port": 15083,
       "password": "5t6i121em5lkmsmk",
@@ -44,7 +70,33 @@
       }
     },
     {
-      "tag": "🇲🇽 MX 02 - xiaohe",
+      "tag": "🇲🇽 MX 04 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "216.238.80.100",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "connectwithtopemployersandfindidealjobs.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇲🇽 MX 05 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "mx001.zestapp778.com",
+      "port": 15083,
+      "password": "5t6i121em5lkmsmk",
+      "tls": {
+        "enabled": true,
+        "server_name": "mx001.zestapp778.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇲🇽 MX 06 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "149.104.87.33",
@@ -53,58 +105,6 @@
       "tls": {
         "enabled": true,
         "server_name": "mx001.zestapp778.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇲🇽 MX 03 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "216.238.80.100",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "connectwithtopemployersandfindidealjobs.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇲🇽 MX 04 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "mx001.zestapp778.com",
-      "port": 15083,
-      "password": "5t6i121em5lkmsmk",
-      "tls": {
-        "enabled": true,
-        "server_name": "mx001.zestapp778.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇲🇽 MX 05 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "216.238.80.100",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "connectwithtopemployersandfindidealjobs.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇲🇽 MX 06 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "216.238.80.100",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "connectwithtopemployersandfindidealjobs.com",
         "insecure": true
       }
     },
