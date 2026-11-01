@@ -14,7 +14,8 @@
       "outbounds": [
         "🇱🇹 LT 01 - xiaohe",
         "🇱🇹 LT 02 - xiaohe",
-        "🇱🇹 LT 03 - xiaohe"
+        "🇱🇹 LT 03 - xiaohe",
+        "🇱🇹 LT 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -28,6 +29,27 @@
     },
     {
       "tag": "🇱🇹 LT 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "185.178.208.167",
+      "port": 443,
+      "uuid": "2232d904-8e6a-4202-8240-6efd8aec02e9",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "lorettmay.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/blog/posts",
+        "headers": {
+          "Host": "lorettmay.top"
+        }
+      }
+    },
+    {
+      "tag": "🇱🇹 LT 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "88.216.69.253",
@@ -48,7 +70,7 @@
       }
     },
     {
-      "tag": "🇱🇹 LT 02 - xiaohe",
+      "tag": "🇱🇹 LT 03 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "88.216.69.253",
@@ -69,7 +91,7 @@
       }
     },
     {
-      "tag": "🇱🇹 LT 03 - xiaohe",
+      "tag": "🇱🇹 LT 04 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "88.216.69.253",

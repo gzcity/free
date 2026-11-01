@@ -12,9 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇲 AM 01 - xiaohe",
-        "🇦🇲 AM 02 - xiaohe",
-        "🇦🇲 AM 03 - xiaohe"
+        "🇦🇲 AM 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -30,21 +28,6 @@
       "tag": "🇦🇲 AM 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "179.253.179.109",
-      "port": 63053,
-      "uuid": "e3aa3d22-a95e-407b-aacc-d855b90a5d70",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "de2.derevohom.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      }
-    },
-    {
-      "tag": "🇦🇲 AM 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
       "server": "77.91.68.70",
       "port": 55983,
       "uuid": "f667a096-5231-4cfb-8759-92bb32473139",
@@ -57,21 +40,6 @@
         "reality": true,
         "public_key": "nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg",
         "short_id": ""
-      }
-    },
-    {
-      "tag": "🇦🇲 AM 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "179.253.179.109",
-      "port": 63053,
-      "uuid": "e3aa3d22-a95e-407b-aacc-d855b90a5d70",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "de2.derevohom.xyz",
-        "insecure": true,
-        "client_fingerprint": null
       }
     }
   ]

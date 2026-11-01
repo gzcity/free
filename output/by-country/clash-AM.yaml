@@ -6,15 +6,6 @@ log-level: info
 proxies:
 - name: 🇦🇲 AM 01 - xiaohe
   type: vless
-  server: 179.253.179.109
-  port: 63053
-  uuid: e3aa3d22-a95e-407b-aacc-d855b90a5d70
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: de2.derevohom.xyz
-- name: 🇦🇲 AM 02 - xiaohe
-  type: vless
   server: 77.91.68.70
   port: 55983
   uuid: f667a096-5231-4cfb-8759-92bb32473139
@@ -25,30 +16,17 @@ proxies:
     public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg
   servername: yahoo.com
   client-fingerprint: chrome
-- name: 🇦🇲 AM 03 - xiaohe
-  type: vless
-  server: 179.253.179.109
-  port: 63053
-  uuid: e3aa3d22-a95e-407b-aacc-d855b90a5d70
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: de2.derevohom.xyz
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇦🇲 AM 01 - xiaohe
-  - 🇦🇲 AM 02 - xiaohe
-  - 🇦🇲 AM 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇦🇲 AM 01 - xiaohe
-  - 🇦🇲 AM 02 - xiaohe
-  - 🇦🇲 AM 03 - xiaohe
 rules:
 - MATCH,PROXIES
