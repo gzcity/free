@@ -28,22 +28,6 @@
     {
       "tag": "🇰🇿 KZ 01 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "38.107.234.57",
-      "port": 80,
-      "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
-      "alterId": 0,
-      "security": "auto",
-      "ws": {
-        "path": "/vmess/",
-        "headers": {
-          "Host": "38.107.234.57"
-        }
-      }
-    },
-    {
-      "tag": "🇰🇿 KZ 02 - xiaohe",
-      "udp": true,
       "type": "vless",
       "server": "109.248.170.119",
       "port": 13447,
@@ -57,6 +41,22 @@
         "reality": true,
         "public_key": "_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE",
         "short_id": ""
+      }
+    },
+    {
+      "tag": "🇰🇿 KZ 02 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "38.107.234.57",
+      "port": 80,
+      "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
+      "alterId": 0,
+      "security": "auto",
+      "ws": {
+        "path": "/vmess/",
+        "headers": {
+          "Host": "38.107.234.57"
+        }
       }
     }
   ]
