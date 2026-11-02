@@ -15,7 +15,8 @@
         "🇱🇹 LT 01 - xiaohe",
         "🇱🇹 LT 02 - xiaohe",
         "🇱🇹 LT 03 - xiaohe",
-        "🇱🇹 LT 04 - xiaohe"
+        "🇱🇹 LT 04 - xiaohe",
+        "🇱🇹 LT 05 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -42,7 +43,7 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/fp=chrome",
+        "path": "/fp",
         "headers": {
           "Host": "ccc.010304.xyz"
         }
@@ -84,7 +85,7 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/fp",
+        "path": "/fp=chrome",
         "headers": {
           "Host": "ccc.010304.xyz"
         }
@@ -94,20 +95,41 @@
       "tag": "🇱🇹 LT 04 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "185.178.208.167",
+      "server": "88.216.69.253",
       "port": 443,
-      "uuid": "2232d904-8e6a-4202-8240-6efd8aec02e9",
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "lorettmay.top",
+        "server_name": "ccc.010304.xyz",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/blog/posts",
+        "path": "/fp",
         "headers": {
-          "Host": "lorettmay.top"
+          "Host": "ccc.010304.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇱🇹 LT 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "88.216.69.253",
+      "port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "ccc.010304.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/fp",
+        "headers": {
+          "Host": "ccc.010304.xyz"
         }
       }
     }
