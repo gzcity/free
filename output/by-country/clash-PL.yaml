@@ -14,14 +14,6 @@ proxies:
   skip-cert-verify: true
   servername: 2.26.6.1
 - name: 🇵🇱 PL 02 - xiaohe
-  type: trojan
-  server: 70.34.252.255
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: browseexecutivejobopeningsandenhanceleadershipcareer.com
-  skip-cert-verify: true
-- name: 🇵🇱 PL 03 - xiaohe
   type: vless
   server: 2.26.6.1
   port: 2087
@@ -30,6 +22,14 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: 2.26.6.1
+- name: 🇵🇱 PL 03 - xiaohe
+  type: trojan
+  server: 70.34.252.255
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: browseexecutivejobopeningsandenhanceleadershipcareer.com
+  skip-cert-verify: true
 - name: 🇵🇱 PL 04 - xiaohe
   type: trojan
   server: 70.34.252.255

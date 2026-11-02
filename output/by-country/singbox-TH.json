@@ -13,8 +13,7 @@
       "tag": "auto",
       "outbounds": [
         "🇹🇭 TH 01 - xiaohe",
-        "🇹🇭 TH 02 - xiaohe",
-        "🇹🇭 TH 03 - xiaohe"
+        "🇹🇭 TH 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -44,19 +43,6 @@
       "udp": true,
       "type": "trojan",
       "server": "th001.zestapp778.com",
-      "port": 33079,
-      "password": "5t6i121em5lkmsmk",
-      "tls": {
-        "enabled": true,
-        "server_name": "th001.zestapp778.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇹🇭 TH 03 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "38.60.200.237",
       "port": 33079,
       "password": "5t6i121em5lkmsmk",
       "tls": {
