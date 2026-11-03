@@ -13,6 +13,13 @@ proxies:
   sni: 64.176.7.205
   skip-cert-verify: true
 - name: 🇨🇱 CL 02 - xiaohe
+  type: ss
+  server: 64.176.2.21
+  port: 8388
+  cipher: aes-256-gcm
+  password: xBStBEVqvGwHPocc
+  udp: true
+- name: 🇨🇱 CL 03 - xiaohe
   type: trojan
   server: 64.176.7.205
   port: 443
@@ -20,13 +27,6 @@ proxies:
   udp: true
   sni: advanceyouremploymentskillsandcareerdevelopmenthub.com
   skip-cert-verify: true
-- name: 🇨🇱 CL 03 - xiaohe
-  type: ss
-  server: 64.176.2.21
-  port: 8388
-  cipher: aes-256-gcm
-  password: xBStBEVqvGwHPocc
-  udp: true
 - name: 🇨🇱 CL 04 - xiaohe
   type: trojan
   server: 64.176.7.205
