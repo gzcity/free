@@ -13,7 +13,10 @@
       "tag": "auto",
       "outbounds": [
         "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 05 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -29,7 +32,28 @@
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "lvi.su",
+      "server": "91.185.83.44",
+      "port": 443,
+      "uuid": "7955bf18-35c4-412d-aabd-c0b36c793063",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nguyxejonb.rucdncomp.pro",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/service/telemetry/0294da469190/",
+        "headers": {
+          "Host": "nguyxejonb.rucdncomp.pro"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "87.120.166.160",
       "port": 443,
       "uuid": "7b91b2c3-8af3-449b-a555-00c9460989f4",
       "flow": "",
@@ -47,10 +71,52 @@
       }
     },
     {
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "87.120.166.160",
+      "server": "91.185.83.44",
+      "port": 443,
+      "uuid": "c720cb74-4c84-4fce-b8ae-637dbaa16199",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nguyxejonb.rucdncomp.pro",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/service/telemetry/0294da469190/",
+        "headers": {
+          "Host": "nguyxejonb.rucdncomp.pro"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "91.185.83.44",
+      "port": 443,
+      "uuid": "c720cb74-4c84-4fce-b8ae-637dbaa16199",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nguyxejonb.rucdncomp.pro",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/service/telemetry/0294da469190/",
+        "headers": {
+          "Host": "nguyxejonb.rucdncomp.pro"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "lvi.su",
       "port": 443,
       "uuid": "7b91b2c3-8af3-449b-a555-00c9460989f4",
       "flow": "",

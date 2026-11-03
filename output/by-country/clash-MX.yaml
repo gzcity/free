@@ -6,69 +6,21 @@ log-level: info
 proxies:
 - name: 🇲🇽 MX 01 - xiaohe
   type: trojan
-  server: mx001.zestapp778.com
-  port: 15083
-  password: 5t6i121em5lkmsmk
+  server: 216.238.80.100
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   udp: true
-  sni: mx001.zestapp778.com
+  sni: connectwithtopemployersandfindidealjobs.com
   skip-cert-verify: true
 - name: 🇲🇽 MX 02 - xiaohe
   type: trojan
-  server: mx001.zestapp778.com
-  port: 15083
-  password: 5t6i121em5lkmsmk
+  server: 216.238.80.100
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   udp: true
-  sni: mx001.zestapp778.com
+  sni: connectwithtopemployersandfindidealjobs.com
   skip-cert-verify: true
 - name: 🇲🇽 MX 03 - xiaohe
-  type: trojan
-  server: mx001.zestapp778.com
-  port: 15083
-  password: 5t6i121em5lkmsmk
-  udp: true
-  sni: mx001.zestapp778.com
-  skip-cert-verify: true
-- name: 🇲🇽 MX 04 - xiaohe
-  type: trojan
-  server: 38.60.224.241
-  port: 15083
-  password: 5t6i121em5lkmsmk
-  udp: true
-  sni: mx001.zestapp778.com
-  skip-cert-verify: true
-- name: 🇲🇽 MX 05 - xiaohe
-  type: trojan
-  server: 216.238.80.100
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: connectwithtopemployersandfindidealjobs.com
-  skip-cert-verify: true
-- name: 🇲🇽 MX 06 - xiaohe
-  type: trojan
-  server: 149.104.87.33
-  port: 15083
-  password: 5t6i121em5lkmsmk
-  udp: true
-  sni: mx001.zestapp778.com
-  skip-cert-verify: true
-- name: 🇲🇽 MX 07 - xiaohe
-  type: trojan
-  server: 216.238.80.100
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: connectwithtopemployersandfindidealjobs.com
-  skip-cert-verify: true
-- name: 🇲🇽 MX 08 - xiaohe
-  type: trojan
-  server: 38.60.224.241
-  port: 15083
-  password: 5t6i121em5lkmsmk
-  udp: true
-  sni: mx001.zestapp778.com
-  skip-cert-verify: true
-- name: 🇲🇽 MX 09 - xiaohe
   type: trojan
   server: 216.238.80.100
   port: 443
@@ -84,12 +36,6 @@ proxy-groups:
   - 🇲🇽 MX 01 - xiaohe
   - 🇲🇽 MX 02 - xiaohe
   - 🇲🇽 MX 03 - xiaohe
-  - 🇲🇽 MX 04 - xiaohe
-  - 🇲🇽 MX 05 - xiaohe
-  - 🇲🇽 MX 06 - xiaohe
-  - 🇲🇽 MX 07 - xiaohe
-  - 🇲🇽 MX 08 - xiaohe
-  - 🇲🇽 MX 09 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -98,11 +44,5 @@ proxy-groups:
   - 🇲🇽 MX 01 - xiaohe
   - 🇲🇽 MX 02 - xiaohe
   - 🇲🇽 MX 03 - xiaohe
-  - 🇲🇽 MX 04 - xiaohe
-  - 🇲🇽 MX 05 - xiaohe
-  - 🇲🇽 MX 06 - xiaohe
-  - 🇲🇽 MX 07 - xiaohe
-  - 🇲🇽 MX 08 - xiaohe
-  - 🇲🇽 MX 09 - xiaohe
 rules:
 - MATCH,PROXIES

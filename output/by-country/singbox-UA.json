@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇲 AM 01 - xiaohe"
+        "🇺🇦 UA 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,20 +25,20 @@
       "tag": "block"
     },
     {
-      "tag": "🇦🇲 AM 01 - xiaohe",
+      "tag": "🇺🇦 UA 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "77.91.68.70",
-      "port": 55983,
-      "uuid": "f667a096-5231-4cfb-8759-92bb32473139",
+      "server": "31.222.235.81",
+      "port": 443,
+      "uuid": "d8b58872-cc25-4bb2-badb-b86399c075fa",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "yahoo.com",
+        "server_name": "www.cloudflare.com",
         "insecure": true,
         "client_fingerprint": "chrome",
         "reality": true,
-        "public_key": "nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg",
+        "public_key": "L9IllZt5vcjYVY_6rmCJ_9ypmJsBK8dSWkNVCStrZjk",
         "short_id": ""
       }
     }
