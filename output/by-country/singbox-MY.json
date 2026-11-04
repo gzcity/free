@@ -13,9 +13,7 @@
       "tag": "auto",
       "outbounds": [
         "🇲🇾 MY 01 - xiaohe",
-        "🇲🇾 MY 02 - xiaohe",
-        "🇲🇾 MY 03 - xiaohe",
-        "🇲🇾 MY 04 - xiaohe"
+        "🇲🇾 MY 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -60,24 +58,6 @@
           "Host": "ccc.010304.xyz"
         }
       }
-    },
-    {
-      "tag": "🇲🇾 MY 03 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "xunlinknode.csdjhajkshdjkas.com",
-      "port": 40006,
-      "method": "chacha20-ietf-poly1305",
-      "password": "28789988-887e-4e41-83cd-27bbfb7999ad"
-    },
-    {
-      "tag": "🇲🇾 MY 04 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "58.152.58.193",
-      "port": 40006,
-      "method": "chacha20-ietf-poly1305",
-      "password": "28789988-887e-4e41-83cd-27bbfb7999ad"
     }
   ]
 }
