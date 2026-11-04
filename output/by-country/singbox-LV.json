@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇱🇻 LV 01 - xiaohe"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "tag": "🇱🇻 LV 01 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "95.182.115.178",
+      "port": 443,
+      "uuid": "db753334-5fd1-472b-b3e0-458bc2189c58",
+      "alterId": 0,
+      "security": "auto"
+    }
+  ]
+}

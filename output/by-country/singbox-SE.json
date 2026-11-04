@@ -12,7 +12,9 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇪 SE 01 - xiaohe"
+        "🇸🇪 SE 01 - xiaohe",
+        "🇸🇪 SE 02 - xiaohe",
+        "🇸🇪 SE 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -34,6 +36,34 @@
       "tls": {
         "enabled": true,
         "server_name": "searchhealthcarejobsandbuildmedicalcareerpathway.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇪 SE 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "se3.shtil.io",
+      "port": 443,
+      "uuid": "6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "se3.shtil.io",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇸🇪 SE 03 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "70.34.207.14",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "70.34.207.14",
         "insecure": true
       }
     }
