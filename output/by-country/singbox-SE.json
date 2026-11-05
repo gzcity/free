@@ -14,7 +14,8 @@
       "outbounds": [
         "🇸🇪 SE 01 - xiaohe",
         "🇸🇪 SE 02 - xiaohe",
-        "🇸🇪 SE 03 - xiaohe"
+        "🇸🇪 SE 03 - xiaohe",
+        "🇸🇪 SE 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -57,14 +58,31 @@
     {
       "tag": "🇸🇪 SE 03 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "70.34.207.14",
+      "type": "vless",
+      "server": "5.178.109.174",
+      "port": 14430,
+      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
+      "flow": "",
+      "ws": {
+        "path": "/vless",
+        "headers": {
+          "Host": "5.178.109.174"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇪 SE 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "194.104.94.141",
       "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "uuid": "6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "70.34.207.14",
-        "insecure": true
+        "server_name": "194.104.94.141",
+        "insecure": true,
+        "client_fingerprint": null
       }
     }
   ]

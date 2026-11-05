@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇪 IE 01 - xiaohe"
+        "🇷🇴 RO 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,13 +25,13 @@
       "tag": "block"
     },
     {
-      "tag": "🇮🇪 IE 01 - xiaohe",
+      "tag": "🇷🇴 RO 01 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "20.107.206.186",
-      "port": 443,
+      "server": "194.68.44.42",
+      "port": 64546,
       "method": "chacha20-ietf-poly1305",
-      "password": "45dM0ZrNdAk4OHiM"
+      "password": "U83u9OGpvSatIUW7LsWffr"
     }
   ]
 }
