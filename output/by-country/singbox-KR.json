@@ -22,7 +22,8 @@
         "🇰🇷 韩国 (South Korea) 08 - xiaohe",
         "🇰🇷 韩国 (South Korea) 09 - xiaohe",
         "🇰🇷 韩国 (South Korea) 10 - xiaohe",
-        "🇰🇷 韩国 (South Korea) 11 - xiaohe"
+        "🇰🇷 韩国 (South Korea) 11 - xiaohe",
+        "🇰🇷 韩国 (South Korea) 12 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -37,42 +38,46 @@
     {
       "tag": "🇰🇷 韩国 (South Korea) 01 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "152.69.226.63",
-      "port": 25555,
-      "uuid": "27c5483f-17f4-48ae-9a04-def53d88440d",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "152.69.226.63"
-        }
-      }
+      "type": "shadowsocks",
+      "server": "141.164.45.187",
+      "port": 9090,
+      "method": "aes-256-gcm",
+      "password": "Y6R9pAtvxxzmGC"
     },
     {
       "tag": "🇰🇷 韩国 (South Korea) 02 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "kr002.zestapp778.com",
-      "port": 48851,
-      "password": "5t6i121em5lkmsmk",
+      "type": "vless",
+      "server": "151.245.106.49",
+      "port": 2053,
+      "uuid": "a2de9567-9646-45a9-a410-7303a43bdb6c",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "kr002.zestapp778.com",
-        "insecure": true
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo",
+        "short_id": ""
       }
     },
     {
       "tag": "🇰🇷 韩国 (South Korea) 03 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "kr002.zestapp778.com",
-      "port": 48851,
-      "password": "5t6i121em5lkmsmk",
+      "type": "vless",
+      "server": "151.245.106.49",
+      "port": 2053,
+      "uuid": "a2de9567-9646-45a9-a410-7303a43bdb6c",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "kr002.zestapp778.com",
-        "insecure": true
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "random",
+        "reality": true,
+        "public_key": "F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo",
+        "short_id": ""
       }
     },
     {
@@ -93,53 +98,28 @@
     {
       "tag": "🇰🇷 韩国 (South Korea) 05 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "152.69.226.63",
-      "port": 25555,
-      "uuid": "27c5483f-17f4-48ae-9a04-def53d88440d",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "152.69.226.63"
-        }
-      }
+      "type": "vmess",
+      "server": "129.154.61.196",
+      "port": 800,
+      "uuid": "a915b1d6-cf28-4dc8-e4b4-e09c48c37ec0",
+      "alterId": 0,
+      "security": "auto"
     },
     {
       "tag": "🇰🇷 韩国 (South Korea) 06 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "151.245.106.49",
-      "port": 2053,
-      "uuid": "a2de9567-9646-45a9-a410-7303a43bdb6c",
-      "flow": "",
+      "type": "trojan",
+      "server": "kr002.zestapp778.com",
+      "port": 48851,
+      "password": "5t6i121em5lkmsmk",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo",
-        "short_id": ""
+        "server_name": "kr002.zestapp778.com",
+        "insecure": true
       }
     },
     {
       "tag": "🇰🇷 韩国 (South Korea) 07 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "152.69.226.63",
-      "port": 25555,
-      "uuid": "27c5483f-17f4-48ae-9a04-def53d88440d",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "152.69.226.63"
-        }
-      }
-    },
-    {
-      "tag": "🇰🇷 韩国 (South Korea) 08 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "151.245.106.49",
@@ -154,6 +134,19 @@
         "reality": true,
         "public_key": "F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo",
         "short_id": ""
+      }
+    },
+    {
+      "tag": "🇰🇷 韩国 (South Korea) 08 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "kr002.zestapp778.com",
+      "port": 48851,
+      "password": "5t6i121em5lkmsmk",
+      "tls": {
+        "enabled": true,
+        "server_name": "kr002.zestapp778.com",
+        "insecure": true
       }
     },
     {
@@ -175,18 +168,15 @@
       "tag": "🇰🇷 韩国 (South Korea) 10 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "151.245.106.49",
-      "port": 2053,
-      "uuid": "a2de9567-9646-45a9-a410-7303a43bdb6c",
+      "server": "152.69.226.63",
+      "port": 25555,
+      "uuid": "27c5483f-17f4-48ae-9a04-def53d88440d",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "random",
-        "reality": true,
-        "public_key": "F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo",
-        "short_id": ""
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "152.69.226.63"
+        }
       }
     },
     {
@@ -197,6 +187,21 @@
       "port": 8000,
       "method": "aes-256-gcm",
       "password": "KixLvKzwjekG00rm"
+    },
+    {
+      "tag": "🇰🇷 韩国 (South Korea) 12 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "152.69.226.63",
+      "port": 25555,
+      "uuid": "27c5483f-17f4-48ae-9a04-def53d88440d",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "152.69.226.63"
+        }
+      }
     }
   ]
 }

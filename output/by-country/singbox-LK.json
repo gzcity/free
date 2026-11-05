@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇱🇰 LK 01 - xiaohe"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "tag": "🇱🇰 LK 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "free.vkehi.store",
+      "port": 443,
+      "uuid": "e4d1298a-1f21-42e2-a53e-1b22c0645c48",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "zoom.com",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    }
+  ]
+}

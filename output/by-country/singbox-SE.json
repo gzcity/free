@@ -31,36 +31,30 @@
       "tag": "🇸🇪 SE 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "5.178.109.174",
-      "port": 14430,
-      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
+      "server": "se3.shtil.io",
+      "port": 443,
+      "uuid": "6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6",
       "flow": "",
-      "ws": {
-        "path": "/vless",
-        "headers": {
-          "Host": "5.178.109.174"
-        }
+      "tls": {
+        "enabled": true,
+        "server_name": "se3.shtil.io",
+        "insecure": true,
+        "client_fingerprint": null
       }
     },
     {
       "tag": "🇸🇪 SE 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "se-sto.862400.xyz",
+      "server": "194.104.94.141",
       "port": 443,
-      "uuid": "ea81763f-e534-4700-aa28-9ac98156771b",
+      "uuid": "6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "se-sto.862400.xyz",
+        "server_name": "se3.shtil.io",
         "insecure": true,
         "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/announcement?ed=2048fp=random",
-        "headers": {
-          "Host": "se-sto.862400.xyz"
-        }
       }
     },
     {
@@ -82,15 +76,15 @@
       "tag": "🇸🇪 SE 04 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "194.104.94.141",
-      "port": 443,
-      "uuid": "6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6",
+      "server": "5.178.109.174",
+      "port": 14430,
+      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "se3.shtil.io",
-        "insecure": true,
-        "client_fingerprint": null
+      "ws": {
+        "path": "/vless",
+        "headers": {
+          "Host": "5.178.109.174"
+        }
       }
     }
   ]
