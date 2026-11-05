@@ -13,7 +13,8 @@
       "tag": "auto",
       "outbounds": [
         "🇮🇱 IL 01 - xiaohe",
-        "🇮🇱 IL 02 - xiaohe"
+        "🇮🇱 IL 02 - xiaohe",
+        "🇮🇱 IL 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -40,6 +41,19 @@
     },
     {
       "tag": "🇮🇱 IL 02 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "64.176.163.182",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "exploreeducationsectoropportunitiestodayandadvancecareers.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇮🇱 IL 03 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "64.176.163.182",
