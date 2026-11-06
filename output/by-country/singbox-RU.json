@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇭🇺 HU 01 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,23 +25,23 @@
       "tag": "block"
     },
     {
-      "tag": "🇭🇺 HU 01 - xiaohe",
+      "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "172.67.131.125",
-      "port": 2083,
-      "uuid": "f418674e-f518-4318-8ff9-e10000000046",
+      "server": "xsru2.freeddns.org",
+      "port": 443,
+      "uuid": "c90395e6-2140-47ad-a54d-9b166729d3ef",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "smart-edge-424.arti98399-1905.workers.dev",
+        "server_name": "xsru2.freeddns.org",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/sync",
+        "path": "/wsru",
         "headers": {
-          "Host": "smart-edge-424.arti98399-1905.workers.dev"
+          "Host": "xsru2.freeddns.org"
         }
       }
     }

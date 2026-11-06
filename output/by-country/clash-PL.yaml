@@ -5,22 +5,46 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇵🇱 PL 01 - xiaohe
-  type: trojan
-  server: 70.34.252.255
+  type: vless
+  server: 15d7fft.nl11.h1clayd.click
   port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  uuid: b7b8ee80-db83-4276-8c68-87dc88b0b0b5
   udp: true
-  sni: browseexecutivejobopeningsandenhanceleadershipcareer.com
+  tls: true
   skip-cert-verify: true
+  reality-opts:
+    public-key: xv6OUZcyzEHXFMTfumuJH-1Rd4NQ0cdmWikek4mm0m4
+  servername: 15d7fft.nl11.h1clayd.click
+  client-fingerprint: chrome
 - name: 🇵🇱 PL 02 - xiaohe
-  type: trojan
-  server: 70.34.252.255
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  type: vless
+  server: 129.101.100.126
+  port: 8443
+  uuid: 981c7ccc-2b17-473c-8358-7fd1d6eec1b4
   udp: true
-  sni: browseexecutivejobopeningsandenhanceleadershipcareer.com
+  tls: true
   skip-cert-verify: true
+  servername: lte-v2-ws.gacvpn.site
+  network: ws
+  ws-opts:
+    path: /static/js/runtime.9d03c7.js
+    headers:
+      Host: 129.101.100.126
 - name: 🇵🇱 PL 03 - xiaohe
+  type: vless
+  server: 129.101.100.126
+  port: 8443
+  uuid: 981c7ccc-2b17-473c-8358-7fd1d6eec1b4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lte-v2-ws.gacvpn.site
+  network: ws
+  ws-opts:
+    path: /static/js/runtime.9d03c7.js
+    headers:
+      Host: lte-v2-ws.gacvpn.site
+- name: 🇵🇱 PL 04 - xiaohe
   type: vless
   server: 2.26.6.1
   port: 2087
@@ -29,14 +53,6 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: 2.26.6.1
-- name: 🇵🇱 PL 04 - xiaohe
-  type: trojan
-  server: 70.34.252.255
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: browseexecutivejobopeningsandenhanceleadershipcareer.com
-  skip-cert-verify: true
 - name: 🇵🇱 PL 05 - xiaohe
   type: vless
   server: 2.26.6.1
@@ -55,6 +71,62 @@ proxies:
   sni: browseexecutivejobopeningsandenhanceleadershipcareer.com
   skip-cert-verify: true
 - name: 🇵🇱 PL 07 - xiaohe
+  type: vless
+  server: 145.63.143.205
+  port: 8444
+  uuid: 35c9f200-7520-4005-b78e-f8a2fb9f68f7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: pl1.meshbeat.online
+  network: ws
+  ws-opts:
+    path: /api/v1/devices/10be32b380/telemetry
+    headers:
+      Host: pl1.meshbeat.online
+- name: 🇵🇱 PL 08 - xiaohe
+  type: vless
+  server: 76574ct.nl7.h1clayd.click
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 9zW5lTDbs9svY-lzlPp-pq0j2Sr6g031SY0E-3xSHDc
+  servername: 76574ct.nl7.h1clayd.click
+  client-fingerprint: chrome
+- name: 🇵🇱 PL 09 - xiaohe
+  type: trojan
+  server: 70.34.252.255
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: browseexecutivejobopeningsandenhanceleadershipcareer.com
+  skip-cert-verify: true
+- name: 🇵🇱 PL 10 - xiaohe
+  type: trojan
+  server: 70.34.252.255
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: browseexecutivejobopeningsandenhanceleadershipcareer.com
+  skip-cert-verify: true
+- name: 🇵🇱 PL 11 - xiaohe
+  type: vless
+  server: lte-v2-ws.gacvpn.site
+  port: 8443
+  uuid: 981c7ccc-2b17-473c-8358-7fd1d6eec1b4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lte-v2-ws.gacvpn.site
+  network: ws
+  ws-opts:
+    path: /static/js/runtime.9d03c7.js
+    headers:
+      Host: lte-v2-ws.gacvpn.site
+- name: 🇵🇱 PL 12 - xiaohe
   type: vless
   server: 2.26.6.1
   port: 2087
@@ -75,6 +147,11 @@ proxy-groups:
   - 🇵🇱 PL 05 - xiaohe
   - 🇵🇱 PL 06 - xiaohe
   - 🇵🇱 PL 07 - xiaohe
+  - 🇵🇱 PL 08 - xiaohe
+  - 🇵🇱 PL 09 - xiaohe
+  - 🇵🇱 PL 10 - xiaohe
+  - 🇵🇱 PL 11 - xiaohe
+  - 🇵🇱 PL 12 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -87,5 +164,10 @@ proxy-groups:
   - 🇵🇱 PL 05 - xiaohe
   - 🇵🇱 PL 06 - xiaohe
   - 🇵🇱 PL 07 - xiaohe
+  - 🇵🇱 PL 08 - xiaohe
+  - 🇵🇱 PL 09 - xiaohe
+  - 🇵🇱 PL 10 - xiaohe
+  - 🇵🇱 PL 11 - xiaohe
+  - 🇵🇱 PL 12 - xiaohe
 rules:
 - MATCH,PROXIES

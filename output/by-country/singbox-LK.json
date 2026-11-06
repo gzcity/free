@@ -13,7 +13,8 @@
       "tag": "auto",
       "outbounds": [
         "🇱🇰 LK 01 - xiaohe",
-        "🇱🇰 LK 02 - xiaohe"
+        "🇱🇰 LK 02 - xiaohe",
+        "🇱🇰 LK 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -42,6 +43,27 @@
     },
     {
       "tag": "🇱🇰 LK 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "141.193.213.20",
+      "port": 2087,
+      "uuid": "0ef68b97-f878-4cea-b756-c56ea3632851",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "free.vkehi.store",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "free.vkehi.store"
+        }
+      }
+    },
+    {
+      "tag": "🇱🇰 LK 03 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "free.vkehi.store",

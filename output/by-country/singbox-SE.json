@@ -15,7 +15,8 @@
         "🇸🇪 SE 01 - xiaohe",
         "🇸🇪 SE 02 - xiaohe",
         "🇸🇪 SE 03 - xiaohe",
-        "🇸🇪 SE 04 - xiaohe"
+        "🇸🇪 SE 04 - xiaohe",
+        "🇸🇪 SE 05 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -31,15 +32,15 @@
       "tag": "🇸🇪 SE 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "se3.shtil.io",
-      "port": 443,
-      "uuid": "6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6",
+      "server": "5.178.109.174",
+      "port": 14430,
+      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "se3.shtil.io",
-        "insecure": true,
-        "client_fingerprint": null
+      "ws": {
+        "path": "/vless",
+        "headers": {
+          "Host": "5.178.109.174"
+        }
       }
     },
     {
@@ -61,21 +62,6 @@
       "tag": "🇸🇪 SE 03 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "5.178.109.174",
-      "port": 14430,
-      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
-      "flow": "",
-      "ws": {
-        "path": "/vless",
-        "headers": {
-          "Host": "5.178.109.174"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇪 SE 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
       "server": "194.104.94.141",
       "port": 443,
       "uuid": "6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6",
@@ -85,6 +71,34 @@
         "server_name": "se3.shtil.io",
         "insecure": true,
         "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇸🇪 SE 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "se3.shtil.io",
+      "port": 443,
+      "uuid": "6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "se3.shtil.io",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇸🇪 SE 05 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "70.34.207.14",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "searchhealthcarejobsandbuildmedicalcareerpathway.com",
+        "insecure": true
       }
     }
   ]
