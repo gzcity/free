@@ -12,17 +12,27 @@ proxies:
   udp: true
   sni: ph001.zestapp778.com
   skip-cert-verify: true
+- name: 🇵🇭 PH 02 - xiaohe
+  type: trojan
+  server: 130.94.51.219
+  port: 46298
+  password: 5t6i121em5lkmsmk
+  udp: true
+  sni: ph001.zestapp778.com
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇵🇭 PH 01 - xiaohe
+  - 🇵🇭 PH 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇵🇭 PH 01 - xiaohe
+  - 🇵🇭 PH 02 - xiaohe
 rules:
 - MATCH,PROXIES

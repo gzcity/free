@@ -12,7 +12,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇵🇭 PH 01 - xiaohe"
+        "🇵🇭 PH 01 - xiaohe",
+        "🇵🇭 PH 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -29,6 +30,19 @@
       "udp": true,
       "type": "trojan",
       "server": "ph001.zestapp778.com",
+      "port": 46298,
+      "password": "5t6i121em5lkmsmk",
+      "tls": {
+        "enabled": true,
+        "server_name": "ph001.zestapp778.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇵🇭 PH 02 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "130.94.51.219",
       "port": 46298,
       "password": "5t6i121em5lkmsmk",
       "tls": {
