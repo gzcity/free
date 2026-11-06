@@ -61,21 +61,6 @@
       "tag": "🇸🇪 SE 03 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "194.104.94.141",
-      "port": 443,
-      "uuid": "6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "se3.shtil.io",
-        "insecure": true,
-        "client_fingerprint": null
-      }
-    },
-    {
-      "tag": "🇸🇪 SE 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
       "server": "5.178.109.174",
       "port": 14430,
       "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
@@ -85,6 +70,21 @@
         "headers": {
           "Host": "5.178.109.174"
         }
+      }
+    },
+    {
+      "tag": "🇸🇪 SE 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "194.104.94.141",
+      "port": 443,
+      "uuid": "6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "se3.shtil.io",
+        "insecure": true,
+        "client_fingerprint": null
       }
     }
   ]
