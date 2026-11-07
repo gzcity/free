@@ -14,7 +14,7 @@ proxies:
   skip-cert-verify: true
 - name: 🇹🇭 TH 02 - xiaohe
   type: trojan
-  server: 38.60.233.126
+  server: th001.zestapp778.com
   port: 33079
   password: 5t6i121em5lkmsmk
   udp: true
@@ -22,7 +22,7 @@ proxies:
   skip-cert-verify: true
 - name: 🇹🇭 TH 03 - xiaohe
   type: trojan
-  server: th001.zestapp778.com
+  server: 38.60.233.126
   port: 33079
   password: 5t6i121em5lkmsmk
   udp: true
@@ -31,6 +31,14 @@ proxies:
 - name: 🇹🇭 TH 04 - xiaohe
   type: trojan
   server: th001.zestapp778.com
+  port: 33079
+  password: 5t6i121em5lkmsmk
+  udp: true
+  sni: th001.zestapp778.com
+  skip-cert-verify: true
+- name: 🇹🇭 TH 05 - xiaohe
+  type: trojan
+  server: 38.60.233.126
   port: 33079
   password: 5t6i121em5lkmsmk
   udp: true
@@ -45,6 +53,7 @@ proxy-groups:
   - 🇹🇭 TH 02 - xiaohe
   - 🇹🇭 TH 03 - xiaohe
   - 🇹🇭 TH 04 - xiaohe
+  - 🇹🇭 TH 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -54,5 +63,6 @@ proxy-groups:
   - 🇹🇭 TH 02 - xiaohe
   - 🇹🇭 TH 03 - xiaohe
   - 🇹🇭 TH 04 - xiaohe
+  - 🇹🇭 TH 05 - xiaohe
 rules:
 - MATCH,PROXIES

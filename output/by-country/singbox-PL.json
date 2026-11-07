@@ -16,8 +16,7 @@
         "🇵🇱 PL 02 - xiaohe",
         "🇵🇱 PL 03 - xiaohe",
         "🇵🇱 PL 04 - xiaohe",
-        "🇵🇱 PL 05 - xiaohe",
-        "🇵🇱 PL 06 - xiaohe"
+        "🇵🇱 PL 05 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -73,21 +72,6 @@
     {
       "tag": "🇵🇱 PL 04 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "2.26.6.1",
-      "port": 2087,
-      "uuid": "b9fdc03f-389b-4cda-9be4-155b623bee15",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "2.26.6.1",
-        "insecure": true,
-        "client_fingerprint": null
-      }
-    },
-    {
-      "tag": "🇵🇱 PL 05 - xiaohe",
-      "udp": true,
       "type": "trojan",
       "server": "70.34.252.255",
       "port": 443,
@@ -99,24 +83,21 @@
       }
     },
     {
-      "tag": "🇵🇱 PL 06 - xiaohe",
+      "tag": "🇵🇱 PL 05 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "212.119.43.76",
+      "server": "15d7fft.nl11.h1clayd.click",
       "port": 443,
-      "uuid": "b8d8a5b0-867f-4491-b4e4-30edc04bb10e",
+      "uuid": "b7b8ee80-db83-4276-8c68-87dc88b0b0b5",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "u.srilankangrill.online",
+        "server_name": "15d7fft.nl11.h1clayd.click",
         "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "u.srilankangrill.online"
-        }
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "xv6OUZcyzEHXFMTfumuJH-1Rd4NQ0cdmWikek4mm0m4",
+        "short_id": ""
       }
     }
   ]

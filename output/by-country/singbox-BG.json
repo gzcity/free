@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇹 LT 01 - xiaohe"
+        "🇧🇬 BG 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,18 +25,21 @@
       "tag": "block"
     },
     {
-      "tag": "🇱🇹 LT 01 - xiaohe",
+      "tag": "🇧🇬 BG 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "89.117.112.40",
-      "port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "server": "p2real4.greewebservices.ir",
+      "port": 1340,
+      "uuid": "fb1d2d8a-d9bd-496f-9d5f-f179cbd00123",
       "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "vms.lifetime11.workers.dev"
-        }
+      "tls": {
+        "enabled": true,
+        "server_name": "play.googleapis.com",
+        "insecure": true,
+        "client_fingerprint": "ios",
+        "reality": true,
+        "public_key": "xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8",
+        "short_id": ""
       }
     }
   ]
