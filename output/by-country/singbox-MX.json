@@ -43,6 +43,15 @@
     {
       "tag": "🇲🇽 MX 02 - xiaohe",
       "udp": true,
+      "type": "shadowsocks",
+      "server": "64.177.90.30",
+      "port": 8388,
+      "method": "aes-256-gcm",
+      "password": "BWyPPTusFKhGgzKh"
+    },
+    {
+      "tag": "🇲🇽 MX 03 - xiaohe",
+      "udp": true,
       "type": "trojan",
       "server": "216.238.80.100",
       "port": 443,
@@ -52,15 +61,6 @@
         "server_name": "connectwithtopemployersandfindidealjobs.com",
         "insecure": true
       }
-    },
-    {
-      "tag": "🇲🇽 MX 03 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "64.177.90.30",
-      "port": 8388,
-      "method": "aes-256-gcm",
-      "password": "BWyPPTusFKhGgzKh"
     },
     {
       "tag": "🇲🇽 MX 04 - xiaohe",

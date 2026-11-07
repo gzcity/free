@@ -5,22 +5,21 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇰🇷 韩国 (South Korea) 01 - xiaohe
-  type: vmess
-  server: 129.154.61.196
-  port: 800
-  uuid: a915b1d6-cf28-4dc8-e4b4-e09c48c37ec0
-  alterId: 0
-  cipher: auto
+  type: trojan
+  server: 158.247.255.150
+  port: 48851
+  password: 5t6i121em5lkmsmk
   udp: true
-  tls: false
+  sni: kr002.zestapp778.com
   skip-cert-verify: true
 - name: 🇰🇷 韩国 (South Korea) 02 - xiaohe
-  type: ss
-  server: 141.164.45.187
-  port: 9090
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
+  type: trojan
+  server: kr002.zestapp778.com
+  port: 48851
+  password: 5t6i121em5lkmsmk
   udp: true
+  sni: kr002.zestapp778.com
+  skip-cert-verify: true
 - name: 🇰🇷 韩国 (South Korea) 03 - xiaohe
   type: vless
   server: 152.69.226.63
@@ -37,9 +36,9 @@ proxies:
 - name: 🇰🇷 韩国 (South Korea) 04 - xiaohe
   type: ss
   server: 141.164.45.187
-  port: 8091
+  port: 6679
   cipher: aes-256-gcm
-  password: PCnnH6SQSnfoS27
+  password: TEzjfAYq2IjtuoS
   udp: true
 - name: 🇰🇷 韩国 (South Korea) 05 - xiaohe
   type: vless
@@ -55,17 +54,13 @@ proxies:
     headers:
       Host: 152.69.226.63
 - name: 🇰🇷 韩国 (South Korea) 06 - xiaohe
-  type: vless
-  server: 151.245.106.49
-  port: 2053
-  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
+  type: trojan
+  server: kr002.zestapp778.com
+  port: 48851
+  password: 5t6i121em5lkmsmk
   udp: true
-  tls: true
+  sni: kr002.zestapp778.com
   skip-cert-verify: true
-  reality-opts:
-    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
 - name: 🇰🇷 韩国 (South Korea) 07 - xiaohe
   type: vless
   server: 151.245.106.49
@@ -79,19 +74,6 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: random
 - name: 🇰🇷 韩国 (South Korea) 08 - xiaohe
-  type: vless
-  server: 152.69.226.63
-  port: 25555
-  uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 152.69.226.63
-- name: 🇰🇷 韩国 (South Korea) 09 - xiaohe
   type: trojan
   server: kr002.zestapp778.com
   port: 48851
@@ -99,14 +81,25 @@ proxies:
   udp: true
   sni: kr002.zestapp778.com
   skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 10 - xiaohe
-  type: trojan
-  server: 158.247.220.26
-  port: 48851
-  password: 5t6i121em5lkmsmk
+- name: 🇰🇷 韩国 (South Korea) 09 - xiaohe
+  type: ss
+  server: 141.164.45.187
+  port: 8091
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
   udp: true
-  sni: kr002.zestapp778.com
+- name: 🇰🇷 韩国 (South Korea) 10 - xiaohe
+  type: vless
+  server: 151.245.106.49
+  port: 2053
+  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
+  udp: true
+  tls: true
   skip-cert-verify: true
+  reality-opts:
+    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
 - name: 🇰🇷 韩国 (South Korea) 11 - xiaohe
   type: vless
   server: 152.69.226.63
@@ -122,24 +115,24 @@ proxies:
       Host: 152.69.226.63
 - name: 🇰🇷 韩国 (South Korea) 12 - xiaohe
   type: vless
-  server: 151.245.106.49
-  port: 2053
-  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
+  server: 152.69.226.63
+  port: 25555
+  uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
-  servername: www.cloudflare.com
-  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 152.69.226.63
 - name: 🇰🇷 韩国 (South Korea) 13 - xiaohe
-  type: trojan
-  server: kr002.zestapp778.com
-  port: 48851
-  password: 5t6i121em5lkmsmk
+  type: ss
+  server: 141.164.45.187
+  port: 5498
+  cipher: aes-256-gcm
+  password: lGqs95QkFHo2NV
   udp: true
-  sni: kr002.zestapp778.com
-  skip-cert-verify: true
 - name: 🇰🇷 韩国 (South Korea) 14 - xiaohe
   type: vless
   server: 152.69.226.63
@@ -154,6 +147,13 @@ proxies:
     headers:
       Host: 152.69.226.63
 - name: 🇰🇷 韩国 (South Korea) 15 - xiaohe
+  type: ss
+  server: 141.164.45.187
+  port: 9090
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: 🇰🇷 韩国 (South Korea) 16 - xiaohe
   type: vless
   server: 152.69.226.63
   port: 25555
@@ -166,21 +166,34 @@ proxies:
     path: /
     headers:
       Host: 152.69.226.63
-- name: 🇰🇷 韩国 (South Korea) 16 - xiaohe
+- name: 🇰🇷 韩国 (South Korea) 17 - xiaohe
   type: trojan
-  server: 158.247.255.150
+  server: kr002.zestapp778.com
   port: 48851
   password: 5t6i121em5lkmsmk
   udp: true
   sni: kr002.zestapp778.com
   skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 17 - xiaohe
-  type: ss
-  server: 141.164.45.187
-  port: 5498
-  cipher: aes-256-gcm
-  password: lGqs95QkFHo2NV
+- name: 🇰🇷 韩国 (South Korea) 18 - xiaohe
+  type: vless
+  server: 151.245.106.49
+  port: 2053
+  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
   udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
+  servername: www.cloudflare.com
+  client-fingerprint: random
+- name: 🇰🇷 韩国 (South Korea) 19 - xiaohe
+  type: trojan
+  server: 158.247.220.26
+  port: 48851
+  password: 5t6i121em5lkmsmk
+  udp: true
+  sni: kr002.zestapp778.com
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -203,6 +216,8 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 15 - xiaohe
   - 🇰🇷 韩国 (South Korea) 16 - xiaohe
   - 🇰🇷 韩国 (South Korea) 17 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 18 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 19 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -225,5 +240,7 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 15 - xiaohe
   - 🇰🇷 韩国 (South Korea) 16 - xiaohe
   - 🇰🇷 韩国 (South Korea) 17 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 18 - xiaohe
+  - 🇰🇷 韩国 (South Korea) 19 - xiaohe
 rules:
 - MATCH,PROXIES

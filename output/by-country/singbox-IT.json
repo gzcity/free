@@ -15,7 +15,9 @@
         "🇮🇹 意大利 (Italy) 01 - xiaohe",
         "🇮🇹 意大利 (Italy) 02 - xiaohe",
         "🇮🇹 意大利 (Italy) 03 - xiaohe",
-        "🇮🇹 意大利 (Italy) 04 - xiaohe"
+        "🇮🇹 意大利 (Italy) 04 - xiaohe",
+        "🇮🇹 意大利 (Italy) 05 - xiaohe",
+        "🇮🇹 意大利 (Italy) 06 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -31,7 +33,7 @@
       "tag": "🇮🇹 意大利 (Italy) 01 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "202.50.253.45",
+      "server": "202.50.253.18",
       "port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -40,7 +42,7 @@
       "tag": "🇮🇹 意大利 (Italy) 02 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "202.50.253.81",
+      "server": "202.50.253.45",
       "port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -49,13 +51,31 @@
       "tag": "🇮🇹 意大利 (Italy) 03 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "185.164.175.81",
+      "server": "149.50.215.234",
       "port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "tag": "🇮🇹 意大利 (Italy) 04 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "185.164.175.81",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇮🇹 意大利 (Italy) 05 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "202.50.253.18",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇮🇹 意大利 (Italy) 06 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "185.164.175.81",

@@ -13,7 +13,8 @@
       "tag": "auto",
       "outbounds": [
         "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -27,15 +28,6 @@
     },
     {
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "46.17.47.58",
-      "port": 18443,
-      "method": "aes-256-gcm",
-      "password": "cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa"
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "xsru2.freeddns.org",
@@ -54,6 +46,24 @@
           "Host": "xsru2.freeddns.org"
         }
       }
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "46.17.47.58",
+      "port": 18443,
+      "method": "aes-256-gcm",
+      "password": "cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa"
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "46.17.47.58",
+      "port": 18443,
+      "method": "aes-256-gcm",
+      "password": "cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa"
     }
   ]
 }
