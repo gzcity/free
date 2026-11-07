@@ -5,59 +5,39 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇵🇱 PL 01 - xiaohe
-  type: vless
-  server: 129.101.100.126
-  port: 8443
-  uuid: 981c7ccc-2b17-473c-8358-7fd1d6eec1b4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lte-v2-ws.gacvpn.site
-  network: ws
-  ws-opts:
-    path: /static/js/runtime.9d03c7.js
-    headers:
-      Host: 129.101.100.126
-- name: 🇵🇱 PL 02 - xiaohe
-  type: vless
-  server: 15d7fft.nl11.h1clayd.click
+  type: trojan
+  server: 70.34.252.255
   port: 443
-  uuid: b7b8ee80-db83-4276-8c68-87dc88b0b0b5
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   udp: true
-  tls: true
+  sni: browseexecutivejobopeningsandenhanceleadershipcareer.com
   skip-cert-verify: true
-  reality-opts:
-    public-key: xv6OUZcyzEHXFMTfumuJH-1Rd4NQ0cdmWikek4mm0m4
-  servername: 15d7fft.nl11.h1clayd.click
-  client-fingerprint: chrome
+- name: 🇵🇱 PL 02 - xiaohe
+  type: trojan
+  server: 70.34.252.255
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: browseexecutivejobopeningsandenhanceleadershipcareer.com
+  skip-cert-verify: true
 - name: 🇵🇱 PL 03 - xiaohe
   type: vless
-  server: lte-v2-ws.gacvpn.site
-  port: 8443
-  uuid: 981c7ccc-2b17-473c-8358-7fd1d6eec1b4
+  server: 2.26.6.1
+  port: 2087
+  uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: lte-v2-ws.gacvpn.site
-  network: ws
-  ws-opts:
-    path: /static/js/runtime.9d03c7.js
-    headers:
-      Host: lte-v2-ws.gacvpn.site
+  servername: 2.26.6.1
 - name: 🇵🇱 PL 04 - xiaohe
   type: vless
-  server: 129.101.100.126
-  port: 8443
-  uuid: 981c7ccc-2b17-473c-8358-7fd1d6eec1b4
+  server: 2.26.6.1
+  port: 2087
+  uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: lte-v2-ws.gacvpn.site
-  network: ws
-  ws-opts:
-    path: /static/js/runtime.9d03c7.js
-    headers:
-      Host: lte-v2-ws.gacvpn.site
+  servername: 2.26.6.1
 - name: 🇵🇱 PL 05 - xiaohe
   type: trojan
   server: 70.34.252.255
@@ -68,50 +48,18 @@ proxies:
   skip-cert-verify: true
 - name: 🇵🇱 PL 06 - xiaohe
   type: vless
-  server: 2.26.6.1
-  port: 2087
-  uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
+  server: 212.119.43.76
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 2.26.6.1
-- name: 🇵🇱 PL 07 - xiaohe
-  type: trojan
-  server: 70.34.252.255
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: browseexecutivejobopeningsandenhanceleadershipcareer.com
-  skip-cert-verify: true
-- name: 🇵🇱 PL 08 - xiaohe
-  type: vless
-  server: 76574ct.nl7.h1clayd.click
-  port: 443
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 9zW5lTDbs9svY-lzlPp-pq0j2Sr6g031SY0E-3xSHDc
-  servername: 76574ct.nl7.h1clayd.click
-  client-fingerprint: chrome
-- name: 🇵🇱 PL 09 - xiaohe
-  type: trojan
-  server: 70.34.252.255
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: browseexecutivejobopeningsandenhanceleadershipcareer.com
-  skip-cert-verify: true
-- name: 🇵🇱 PL 10 - xiaohe
-  type: vless
-  server: 2.26.6.1
-  port: 2087
-  uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 2.26.6.1
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
 proxy-groups:
 - name: PROXIES
   type: select
@@ -123,10 +71,6 @@ proxy-groups:
   - 🇵🇱 PL 04 - xiaohe
   - 🇵🇱 PL 05 - xiaohe
   - 🇵🇱 PL 06 - xiaohe
-  - 🇵🇱 PL 07 - xiaohe
-  - 🇵🇱 PL 08 - xiaohe
-  - 🇵🇱 PL 09 - xiaohe
-  - 🇵🇱 PL 10 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -138,9 +82,5 @@ proxy-groups:
   - 🇵🇱 PL 04 - xiaohe
   - 🇵🇱 PL 05 - xiaohe
   - 🇵🇱 PL 06 - xiaohe
-  - 🇵🇱 PL 07 - xiaohe
-  - 🇵🇱 PL 08 - xiaohe
-  - 🇵🇱 PL 09 - xiaohe
-  - 🇵🇱 PL 10 - xiaohe
 rules:
 - MATCH,PROXIES

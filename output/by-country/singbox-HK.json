@@ -54,14 +54,14 @@
       "udp": true,
       "type": "vmess",
       "server": "47.244.120.197",
-      "port": 44867,
-      "uuid": "845e6b08-2919-4290-ade0-5dc7dcea59ca",
+      "port": 23026,
+      "uuid": "b9de1bc9-baa7-41ac-86f7-ccd59695cb21",
       "alterId": 0,
       "security": "auto",
       "ws": {
         "path": "/arki",
         "headers": {
-          "Host": ""
+          "Host": "47.244.120.197"
         }
       }
     },
@@ -70,8 +70,8 @@
       "udp": true,
       "type": "vmess",
       "server": "47.244.120.197",
-      "port": 36703,
-      "uuid": "45b83519-9c4f-4052-a11b-02e017b636d4",
+      "port": 23026,
+      "uuid": "b9de1bc9-baa7-41ac-86f7-ccd59695cb21",
       "alterId": 0,
       "security": "auto",
       "ws": {
@@ -86,8 +86,8 @@
       "udp": true,
       "type": "vmess",
       "server": "47.244.120.197",
-      "port": 36703,
-      "uuid": "45b83519-9c4f-4052-a11b-02e017b636d4",
+      "port": 44867,
+      "uuid": "845e6b08-2919-4290-ade0-5dc7dcea59ca",
       "alterId": 0,
       "security": "auto",
       "ws": {
@@ -102,14 +102,14 @@
       "udp": true,
       "type": "vmess",
       "server": "47.244.120.197",
-      "port": 23026,
-      "uuid": "b9de1bc9-baa7-41ac-86f7-ccd59695cb21",
+      "port": 36703,
+      "uuid": "45b83519-9c4f-4052-a11b-02e017b636d4",
       "alterId": 0,
       "security": "auto",
       "ws": {
         "path": "/arki",
         "headers": {
-          "Host": "47.244.120.197"
+          "Host": ""
         }
       }
     },
@@ -134,8 +134,8 @@
       "udp": true,
       "type": "vmess",
       "server": "47.244.120.197",
-      "port": 36703,
-      "uuid": "45b83519-9c4f-4052-a11b-02e017b636d4",
+      "port": 44867,
+      "uuid": "845e6b08-2919-4290-ade0-5dc7dcea59ca",
       "alterId": 0,
       "security": "auto",
       "ws": {
@@ -150,8 +150,8 @@
       "udp": true,
       "type": "vmess",
       "server": "47.244.120.197",
-      "port": 44867,
-      "uuid": "845e6b08-2919-4290-ade0-5dc7dcea59ca",
+      "port": 36703,
+      "uuid": "45b83519-9c4f-4052-a11b-02e017b636d4",
       "alterId": 0,
       "security": "auto",
       "ws": {
@@ -166,8 +166,8 @@
       "udp": true,
       "type": "vmess",
       "server": "47.244.120.197",
-      "port": 44867,
-      "uuid": "845e6b08-2919-4290-ade0-5dc7dcea59ca",
+      "port": 36703,
+      "uuid": "45b83519-9c4f-4052-a11b-02e017b636d4",
       "alterId": 0,
       "security": "auto",
       "ws": {
@@ -182,8 +182,8 @@
       "udp": true,
       "type": "vmess",
       "server": "47.244.120.197",
-      "port": 23026,
-      "uuid": "b9de1bc9-baa7-41ac-86f7-ccd59695cb21",
+      "port": 44867,
+      "uuid": "845e6b08-2919-4290-ade0-5dc7dcea59ca",
       "alterId": 0,
       "security": "auto",
       "ws": {

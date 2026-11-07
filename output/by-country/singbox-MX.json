@@ -14,7 +14,8 @@
       "outbounds": [
         "🇲🇽 MX 01 - xiaohe",
         "🇲🇽 MX 02 - xiaohe",
-        "🇲🇽 MX 03 - xiaohe"
+        "🇲🇽 MX 03 - xiaohe",
+        "🇲🇽 MX 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -64,6 +65,15 @@
         "server_name": "connectwithtopemployersandfindidealjobs.com",
         "insecure": true
       }
+    },
+    {
+      "tag": "🇲🇽 MX 04 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "64.177.90.30",
+      "port": 8388,
+      "method": "aes-256-gcm",
+      "password": "BWyPPTusFKhGgzKh"
     }
   ]
 }
