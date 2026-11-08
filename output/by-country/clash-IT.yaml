@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇮🇹 意大利 (Italy) 01 - xiaohe
   type: ss
-  server: 185.164.175.81
+  server: 149.50.215.234
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -20,25 +20,18 @@ proxies:
   udp: true
 - name: 🇮🇹 意大利 (Italy) 03 - xiaohe
   type: ss
-  server: 149.50.215.234
+  server: 185.164.175.81
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
 - name: 🇮🇹 意大利 (Italy) 04 - xiaohe
-  type: vless
-  server: ct.877774.xyz
-  port: 443
-  uuid: f1f7b063-621c-48fb-9091-81ad5f3a2213
+  type: ss
+  server: 202.50.253.27
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: it-mil.862400.xyz
-  network: ws
-  ws-opts:
-    path: /announcement?ed=2048
-    headers:
-      Host: it-mil.862400.xyz
 proxy-groups:
 - name: PROXIES
   type: select

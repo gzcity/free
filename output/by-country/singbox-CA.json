@@ -81,7 +81,14 @@
         "🇨🇦 加拿大 (Canada) 67 - xiaohe",
         "🇨🇦 加拿大 (Canada) 68 - xiaohe",
         "🇨🇦 加拿大 (Canada) 69 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 70 - xiaohe"
+        "🇨🇦 加拿大 (Canada) 70 - xiaohe",
+        "🇨🇦 加拿大 (Canada) 71 - xiaohe",
+        "🇨🇦 加拿大 (Canada) 72 - xiaohe",
+        "🇨🇦 加拿大 (Canada) 73 - xiaohe",
+        "🇨🇦 加拿大 (Canada) 74 - xiaohe",
+        "🇨🇦 加拿大 (Canada) 75 - xiaohe",
+        "🇨🇦 加拿大 (Canada) 76 - xiaohe",
+        "🇨🇦 加拿大 (Canada) 77 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -96,28 +103,6 @@
     {
       "tag": "🇨🇦 加拿大 (Canada) 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "51.222.136.236",
-      "port": 8882,
-      "method": "aes-256-gcm",
-      "password": "kDWvXYZoTBcGkC4"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 02 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "ca001.zestapp778.com",
-      "port": 46977,
-      "password": "5t6i121em5lkmsmk",
-      "tls": {
-        "enabled": true,
-        "server_name": "ca001.zestapp778.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 03 - xiaohe",
-      "udp": true,
       "type": "vless",
       "server": "66.70.179.198",
       "port": 2053,
@@ -134,10 +119,30 @@
       }
     },
     {
+      "tag": "🇨🇦 加拿大 (Canada) 02 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "134.195.196.211",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 03 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "134.195.196.211",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
       "tag": "🇨🇦 加拿大 (Canada) 04 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "23.162.200.198",
+      "server": "134.195.196.211",
       "port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "alterId": 0,
@@ -146,51 +151,52 @@
     {
       "tag": "🇨🇦 加拿大 (Canada) 05 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "216.152.147.93",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "connectingpeoplewithgreatjobs.com",
-        "insecure": true
-      }
+      "type": "shadowsocks",
+      "server": "51.79.85.185",
+      "port": 8118,
+      "method": "aes-256-gcm",
+      "password": "cdBIDV42DCwnfIN"
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 06 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "134.195.196.211",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
+      "type": "trojan",
+      "server": "216.152.147.79",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "blog.connectingpeoplewithgreatjobs.com",
+        "insecure": true
+      }
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 07 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "134.195.196.211",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
+      "type": "trojan",
+      "server": "216.152.147.201",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "resources.connectingpeoplewithgreatjobs.com",
+        "insecure": true
+      }
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 08 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "134.195.196.211",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
+      "type": "shadowsocks",
+      "server": "51.79.64.198",
+      "port": 8119,
+      "method": "aes-256-gcm",
+      "password": "cdBIDV42DCwnfIN"
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 09 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "134.195.196.211",
+      "server": "23.162.200.198",
       "port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "alterId": 0,
@@ -199,12 +205,20 @@
     {
       "tag": "🇨🇦 加拿大 (Canada) 10 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "23.162.200.198",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
+      "type": "vless",
+      "server": "66.70.179.198",
+      "port": 2053,
+      "uuid": "dc620cd6-a9d8-4a0f-8f18-006b895db77e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU",
+        "short_id": ""
+      }
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 11 - xiaohe",
@@ -219,34 +233,6 @@
     {
       "tag": "🇨🇦 加拿大 (Canada) 12 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "51.222.12.127",
-      "port": 445,
-      "method": "aes-256-gcm",
-      "password": "zDNVedRFPQexG9v"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 13 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "134.195.196.211",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 14 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "51.79.64.198",
-      "port": 8119,
-      "method": "aes-256-gcm",
-      "password": "cdBIDV42DCwnfIN"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 15 - xiaohe",
-      "udp": true,
       "type": "trojan",
       "server": "216.152.147.79",
       "port": 443,
@@ -258,360 +244,7 @@
       }
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 16 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "149.22.95.183",
-      "port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 17 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "134.195.196.211",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 18 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "134.195.196.211",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 19 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "149.248.50.252",
-      "port": 46977,
-      "password": "5t6i121em5lkmsmk",
-      "tls": {
-        "enabled": true,
-        "server_name": "ca001.zestapp778.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 20 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "216.152.147.89",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "216.152.147.89",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 21 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "149.22.95.183",
-      "port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 22 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "66.70.179.198",
-      "port": 2053,
-      "uuid": "dc620cd6-a9d8-4a0f-8f18-006b895db77e",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 23 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "216.152.147.48",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "courses.connectingpeoplewithgreatjobs.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 24 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "66.70.179.198",
-      "port": 2053,
-      "uuid": "dc620cd6-a9d8-4a0f-8f18-006b895db77e",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 25 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "23.162.200.198",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 26 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "134.195.196.211",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 27 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "216.152.147.79",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "blog.connectingpeoplewithgreatjobs.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 28 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "134.195.196.211",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 29 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "23.162.200.198",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 30 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "216.152.147.85",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn.connectingpeoplewithgreatjobs.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 31 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "216.152.147.152",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "learn.connectingpeoplewithgreatjobs.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 32 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "216.152.147.79",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "blog.connectingpeoplewithgreatjobs.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 33 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "51.79.85.185",
-      "port": 8118,
-      "method": "aes-256-gcm",
-      "password": "cdBIDV42DCwnfIN"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 34 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "23.162.200.198",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 35 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "66.70.179.198",
-      "port": 2053,
-      "uuid": "dc620cd6-a9d8-4a0f-8f18-006b895db77e",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 36 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "23.162.200.198",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 37 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "134.195.196.211",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 38 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "51.222.200.165",
-      "port": 5000,
-      "method": "aes-256-gcm",
-      "password": "Y6R9pAtvxxzmGC"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 39 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "134.195.196.211",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 40 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "134.195.196.211",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 41 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "158.51.121.221",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 42 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "23.162.200.198",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 43 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "23.162.200.198",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 44 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "216.152.147.93",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "connectingpeoplewithgreatjobs.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 45 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "134.195.196.211",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 46 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "134.195.196.211",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 47 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 13 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "66.70.179.198",
@@ -629,20 +262,138 @@
       }
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 48 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 14 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "216.152.147.152",
+      "server": "216.152.147.85",
       "port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "216.152.147.152",
+        "server_name": "cdn.connectingpeoplewithgreatjobs.com",
         "insecure": true
       }
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 49 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 15 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "216.152.147.74",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "api.connectingpeoplewithgreatjobs.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 16 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "216.152.147.85",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "216.152.147.85",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 17 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "134.195.196.211",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 18 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "216.152.147.79",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "blog.connectingpeoplewithgreatjobs.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 19 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "216.152.147.85",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.connectingpeoplewithgreatjobs.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 20 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "ca001.zestapp778.com",
+      "port": 46977,
+      "password": "5t6i121em5lkmsmk",
+      "tls": {
+        "enabled": true,
+        "server_name": "ca001.zestapp778.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 21 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "23.162.200.198",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 22 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "216.152.147.93",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "connectingpeoplewithgreatjobs.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 23 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "134.195.196.211",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 24 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "134.195.196.211",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 25 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "216.152.147.48",
@@ -655,7 +406,59 @@
       }
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 50 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 26 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "134.195.196.211",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 27 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "149.22.95.183",
+      "port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 28 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "134.195.196.211",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 29 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "216.152.147.201",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "resources.connectingpeoplewithgreatjobs.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 30 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "134.195.196.211",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 31 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "148.113.196.75",
@@ -676,7 +479,118 @@
       }
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 51 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 32 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "23.162.200.198",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 33 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "216.152.147.152",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "learn.connectingpeoplewithgreatjobs.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 34 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "23.162.200.198",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 35 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "216.152.147.152",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "216.152.147.152",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 36 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "51.79.49.116",
+      "port": 8882,
+      "method": "aes-256-gcm",
+      "password": "kDWvXYZoTBcGkC4"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 37 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "216.152.147.48",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "216.152.147.48",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 38 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "23.162.200.198",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 39 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "216.152.147.152",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "learn.connectingpeoplewithgreatjobs.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 40 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "23.162.200.198",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 41 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "134.195.196.211",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 42 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "216.152.147.85",
@@ -689,7 +603,7 @@
       }
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 52 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 43 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "134.195.196.211",
@@ -699,20 +613,10 @@
       "security": "auto"
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 53 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "23.162.200.198",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 54 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 44 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "149.248.50.252",
+      "server": "ca001.zestapp778.com",
       "port": 46977,
       "password": "5t6i121em5lkmsmk",
       "tls": {
@@ -722,7 +626,7 @@
       }
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 55 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 45 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "23.162.200.198",
@@ -732,7 +636,7 @@
       "security": "auto"
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 56 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 46 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "134.195.196.211",
@@ -742,15 +646,128 @@
       "security": "auto"
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 57 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 47 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "216.152.147.79",
+      "server": "216.152.147.48",
       "port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "blog.connectingpeoplewithgreatjobs.com",
+        "server_name": "courses.connectingpeoplewithgreatjobs.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 48 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "134.195.196.211",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 49 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "51.222.141.125",
+      "port": 445,
+      "method": "aes-256-gcm",
+      "password": "zDNVedRFPQexG9v"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 50 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "66.70.179.198",
+      "port": 2053,
+      "uuid": "dc620cd6-a9d8-4a0f-8f18-006b895db77e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 51 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "23.162.200.198",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 52 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "216.152.147.89",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "216.152.147.89",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 53 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "134.195.196.211",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 54 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "134.195.196.211",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 55 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "134.195.196.211",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 56 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "23.162.200.198",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 57 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "216.152.147.93",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "connectingpeoplewithgreatjobs.com",
         "insecure": true
       }
     },
@@ -766,6 +783,88 @@
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 59 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "216.152.147.48",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "courses.connectingpeoplewithgreatjobs.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 60 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "134.195.196.211",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 61 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "134.195.196.211",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 62 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "216.152.147.79",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "blog.connectingpeoplewithgreatjobs.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 63 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "23.162.200.198",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 64 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "216.152.147.74",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "api.connectingpeoplewithgreatjobs.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 65 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "216.152.147.79",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "blog.connectingpeoplewithgreatjobs.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 66 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "66.70.179.198",
@@ -783,39 +882,38 @@
       }
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 60 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "134.195.196.211",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 61 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 67 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "ca001.zestapp778.com",
-      "port": 46977,
-      "password": "5t6i121em5lkmsmk",
+      "server": "216.152.147.74",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "ca001.zestapp778.com",
+        "server_name": "api.connectingpeoplewithgreatjobs.com",
         "insecure": true
       }
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 62 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 68 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "51.222.141.125",
-      "port": 445,
+      "server": "51.222.136.236",
+      "port": 8882,
       "method": "aes-256-gcm",
-      "password": "zDNVedRFPQexG9v"
+      "password": "kDWvXYZoTBcGkC4"
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 63 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 69 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "51.222.200.165",
+      "port": 5000,
+      "method": "aes-256-gcm",
+      "password": "Y6R9pAtvxxzmGC"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 70 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "134.195.196.211",
@@ -825,17 +923,7 @@
       "security": "auto"
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 64 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "23.162.200.198",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 65 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 71 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "66.70.179.198",
@@ -853,27 +941,20 @@
       }
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 66 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 72 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "23.162.200.198",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
+      "type": "trojan",
+      "server": "216.152.147.79",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "blog.connectingpeoplewithgreatjobs.com",
+        "insecure": true
+      }
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 67 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "134.195.196.211",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 68 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 73 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "216.152.147.201",
@@ -881,25 +962,39 @@
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "resources.connectingpeoplewithgreatjobs.com",
+        "server_name": "216.152.147.201",
         "insecure": true
       }
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 69 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 74 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "216.152.147.74",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "type": "shadowsocks",
+      "server": "51.222.12.127",
+      "port": 445,
+      "method": "aes-256-gcm",
+      "password": "zDNVedRFPQexG9v"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 75 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "66.70.179.198",
+      "port": 2053,
+      "uuid": "dc620cd6-a9d8-4a0f-8f18-006b895db77e",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "api.connectingpeoplewithgreatjobs.com",
-        "insecure": true
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU",
+        "short_id": ""
       }
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 70 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 76 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "134.195.196.211",
@@ -907,6 +1002,15 @@
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "alterId": 0,
       "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 77 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "158.51.121.221",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     }
   ]
 }
