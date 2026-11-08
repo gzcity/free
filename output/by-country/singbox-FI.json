@@ -14,8 +14,7 @@
       "outbounds": [
         "🇫🇮 FI 01 - xiaohe",
         "🇫🇮 FI 02 - xiaohe",
-        "🇫🇮 FI 03 - xiaohe",
-        "🇫🇮 FI 04 - xiaohe"
+        "🇫🇮 FI 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -31,20 +30,14 @@
       "tag": "🇫🇮 FI 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "8.6.112.0",
-      "port": 8443,
-      "uuid": "8eb92a78-ec8d-4ff6-8a2d-8b801367be87",
+      "server": "45.144.234.157",
+      "port": 14430,
+      "uuid": "59b0d30e-9b29-4fda-a35c-b2901ec32db7",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "KAmraN02-3rpN9m-2.KAMran-02.WORKErS.dEV",
-        "insecure": true,
-        "client_fingerprint": null
-      },
       "ws": {
-        "path": "/?ed=2560",
+        "path": "/vless",
         "headers": {
-          "Host": "KAmraN02-3rpN9m-2.KAMran-02.WORKErS.dEV"
+          "Host": "45.144.234.157"
         }
       }
     },
@@ -65,21 +58,6 @@
     },
     {
       "tag": "🇫🇮 FI 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "45.144.234.157",
-      "port": 14430,
-      "uuid": "59b0d30e-9b29-4fda-a35c-b2901ec32db7",
-      "flow": "",
-      "ws": {
-        "path": "/vless",
-        "headers": {
-          "Host": "45.144.234.157"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI 04 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "45.144.234.157",

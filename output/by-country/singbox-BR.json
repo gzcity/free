@@ -13,9 +13,7 @@
       "tag": "auto",
       "outbounds": [
         "🇧🇷 BR 01 - xiaohe",
-        "🇧🇷 BR 02 - xiaohe",
-        "🇧🇷 BR 03 - xiaohe",
-        "🇧🇷 BR 04 - xiaohe"
+        "🇧🇷 BR 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -51,48 +49,6 @@
         "enabled": true,
         "server_name": "findtemporaryworkandfreelancerprojectsonlineplatform.com",
         "insecure": true
-      }
-    },
-    {
-      "tag": "🇧🇷 BR 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "43.174.195.1",
-      "port": 443,
-      "uuid": "24916ad0-847d-4522-9e17-f4347dee57fd",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "kv.074167.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "kv.074167.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🇧🇷 BR 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "64.204.49.68",
-      "port": 443,
-      "uuid": "7b102311-43fd-4e8f-877e-8090623c101d",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "vp10.pages.dev",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "vp10.pages.dev"
-        }
       }
     }
   ]

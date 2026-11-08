@@ -13,14 +13,6 @@ proxies:
   sni: th001.zestapp778.com
   skip-cert-verify: true
 - name: 🇹🇭 TH 02 - xiaohe
-  type: trojan
-  server: 38.60.233.126
-  port: 33079
-  password: 5t6i121em5lkmsmk
-  udp: true
-  sni: th001.zestapp778.com
-  skip-cert-verify: true
-- name: 🇹🇭 TH 03 - xiaohe
   type: vmess
   server: 119.46.51.45
   port: 37515
@@ -29,6 +21,14 @@ proxies:
   cipher: auto
   udp: true
   tls: false
+  skip-cert-verify: true
+- name: 🇹🇭 TH 03 - xiaohe
+  type: trojan
+  server: 38.60.233.126
+  port: 33079
+  password: 5t6i121em5lkmsmk
+  udp: true
+  sni: th001.zestapp778.com
   skip-cert-verify: true
 - name: 🇹🇭 TH 04 - xiaohe
   type: trojan
@@ -40,7 +40,7 @@ proxies:
   skip-cert-verify: true
 - name: 🇹🇭 TH 05 - xiaohe
   type: trojan
-  server: 38.60.233.126
+  server: th001.zestapp778.com
   port: 33079
   password: 5t6i121em5lkmsmk
   udp: true
