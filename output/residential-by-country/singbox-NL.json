@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇾 MY 01 - xiaohe"
+        "🇳🇱 荷兰 (Netherlands) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,16 +25,24 @@
       "tag": "block"
     },
     {
-      "tag": "🇲🇾 MY 01 - xiaohe",
+      "tag": "🇳🇱 荷兰 (Netherlands) 01 (家宽) - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "47.250.84.25",
+      "type": "vless",
+      "server": "162.159.153.4",
       "port": 443,
-      "password": "5931134d1cde66bf83a54acdfebe7ab2",
+      "uuid": "f2a73750-3087-48ff-a763-1348c15dce68",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "moltbot.doctoroyy.net",
-        "insecure": true
+        "server_name": "rAyAn-007.mAxImA.DpDnS.OrG",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "rAyAn-007.mAxImA.DpDnS.OrG"
+        }
       }
     }
   ]

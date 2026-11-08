@@ -12,7 +12,9 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇴 RO 01 - xiaohe"
+        "🇷🇴 RO 01 - xiaohe",
+        "🇷🇴 RO 02 - xiaohe",
+        "🇷🇴 RO 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -32,6 +34,24 @@
       "port": 64546,
       "method": "chacha20-ietf-poly1305",
       "password": "U83u9OGpvSatIUW7LsWffr"
+    },
+    {
+      "tag": "🇷🇴 RO 02 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "82.152.132.211",
+      "port": 8044,
+      "method": "chacha20-ietf-poly1305",
+      "password": "dCamglzrORaopqbpBlptzbt9QdiH4CSN"
+    },
+    {
+      "tag": "🇷🇴 RO 03 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "bogging-eyeteeth-fly.freesocks.work",
+      "port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "QFWzCw2uX9B9i6qAYeFBIE"
     }
   ]
 }

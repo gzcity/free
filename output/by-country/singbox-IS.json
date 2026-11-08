@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇳 印度 (India) 01 (家宽) - xiaohe"
+        "🇮🇸 IS 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,23 +25,23 @@
       "tag": "block"
     },
     {
-      "tag": "🇮🇳 印度 (India) 01 (家宽) - xiaohe",
+      "tag": "🇮🇸 IS 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "122.176.216.52",
+      "server": "191.44.112.170",
       "port": 443,
-      "uuid": "16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
+      "uuid": "46d221fa-e9b4-748c-4eae-019a88e42991",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "app-6ada5023.deploy.meerasolution.com",
+        "server_name": "orbylume.my.to",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
+        "path": "/tvpn-tor/is",
         "headers": {
-          "Host": "app-6ada5023.deploy.meerasolution.com"
+          "Host": "orbylume.my.to"
         }
       }
     }
