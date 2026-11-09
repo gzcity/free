@@ -50,15 +50,9 @@
       "udp": true,
       "type": "vless",
       "server": "178.172.227.124",
-      "port": 14430,
+      "port": 10443,
       "uuid": "1af36694-b548-4b18-89a0-bc076eab4ed7",
-      "flow": "",
-      "ws": {
-        "path": "/vless",
-        "headers": {
-          "Host": "178.172.227.124"
-        }
-      }
+      "flow": ""
     },
     {
       "tag": "🇧🇾 BY 03 - xiaohe",
