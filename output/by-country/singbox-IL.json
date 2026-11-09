@@ -14,7 +14,9 @@
       "outbounds": [
         "🇮🇱 IL 01 - xiaohe",
         "🇮🇱 IL 02 - xiaohe",
-        "🇮🇱 IL 03 - xiaohe"
+        "🇮🇱 IL 03 - xiaohe",
+        "🇮🇱 IL 04 - xiaohe",
+        "🇮🇱 IL 05 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -54,6 +56,48 @@
     },
     {
       "tag": "🇮🇱 IL 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "64.177.66.9",
+      "port": 8443,
+      "uuid": "5d7b401c-78fa-4254-872e-6d42bf7e75ec",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "vp7.1145678.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/events/classfp=chromefp=chrome",
+        "headers": {
+          "Host": "vp7.1145678.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇱 IL 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "64.177.66.9",
+      "port": 8443,
+      "uuid": "5d7b401c-78fa-4254-872e-6d42bf7e75ec",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "vp7.1145678.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "vp7.1145678.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇱 IL 05 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "64.176.163.182",
