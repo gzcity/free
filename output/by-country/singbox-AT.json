@@ -31,24 +31,6 @@
     {
       "tag": "🇦🇹 AT 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "82.110.60.9",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "tag": "🇦🇹 AT 02 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "152.53.1.57",
-      "port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "AdawffFMHymlasRb0VOP3HFf7sTG5sJx"
-    },
-    {
-      "tag": "🇦🇹 AT 03 - xiaohe",
-      "udp": true,
       "type": "vmess",
       "server": "154.47.19.225",
       "port": 1270,
@@ -62,7 +44,7 @@
       }
     },
     {
-      "tag": "🇦🇹 AT 04 - xiaohe",
+      "tag": "🇦🇹 AT 02 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "82.110.60.9",
@@ -71,7 +53,16 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "🇦🇹 AT 05 - xiaohe",
+      "tag": "🇦🇹 AT 03 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "82.110.60.9",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇦🇹 AT 04 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "193.219.97.198",
@@ -90,6 +81,15 @@
           "Host": "fs.qicai99.com"
         }
       }
+    },
+    {
+      "tag": "🇦🇹 AT 05 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "152.53.1.57",
+      "port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "AdawffFMHymlasRb0VOP3HFf7sTG5sJx"
     }
   ]
 }

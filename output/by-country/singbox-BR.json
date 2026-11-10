@@ -14,7 +14,8 @@
       "outbounds": [
         "🇧🇷 BR 01 - xiaohe",
         "🇧🇷 BR 02 - xiaohe",
-        "🇧🇷 BR 03 - xiaohe"
+        "🇧🇷 BR 03 - xiaohe",
+        "🇧🇷 BR 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -42,6 +43,27 @@
     {
       "tag": "🇧🇷 BR 02 - xiaohe",
       "udp": true,
+      "type": "vless",
+      "server": "109.120.134.181",
+      "port": 443,
+      "uuid": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "fs.qicai99.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/fp=chrome",
+        "headers": {
+          "Host": "fs.qicai99.com"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇷 BR 03 - xiaohe",
+      "udp": true,
       "type": "trojan",
       "server": "216.238.104.154",
       "port": 443,
@@ -53,7 +75,7 @@
       }
     },
     {
-      "tag": "🇧🇷 BR 03 - xiaohe",
+      "tag": "🇧🇷 BR 04 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "103.88.232.55",

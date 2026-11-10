@@ -56,6 +56,16 @@
     {
       "tag": "🇹🇭 TH 03 - xiaohe",
       "udp": true,
+      "type": "vmess",
+      "server": "119.46.51.45",
+      "port": 37515,
+      "uuid": "9b76bc31-17a5-4454-934a-8d5fb602cd70",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇹🇭 TH 04 - xiaohe",
+      "udp": true,
       "type": "trojan",
       "server": "th001.zestapp778.com",
       "port": 33079,
@@ -65,16 +75,6 @@
         "server_name": "th001.zestapp778.com",
         "insecure": true
       }
-    },
-    {
-      "tag": "🇹🇭 TH 04 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "119.46.51.45",
-      "port": 37515,
-      "uuid": "9b76bc31-17a5-4454-934a-8d5fb602cd70",
-      "alterId": 0,
-      "security": "auto"
     }
   ]
 }
