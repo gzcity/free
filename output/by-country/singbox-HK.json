@@ -34,48 +34,6 @@
       "tag": "🇭🇰 中国香港 (Hong Kong) 01 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "47.244.120.197",
-      "port": 23026,
-      "uuid": "b9de1bc9-baa7-41ac-86f7-ccd59695cb21",
-      "alterId": 0,
-      "security": "auto",
-      "ws": {
-        "path": "/arki",
-        "headers": {
-          "Host": "47.244.120.197"
-        }
-      }
-    },
-    {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 02 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "sclass-c1.catcat321.com",
-      "port": 20086,
-      "password": "d9064589-74af-432a-9390-5d8a9da281bf",
-      "tls": {
-        "enabled": true,
-        "server_name": "sclass-c1.catcat321.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 03 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "sclass-c1.catcat321.com",
-      "port": 20086,
-      "password": "d9064589-74af-432a-9390-5d8a9da281bf",
-      "tls": {
-        "enabled": true,
-        "server_name": "hk.catxstar.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - xiaohe",
-      "udp": true,
-      "type": "vmess",
       "server": "156.245.232.239",
       "port": 35043,
       "uuid": "b15e481d-17e4-41a8-84c2-23d4f0514d9a",
@@ -89,7 +47,7 @@
       }
     },
     {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - xiaohe",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 02 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "47.244.120.197",
@@ -101,6 +59,59 @@
         "path": "/arki",
         "headers": {
           "Host": "47.244.120.197"
+        }
+      }
+    },
+    {
+      "tag": "🇭🇰 中国香港 (Hong Kong) 03 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "47.244.120.197",
+      "port": 36703,
+      "uuid": "45b83519-9c4f-4052-a11b-02e017b636d4",
+      "alterId": 0,
+      "security": "auto",
+      "ws": {
+        "path": "/arki",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "47.244.120.197",
+      "port": 23026,
+      "uuid": "b9de1bc9-baa7-41ac-86f7-ccd59695cb21",
+      "alterId": 0,
+      "security": "auto",
+      "ws": {
+        "path": "/arki",
+        "headers": {
+          "Host": "47.244.120.197"
+        }
+      }
+    },
+    {
+      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.18.15.19",
+      "port": 8443,
+      "uuid": "226279dd-28b2-4b61-96be-a2a0b1afd522",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk.zhaoqing.city",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560",
+        "headers": {
+          "Host": "hk.zhaoqing.city"
         }
       }
     },
@@ -123,14 +134,22 @@
     {
       "tag": "🇭🇰 中国香港 (Hong Kong) 07 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "Sclass-C1.catcat321.com",
-      "port": 20086,
-      "password": "d9064589-74af-432a-9390-5d8a9da281bf",
+      "type": "vless",
+      "server": "2.26.201.194",
+      "port": 443,
+      "uuid": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "hk.catxstar.com",
-        "insecure": true
+        "server_name": "fs.qicai99.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/fp=chrome",
+        "headers": {
+          "Host": "fs.qicai99.com"
+        }
       }
     }
   ]

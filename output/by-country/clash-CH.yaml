@@ -5,20 +5,24 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇭 CH 01 - xiaohe
-  type: trojan
-  server: 208.69.78.19
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  type: vless
+  server: 208.69.78.217
+  port: 2053
+  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
   udp: true
-  sni: www.yourultimateprofessionalcareerhub.com
+  tls: true
   skip-cert-verify: true
+  reality-opts:
+    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
+  servername: www.apple.com
+  client-fingerprint: random
 - name: 🇨🇭 CH 02 - xiaohe
   type: trojan
-  server: 208.69.78.60
+  server: 208.69.78.208
   port: 443
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   udp: true
-  sni: cdn.yourultimateprofessionalcareerhub.com
+  sni: resources.yourultimateprofessionalcareerhub.com
   skip-cert-verify: true
 - name: 🇨🇭 CH 03 - xiaohe
   type: vless
@@ -33,6 +37,203 @@ proxies:
   servername: www.apple.com
   client-fingerprint: chrome
 - name: 🇨🇭 CH 04 - xiaohe
+  type: trojan
+  server: 208.69.78.208
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: resources.yourultimateprofessionalcareerhub.com
+  skip-cert-verify: true
+- name: 🇨🇭 CH 05 - xiaohe
+  type: vless
+  server: 185.18.250.252
+  port: 443
+  uuid: f77299ea-e13d-417d-8cdc-ce5566dfc94b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edu.ruangguru.com.r3xxe.eu.cc
+  network: ws
+  ws-opts:
+    path: /nl-tw
+    headers:
+      Host: edu.ruangguru.com.r3xxe.eu.cc
+- name: 🇨🇭 CH 06 - xiaohe
+  type: vless
+  server: 208.69.78.217
+  port: 2053
+  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
+  servername: www.apple.com
+  client-fingerprint: chrome
+- name: 🇨🇭 CH 07 - xiaohe
+  type: vless
+  server: 208.69.78.217
+  port: 2053
+  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
+  servername: www.apple.com
+  client-fingerprint: chrome
+- name: 🇨🇭 CH 08 - xiaohe
+  type: trojan
+  server: 208.69.78.33
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: courses.yourultimateprofessionalcareerhub.com
+  skip-cert-verify: true
+- name: 🇨🇭 CH 09 - xiaohe
+  type: ss
+  server: 79.127.184.104
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇨🇭 CH 10 - xiaohe
+  type: trojan
+  server: 208.69.78.29
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: learn.yourultimateprofessionalcareerhub.com
+  skip-cert-verify: true
+- name: 🇨🇭 CH 11 - xiaohe
+  type: vless
+  server: 185.18.250.245
+  port: 443
+  uuid: f77299ea-e13d-417d-8cdc-ce5566dfc94b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edu.ruangguru.com.r3xxe.eu.cc
+  network: ws
+  ws-opts:
+    path: /nl-tw
+    headers:
+      Host: edu.ruangguru.com.r3xxe.eu.cc
+- name: 🇨🇭 CH 12 - xiaohe
+  type: ss
+  server: 23.166.88.127
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇨🇭 CH 13 - xiaohe
+  type: trojan
+  server: 208.69.78.29
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: learn.yourultimateprofessionalcareerhub.com
+  skip-cert-verify: true
+- name: 🇨🇭 CH 14 - xiaohe
+  type: trojan
+  server: 208.69.78.33
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: courses.yourultimateprofessionalcareerhub.com
+  skip-cert-verify: true
+- name: 🇨🇭 CH 15 - xiaohe
+  type: trojan
+  server: 208.69.78.29
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: learn.yourultimateprofessionalcareerhub.com
+  skip-cert-verify: true
+- name: 🇨🇭 CH 16 - xiaohe
+  type: trojan
+  server: 208.69.78.29
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: learn.yourultimateprofessionalcareerhub.com
+  skip-cert-verify: true
+- name: 🇨🇭 CH 17 - xiaohe
+  type: trojan
+  server: 208.69.78.158
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: api.yourultimateprofessionalcareerhub.com
+  skip-cert-verify: true
+- name: 🇨🇭 CH 18 - xiaohe
+  type: ss
+  server: 186.190.215.251
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇨🇭 CH 19 - xiaohe
+  type: trojan
+  server: 208.69.78.208
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: 208.69.78.208
+  skip-cert-verify: true
+- name: 🇨🇭 CH 20 - xiaohe
+  type: trojan
+  server: 208.69.78.158
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: api.yourultimateprofessionalcareerhub.com
+  skip-cert-verify: true
+- name: 🇨🇭 CH 21 - xiaohe
+  type: trojan
+  server: 208.69.78.222
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: yourultimateprofessionalcareerhub.com
+  skip-cert-verify: true
+- name: 🇨🇭 CH 22 - xiaohe
+  type: trojan
+  server: 208.69.78.19
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: www.yourultimateprofessionalcareerhub.com
+  skip-cert-verify: true
+- name: 🇨🇭 CH 23 - xiaohe
+  type: trojan
+  server: 208.69.78.222
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: yourultimateprofessionalcareerhub.com
+  skip-cert-verify: true
+- name: 🇨🇭 CH 24 - xiaohe
+  type: trojan
+  server: 208.69.78.60
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: cdn.yourultimateprofessionalcareerhub.com
+  skip-cert-verify: true
+- name: 🇨🇭 CH 25 - xiaohe
+  type: vless
+  server: 208.69.78.217
+  port: 2053
+  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
+  servername: www.apple.com
+  client-fingerprint: random
+- name: 🇨🇭 CH 26 - xiaohe
   type: vless
   server: 208.69.78.217
   port: 2053
@@ -44,54 +245,7 @@ proxies:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
   client-fingerprint: firefox
-- name: 🇨🇭 CH 05 - xiaohe
-  type: vless
-  server: 208.69.78.217
-  port: 2053
-  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
-  servername: www.apple.com
-  client-fingerprint: random
-- name: 🇨🇭 CH 06 - xiaohe
-  type: trojan
-  server: 208.69.78.208
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: 208.69.78.208
-  skip-cert-verify: true
-- name: 🇨🇭 CH 07 - xiaohe
-  type: ss
-  server: 23.166.88.127
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇨🇭 CH 08 - xiaohe
-  type: vless
-  server: 208.69.78.217
-  port: 2053
-  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇨🇭 CH 09 - xiaohe
-  type: trojan
-  server: 208.69.78.222
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
-- name: 🇨🇭 CH 10 - xiaohe
+- name: 🇨🇭 CH 27 - xiaohe
   type: trojan
   server: 208.69.78.158
   port: 443
@@ -99,108 +253,20 @@ proxies:
   udp: true
   sni: api.yourultimateprofessionalcareerhub.com
   skip-cert-verify: true
-- name: 🇨🇭 CH 11 - xiaohe
-  type: trojan
-  server: 208.69.78.29
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: learn.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
-- name: 🇨🇭 CH 12 - xiaohe
-  type: trojan
-  server: 208.69.78.29
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: learn.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
-- name: 🇨🇭 CH 13 - xiaohe
-  type: ss
-  server: 186.190.215.251
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇨🇭 CH 14 - xiaohe
-  type: trojan
-  server: 208.69.78.222
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
-- name: 🇨🇭 CH 15 - xiaohe
-  type: ss
-  server: 79.127.184.104
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇨🇭 CH 16 - xiaohe
-  type: trojan
-  server: 208.69.78.33
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: courses.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
-- name: 🇨🇭 CH 17 - xiaohe
+- name: 🇨🇭 CH 28 - xiaohe
   type: vless
-  server: 208.69.78.217
-  port: 2053
-  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
+  server: 89.22.224.146
+  port: 43788
+  uuid: 6fbd9bd1-ccd4-4e2f-a918-a0f871965763
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
-  servername: www.apple.com
-  client-fingerprint: random
-- name: 🇨🇭 CH 18 - xiaohe
-  type: trojan
-  server: 208.69.78.208
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: resources.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
-- name: 🇨🇭 CH 19 - xiaohe
-  type: vless
-  server: 208.69.78.217
-  port: 2053
-  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇨🇭 CH 20 - xiaohe
-  type: trojan
-  server: 208.69.78.208
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: resources.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
-- name: 🇨🇭 CH 21 - xiaohe
-  type: trojan
-  server: 208.69.78.158
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: api.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
-- name: 🇨🇭 CH 22 - xiaohe
-  type: trojan
-  server: 208.69.78.33
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: courses.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
+  servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -228,6 +294,12 @@ proxy-groups:
   - 🇨🇭 CH 20 - xiaohe
   - 🇨🇭 CH 21 - xiaohe
   - 🇨🇭 CH 22 - xiaohe
+  - 🇨🇭 CH 23 - xiaohe
+  - 🇨🇭 CH 24 - xiaohe
+  - 🇨🇭 CH 25 - xiaohe
+  - 🇨🇭 CH 26 - xiaohe
+  - 🇨🇭 CH 27 - xiaohe
+  - 🇨🇭 CH 28 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -255,5 +327,11 @@ proxy-groups:
   - 🇨🇭 CH 20 - xiaohe
   - 🇨🇭 CH 21 - xiaohe
   - 🇨🇭 CH 22 - xiaohe
+  - 🇨🇭 CH 23 - xiaohe
+  - 🇨🇭 CH 24 - xiaohe
+  - 🇨🇭 CH 25 - xiaohe
+  - 🇨🇭 CH 26 - xiaohe
+  - 🇨🇭 CH 27 - xiaohe
+  - 🇨🇭 CH 28 - xiaohe
 rules:
 - MATCH,PROXIES

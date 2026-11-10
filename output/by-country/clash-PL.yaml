@@ -5,6 +5,14 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇵🇱 PL 01 - xiaohe
+  type: trojan
+  server: 70.34.252.255
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: browseexecutivejobopeningsandenhanceleadershipcareer.com
+  skip-cert-verify: true
+- name: 🇵🇱 PL 02 - xiaohe
   type: vless
   server: 2.26.6.1
   port: 2087
@@ -13,14 +21,6 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: 2.26.6.1
-- name: 🇵🇱 PL 02 - xiaohe
-  type: trojan
-  server: 70.34.252.255
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: browseexecutivejobopeningsandenhanceleadershipcareer.com
-  skip-cert-verify: true
 - name: 🇵🇱 PL 03 - xiaohe
   type: trojan
   server: 70.34.252.255
@@ -29,6 +29,20 @@ proxies:
   udp: true
   sni: browseexecutivejobopeningsandenhanceleadershipcareer.com
   skip-cert-verify: true
+- name: 🇵🇱 PL 04 - xiaohe
+  type: vless
+  server: 151.245.112.193
+  port: 8443
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fs.qicai99.com
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: fs.qicai99.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -37,6 +51,7 @@ proxy-groups:
   - 🇵🇱 PL 01 - xiaohe
   - 🇵🇱 PL 02 - xiaohe
   - 🇵🇱 PL 03 - xiaohe
+  - 🇵🇱 PL 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -45,5 +60,6 @@ proxy-groups:
   - 🇵🇱 PL 01 - xiaohe
   - 🇵🇱 PL 02 - xiaohe
   - 🇵🇱 PL 03 - xiaohe
+  - 🇵🇱 PL 04 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇱🇹 LT 01 - xiaohe",
+        "🇱🇹 LT 02 - xiaohe"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "tag": "🇱🇹 LT 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "45.81.252.143",
+      "port": 2053,
+      "uuid": "53555197-bf0a-49e6-bea1-211fcfc1d962",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "germany3.banovano.space",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇱🇹 LT 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "germany3.banovano.space",
+      "port": 2053,
+      "uuid": "53555197-bf0a-49e6-bea1-211fcfc1d962",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "germany3.banovano.space",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    }
+  ]
+}

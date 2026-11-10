@@ -19,7 +19,9 @@
         "🇸🇪 SE 05 - xiaohe",
         "🇸🇪 SE 06 - xiaohe",
         "🇸🇪 SE 07 - xiaohe",
-        "🇸🇪 SE 08 - xiaohe"
+        "🇸🇪 SE 08 - xiaohe",
+        "🇸🇪 SE 09 - xiaohe",
+        "🇸🇪 SE 10 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -34,6 +36,19 @@
     {
       "tag": "🇸🇪 SE 01 - xiaohe",
       "udp": true,
+      "type": "trojan",
+      "server": "70.34.207.14",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "searchhealthcarejobsandbuildmedicalcareerpathway.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇪 SE 02 - xiaohe",
+      "udp": true,
       "type": "shadowsocks",
       "server": "138.199.55.243",
       "port": 19999,
@@ -41,48 +56,33 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "🇸🇪 SE 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "5.178.109.174",
-      "port": 14430,
-      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
-      "flow": "",
-      "ws": {
-        "path": "/vless",
-        "headers": {
-          "Host": "5.178.109.174"
-        }
-      }
-    },
-    {
       "tag": "🇸🇪 SE 03 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "194.104.94.141",
-      "port": 443,
-      "uuid": "6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "se3.shtil.io",
-        "insecure": true,
-        "client_fingerprint": null
-      }
+      "type": "shadowsocks",
+      "server": "70.34.212.124",
+      "port": 8388,
+      "method": "aes-256-gcm",
+      "password": "AxIYWtskJWIIaefW"
     },
     {
       "tag": "🇸🇪 SE 04 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "se3.shtil.io",
-      "port": 443,
-      "uuid": "6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6",
+      "server": "109.120.155.155",
+      "port": 444,
+      "uuid": "99ab6748-3d57-4562-9451-843c15960b9b",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "se3.shtil.io",
+        "server_name": "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev",
         "insecure": true,
         "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/@Marisa_kristi",
+        "headers": {
+          "Host": "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
+        }
       }
     },
     {
@@ -101,6 +101,34 @@
     {
       "tag": "🇸🇪 SE 06 - xiaohe",
       "udp": true,
+      "type": "trojan",
+      "server": "95.143.196.97",
+      "port": 443,
+      "password": "FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF",
+      "tls": {
+        "enabled": true,
+        "server_name": "connect-se.mimowhat.online",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇪 SE 07 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "5.178.109.174",
+      "port": 14430,
+      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
+      "flow": "",
+      "ws": {
+        "path": "/vless",
+        "headers": {
+          "Host": "5.178.109.174"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇪 SE 08 - xiaohe",
+      "udp": true,
       "type": "vless",
       "server": "194.104.94.141",
       "port": 443,
@@ -114,29 +142,33 @@
       }
     },
     {
-      "tag": "🇸🇪 SE 07 - xiaohe",
+      "tag": "🇸🇪 SE 09 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "70.34.207.14",
+      "type": "vless",
+      "server": "194.104.94.141",
       "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "uuid": "6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "searchhealthcarejobsandbuildmedicalcareerpathway.com",
-        "insecure": true
+        "server_name": "se3.shtil.io",
+        "insecure": true,
+        "client_fingerprint": null
       }
     },
     {
-      "tag": "🇸🇪 SE 08 - xiaohe",
+      "tag": "🇸🇪 SE 10 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "95.143.196.97",
+      "type": "vless",
+      "server": "194.104.94.141",
       "port": 443,
-      "password": "FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF",
+      "uuid": "6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "connect-se.mimowhat.online",
-        "insecure": true
+        "server_name": "se3.shtil.io",
+        "insecure": true,
+        "client_fingerprint": null
       }
     }
   ]

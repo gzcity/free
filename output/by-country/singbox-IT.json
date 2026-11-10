@@ -30,7 +30,7 @@
       "tag": "🇮🇹 意大利 (Italy) 01 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "149.50.215.234",
+      "server": "185.164.175.81",
       "port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -38,17 +38,29 @@
     {
       "tag": "🇮🇹 意大利 (Italy) 02 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "185.164.175.81",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+      "type": "vless",
+      "server": "179.255.190.21",
+      "port": 443,
+      "uuid": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "fs.qicai99.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/fp=chrome",
+        "headers": {
+          "Host": "fs.qicai99.com"
+        }
+      }
     },
     {
       "tag": "🇮🇹 意大利 (Italy) 03 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "185.164.175.81",
+      "server": "149.50.215.234",
       "port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
