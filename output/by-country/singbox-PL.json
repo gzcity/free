@@ -14,8 +14,7 @@
       "outbounds": [
         "🇵🇱 PL 01 - xiaohe",
         "🇵🇱 PL 02 - xiaohe",
-        "🇵🇱 PL 03 - xiaohe",
-        "🇵🇱 PL 04 - xiaohe"
+        "🇵🇱 PL 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -30,19 +29,6 @@
     {
       "tag": "🇵🇱 PL 01 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "70.34.252.255",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "browseexecutivejobopeningsandenhanceleadershipcareer.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇵🇱 PL 02 - xiaohe",
-      "udp": true,
       "type": "vless",
       "server": "2.26.6.1",
       "port": 2087,
@@ -56,7 +42,7 @@
       }
     },
     {
-      "tag": "🇵🇱 PL 03 - xiaohe",
+      "tag": "🇵🇱 PL 02 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "70.34.252.255",
@@ -69,24 +55,16 @@
       }
     },
     {
-      "tag": "🇵🇱 PL 04 - xiaohe",
+      "tag": "🇵🇱 PL 03 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "151.245.112.193",
-      "port": 8443,
-      "uuid": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
-      "flow": "",
+      "type": "trojan",
+      "server": "70.34.252.255",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "fs.qicai99.com",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/fp=chrome",
-        "headers": {
-          "Host": "fs.qicai99.com"
-        }
+        "server_name": "browseexecutivejobopeningsandenhanceleadershipcareer.com",
+        "insecure": true
       }
     }
   ]

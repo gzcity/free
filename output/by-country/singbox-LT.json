@@ -13,7 +13,10 @@
       "tag": "auto",
       "outbounds": [
         "🇱🇹 LT 01 - xiaohe",
-        "🇱🇹 LT 02 - xiaohe"
+        "🇱🇹 LT 02 - xiaohe",
+        "🇱🇹 LT 03 - xiaohe",
+        "🇱🇹 LT 04 - xiaohe",
+        "🇱🇹 LT 05 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -29,7 +32,7 @@
       "tag": "🇱🇹 LT 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "45.81.252.143",
+      "server": "germany3.banovano.space",
       "port": 2053,
       "uuid": "53555197-bf0a-49e6-bea1-211fcfc1d962",
       "flow": "",
@@ -44,7 +47,7 @@
       "tag": "🇱🇹 LT 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "germany3.banovano.space",
+      "server": "45.81.252.143",
       "port": 2053,
       "uuid": "53555197-bf0a-49e6-bea1-211fcfc1d962",
       "flow": "",
@@ -53,6 +56,49 @@
         "server_name": "germany3.banovano.space",
         "insecure": true,
         "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇱🇹 LT 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "45.81.252.143",
+      "port": 2053,
+      "uuid": "53555197-bf0a-49e6-bea1-211fcfc1d962",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "germany3.banovano.space",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇱🇹 LT 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "45.81.252.143",
+      "port": 2053,
+      "uuid": "53555197-bf0a-49e6-bea1-211fcfc1d962",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "germany3.banovano.space",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇱🇹 LT 05 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "de-bots4.h1cloud.net",
+      "port": 25267,
+      "password": "happybirthdaydaniel",
+      "tls": {
+        "enabled": true,
+        "server_name": "de-bots4.h1cloud.net",
+        "insecure": true
       }
     }
   ]

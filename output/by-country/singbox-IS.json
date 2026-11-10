@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇶 IQ 01 - xiaohe"
+        "🇮🇸 IS 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,23 +25,23 @@
       "tag": "block"
     },
     {
-      "tag": "🇮🇶 IQ 01 - xiaohe",
+      "tag": "🇮🇸 IS 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "8.219.155.125",
+      "server": "191.44.112.170",
       "port": 443,
-      "uuid": "7b102311-43fd-4e8f-877e-8090623c101d",
+      "uuid": "46d221fa-e9b4-748c-4eae-019a88e42991",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "vp10.pages.dev",
+        "server_name": "orbylume.my.to",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/",
+        "path": "/tvpn-tor/is",
         "headers": {
-          "Host": "vp10.pages.dev"
+          "Host": "orbylume.my.to"
         }
       }
     }

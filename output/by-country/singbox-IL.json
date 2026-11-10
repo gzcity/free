@@ -42,22 +42,14 @@
     {
       "tag": "🇮🇱 IL 02 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "64.177.66.9",
-      "port": 8443,
-      "uuid": "5d7b401c-78fa-4254-872e-6d42bf7e75ec",
-      "flow": "",
+      "type": "trojan",
+      "server": "64.176.163.182",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "vp7.1145678.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/events/classfp=chromefp=chrome",
-        "headers": {
-          "Host": "vp7.1145678.xyz"
-        }
+        "server_name": "exploreeducationsectoropportunitiestodayandadvancecareers.com",
+        "insecure": true
       }
     },
     {
