@@ -32,6 +32,21 @@
       "tag": "🇫🇮 FI 01 - xiaohe",
       "udp": true,
       "type": "vless",
+      "server": "45.144.234.157",
+      "port": 14430,
+      "uuid": "59b0d30e-9b29-4fda-a35c-b2901ec32db7",
+      "flow": "",
+      "ws": {
+        "path": "/vless",
+        "headers": {
+          "Host": "45.144.234.157"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
       "server": "138.124.49.108",
       "port": 8443,
       "uuid": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
@@ -50,37 +65,7 @@
       }
     },
     {
-      "tag": "🇫🇮 FI 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "45.144.234.157",
-      "port": 14430,
-      "uuid": "59b0d30e-9b29-4fda-a35c-b2901ec32db7",
-      "flow": "",
-      "ws": {
-        "path": "/vless",
-        "headers": {
-          "Host": "45.144.234.157"
-        }
-      }
-    },
-    {
       "tag": "🇫🇮 FI 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "45.144.234.157",
-      "port": 14430,
-      "uuid": "59b0d30e-9b29-4fda-a35c-b2901ec32db7",
-      "flow": "",
-      "ws": {
-        "path": "/vless",
-        "headers": {
-          "Host": "45.144.234.157"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI 04 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "146.103.118.189",
@@ -97,6 +82,21 @@
         "path": "/574ck-finland",
         "headers": {
           "Host": "nl2.574ck.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "45.144.234.157",
+      "port": 14430,
+      "uuid": "59b0d30e-9b29-4fda-a35c-b2901ec32db7",
+      "flow": "",
+      "ws": {
+        "path": "/vless",
+        "headers": {
+          "Host": "45.144.234.157"
         }
       }
     },
