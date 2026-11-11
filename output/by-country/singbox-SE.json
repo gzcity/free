@@ -17,10 +17,7 @@
         "🇸🇪 SE 03 - xiaohe",
         "🇸🇪 SE 04 - xiaohe",
         "🇸🇪 SE 05 - xiaohe",
-        "🇸🇪 SE 06 - xiaohe",
-        "🇸🇪 SE 07 - xiaohe",
-        "🇸🇪 SE 08 - xiaohe",
-        "🇸🇪 SE 09 - xiaohe"
+        "🇸🇪 SE 06 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -51,31 +48,19 @@
       "tag": "🇸🇪 SE 02 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "138.199.55.243",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+      "server": "62.182.193.228",
+      "port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "2e555e46dbc421452416834962fd014f"
     },
     {
       "tag": "🇸🇪 SE 03 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "45.83.182.80",
-      "port": 443,
-      "uuid": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "fs.qicai99.com",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "fs.qicai99.com"
-        }
-      }
+      "type": "shadowsocks",
+      "server": "138.199.55.243",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "tag": "🇸🇪 SE 04 - xiaohe",
@@ -95,15 +80,6 @@
     {
       "tag": "🇸🇪 SE 05 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "62.182.193.228",
-      "port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "2e555e46dbc421452416834962fd014f"
-    },
-    {
-      "tag": "🇸🇪 SE 06 - xiaohe",
-      "udp": true,
       "type": "trojan",
       "server": "95.143.196.97",
       "port": 443,
@@ -115,51 +91,13 @@
       }
     },
     {
-      "tag": "🇸🇪 SE 07 - xiaohe",
+      "tag": "🇸🇪 SE 06 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "70.34.207.14",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "searchhealthcarejobsandbuildmedicalcareerpathway.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇪 SE 08 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "138.124.124.157",
-      "port": 443,
-      "uuid": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "fs.qicai99.com",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/fp=chrome",
-        "headers": {
-          "Host": "fs.qicai99.com"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇪 SE 09 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "70.34.207.14",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "searchhealthcarejobsandbuildmedicalcareerpathway.com",
-        "insecure": true
-      }
+      "type": "shadowsocks",
+      "server": "70.34.212.124",
+      "port": 8388,
+      "method": "aes-256-gcm",
+      "password": "AxIYWtskJWIIaefW"
     }
   ]
 }

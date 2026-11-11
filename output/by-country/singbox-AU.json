@@ -32,22 +32,14 @@
     {
       "tag": "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "46.250.242.104",
+      "type": "trojan",
+      "server": "45.63.30.142",
       "port": 443,
-      "uuid": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
-      "flow": "",
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "fs.qicai99.com",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/fp=chrome",
-        "headers": {
-          "Host": "fs.qicai99.com"
-        }
+        "server_name": "connectwithemployerstohireyouridealteam.com",
+        "insecure": true
       }
     },
     {
@@ -79,14 +71,22 @@
     {
       "tag": "🇦🇺 澳大利亚 (Australia) 04 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "45.63.30.142",
+      "type": "vless",
+      "server": "46.250.242.104",
       "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "uuid": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "connectwithemployerstohireyouridealteam.com",
-        "insecure": true
+        "server_name": "fs.qicai99.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/fp=chrome",
+        "headers": {
+          "Host": "fs.qicai99.com"
+        }
       }
     },
     {

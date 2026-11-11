@@ -17,25 +17,18 @@ proxies:
   servername: ''
 - name: 🇸🇪 SE 02 - xiaohe
   type: ss
+  server: 62.182.193.228
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: 2e555e46dbc421452416834962fd014f
+  udp: true
+- name: 🇸🇪 SE 03 - xiaohe
+  type: ss
   server: 138.199.55.243
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇸🇪 SE 03 - xiaohe
-  type: vless
-  server: 45.83.182.80
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fs.qicai99.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fs.qicai99.com
 - name: 🇸🇪 SE 04 - xiaohe
   type: vless
   server: 5.178.109.174
@@ -50,13 +43,6 @@ proxies:
     headers:
       Host: 5.178.109.174
 - name: 🇸🇪 SE 05 - xiaohe
-  type: ss
-  server: 62.182.193.228
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: 2e555e46dbc421452416834962fd014f
-  udp: true
-- name: 🇸🇪 SE 06 - xiaohe
   type: trojan
   server: 95.143.196.97
   port: 443
@@ -64,36 +50,13 @@ proxies:
   udp: true
   sni: connect-se.mimowhat.online
   skip-cert-verify: true
-- name: 🇸🇪 SE 07 - xiaohe
-  type: trojan
-  server: 70.34.207.14
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+- name: 🇸🇪 SE 06 - xiaohe
+  type: ss
+  server: 70.34.212.124
+  port: 8388
+  cipher: aes-256-gcm
+  password: AxIYWtskJWIIaefW
   udp: true
-  sni: searchhealthcarejobsandbuildmedicalcareerpathway.com
-  skip-cert-verify: true
-- name: 🇸🇪 SE 08 - xiaohe
-  type: vless
-  server: 138.124.124.157
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fs.qicai99.com
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: fs.qicai99.com
-- name: 🇸🇪 SE 09 - xiaohe
-  type: trojan
-  server: 70.34.207.14
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: searchhealthcarejobsandbuildmedicalcareerpathway.com
-  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -105,9 +68,6 @@ proxy-groups:
   - 🇸🇪 SE 04 - xiaohe
   - 🇸🇪 SE 05 - xiaohe
   - 🇸🇪 SE 06 - xiaohe
-  - 🇸🇪 SE 07 - xiaohe
-  - 🇸🇪 SE 08 - xiaohe
-  - 🇸🇪 SE 09 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -119,8 +79,5 @@ proxy-groups:
   - 🇸🇪 SE 04 - xiaohe
   - 🇸🇪 SE 05 - xiaohe
   - 🇸🇪 SE 06 - xiaohe
-  - 🇸🇪 SE 07 - xiaohe
-  - 🇸🇪 SE 08 - xiaohe
-  - 🇸🇪 SE 09 - xiaohe
 rules:
 - MATCH,PROXIES
