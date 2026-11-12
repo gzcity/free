@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇬 BG 01 - xiaohe"
+        "🇱🇻 LV 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,17 +25,23 @@
       "tag": "block"
     },
     {
-      "tag": "🇧🇬 BG 01 - xiaohe",
+      "tag": "🇱🇻 LV 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "radar.cloudflare.com",
-      "port": 8080,
-      "uuid": "cfa71937-73d5-4eb8-9b25-eadecd944803",
+      "server": "31.56.177.27",
+      "port": 443,
+      "uuid": "e5be613e-0b23-4c08-88fb-6b4a82055365",
       "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "oslo.zovip2.ir",
+        "insecure": true,
+        "client_fingerprint": null
+      },
       "ws": {
-        "path": "/",
+        "path": "/api/v3/pulse",
         "headers": {
-          "Host": "sh-harand.shcharand00.workers.dev"
+          "Host": "oslo.zovip2.ir"
         }
       }
     }

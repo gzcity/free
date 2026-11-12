@@ -12,10 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇽 MX 01 - xiaohe",
-        "🇲🇽 MX 02 - xiaohe",
-        "🇲🇽 MX 03 - xiaohe",
-        "🇲🇽 MX 04 - xiaohe"
+        "🇲🇽 MX 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -35,45 +32,6 @@
       "port": 8388,
       "method": "aes-256-gcm",
       "password": "BWyPPTusFKhGgzKh"
-    },
-    {
-      "tag": "🇲🇽 MX 02 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "mx001.zestapp778.com",
-      "port": 15083,
-      "password": "5t6i121em5lkmsmk",
-      "tls": {
-        "enabled": true,
-        "server_name": "mx001.zestapp778.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇲🇽 MX 03 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "mx001.zestapp778.com",
-      "port": 15083,
-      "password": "5t6i121em5lkmsmk",
-      "tls": {
-        "enabled": true,
-        "server_name": "mx001.zestapp778.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇲🇽 MX 04 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "mx001.zestapp778.com",
-      "port": 15083,
-      "password": "5t6i121em5lkmsmk",
-      "tls": {
-        "enabled": true,
-        "server_name": "mx001.zestapp778.com",
-        "insecure": true
-      }
     }
   ]
 }
