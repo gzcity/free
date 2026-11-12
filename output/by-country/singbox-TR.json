@@ -13,7 +13,8 @@
       "tag": "auto",
       "outbounds": [
         "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 02 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -59,6 +60,19 @@
         "reality": true,
         "public_key": "bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104",
         "short_id": ""
+      }
+    },
+    {
+      "tag": "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "sclass-b1.catcat321.com",
+      "port": 20028,
+      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk.catxstar.com",
+        "insecure": true
       }
     }
   ]

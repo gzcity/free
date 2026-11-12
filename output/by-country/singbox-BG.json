@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇧🇬 BG 01 - xiaohe"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "tag": "🇧🇬 BG 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "radar.cloudflare.com",
+      "port": 8080,
+      "uuid": "cfa71937-73d5-4eb8-9b25-eadecd944803",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "sh-harand.shcharand00.workers.dev"
+        }
+      }
+    }
+  ]
+}

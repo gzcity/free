@@ -32,32 +32,20 @@
     {
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "185.86.147.175",
-      "port": 443,
-      "uuid": "7955bf18-35c4-412d-aabd-c0b36c793063",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "bhjolq0d0l.flowersgood.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/service/telemetry/045d381f1166/",
-        "headers": {
-          "Host": "bhjolq0d0l.flowersgood.top"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-      "udp": true,
       "type": "shadowsocks",
       "server": "130.49.189.158",
       "port": 43558,
       "method": "chacha20-ietf-poly1305",
       "password": "yZiPrr484OdSYcivDUv+UIygwvyW+HQYytKsIgTw9tU="
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "38.60.223.125",
+      "port": 13108,
+      "method": "aes-128-gcm",
+      "password": "8722de56b6c0b3f6a4d01cf91c07e6aa"
     },
     {
       "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
@@ -70,6 +58,42 @@
     },
     {
       "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "cryptoventura.online",
+      "port": 443,
+      "uuid": "4b50270b-5caf-4c34-b3da-17b4525604a6",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cryptoventura.online",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/api/de3/live",
+        "headers": {
+          "Host": "cryptoventura.online"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "176.108.245.237",
+      "port": 443,
+      "uuid": "87c35d3a-36f1-fade-90b7-af60506efbb8",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "tfusq-ru-40sb.fade.mom",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 06 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "185.178.208.167",
@@ -87,30 +111,6 @@
         "headers": {
           "Host": "mbr.rkn-pediki.site"
         }
-      }
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "38.60.223.125",
-      "port": 13108,
-      "method": "aes-128-gcm",
-      "password": "8722de56b6c0b3f6a4d01cf91c07e6aa"
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 06 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "176.108.245.237",
-      "port": 443,
-      "uuid": "87c35d3a-36f1-fade-90b7-af60506efbb8",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "tfusq-ru-40sb.fade.mom",
-        "insecure": true,
-        "client_fingerprint": null
       }
     }
   ]
