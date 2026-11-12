@@ -48,6 +48,19 @@
     {
       "tag": "🇸🇪 SE 02 - xiaohe",
       "udp": true,
+      "type": "trojan",
+      "server": "95.143.196.97",
+      "port": 443,
+      "password": "FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF",
+      "tls": {
+        "enabled": true,
+        "server_name": "connect-se.mimowhat.online",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇪 SE 03 - xiaohe",
+      "udp": true,
       "type": "vless",
       "server": "5.178.109.174",
       "port": 14430,
@@ -61,7 +74,25 @@
       }
     },
     {
-      "tag": "🇸🇪 SE 03 - xiaohe",
+      "tag": "🇸🇪 SE 04 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "138.199.55.243",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇸🇪 SE 05 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "62.182.193.228",
+      "port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "2e555e46dbc421452416834962fd014f"
+    },
+    {
+      "tag": "🇸🇪 SE 06 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "70.34.212.124",
@@ -70,41 +101,7 @@
       "password": "AxIYWtskJWIIaefW"
     },
     {
-      "tag": "🇸🇪 SE 04 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "95.143.196.97",
-      "port": 443,
-      "password": "FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF",
-      "tls": {
-        "enabled": true,
-        "server_name": "connect-se.mimowhat.online",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇪 SE 05 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "138.124.49.108",
-      "port": 8443,
-      "uuid": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "fs.qicai99.com",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/fp=chrome",
-        "headers": {
-          "Host": "fs.qicai99.com"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇪 SE 06 - xiaohe",
+      "tag": "🇸🇪 SE 07 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "62.93.166.184",
@@ -117,15 +114,6 @@
         "server_name": "",
         "insecure": true
       }
-    },
-    {
-      "tag": "🇸🇪 SE 07 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "138.199.55.243",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     }
   ]
 }

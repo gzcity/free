@@ -21,7 +21,13 @@
         "🇦🇪 阿联酋 (UAE) 07 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 08 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 09 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 10 - xiaohe"
+        "🇦🇪 阿联酋 (UAE) 10 - xiaohe",
+        "🇦🇪 阿联酋 (UAE) 11 - xiaohe",
+        "🇦🇪 阿联酋 (UAE) 12 - xiaohe",
+        "🇦🇪 阿联酋 (UAE) 13 - xiaohe",
+        "🇦🇪 阿联酋 (UAE) 14 - xiaohe",
+        "🇦🇪 阿联酋 (UAE) 15 - xiaohe",
+        "🇦🇪 阿联酋 (UAE) 16 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -37,7 +43,7 @@
       "tag": "🇦🇪 阿联酋 (UAE) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "84.235.244.108",
+      "server": "uae.unixzone.us",
       "port": 22573,
       "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
       "flow": "",
@@ -52,7 +58,7 @@
       "tag": "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "uae.unixzone.us",
+      "server": "84.235.244.108",
       "port": 22573,
       "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
       "flow": "",
@@ -67,20 +73,14 @@
       "tag": "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "94.183.164.142",
-      "port": 443,
-      "uuid": "3f5e89d5-591f-4ac9-b071-b05680b573c3",
+      "server": "95.174.68.188",
+      "port": 14430,
+      "uuid": "965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "nl4.gacvpn.site",
-        "insecure": true,
-        "client_fingerprint": null
-      },
       "ws": {
-        "path": "/static/js/vendor.cc1645b6.js",
+        "path": "/vless",
         "headers": {
-          "Host": "94.183.164.142"
+          "Host": "95.174.68.188"
         }
       }
     },
@@ -102,66 +102,50 @@
     {
       "tag": "🇦🇪 阿联酋 (UAE) 05 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "95.174.68.188",
-      "port": 14430,
-      "uuid": "965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0",
-      "flow": "",
-      "ws": {
-        "path": "/vless",
-        "headers": {
-          "Host": "95.174.68.188"
-        }
-      }
+      "type": "shadowsocks",
+      "server": "151.241.19.29",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "tag": "🇦🇪 阿联酋 (UAE) 06 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "95.174.68.188",
-      "port": 14430,
-      "uuid": "965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0",
-      "flow": "",
-      "ws": {
-        "path": "/vless",
-        "headers": {
-          "Host": "95.174.68.188"
-        }
+      "type": "trojan",
+      "server": "sclass-c1.catcat321.com",
+      "port": 20086,
+      "password": "d9064589-74af-432a-9390-5d8a9da281bf",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk.catxstar.com",
+        "insecure": true
       }
     },
     {
       "tag": "🇦🇪 阿联酋 (UAE) 07 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "94.183.164.142",
-      "port": 443,
-      "uuid": "3f5e89d5-591f-4ac9-b071-b05680b573c3",
-      "flow": "",
+      "type": "trojan",
+      "server": "sclass-00.catcat321.com",
+      "port": 20123,
+      "password": "d9064589-74af-432a-9390-5d8a9da281bf",
       "tls": {
         "enabled": true,
-        "server_name": "nl4.gacvpn.site",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/static/js/vendor.cc1645b6.js",
-        "headers": {
-          "Host": "94.183.164.142"
-        }
+        "server_name": "hk.catxstar.com",
+        "insecure": true
       }
     },
     {
       "tag": "🇦🇪 阿联酋 (UAE) 08 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "95.174.68.188",
-      "port": 14430,
-      "uuid": "965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0",
+      "server": "84.235.244.108",
+      "port": 22573,
+      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
       "flow": "",
       "ws": {
-        "path": "/vless",
+        "path": "/",
         "headers": {
-          "Host": "95.174.68.188"
+          "Host": "uae.unixzone.us"
         }
       }
     },
@@ -192,6 +176,94 @@
         "path": "/vless",
         "headers": {
           "Host": "95.174.68.188"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇪 阿联酋 (UAE) 11 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "16.106.7.232",
+      "port": 20086,
+      "password": "d9064589-74af-432a-9390-5d8a9da281bf",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk.catxstar.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇦🇪 阿联酋 (UAE) 12 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "84.235.244.108",
+      "port": 22573,
+      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "uae.unixzone.us"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇪 阿联酋 (UAE) 13 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "uae.unixzone.us",
+      "port": 22573,
+      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "uae.unixzone.us"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇪 阿联酋 (UAE) 14 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "95.174.68.188",
+      "port": 14430,
+      "uuid": "965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0",
+      "flow": "",
+      "ws": {
+        "path": "/vless",
+        "headers": {
+          "Host": "95.174.68.188"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇪 阿联酋 (UAE) 15 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "95.174.68.188",
+      "port": 14430,
+      "uuid": "965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0",
+      "flow": "",
+      "ws": {
+        "path": "/vless",
+        "headers": {
+          "Host": "95.174.68.188"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇪 阿联酋 (UAE) 16 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "uae.unixzone.us",
+      "port": 22573,
+      "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "uae.unixzone.us"
         }
       }
     }

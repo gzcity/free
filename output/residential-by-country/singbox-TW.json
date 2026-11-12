@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇻 LV 01 - xiaohe"
+        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,23 +25,23 @@
       "tag": "block"
     },
     {
-      "tag": "🇱🇻 LV 01 - xiaohe",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "31.56.177.27",
+      "server": "60.248.219.78",
       "port": 443,
-      "uuid": "e5be613e-0b23-4c08-88fb-6b4a82055365",
+      "uuid": "c1c04450-bf71-4049-ad0c-9cf6d94d9f1f",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "oslo.zovip2.ir",
+        "server_name": "ty986gfazs.cainiaohub.xyz",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/api/v3/pulse",
+        "path": "/81574b6b-c9d7-44a0-b83d-dad56e8cb530",
         "headers": {
-          "Host": "oslo.zovip2.ir"
+          "Host": "ty986gfazs.cainiaohub.xyz"
         }
       }
     }

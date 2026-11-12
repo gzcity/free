@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇦 MA 01 - xiaohe"
+        "🇳🇬 NG 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,24 +25,16 @@
       "tag": "block"
     },
     {
-      "tag": "🇲🇦 MA 01 - xiaohe",
+      "tag": "🇳🇬 NG 01 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "104.21.60.73",
-      "port": 443,
-      "uuid": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
-      "flow": "",
+      "type": "trojan",
+      "server": "sclass-01.catcat321.com",
+      "port": 20103,
+      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
       "tls": {
         "enabled": true,
-        "server_name": "fs.qicai99.com",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "fs.qicai99.com"
-        }
+        "server_name": "hk.catxstar.com",
+        "insecure": true
       }
     }
   ]

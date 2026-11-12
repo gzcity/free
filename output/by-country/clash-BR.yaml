@@ -5,13 +5,19 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇷 BR 01 - xiaohe
-  type: trojan
-  server: 216.238.104.154
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  type: vless
+  server: 138.124.49.108
+  port: 8443
+  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
   udp: true
-  sni: findtemporaryworkandfreelancerprojectsonlineplatform.com
+  tls: true
   skip-cert-verify: true
+  servername: fs.qicai99.com
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: fs.qicai99.com
 - name: 🇧🇷 BR 02 - xiaohe
   type: trojan
   server: 216.238.104.154
@@ -20,6 +26,14 @@ proxies:
   udp: true
   sni: 216.238.104.154
   skip-cert-verify: true
+- name: 🇧🇷 BR 03 - xiaohe
+  type: trojan
+  server: 216.238.104.154
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: findtemporaryworkandfreelancerprojectsonlineplatform.com
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -27,6 +41,7 @@ proxy-groups:
   - AUTO
   - 🇧🇷 BR 01 - xiaohe
   - 🇧🇷 BR 02 - xiaohe
+  - 🇧🇷 BR 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -34,5 +49,6 @@ proxy-groups:
   proxies:
   - 🇧🇷 BR 01 - xiaohe
   - 🇧🇷 BR 02 - xiaohe
+  - 🇧🇷 BR 03 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -4,31 +4,25 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇲🇦 MA 01 - xiaohe
-  type: vless
-  server: 104.21.60.73
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
+- name: 🇳🇬 NG 01 - xiaohe
+  type: trojan
+  server: sclass-01.catcat321.com
+  port: 20103
+  password: d7563108-615c-4338-a7bd-77f359869a4a
   udp: true
-  tls: true
+  sni: hk.catxstar.com
   skip-cert-verify: true
-  servername: fs.qicai99.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fs.qicai99.com
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇲🇦 MA 01 - xiaohe
+  - 🇳🇬 NG 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇲🇦 MA 01 - xiaohe
+  - 🇳🇬 NG 01 - xiaohe
 rules:
 - MATCH,PROXIES
