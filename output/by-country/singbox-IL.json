@@ -13,9 +13,7 @@
       "tag": "auto",
       "outbounds": [
         "🇮🇱 IL 01 - xiaohe",
-        "🇮🇱 IL 02 - xiaohe",
-        "🇮🇱 IL 03 - xiaohe",
-        "🇮🇱 IL 04 - xiaohe"
+        "🇮🇱 IL 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -29,24 +27,6 @@
     },
     {
       "tag": "🇮🇱 IL 01 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "5d0319t.nl7.h1clayd.click",
-      "port": 443,
-      "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "5d0319t.nl7.h1clayd.click",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇮🇱 IL 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "196.196.148.85",
@@ -64,25 +44,7 @@
       }
     },
     {
-      "tag": "🇮🇱 IL 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "f0d7aft.nl13.h1clayd.click",
-      "port": 443,
-      "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "f0d7aft.nl13.h1clayd.click",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "kkCGiCQCKnkozJR1KKCRNtmdBECmThCgI9VSv7iDcWI",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇮🇱 IL 04 - xiaohe",
+      "tag": "🇮🇱 IL 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "192.71.27.237",

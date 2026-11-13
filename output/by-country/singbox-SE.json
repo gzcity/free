@@ -15,7 +15,8 @@
         "🇸🇪 SE 01 - xiaohe",
         "🇸🇪 SE 02 - xiaohe",
         "🇸🇪 SE 03 - xiaohe",
-        "🇸🇪 SE 04 - xiaohe"
+        "🇸🇪 SE 04 - xiaohe",
+        "🇸🇪 SE 05 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -43,20 +44,27 @@
     {
       "tag": "🇸🇪 SE 02 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "62.93.166.184",
-      "port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "alterId": 0,
-      "security": "auto",
+      "type": "shadowsocks",
+      "server": "62.182.193.228",
+      "port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "2e555e46dbc421452416834962fd014f"
+    },
+    {
+      "tag": "🇸🇪 SE 03 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "95.143.196.97",
+      "port": 443,
+      "password": "FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF",
       "tls": {
         "enabled": true,
-        "server_name": "",
+        "server_name": "connect-se.mimowhat.online",
         "insecure": true
       }
     },
     {
-      "tag": "🇸🇪 SE 03 - xiaohe",
+      "tag": "🇸🇪 SE 04 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "138.199.55.243",
@@ -65,7 +73,7 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "🇸🇪 SE 04 - xiaohe",
+      "tag": "🇸🇪 SE 05 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "5.178.109.174",

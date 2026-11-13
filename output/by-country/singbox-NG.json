@@ -12,9 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇳🇬 NG 01 - xiaohe",
-        "🇳🇬 NG 02 - xiaohe",
-        "🇳🇬 NG 03 - xiaohe"
+        "🇳🇬 NG 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -33,32 +31,6 @@
       "server": "sclass-01.catcat321.com",
       "port": 20103,
       "password": "d7563108-615c-4338-a7bd-77f359869a4a",
-      "tls": {
-        "enabled": true,
-        "server_name": "hk.catxstar.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇳🇬 NG 02 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "sclass-01.catcat321.com",
-      "port": 20103,
-      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
-      "tls": {
-        "enabled": true,
-        "server_name": "hk.catxstar.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇳🇬 NG 03 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "sclass-c2.catcat321.com",
-      "port": 20051,
-      "password": "d9064589-74af-432a-9390-5d8a9da281bf",
       "tls": {
         "enabled": true,
         "server_name": "hk.catxstar.com",
