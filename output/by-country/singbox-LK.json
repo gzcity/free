@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇱🇰 LK 01 - xiaohe",
+        "🇱🇰 LK 02 - xiaohe"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "tag": "🇱🇰 LK 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "170.114.45.6",
+      "port": 2096,
+      "uuid": "efd11a89-7506-44ce-95b6-6654859f155b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "pcloud.z-tas.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "pcloud.z-tas.com"
+        }
+      }
+    },
+    {
+      "tag": "🇱🇰 LK 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "170.114.46.6",
+      "port": 2096,
+      "uuid": "efd11a89-7506-44ce-95b6-6654859f155b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "pcloud.z-tas.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET",
+        "headers": {
+          "Host": "pcloud.z-tas.com"
+        }
+      }
+    }
+  ]
+}

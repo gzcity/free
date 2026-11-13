@@ -14,9 +14,7 @@
       "outbounds": [
         "🇫🇮 FI 01 - xiaohe",
         "🇫🇮 FI 02 - xiaohe",
-        "🇫🇮 FI 03 - xiaohe",
-        "🇫🇮 FI 04 - xiaohe",
-        "🇫🇮 FI 05 - xiaohe"
+        "🇫🇮 FI 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -32,20 +30,14 @@
       "tag": "🇫🇮 FI 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "146.103.118.189",
-      "port": 443,
-      "uuid": "ce698f0c-a8ec-474a-b5d8-3be8032deeb8",
+      "server": "45.144.234.157",
+      "port": 14430,
+      "uuid": "59b0d30e-9b29-4fda-a35c-b2901ec32db7",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "nl2.574ck.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
       "ws": {
-        "path": "/574ck-finland",
+        "path": "/vless",
         "headers": {
-          "Host": "nl2.574ck.xyz"
+          "Host": "45.144.234.157"
         }
       }
     },
@@ -66,42 +58,6 @@
     },
     {
       "tag": "🇫🇮 FI 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "45.144.234.157",
-      "port": 14430,
-      "uuid": "59b0d30e-9b29-4fda-a35c-b2901ec32db7",
-      "flow": "",
-      "ws": {
-        "path": "/vless",
-        "headers": {
-          "Host": "45.144.234.157"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "138.124.49.108",
-      "port": 8443,
-      "uuid": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "fs.qicai99.com",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/fp=chromefp=chrome",
-        "headers": {
-          "Host": "fs.qicai99.com"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI 05 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "45.144.234.157",

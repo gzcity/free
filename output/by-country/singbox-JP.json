@@ -30,7 +30,51 @@
         "🇯🇵 日本 (Japan) 16 - xiaohe",
         "🇯🇵 日本 (Japan) 17 - xiaohe",
         "🇯🇵 日本 (Japan) 18 - xiaohe",
-        "🇯🇵 日本 (Japan) 19 - xiaohe"
+        "🇯🇵 日本 (Japan) 19 - xiaohe",
+        "🇯🇵 日本 (Japan) 20 - xiaohe",
+        "🇯🇵 日本 (Japan) 21 - xiaohe",
+        "🇯🇵 日本 (Japan) 22 - xiaohe",
+        "🇯🇵 日本 (Japan) 23 - xiaohe",
+        "🇯🇵 日本 (Japan) 24 - xiaohe",
+        "🇯🇵 日本 (Japan) 25 - xiaohe",
+        "🇯🇵 日本 (Japan) 26 - xiaohe",
+        "🇯🇵 日本 (Japan) 27 - xiaohe",
+        "🇯🇵 日本 (Japan) 28 - xiaohe",
+        "🇯🇵 日本 (Japan) 29 - xiaohe",
+        "🇯🇵 日本 (Japan) 30 - xiaohe",
+        "🇯🇵 日本 (Japan) 31 - xiaohe",
+        "🇯🇵 日本 (Japan) 32 - xiaohe",
+        "🇯🇵 日本 (Japan) 33 - xiaohe",
+        "🇯🇵 日本 (Japan) 34 - xiaohe",
+        "🇯🇵 日本 (Japan) 35 - xiaohe",
+        "🇯🇵 日本 (Japan) 36 - xiaohe",
+        "🇯🇵 日本 (Japan) 37 - xiaohe",
+        "🇯🇵 日本 (Japan) 38 - xiaohe",
+        "🇯🇵 日本 (Japan) 39 - xiaohe",
+        "🇯🇵 日本 (Japan) 40 - xiaohe",
+        "🇯🇵 日本 (Japan) 41 - xiaohe",
+        "🇯🇵 日本 (Japan) 42 - xiaohe",
+        "🇯🇵 日本 (Japan) 43 - xiaohe",
+        "🇯🇵 日本 (Japan) 44 - xiaohe",
+        "🇯🇵 日本 (Japan) 45 - xiaohe",
+        "🇯🇵 日本 (Japan) 46 - xiaohe",
+        "🇯🇵 日本 (Japan) 47 - xiaohe",
+        "🇯🇵 日本 (Japan) 48 - xiaohe",
+        "🇯🇵 日本 (Japan) 49 - xiaohe",
+        "🇯🇵 日本 (Japan) 50 - xiaohe",
+        "🇯🇵 日本 (Japan) 51 - xiaohe",
+        "🇯🇵 日本 (Japan) 52 - xiaohe",
+        "🇯🇵 日本 (Japan) 53 - xiaohe",
+        "🇯🇵 日本 (Japan) 54 - xiaohe",
+        "🇯🇵 日本 (Japan) 55 - xiaohe",
+        "🇯🇵 日本 (Japan) 56 - xiaohe",
+        "🇯🇵 日本 (Japan) 57 - xiaohe",
+        "🇯🇵 日本 (Japan) 58 - xiaohe",
+        "🇯🇵 日本 (Japan) 59 - xiaohe",
+        "🇯🇵 日本 (Japan) 60 - xiaohe",
+        "🇯🇵 日本 (Japan) 61 - xiaohe",
+        "🇯🇵 日本 (Japan) 62 - xiaohe",
+        "🇯🇵 日本 (Japan) 63 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -46,8 +90,8 @@
       "tag": "🇯🇵 日本 (Japan) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "154.31.114.162",
-      "port": 8443,
+      "server": "104.16.10.56",
+      "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
       "tls": {
@@ -66,29 +110,17 @@
     {
       "tag": "🇯🇵 日本 (Japan) 02 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "45.66.129.12",
-      "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
+      "type": "shadowsocks",
+      "server": "84.247.155.196",
+      "port": 80,
+      "method": "aes-256-gcm",
+      "password": "3eOFeNssde7PYYMv"
     },
     {
       "tag": "🇯🇵 日本 (Japan) 03 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.16.10.48",
+      "server": "104.16.10.135",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -109,7 +141,7 @@
       "tag": "🇯🇵 日本 (Japan) 04 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.16.10.104",
+      "server": "104.21.70.228",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -130,7 +162,7 @@
       "tag": "🇯🇵 日本 (Japan) 05 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.21.0.87",
+      "server": "104.19.164.155",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -151,169 +183,13 @@
       "tag": "🇯🇵 日本 (Japan) 06 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "84.247.155.196",
-      "port": 80,
-      "method": "aes-256-gcm",
-      "password": "3eOFeNssde7PYYMv"
+      "server": "149.22.87.240",
+      "port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
     },
     {
       "tag": "🇯🇵 日本 (Japan) 07 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "46.250.248.210",
-      "port": 443,
-      "uuid": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "fs.qicai99.com",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/fp=chrome",
-        "headers": {
-          "Host": "fs.qicai99.com"
-        }
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 08 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "152.69.195.67",
-      "port": 47878,
-      "uuid": "eb8613e3-8393-4cff-a3ad-6501fd4adc63",
-      "flow": ""
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 09 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "172.64.190.13",
-      "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 10 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "154.31.114.162",
-      "port": 8443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 11 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.16.10.72",
-      "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 12 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.16.0.1",
-      "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 13 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.19.33.25",
-      "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 14 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.17.50.227",
-      "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "tag": "🇯🇵 日本 (Japan) 15 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "162.159.254.3",
@@ -334,10 +210,178 @@
       }
     },
     {
+      "tag": "🇯🇵 日本 (Japan) 08 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.19.48.107",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 09 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "162.159.254.3",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 10 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.64.190.13",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 11 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.67.156.147",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 12 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.16.111.102",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 13 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.16.10.2",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 14 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.16.10.234",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 15 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "45.66.129.12",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
       "tag": "🇯🇵 日本 (Japan) 16 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "172.67.217.240",
+      "server": "104.16.10.22",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -356,6 +400,150 @@
     },
     {
       "tag": "🇯🇵 日本 (Japan) 17 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "149.22.87.241",
+      "port": 443,
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 18 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "43.156.62.218",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 19 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.18.42.98",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 20 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "84.247.155.196",
+      "port": 443,
+      "method": "aes-256-gcm",
+      "password": "3eOFeNssde7PYYMv"
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 21 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "45.142.126.184",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 22 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.21.219.160",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 23 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "152.69.200.216",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 24 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.16.10.72",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 25 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "104.24.31.89",
@@ -376,7 +564,205 @@
       }
     },
     {
-      "tag": "🇯🇵 日本 (Japan) 18 - xiaohe",
+      "tag": "🇯🇵 日本 (Japan) 26 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "188.114.98.0",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 27 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.17.169.13",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 28 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.21.0.87",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 29 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.19.33.25",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 30 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "216.167.127.197",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 31 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.67.217.240",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 32 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "154.36.158.197",
+      "port": 8388,
+      "method": "aes-256-gcm",
+      "password": "BeaUf9c0AEWH40Pu"
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 33 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.21.219.160",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 34 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "64.178.113.127",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 35 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.24.31.89",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 36 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "84.247.155.196",
@@ -385,13 +771,547 @@
       "password": "3eOFeNssde7PYYMv"
     },
     {
-      "tag": "🇯🇵 日本 (Japan) 19 - xiaohe",
+      "tag": "🇯🇵 日本 (Japan) 37 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "46.250.248.210",
+      "port": 443,
+      "uuid": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "fs.qicai99.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/fp=chrome",
+        "headers": {
+          "Host": "fs.qicai99.com"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 38 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.17.50.227",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 39 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "154.31.114.162",
+      "port": 8443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 40 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.16.0.1",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 41 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.67.217.240",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 42 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "84.247.155.196",
+      "server": "168.138.205.100",
+      "port": 53758,
+      "method": "aes-128-gcm",
+      "password": "Bwlqh7GcFB"
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 43 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.19.48.107",
       "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 44 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "154.36.158.197",
+      "port": 8388,
       "method": "aes-256-gcm",
-      "password": "3eOFeNssde7PYYMv"
+      "password": "BeaUf9c0AEWH40Pu"
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 45 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.16.10.48",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 46 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "45.129.8.204",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 47 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.18.42.98",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 48 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.16.111.102",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 49 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.21.33.59",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 50 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.16.0.1",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 51 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.24.0.1",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 52 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.16.111.102",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 53 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.64.190.13",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 54 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.21.34.106",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 55 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.27.46.35",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 56 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.19.164.155",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 57 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.21.6.186",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 58 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "188.114.97.6",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 59 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.21.70.21",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 60 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.67.217.240",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 61 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.17.210.74",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 62 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.17.50.53",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 日本 (Japan) 63 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.21.0.87",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
     }
   ]
 }
