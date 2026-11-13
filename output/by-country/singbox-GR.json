@@ -13,8 +13,7 @@
       "tag": "auto",
       "outbounds": [
         "🇬🇷 GR 01 - xiaohe",
-        "🇬🇷 GR 02 - xiaohe",
-        "🇬🇷 GR 03 - xiaohe"
+        "🇬🇷 GR 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -41,7 +40,7 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/fp=chrome",
+        "path": "/fp",
         "headers": {
           "Host": "fs.qicai99.com"
         }
@@ -63,27 +62,6 @@
       },
       "ws": {
         "path": "/fp=chrome",
-        "headers": {
-          "Host": "fs.qicai99.com"
-        }
-      }
-    },
-    {
-      "tag": "🇬🇷 GR 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "85.90.197.158",
-      "port": 443,
-      "uuid": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "fs.qicai99.com",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/fp",
         "headers": {
           "Host": "fs.qicai99.com"
         }

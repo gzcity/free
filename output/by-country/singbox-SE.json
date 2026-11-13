@@ -15,10 +15,7 @@
         "🇸🇪 SE 01 - xiaohe",
         "🇸🇪 SE 02 - xiaohe",
         "🇸🇪 SE 03 - xiaohe",
-        "🇸🇪 SE 04 - xiaohe",
-        "🇸🇪 SE 05 - xiaohe",
-        "🇸🇪 SE 06 - xiaohe",
-        "🇸🇪 SE 07 - xiaohe"
+        "🇸🇪 SE 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -33,21 +30,6 @@
     {
       "tag": "🇸🇪 SE 01 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "193.188.21.253",
-      "port": 14430,
-      "uuid": "57f7772d-f5d6-4d8f-992d-5fa5e0d6da55",
-      "flow": "",
-      "ws": {
-        "path": "/vless",
-        "headers": {
-          "Host": "193.188.21.253"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇪 SE 02 - xiaohe",
-      "udp": true,
       "type": "trojan",
       "server": "95.143.196.97",
       "port": 443,
@@ -59,49 +41,7 @@
       }
     },
     {
-      "tag": "🇸🇪 SE 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "5.178.109.174",
-      "port": 14430,
-      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
-      "flow": "",
-      "ws": {
-        "path": "/vless",
-        "headers": {
-          "Host": "5.178.109.174"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇪 SE 04 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "138.199.55.243",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "tag": "🇸🇪 SE 05 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "62.182.193.228",
-      "port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "2e555e46dbc421452416834962fd014f"
-    },
-    {
-      "tag": "🇸🇪 SE 06 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "70.34.212.124",
-      "port": 8388,
-      "method": "aes-256-gcm",
-      "password": "AxIYWtskJWIIaefW"
-    },
-    {
-      "tag": "🇸🇪 SE 07 - xiaohe",
+      "tag": "🇸🇪 SE 02 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "62.93.166.184",
@@ -113,6 +53,30 @@
         "enabled": true,
         "server_name": "",
         "insecure": true
+      }
+    },
+    {
+      "tag": "🇸🇪 SE 03 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "138.199.55.243",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇸🇪 SE 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "5.178.109.174",
+      "port": 14430,
+      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
+      "flow": "",
+      "ws": {
+        "path": "/vless",
+        "headers": {
+          "Host": "5.178.109.174"
+        }
       }
     }
   ]

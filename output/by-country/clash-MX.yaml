@@ -5,6 +5,30 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇲🇽 MX 01 - xiaohe
+  type: trojan
+  server: mx001.zestapp778.com
+  port: 15083
+  password: 5t6i121em5lkmsmk
+  udp: true
+  sni: mx001.zestapp778.com
+  skip-cert-verify: true
+- name: 🇲🇽 MX 02 - xiaohe
+  type: trojan
+  server: mx001.zestapp778.com
+  port: 15083
+  password: 5t6i121em5lkmsmk
+  udp: true
+  sni: mx001.zestapp778.com
+  skip-cert-verify: true
+- name: 🇲🇽 MX 03 - xiaohe
+  type: trojan
+  server: mx001.zestapp778.com
+  port: 15083
+  password: 5t6i121em5lkmsmk
+  udp: true
+  sni: mx001.zestapp778.com
+  skip-cert-verify: true
+- name: 🇲🇽 MX 04 - xiaohe
   type: ss
   server: 64.177.90.30
   port: 8388
@@ -17,11 +41,17 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇲🇽 MX 01 - xiaohe
+  - 🇲🇽 MX 02 - xiaohe
+  - 🇲🇽 MX 03 - xiaohe
+  - 🇲🇽 MX 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇲🇽 MX 01 - xiaohe
+  - 🇲🇽 MX 02 - xiaohe
+  - 🇲🇽 MX 03 - xiaohe
+  - 🇲🇽 MX 04 - xiaohe
 rules:
 - MATCH,PROXIES

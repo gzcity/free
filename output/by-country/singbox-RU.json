@@ -14,7 +14,8 @@
       "outbounds": [
         "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -38,14 +39,47 @@
     {
       "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "185.22.153.117",
-      "port": 18443,
-      "method": "aes-256-gcm",
-      "password": "NTiHBg64fsY8u8DbGrtypD9gPGSL386p"
+      "type": "vless",
+      "server": "188.225.37.43",
+      "port": 443,
+      "uuid": "4cabcd59-a405-4c00-96f5-03507e1e28fa",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "torvani.cyou",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/api/boards/live",
+        "headers": {
+          "Host": "torvani.cyou"
+        }
+      }
     },
     {
       "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "188.225.37.175",
+      "port": 443,
+      "uuid": "4b50270b-5caf-4c34-b3da-17b4525604a6",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cryptoventura.online",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/api/de3/live",
+        "headers": {
+          "Host": "cryptoventura.online"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "130.49.189.158",

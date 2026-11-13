@@ -14,7 +14,10 @@
       "outbounds": [
         "🇮🇹 意大利 (Italy) 01 - xiaohe",
         "🇮🇹 意大利 (Italy) 02 - xiaohe",
-        "🇮🇹 意大利 (Italy) 03 - xiaohe"
+        "🇮🇹 意大利 (Italy) 03 - xiaohe",
+        "🇮🇹 意大利 (Italy) 04 - xiaohe",
+        "🇮🇹 意大利 (Italy) 05 - xiaohe",
+        "🇮🇹 意大利 (Italy) 06 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -30,22 +33,13 @@
       "tag": "🇮🇹 意大利 (Italy) 01 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "149.50.215.234",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "tag": "🇮🇹 意大利 (Italy) 02 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
       "server": "185.164.175.81",
       "port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "🇮🇹 意大利 (Italy) 03 - xiaohe",
+      "tag": "🇮🇹 意大利 (Italy) 02 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "149.50.215.240",
@@ -58,6 +52,42 @@
         "server_name": "",
         "insecure": true
       }
+    },
+    {
+      "tag": "🇮🇹 意大利 (Italy) 03 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "57.131.4.13",
+      "port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "mx81glqbtlwuhcjo"
+    },
+    {
+      "tag": "🇮🇹 意大利 (Italy) 04 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "dns24.m3hrzd.ir",
+      "port": 1349,
+      "method": "chacha20-ietf-poly1305",
+      "password": "byX4-DV0C42PLFTWQhMTAQ63mZ8qrDRB"
+    },
+    {
+      "tag": "🇮🇹 意大利 (Italy) 05 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "185.164.175.81",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇮🇹 意大利 (Italy) 06 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "149.50.215.234",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     }
   ]
 }
