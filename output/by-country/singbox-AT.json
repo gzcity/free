@@ -14,7 +14,9 @@
       "outbounds": [
         "🇦🇹 AT 01 - xiaohe",
         "🇦🇹 AT 02 - xiaohe",
-        "🇦🇹 AT 03 - xiaohe"
+        "🇦🇹 AT 03 - xiaohe",
+        "🇦🇹 AT 04 - xiaohe",
+        "🇦🇹 AT 05 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -38,6 +40,21 @@
     {
       "tag": "🇦🇹 AT 02 - xiaohe",
       "udp": true,
+      "type": "vmess",
+      "server": "154.47.19.225",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇦🇹 AT 03 - xiaohe",
+      "udp": true,
       "type": "shadowsocks",
       "server": "82.110.60.9",
       "port": 19999,
@@ -45,7 +62,22 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "🇦🇹 AT 03 - xiaohe",
+      "tag": "🇦🇹 AT 04 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "154.47.19.225",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇦🇹 AT 05 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "152.53.1.57",

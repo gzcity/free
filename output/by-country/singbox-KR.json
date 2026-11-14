@@ -53,18 +53,15 @@
       "tag": "🇰🇷 韩国 (South Korea) 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "151.245.106.49",
-      "port": 2053,
-      "uuid": "a2de9567-9646-45a9-a410-7303a43bdb6c",
+      "server": "152.69.226.63",
+      "port": 25555,
+      "uuid": "27c5483f-17f4-48ae-9a04-def53d88440d",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo",
-        "short_id": ""
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "152.69.226.63"
+        }
       }
     },
     {
@@ -94,7 +91,7 @@
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "insecure": true,
-        "client_fingerprint": "random",
+        "client_fingerprint": "firefox",
         "reality": true,
         "public_key": "F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo",
         "short_id": ""
@@ -103,35 +100,18 @@
     {
       "tag": "🇰🇷 韩国 (South Korea) 05 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "152.69.226.63",
-      "port": 25555,
-      "uuid": "27c5483f-17f4-48ae-9a04-def53d88440d",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "152.69.226.63"
-        }
+      "type": "trojan",
+      "server": "158.247.253.243",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "connectgraduateswithjobopeningsandgrowprofessionally.com",
+        "insecure": true
       }
     },
     {
       "tag": "🇰🇷 韩国 (South Korea) 06 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "152.69.226.63",
-      "port": 25555,
-      "uuid": "27c5483f-17f4-48ae-9a04-def53d88440d",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "152.69.226.63"
-        }
-      }
-    },
-    {
-      "tag": "🇰🇷 韩国 (South Korea) 07 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "151.245.106.49",
@@ -146,6 +126,21 @@
         "reality": true,
         "public_key": "F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo",
         "short_id": ""
+      }
+    },
+    {
+      "tag": "🇰🇷 韩国 (South Korea) 07 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "152.69.226.63",
+      "port": 25555,
+      "uuid": "27c5483f-17f4-48ae-9a04-def53d88440d",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "152.69.226.63"
+        }
       }
     },
     {
@@ -166,14 +161,16 @@
     {
       "tag": "🇰🇷 韩国 (South Korea) 09 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "158.247.253.243",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "connectgraduateswithjobopeningsandgrowprofessionally.com",
-        "insecure": true
+      "type": "vless",
+      "server": "152.69.226.63",
+      "port": 25555,
+      "uuid": "27c5483f-17f4-48ae-9a04-def53d88440d",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "152.69.226.63"
+        }
       }
     },
     {
@@ -201,15 +198,18 @@
       "tag": "🇰🇷 韩国 (South Korea) 11 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "152.69.226.63",
-      "port": 25555,
-      "uuid": "27c5483f-17f4-48ae-9a04-def53d88440d",
+      "server": "151.245.106.49",
+      "port": 2053,
+      "uuid": "a2de9567-9646-45a9-a410-7303a43bdb6c",
       "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "152.69.226.63"
-        }
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "random",
+        "reality": true,
+        "public_key": "F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo",
+        "short_id": ""
       }
     }
   ]

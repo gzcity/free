@@ -17,7 +17,11 @@
         "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
         "🇹🇷 土耳其 (Turkey) 04 - xiaohe",
         "🇹🇷 土耳其 (Turkey) 05 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 06 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 06 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 07 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 08 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 09 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 10 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -32,31 +36,23 @@
     {
       "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "157.254.38.210",
-      "port": 20028,
-      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
+      "type": "vless",
+      "server": "151.241.226.201",
+      "port": 2053,
+      "uuid": "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "hk.catxstar.com",
-        "insecure": true
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "client_fingerprint": "random",
+        "reality": true,
+        "public_key": "bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104",
+        "short_id": ""
       }
     },
     {
       "tag": "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "sclass-b1.catcat321.com",
-      "port": 20028,
-      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
-      "tls": {
-        "enabled": true,
-        "server_name": "hk.catxstar.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "151.241.226.201",
@@ -74,10 +70,23 @@
       }
     },
     {
-      "tag": "🇹🇷 土耳其 (Turkey) 04 - xiaohe",
+      "tag": "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "157.254.38.210",
+      "port": 20027,
+      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk.catxstar.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇹🇷 土耳其 (Turkey) 04 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "sclass-b1.catcat321.com",
       "port": 20027,
       "password": "d7563108-615c-4338-a7bd-77f359869a4a",
       "tls": {
@@ -90,7 +99,7 @@
       "tag": "🇹🇷 土耳其 (Turkey) 05 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "sclass-b1.catcat321.com",
+      "server": "157.254.38.210",
       "port": 20027,
       "password": "d7563108-615c-4338-a7bd-77f359869a4a",
       "tls": {
@@ -102,19 +111,66 @@
     {
       "tag": "🇹🇷 土耳其 (Turkey) 06 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "151.241.226.201",
-      "port": 2053,
-      "uuid": "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8",
-      "flow": "",
+      "type": "trojan",
+      "server": "sclass-b1.catcat321.com",
+      "port": 20027,
+      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true,
-        "client_fingerprint": "random",
-        "reality": true,
-        "public_key": "bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104",
-        "short_id": ""
+        "server_name": "hk.catxstar.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇹🇷 土耳其 (Turkey) 07 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "157.254.38.210",
+      "port": 20028,
+      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk.catxstar.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇹🇷 土耳其 (Turkey) 08 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "sclass-b1.catcat321.com",
+      "port": 20028,
+      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk.catxstar.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇹🇷 土耳其 (Turkey) 09 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "157.254.38.210",
+      "port": 20028,
+      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk.catxstar.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇹🇷 土耳其 (Turkey) 10 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "sclass-b1.catcat321.com",
+      "port": 20028,
+      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk.catxstar.com",
+        "insecure": true
       }
     }
   ]
