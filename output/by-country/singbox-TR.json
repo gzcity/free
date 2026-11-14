@@ -54,6 +54,71 @@
     {
       "tag": "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
       "udp": true,
+      "type": "trojan",
+      "server": "157.254.38.210",
+      "port": 20028,
+      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk.catxstar.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "sclass-b1.catcat321.com",
+      "port": 20028,
+      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk.catxstar.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇹🇷 土耳其 (Turkey) 04 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "157.254.38.210",
+      "port": 20028,
+      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk.catxstar.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇹🇷 土耳其 (Turkey) 05 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "sclass-b1.catcat321.com",
+      "port": 20028,
+      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk.catxstar.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇹🇷 土耳其 (Turkey) 06 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "157.254.38.210",
+      "port": 20028,
+      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk.catxstar.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇹🇷 土耳其 (Turkey) 07 - xiaohe",
+      "udp": true,
       "type": "vless",
       "server": "151.241.226.201",
       "port": 2053,
@@ -70,76 +135,11 @@
       }
     },
     {
-      "tag": "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "157.254.38.210",
-      "port": 20027,
-      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
-      "tls": {
-        "enabled": true,
-        "server_name": "hk.catxstar.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇹🇷 土耳其 (Turkey) 04 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "sclass-b1.catcat321.com",
-      "port": 20027,
-      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
-      "tls": {
-        "enabled": true,
-        "server_name": "hk.catxstar.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇹🇷 土耳其 (Turkey) 05 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "157.254.38.210",
-      "port": 20027,
-      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
-      "tls": {
-        "enabled": true,
-        "server_name": "hk.catxstar.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇹🇷 土耳其 (Turkey) 06 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "sclass-b1.catcat321.com",
-      "port": 20027,
-      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
-      "tls": {
-        "enabled": true,
-        "server_name": "hk.catxstar.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇹🇷 土耳其 (Turkey) 07 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "157.254.38.210",
-      "port": 20028,
-      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
-      "tls": {
-        "enabled": true,
-        "server_name": "hk.catxstar.com",
-        "insecure": true
-      }
-    },
-    {
       "tag": "🇹🇷 土耳其 (Turkey) 08 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "sclass-b1.catcat321.com",
-      "port": 20028,
+      "port": 20027,
       "password": "d7563108-615c-4338-a7bd-77f359869a4a",
       "tls": {
         "enabled": true,
@@ -152,7 +152,7 @@
       "udp": true,
       "type": "trojan",
       "server": "157.254.38.210",
-      "port": 20028,
+      "port": 20027,
       "password": "d7563108-615c-4338-a7bd-77f359869a4a",
       "tls": {
         "enabled": true,
@@ -165,7 +165,7 @@
       "udp": true,
       "type": "trojan",
       "server": "sclass-b1.catcat321.com",
-      "port": 20028,
+      "port": 20027,
       "password": "d7563108-615c-4338-a7bd-77f359869a4a",
       "tls": {
         "enabled": true,

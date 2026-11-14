@@ -32,11 +32,7 @@
         "🌐 其他地区 (Other) 18 - xiaohe",
         "🌐 其他地区 (Other) 19 - xiaohe",
         "🌐 其他地区 (Other) 20 - xiaohe",
-        "🌐 其他地区 (Other) 21 - xiaohe",
-        "🌐 其他地区 (Other) 22 - xiaohe",
-        "🌐 其他地区 (Other) 23 - xiaohe",
-        "🌐 其他地区 (Other) 24 - xiaohe",
-        "🌐 其他地区 (Other) 25 - xiaohe"
+        "🌐 其他地区 (Other) 21 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -52,7 +48,7 @@
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.19.164.155",
+      "server": "104.16.111.202",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -73,7 +69,7 @@
       "tag": "🌐 其他地区 (Other) 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "162.159.254.3",
+      "server": "104.17.50.227",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -94,7 +90,7 @@
       "tag": "🌐 其他地区 (Other) 03 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.19.12.94",
+      "server": "104.21.6.186",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -114,21 +110,21 @@
     {
       "tag": "🌐 其他地区 (Other) 04 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "188.114.96.3",
-      "port": 8443,
-      "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
-      "alterId": 0,
-      "security": "auto",
+      "type": "vless",
+      "server": "104.18.42.98",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "v2ray1.dozapp.xyz",
-        "insecure": true
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
       },
       "ws": {
-        "path": "/lMnsZUN4/",
+        "path": "/tyxyws",
         "headers": {
-          "Host": "v2ray1.dozapp.xyz"
+          "Host": "jp3.yohototo.top"
         }
       }
     },
@@ -136,7 +132,7 @@
       "tag": "🌐 其他地区 (Other) 05 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.21.6.186",
+      "server": "104.21.33.59",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -157,7 +153,7 @@
       "tag": "🌐 其他地区 (Other) 06 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "172.67.217.240",
+      "server": "104.16.111.102",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -178,7 +174,7 @@
       "tag": "🌐 其他地区 (Other) 07 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "172.67.217.240",
+      "server": "188.114.98.0",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -199,7 +195,7 @@
       "tag": "🌐 其他地区 (Other) 08 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "162.159.254.3",
+      "server": "104.21.70.228",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -219,21 +215,21 @@
     {
       "tag": "🌐 其他地区 (Other) 09 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "104.24.31.89",
-      "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "flow": "",
+      "type": "vmess",
+      "server": "104.21.91.53",
+      "port": 8443,
+      "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
+      "alterId": 0,
+      "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true,
-        "client_fingerprint": null
+        "server_name": "v2ray1.dozapp.xyz",
+        "insecure": true
       },
       "ws": {
-        "path": "/tyxyws",
+        "path": "/lMnsZUN4/",
         "headers": {
-          "Host": "jp3.yohototo.top"
+          "Host": "v2ray1.dozapp.xyz"
         }
       }
     },
@@ -241,7 +237,7 @@
       "tag": "🌐 其他地区 (Other) 10 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.21.0.87",
+      "server": "104.16.10.185",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -262,7 +258,7 @@
       "tag": "🌐 其他地区 (Other) 11 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.16.111.102",
+      "server": "104.17.210.74",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -283,7 +279,7 @@
       "tag": "🌐 其他地区 (Other) 12 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.19.48.107",
+      "server": "104.16.10.22",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -304,20 +300,20 @@
       "tag": "🌐 其他地区 (Other) 13 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "www.speedtest.net",
+      "server": "104.19.33.25",
       "port": 443,
-      "uuid": "ec23f217-23a1-4f62-b98d-ba56070de89c",
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "wallweb4.pages.dev",
+        "server_name": "jp3.yohototo.top",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/fp=chrome",
+        "path": "/tyxyws",
         "headers": {
-          "Host": "wallweb4.pages.dev"
+          "Host": "jp3.yohototo.top"
         }
       }
     },
@@ -325,7 +321,7 @@
       "tag": "🌐 其他地区 (Other) 14 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.17.50.53",
+      "server": "104.16.111.102",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -346,14 +342,20 @@
       "tag": "🌐 其他地区 (Other) 15 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "199.232.78.159",
-      "port": 80,
-      "uuid": "b26a2b59-8c77-4bf5-97ab-57972adcb959",
+      "server": "104.16.10.48",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
       "ws": {
-        "path": "ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048",
+        "path": "/tyxyws",
         "headers": {
-          "Host": "rb24.ir"
+          "Host": "jp3.yohototo.top"
         }
       }
     },
@@ -361,7 +363,7 @@
       "tag": "🌐 其他地区 (Other) 16 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "188.114.98.0",
+      "server": "104.16.10.56",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -382,7 +384,7 @@
       "tag": "🌐 其他地区 (Other) 17 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "172.67.217.240",
+      "server": "104.21.0.87",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -403,7 +405,7 @@
       "tag": "🌐 其他地区 (Other) 18 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.21.219.160",
+      "server": "104.21.70.21",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -424,7 +426,7 @@
       "tag": "🌐 其他地区 (Other) 19 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.21.0.87",
+      "server": "104.16.10.72",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -445,7 +447,7 @@
       "tag": "🌐 其他地区 (Other) 20 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.16.10.135",
+      "server": "104.16.111.195",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -466,7 +468,7 @@
       "tag": "🌐 其他地区 (Other) 21 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.21.34.106",
+      "server": "104.21.219.160",
       "port": 443,
       "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "flow": "",
@@ -480,90 +482,6 @@
         "path": "/tyxyws",
         "headers": {
           "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 22 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.17.50.227",
-      "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 23 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.16.10.2",
-      "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 24 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.24.31.89",
-      "port": 443,
-      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "jp3.yohototo.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/tyxyws",
-        "headers": {
-          "Host": "jp3.yohototo.top"
-        }
-      }
-    },
-    {
-      "tag": "🌐 其他地区 (Other) 25 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "104.17.77.77",
-      "port": 8443,
-      "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "v2ray1.dozapp.xyz",
-        "insecure": true
-      },
-      "ws": {
-        "path": "/lMnsZUN4/",
-        "headers": {
-          "Host": "v2ray1.dozapp.xyz"
         }
       }
     }
