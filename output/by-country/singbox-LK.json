@@ -13,7 +13,8 @@
       "tag": "auto",
       "outbounds": [
         "🇱🇰 LK 01 - xiaohe",
-        "🇱🇰 LK 02 - xiaohe"
+        "🇱🇰 LK 02 - xiaohe",
+        "🇱🇰 LK 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -29,7 +30,7 @@
       "tag": "🇱🇰 LK 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "170.114.46.6",
+      "server": "170.114.45.6",
       "port": 2096,
       "uuid": "efd11a89-7506-44ce-95b6-6654859f155b",
       "flow": "",
@@ -40,7 +41,7 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2048",
+        "path": "/",
         "headers": {
           "Host": "pcloud.z-tas.com"
         }
@@ -62,6 +63,27 @@
       },
       "ws": {
         "path": "/",
+        "headers": {
+          "Host": "pcloud.z-tas.com"
+        }
+      }
+    },
+    {
+      "tag": "🇱🇰 LK 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "170.114.46.6",
+      "port": 2096,
+      "uuid": "efd11a89-7506-44ce-95b6-6654859f155b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "pcloud.z-tas.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2048",
         "headers": {
           "Host": "pcloud.z-tas.com"
         }

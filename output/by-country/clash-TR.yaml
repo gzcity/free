@@ -17,42 +17,6 @@ proxies:
   servername: www.apple.com
   client-fingerprint: random
 - name: 🇹🇷 土耳其 (Turkey) 02 - xiaohe
-  type: vless
-  server: bbcdd4t.de-p2.h1clayd.click
-  port: 443
-  uuid: 4618cebd-e1e9-45c3-be98-d9d6e3ee8bef
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: n9cdr2Qf9h3S_jf5Rcd15fl-4fxuztHvlexE7G-QvW8
-  servername: bbcdd4t.de-p2.h1clayd.click
-  client-fingerprint: firefox
-- name: 🇹🇷 土耳其 (Turkey) 03 - xiaohe
-  type: vless
-  server: 196.245.153.112
-  port: 443
-  uuid: 474638a5-dc58-4453-9e40-70bcaa4ef74c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: RjoTK5x2_y3hb4nsOUnjii7IAu6gy5GrC-VN-H_AIh0
-  servername: b998f03d.de-p2.h1clayd.click
-  client-fingerprint: firefox
-- name: 🇹🇷 土耳其 (Turkey) 04 - xiaohe
-  type: vless
-  server: b998f03d.de-p2.h1clayd.click
-  port: 443
-  uuid: 474638a5-dc58-4453-9e40-70bcaa4ef74c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: RjoTK5x2_y3hb4nsOUnjii7IAu6gy5GrC-VN-H_AIh0
-  servername: b998f03d.de-p2.h1clayd.click
-  client-fingerprint: chrome
-- name: 🇹🇷 土耳其 (Turkey) 05 - xiaohe
   type: trojan
   server: sclass-b1.catcat321.com
   port: 20027
@@ -60,23 +24,31 @@ proxies:
   udp: true
   sni: hk.catxstar.com
   skip-cert-verify: true
+- name: 🇹🇷 土耳其 (Turkey) 03 - xiaohe
+  type: trojan
+  server: 157.254.38.210
+  port: 20027
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  udp: true
+  sni: hk.catxstar.com
+  skip-cert-verify: true
+- name: 🇹🇷 土耳其 (Turkey) 04 - xiaohe
+  type: trojan
+  server: sclass-b1.catcat321.com
+  port: 20027
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  udp: true
+  sni: hk.catxstar.com
+  skip-cert-verify: true
+- name: 🇹🇷 土耳其 (Turkey) 05 - xiaohe
+  type: trojan
+  server: 157.254.38.210
+  port: 20027
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  udp: true
+  sni: hk.catxstar.com
+  skip-cert-verify: true
 - name: 🇹🇷 土耳其 (Turkey) 06 - xiaohe
-  type: trojan
-  server: 157.254.38.210
-  port: 20027
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  udp: true
-  sni: hk.catxstar.com
-  skip-cert-verify: true
-- name: 🇹🇷 土耳其 (Turkey) 07 - xiaohe
-  type: trojan
-  server: 157.254.38.210
-  port: 20027
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  udp: true
-  sni: hk.catxstar.com
-  skip-cert-verify: true
-- name: 🇹🇷 土耳其 (Turkey) 08 - xiaohe
   type: vless
   server: 151.241.226.201
   port: 2053
@@ -88,6 +60,18 @@ proxies:
     public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
   servername: www.apple.com
   client-fingerprint: random
+- name: 🇹🇷 土耳其 (Turkey) 07 - xiaohe
+  type: vless
+  server: 196.245.153.112
+  port: 443
+  uuid: 474638a5-dc58-4453-9e40-70bcaa4ef74c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: RjoTK5x2_y3hb4nsOUnjii7IAu6gy5GrC-VN-H_AIh0
+  servername: b998f03d.de-p2.h1clayd.click
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -100,7 +84,6 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 05 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 06 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 07 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 08 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -113,6 +96,5 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 05 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 06 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 07 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 08 - xiaohe
 rules:
 - MATCH,PROXIES
