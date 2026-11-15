@@ -21,20 +21,6 @@ proxies:
   sni: findtemporaryworkandfreelancerprojectsonlineplatform.com
   skip-cert-verify: true
 - name: 🇧🇷 BR 03 - xiaohe
-  type: vless
-  server: 64.204.49.68
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: vp10.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vp10.pages.dev
-- name: 🇧🇷 BR 04 - xiaohe
   type: vmess
   server: 103.14.27.207
   port: 1270
@@ -53,7 +39,6 @@ proxy-groups:
   - 🇧🇷 BR 01 - xiaohe
   - 🇧🇷 BR 02 - xiaohe
   - 🇧🇷 BR 03 - xiaohe
-  - 🇧🇷 BR 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -62,6 +47,5 @@ proxy-groups:
   - 🇧🇷 BR 01 - xiaohe
   - 🇧🇷 BR 02 - xiaohe
   - 🇧🇷 BR 03 - xiaohe
-  - 🇧🇷 BR 04 - xiaohe
 rules:
 - MATCH,PROXIES

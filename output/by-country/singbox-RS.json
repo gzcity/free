@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇱 IL 01 - xiaohe"
+        "🇷🇸 RS 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,21 +25,16 @@
       "tag": "block"
     },
     {
-      "tag": "🇮🇱 IL 01 - xiaohe",
+      "tag": "🇷🇸 RS 01 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "196.196.148.85",
-      "port": 443,
-      "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
-      "flow": "",
+      "type": "trojan",
+      "server": "38.180.101.235",
+      "port": 5443,
+      "password": "X00HagvwL8gQXNDAnsxsN8dv1_VdneEo",
       "tls": {
         "enabled": true,
-        "server_name": "5d0319t.nl7.h1clayd.click",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs",
-        "short_id": ""
+        "server_name": "rs.nebulaguard.org",
+        "insecure": true
       }
     }
   ]
