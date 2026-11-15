@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇵🇱 PL 01 - xiaohe"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "tag": "🇵🇱 PL 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "d58daft.plp1.h1cloud.net",
+      "port": 443,
+      "uuid": "c82031be-e90f-4b15-ab4f-7ccef236d3ca",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "d58daft.plp1.h1cloud.net",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "ixnCbdlT5sAVd-ilp2nG11CvnNsBCf9xPD56TlXxlR4",
+        "short_id": ""
+      }
+    }
+  ]
+}

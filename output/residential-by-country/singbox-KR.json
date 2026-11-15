@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇼 中国台湾 (Taiwan) 01 - xiaohe"
+        "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,13 +25,13 @@
       "tag": "block"
     },
     {
-      "tag": "🇹🇼 中国台湾 (Taiwan) 01 - xiaohe",
+      "tag": "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "amasoid.ddns.net",
-      "port": 14514,
-      "method": "2022-blake3-aes-128-gcm",
-      "password": "b7I6g7l7fJhBaMInJ+zkzw=="
+      "server": "115.161.136.145",
+      "port": 10099,
+      "method": "chacha20-ietf-poly1305",
+      "password": "12242"
     }
   ]
 }
