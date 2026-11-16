@@ -43,37 +43,14 @@ proxies:
   servername: www.apple.com
   client-fingerprint: random
 - name: 🇹🇷 土耳其 (Turkey) 04 - xiaohe
-  type: trojan
-  server: 157.254.38.210
-  port: 20027
-  password: d7563108-615c-4338-a7bd-77f359869a4a
+  type: vless
+  server: 188.132.174.69
+  port: 12830
+  uuid: 10af09cf-dc4c-4c08-b524-10e7ef4667d6
   udp: true
-  sni: hk.catxstar.com
+  tls: true
   skip-cert-verify: true
-- name: 🇹🇷 土耳其 (Turkey) 05 - xiaohe
-  type: trojan
-  server: sclass-b1.catcat321.com
-  port: 20027
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  udp: true
-  sni: hk.catxstar.com
-  skip-cert-verify: true
-- name: 🇹🇷 土耳其 (Turkey) 06 - xiaohe
-  type: trojan
-  server: sclass-b1.catcat321.com
-  port: 20027
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  udp: true
-  sni: hk.catxstar.com
-  skip-cert-verify: true
-- name: 🇹🇷 土耳其 (Turkey) 07 - xiaohe
-  type: trojan
-  server: 157.254.38.210
-  port: 20027
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  udp: true
-  sni: hk.catxstar.com
-  skip-cert-verify: true
+  servername: fpnshoping.ir
 proxy-groups:
 - name: PROXIES
   type: select
@@ -83,9 +60,6 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 02 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 03 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 04 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 05 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 06 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 07 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -95,8 +69,5 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 02 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 03 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 04 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 05 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 06 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 07 - xiaohe
 rules:
 - MATCH,PROXIES

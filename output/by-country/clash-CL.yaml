@@ -18,22 +18,6 @@ proxies:
   port: 443
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   udp: true
-  sni: 64.176.7.205
-  skip-cert-verify: true
-- name: 🇨🇱 CL 03 - xiaohe
-  type: trojan
-  server: 64.176.7.205
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: advanceyouremploymentskillsandcareerdevelopmenthub.com
-  skip-cert-verify: true
-- name: 🇨🇱 CL 04 - xiaohe
-  type: trojan
-  server: 64.176.7.205
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
   sni: advanceyouremploymentskillsandcareerdevelopmenthub.com
   skip-cert-verify: true
 proxy-groups:
@@ -43,8 +27,6 @@ proxy-groups:
   - AUTO
   - 🇨🇱 CL 01 - xiaohe
   - 🇨🇱 CL 02 - xiaohe
-  - 🇨🇱 CL 03 - xiaohe
-  - 🇨🇱 CL 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -52,7 +34,5 @@ proxy-groups:
   proxies:
   - 🇨🇱 CL 01 - xiaohe
   - 🇨🇱 CL 02 - xiaohe
-  - 🇨🇱 CL 03 - xiaohe
-  - 🇨🇱 CL 04 - xiaohe
 rules:
 - MATCH,PROXIES
