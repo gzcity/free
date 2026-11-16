@@ -18,9 +18,7 @@
         "🇸🇪 SE 04 - xiaohe",
         "🇸🇪 SE 05 - xiaohe",
         "🇸🇪 SE 06 - xiaohe",
-        "🇸🇪 SE 07 - xiaohe",
-        "🇸🇪 SE 08 - xiaohe",
-        "🇸🇪 SE 09 - xiaohe"
+        "🇸🇪 SE 07 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -50,11 +48,17 @@
     {
       "tag": "🇸🇪 SE 02 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "194.59.250.52",
-      "port": 18501,
-      "method": "aes-128-gcm",
-      "password": "517403753b63fd4fac88986bf98b11e0"
+      "type": "vless",
+      "server": "5.178.109.174",
+      "port": 14430,
+      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
+      "flow": "",
+      "ws": {
+        "path": "/vless",
+        "headers": {
+          "Host": "5.178.109.174"
+        }
+      }
     },
     {
       "tag": "🇸🇪 SE 03 - xiaohe",
@@ -72,6 +76,15 @@
     {
       "tag": "🇸🇪 SE 04 - xiaohe",
       "udp": true,
+      "type": "shadowsocks",
+      "server": "194.59.250.52",
+      "port": 18501,
+      "method": "aes-128-gcm",
+      "password": "517403753b63fd4fac88986bf98b11e0"
+    },
+    {
+      "tag": "🇸🇪 SE 05 - xiaohe",
+      "udp": true,
       "type": "trojan",
       "server": "95.143.196.97",
       "port": 443,
@@ -81,15 +94,6 @@
         "server_name": "connect-se.mimowhat.online",
         "insecure": true
       }
-    },
-    {
-      "tag": "🇸🇪 SE 05 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "62.182.193.228",
-      "port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "2e555e46dbc421452416834962fd014f"
     },
     {
       "tag": "🇸🇪 SE 06 - xiaohe",
@@ -111,30 +115,6 @@
         "enabled": true,
         "server_name": "connect-se.mimowhat.online",
         "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇪 SE 08 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "70.34.212.124",
-      "port": 8388,
-      "method": "aes-256-gcm",
-      "password": "AxIYWtskJWIIaefW"
-    },
-    {
-      "tag": "🇸🇪 SE 09 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "5.178.109.174",
-      "port": 14430,
-      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
-      "flow": "",
-      "ws": {
-        "path": "/vless",
-        "headers": {
-          "Host": "5.178.109.174"
-        }
       }
     }
   ]

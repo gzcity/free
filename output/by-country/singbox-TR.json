@@ -51,57 +51,26 @@
     {
       "tag": "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "sclass-b1.catcat321.com",
-      "port": 20027,
-      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
+      "type": "vless",
+      "server": "185.39.204.117",
+      "port": 10002,
+      "uuid": "facb802c-de2e-11f1-9a22-a3404e852f3b",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "hk.catxstar.com",
-        "insecure": true
+        "server_name": "tr2.vpnjantit.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/vpnjantit",
+        "headers": {
+          "Host": "185.39.204.117"
+        }
       }
     },
     {
       "tag": "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "157.254.38.210",
-      "port": 20027,
-      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
-      "tls": {
-        "enabled": true,
-        "server_name": "hk.catxstar.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇹🇷 土耳其 (Turkey) 04 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "sclass-b1.catcat321.com",
-      "port": 20027,
-      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
-      "tls": {
-        "enabled": true,
-        "server_name": "hk.catxstar.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇹🇷 土耳其 (Turkey) 05 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "157.254.38.210",
-      "port": 20027,
-      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
-      "tls": {
-        "enabled": true,
-        "server_name": "hk.catxstar.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇹🇷 土耳其 (Turkey) 06 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "151.241.226.201",
@@ -119,21 +88,55 @@
       }
     },
     {
-      "tag": "🇹🇷 土耳其 (Turkey) 07 - xiaohe",
+      "tag": "🇹🇷 土耳其 (Turkey) 04 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "196.245.153.112",
-      "port": 443,
-      "uuid": "474638a5-dc58-4453-9e40-70bcaa4ef74c",
-      "flow": "",
+      "type": "trojan",
+      "server": "157.254.38.210",
+      "port": 20027,
+      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
       "tls": {
         "enabled": true,
-        "server_name": "b998f03d.de-p2.h1clayd.click",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "RjoTK5x2_y3hb4nsOUnjii7IAu6gy5GrC-VN-H_AIh0",
-        "short_id": ""
+        "server_name": "hk.catxstar.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇹🇷 土耳其 (Turkey) 05 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "sclass-b1.catcat321.com",
+      "port": 20027,
+      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk.catxstar.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇹🇷 土耳其 (Turkey) 06 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "sclass-b1.catcat321.com",
+      "port": 20027,
+      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk.catxstar.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇹🇷 土耳其 (Turkey) 07 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "157.254.38.210",
+      "port": 20027,
+      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk.catxstar.com",
+        "insecure": true
       }
     }
   ]
