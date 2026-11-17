@@ -40,13 +40,22 @@
       "tag": "🇿🇦 ZA 02 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "102.133.161.245",
+      "server": "40.123.254.236",
       "port": 443,
       "method": "chacha20-ietf-poly1305",
-      "password": "3DsS0OglPsfUyTZz"
+      "password": "M8Z2I7nGjhmwhy2m"
     },
     {
       "tag": "🇿🇦 ZA 03 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "102.37.156.224",
+      "port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "aduB9HGxQHjA2SBMRjkHX6"
+    },
+    {
+      "tag": "🇿🇦 ZA 04 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "139.84.231.142",
@@ -57,15 +66,6 @@
         "server_name": "explorecareerpathsandunlockprofessionalsuccesstoday.com",
         "insecure": true
       }
-    },
-    {
-      "tag": "🇿🇦 ZA 04 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "102.37.156.224",
-      "port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "aduB9HGxQHjA2SBMRjkHX6"
     }
   ]
 }

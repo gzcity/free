@@ -14,8 +14,7 @@
       "outbounds": [
         "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
         "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 04 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -31,18 +30,21 @@
       "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "151.241.226.201",
-      "port": 2053,
-      "uuid": "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8",
+      "server": "185.39.204.117",
+      "port": 10002,
+      "uuid": "facb802c-de2e-11f1-9a22-a3404e852f3b",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
+        "server_name": "tr2.vpnjantit.com",
         "insecure": true,
-        "client_fingerprint": "random",
-        "reality": true,
-        "public_key": "bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104",
-        "short_id": ""
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/vpnjantit",
+        "headers": {
+          "Host": "185.39.204.117"
+        }
       }
     },
     {
@@ -68,24 +70,6 @@
     },
     {
       "tag": "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "151.241.226.201",
-      "port": 2053,
-      "uuid": "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true,
-        "client_fingerprint": "random",
-        "reality": true,
-        "public_key": "bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇹🇷 土耳其 (Turkey) 04 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "188.132.174.69",

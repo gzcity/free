@@ -12,8 +12,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇷 IR 01 - xiaohe",
-        "🇮🇷 IR 02 - xiaohe"
+        "🇵🇱 PL 01 - xiaohe",
+        "🇵🇱 PL 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -26,33 +26,42 @@
       "tag": "block"
     },
     {
-      "tag": "🇮🇷 IR 01 - xiaohe",
+      "tag": "🇵🇱 PL 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "194.60.228.97",
+      "server": "185.253.7.22",
       "port": 443,
-      "uuid": "667016ca-f02e-4b5f-bfc3-3d8ed81e9bec",
+      "uuid": "80a06811-f74b-4b82-ac99-7e66c2a98e1c",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "base.hosamobenl.co.uk",
+        "server_name": "clover.filnex.baby",
         "insecure": true,
         "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/api/de6/stream",
+        "headers": {
+          "Host": "clover.filnex.baby"
+        }
       }
     },
     {
-      "tag": "🇮🇷 IR 02 - xiaohe",
+      "tag": "🇵🇱 PL 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "194.60.228.97",
+      "server": "80.47.10.106",
       "port": 443,
-      "uuid": "667016ca-f02e-4b5f-bfc3-3d8ed81e9bec",
+      "uuid": "a30903dc-1bf0-4be5-8b1b-603a3a56211c",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "base.hosamobenl.co.uk",
+        "server_name": "pl8.galioncc.com",
         "insecure": true,
-        "client_fingerprint": null
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ",
+        "short_id": ""
       }
     }
   ]
