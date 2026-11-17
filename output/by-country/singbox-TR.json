@@ -12,9 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
-        "🇹🇷 土耳其 (Turkey) 03 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -45,42 +43,6 @@
         "headers": {
           "Host": "185.39.204.117"
         }
-      }
-    },
-    {
-      "tag": "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "185.39.204.117",
-      "port": 10002,
-      "uuid": "facb802c-de2e-11f1-9a22-a3404e852f3b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "tr2.vpnjantit.com",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/vpnjantit",
-        "headers": {
-          "Host": "185.39.204.117"
-        }
-      }
-    },
-    {
-      "tag": "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "188.132.174.69",
-      "port": 12830,
-      "uuid": "10af09cf-dc4c-4c08-b524-10e7ef4667d6",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "fpnshoping.ir",
-        "insecure": true,
-        "client_fingerprint": null
       }
     }
   ]

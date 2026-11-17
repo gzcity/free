@@ -12,8 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇵🇱 PL 01 - xiaohe",
-        "🇵🇱 PL 02 - xiaohe"
+        "🇵🇱 PL 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -27,27 +26,6 @@
     },
     {
       "tag": "🇵🇱 PL 01 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "185.253.7.22",
-      "port": 443,
-      "uuid": "80a06811-f74b-4b82-ac99-7e66c2a98e1c",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "clover.filnex.baby",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/api/de6/stream",
-        "headers": {
-          "Host": "clover.filnex.baby"
-        }
-      }
-    },
-    {
-      "tag": "🇵🇱 PL 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "80.47.10.106",

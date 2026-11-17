@@ -14,8 +14,7 @@
       "outbounds": [
         "🇿🇦 ZA 01 - xiaohe",
         "🇿🇦 ZA 02 - xiaohe",
-        "🇿🇦 ZA 03 - xiaohe",
-        "🇿🇦 ZA 04 - xiaohe"
+        "🇿🇦 ZA 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -40,22 +39,13 @@
       "tag": "🇿🇦 ZA 02 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "40.123.254.236",
-      "port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "M8Z2I7nGjhmwhy2m"
-    },
-    {
-      "tag": "🇿🇦 ZA 03 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
       "server": "102.37.156.224",
       "port": 443,
       "method": "chacha20-ietf-poly1305",
       "password": "aduB9HGxQHjA2SBMRjkHX6"
     },
     {
-      "tag": "🇿🇦 ZA 04 - xiaohe",
+      "tag": "🇿🇦 ZA 03 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "139.84.231.142",
