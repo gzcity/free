@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe"
+        "🇸🇨 SC 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,21 +25,24 @@
       "tag": "block"
     },
     {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
+      "tag": "🇸🇨 SC 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "9e5f5c4b-tomdc0-tpolhi-1rgxu.hk2.hyhuawei.com",
-      "port": 443,
-      "uuid": "ea93064c-176c-11f0-885d-f23c91cfbbc9",
+      "server": "154.211.8.227",
+      "port": 2087,
+      "uuid": "40af9131-d540-448a-bc56-5bba147a1dc3",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "download.windowsupdate.com",
+        "server_name": "proxy-34l.pages.dev",
         "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "c9DdggKaJGSH7FN3JgGbi9ZvsUqOGGpIr7BhzTWeTCo",
-        "short_id": ""
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "proxy-34l.pages.dev"
+        }
       }
     }
   ]

@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇺 俄罗斯 (Russia) 01 - xiaohe"
+        "🇨🇾 CY 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,13 +25,13 @@
       "tag": "block"
     },
     {
-      "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
+      "tag": "🇨🇾 CY 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "130.49.189.158",
-      "port": 43558,
-      "method": "chacha20-ietf-poly1305",
-      "password": "yZiPrr484OdSYcivDUv+UIygwvyW+HQYytKsIgTw9tU="
+      "type": "vless",
+      "server": "45.86.60.174",
+      "port": 16443,
+      "uuid": "13e541f3-d09d-4633-89df-8513db0ced20",
+      "flow": ""
     }
   ]
 }

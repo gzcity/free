@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇷 土耳其 (Turkey) 01 - xiaohe"
+        "🇭🇺 HU 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,23 +25,23 @@
       "tag": "block"
     },
     {
-      "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
+      "tag": "🇭🇺 HU 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "185.39.204.117",
-      "port": 10002,
-      "uuid": "facb802c-de2e-11f1-9a22-a3404e852f3b",
+      "server": "172.67.131.125",
+      "port": 2083,
+      "uuid": "f418674e-f518-4318-8ff9-e10000000046",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "tr2.vpnjantit.com",
+        "server_name": "smart-edge-424.arti98399-1905.workers.dev",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/vpnjantit",
+        "path": "/syncfp=chrome",
         "headers": {
-          "Host": "185.39.204.117"
+          "Host": "smart-edge-424.arti98399-1905.workers.dev"
         }
       }
     }
