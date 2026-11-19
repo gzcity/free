@@ -12,8 +12,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇼 中国台湾 (Taiwan) 01 - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 02 - xiaohe"
+        "🇮🇷 IR 01 - xiaohe",
+        "🇮🇷 IR 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -26,37 +26,33 @@
       "tag": "block"
     },
     {
-      "tag": "🇹🇼 中国台湾 (Taiwan) 01 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "34.80.15.95",
-      "port": 443,
-      "password": "123456",
-      "tls": {
-        "enabled": true,
-        "server_name": "tw.ctt25.uk",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇹🇼 中国台湾 (Taiwan) 02 - xiaohe",
+      "tag": "🇮🇷 IR 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "60.248.219.53",
+      "server": "87.248.149.50",
       "port": 443,
-      "uuid": "c1c04450-bf71-4049-ad0c-9cf6d94d9f1f",
+      "uuid": "667016ca-f02e-4b5f-bfc3-3d8ed81e9bec",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "ty986gfazs.cainiaohub.xyz",
+        "server_name": "base.hosamobenl.co.uk",
         "insecure": true,
         "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/81574b6b-c9d7-44a0-b83d-dad56e8cb530",
-        "headers": {
-          "Host": "ty986gfazs.cainiaohub.xyz"
-        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "194.60.228.97",
+      "port": 443,
+      "uuid": "667016ca-f02e-4b5f-bfc3-3d8ed81e9bec",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "base.hosamobenl.co.uk",
+        "insecure": true,
+        "client_fingerprint": null
       }
     }
   ]
