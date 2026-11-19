@@ -13,9 +13,7 @@
       "tag": "auto",
       "outbounds": [
         "🇮🇱 IL 01 - xiaohe",
-        "🇮🇱 IL 02 - xiaohe",
-        "🇮🇱 IL 03 - xiaohe",
-        "🇮🇱 IL 04 - xiaohe"
+        "🇮🇱 IL 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -31,17 +29,17 @@
       "tag": "🇮🇱 IL 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "196.196.148.85",
+      "server": "153.52.85.198",
       "port": 443,
-      "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
+      "uuid": "26843758-24de-4f76-b5d0-624038e353c4",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "5d0319t.nl7.h1clayd.click",
+        "server_name": "15d7fft.nl11.h1clayd.click",
         "insecure": true,
         "client_fingerprint": "chrome",
         "reality": true,
-        "public_key": "l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs",
+        "public_key": "xv6OUZcyzEHXFMTfumuJH-1Rd4NQ0cdmWikek4mm0m4",
         "short_id": ""
       }
     },
@@ -60,42 +58,6 @@
         "client_fingerprint": "firefox",
         "reality": true,
         "public_key": "kkCGiCQCKnkozJR1KKCRNtmdBECmThCgI9VSv7iDcWI",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇮🇱 IL 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "196.196.148.85",
-      "port": 443,
-      "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "5d0319t.nl7.h1clayd.click",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇮🇱 IL 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "153.52.85.198",
-      "port": 443,
-      "uuid": "26843758-24de-4f76-b5d0-624038e353c4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "15d7fft.nl11.h1clayd.click",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "xv6OUZcyzEHXFMTfumuJH-1Rd4NQ0cdmWikek4mm0m4",
         "short_id": ""
       }
     }

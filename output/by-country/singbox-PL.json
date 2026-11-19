@@ -13,7 +13,12 @@
       "tag": "auto",
       "outbounds": [
         "🇵🇱 PL 01 - xiaohe",
-        "🇵🇱 PL 02 - xiaohe"
+        "🇵🇱 PL 02 - xiaohe",
+        "🇵🇱 PL 03 - xiaohe",
+        "🇵🇱 PL 04 - xiaohe",
+        "🇵🇱 PL 05 - xiaohe",
+        "🇵🇱 PL 06 - xiaohe",
+        "🇵🇱 PL 07 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -47,6 +52,60 @@
       "tag": "🇵🇱 PL 02 - xiaohe",
       "udp": true,
       "type": "vless",
+      "server": "196.196.148.85",
+      "port": 443,
+      "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "5d0319t.nl7.h1clayd.click",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "5d0319t.nl7.h1clayd.click",
+      "port": 443,
+      "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "5d0319t.nl7.h1clayd.click",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "196.196.148.85",
+      "port": 443,
+      "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "5d0319t.nl7.h1clayd.click",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
       "server": "80.47.10.106",
       "port": 443,
       "uuid": "a30903dc-1bf0-4be5-8b1b-603a3a56211c",
@@ -58,6 +117,42 @@
         "client_fingerprint": "firefox",
         "reality": true,
         "public_key": "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 06 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "80.47.10.106",
+      "port": 443,
+      "uuid": "a30903dc-1bf0-4be5-8b1b-603a3a56211c",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "pl8.galioncc.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇵🇱 PL 07 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "196.196.148.85",
+      "port": 443,
+      "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "5d0319t.nl7.h1clayd.click",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs",
         "short_id": ""
       }
     }
