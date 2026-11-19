@@ -15,7 +15,8 @@
         "🇫🇮 FI 01 - xiaohe",
         "🇫🇮 FI 02 - xiaohe",
         "🇫🇮 FI 03 - xiaohe",
-        "🇫🇮 FI 04 - xiaohe"
+        "🇫🇮 FI 04 - xiaohe",
+        "🇫🇮 FI 05 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -67,6 +68,27 @@
       "tag": "🇫🇮 FI 03 - xiaohe",
       "udp": true,
       "type": "vless",
+      "server": "198.202.24.142",
+      "port": 2083,
+      "uuid": "a6ad7987-f17e-41fa-a752-72db9a725eb2",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "vipfree.dr-ping.ir",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "vipfree.dr-ping.ir"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
       "server": "45.144.234.157",
       "port": 14430,
       "uuid": "59b0d30e-9b29-4fda-a35c-b2901ec32db7",
@@ -79,7 +101,7 @@
       }
     },
     {
-      "tag": "🇫🇮 FI 04 - xiaohe",
+      "tag": "🇫🇮 FI 05 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "45.144.234.157",
