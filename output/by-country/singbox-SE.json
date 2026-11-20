@@ -16,13 +16,7 @@
         "🇸🇪 SE 02 - xiaohe",
         "🇸🇪 SE 03 - xiaohe",
         "🇸🇪 SE 04 - xiaohe",
-        "🇸🇪 SE 05 - xiaohe",
-        "🇸🇪 SE 06 - xiaohe",
-        "🇸🇪 SE 07 - xiaohe",
-        "🇸🇪 SE 08 - xiaohe",
-        "🇸🇪 SE 09 - xiaohe",
-        "🇸🇪 SE 10 - xiaohe",
-        "🇸🇪 SE 11 - xiaohe"
+        "🇸🇪 SE 05 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -36,6 +30,21 @@
     },
     {
       "tag": "🇸🇪 SE 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "5.178.109.174",
+      "port": 14430,
+      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
+      "flow": "",
+      "ws": {
+        "path": "/vless",
+        "headers": {
+          "Host": "5.178.109.174"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇪 SE 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "88.216.214.159",
@@ -53,87 +62,31 @@
       }
     },
     {
-      "tag": "🇸🇪 SE 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "188.225.57.185",
-      "port": 443,
-      "uuid": "88e79aa6-f431-4453-8dcc-652a0c747198",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "flintstack.dev",
-        "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "4JggwEKhrkrIjQjO8kRX6iGvHQJixIFkiDOnE7zd3xE",
-        "short_id": ""
-      }
-    },
-    {
       "tag": "🇸🇪 SE 03 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "5.178.109.174",
-      "port": 14430,
-      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
-      "flow": "",
-      "ws": {
-        "path": "/vless",
-        "headers": {
-          "Host": "5.178.109.174"
-        }
-      }
+      "type": "shadowsocks",
+      "server": "138.199.55.243",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "tag": "🇸🇪 SE 04 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "95.143.196.32",
-      "port": 443,
-      "password": "FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF",
+      "type": "vmess",
+      "server": "62.93.166.184",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "connect-se.mimowhat.online",
+        "server_name": "",
         "insecure": true
       }
     },
     {
       "tag": "🇸🇪 SE 05 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "95.143.196.32",
-      "port": 443,
-      "password": "FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF",
-      "tls": {
-        "enabled": true,
-        "server_name": "connect-se.mimowhat.online",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇪 SE 06 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "87.242.94.43",
-      "port": 443,
-      "uuid": "fd90e601-a56c-42b8-aab7-aa02d26fcb04",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "87.242.94.43",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/api/v2/session/CAgikYAkk4z7",
-        "headers": {
-          "Host": "87.242.94.43"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇪 SE 07 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "92.223.84.254",
@@ -152,58 +105,6 @@
           "Host": "subgift.gcorecdn.com"
         }
       }
-    },
-    {
-      "tag": "🇸🇪 SE 08 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "95.143.196.97",
-      "port": 443,
-      "password": "FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF",
-      "tls": {
-        "enabled": true,
-        "server_name": "connect-se.mimowhat.online",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇪 SE 09 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "138.199.55.230",
-      "port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇪 SE 10 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "62.93.166.184",
-      "port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇪 SE 11 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "138.199.55.243",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     }
   ]
 }

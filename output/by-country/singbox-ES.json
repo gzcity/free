@@ -36,7 +36,16 @@
         "🇪🇸 西班牙 (Spain) 22 - xiaohe",
         "🇪🇸 西班牙 (Spain) 23 - xiaohe",
         "🇪🇸 西班牙 (Spain) 24 - xiaohe",
-        "🇪🇸 西班牙 (Spain) 25 - xiaohe"
+        "🇪🇸 西班牙 (Spain) 25 - xiaohe",
+        "🇪🇸 西班牙 (Spain) 26 - xiaohe",
+        "🇪🇸 西班牙 (Spain) 27 - xiaohe",
+        "🇪🇸 西班牙 (Spain) 28 - xiaohe",
+        "🇪🇸 西班牙 (Spain) 29 - xiaohe",
+        "🇪🇸 西班牙 (Spain) 30 - xiaohe",
+        "🇪🇸 西班牙 (Spain) 31 - xiaohe",
+        "🇪🇸 西班牙 (Spain) 32 - xiaohe",
+        "🇪🇸 西班牙 (Spain) 33 - xiaohe",
+        "🇪🇸 西班牙 (Spain) 34 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -52,7 +61,7 @@
       "tag": "🇪🇸 西班牙 (Spain) 01 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "202.50.253.63",
+      "server": "202.50.253.72",
       "port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -60,21 +69,17 @@
     {
       "tag": "🇪🇸 西班牙 (Spain) 02 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "66.163.118.115",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "discovergreatjobsandadvanceyourcareer.com",
-        "insecure": true
-      }
+      "type": "shadowsocks",
+      "server": "202.50.253.63",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "tag": "🇪🇸 西班牙 (Spain) 03 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "202.50.253.36",
+      "server": "202.50.253.45",
       "port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -114,7 +119,7 @@
       "tag": "🇪🇸 西班牙 (Spain) 07 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "202.50.253.45",
+      "server": "202.50.253.54",
       "port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -123,7 +128,7 @@
       "tag": "🇪🇸 西班牙 (Spain) 08 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "202.50.253.54",
+      "server": "202.50.253.90",
       "port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -132,13 +137,22 @@
       "tag": "🇪🇸 西班牙 (Spain) 09 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "202.50.253.90",
+      "server": "202.50.253.72",
       "port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "tag": "🇪🇸 西班牙 (Spain) 10 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "202.50.253.36",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇪🇸 西班牙 (Spain) 11 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "66.163.118.251",
@@ -151,22 +165,17 @@
       }
     },
     {
-      "tag": "🇪🇸 西班牙 (Spain) 11 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "202.50.253.27",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
       "tag": "🇪🇸 西班牙 (Spain) 12 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "202.50.253.90",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+      "type": "trojan",
+      "server": "66.163.118.131",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.discovergreatjobsandadvanceyourcareer.com",
+        "insecure": true
+      }
     },
     {
       "tag": "🇪🇸 西班牙 (Spain) 13 - xiaohe",
@@ -181,13 +190,39 @@
       "tag": "🇪🇸 西班牙 (Spain) 14 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "79.127.139.242",
+      "server": "202.50.253.27",
       "port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "tag": "🇪🇸 西班牙 (Spain) 15 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "66.163.118.244",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "api.discovergreatjobsandadvanceyourcareer.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇪🇸 西班牙 (Spain) 16 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "66.163.118.244",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "api.discovergreatjobsandadvanceyourcareer.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇪🇸 西班牙 (Spain) 17 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "202.50.253.27",
@@ -196,34 +231,33 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "🇪🇸 西班牙 (Spain) 16 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "202.50.253.81",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "tag": "🇪🇸 西班牙 (Spain) 17 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "202.50.253.72",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
       "tag": "🇪🇸 西班牙 (Spain) 18 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "66.163.118.103",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+      "type": "trojan",
+      "server": "66.163.118.115",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "discovergreatjobsandadvanceyourcareer.com",
+        "insecure": true
+      }
     },
     {
       "tag": "🇪🇸 西班牙 (Spain) 19 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "66.163.118.244",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "66.163.118.244",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇪🇸 西班牙 (Spain) 20 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "202.50.253.63",
@@ -232,43 +266,7 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "🇪🇸 西班牙 (Spain) 20 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "202.50.253.45",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
       "tag": "🇪🇸 西班牙 (Spain) 21 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "202.50.253.72",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "tag": "🇪🇸 西班牙 (Spain) 22 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "167.17.71.167",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "tag": "🇪🇸 西班牙 (Spain) 23 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "202.50.253.18",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "tag": "🇪🇸 西班牙 (Spain) 24 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "202.50.253.99",
@@ -277,13 +275,145 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
+      "tag": "🇪🇸 西班牙 (Spain) 22 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "66.163.118.251",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "resources.discovergreatjobsandadvanceyourcareer.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇪🇸 西班牙 (Spain) 23 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "79.127.139.242",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇪🇸 西班牙 (Spain) 24 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "66.163.118.251",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "resources.discovergreatjobsandadvanceyourcareer.com",
+        "insecure": true
+      }
+    },
+    {
       "tag": "🇪🇸 西班牙 (Spain) 25 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "66.163.118.203",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "66.163.118.203",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇪🇸 西班牙 (Spain) 26 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "202.50.253.45",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇪🇸 西班牙 (Spain) 27 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "202.50.253.18",
       "port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇪🇸 西班牙 (Spain) 28 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "202.50.253.18",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇪🇸 西班牙 (Spain) 29 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "66.163.118.103",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇪🇸 西班牙 (Spain) 30 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "66.163.118.166",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "learn.discovergreatjobsandadvanceyourcareer.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇪🇸 西班牙 (Spain) 31 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "202.50.253.90",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇪🇸 西班牙 (Spain) 32 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "167.17.71.167",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇪🇸 西班牙 (Spain) 33 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "66.163.118.203",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "blog.discovergreatjobsandadvanceyourcareer.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇪🇸 西班牙 (Spain) 34 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "66.163.118.40",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "66.163.118.40",
+        "insecure": true
+      }
     }
   ]
 }

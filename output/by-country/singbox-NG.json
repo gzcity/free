@@ -14,9 +14,7 @@
       "outbounds": [
         "🇳🇬 NG 01 - xiaohe",
         "🇳🇬 NG 02 - xiaohe",
-        "🇳🇬 NG 03 - xiaohe",
-        "🇳🇬 NG 04 - xiaohe",
-        "🇳🇬 NG 05 - xiaohe"
+        "🇳🇬 NG 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -32,9 +30,9 @@
       "tag": "🇳🇬 NG 01 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "sclass-00.catcat321.com",
+      "server": "sclass-01.catcat321.com",
       "port": 20103,
-      "password": "d9064589-74af-432a-9390-5d8a9da281bf",
+      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
       "tls": {
         "enabled": true,
         "server_name": "hk.catxstar.com",
@@ -59,32 +57,6 @@
       "udp": true,
       "type": "trojan",
       "server": "157.254.38.210",
-      "port": 20103,
-      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
-      "tls": {
-        "enabled": true,
-        "server_name": "hk.catxstar.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇳🇬 NG 04 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "157.254.38.210",
-      "port": 20051,
-      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
-      "tls": {
-        "enabled": true,
-        "server_name": "hk.catxstar.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇳🇬 NG 05 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "sclass-01.catcat321.com",
       "port": 20103,
       "password": "d7563108-615c-4338-a7bd-77f359869a4a",
       "tls": {
