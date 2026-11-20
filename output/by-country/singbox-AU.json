@@ -18,9 +18,7 @@
         "🇦🇺 澳大利亚 (Australia) 04 - xiaohe",
         "🇦🇺 澳大利亚 (Australia) 05 - xiaohe",
         "🇦🇺 澳大利亚 (Australia) 06 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 07 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 08 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 09 - xiaohe"
+        "🇦🇺 澳大利亚 (Australia) 07 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -41,7 +39,7 @@
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "45.63.30.142",
+        "server_name": "connectwithemployerstohireyouridealteam.com",
         "insecure": true
       }
     },
@@ -54,7 +52,7 @@
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "connectwithemployerstohireyouridealteam.com",
+        "server_name": "45.63.30.142",
         "insecure": true
       }
     },
@@ -67,29 +65,21 @@
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "connectwithemployerstohireyouridealteam.com",
+        "server_name": "45.63.30.142",
         "insecure": true
       }
     },
     {
       "tag": "🇦🇺 澳大利亚 (Australia) 04 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "104.18.10.153",
+      "type": "trojan",
+      "server": "45.63.30.142",
       "port": 443,
-      "uuid": "debafe5b-6760-4b00-b0b2-ee30cbf769f0",
-      "flow": "",
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "portland-wins-robbie-skirt.trycloudflare.com",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "e0843c8ad581",
-        "headers": {
-          "Host": "portland-wins-robbie-skirt.trycloudflare.com"
-        }
+        "server_name": "connectwithemployerstohireyouridealteam.com",
+        "insecure": true
       }
     },
     {
@@ -101,7 +91,7 @@
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "45.63.30.142",
+        "server_name": "connectwithemployerstohireyouridealteam.com",
         "insecure": true
       }
     },
@@ -120,40 +110,6 @@
     },
     {
       "tag": "🇦🇺 澳大利亚 (Australia) 07 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "104.18.11.153",
-      "port": 443,
-      "uuid": "debafe5b-6760-4b00-b0b2-ee30cbf769f0",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "portland-wins-robbie-skirt.trycloudflare.com",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/e0843c8ad581",
-        "headers": {
-          "Host": "portland-wins-robbie-skirt.trycloudflare.com"
-        }
-      }
-    },
-    {
-      "tag": "🇦🇺 澳大利亚 (Australia) 08 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "45.63.30.142",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "connectwithemployerstohireyouridealteam.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇦🇺 澳大利亚 (Australia) 09 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "45.63.30.142",

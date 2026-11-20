@@ -16,8 +16,7 @@
         "🇸🇪 SE 02 - xiaohe",
         "🇸🇪 SE 03 - xiaohe",
         "🇸🇪 SE 04 - xiaohe",
-        "🇸🇪 SE 05 - xiaohe",
-        "🇸🇪 SE 06 - xiaohe"
+        "🇸🇪 SE 05 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -32,6 +31,15 @@
     {
       "tag": "🇸🇪 SE 01 - xiaohe",
       "udp": true,
+      "type": "shadowsocks",
+      "server": "138.199.55.243",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇸🇪 SE 02 - xiaohe",
+      "udp": true,
       "type": "vless",
       "server": "5.178.109.174",
       "port": 14430,
@@ -45,7 +53,7 @@
       }
     },
     {
-      "tag": "🇸🇪 SE 02 - xiaohe",
+      "tag": "🇸🇪 SE 03 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "62.93.166.184",
@@ -60,38 +68,7 @@
       }
     },
     {
-      "tag": "🇸🇪 SE 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "88.216.214.159",
-      "port": 443,
-      "uuid": "a30903dc-1bf0-4be5-8b1b-603a3a56211c",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "api-svc-mgr.galioncc.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ",
-        "short_id": ""
-      }
-    },
-    {
       "tag": "🇸🇪 SE 04 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "95.143.196.32",
-      "port": 443,
-      "password": "FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF",
-      "tls": {
-        "enabled": true,
-        "server_name": "connect-se.mimowhat.online",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇸🇪 SE 05 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "95.143.196.97",
@@ -104,13 +81,25 @@
       }
     },
     {
-      "tag": "🇸🇪 SE 06 - xiaohe",
+      "tag": "🇸🇪 SE 05 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "138.199.55.243",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+      "type": "vless",
+      "server": "92.223.84.254",
+      "port": 443,
+      "uuid": "740b2630-b42d-425c-bacd-37e7e30d78f1",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "subgift.gcorecdn.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/t.me-SubGift",
+        "headers": {
+          "Host": "subgift.gcorecdn.com"
+        }
+      }
     }
   ]
 }

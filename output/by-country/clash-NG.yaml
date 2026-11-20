@@ -4,25 +4,25 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇦 UA 01 - xiaohe
-  type: vless
-  server: 87.76.154.28
-  port: 57231
-  uuid: c34a41b6-598f-46ac-bea3-8b39a906f922
+- name: 🇳🇬 NG 01 - xiaohe
+  type: trojan
+  server: 157.254.38.210
+  port: 20051
+  password: d7563108-615c-4338-a7bd-77f359869a4a
   udp: true
-  tls: false
+  sni: hk.catxstar.com
   skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇺🇦 UA 01 - xiaohe
+  - 🇳🇬 NG 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇦 UA 01 - xiaohe
+  - 🇳🇬 NG 01 - xiaohe
 rules:
 - MATCH,PROXIES
