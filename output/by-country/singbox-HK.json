@@ -14,9 +14,7 @@
       "outbounds": [
         "🇭🇰 中国香港 (Hong Kong) 01 - xiaohe",
         "🇭🇰 中国香港 (Hong Kong) 02 - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 03 - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 04 - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 05 - xiaohe"
+        "🇭🇰 中国香港 (Hong Kong) 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -31,22 +29,6 @@
     {
       "tag": "🇭🇰 中国香港 (Hong Kong) 01 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "156.245.232.239",
-      "port": 35043,
-      "uuid": "b15e481d-17e4-41a8-84c2-23d4f0514d9a",
-      "alterId": 0,
-      "security": "auto",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 02 - xiaohe",
-      "udp": true,
       "type": "trojan",
       "server": "47.242.93.89",
       "port": 12012,
@@ -58,23 +40,7 @@
       }
     },
     {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 03 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "47.244.120.197",
-      "port": 23026,
-      "uuid": "b9de1bc9-baa7-41ac-86f7-ccd59695cb21",
-      "alterId": 0,
-      "security": "auto",
-      "ws": {
-        "path": "/arki",
-        "headers": {
-          "Host": "47.244.120.197"
-        }
-      }
-    },
-    {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 04 - xiaohe",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "103.219.195.65",
@@ -95,7 +61,7 @@
       }
     },
     {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 05 - xiaohe",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 03 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "213.176.92.148",

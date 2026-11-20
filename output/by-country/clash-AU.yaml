@@ -10,7 +10,7 @@ proxies:
   port: 443
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   udp: true
-  sni: connectwithemployerstohireyouridealteam.com
+  sni: 45.63.30.142
   skip-cert-verify: true
 - name: 🇦🇺 澳大利亚 (Australia) 02 - xiaohe
   type: trojan
@@ -18,7 +18,7 @@ proxies:
   port: 443
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   udp: true
-  sni: 45.63.30.142
+  sni: connectwithemployerstohireyouridealteam.com
   skip-cert-verify: true
 - name: 🇦🇺 澳大利亚 (Australia) 03 - xiaohe
   type: trojan
@@ -29,20 +29,26 @@ proxies:
   sni: connectwithemployerstohireyouridealteam.com
   skip-cert-verify: true
 - name: 🇦🇺 澳大利亚 (Australia) 04 - xiaohe
-  type: trojan
-  server: 45.63.30.142
+  type: vless
+  server: 104.18.10.153
   port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  uuid: debafe5b-6760-4b00-b0b2-ee30cbf769f0
   udp: true
-  sni: connectwithemployerstohireyouridealteam.com
+  tls: true
   skip-cert-verify: true
+  servername: portland-wins-robbie-skirt.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: e0843c8ad581
+    headers:
+      Host: portland-wins-robbie-skirt.trycloudflare.com
 - name: 🇦🇺 澳大利亚 (Australia) 05 - xiaohe
   type: trojan
   server: 45.63.30.142
   port: 443
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   udp: true
-  sni: connectwithemployerstohireyouridealteam.com
+  sni: 45.63.30.142
   skip-cert-verify: true
 - name: 🇦🇺 澳大利亚 (Australia) 06 - xiaohe
   type: trojan
@@ -53,12 +59,34 @@ proxies:
   sni: connectwithemployerstohireyouridealteam.com
   skip-cert-verify: true
 - name: 🇦🇺 澳大利亚 (Australia) 07 - xiaohe
+  type: vless
+  server: 104.18.11.153
+  port: 443
+  uuid: debafe5b-6760-4b00-b0b2-ee30cbf769f0
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: portland-wins-robbie-skirt.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: /e0843c8ad581
+    headers:
+      Host: portland-wins-robbie-skirt.trycloudflare.com
+- name: 🇦🇺 澳大利亚 (Australia) 08 - xiaohe
   type: trojan
   server: 45.63.30.142
   port: 443
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   udp: true
-  sni: 45.63.30.142
+  sni: connectwithemployerstohireyouridealteam.com
+  skip-cert-verify: true
+- name: 🇦🇺 澳大利亚 (Australia) 09 - xiaohe
+  type: trojan
+  server: 45.63.30.142
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: connectwithemployerstohireyouridealteam.com
   skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
@@ -72,6 +100,8 @@ proxy-groups:
   - 🇦🇺 澳大利亚 (Australia) 05 - xiaohe
   - 🇦🇺 澳大利亚 (Australia) 06 - xiaohe
   - 🇦🇺 澳大利亚 (Australia) 07 - xiaohe
+  - 🇦🇺 澳大利亚 (Australia) 08 - xiaohe
+  - 🇦🇺 澳大利亚 (Australia) 09 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -84,5 +114,7 @@ proxy-groups:
   - 🇦🇺 澳大利亚 (Australia) 05 - xiaohe
   - 🇦🇺 澳大利亚 (Australia) 06 - xiaohe
   - 🇦🇺 澳大利亚 (Australia) 07 - xiaohe
+  - 🇦🇺 澳大利亚 (Australia) 08 - xiaohe
+  - 🇦🇺 澳大利亚 (Australia) 09 - xiaohe
 rules:
 - MATCH,PROXIES

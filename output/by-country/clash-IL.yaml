@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇮🇱 IL 01 - xiaohe
   type: vless
-  server: f0d7aft.nl13.h1clayd.click
+  server: f0d7aft.nl17.h1clayd.click
   port: 443
   uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   udp: true
@@ -14,8 +14,8 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: kkCGiCQCKnkozJR1KKCRNtmdBECmThCgI9VSv7iDcWI
-  servername: f0d7aft.nl13.h1clayd.click
-  client-fingerprint: chrome
+  servername: f0d7aft.nl17.h1clayd.click
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
