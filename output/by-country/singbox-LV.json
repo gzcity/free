@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇾 MY 01 - xiaohe"
+        "🇱🇻 LV 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,16 +25,21 @@
       "tag": "block"
     },
     {
-      "tag": "🇲🇾 MY 01 - xiaohe",
+      "tag": "🇱🇻 LV 01 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "47.250.84.25",
-      "port": 443,
-      "password": "5931134d1cde66bf83a54acdfebe7ab2",
+      "type": "vless",
+      "server": "45.38.143.210",
+      "port": 30584,
+      "uuid": "cebc5f19-18d9-48e6-9029-fb4b04caf393",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "47.250.84.25",
-        "insecure": true
+        "server_name": "m.vk.com",
+        "insecure": true,
+        "client_fingerprint": "chrome",
+        "reality": true,
+        "public_key": "2hV4TY2ygvQ7ISa5o4u_FUKXzlIhLgbsScE8M1h0m3Y",
+        "short_id": ""
       }
     }
   ]

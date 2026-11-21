@@ -17,7 +17,8 @@
         "🇸🇪 SE 03 - xiaohe",
         "🇸🇪 SE 04 - xiaohe",
         "🇸🇪 SE 05 - xiaohe",
-        "🇸🇪 SE 06 - xiaohe"
+        "🇸🇪 SE 06 - xiaohe",
+        "🇸🇪 SE 07 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -32,30 +33,31 @@
     {
       "tag": "🇸🇪 SE 01 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "62.93.166.184",
-      "port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true
+      "type": "vless",
+      "server": "sonau.yaremonta.loc.cc",
+      "port": 8080,
+      "uuid": "c5468915-f60c-4134-b4d3-eb24501d7c65",
+      "flow": "",
+      "ws": {
+        "path": "/vless",
+        "headers": {
+          "Host": "sonau.yaremonta.loc.cc"
+        }
       }
     },
     {
       "tag": "🇸🇪 SE 02 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "5.178.109.174",
-      "port": 14430,
-      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
-      "flow": "",
+      "type": "vmess",
+      "server": "sonau.yaremonta.loc.cc",
+      "port": 8081,
+      "uuid": "c5468915-f60c-4134-b4d3-eb24501d7c65",
+      "alterId": 0,
+      "security": "auto",
       "ws": {
-        "path": "/vless",
+        "path": "/vmess",
         "headers": {
-          "Host": "5.178.109.174"
+          "Host": ""
         }
       }
     },
@@ -71,39 +73,72 @@
     {
       "tag": "🇸🇪 SE 04 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "95.143.196.97",
+      "type": "vless",
+      "server": "188.114.98.0",
       "port": 443,
-      "password": "FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF",
+      "uuid": "16f63796-3e98-5a7b-b016-540ce6e79007",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "connect-se.mimowhat.online",
-        "insecure": true
+        "server_name": "se1.v2less.site",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/vless",
+        "headers": {
+          "Host": "se1.v2less.site"
+        }
       }
     },
     {
       "tag": "🇸🇪 SE 05 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "95.143.196.97",
+      "type": "vless",
+      "server": "77.232.143.142",
       "port": 443,
-      "password": "FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF",
+      "uuid": "58e22afd-bf74-4736-984d-63a8ca03d7f0",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "connect-se.mimowhat.online",
-        "insecure": true
+        "server_name": "volumestyle.komediyatorg.net",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/media/ws/",
+        "headers": {
+          "Host": "77.232.143.142"
+        }
       }
     },
     {
       "tag": "🇸🇪 SE 06 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "95.143.196.97",
-      "port": 443,
-      "password": "FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF",
+      "type": "vless",
+      "server": "5.178.109.174",
+      "port": 14430,
+      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
+      "flow": "",
+      "ws": {
+        "path": "/vless",
+        "headers": {
+          "Host": "5.178.109.174"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇪 SE 07 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "62.93.166.184",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "connect-se.mimowhat.online",
+        "server_name": "",
         "insecure": true
       }
     }
