@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇳🇬 NG 01 - xiaohe
   type: trojan
-  server: 157.254.38.210
-  port: 20051
+  server: sclass-01.catcat321.com
+  port: 20103
   password: d7563108-615c-4338-a7bd-77f359869a4a
   udp: true
   sni: hk.catxstar.com

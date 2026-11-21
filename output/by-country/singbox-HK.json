@@ -30,6 +30,19 @@
     {
       "tag": "🇭🇰 中国香港 (Hong Kong) 01 - xiaohe",
       "udp": true,
+      "type": "trojan",
+      "server": "47.242.93.89",
+      "port": 12012,
+      "password": "12012",
+      "tls": {
+        "enabled": true,
+        "server_name": "ali-hk.b-gfw.cfd",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇭🇰 中国香港 (Hong Kong) 02 - xiaohe",
+      "udp": true,
       "type": "vmess",
       "server": "156.245.232.239",
       "port": 35043,
@@ -44,29 +57,24 @@
       }
     },
     {
-      "tag": "🇭🇰 中国香港 (Hong Kong) 02 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "47.242.93.89",
-      "port": 12012,
-      "password": "12012",
-      "tls": {
-        "enabled": true,
-        "server_name": "ali-hk.b-gfw.cfd",
-        "insecure": true
-      }
-    },
-    {
       "tag": "🇭🇰 中国香港 (Hong Kong) 03 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "38.175.223.122",
-      "port": 49213,
-      "password": "838636c8-18b0-4324-b747-99ef748181c5",
+      "type": "vless",
+      "server": "172.66.132.196",
+      "port": 443,
+      "uuid": "a25a71d1-10ed-4383-855a-f269a34ca691",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "www.itunes.com",
-        "insecure": true
+        "server_name": "ave-qualifications-choices-populations.trycloudflare.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/a8b8606819ef",
+        "headers": {
+          "Host": "ave-qualifications-choices-populations.trycloudflare.com"
+        }
       }
     },
     {

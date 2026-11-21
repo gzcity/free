@@ -14,27 +14,19 @@ proxies:
   skip-cert-verify: true
 - name: 🇿🇦 ZA 02 - xiaohe
   type: ss
-  server: 102.37.156.224
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: aduB9HGxQHjA2SBMRjkHX6
-  udp: true
-- name: 🇿🇦 ZA 03 - xiaohe
-  type: ss
   server: 102.133.165.160
   port: 16233
   cipher: chacha20-ietf-poly1305
   password: Xsy8Ox4yOV3xLlpxtjzs3X
   udp: true
-- name: 🇿🇦 ZA 04 - xiaohe
-  type: trojan
-  server: 139.84.231.142
+- name: 🇿🇦 ZA 03 - xiaohe
+  type: ss
+  server: 102.37.156.224
   port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  cipher: chacha20-ietf-poly1305
+  password: aduB9HGxQHjA2SBMRjkHX6
   udp: true
-  sni: explorecareerpathsandunlockprofessionalsuccesstoday.com
-  skip-cert-verify: true
-- name: 🇿🇦 ZA 05 - xiaohe
+- name: 🇿🇦 ZA 04 - xiaohe
   type: trojan
   server: 139.84.231.142
   port: 443
@@ -51,7 +43,6 @@ proxy-groups:
   - 🇿🇦 ZA 02 - xiaohe
   - 🇿🇦 ZA 03 - xiaohe
   - 🇿🇦 ZA 04 - xiaohe
-  - 🇿🇦 ZA 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -61,6 +52,5 @@ proxy-groups:
   - 🇿🇦 ZA 02 - xiaohe
   - 🇿🇦 ZA 03 - xiaohe
   - 🇿🇦 ZA 04 - xiaohe
-  - 🇿🇦 ZA 05 - xiaohe
 rules:
 - MATCH,PROXIES

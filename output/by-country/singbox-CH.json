@@ -47,31 +47,39 @@
     {
       "tag": "🇨🇭 CH 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "208.69.78.133",
+      "type": "trojan",
+      "server": "208.69.78.33",
       "port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "ncIkubmoDGsl"
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "courses.yourultimateprofessionalcareerhub.com",
+        "insecure": true
+      }
     },
     {
       "tag": "🇨🇭 CH 02 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "186.190.215.251",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+      "type": "trojan",
+      "server": "208.69.78.60",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.yourultimateprofessionalcareerhub.com",
+        "insecure": true
+      }
     },
     {
       "tag": "🇨🇭 CH 03 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "208.69.78.208",
+      "server": "208.69.78.29",
       "port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "resources.yourultimateprofessionalcareerhub.com",
+        "server_name": "learn.yourultimateprofessionalcareerhub.com",
         "insecure": true
       }
     },
@@ -79,12 +87,12 @@
       "tag": "🇨🇭 CH 04 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "208.69.78.19",
+      "server": "208.69.78.29",
       "port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "www.yourultimateprofessionalcareerhub.com",
+        "server_name": "learn.yourultimateprofessionalcareerhub.com",
         "insecure": true
       }
     },
@@ -92,67 +100,6 @@
       "tag": "🇨🇭 CH 05 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "208.69.78.33",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "courses.yourultimateprofessionalcareerhub.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇭 CH 06 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "208.69.78.60",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn.yourultimateprofessionalcareerhub.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇭 CH 07 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "208.69.78.33",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "courses.yourultimateprofessionalcareerhub.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇭 CH 08 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "208.69.78.60",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn.yourultimateprofessionalcareerhub.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇭 CH 09 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "23.166.88.127",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "tag": "🇨🇭 CH 10 - xiaohe",
-      "udp": true,
-      "type": "trojan",
       "server": "208.69.78.19",
       "port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -163,46 +110,38 @@
       }
     },
     {
-      "tag": "🇨🇭 CH 11 - xiaohe",
+      "tag": "🇨🇭 CH 06 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "208.69.78.208",
+      "server": "208.69.78.158",
       "port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "resources.yourultimateprofessionalcareerhub.com",
+        "server_name": "208.69.78.158",
         "insecure": true
       }
     },
     {
-      "tag": "🇨🇭 CH 12 - xiaohe",
+      "tag": "🇨🇭 CH 07 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "208.69.78.29",
+      "type": "shadowsocks",
+      "server": "208.69.78.133",
       "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "learn.yourultimateprofessionalcareerhub.com",
-        "insecure": true
-      }
+      "method": "chacha20-ietf-poly1305",
+      "password": "ncIkubmoDGsl"
     },
     {
-      "tag": "🇨🇭 CH 13 - xiaohe",
+      "tag": "🇨🇭 CH 08 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "208.69.78.29",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "learn.yourultimateprofessionalcareerhub.com",
-        "insecure": true
-      }
+      "type": "shadowsocks",
+      "server": "79.127.184.104",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "🇨🇭 CH 14 - xiaohe",
+      "tag": "🇨🇭 CH 09 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "208.69.78.158",
@@ -215,7 +154,29 @@
       }
     },
     {
-      "tag": "🇨🇭 CH 15 - xiaohe",
+      "tag": "🇨🇭 CH 10 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "208.69.78.208",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "resources.yourultimateprofessionalcareerhub.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇭 CH 11 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "23.166.88.127",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇨🇭 CH 12 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "208.69.78.158",
@@ -223,7 +184,42 @@
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "208.69.78.158",
+        "server_name": "api.yourultimateprofessionalcareerhub.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇭 CH 13 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "208.69.78.19",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.yourultimateprofessionalcareerhub.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇭 CH 14 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "186.190.215.251",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇨🇭 CH 15 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "208.69.78.208",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "resources.yourultimateprofessionalcareerhub.com",
         "insecure": true
       }
     },
@@ -244,28 +240,6 @@
       "tag": "🇨🇭 CH 17 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "208.69.78.33",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "courses.yourultimateprofessionalcareerhub.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇨🇭 CH 18 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "79.127.184.104",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "tag": "🇨🇭 CH 19 - xiaohe",
-      "udp": true,
-      "type": "trojan",
       "server": "208.69.78.19",
       "port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
@@ -276,15 +250,41 @@
       }
     },
     {
-      "tag": "🇨🇭 CH 20 - xiaohe",
+      "tag": "🇨🇭 CH 18 - xiaohe",
       "udp": true,
       "type": "trojan",
-      "server": "208.69.78.158",
+      "server": "208.69.78.33",
       "port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "api.yourultimateprofessionalcareerhub.com",
+        "server_name": "courses.yourultimateprofessionalcareerhub.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇭 CH 19 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "208.69.78.60",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.yourultimateprofessionalcareerhub.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇨🇭 CH 20 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "208.69.78.33",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "courses.yourultimateprofessionalcareerhub.com",
         "insecure": true
       }
     },
