@@ -14,7 +14,8 @@
       "outbounds": [
         "🇿🇦 ZA 01 - xiaohe",
         "🇿🇦 ZA 02 - xiaohe",
-        "🇿🇦 ZA 03 - xiaohe"
+        "🇿🇦 ZA 03 - xiaohe",
+        "🇿🇦 ZA 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -38,6 +39,19 @@
     {
       "tag": "🇿🇦 ZA 02 - xiaohe",
       "udp": true,
+      "type": "trojan",
+      "server": "139.84.231.142",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "explorecareerpathsandunlockprofessionalsuccesstoday.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇿🇦 ZA 03 - xiaohe",
+      "udp": true,
       "type": "shadowsocks",
       "server": "102.37.156.224",
       "port": 443,
@@ -45,7 +59,7 @@
       "password": "aduB9HGxQHjA2SBMRjkHX6"
     },
     {
-      "tag": "🇿🇦 ZA 03 - xiaohe",
+      "tag": "🇿🇦 ZA 04 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "139.84.231.142",

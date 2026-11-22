@@ -14,11 +14,7 @@
       "outbounds": [
         "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 06 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 07 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -34,31 +30,31 @@
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "168.113.253.178",
+      "server": "147.45.175.81",
       "port": 443,
-      "uuid": "eb88bb1a-7bf0-0001-b9cd-4f97c89f0e9b",
+      "uuid": "c90395e6-2140-47ad-a54d-9b166729d3ef",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "uzndiuvzvqqljdyhzs.fcloudservices.site",
+        "server_name": "xsru2.freeddns.org",
         "insecure": true,
         "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/wsru",
+        "headers": {
+          "Host": "xsru2.freeddns.org"
+        }
       }
     },
     {
       "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "168.113.253.178",
-      "port": 443,
-      "uuid": "608172ed-68e4-0001-85dc-f92c25d0eb92",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "uzndiuvzvqqljdyhzs.fcloudservices.site",
-        "insecure": true,
-        "client_fingerprint": null
-      }
+      "type": "shadowsocks",
+      "server": "130.49.189.158",
+      "port": 43558,
+      "method": "chacha20-ietf-poly1305",
+      "password": "LNc9h/4NA9Q6ZHNeYHoT5X/fR9aoE9KQR1SWhVDHBog="
     },
     {
       "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
@@ -78,78 +74,6 @@
         "path": "/media/ws/",
         "headers": {
           "Host": "147.45.221.225"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "168.113.253.178",
-      "port": 443,
-      "uuid": "eb88bb1a-7bf0-0001-b9cd-4f97c89f0e9b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "uzndiuvzvqqljdyhzs.fcloudservices.site",
-        "insecure": true,
-        "client_fingerprint": null
-      }
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "168.113.253.178",
-      "port": 443,
-      "uuid": "d6d40100-9442-0001-b5b9-6d259318c421",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "uzndiuvzvqqljdyhzs.fcloudservices.site",
-        "insecure": true,
-        "client_fingerprint": null
-      }
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 06 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "31.177.111.136",
-      "port": 443,
-      "uuid": "ef5a57c7-84d5-4f86-b99c-875a16da485f",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "q075gi2cms.schoolbag.top",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/collector/runtime/channel/open",
-        "headers": {
-          "Host": "q075gi2cms.schoolbag.top"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 07 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "147.45.175.81",
-      "port": 443,
-      "uuid": "c90395e6-2140-47ad-a54d-9b166729d3ef",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "xsru2.freeddns.org",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/wsru",
-        "headers": {
-          "Host": "xsru2.freeddns.org"
         }
       }
     }

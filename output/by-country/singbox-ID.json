@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇦 UA 01 - xiaohe"
+        "🇮🇩 ID 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,13 +25,17 @@
       "tag": "block"
     },
     {
-      "tag": "🇺🇦 UA 01 - xiaohe",
+      "tag": "🇮🇩 ID 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "185.164.175.81",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+      "type": "trojan",
+      "server": "149.33.27.162",
+      "port": 443,
+      "password": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+      "tls": {
+        "enabled": true,
+        "server_name": "i1tr.mateflora.com",
+        "insecure": true
+      }
     }
   ]
 }

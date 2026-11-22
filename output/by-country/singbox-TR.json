@@ -12,7 +12,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇷 土耳其 (Turkey) 01 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -27,11 +28,44 @@
     {
       "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "tr.subscriptionservice.ir",
-      "port": 2089,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNkZQeDliajdnZWwwUEdadEdJWUlMRzFYaVhWblEzNw",
-      "password": ""
+      "type": "vless",
+      "server": "chatgpt.com",
+      "port": 443,
+      "uuid": "c2425034-91ef-44bf-9fd4-f2be9c1e989a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "sinavm3.soft10.ir",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/SiNAVM-SiNAVM-SiNAVM-SiNAVM",
+        "headers": {
+          "Host": "sinavm3.soft10.ir"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "104.18.32.47",
+      "port": 443,
+      "uuid": "c2425034-91ef-44bf-9fd4-f2be9c1e989a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "sinavm3.soft10.ir",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/SiNAVM-SiNAVM-SiNAVM-SiNAVM",
+        "headers": {
+          "Host": "sinavm3.soft10.ir"
+        }
+      }
     }
   ]
 }

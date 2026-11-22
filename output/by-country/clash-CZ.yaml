@@ -8,7 +8,7 @@ proxies:
   type: vless
   server: 136.148.83.69
   port: 443
-  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
+  uuid: 7dff1be7-b930-0001-a8ad-dc7850168215
   udp: true
   tls: true
   skip-cert-verify: true
@@ -23,62 +23,37 @@ proxies:
   skip-cert-verify: true
   servername: szqbx-ru-77dc.my-fade.cloud
 - name: 🇨🇿 CZ 03 - xiaohe
-  type: ss
-  server: 194.87.233.93
-  port: 46190
-  cipher: chacha20-ietf-poly1305
-  password: 2Ef8X21WALqK7H6N8A78j5WYtzZ999PP8rF8DaLsb5LLyDLQpf5dGVAjdA3mj1wudigKXTt5heYU9jmaBbfxXBJJAqhPHkxe
+  type: vless
+  server: 136.148.83.69
+  port: 443
+  uuid: 7dff1be7-b930-0001-a8ad-dc7850168215
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: szqbx-ru-77dc.my-fade.cloud
 - name: 🇨🇿 CZ 04 - xiaohe
   type: vless
-  server: 168.113.253.178
+  server: 136.148.83.69
   port: 443
-  uuid: d6d40100-9442-0001-b5b9-6d259318c421
+  uuid: 7dff1be7-b930-0001-a8ad-dc7850168215
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: uzndiuvzvqqljdyhzs.fcloudservices.site
+  servername: szqbx-ru-77dc.my-fade.cloud
 - name: 🇨🇿 CZ 05 - xiaohe
   type: vless
-  server: 168.113.252.11
+  server: 136.148.83.69
   port: 443
-  uuid: 8973e4a5-1c15-0001-abc7-60fb180063ea
+  uuid: 7dff1be7-b930-0001-a8ad-dc7850168215
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jkawq-ru-45sb.fade.mom
+  servername: szqbx-ru-77dc.my-fade.cloud
 - name: 🇨🇿 CZ 06 - xiaohe
   type: vless
   server: 136.148.83.69
   port: 443
-  uuid: 7dff1be7-b930-0001-a8ad-dc7850168215
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: szqbx-ru-77dc.my-fade.cloud
-- name: 🇨🇿 CZ 07 - xiaohe
-  type: vless
-  server: 136.148.83.69
-  port: 443
-  uuid: 7dff1be7-b930-0001-a8ad-dc7850168215
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: szqbx-ru-77dc.my-fade.cloud
-- name: 🇨🇿 CZ 08 - xiaohe
-  type: vless
-  server: 136.148.83.69
-  port: 443
-  uuid: 7dff1be7-b930-0001-a8ad-dc7850168215
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: szqbx-ru-77dc.my-fade.cloud
-- name: 🇨🇿 CZ 09 - xiaohe
-  type: vless
-  server: 136.148.83.69
-  port: 443
-  uuid: 7dff1be7-b930-0001-a8ad-dc7850168215
+  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
   udp: true
   tls: true
   skip-cert-verify: true
@@ -94,9 +69,6 @@ proxy-groups:
   - 🇨🇿 CZ 04 - xiaohe
   - 🇨🇿 CZ 05 - xiaohe
   - 🇨🇿 CZ 06 - xiaohe
-  - 🇨🇿 CZ 07 - xiaohe
-  - 🇨🇿 CZ 08 - xiaohe
-  - 🇨🇿 CZ 09 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -108,8 +80,5 @@ proxy-groups:
   - 🇨🇿 CZ 04 - xiaohe
   - 🇨🇿 CZ 05 - xiaohe
   - 🇨🇿 CZ 06 - xiaohe
-  - 🇨🇿 CZ 07 - xiaohe
-  - 🇨🇿 CZ 08 - xiaohe
-  - 🇨🇿 CZ 09 - xiaohe
 rules:
 - MATCH,PROXIES
