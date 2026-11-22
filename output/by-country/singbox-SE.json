@@ -14,11 +14,7 @@
       "outbounds": [
         "🇸🇪 SE 01 - xiaohe",
         "🇸🇪 SE 02 - xiaohe",
-        "🇸🇪 SE 03 - xiaohe",
-        "🇸🇪 SE 04 - xiaohe",
-        "🇸🇪 SE 05 - xiaohe",
-        "🇸🇪 SE 06 - xiaohe",
-        "🇸🇪 SE 07 - xiaohe"
+        "🇸🇪 SE 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -33,87 +29,20 @@
     {
       "tag": "🇸🇪 SE 01 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "sonau.yaremonta.loc.cc",
-      "port": 8080,
-      "uuid": "c5468915-f60c-4134-b4d3-eb24501d7c65",
-      "flow": "",
-      "ws": {
-        "path": "/vless",
-        "headers": {
-          "Host": "sonau.yaremonta.loc.cc"
-        }
+      "type": "vmess",
+      "server": "62.93.166.184",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true
       }
     },
     {
       "tag": "🇸🇪 SE 02 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "sonau.yaremonta.loc.cc",
-      "port": 8081,
-      "uuid": "c5468915-f60c-4134-b4d3-eb24501d7c65",
-      "alterId": 0,
-      "security": "auto",
-      "ws": {
-        "path": "/vmess",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇸🇪 SE 03 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "138.199.55.243",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "tag": "🇸🇪 SE 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "188.114.98.0",
-      "port": 443,
-      "uuid": "16f63796-3e98-5a7b-b016-540ce6e79007",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "se1.v2less.site",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/vless",
-        "headers": {
-          "Host": "se1.v2less.site"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇪 SE 05 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "77.232.143.142",
-      "port": 443,
-      "uuid": "58e22afd-bf74-4736-984d-63a8ca03d7f0",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "volumestyle.komediyatorg.net",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/media/ws/",
-        "headers": {
-          "Host": "77.232.143.142"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇪 SE 06 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "5.178.109.174",
@@ -128,19 +57,13 @@
       }
     },
     {
-      "tag": "🇸🇪 SE 07 - xiaohe",
+      "tag": "🇸🇪 SE 03 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "62.93.166.184",
-      "port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true
-      }
+      "type": "shadowsocks",
+      "server": "138.199.55.243",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     }
   ]
 }

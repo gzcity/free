@@ -6,75 +6,13 @@ log-level: info
 proxies:
 - name: 🇨🇭 CH 01 - xiaohe
   type: trojan
-  server: 208.69.78.19
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: www.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
-- name: 🇨🇭 CH 02 - xiaohe
-  type: trojan
-  server: 208.69.78.29
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: learn.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
-- name: 🇨🇭 CH 03 - xiaohe
-  type: trojan
   server: 208.69.78.208
   port: 443
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   udp: true
   sni: resources.yourultimateprofessionalcareerhub.com
   skip-cert-verify: true
-- name: 🇨🇭 CH 04 - xiaohe
-  type: trojan
-  server: 208.69.78.222
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
-- name: 🇨🇭 CH 05 - xiaohe
-  type: trojan
-  server: 208.69.78.29
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: learn.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
-- name: 🇨🇭 CH 06 - xiaohe
-  type: ss
-  server: 186.190.215.251
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇨🇭 CH 07 - xiaohe
-  type: ss
-  server: 79.127.184.104
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇨🇭 CH 08 - xiaohe
-  type: trojan
-  server: 208.69.78.19
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: www.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
-- name: 🇨🇭 CH 09 - xiaohe
-  type: trojan
-  server: 208.69.78.60
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: cdn.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
-- name: 🇨🇭 CH 10 - xiaohe
+- name: 🇨🇭 CH 02 - xiaohe
   type: trojan
   server: 208.69.78.33
   port: 443
@@ -82,22 +20,14 @@ proxies:
   udp: true
   sni: courses.yourultimateprofessionalcareerhub.com
   skip-cert-verify: true
-- name: 🇨🇭 CH 11 - xiaohe
-  type: trojan
-  server: 208.69.78.19
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: www.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
-- name: 🇨🇭 CH 12 - xiaohe
+- name: 🇨🇭 CH 03 - xiaohe
   type: ss
-  server: 208.69.78.133
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: ncIkubmoDGsl
+  server: 79.127.184.104
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇨🇭 CH 13 - xiaohe
+- name: 🇨🇭 CH 04 - xiaohe
   type: trojan
   server: 208.69.78.158
   port: 443
@@ -105,7 +35,44 @@ proxies:
   udp: true
   sni: api.yourultimateprofessionalcareerhub.com
   skip-cert-verify: true
-- name: 🇨🇭 CH 14 - xiaohe
+- name: 🇨🇭 CH 05 - xiaohe
+  type: ss
+  server: 186.190.215.251
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇨🇭 CH 06 - xiaohe
+  type: trojan
+  server: 208.69.78.19
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: www.yourultimateprofessionalcareerhub.com
+  skip-cert-verify: true
+- name: 🇨🇭 CH 07 - xiaohe
+  type: ss
+  server: 208.69.78.133
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: ncIkubmoDGsl
+  udp: true
+- name: 🇨🇭 CH 08 - xiaohe
+  type: trojan
+  server: 208.69.78.158
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: 208.69.78.158
+  skip-cert-verify: true
+- name: 🇨🇭 CH 09 - xiaohe
+  type: ss
+  server: 23.166.88.127
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇨🇭 CH 10 - xiaohe
   type: trojan
   server: 208.69.78.29
   port: 443
@@ -113,29 +80,14 @@ proxies:
   udp: true
   sni: learn.yourultimateprofessionalcareerhub.com
   skip-cert-verify: true
-- name: 🇨🇭 CH 15 - xiaohe
-  type: trojan
-  server: 208.69.78.60
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: cdn.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
-- name: 🇨🇭 CH 16 - xiaohe
-  type: ss
-  server: 23.166.88.127
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇨🇭 CH 17 - xiaohe
+- name: 🇨🇭 CH 11 - xiaohe
   type: ss
   server: leviko-ch7557.shopingggg.ir
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇨🇭 CH 18 - xiaohe
+- name: 🇨🇭 CH 12 - xiaohe
   type: trojan
   server: 208.69.78.208
   port: 443
@@ -143,13 +95,75 @@ proxies:
   udp: true
   sni: resources.yourultimateprofessionalcareerhub.com
   skip-cert-verify: true
-- name: 🇨🇭 CH 19 - xiaohe
+- name: 🇨🇭 CH 13 - xiaohe
   type: trojan
-  server: 208.69.78.158
+  server: 208.69.78.60
   port: 443
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   udp: true
-  sni: 208.69.78.158
+  sni: cdn.yourultimateprofessionalcareerhub.com
+  skip-cert-verify: true
+- name: 🇨🇭 CH 14 - xiaohe
+  type: trojan
+  server: 208.69.78.222
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: yourultimateprofessionalcareerhub.com
+  skip-cert-verify: true
+- name: 🇨🇭 CH 15 - xiaohe
+  type: trojan
+  server: 208.69.78.29
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: learn.yourultimateprofessionalcareerhub.com
+  skip-cert-verify: true
+- name: 🇨🇭 CH 16 - xiaohe
+  type: trojan
+  server: 208.69.78.29
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: learn.yourultimateprofessionalcareerhub.com
+  skip-cert-verify: true
+- name: 🇨🇭 CH 17 - xiaohe
+  type: trojan
+  server: 208.69.78.19
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: www.yourultimateprofessionalcareerhub.com
+  skip-cert-verify: true
+- name: 🇨🇭 CH 18 - xiaohe
+  type: trojan
+  server: 208.69.78.19
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: www.yourultimateprofessionalcareerhub.com
+  skip-cert-verify: true
+- name: 🇨🇭 CH 19 - xiaohe
+  type: vless
+  server: 87.120.222.199
+  port: 443
+  uuid: 3bbc98cb-46b1-4441-9d55-02a100000020
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cf-smart-354.pnihastam7021.workers.dev
+  network: ws
+  ws-opts:
+    path: /sync
+    headers:
+      Host: cf-smart-354.pnihastam7021.workers.dev
+- name: 🇨🇭 CH 20 - xiaohe
+  type: trojan
+  server: 208.69.78.60
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: cdn.yourultimateprofessionalcareerhub.com
   skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
@@ -175,6 +189,7 @@ proxy-groups:
   - 🇨🇭 CH 17 - xiaohe
   - 🇨🇭 CH 18 - xiaohe
   - 🇨🇭 CH 19 - xiaohe
+  - 🇨🇭 CH 20 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -199,5 +214,6 @@ proxy-groups:
   - 🇨🇭 CH 17 - xiaohe
   - 🇨🇭 CH 18 - xiaohe
   - 🇨🇭 CH 19 - xiaohe
+  - 🇨🇭 CH 20 - xiaohe
 rules:
 - MATCH,PROXIES

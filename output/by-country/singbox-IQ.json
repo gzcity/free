@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇻 LV 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,20 +25,20 @@
       "tag": "block"
     },
     {
-      "tag": "🇱🇻 LV 01 - xiaohe",
+      "tag": "🇮🇶 IQ 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "45.38.143.210",
-      "port": 30584,
-      "uuid": "cebc5f19-18d9-48e6-9029-fb4b04caf393",
+      "server": "5d0319t.nl7.h1clayd.click",
+      "port": 443,
+      "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "m.vk.com",
+        "server_name": "5d0319t.nl7.h1clayd.click",
         "insecure": true,
         "client_fingerprint": "chrome",
         "reality": true,
-        "public_key": "2hV4TY2ygvQ7ISa5o4u_FUKXzlIhLgbsScE8M1h0m3Y",
+        "public_key": "l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs",
         "short_id": ""
       }
     }
