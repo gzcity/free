@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇵🇱 PL 01 - xiaohe"
+        "🇹🇭 TH 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,21 +25,24 @@
       "tag": "block"
     },
     {
-      "tag": "🇵🇱 PL 01 - xiaohe",
+      "tag": "🇹🇭 TH 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "196.245.153.111",
+      "server": "45.133.73.167",
       "port": 443,
-      "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
+      "uuid": "0fc0ded7-32b3-4e36-a623-6e7670225247",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "76574ct.nl8.h1clayd.click",
+        "server_name": "zmxoo.de5.net",
         "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "9zW5lTDbs9svY-lzlPp-pq0j2Sr6g031SY0E-3xSHDc",
-        "short_id": ""
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/html/order/torrentfp=chrome",
+        "headers": {
+          "Host": "zmxoo.de5.net"
+        }
       }
     }
   ]

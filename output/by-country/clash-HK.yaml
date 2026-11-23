@@ -5,19 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - xiaohe
-  type: vless
-  server: 216.23.93.27
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  type: vmess
+  server: pdmv4.xiaoyan.io
+  port: 16632
+  uuid: 904f0569-8695-466f-97cf-0de2face1b46
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /
     headers:
-      Host: jp3.yohototo.top
+      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - xiaohe
   type: ss
   server: 213.176.92.148
@@ -27,17 +28,17 @@ proxies:
   udp: true
 - name: 🇭🇰 中国香港 (Hong Kong) 03 - xiaohe
   type: trojan
-  server: sclass-00.catcat321.com
-  port: 20123
-  password: d9064589-74af-432a-9390-5d8a9da281bf
+  server: 64.118.130.152
+  port: 443
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
   udp: true
-  sni: hk.catxstar.com
+  sni: nb1hk.hikigo.com
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaohe
   type: vmess
-  server: 47.244.120.197
-  port: 36703
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  server: pdmv4.xiaoyan.io
+  port: 16632
+  uuid: 904f0569-8695-466f-97cf-0de2face1b46
   alterId: 0
   cipher: auto
   udp: true
@@ -45,24 +46,17 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /arki
+    path: /
     headers:
-      Host: 47.244.120.197
+      Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com
 - name: 🇭🇰 中国香港 (Hong Kong) 05 - xiaohe
-  type: vmess
-  server: 47.244.120.197
-  port: 36703
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  alterId: 0
-  cipher: auto
+  type: trojan
+  server: nb1hk.hikigo.com
+  port: 443
+  password: 57beeeb0-03fc-4fc9-94da-7604488a7134
   udp: true
-  tls: false
+  sni: nb1hk.hikigo.com
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /arki?ed=2048
-    headers:
-      Host: ''
 - name: 🇭🇰 中国香港 (Hong Kong) 06 - xiaohe
   type: vmess
   server: 156.245.232.239

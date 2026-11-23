@@ -31,29 +31,20 @@
     {
       "tag": "🇸🇪 SE 01 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "62.93.166.184",
-      "port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": true
+      "type": "vless",
+      "server": "5.178.109.174",
+      "port": 14430,
+      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
+      "flow": "",
+      "ws": {
+        "path": "/vless",
+        "headers": {
+          "Host": "5.178.109.174"
+        }
       }
     },
     {
       "tag": "🇸🇪 SE 02 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "138.199.55.243",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "tag": "🇸🇪 SE 03 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "77.232.143.142",
@@ -71,6 +62,21 @@
         "headers": {
           "Host": "77.232.143.142"
         }
+      }
+    },
+    {
+      "tag": "🇸🇪 SE 03 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "62.93.166.184",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": true
       }
     },
     {
@@ -97,17 +103,11 @@
     {
       "tag": "🇸🇪 SE 05 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "5.178.109.174",
-      "port": 14430,
-      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
-      "flow": "",
-      "ws": {
-        "path": "/vless",
-        "headers": {
-          "Host": "5.178.109.174"
-        }
-      }
+      "type": "shadowsocks",
+      "server": "138.199.55.243",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     }
   ]
 }

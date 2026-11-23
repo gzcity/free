@@ -36,19 +36,6 @@
     {
       "tag": "🇰🇷 韩国 (South Korea) 01 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "158.247.253.243",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "connectgraduateswithjobopeningsandgrowprofessionally.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇰🇷 韩国 (South Korea) 02 - xiaohe",
-      "udp": true,
       "type": "vless",
       "server": "152.69.226.63",
       "port": 25555,
@@ -60,6 +47,16 @@
           "Host": "152.69.226.63"
         }
       }
+    },
+    {
+      "tag": "🇰🇷 韩国 (South Korea) 02 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "140.238.2.250",
+      "port": 443,
+      "uuid": "41a7089a-040b-4538-8b8d-010902405bde",
+      "alterId": 0,
+      "security": "auto"
     },
     {
       "tag": "🇰🇷 韩国 (South Korea) 03 - xiaohe",
@@ -94,17 +91,12 @@
     {
       "tag": "🇰🇷 韩国 (South Korea) 05 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "152.69.226.63",
-      "port": 25555,
-      "uuid": "27c5483f-17f4-48ae-9a04-def53d88440d",
-      "flow": "",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "152.69.226.63"
-        }
-      }
+      "type": "vmess",
+      "server": "140.238.2.250",
+      "port": 443,
+      "uuid": "41a7089a-040b-4538-8b8d-010902405bde",
+      "alterId": 0,
+      "security": "auto"
     },
     {
       "tag": "🇰🇷 韩国 (South Korea) 06 - xiaohe",
@@ -124,41 +116,20 @@
     {
       "tag": "🇰🇷 韩国 (South Korea) 07 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "158.247.253.243",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "connectgraduateswithjobopeningsandgrowprofessionally.com",
-        "insecure": true
+      "type": "vless",
+      "server": "152.69.226.63",
+      "port": 25555,
+      "uuid": "27c5483f-17f4-48ae-9a04-def53d88440d",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "152.69.226.63"
+        }
       }
     },
     {
       "tag": "🇰🇷 韩国 (South Korea) 08 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "158.247.253.243",
-      "port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "connectgraduateswithjobopeningsandgrowprofessionally.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇰🇷 韩国 (South Korea) 09 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "140.238.2.250",
-      "port": 443,
-      "uuid": "41a7089a-040b-4538-8b8d-010902405bde",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇰🇷 韩国 (South Korea) 10 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "152.69.226.63",
@@ -170,6 +141,40 @@
         "headers": {
           "Host": "152.69.226.63"
         }
+      }
+    },
+    {
+      "tag": "🇰🇷 韩国 (South Korea) 09 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "168.107.36.135",
+      "port": 443,
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "jp3.yohototo.top",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/tyxyws",
+        "headers": {
+          "Host": "jp3.yohototo.top"
+        }
+      }
+    },
+    {
+      "tag": "🇰🇷 韩国 (South Korea) 10 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "158.247.253.243",
+      "port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "connectgraduateswithjobopeningsandgrowprofessionally.com",
+        "insecure": true
       }
     }
   ]
