@@ -15,8 +15,7 @@
         "🇹🇼 中国台湾 (Taiwan) 01 - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 02 - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 03 - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 04 - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 05 - xiaohe"
+        "🇹🇼 中国台湾 (Taiwan) 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -31,22 +30,6 @@
     {
       "tag": "🇹🇼 中国台湾 (Taiwan) 01 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "162.19.192.89",
-      "port": 16616,
-      "uuid": "904f0569-8695-466f-97cf-0de2face1b46",
-      "alterId": 0,
-      "security": "auto",
-      "ws": {
-        "path": "/",
-        "headers": {
-          "Host": "f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com"
-        }
-      }
-    },
-    {
-      "tag": "🇹🇼 中国台湾 (Taiwan) 02 - xiaohe",
-      "udp": true,
       "type": "trojan",
       "server": "34.80.15.95",
       "port": 443,
@@ -58,7 +41,7 @@
       }
     },
     {
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 - xiaohe",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "60.248.219.78",
@@ -76,6 +59,19 @@
         "headers": {
           "Host": "ty986gfazs.cainiaohub.xyz"
         }
+      }
+    },
+    {
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "34.80.15.95",
+      "port": 443,
+      "password": "123456",
+      "tls": {
+        "enabled": true,
+        "server_name": "tw.ctt25.uk",
+        "insecure": true
       }
     },
     {
@@ -97,19 +93,6 @@
         "headers": {
           "Host": "tse1.mm.bing.net"
         }
-      }
-    },
-    {
-      "tag": "🇹🇼 中国台湾 (Taiwan) 05 - xiaohe",
-      "udp": true,
-      "type": "trojan",
-      "server": "34.80.15.95",
-      "port": 443,
-      "password": "123456",
-      "tls": {
-        "enabled": true,
-        "server_name": "tw.ctt25.uk",
-        "insecure": true
       }
     }
   ]

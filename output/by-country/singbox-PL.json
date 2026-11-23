@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇱 IL 01 - xiaohe"
+        "🇵🇱 PL 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,21 +25,24 @@
       "tag": "block"
     },
     {
-      "tag": "🇮🇱 IL 01 - xiaohe",
+      "tag": "🇵🇱 PL 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "196.245.153.111",
+      "server": "144.31.1.172",
       "port": 443,
-      "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
+      "uuid": "58e22afd-bf74-4736-984d-63a8ca03d7f0",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "76574ct.nl8.h1clayd.click",
+        "server_name": "harbortarget.newbuzideas.org",
         "insecure": true,
-        "client_fingerprint": "firefox",
-        "reality": true,
-        "public_key": "9zW5lTDbs9svY-lzlPp-pq0j2Sr6g031SY0E-3xSHDc",
-        "short_id": ""
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/media/ws/",
+        "headers": {
+          "Host": "144.31.1.172"
+        }
       }
     }
   ]

@@ -14,9 +14,7 @@
       "outbounds": [
         "🇸🇪 SE 01 - xiaohe",
         "🇸🇪 SE 02 - xiaohe",
-        "🇸🇪 SE 03 - xiaohe",
-        "🇸🇪 SE 04 - xiaohe",
-        "🇸🇪 SE 05 - xiaohe"
+        "🇸🇪 SE 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -31,42 +29,6 @@
     {
       "tag": "🇸🇪 SE 01 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "5.178.109.174",
-      "port": 14430,
-      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
-      "flow": "",
-      "ws": {
-        "path": "/vless",
-        "headers": {
-          "Host": "5.178.109.174"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇪 SE 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "77.232.143.142",
-      "port": 443,
-      "uuid": "58e22afd-bf74-4736-984d-63a8ca03d7f0",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "volumestyle.komediyatorg.net",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/media/ws/",
-        "headers": {
-          "Host": "77.232.143.142"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇪 SE 03 - xiaohe",
-      "udp": true,
       "type": "vmess",
       "server": "62.93.166.184",
       "port": 1270,
@@ -80,28 +42,22 @@
       }
     },
     {
-      "tag": "🇸🇪 SE 04 - xiaohe",
+      "tag": "🇸🇪 SE 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "77.232.143.142",
-      "port": 443,
-      "uuid": "58e22afd-bf74-4736-984d-63a8ca03d7f0",
+      "server": "5.178.109.174",
+      "port": 14430,
+      "uuid": "80de563a-cac8-40ea-8cb0-4cb082dd92f9",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "volumestyle.komediyatorg.net",
-        "insecure": true,
-        "client_fingerprint": null
-      },
       "ws": {
-        "path": "/media/ws/",
+        "path": "/vless",
         "headers": {
-          "Host": "77.232.143.142"
+          "Host": "5.178.109.174"
         }
       }
     },
     {
-      "tag": "🇸🇪 SE 05 - xiaohe",
+      "tag": "🇸🇪 SE 03 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "138.199.55.243",

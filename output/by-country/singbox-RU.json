@@ -29,11 +29,23 @@
     {
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "130.49.189.158",
-      "port": 43558,
-      "method": "chacha20-ietf-poly1305",
-      "password": "LNc9h/4NA9Q6ZHNeYHoT5X/fR9aoE9KQR1SWhVDHBog="
+      "type": "vless",
+      "server": "parchment.merlano.monster",
+      "port": 443,
+      "uuid": "0b6a7fe0-206b-4071-9f96-cd397d1ec01a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "parchment.merlano.monster",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/api/de7/stream",
+        "headers": {
+          "Host": "parchment.merlano.monster"
+        }
+      }
     },
     {
       "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
@@ -50,7 +62,7 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/wsru",
+        "path": "wsru",
         "headers": {
           "Host": "xsru2.freeddns.org"
         }
@@ -60,10 +72,10 @@
       "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "46.17.42.129",
-      "port": 18443,
-      "method": "aes-256-gcm",
-      "password": "NTiHBg64fsY8u8DbGrtypD9gPGSL386p"
+      "server": "130.49.189.158",
+      "port": 43558,
+      "method": "chacha20-ietf-poly1305",
+      "password": "LNc9h/4NA9Q6ZHNeYHoT5X/fR9aoE9KQR1SWhVDHBog="
     }
   ]
 }

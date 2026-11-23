@@ -34,7 +34,7 @@
       "type": "vless",
       "server": "136.148.83.69",
       "port": 443,
-      "uuid": "666821a2-5c3d-0001-a56f-5a3a562d7324",
+      "uuid": "7dff1be7-b930-0001-a8ad-dc7850168215",
       "flow": "",
       "tls": {
         "enabled": true,
@@ -46,11 +46,17 @@
     {
       "tag": "🇨🇿 CZ 02 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "194.87.233.93",
-      "port": 46190,
-      "method": "chacha20-ietf-poly1305",
-      "password": "2Ef8X21WALqK7H6N8A78j5WYtzZ999PP8rF8DaLsb5LLyDLQpf5dGVAjdA3mj1wudigKXTt5heYU9jmaBbfxXBJJAqhPHkxe"
+      "type": "vless",
+      "server": "136.148.83.69",
+      "port": 443,
+      "uuid": "7dff1be7-b930-0001-a8ad-dc7850168215",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "szqbx-ru-77dc.my-fade.cloud",
+        "insecure": true,
+        "client_fingerprint": null
+      }
     },
     {
       "tag": "🇨🇿 CZ 03 - xiaohe",
@@ -88,7 +94,7 @@
       "type": "vless",
       "server": "136.148.83.69",
       "port": 443,
-      "uuid": "7dff1be7-b930-0001-a8ad-dc7850168215",
+      "uuid": "666821a2-5c3d-0001-a56f-5a3a562d7324",
       "flow": "",
       "tls": {
         "enabled": true,
