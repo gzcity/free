@@ -14,7 +14,8 @@
       "outbounds": [
         "🇻🇳 VN 01 - xiaohe",
         "🇻🇳 VN 02 - xiaohe",
-        "🇻🇳 VN 03 - xiaohe"
+        "🇻🇳 VN 03 - xiaohe",
+        "🇻🇳 VN 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -60,6 +61,19 @@
       "port": 2086,
       "uuid": "b83faafc-cbb7-4655-99d4-2c4c39a49d1b",
       "flow": ""
+    },
+    {
+      "tag": "🇻🇳 VN 04 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "43.255.157.222",
+      "port": 443,
+      "password": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+      "tls": {
+        "enabled": true,
+        "server_name": "xvxn1hkzf.mateflora.com",
+        "insecure": true
+      }
     }
   ]
 }

@@ -20,8 +20,7 @@
         "🇦🇹 AT 06 - xiaohe",
         "🇦🇹 AT 07 - xiaohe",
         "🇦🇹 AT 08 - xiaohe",
-        "🇦🇹 AT 09 - xiaohe",
-        "🇦🇹 AT 10 - xiaohe"
+        "🇦🇹 AT 09 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -36,6 +35,45 @@
     {
       "tag": "🇦🇹 AT 01 - xiaohe",
       "udp": true,
+      "type": "vmess",
+      "server": "154.47.19.225",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "154.47.19.225",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇦🇹 AT 02 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "154.47.19.225",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "154.47.19.225",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇦🇹 AT 03 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "82.110.60.9",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇦🇹 AT 04 - xiaohe",
+      "udp": true,
       "type": "shadowsocks",
       "server": "152.53.1.57",
       "port": 8388,
@@ -43,55 +81,7 @@
       "password": "AdawffFMHymlasRb0VOP3HFf7sTG5sJx"
     },
     {
-      "tag": "🇦🇹 AT 02 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "82.110.60.9",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "tag": "🇦🇹 AT 03 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "leviko-at3530.shopingggg.ir",
-      "port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇦🇹 AT 04 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "leviko-at3530.shopingggg.ir",
-      "port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true
-      }
-    },
-    {
       "tag": "🇦🇹 AT 05 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "82.110.60.9",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "tag": "🇦🇹 AT 06 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "154.47.19.225",
@@ -101,24 +91,33 @@
       "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "154.47.19.225",
+        "server_name": "",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇦🇹 AT 06 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "leviko-at3530.shopingggg.ir",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
         "insecure": true
       }
     },
     {
       "tag": "🇦🇹 AT 07 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "154.47.19.225",
-      "port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "154.47.19.225",
-        "insecure": true
-      }
+      "type": "shadowsocks",
+      "server": "82.110.60.9",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "tag": "🇦🇹 AT 08 - xiaohe",
@@ -139,29 +138,14 @@
       "tag": "🇦🇹 AT 09 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "154.47.19.225",
+      "server": "leviko-at3530.shopingggg.ir",
       "port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
       "alterId": 0,
       "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "154.47.19.225",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇦🇹 AT 10 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "154.47.19.225",
-      "port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
+        "server_name": "",
         "insecure": true
       }
     }
