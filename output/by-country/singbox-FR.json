@@ -30,7 +30,12 @@
         "🇫🇷 法国 (France) 16 - xiaohe",
         "🇫🇷 法国 (France) 17 - xiaohe",
         "🇫🇷 法国 (France) 18 - xiaohe",
-        "🇫🇷 法国 (France) 19 - xiaohe"
+        "🇫🇷 法国 (France) 19 - xiaohe",
+        "🇫🇷 法国 (France) 20 - xiaohe",
+        "🇫🇷 法国 (France) 21 - xiaohe",
+        "🇫🇷 法国 (France) 22 - xiaohe",
+        "🇫🇷 法国 (France) 23 - xiaohe",
+        "🇫🇷 法国 (France) 24 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -46,8 +51,8 @@
       "tag": "🇫🇷 法国 (France) 01 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "172.99.189.239",
-      "port": 1270,
+      "server": "162.19.204.71",
+      "port": 1234,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
       "alterId": 0,
       "security": "auto",
@@ -75,6 +80,84 @@
     {
       "tag": "🇫🇷 法国 (France) 03 - xiaohe",
       "udp": true,
+      "type": "shadowsocks",
+      "server": "38.109.228.110",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "188.114.99.137",
+      "port": 80,
+      "uuid": "c762af05-2e92-4133-bc30-8cf45dd40a28",
+      "flow": "",
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "suh.cryptofront.uk"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 05 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "172.99.189.142",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 06 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "46.105.222.153",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "46.105.222.153",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 07 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "23.162.152.127",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 08 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "46.105.222.157",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "46.105.222.157",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 09 - xiaohe",
+      "udp": true,
       "type": "vless",
       "server": "ov-france1.09vpn.com",
       "port": 80,
@@ -88,37 +171,37 @@
       }
     },
     {
-      "tag": "🇫🇷 法国 (France) 04 - xiaohe",
+      "tag": "🇫🇷 法国 (France) 10 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "54.36.102.152",
-      "port": 2083,
-      "uuid": "51a6ab93-e805-4b8b-89d1-d3ab85a118ce",
+      "server": "88.151.197.87",
+      "port": 2025,
+      "uuid": "1697852e-cd5c-472d-b377-0def0f301d98",
       "flow": "",
       "ws": {
-        "path": "/vless-kulo",
+        "path": "/",
         "headers": {
-          "Host": "54.36.102.152"
+          "Host": ""
         }
       }
     },
     {
-      "tag": "🇫🇷 法国 (France) 05 - xiaohe",
+      "tag": "🇫🇷 法国 (France) 11 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "162.19.204.71",
-      "port": 1234,
+      "server": "46.105.222.156",
+      "port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
       "alterId": 0,
       "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "",
+        "server_name": "46.105.222.156",
         "insecure": true
       }
     },
     {
-      "tag": "🇫🇷 法国 (France) 06 - xiaohe",
+      "tag": "🇫🇷 法国 (France) 12 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "138.124.70.41",
@@ -133,31 +216,7 @@
       }
     },
     {
-      "tag": "🇫🇷 法国 (France) 07 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "38.109.228.110",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 08 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "141.95.65.9",
-      "port": 1234,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 09 - xiaohe",
+      "tag": "🇫🇷 法国 (France) 13 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "162.19.204.71",
@@ -172,7 +231,7 @@
       }
     },
     {
-      "tag": "🇫🇷 法国 (France) 10 - xiaohe",
+      "tag": "🇫🇷 法国 (France) 14 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "141.95.65.9",
@@ -187,10 +246,10 @@
       }
     },
     {
-      "tag": "🇫🇷 法国 (France) 11 - xiaohe",
+      "tag": "🇫🇷 法国 (France) 15 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "141.95.65.9",
+      "server": "162.19.204.71",
       "port": 1234,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
       "alterId": 0,
@@ -202,7 +261,7 @@
       }
     },
     {
-      "tag": "🇫🇷 法国 (France) 12 - xiaohe",
+      "tag": "🇫🇷 法国 (France) 16 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "167.17.64.27",
@@ -211,25 +270,31 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "🇫🇷 法国 (France) 13 - xiaohe",
+      "tag": "🇫🇷 法国 (France) 17 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "162.19.82.57",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "162.19.82.57",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 18 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "167.17.64.175",
+      "server": "23.162.152.22",
       "port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "🇫🇷 法国 (France) 14 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "172.99.189.142",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 15 - xiaohe",
+      "tag": "🇫🇷 法国 (France) 19 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
       "server": "167.17.64.22",
@@ -238,37 +303,16 @@
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "🇫🇷 法国 (France) 16 - xiaohe",
+      "tag": "🇫🇷 法国 (France) 20 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "162.19.204.71",
-      "port": 1234,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true
-      }
+      "type": "shadowsocks",
+      "server": "167.17.64.175",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "tag": "🇫🇷 法国 (France) 17 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "54.36.102.152",
-      "port": 2083,
-      "uuid": "51a6ab93-e805-4b8b-89d1-d3ab85a118ce",
-      "flow": "",
-      "ws": {
-        "path": "/vless-kulo",
-        "headers": {
-          "Host": "54.36.102.152"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 18 - xiaohe",
+      "tag": "🇫🇷 法国 (France) 21 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "145.239.55.210",
@@ -284,13 +328,49 @@
       }
     },
     {
-      "tag": "🇫🇷 法国 (France) 19 - xiaohe",
+      "tag": "🇫🇷 法国 (France) 22 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "23.162.152.22",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+      "type": "vmess",
+      "server": "141.95.65.9",
+      "port": 1234,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 23 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "141.95.65.9",
+      "port": 1234,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 24 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "46.105.222.155",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "46.105.222.155",
+        "insecure": true
+      }
     }
   ]
 }
