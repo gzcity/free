@@ -15,7 +15,9 @@
         "🇻🇳 VN 01 - xiaohe",
         "🇻🇳 VN 02 - xiaohe",
         "🇻🇳 VN 03 - xiaohe",
-        "🇻🇳 VN 04 - xiaohe"
+        "🇻🇳 VN 04 - xiaohe",
+        "🇻🇳 VN 05 - xiaohe",
+        "🇻🇳 VN 06 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -30,15 +32,11 @@
     {
       "tag": "🇻🇳 VN 01 - xiaohe",
       "udp": true,
-      "type": "trojan",
-      "server": "43.255.157.222",
-      "port": 443,
-      "password": "57beeeb0-03fc-4fc9-94da-7604488a7134",
-      "tls": {
-        "enabled": true,
-        "server_name": "xvxn1hkzf.mateflora.com",
-        "insecure": true
-      }
+      "type": "vless",
+      "server": "150.95.109.109",
+      "port": 2086,
+      "uuid": "b83faafc-cbb7-4655-99d4-2c4c39a49d1b",
+      "flow": ""
     },
     {
       "tag": "🇻🇳 VN 02 - xiaohe",
@@ -56,14 +54,44 @@
     {
       "tag": "🇻🇳 VN 03 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "150.95.109.109",
-      "port": 2086,
-      "uuid": "b83faafc-cbb7-4655-99d4-2c4c39a49d1b",
-      "flow": ""
+      "type": "trojan",
+      "server": "43.255.157.222",
+      "port": 443,
+      "password": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+      "tls": {
+        "enabled": true,
+        "server_name": "xvxn1hkzf.mateflora.com",
+        "insecure": true
+      }
     },
     {
       "tag": "🇻🇳 VN 04 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "43.255.157.222",
+      "port": 443,
+      "password": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+      "tls": {
+        "enabled": true,
+        "server_name": "xvxn1hkzf.mateflora.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇻🇳 VN 05 - xiaohe",
+      "udp": true,
+      "type": "trojan",
+      "server": "43.255.157.222",
+      "port": 443,
+      "password": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+      "tls": {
+        "enabled": true,
+        "server_name": "xvxn1hkzf.mateflora.com",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇻🇳 VN 06 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "43.255.157.222",

@@ -28,17 +28,17 @@
       "tag": "🇮🇱 IL 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "153.52.85.198",
-      "port": 443,
-      "uuid": "26843758-24de-4f76-b5d0-624038e353c4",
+      "server": "179.254.126.86",
+      "port": 25135,
+      "uuid": "e89a2a0e-7803-447e-b050-3ba67962ed95",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "15d7fft.nl11.h1clayd.click",
+        "server_name": "s-25452.nl18.h1clayd.click",
         "insecure": true,
-        "client_fingerprint": "chrome",
+        "client_fingerprint": "firefox",
         "reality": true,
-        "public_key": "xv6OUZcyzEHXFMTfumuJH-1Rd4NQ0cdmWikek4mm0m4",
+        "public_key": "zJI16_ywLd4clshY0IQQPxQ_YBbIq2b0XTO_dnTJOy4",
         "short_id": ""
       }
     }

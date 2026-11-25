@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 04 - xiaohe",
+        "🇹🇷 土耳其 (Turkey) 05 - xiaohe"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    },
+    {
+      "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "45.74.158.105",
+      "port": 443,
+      "uuid": "58e22afd-bf74-4736-984d-63a8ca03d7f0",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "accessfooter.cleanfoodshop.org",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/media/ws/",
+        "headers": {
+          "Host": "accessfooter.cleanfoodshop.org"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 土耳其 (Turkey) 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.64.155.209",
+      "port": 443,
+      "uuid": "14eccb4f-ca88-4732-b191-d8daacf63448",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "sinavm3.soft10.ir",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/SiNAVM-SiNAVM-SiNAVM-SiNAVM",
+        "headers": {
+          "Host": "sinavm3.soft10.ir"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 土耳其 (Turkey) 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "172.64.155.209",
+      "port": 443,
+      "uuid": "14eccb4f-ca88-4732-b191-d8daacf63448",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "sinavm3.soft10.ir",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/SiNAVM-SiNAVM-SiNAVM-SiNAVM",
+        "headers": {
+          "Host": "sinavm3.soft10.ir"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 土耳其 (Turkey) 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "143.246.136.128",
+      "port": 50738,
+      "uuid": "56665684-5ac0-4ba9-9d49-8b258fb57974",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "turkey-ip1.mmdaqaorg.xyz",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇹🇷 土耳其 (Turkey) 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "188.114.98.0",
+      "port": 443,
+      "uuid": "14eccb4f-ca88-4732-b191-d8daacf63448",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "sinavm3.soft10.ir",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/SiNAVM-SiNAVM-SiNAVM-SiNAVM",
+        "headers": {
+          "Host": "sinavm3.soft10.ir"
+        }
+      }
+    }
+  ]
+}

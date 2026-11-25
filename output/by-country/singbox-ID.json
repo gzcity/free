@@ -12,7 +12,8 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇩 ID 01 - xiaohe"
+        "🇮🇩 ID 01 - xiaohe",
+        "🇮🇩 ID 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -26,6 +27,27 @@
     },
     {
       "tag": "🇮🇩 ID 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "kozel.cc.cd",
+      "port": 443,
+      "uuid": "3b01a777-55e7-49f6-8637-d94ee69607c6",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "kozel.cc.cd",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/118.151.222.66=17317fp=chrome",
+        "headers": {
+          "Host": "kozel.cc.cd"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇩 ID 02 - xiaohe",
       "udp": true,
       "type": "trojan",
       "server": "i1tr.mateflora.com",

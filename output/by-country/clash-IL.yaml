@@ -6,16 +6,16 @@ log-level: info
 proxies:
 - name: 🇮🇱 IL 01 - xiaohe
   type: vless
-  server: 153.52.85.198
-  port: 443
-  uuid: 26843758-24de-4f76-b5d0-624038e353c4
+  server: 179.254.126.86
+  port: 25135
+  uuid: e89a2a0e-7803-447e-b050-3ba67962ed95
   udp: true
   tls: true
   skip-cert-verify: true
   reality-opts:
-    public-key: xv6OUZcyzEHXFMTfumuJH-1Rd4NQ0cdmWikek4mm0m4
-  servername: 15d7fft.nl11.h1clayd.click
-  client-fingerprint: chrome
+    public-key: zJI16_ywLd4clshY0IQQPxQ_YBbIq2b0XTO_dnTJOy4
+  servername: s-25452.nl18.h1clayd.click
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select

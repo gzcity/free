@@ -14,7 +14,9 @@
       "outbounds": [
         "🇨🇿 CZ 01 - xiaohe",
         "🇨🇿 CZ 02 - xiaohe",
-        "🇨🇿 CZ 03 - xiaohe"
+        "🇨🇿 CZ 03 - xiaohe",
+        "🇨🇿 CZ 04 - xiaohe",
+        "🇨🇿 CZ 05 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -30,13 +32,13 @@
       "tag": "🇨🇿 CZ 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "136.148.83.69",
+      "server": "136.148.83.70",
       "port": 443,
-      "uuid": "7dff1be7-b930-0001-a8ad-dc7850168215",
+      "uuid": "00000000-0000-0001-0000-000000000000",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "szqbx-ru-77dc.my-fade.cloud",
+        "server_name": "aszbk-ru-78dc.my-fade.cloud",
         "insecure": true,
         "client_fingerprint": null
       }
@@ -69,6 +71,42 @@
         "server_name": "szqbx-ru-77dc.my-fade.cloud",
         "insecure": true,
         "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇨🇿 CZ 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "136.148.83.69",
+      "port": 443,
+      "uuid": "7dff1be7-b930-0001-a8ad-dc7850168215",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "szqbx-ru-77dc.my-fade.cloud",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇨🇿 CZ 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "193.124.56.100",
+      "port": 443,
+      "uuid": "0b6a7fe0-206b-4071-9f96-cd397d1ec01a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "parchment.merlano.monster",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/api/de7/stream",
+        "headers": {
+          "Host": "parchment.merlano.monster"
+        }
       }
     }
   ]
