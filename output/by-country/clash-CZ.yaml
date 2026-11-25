@@ -6,13 +6,13 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - xiaohe
   type: vless
-  server: 136.148.83.70
+  server: 136.148.83.69
   port: 443
-  uuid: 00000000-0000-0001-0000-000000000000
+  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: aszbk-ru-78dc.my-fade.cloud
+  servername: szqbx-ru-77dc.my-fade.cloud
 - name: 🇨🇿 CZ 02 - xiaohe
   type: vless
   server: 136.148.83.70
@@ -24,13 +24,13 @@ proxies:
   servername: aszbk-ru-78dc.my-fade.cloud
 - name: 🇨🇿 CZ 03 - xiaohe
   type: vless
-  server: 136.148.83.69
+  server: 136.148.83.70
   port: 443
-  uuid: 666821a2-5c3d-0001-a56f-5a3a562d7324
+  uuid: 00000000-0000-0001-0000-000000000000
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: szqbx-ru-77dc.my-fade.cloud
+  servername: aszbk-ru-78dc.my-fade.cloud
 - name: 🇨🇿 CZ 04 - xiaohe
   type: vless
   server: 136.148.83.69
@@ -42,18 +42,13 @@ proxies:
   servername: szqbx-ru-77dc.my-fade.cloud
 - name: 🇨🇿 CZ 05 - xiaohe
   type: vless
-  server: 193.124.56.100
+  server: 136.148.83.70
   port: 443
-  uuid: 0b6a7fe0-206b-4071-9f96-cd397d1ec01a
+  uuid: 00000000-0000-0001-0000-000000000000
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: parchment.merlano.monster
-  network: ws
-  ws-opts:
-    path: /api/de7/stream
-    headers:
-      Host: parchment.merlano.monster
+  servername: aszbk-ru-78dc.my-fade.cloud
 proxy-groups:
 - name: PROXIES
   type: select

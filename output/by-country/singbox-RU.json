@@ -13,8 +13,7 @@
       "tag": "auto",
       "outbounds": [
         "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -29,51 +28,42 @@
     {
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "130.49.189.158",
-      "port": 43558,
-      "method": "chacha20-ietf-poly1305",
-      "password": "LNc9h/4NA9Q6ZHNeYHoT5X/fR9aoE9KQR1SWhVDHBog="
+      "type": "vless",
+      "server": "woodgrain.filnex.baby",
+      "port": 443,
+      "uuid": "83706ae4-be2f-4b2b-8079-c3eb4e0b2e3e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "larchbank.elvano.website",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/api/de2/stream",
+        "headers": {
+          "Host": "woodgrain.filnex.baby"
+        }
+      }
     },
     {
       "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "147.45.175.81",
+      "server": "72.56.238.135",
       "port": 443,
-      "uuid": "c90395e6-2140-47ad-a54d-9b166729d3ef",
+      "uuid": "0b6a7fe0-206b-4071-9f96-cd397d1ec01a",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "xsru2.freeddns.org",
+        "server_name": "inlay.merlano.monster",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/wsru",
+        "path": "/api/de3/stream",
         "headers": {
-          "Host": "xsru2.freeddns.org"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "147.45.221.225",
-      "port": 443,
-      "uuid": "58e22afd-bf74-4736-984d-63a8ca03d7f0",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "nl.lucheeebezlimitnoekino.stream",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/media/ws/",
-        "headers": {
-          "Host": "147.45.221.225"
+          "Host": "72.56.238.135"
         }
       }
     }

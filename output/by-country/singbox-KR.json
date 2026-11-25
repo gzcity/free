@@ -18,8 +18,7 @@
         "🇰🇷 韩国 (South Korea) 04 - xiaohe",
         "🇰🇷 韩国 (South Korea) 05 - xiaohe",
         "🇰🇷 韩国 (South Korea) 06 - xiaohe",
-        "🇰🇷 韩国 (South Korea) 07 - xiaohe",
-        "🇰🇷 韩国 (South Korea) 08 - xiaohe"
+        "🇰🇷 韩国 (South Korea) 07 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -105,27 +104,6 @@
       "tag": "🇰🇷 韩国 (South Korea) 06 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "131.186.22.95",
-      "port": 8443,
-      "uuid": "b69cf773-da16-486e-afce-a45b94f998b3",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "senflarelink-node-il65vh.pages.dev",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/flow=",
-        "headers": {
-          "Host": "senflarelink-node-il65vh.pages.dev"
-        }
-      }
-    },
-    {
-      "tag": "🇰🇷 韩国 (South Korea) 07 - xiaohe",
-      "udp": true,
-      "type": "vless",
       "server": "152.69.226.63",
       "port": 25555,
       "uuid": "27c5483f-17f4-48ae-9a04-def53d88440d",
@@ -138,7 +116,7 @@
       }
     },
     {
-      "tag": "🇰🇷 韩国 (South Korea) 08 - xiaohe",
+      "tag": "🇰🇷 韩国 (South Korea) 07 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "152.69.226.63",

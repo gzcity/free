@@ -33,7 +33,9 @@
         "🇫🇷 法国 (France) 19 - xiaohe",
         "🇫🇷 法国 (France) 20 - xiaohe",
         "🇫🇷 法国 (France) 21 - xiaohe",
-        "🇫🇷 法国 (France) 22 - xiaohe"
+        "🇫🇷 法国 (France) 22 - xiaohe",
+        "🇫🇷 法国 (France) 23 - xiaohe",
+        "🇫🇷 法国 (France) 24 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -48,35 +50,50 @@
     {
       "tag": "🇫🇷 法国 (France) 01 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "162.19.204.71",
-      "port": 1234,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "alterId": 0,
-      "security": "auto",
+      "type": "vless",
+      "server": "213.183.45.23",
+      "port": 8454,
+      "uuid": "eb62cabf-5901-403a-aa0c-b1d9ed1b346d",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "",
-        "insecure": true
+        "server_name": "store.plumstatic.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/ws",
+        "headers": {
+          "Host": "213.183.45.23"
+        }
       }
     },
     {
       "tag": "🇫🇷 法国 (France) 02 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "46.105.222.153",
-      "port": 1270,
+      "server": "141.95.65.9",
+      "port": 1234,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
       "alterId": 0,
       "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "46.105.222.153",
+        "server_name": "",
         "insecure": true
       }
     },
     {
       "tag": "🇫🇷 法国 (France) 03 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "167.17.64.175",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 04 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "141.95.65.9",
@@ -91,20 +108,11 @@
       }
     },
     {
-      "tag": "🇫🇷 法国 (France) 04 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "167.17.64.27",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
       "tag": "🇫🇷 法国 (France) 05 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "141.95.65.9",
-      "port": 1234,
+      "server": "23.162.152.127",
+      "port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
       "alterId": 0,
       "security": "auto",
@@ -118,205 +126,19 @@
       "tag": "🇫🇷 法国 (France) 06 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "79.137.99.183",
-      "port": 1270,
+      "server": "162.19.204.71",
+      "port": 1234,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
       "alterId": 0,
       "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "None",
+        "server_name": "",
         "insecure": true
       }
     },
     {
       "tag": "🇫🇷 法国 (France) 07 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "46.105.222.157",
-      "port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 08 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "38.109.228.110",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 09 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "91.134.35.72",
-      "port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "91.134.35.72",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 10 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "23.162.152.22",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 11 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "167.17.64.22",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 12 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "162.19.204.71",
-      "port": 1234,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 13 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "172.99.189.239",
-      "port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 14 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "46.105.222.156",
-      "port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "46.105.222.156",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 15 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "141.95.65.9",
-      "port": 1234,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 16 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "172.99.189.142",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 17 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "162.19.204.71",
-      "port": 1234,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "alterId": 0,
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 18 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "81.49.182.202",
-      "port": 443,
-      "uuid": "58e22afd-bf74-4736-984d-63a8ca03d7f0",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "accessfooter.cleanfoodshop.org",
-        "insecure": true,
-        "client_fingerprint": null
-      },
-      "ws": {
-        "path": "/media/ws/",
-        "headers": {
-          "Host": "accessfooter.cleanfoodshop.org"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 19 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "167.17.64.175",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 20 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "54.36.102.152",
-      "port": 2083,
-      "uuid": "51a6ab93-e805-4b8b-89d1-d3ab85a118ce",
-      "flow": "",
-      "ws": {
-        "path": "/vless-kulo",
-        "headers": {
-          "Host": "54.36.102.152"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 法国 (France) 21 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "138.124.70.41",
@@ -331,10 +153,193 @@
       }
     },
     {
-      "tag": "🇫🇷 法国 (France) 22 - xiaohe",
+      "tag": "🇫🇷 法国 (France) 08 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "23.162.152.127",
+      "server": "46.105.222.155",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "46.105.222.155",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 09 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "162.19.204.71",
+      "port": 1234,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 10 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "213.183.45.23",
+      "port": 8454,
+      "uuid": "eb62cabf-5901-403a-aa0c-b1d9ed1b346d",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "store.plumstatic.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/ws",
+        "headers": {
+          "Host": "213.183.45.23"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 11 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "91.134.35.72",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "91.134.35.72",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 12 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "ov-france1.09vpn.com",
+      "port": 80,
+      "uuid": "25f86cb1-2140-4085-abcb-c3a0ea7a4be0",
+      "flow": "",
+      "ws": {
+        "path": "/vless/",
+        "headers": {
+          "Host": "ov-france1.09vpn.com"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 13 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "141.95.65.9",
+      "port": 1234,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 14 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "167.17.64.27",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 15 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "162.19.82.57",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "162.19.82.57",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 16 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "23.162.152.22",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 17 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "172.99.189.142",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 18 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "46.105.222.156",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "46.105.222.156",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 19 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "46.105.222.153",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "46.105.222.153",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 20 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "162.19.204.71",
+      "port": 1234,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 21 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "172.99.189.239",
       "port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
       "alterId": 0,
@@ -344,6 +349,39 @@
         "server_name": "",
         "insecure": true
       }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 22 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "167.17.64.22",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 23 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "46.105.222.157",
+      "port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "alterId": 0,
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "46.105.222.157",
+        "insecure": true
+      }
+    },
+    {
+      "tag": "🇫🇷 法国 (France) 24 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "38.109.228.110",
+      "port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     }
   ]
 }
