@@ -13,8 +13,7 @@
       "tag": "auto",
       "outbounds": [
         "🇰🇿 KZ 01 - xiaohe",
-        "🇰🇿 KZ 02 - xiaohe",
-        "🇰🇿 KZ 03 - xiaohe"
+        "🇰🇿 KZ 02 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -29,16 +28,21 @@
     {
       "tag": "🇰🇿 KZ 01 - xiaohe",
       "udp": true,
-      "type": "vmess",
+      "type": "vless",
       "server": "38.107.234.57",
-      "port": 80,
-      "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
-      "alterId": 0,
-      "security": "auto",
+      "port": 8443,
+      "uuid": "2424febb-43cb-488d-bdd1-401e923c8e48",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "3h-kazakhstan1.09vpn.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
       "ws": {
-        "path": "/vmess/",
+        "path": "/vless/",
         "headers": {
-          "Host": ""
+          "Host": "38.107.234.57"
         }
       }
     },
@@ -60,22 +64,6 @@
         "path": "/vless/",
         "headers": {
           "Host": "38.107.234.57"
-        }
-      }
-    },
-    {
-      "tag": "🇰🇿 KZ 03 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "38.107.234.57",
-      "port": 80,
-      "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
-      "alterId": 0,
-      "security": "auto",
-      "ws": {
-        "path": "/vmess/",
-        "headers": {
-          "Host": ""
         }
       }
     }

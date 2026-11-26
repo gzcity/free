@@ -15,7 +15,8 @@
         "🇮🇳 印度 (India) 01 - xiaohe",
         "🇮🇳 印度 (India) 02 - xiaohe",
         "🇮🇳 印度 (India) 03 - xiaohe",
-        "🇮🇳 印度 (India) 04 - xiaohe"
+        "🇮🇳 印度 (India) 04 - xiaohe",
+        "🇮🇳 印度 (India) 05 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -49,6 +50,24 @@
       "tag": "🇮🇳 印度 (India) 02 - xiaohe",
       "udp": true,
       "type": "vless",
+      "server": "178.212.35.198",
+      "port": 443,
+      "uuid": "6bdc8320-7eae-46fc-be08-f5f54e65dfc8",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇮🇳 印度 (India) 03 - xiaohe",
+      "udp": true,
+      "type": "vless",
       "server": "13.140.56.100",
       "port": 14430,
       "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
@@ -61,7 +80,22 @@
       }
     },
     {
-      "tag": "🇮🇳 印度 (India) 03 - xiaohe",
+      "tag": "🇮🇳 印度 (India) 04 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "13.140.56.100",
+      "port": 14430,
+      "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
+      "flow": "",
+      "ws": {
+        "path": "/vless",
+        "headers": {
+          "Host": "13.140.56.100"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇳 印度 (India) 05 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "in.smrtai.top",
@@ -73,24 +107,6 @@
         "server_name": "www.cloudflare.com",
         "insecure": true,
         "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇮🇳 印度 (India) 04 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "178.212.35.198",
-      "port": 443,
-      "uuid": "6bdc8320-7eae-46fc-be08-f5f54e65dfc8",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "client_fingerprint": "firefox",
         "reality": true,
         "public_key": "3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q",
         "short_id": ""

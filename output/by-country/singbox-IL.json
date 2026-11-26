@@ -12,8 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇱 IL 01 - xiaohe",
-        "🇮🇱 IL 02 - xiaohe"
+        "🇮🇱 IL 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -29,7 +28,7 @@
       "tag": "🇮🇱 IL 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "71b840t.de7.h1clayd.click",
+      "server": "195.206.235.72",
       "port": 443,
       "uuid": "26843758-24de-4f76-b5d0-624038e353c4",
       "flow": "",
@@ -40,24 +39,6 @@
         "client_fingerprint": "chrome",
         "reality": true,
         "public_key": "3wFF83gtIA0sXj-6GGCAa--oQbSr0MVUj0FBc-0QmiE",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇮🇱 IL 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "79.182.70.192",
-      "port": 443,
-      "uuid": "26843758-24de-4f76-b5d0-624038e353c4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "15d7fft.nl11.h1clayd.click",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "xv6OUZcyzEHXFMTfumuJH-1Rd4NQ0cdmWikek4mm0m4",
         "short_id": ""
       }
     }
