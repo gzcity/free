@@ -13,7 +13,9 @@
       "tag": "auto",
       "outbounds": [
         "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
+        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -29,20 +31,20 @@
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "woodgrain.filnex.baby",
+      "server": "147.45.221.225",
       "port": 443,
-      "uuid": "83706ae4-be2f-4b2b-8079-c3eb4e0b2e3e",
+      "uuid": "58e22afd-bf74-4736-984d-63a8ca03d7f0",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "larchbank.elvano.website",
+        "server_name": "nl.lucheeebezlimitnoekino.stream",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/api/de2/stream",
+        "path": "/media/ws/",
         "headers": {
-          "Host": "woodgrain.filnex.baby"
+          "Host": "147.45.221.225"
         }
       }
     },
@@ -50,22 +52,40 @@
       "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "72.56.238.135",
+      "server": "147.45.221.225",
       "port": 443,
-      "uuid": "0b6a7fe0-206b-4071-9f96-cd397d1ec01a",
+      "uuid": "58e22afd-bf74-4736-984d-63a8ca03d7f0",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "inlay.merlano.monster",
+        "server_name": "nl.lucheeebezlimitnoekino.stream",
         "insecure": true,
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/api/de3/stream",
+        "path": "/media/ws/",
         "headers": {
-          "Host": "72.56.238.135"
+          "Host": "147.45.221.225"
         }
       }
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "194.87.69.12",
+      "port": 18443,
+      "method": "aes-256-gcm",
+      "password": "5mKjXAGrliIAlYwWDeFzkCEMIgQdFQLe"
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "130.49.189.158",
+      "port": 43558,
+      "method": "chacha20-ietf-poly1305",
+      "password": "LNc9h/4NA9Q6ZHNeYHoT5X/fR9aoE9KQR1SWhVDHBog="
     }
   ]
 }
