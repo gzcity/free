@@ -14,7 +14,9 @@
       "outbounds": [
         "🇰🇿 KZ 01 - xiaohe",
         "🇰🇿 KZ 02 - xiaohe",
-        "🇰🇿 KZ 03 - xiaohe"
+        "🇰🇿 KZ 03 - xiaohe",
+        "🇰🇿 KZ 04 - xiaohe",
+        "🇰🇿 KZ 05 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -71,6 +73,38 @@
     {
       "tag": "🇰🇿 KZ 03 - xiaohe",
       "udp": true,
+      "type": "vmess",
+      "server": "38.107.234.57",
+      "port": 80,
+      "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
+      "alterId": 0,
+      "security": "auto",
+      "ws": {
+        "path": "/vmess/",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇰🇿 KZ 04 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "38.107.234.57",
+      "port": 80,
+      "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
+      "alterId": 0,
+      "security": "auto",
+      "ws": {
+        "path": "/vmess/",
+        "headers": {
+          "Host": "38.107.234.57"
+        }
+      }
+    },
+    {
+      "tag": "🇰🇿 KZ 05 - xiaohe",
+      "udp": true,
       "type": "vless",
       "server": "38.107.234.57",
       "port": 8443,
@@ -83,7 +117,7 @@
         "client_fingerprint": null
       },
       "ws": {
-        "path": "/vless/",
+        "path": "/vless/?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM",
         "headers": {
           "Host": "38.107.234.57"
         }
