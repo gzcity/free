@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇦 UA 01 - xiaohe"
+        "🇻🇳 VN 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,13 +25,13 @@
       "tag": "block"
     },
     {
-      "tag": "🇺🇦 UA 01 - xiaohe",
+      "tag": "🇻🇳 VN 01 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "185.164.175.81",
-      "port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+      "type": "vless",
+      "server": "150.95.109.109",
+      "port": 2086,
+      "uuid": "b83faafc-cbb7-4655-99d4-2c4c39a49d1b",
+      "flow": ""
     }
   ]
 }

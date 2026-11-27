@@ -13,7 +13,8 @@
       "tag": "auto",
       "outbounds": [
         "🇰🇿 KZ 01 - xiaohe",
-        "🇰🇿 KZ 02 - xiaohe"
+        "🇰🇿 KZ 02 - xiaohe",
+        "🇰🇿 KZ 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -27,6 +28,27 @@
     },
     {
       "tag": "🇰🇿 KZ 01 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "3h-kazakhstan1.09vpn.com",
+      "port": 8443,
+      "uuid": "2424febb-43cb-488d-bdd1-401e923c8e48",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "3h-kazakhstan1.09vpn.com",
+        "insecure": true,
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/vless/?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM",
+        "headers": {
+          "Host": "3h-kazakhstan1.09vpn.com"
+        }
+      }
+    },
+    {
+      "tag": "🇰🇿 KZ 02 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "38.107.234.57",
@@ -47,7 +69,7 @@
       }
     },
     {
-      "tag": "🇰🇿 KZ 02 - xiaohe",
+      "tag": "🇰🇿 KZ 03 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "38.107.234.57",
