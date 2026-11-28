@@ -14,9 +14,7 @@
       "outbounds": [
         "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 05 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -30,42 +28,6 @@
     },
     {
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "194.87.69.12",
-      "port": 18443,
-      "method": "aes-256-gcm",
-      "password": "5mKjXAGrliIAlYwWDeFzkCEMIgQdFQLe"
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-      "udp": true,
-      "type": "vless",
-      "server": "79.182.70.232",
-      "port": 443,
-      "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "5d0319t.nl7.h1clayd.click",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs",
-        "short_id": ""
-      }
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "130.49.189.158",
-      "port": 43558,
-      "method": "chacha20-ietf-poly1305",
-      "password": "LNc9h/4NA9Q6ZHNeYHoT5X/fR9aoE9KQR1SWhVDHBog="
-    },
-    {
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "147.45.175.81",
@@ -86,13 +48,22 @@
       }
     },
     {
-      "tag": "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "185.22.152.168",
+      "server": "130.49.189.158",
+      "port": 43558,
+      "method": "chacha20-ietf-poly1305",
+      "password": "LNc9h/4NA9Q6ZHNeYHoT5X/fR9aoE9KQR1SWhVDHBog="
+    },
+    {
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "194.87.69.12",
       "port": 18443,
       "method": "aes-256-gcm",
-      "password": "NTiHBg64fsY8u8DbGrtypD9gPGSL386p"
+      "password": "5mKjXAGrliIAlYwWDeFzkCEMIgQdFQLe"
     }
   ]
 }

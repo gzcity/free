@@ -39,19 +39,19 @@
       "tag": "🇿🇦 ZA 02 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "102.133.165.160",
-      "port": 16233,
+      "server": "102.37.111.8",
+      "port": 443,
       "method": "chacha20-ietf-poly1305",
-      "password": "Xsy8Ox4yOV3xLlpxtjzs3X"
+      "password": "NqhvI3CfwbpcHA1H"
     },
     {
       "tag": "🇿🇦 ZA 03 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "102.37.97.69",
-      "port": 443,
+      "server": "102.133.165.160",
+      "port": 16233,
       "method": "chacha20-ietf-poly1305",
-      "password": "dx5z2bzpn0tTpYzv"
+      "password": "Xsy8Ox4yOV3xLlpxtjzs3X"
     }
   ]
 }

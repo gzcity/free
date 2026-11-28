@@ -16,7 +16,14 @@
         "🇮🇳 印度 (India) 02 - xiaohe",
         "🇮🇳 印度 (India) 03 - xiaohe",
         "🇮🇳 印度 (India) 04 - xiaohe",
-        "🇮🇳 印度 (India) 05 - xiaohe"
+        "🇮🇳 印度 (India) 05 - xiaohe",
+        "🇮🇳 印度 (India) 06 - xiaohe",
+        "🇮🇳 印度 (India) 07 - xiaohe",
+        "🇮🇳 印度 (India) 08 - xiaohe",
+        "🇮🇳 印度 (India) 09 - xiaohe",
+        "🇮🇳 印度 (India) 10 - xiaohe",
+        "🇮🇳 印度 (India) 11 - xiaohe",
+        "🇮🇳 印度 (India) 12 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -32,36 +39,42 @@
       "tag": "🇮🇳 印度 (India) 01 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "in.smrtai.top",
+      "server": "43.174.195.1",
       "port": 443,
-      "uuid": "6bdc8320-7eae-46fc-be08-f5f54e65dfc8",
+      "uuid": "24916ad0-847d-4522-9e17-f4347dee57fd",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
+        "server_name": "kv.074167.xyz",
         "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q",
-        "short_id": ""
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "kv.074167.xyz"
+        }
       }
     },
     {
       "tag": "🇮🇳 印度 (India) 02 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "in.smrtai.top",
-      "port": 443,
-      "uuid": "6bdc8320-7eae-46fc-be08-f5f54e65dfc8",
+      "server": "147.93.171.8",
+      "port": 8443,
+      "uuid": "591e7de6-f2dd-4ff9-ae21-8e00d5affa2a",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
+        "server_name": "147-93-171-8.sslip.io",
         "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q",
-        "short_id": ""
+        "client_fingerprint": null
+      },
+      "ws": {
+        "path": "/vpn-live",
+        "headers": {
+          "Host": "147-93-171-8.sslip.io"
+        }
       }
     },
     {
@@ -86,6 +99,69 @@
       "tag": "🇮🇳 印度 (India) 04 - xiaohe",
       "udp": true,
       "type": "vless",
+      "server": "13.140.56.100",
+      "port": 14430,
+      "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
+      "flow": "",
+      "ws": {
+        "path": "/vless",
+        "headers": {
+          "Host": "13.140.56.100"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇳 印度 (India) 05 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "13.140.56.100",
+      "port": 14430,
+      "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
+      "flow": "",
+      "ws": {
+        "path": "/vless",
+        "headers": {
+          "Host": "13.140.56.100"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇳 印度 (India) 06 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "178.212.35.198",
+      "port": 443,
+      "uuid": "6bdc8320-7eae-46fc-be08-f5f54e65dfc8",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "client_fingerprint": "firefox",
+        "reality": true,
+        "public_key": "3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q",
+        "short_id": ""
+      }
+    },
+    {
+      "tag": "🇮🇳 印度 (India) 07 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "13.140.56.100",
+      "port": 14430,
+      "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
+      "flow": "",
+      "ws": {
+        "path": "/vless",
+        "headers": {
+          "Host": "13.140.56.100"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇳 印度 (India) 08 - xiaohe",
+      "udp": true,
+      "type": "vless",
       "server": "in.smrtai.top",
       "port": 443,
       "uuid": "6bdc8320-7eae-46fc-be08-f5f54e65dfc8",
@@ -101,10 +177,40 @@
       }
     },
     {
-      "tag": "🇮🇳 印度 (India) 05 - xiaohe",
+      "tag": "🇮🇳 印度 (India) 09 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "178.212.35.198",
+      "server": "13.140.56.100",
+      "port": 14430,
+      "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
+      "flow": "",
+      "ws": {
+        "path": "/vless",
+        "headers": {
+          "Host": "13.140.56.100"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇳 印度 (India) 10 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "13.140.56.100",
+      "port": 14430,
+      "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
+      "flow": "",
+      "ws": {
+        "path": "/vless",
+        "headers": {
+          "Host": "13.140.56.100"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇳 印度 (India) 11 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "in.smrtai.top",
       "port": 443,
       "uuid": "6bdc8320-7eae-46fc-be08-f5f54e65dfc8",
       "flow": "",
@@ -112,10 +218,25 @@
         "enabled": true,
         "server_name": "www.cloudflare.com",
         "insecure": true,
-        "client_fingerprint": "firefox",
+        "client_fingerprint": "chrome",
         "reality": true,
         "public_key": "3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q",
         "short_id": ""
+      }
+    },
+    {
+      "tag": "🇮🇳 印度 (India) 12 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "13.140.56.100",
+      "port": 14430,
+      "uuid": "68512eac-cd53-4de3-8d1e-08f6e04af1a9",
+      "flow": "",
+      "ws": {
+        "path": "/vless",
+        "headers": {
+          "Host": "13.140.56.100"
+        }
       }
     }
   ]

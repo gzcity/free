@@ -19,7 +19,8 @@
         "🇰🇷 韩国 (South Korea) 05 - xiaohe",
         "🇰🇷 韩国 (South Korea) 06 - xiaohe",
         "🇰🇷 韩国 (South Korea) 07 - xiaohe",
-        "🇰🇷 韩国 (South Korea) 08 - xiaohe"
+        "🇰🇷 韩国 (South Korea) 08 - xiaohe",
+        "🇰🇷 韩国 (South Korea) 09 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -79,6 +80,15 @@
     {
       "tag": "🇰🇷 韩国 (South Korea) 04 - xiaohe",
       "udp": true,
+      "type": "shadowsocks",
+      "server": "211.233.33.228",
+      "port": 8388,
+      "method": "aes-256-gcm",
+      "password": "qpowi_vip_tunnel_2026_secure"
+    },
+    {
+      "tag": "🇰🇷 韩国 (South Korea) 05 - xiaohe",
+      "udp": true,
       "type": "vless",
       "server": "152.69.226.63",
       "port": 25555,
@@ -92,32 +102,17 @@
       }
     },
     {
-      "tag": "🇰🇷 韩国 (South Korea) 05 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "211.233.33.228",
-      "port": 8388,
-      "method": "aes-256-gcm",
-      "password": "qpowi_vip_tunnel_2026_secure"
-    },
-    {
       "tag": "🇰🇷 韩国 (South Korea) 06 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "104.25.128.15",
-      "port": 443,
-      "uuid": "db906786-8c49-4b17-9182-cea680ef954d",
+      "server": "152.69.226.63",
+      "port": 25555,
+      "uuid": "27c5483f-17f4-48ae-9a04-def53d88440d",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "krc.80782636.xyz",
-        "insecure": true,
-        "client_fingerprint": null
-      },
       "ws": {
-        "path": "/kw7x2mq9",
+        "path": "/",
         "headers": {
-          "Host": "krc.80782636.xyz"
+          "Host": "152.69.226.63"
         }
       }
     },
@@ -135,19 +130,26 @@
       "tag": "🇰🇷 韩国 (South Korea) 08 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "130.94.30.242",
-      "port": 443,
-      "uuid": "ed94398f-893f-40c6-b14c-bf02b5f6be16",
+      "server": "152.69.226.63",
+      "port": 25555,
+      "uuid": "27c5483f-17f4-48ae-9a04-def53d88440d",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "navi.bankrate.com",
-        "insecure": true,
-        "client_fingerprint": "chrome",
-        "reality": true,
-        "public_key": "UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc",
-        "short_id": ""
+      "ws": {
+        "path": "/",
+        "headers": {
+          "Host": "152.69.226.63"
+        }
       }
+    },
+    {
+      "tag": "🇰🇷 韩国 (South Korea) 09 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "140.238.2.250",
+      "port": 443,
+      "uuid": "41a7089a-040b-4538-8b8d-010902405bde",
+      "alterId": 0,
+      "security": "auto"
     }
   ]
 }

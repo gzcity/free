@@ -13,7 +13,8 @@
       "tag": "auto",
       "outbounds": [
         "🇨🇿 CZ 01 - xiaohe",
-        "🇨🇿 CZ 02 - xiaohe"
+        "🇨🇿 CZ 02 - xiaohe",
+        "🇨🇿 CZ 03 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -42,6 +43,21 @@
     },
     {
       "tag": "🇨🇿 CZ 02 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "136.148.83.70",
+      "port": 443,
+      "uuid": "00000000-0000-0001-0000-000000000000",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "aszbk-ru-78dc.my-fade.cloud",
+        "insecure": true,
+        "client_fingerprint": null
+      }
+    },
+    {
+      "tag": "🇨🇿 CZ 03 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "136.148.83.69",

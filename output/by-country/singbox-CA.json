@@ -57,7 +57,9 @@
         "🇨🇦 加拿大 (Canada) 43 - xiaohe",
         "🇨🇦 加拿大 (Canada) 44 - xiaohe",
         "🇨🇦 加拿大 (Canada) 45 - xiaohe",
-        "🇨🇦 加拿大 (Canada) 46 - xiaohe"
+        "🇨🇦 加拿大 (Canada) 46 - xiaohe",
+        "🇨🇦 加拿大 (Canada) 47 - xiaohe",
+        "🇨🇦 加拿大 (Canada) 48 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -81,32 +83,21 @@
     {
       "tag": "🇨🇦 加拿大 (Canada) 02 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "66.163.113.9",
+      "type": "shadowsocks",
+      "server": "149.22.95.183",
       "port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "kuruish.org",
-        "insecure": true,
-        "client_fingerprint": null
-      }
+      "method": "aes-128-gcm",
+      "password": "shadowsocks"
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 03 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "66.163.113.9",
-      "port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "kuruish.org",
-        "insecure": true,
-        "client_fingerprint": null
-      }
+      "type": "vmess",
+      "server": "23.162.200.198",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 04 - xiaohe",
@@ -132,7 +123,7 @@
       "tag": "🇨🇦 加拿大 (Canada) 06 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "23.162.200.198",
+      "server": "134.195.196.211",
       "port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "alterId": 0,
@@ -142,7 +133,7 @@
       "tag": "🇨🇦 加拿大 (Canada) 07 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "23.162.200.198",
+      "server": "134.195.196.211",
       "port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "alterId": 0,
@@ -152,7 +143,7 @@
       "tag": "🇨🇦 加拿大 (Canada) 08 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "23.162.200.198",
+      "server": "134.195.196.211",
       "port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "alterId": 0,
@@ -161,12 +152,11 @@
     {
       "tag": "🇨🇦 加拿大 (Canada) 09 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "134.195.196.211",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
+      "type": "shadowsocks",
+      "server": "51.222.141.125",
+      "port": 445,
+      "method": "aes-256-gcm",
+      "password": "zDNVedRFPQexG9v"
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 10 - xiaohe",
@@ -202,7 +192,7 @@
       "tag": "🇨🇦 加拿大 (Canada) 13 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "134.195.196.211",
+      "server": "23.162.200.198",
       "port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "alterId": 0,
@@ -212,7 +202,7 @@
       "tag": "🇨🇦 加拿大 (Canada) 14 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "23.162.200.198",
+      "server": "134.195.196.211",
       "port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "alterId": 0,
@@ -220,6 +210,25 @@
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 15 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "51.222.12.127",
+      "port": 445,
+      "method": "aes-256-gcm",
+      "password": "zDNVedRFPQexG9v"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 16 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "23.162.200.198",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 17 - xiaohe",
       "udp": true,
       "type": "vmess",
       "server": "134.195.196.211",
@@ -229,10 +238,20 @@
       "security": "auto"
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 16 - xiaohe",
+      "tag": "🇨🇦 加拿大 (Canada) 18 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "134.195.196.211",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 19 - xiaohe",
       "udp": true,
       "type": "vless",
-      "server": "kuruish.org",
+      "server": "66.163.113.9",
       "port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
       "flow": "",
@@ -242,35 +261,6 @@
         "insecure": true,
         "client_fingerprint": null
       }
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 17 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "23.162.200.198",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 18 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "51.222.141.125",
-      "port": 445,
-      "method": "aes-256-gcm",
-      "password": "zDNVedRFPQexG9v"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 19 - xiaohe",
-      "udp": true,
-      "type": "vmess",
-      "server": "134.195.196.211",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 20 - xiaohe",
@@ -296,22 +286,33 @@
       "tag": "🇨🇦 加拿大 (Canada) 22 - xiaohe",
       "udp": true,
       "type": "shadowsocks",
-      "server": "184.107.106.77",
-      "port": 8388,
+      "server": "51.222.12.127",
+      "port": 445,
       "method": "aes-256-gcm",
-      "password": "itzvpn@321"
+      "password": "zDNVedRFPQexG9v"
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 23 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "149.22.95.183",
-      "port": 443,
-      "method": "aes-128-gcm",
-      "password": "shadowsocks"
+      "type": "vmess",
+      "server": "23.162.200.198",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 24 - xiaohe",
+      "udp": true,
+      "type": "vmess",
+      "server": "23.162.200.198",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 25 - xiaohe",
       "udp": true,
       "type": "vless",
       "server": "148.113.196.75",
@@ -332,15 +333,6 @@
       }
     },
     {
-      "tag": "🇨🇦 加拿大 (Canada) 25 - xiaohe",
-      "udp": true,
-      "type": "shadowsocks",
-      "server": "51.222.12.127",
-      "port": 445,
-      "method": "aes-256-gcm",
-      "password": "zDNVedRFPQexG9v"
-    },
-    {
       "tag": "🇨🇦 加拿大 (Canada) 26 - xiaohe",
       "udp": true,
       "type": "vmess",
@@ -354,7 +346,7 @@
       "tag": "🇨🇦 加拿大 (Canada) 27 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "23.162.200.198",
+      "server": "134.195.196.211",
       "port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "alterId": 0,
@@ -363,12 +355,11 @@
     {
       "tag": "🇨🇦 加拿大 (Canada) 28 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "134.195.196.211",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
+      "type": "shadowsocks",
+      "server": "51.79.85.185",
+      "port": 8118,
+      "method": "aes-256-gcm",
+      "password": "cdBIDV42DCwnfIN"
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 29 - xiaohe",
@@ -403,17 +394,18 @@
     {
       "tag": "🇨🇦 加拿大 (Canada) 32 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "51.222.12.127",
-      "port": 445,
-      "method": "aes-256-gcm",
-      "password": "zDNVedRFPQexG9v"
+      "type": "vmess",
+      "server": "23.162.200.198",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 33 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "23.162.200.198",
+      "server": "134.195.196.211",
       "port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "alterId": 0,
@@ -423,7 +415,7 @@
       "tag": "🇨🇦 加拿大 (Canada) 34 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "134.195.196.211",
+      "server": "23.162.200.198",
       "port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "alterId": 0,
@@ -442,27 +434,27 @@
     {
       "tag": "🇨🇦 加拿大 (Canada) 36 - xiaohe",
       "udp": true,
-      "type": "shadowsocks",
-      "server": "192.99.151.230",
-      "port": 8388,
-      "method": "aes-256-gcm",
-      "password": "itzvpn@321"
-    },
-    {
-      "tag": "🇨🇦 加拿大 (Canada) 37 - xiaohe",
-      "udp": true,
       "type": "vmess",
-      "server": "134.195.196.211",
+      "server": "23.162.200.198",
       "port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "alterId": 0,
       "security": "auto"
     },
     {
+      "tag": "🇨🇦 加拿大 (Canada) 37 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "51.222.200.165",
+      "port": 5000,
+      "method": "aes-256-gcm",
+      "password": "Y6R9pAtvxxzmGC"
+    },
+    {
       "tag": "🇨🇦 加拿大 (Canada) 38 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "23.162.200.198",
+      "server": "134.195.196.211",
       "port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "alterId": 0,
@@ -472,7 +464,7 @@
       "tag": "🇨🇦 加拿大 (Canada) 39 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "134.195.196.211",
+      "server": "23.162.200.198",
       "port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "alterId": 0,
@@ -492,7 +484,7 @@
       "tag": "🇨🇦 加拿大 (Canada) 41 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "134.195.196.211",
+      "server": "23.162.200.198",
       "port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "alterId": 0,
@@ -502,7 +494,7 @@
       "tag": "🇨🇦 加拿大 (Canada) 42 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "134.195.196.211",
+      "server": "23.162.200.198",
       "port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "alterId": 0,
@@ -511,27 +503,21 @@
     {
       "tag": "🇨🇦 加拿大 (Canada) 43 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "23.162.200.198",
-      "port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "alterId": 0,
-      "security": "auto"
+      "type": "shadowsocks",
+      "server": "51.79.49.116",
+      "port": 8882,
+      "method": "aes-256-gcm",
+      "password": "kDWvXYZoTBcGkC4"
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 44 - xiaohe",
       "udp": true,
-      "type": "vless",
-      "server": "66.163.113.9",
-      "port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "kuruish.org",
-        "insecure": true,
-        "client_fingerprint": null
-      }
+      "type": "vmess",
+      "server": "134.195.196.211",
+      "port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "alterId": 0,
+      "security": "auto"
     },
     {
       "tag": "🇨🇦 加拿大 (Canada) 45 - xiaohe",
@@ -547,11 +533,35 @@
       "tag": "🇨🇦 加拿大 (Canada) 46 - xiaohe",
       "udp": true,
       "type": "vmess",
-      "server": "134.195.196.211",
+      "server": "23.162.200.198",
       "port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "alterId": 0,
       "security": "auto"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 47 - xiaohe",
+      "udp": true,
+      "type": "shadowsocks",
+      "server": "184.107.106.77",
+      "port": 8388,
+      "method": "aes-256-gcm",
+      "password": "itzvpn@321"
+    },
+    {
+      "tag": "🇨🇦 加拿大 (Canada) 48 - xiaohe",
+      "udp": true,
+      "type": "vless",
+      "server": "66.163.113.9",
+      "port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "kuruish.org",
+        "insecure": true,
+        "client_fingerprint": null
+      }
     }
   ]
 }

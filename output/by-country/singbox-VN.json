@@ -12,7 +12,7 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇭 TH 01 - xiaohe"
+        "🇻🇳 VN 01 - xiaohe"
       ],
       "url": "https://www.google.com/generate_204"
     },
@@ -25,14 +25,13 @@
       "tag": "block"
     },
     {
-      "tag": "🇹🇭 TH 01 - xiaohe",
+      "tag": "🇻🇳 VN 01 - xiaohe",
       "udp": true,
-      "type": "vmess",
-      "server": "119.46.51.45",
-      "port": 37515,
-      "uuid": "9b76bc31-17a5-4454-934a-8d5fb602cd70",
-      "alterId": 0,
-      "security": "auto"
+      "type": "vless",
+      "server": "150.95.109.109",
+      "port": 2086,
+      "uuid": "b83faafc-cbb7-4655-99d4-2c4c39a49d1b",
+      "flow": ""
     }
   ]
 }
